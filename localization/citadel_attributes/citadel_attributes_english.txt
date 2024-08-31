@@ -5,7 +5,7 @@
 	{
 
 		//-----------------------------------------------------------------------------
-		// Unit states (that we want to show)
+		// Unit states (that we want to show) 
 		//-----------------------------------------------------------------------------
 
 		"MODIFIER_STATE_ROOTED"								"Immobilized"
@@ -16,7 +16,7 @@
 		"MODIFIER_STATE_TECH_INVULNERABLE"					"Spirit Invulnerable"
 		"MODIFIER_STATE_BURNING"							"Burning"
 
-		// Commenting this out so it doesn't show overhead of the player your applied it to .test
+		// Commenting this out so it doesn't show overhead of the player your applied it to
 		//"MODIFIER_STATE_SLOWED"								"Slowed"
 
 		"MODIFIER_STATE_BULLET_SHIELD_WEAKENED"				"Weakened Bullet Shield"
