@@ -1,0 +1,33 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vrfunknown:version{c1f07085-5299-4e8a-b7e9-1cbb66bbbe23} -->
+{
+	m_Includes = 
+	[
+		"scripts/talker/generated_response_rules_hero_inferno.vrr",
+		"scripts/talker/generated_response_rules_hero_gigawatt.vrr",
+		"scripts/talker/generated_response_rules_hero_hornet.vrr",
+		"scripts/talker/generated_response_rules_hero_ghost.vrr",
+		"scripts/talker/generated_response_rules_hero_atlas.vrr",
+		"scripts/talker/generated_response_rules_hero_wraith.vrr",
+		"scripts/talker/generated_response_rules_hero_forge.vrr",
+		"scripts/talker/generated_response_rules_hero_chrono.vrr",
+		"scripts/talker/generated_response_rules_hero_dynamo.vrr",
+		"scripts/talker/generated_response_rules_hero_kelvin.vrr",
+		"scripts/talker/generated_response_rules_hero_haze.vrr",
+		"scripts/talker/generated_response_rules_hero_astro.vrr",
+		"scripts/talker/generated_response_rules_hero_bebop.vrr",
+		"scripts/talker/generated_response_rules_hero_nano.vrr",
+		"scripts/talker/generated_response_rules_hero_orion.vrr",
+		"scripts/talker/generated_response_rules_hero_krill.vrr",
+		"scripts/talker/generated_response_rules_hero_shiv.vrr",
+		"scripts/talker/generated_response_rules_hero_tengu.vrr",
+		"scripts/talker/generated_response_rules_hero_warden.vrr",
+		"scripts/talker/generated_response_rules_hero_yamato.vrr",
+		"scripts/talker/generated_response_rules_hero_lash.vrr",
+		"scripts/talker/generated_response_rules_hero_viscous.vrr",
+		"scripts/talker/generated_response_rules_hero_tokamak.vrr",
+		"scripts/talker/generated_response_rules_hero_wrecker.vrr",
+		"scripts/talker/generated_response_rules_hero_synth.vrr",
+		"scripts/talker/generated_response_rules_hero_mirage.vrr",
+	]
+	m_speakerType = "player"
+}

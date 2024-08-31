@@ -1,0 +1,1452 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vrfunknown:version{c1f07085-5299-4e8a-b7e9-1cbb66bbbe23} -->
+{
+	m_Requirements = 
+	[
+		
+		{
+			m_name = "ConceptAnnounceBeginRegen"
+			m_notes = "concepts"
+			m_matchKey = "Concept"
+			m_matchExpr = "TLK_CITADEL_ANN_BEGIN_REGEN"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "ConceptAnnounceMidbossSpawn"
+			m_notes = "concepts"
+			m_matchKey = "Concept"
+			m_matchExpr = "TLK_CITADEL_ANN_MIDBOSS_SPAWN"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "ConceptAnnounceMidbossKilled"
+			m_notes = "concepts"
+			m_matchKey = "Concept"
+			m_matchExpr = "TLK_CITADEL_ANN_MIDBOSS_KILLED"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "ConceptAnnounceEnemyDetected"
+			m_notes = "concepts"
+			m_matchKey = "Concept"
+			m_matchExpr = "TLK_CITADEL_ANN_ENEMY_DETECTED"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "ConceptAnnounceRejuvinator"
+			m_matchKey = "concept"
+			m_matchExpr = "TLK_CITADEL_ANN_REJUVINATOR"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "ConceptAnnounceVictory"
+			m_notes = "concepts"
+			m_matchKey = "Concept"
+			m_matchExpr = "TLK_CITADEL_ANN_VICTORY"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "ConceptAnnounceDefeat"
+			m_notes = "concepts"
+			m_matchKey = "Concept"
+			m_matchExpr = "TLK_CITADEL_ANN_DEFEAT"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "ConceptAnnounceIdol"
+			m_notes = "concepts"
+			m_matchKey = "Concept"
+			m_matchExpr = "TLK_CITADEL_ANN_IDOL"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "ConceptAnnouncePickUpItem"
+			m_notes = "concepts"
+			m_matchKey = "Concept"
+			m_matchExpr = "TLK_CITADEL_ANN_PICKUP_ITEM"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "ConceptAnnounceDropItem"
+			m_notes = "concepts"
+			m_matchKey = "Concept"
+			m_matchExpr = "TLK_CITADEL_ANN_DROP_ITEM"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "ConceptAnnounceKill"
+			m_notes = "concepts"
+			m_matchKey = "Concept"
+			m_matchExpr = "TLK_CITADEL_ANN_KILL"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "ConceptAnnounceKillStreak"
+			m_notes = "concepts"
+			m_matchKey = "Concept"
+			m_matchExpr = "TLK_CITADEL_ANN_KILL_STREAK"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "ConceptAnnounceGuidedBotMatch"
+			m_notes = "concepts"
+			m_matchKey = "Concept"
+			m_matchExpr = "TLK_CITADEL_ANN_GUIDED_BOT_MATCH"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsTier1Attacked"
+			m_notes = "tier 1s"
+			m_matchKey = "announce_event"
+			m_matchExpr = "tier1_attacked"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsTier2Attacked"
+			m_notes = "tier 1s"
+			m_matchKey = "announce_event"
+			m_matchExpr = "tier2_attacked"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsTier1Destroyed"
+			m_notes = "tier 2s"
+			m_matchKey = "announce_event"
+			m_matchExpr = "tier1_destroyed"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsTier2Destroyed"
+			m_notes = "tier 2s"
+			m_matchKey = "announce_event"
+			m_matchExpr = "tier2_destroyed"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsBarracksDestroyed"
+			m_notes = "First in lane"
+			m_matchKey = "announce_event"
+			m_matchExpr = "barracks_destroyed"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsBothBarracksDestroyed"
+			m_notes = "Second in lane"
+			m_matchKey = "announce_event"
+			m_matchExpr = "both_barracks_destroyed"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsEnemyTier1Destroyed"
+			m_notes = "tier 2s"
+			m_matchKey = "announce_event"
+			m_matchExpr = "enemy_tier1_destroyed"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsEnemyTier2Destroyed"
+			m_notes = "tier 2s"
+			m_matchKey = "announce_event"
+			m_matchExpr = "enemy_tier2_destroyed"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsEnemyBarracksDestroyed"
+			m_notes = "First in lane"
+			m_matchKey = "announce_event"
+			m_matchExpr = "enemy_barracks_destroyed"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsEnemyBothBarracksDestroyed"
+			m_notes = "Second in lane"
+			m_matchKey = "announce_event"
+			m_matchExpr = "enemy_both_barracks_destroyed"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsDefeated"
+			m_notes = "game over"
+			m_matchKey = "announce_event"
+			m_matchExpr = "defeated"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsWinningTeam"
+			m_notes = "game over"
+			m_matchKey = "announce_event"
+			m_matchExpr = "victory"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsLaningMetricsPhase"
+			m_notes = "guided bot match"
+			m_matchKey = "phase_laning_metrics"
+			m_matchExpr = "1"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsWelcome"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "welcome"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsPowerUpPhase"
+			m_notes = "guided bot match"
+			m_matchKey = "phase_power_up"
+			m_matchExpr = "1"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsKillGuardianPhase"
+			m_notes = "guided bot match"
+			m_matchKey = "phase_kill_guardian"
+			m_matchExpr = "1"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsCompletePhase"
+			m_notes = "guided bot match"
+			m_matchKey = "phase_complete"
+			m_matchExpr = "1"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsLaneInfo"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "lane_info"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsZipline"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "zipline"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsLearnAbility"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "learn_ability"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsLearnInitialAbility"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "learn_initial_ability"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsAim"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "zoom"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsTakingGuardianDamage"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "taking_guardian_damage"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsSpendMoney"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "buy_items"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsSlide"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "slide"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsMantle"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "mantle"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsMelee"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "melee"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsUpgradeAbility"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "upgrade_ability"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsFirstTier1Killed"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "tier1_killed"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsAdditionalTier1Killed"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "tier1_killed_repeat"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsTier1Remaining"
+			m_notes = "guided bot match"
+			m_matchKey = "enemy_t1s_destroyed"
+			m_matchExpr = "<4"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsFirstTier2Killed"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "tier2_killed"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsAdditionalTier2Killed"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "tier2_killed_repeat"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsTier2Remaining"
+			m_notes = "guided bot match"
+			m_matchKey = "enemy_t2s_destroyed"
+			m_matchExpr = "<4"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsTier3Killed"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "tier3_killed"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsZiplineReminder"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "zipline_damage"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsTrooperKilled"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "trooper_killed"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsMissedBounty"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "missed_bounty"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsPlayerDied"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "player_died"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsGuideDied"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "guide_died"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsDeniedEnemy"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "denied_enemy"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsNetWorthTaskIncomplete"
+			m_notes = "guided bot match"
+			m_matchKey = "net_worth_task_incomplete"
+			m_matchExpr = "1"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsGoldOrbTaskIncomplete"
+			m_notes = "guided bot match"
+			m_matchKey = "gold_orb_task_incomplete"
+			m_matchExpr = "1"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsRedOrbTaskIncomplete"
+			m_notes = "guided bot match"
+			m_matchKey = "red_orb_task_incomplete"
+			m_matchExpr = "1"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsAbilityUpgradeTaskIncomplete"
+			m_notes = "guided bot match"
+			m_matchKey = "ability_upgrade_task_incomplete"
+			m_matchExpr = "1"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsModPurchaseTaskIncomplete"
+			m_notes = "guided bot match"
+			m_matchKey = "mod_purchased_task_incomplete"
+			m_matchExpr = "1"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "Is4TasksLeft"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "4_tasks_left"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "Is3TasksLeft"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "3_tasks_left"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "Is2TasksLeft"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "2_tasks_left"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "Is1TasksLeft"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "1_tasks_left"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsNetWorthNag"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "net_worth_nag"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsGoldCredNag"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "gold_cred_nag"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsRedCredNag"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "red_cred_nag"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsBuyModNag"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "buy_mod_nag"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsUpgradeAbilityNag"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "upgrade_ability_nag"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsTurboModeGoBackToBase"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "turbo_mode_go_back_to_base"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsTurboModeKillGuardian"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "turbo_mode_kill_guardian"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsTurboModeComplete"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "turbo_mode_complete"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsReportCardGold"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "report_card_gold"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsReportCardSilver"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "report_card_silver"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsReportCardBronze"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "report_card_bronze"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsGainGold"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "gold_gained"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsGainAP"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "ap_gained"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsGuidedPlayerGoldOver500"
+			m_notes = "guided bot match"
+			m_matchKey = "guided_player_gold"
+			m_matchExpr = ">=500"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsGuidedPlayerGoldUnder500"
+			m_notes = "guided bot match"
+			m_matchKey = "guided_player_gold"
+			m_matchExpr = "<500"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsGuidedPlayerAPOver0"
+			m_notes = "guided bot match"
+			m_matchKey = "guided_player_ap"
+			m_matchExpr = ">=1"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsGuidedPlayerAPEqual0"
+			m_notes = "guided bot match"
+			m_matchKey = "guided_player_ap"
+			m_matchExpr = "0"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsLowHealth"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "low_health"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsParry"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "parry"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsStunned"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "stunned"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsSilenced"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "silenced"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsRooted"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "rooted"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsDisarmed"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "disarmed"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsOpenShop"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "opened_shop"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsOutOfStamina"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "no_stamina"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsSeeNeutralCamp"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "see_neutral_camp"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsSeeSafe"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "see_safe"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsSeeMidboss"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "see_midboss"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsTargetOutOfRange"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "target_out_of_range"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsIdolDropping"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "idol_dropping"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsT1ShieldUp"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "t1_shield_is_up"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsT1ShieldUpRepeat"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "t1_shield_is_up_repeat"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsT2Damaged"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "t2_damaged"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsKillEnemyHero"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "kill_enemy_hero"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsSpotEnemyHero"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "spot_enemy_hero"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsSingleLane"
+			m_notes = "guided bot match"
+			m_matchKey = "active_lane"
+			m_matchExpr = ">0"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsAllLanes"
+			m_notes = "guided bot match"
+			m_matchKey = "active_lane"
+			m_matchExpr = "0"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsLearnStartingAbility"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "learn_starting_ability"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsPlayerAheadOfCreepWave"
+			m_notes = "guided bot match"
+			m_matchKey = "guide_line"
+			m_matchExpr = "player_ahead_of_creeps"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsTitanAttacked"
+			m_notes = "titan"
+			m_matchKey = "announce_event"
+			m_matchExpr = "titan_attacked"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsTitanDestroyed"
+			m_notes = "titan"
+			m_matchKey = "announce_event"
+			m_matchExpr = "titan_destroyed"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsEnemyTitanDestroyed"
+			m_notes = "titan"
+			m_matchKey = "announce_event"
+			m_matchExpr = "enemy_titan_destroyed"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsCoreAttacked"
+			m_notes = "core"
+			m_matchKey = "announce_event"
+			m_matchExpr = "core_attacked"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsCoreCritical"
+			m_notes = "core"
+			m_matchKey = "announce_event"
+			m_matchExpr = "core_critical"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsCoreDestroyed"
+			m_notes = "core"
+			m_matchKey = "announce_event"
+			m_matchExpr = "core_destroyed"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsEnemyCoreAttacked"
+			m_notes = "core"
+			m_matchKey = "announce_event"
+			m_matchExpr = "enemy_core_attacked"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsEnemyCoreCritical"
+			m_notes = "core"
+			m_matchKey = "announce_event"
+			m_matchExpr = "enemy_core_critical"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsEnemyCoreDestroyed"
+			m_notes = "core"
+			m_matchKey = "announce_event"
+			m_matchExpr = "enemy_core_destroyed"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsCoreHealing"
+			m_notes = "core"
+			m_matchKey = "announce_event"
+			m_matchExpr = "core_healing"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsEnemyCoreHealing"
+			m_notes = "core"
+			m_matchKey = "announce_event"
+			m_matchExpr = "enemy_core_healing"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsShieldGeneratorAttacked"
+			m_notes = "shield generators"
+			m_matchKey = "announce_event"
+			m_matchExpr = "shield_generator_attacked"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsShieldGeneratorDestroyed"
+			m_notes = "shield generators"
+			m_matchKey = "announce_event"
+			m_matchExpr = "shield_generator_destroyed"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsEnemyShieldGeneratorDestroyed"
+			m_notes = "shield generators"
+			m_matchKey = "announce_event"
+			m_matchExpr = "enemy_shield_generator_destroyed"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsShieldGeneratorAlive"
+			m_notes = "shield generators"
+			m_matchKey = "shield_generator_remaining"
+			m_matchExpr = ">0"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsEveryShieldGeneratorDead"
+			m_notes = "shield generators"
+			m_matchKey = "shield_generator_remaining"
+			m_matchExpr = "0"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsEnemyInBase"
+			m_notes = "base"
+			m_matchKey = "announce_event"
+			m_matchExpr = "enemy_in_base"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsIdolSitting"
+			m_notes = "idol"
+			m_matchKey = "announce_event"
+			m_matchExpr = "idol_sitting"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsIdolPickedUp"
+			m_notes = "idol"
+			m_matchKey = "announce_event"
+			m_matchExpr = "idol_picked_up"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsIdolPickedUpByEnemy"
+			m_notes = "idol"
+			m_matchKey = "announce_event"
+			m_matchExpr = "enemy_idol_picked_up"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsIdolCashedIn"
+			m_notes = "idol"
+			m_matchKey = "announce_event"
+			m_matchExpr = "idol_cashed_in"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsIdolCashedInByEnemy"
+			m_notes = "idol"
+			m_matchKey = "announce_event"
+			m_matchExpr = "enemy_idol_cashed_in"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsIdolFumbled"
+			m_notes = "idol"
+			m_matchKey = "announce_event"
+			m_matchExpr = "idol_fumbled"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsIdolFumbledByEnemy"
+			m_notes = "idol"
+			m_matchKey = "announce_event"
+			m_matchExpr = "enemy_idol_fumbled"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsMidbossSpawn"
+			m_notes = "midboss"
+			m_matchKey = "announce_event"
+			m_matchExpr = "midboss_spawn"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsMidbossKilled"
+			m_notes = "midboss"
+			m_matchKey = "announce_event"
+			m_matchExpr = "midboss_killed"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsRejuvPickedUp"
+			m_notes = "midboss"
+			m_matchKey = "announce_event"
+			m_matchExpr = "rejuv_picked_up"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsEnemyRejuvPickedUp"
+			m_notes = "midboss"
+			m_matchKey = "announce_event"
+			m_matchExpr = "enemy_rejuv_picked_up"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsVaultSpawn"
+			m_notes = "vaults"
+			m_matchKey = "announce_event"
+			m_matchExpr = "vaults_spawn"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsKillStreak"
+			m_notes = "kill streaks"
+			m_matchKey = "announce_event"
+			m_matchExpr = "kill_streak"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsEnemyKillStreak"
+			m_notes = "kill streaks"
+			m_matchKey = "announce_event"
+			m_matchExpr = "enemy_kill_streak"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsFirstBlood"
+			m_notes = "kill streaks"
+			m_matchKey = "firstblood"
+			m_matchExpr = "1"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsKillStreak3"
+			m_notes = "kill streaks"
+			m_matchKey = "kill_streak"
+			m_matchExpr = "3"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsKillStreak4"
+			m_notes = "kill streaks"
+			m_matchKey = "kill_streak"
+			m_matchExpr = "4"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsKillStreak5"
+			m_notes = "kill streaks"
+			m_matchKey = "kill_streak"
+			m_matchExpr = "5"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsKillStreak6"
+			m_notes = "kill streaks"
+			m_matchKey = "kill_streak"
+			m_matchExpr = "6"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsKillStreak7"
+			m_notes = "kill streaks"
+			m_matchKey = "kill_streak"
+			m_matchExpr = "7"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsKillStreak8"
+			m_notes = "kill streaks"
+			m_matchKey = "kill_streak"
+			m_matchExpr = "8"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsKillStreak9"
+			m_notes = "kill streaks"
+			m_matchKey = "kill_streak"
+			m_matchExpr = "9"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsKillStreak10"
+			m_notes = "kill streaks"
+			m_matchKey = "kill_streak"
+			m_matchExpr = "10"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsKillStreakEnded"
+			m_notes = "kill streaks"
+			m_matchKey = "announce_event"
+			m_matchExpr = "kill_streak_ended"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsEnemyKillStreakEnded"
+			m_notes = "kill streaks"
+			m_matchKey = "announce_event"
+			m_matchExpr = "enemy_kill_streak_ended"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsKillStreakEnded3"
+			m_notes = "kill streaks"
+			m_matchKey = "kill_streak_ended"
+			m_matchExpr = "3"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsKillStreakEnded4"
+			m_notes = "kill streaks"
+			m_matchKey = "kill_streak_ended"
+			m_matchExpr = "4"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsKillStreakEnded5"
+			m_notes = "kill streaks"
+			m_matchKey = "kill_streak_ended"
+			m_matchExpr = "5"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsKillStreakEnded6"
+			m_notes = "kill streaks"
+			m_matchKey = "kill_streak_ended"
+			m_matchExpr = "6"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsKillStreakEnded7"
+			m_notes = "kill streaks"
+			m_matchKey = "kill_streak_ended"
+			m_matchExpr = "7"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsKillStreakEnded8"
+			m_notes = "kill streaks"
+			m_matchKey = "kill_streak_ended"
+			m_matchExpr = "8"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsKillStreakEnded9"
+			m_notes = "kill streaks"
+			m_matchKey = "kill_streak_ended"
+			m_matchExpr = "9"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsKillStreakEnded10"
+			m_notes = "kill streaks"
+			m_matchKey = "kill_streak_ended"
+			m_matchExpr = ">=10"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsTeam2"
+			m_matchKey = "team_number"
+			m_matchExpr = "2"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsTeam3"
+			m_matchKey = "team_number"
+			m_matchExpr = "3"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsKillStreakLowPatron"
+			m_matchKey = "kill_streak"
+			m_matchExpr = ">=3, <7"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsKillStreakMidPatron"
+			m_matchKey = "kill_streak"
+			m_matchExpr = ">=7, <11"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsKillStreakHighPatron"
+			m_matchKey = "kill_streak"
+			m_matchExpr = ">=11"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsKillStreak11"
+			m_matchKey = "kill_streak"
+			m_matchExpr = "11"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsAfter5Minute"
+			m_matchKey = "gametime_minute"
+			m_matchExpr = ">5"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsNoKillStreak"
+			m_matchKey = "kill_streak"
+			m_matchExpr = "<=2"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsEnemyTitanUnderAttack"
+			m_matchKey = "announce_event"
+			m_matchExpr = "enemy_titan_attacked"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsShielded"
+			m_matchKey = "shielded"
+			m_matchExpr = "1"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsTeamWipe"
+			m_matchKey = "announce_event"
+			m_matchExpr = "team_wipe"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsAboutToExpire"
+			m_matchKey = "announce_event"
+			m_matchExpr = "about_to_expire"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "HasExpired"
+			m_matchKey = "announce_event"
+			m_matchExpr = "expired"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "ConceptAnnouncerEnemyBaseBossAttacked"
+			m_matchKey = "concept"
+			m_matchExpr = "TLK_CITADEL_ANN_ENEMY_BASE_BOSS_ATTACKED"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "ConceptAnnouncerEnemyBaseBossDestroyed"
+			m_matchKey = "concept"
+			m_matchExpr = "TLK_CITADEL_ANN_ENEMY_BASE_BOSS_DESTROYED"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "ConceptAnnouncerEnemyLaneBossAttacked"
+			m_matchKey = "concept"
+			m_matchExpr = "TLK_CITADEL_ANN_ENEMY_LANE_BOSS_ATTACKED"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "ConceptAnnouncerEnemyLaneBossDestroyed"
+			m_matchKey = "concept"
+			m_matchExpr = "TLK_CITADEL_ANN_ENEMY_LANE_BOSS_DESTROYED"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "ConceptAnnouncerTeamBaseBossAttacked"
+			m_matchKey = "concept"
+			m_matchExpr = "TLK_CITADEL_ANN_TEAM_BASE_BOSS_ATTACKED"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "ConceptAnnouncerTeamLaneBossAttacked"
+			m_matchKey = "concept"
+			m_matchExpr = "TLK_CITADEL_ANN_TEAM_LANE_BOSS_ATTACKED"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "ConceptAnnouncerTeamBaseBossDestroyed"
+			m_matchKey = "concept"
+			m_matchExpr = "TLK_CITADEL_ANN_TEAM_BASE_BOSS_DESTROYED"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "ConceptAnnouncerTeamLaneBossDestroyed"
+			m_matchKey = "concept"
+			m_matchExpr = "TLK_CITADEL_ANN_TEAM_LANE_BOSS_DESTROYED"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "ConceptAnnouncerCommendHero"
+			m_matchKey = "concept"
+			m_matchExpr = "TLK_CITADEL_ANN_COMMEND_HERO"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsKillAssist"
+			m_matchKey = "announce_event"
+			m_matchExpr = "kill_assist"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsHeroHealing"
+			m_matchKey = "announce_event"
+			m_matchExpr = "heal_heroes"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "Has5OrMoreAssists"
+			m_matchKey = "assist_count"
+			m_matchExpr = ">=5"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "HasHealedHeroes1Thousand"
+			m_matchKey = "hero_healing"
+			m_matchExpr = ">1000"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "Has10OrMoreAssists"
+			m_matchKey = "assist_count"
+			m_matchExpr = ">=10"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "HasHealedHeroes2Thousand"
+			m_matchKey = "other_hero_healing"
+			m_matchExpr = ">2000"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "HasHealedHeroes5Thousand"
+			m_matchKey = "other_hero_healing"
+			m_matchExpr = ">5000"
+			m_bRequired = true
+		},
+	]
+	m_ConceptPriorities = 
+	{
+		TLK_CITADEL_ANN_BOSS_DAMAGED = -1
+		TLK_CITADEL_ANN_BOSS_DESTROYED = 490
+		TLK_CITADEL_ANN_KILL_STREAK = 380
+		TLK_CITADEL_ANN_KILL = 380
+		TLK_CITADEL_ANN_PICKUP_ITEM = 432
+		TLK_CITADEL_ANN_GUIDED_BOT_MATCH = 2147483647
+		TLK_CITADEL_ANN_DEFEAT = 510
+		TLK_CITADEL_ANN_VICTORY = 510
+		TLK_CITADEL_ANN_IDOL = 410
+		TLK_CITADEL_ANN_BEGIN_REGEN = 440
+		TLK_CITADEL_ANN_MIDBOSS_SPAWN = 435
+		TLK_CITADEL_ANN_MIDBOSS_KILLED = 436
+		TLK_CITADEL_ANN_ENEMY_DETECTED = 441
+		TLK_CITADEL_ANN_REJUVINATOR = 431
+		TLK_CITADEL_ANN_DROP_ITEM = 438
+		TLK_CITADEL_ANN_BOSS_ATTACKED = 400
+		TLK_CITADEL_ANN_ENEMY_BASE_BOSS_ATTACKED = 400
+		TLK_CITADEL_ANN_ENEMY_BASE_BOSS_DESTROYED = 490
+		TLK_CITADEL_ANN_ENEMY_LANE_BOSS_ATTACKED = 400
+		TLK_CITADEL_ANN_ENEMY_LANE_BOSS_DESTROYED = 490
+		TLK_CITADEL_ANN_TEAM_BASE_BOSS_ATTACKED = 400
+		TLK_CITADEL_ANN_TEAM_LANE_BOSS_ATTACKED = 400
+		TLK_CITADEL_ANN_TEAM_BASE_BOSS_DESTROYED = 490
+		TLK_CITADEL_ANN_TEAM_LANE_BOSS_DESTROYED = 490
+	}
+	m_speakerType = "citadel_announcer"
+}

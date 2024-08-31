@@ -1,0 +1,5861 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vrfunknown:version{c1f07085-5299-4e8a-b7e9-1cbb66bbbe23} -->
+{
+	m_Includes = 
+	[
+		"scripts/talker/response_rules_criterion.vrr",
+		"scripts/talker/response_rules_contextual_ping.vrr",
+	]
+	m_SoundEventScripts = 
+	[
+		"soundevents/vo/generated_vo_hero_slork.vsndevts",
+	]
+	m_ResponseGroups = 
+	[
+		
+		{
+			m_children = 
+			[
+				
+				{
+					m_name = "Slork_Start_Match"
+					m_bDisabled = true
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_start_match_01_hero_3d"
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_start_match_02_hero_3d"
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_start_match_03_hero_3d"
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_start_match_04_hero_3d"
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_start_match_05_hero_3d"
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_start_match_06_hero_3d"
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_start_match_07_hero_3d"
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_start_match_08_hero_3d"
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_start_match_09_hero_3d"
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_start_match_10_hero_3d"
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Slork_Start_Match"
+						m_bDisabled = true
+						m_Requirements = 
+						[
+							"ConceptMatchStart",
+						]
+					}
+				},
+				
+				{
+					m_children = 
+					[
+						
+						{
+							m_name = "Slork_Kill_Hero"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_kill_anyhero_01_hero_3d"
+									m_params = 
+									{
+										m_delay.start = 0.500000
+										m_predelay.start = 2.000000
+									}
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_kill_anyhero_02_hero_3d"
+									m_params = 
+									{
+										m_delay.start = 0.500000
+										m_predelay.start = 2.000000
+									}
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_kill_anyhero_03_hero_3d"
+									m_params = 
+									{
+										m_delay.start = 0.500000
+										m_predelay.start = 2.000000
+									}
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_kill_anyhero_04_hero_3d"
+									m_params = 
+									{
+										m_delay.start = 0.500000
+										m_predelay.start = 2.000000
+									}
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_kill_anyhero_05_hero_3d"
+									m_params = 
+									{
+										m_delay.start = 0.500000
+										m_predelay.start = 2.000000
+									}
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_kill_anyhero_06_hero_3d"
+									m_params = 
+									{
+										m_delay.start = 0.500000
+										m_predelay.start = 2.000000
+									}
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_kill_anyhero_07_hero_3d"
+									m_params = 
+									{
+										m_delay.start = 0.500000
+										m_predelay.start = 2.000000
+									}
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_kill_anyhero_08_hero_3d"
+									m_params = 
+									{
+										m_delay.start = 0.500000
+										m_predelay.start = 2.000000
+									}
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_kill_anyhero_09_hero_3d"
+									m_params = 
+									{
+										m_delay.start = 0.500000
+										m_predelay.start = 2.000000
+									}
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_kill_anyhero_10_hero_3d"
+									m_params = 
+									{
+										m_delay.start = 0.500000
+										m_predelay.start = 2.000000
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Kill_Hero"
+								m_Requirements = 
+								[
+									"IsNoKillStreak",
+								]
+								m_recipientFilter = "speaker_only"
+							}
+						},
+						
+						{
+							m_name = "Slork_Revenge_Kill"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_revenge_kill_hero_3d"
+									m_params = 
+									{
+										m_delay.start = 0.500000
+										m_predelay.start = 2.000000
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Revenge_Kill"
+								m_Requirements = 
+								[
+									"IsRevenge",
+									"IsNoKillStreak",
+								]
+								m_recipientFilter = "speaker_only"
+							}
+						},
+						
+						{
+							m_name = "Slork_End_Enemy_Streak"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_end_streak_hero_3d"
+									m_params = 
+									{
+										m_delay.start = 0.500000
+										m_predelay.start = 2.000000
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_End_Enemy_Streak"
+								m_Requirements = 
+								[
+									"IsEnemyStreak",
+									"IsNoKillStreak",
+								]
+								m_recipientFilter = "speaker_only"
+							}
+						},
+						
+						{
+							m_name = "Slork_Kill_High_Networth"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_kill_high_networth_hero_3d"
+									m_params = 
+									{
+										m_delay.start = 0.500000
+										m_predelay.start = 2.000000
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Kill_High_Networth"
+								m_Requirements = 
+								[
+									"IsTargetHighNetworth",
+									"IsNoKillStreak",
+								]
+								m_recipientFilter = "speaker_only"
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_Requirements = 
+						[
+							"ConceptKill",
+						]
+					}
+				},
+				
+				{
+					m_children = 
+					[
+						
+						{
+							m_name = "Slork_Idol_Spawn"
+							m_bDisabled = true
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_idol_drop_01_hero_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_idol_drop_02_hero_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_idol_drop_03_hero_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_idol_drop_04_hero_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_idol_drop_05_hero_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_idol_drop_06_hero_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_idol_drop_07_hero_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_idol_drop_08_hero_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_idol_drop_09_hero_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_idol_drop_10_hero_3d"
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Idol_Spawn"
+								m_bDisabled = true
+								m_Requirements = 
+								[
+									"is_event_idol_spawn",
+								]
+								m_recipientFilter = "speaker_only"
+							}
+						},
+						
+						{
+							m_name = "Slork_Idol_Score"
+							m_bDisabled = true
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_idol_score_01_hero_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_idol_score_02_hero_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_idol_score_03_hero_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_idol_score_04_hero_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_idol_score_05_hero_3d"
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Idol_Score"
+								m_bDisabled = true
+								m_Requirements = 
+								[
+									"is_event_idol_delivered",
+								]
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_Requirements = 
+						[
+							"ConceptIdol",
+						]
+					}
+				},
+				
+				{
+					m_children = 
+					[
+						
+						{
+							m_name = "Slork_Idol_Grab"
+							m_bDisabled = true
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_idol_grab_01_hero_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_idol_grab_02_hero_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_idol_grab_03_hero_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_idol_grab_04_hero_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_idol_grab_05_hero_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_idol_grab_05_alt_01_hero_3d"
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Idol_Grab"
+								m_bDisabled = true
+								m_Requirements = 
+								[
+									"IsItemIdol",
+								]
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_Requirements = 
+						[
+							"ConceptPickUpItem",
+						]
+					}
+				},
+				
+				{
+					m_children = 
+					[
+						
+						{
+							m_name = "Slork_Escapes_On_Zipline"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_close_call_01_hero_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_close_call_02_hero_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_close_call_03_hero_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_close_call_04_hero_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_close_call_05_hero_3d"
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Escapes_On_Zipline"
+								m_Requirements = 
+								[
+									"IsHealthLowerThan10Percent",
+								]
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_Requirements = 
+						[
+							"ConceptZipLine",
+						]
+					}
+				},
+				
+				{
+					m_name = "Slork_Loses"
+					m_bDisabled = true
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_lose_01_hero_3d"
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_lose_02_hero_3d"
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_lose_03_hero_3d"
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_lose_04_hero_3d"
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_lose_05_hero_3d"
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Slork_Loses"
+						m_bDisabled = true
+						m_Requirements = 
+						[
+							"ConceptDefeat",
+						]
+					}
+				},
+				
+				{
+					m_children = 
+					[
+						
+						{
+							m_name = "Slork_Enemy_Escapes_On_Zipline"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_near_miss_01_hero_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_near_miss_01_alt_01_hero_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_near_miss_02_hero_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_near_miss_03_hero_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_near_miss_04_hero_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_near_miss_05_hero_3d"
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Enemy_Escapes_On_Zipline"
+								m_Requirements = 
+								[
+									"IsAbilityZipLine",
+									"IsEnemyHealthLowerThan10Percent",
+								]
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_Requirements = 
+						[
+							"ConceptEnemyEscaped",
+						]
+					}
+				},
+				
+				{
+					m_children = 
+					[
+						
+						{
+							m_name = "Slork_Use_Metal_Skin"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_use_metal_skin_01_ability_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_use_metal_skin_02_ability_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_use_metal_skin_03_ability_3d"
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Use_Metal_Skin"
+								m_Requirements = 
+								[
+									"IsAbilityMetalSkin",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Use_Rocket_Boots"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_use_rocket_boots_01_ability_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_use_rocket_boots_01_alt_01_ability_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_use_rocket_boots_02_ability_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_use_rocket_boots_03_ability_3d"
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Use_Rocket_Boots"
+								m_Requirements = 
+								[
+									"IsAbilityRocketBoots",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Use_Stasis"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_use_stasis_01_ability_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_use_stasis_02_ability_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_use_stasis_03_ability_3d"
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Use_Stasis"
+								m_Requirements = 
+								[
+									"IsAbilityStasis",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Use_Tech_Defender"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_use_tech_defender_01_ability_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_use_tech_defender_02_ability_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_use_tech_defender_03_ability_3d"
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Use_Tech_Defender"
+								m_Requirements = 
+								[
+									"IsAbilityTechDefender",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Use_Tech_Purge"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_use_tech_purge_01_ability_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_use_tech_purge_02_ability_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_use_tech_purge_03_ability_3d"
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Use_Tech_Purge"
+								m_Requirements = 
+								[
+									"IsAbilityTechPurge",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Use_Ability_Refresher"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_use_ability_refresher_01_ability_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_use_ability_refresher_02_ability_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_use_ability_refresher_03_ability_3d"
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Use_Ability_Refresher"
+								m_Requirements = 
+								[
+									"IsAbilityRefresher",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Use_Area_Immobilize"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_use_area_immobilize_01_ability_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_use_area_immobilize_02_ability_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_use_area_immobilize_03_ability_3d"
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Use_Area_Immobilize"
+								m_Requirements = 
+								[
+									"IsAbilityAreaImmobilize",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Use_EMP_Wave"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_use_emp_wave_01_ability_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_use_emp_wave_02_ability_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_use_emp_wave_03_ability_3d"
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Use_EMP_Wave"
+								m_Requirements = 
+								[
+									"IsAbilityEmpWave",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Use_Ice_Blast"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_use_ice_blast_01_ability_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_use_ice_blast_02_ability_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_use_ice_blast_03_ability_3d"
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Use_Ice_Blast"
+								m_Requirements = 
+								[
+									"IsAbilityIceBlast",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Use_Knockdown"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_use_knockdown_01_ability_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_use_knockdown_02_ability_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_use_knockdown_03_ability_3d"
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Use_Knockdown"
+								m_Requirements = 
+								[
+									"IsAbilityKnockdown",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Use_Smoke"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_use_smoke_01_ability_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_use_smoke_02_ability_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_use_smoke_03_ability_3d"
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Use_Smoke"
+								m_Requirements = 
+								[
+									"IsAbilitySmoke",
+								]
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_Requirements = 
+						[
+							"ConceptAbilityCast",
+						]
+					}
+				},
+				
+				{
+					m_name = "Slork_Earns_First_AP"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_ap_reminder_01_hero_3d"
+							m_params = 
+							{
+								m_delay.start = 0.500000
+								m_predelay.start = 0.500000
+								m_bSpeakOnce = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_ap_reminder_02_hero_3d"
+							m_params = 
+							{
+								m_delay.start = 0.500000
+								m_predelay.start = 0.500000
+								m_bSpeakOnce = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_ap_reminder_03_hero_3d"
+							m_params = 
+							{
+								m_delay.start = 0.500000
+								m_predelay.start = 0.500000
+								m_bSpeakOnce = true
+							}
+						},
+					]
+					m_children = 
+					[
+						
+						{
+							m_name = "Slork_Earns_AP_Later"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ap_reminder_01_hero_3d"
+									m_params = 
+									{
+										m_delay.start = 0.500000
+										m_bSpeakOnce = true
+									}
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ap_reminder_02_hero_3d"
+									m_params = 
+									{
+										m_delay.start = 0.500000
+										m_bSpeakOnce = true
+									}
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ap_reminder_03_hero_3d"
+									m_params = 
+									{
+										m_delay.start = 0.500000
+										m_bSpeakOnce = true
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Earns_AP_Later"
+								m_Requirements = 
+								[
+									"IsAfter10Minute",
+								]
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Slork_Earns_First_AP"
+						m_Requirements = 
+						[
+							"ConceptAbilityPointGained",
+						]
+						m_recipientFilter = "speaker_only"
+					}
+				},
+				
+				{
+					m_children = 
+					[
+						
+						{
+							m_name = "Slork_Can_Buy_T1_Item"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_t1_shop_reminder_01_hero_3d"
+									m_params = 
+									{
+										m_delay.start = 0.500000
+										m_predelay.start = 1.500000
+									}
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_t1_shop_reminder_02_hero_3d"
+									m_params = 
+									{
+										m_delay.start = 0.500000
+										m_predelay.start = 1.500000
+									}
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_t1_shop_reminder_03_hero_3d"
+									m_params = 
+									{
+										m_delay.start = 0.500000
+										m_predelay.start = 1.500000
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Can_Buy_T1_Item"
+								m_Requirements = 
+								[
+									"CanBuyT1Gear",
+								]
+								m_recipientFilter = "speaker_only"
+								m_bMatchOnce = true
+							}
+						},
+						
+						{
+							m_name = "Slork_Can_Buy_T2_Item"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_t2_shop_reminder_01_hero_3d"
+									m_params = 
+									{
+										m_delay.start = 0.500000
+										m_predelay.start = 1.500000
+									}
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_t2_shop_reminder_02_hero_3d"
+									m_params = 
+									{
+										m_delay.start = 0.500000
+										m_predelay.start = 1.500000
+									}
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_t2_shop_reminder_03_hero_3d"
+									m_params = 
+									{
+										m_delay.start = 0.500000
+										m_predelay.start = 1.500000
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Can_Buy_T2_Item"
+								m_Requirements = 
+								[
+									"CanBuyT2Gear",
+								]
+								m_recipientFilter = "speaker_only"
+								m_bMatchOnce = true
+							}
+						},
+						
+						{
+							m_name = "Slork_Can_Buy_T3_Item"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_t3_shop_reminder_01_hero_3d"
+									m_params = 
+									{
+										m_delay.start = 0.500000
+										m_predelay.start = 1.500000
+									}
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_t3_shop_reminder_02_hero_3d"
+									m_params = 
+									{
+										m_delay.start = 0.500000
+										m_predelay.start = 1.500000
+									}
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_t3_shop_reminder_03_hero_3d"
+									m_params = 
+									{
+										m_delay.start = 0.500000
+										m_predelay.start = 1.500000
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Can_Buy_T3_Item"
+								m_Requirements = 
+								[
+									"CanBuyT3Gear",
+								]
+								m_recipientFilter = "speaker_only"
+								m_bMatchOnce = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_Requirements = 
+						[
+							"ConceptGoldGained",
+						]
+						m_recipientFilter = "speaker_only"
+					}
+				},
+				
+				{
+					m_name = "Slork_Ult_Is_Ready"
+					m_bDisabled = true
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_ping_use_ability4_ping_2d"
+							m_params = 
+							{
+								m_predelay.start = 1.000000
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Slork_Ult_Is_Ready"
+						m_bDisabled = true
+						m_Requirements = 
+						[
+							"ConceptUltReady",
+						]
+					}
+				},
+				
+				{
+					m_name = "Slork_Pain"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_pain_small_01_emote_pain_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 1.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_pain_small_02_emote_pain_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 1.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_pain_small_03_emote_pain_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 1.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_pain_small_04_emote_pain_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 1.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_pain_small_05_emote_pain_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 1.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_pain_small_06_emote_pain_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 1.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_pain_small_07_emote_pain_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 1.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_pain_small_08_emote_pain_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 1.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_pain_small_09_emote_pain_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 1.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_pain_small_10_emote_pain_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 1.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_pain_small_11_emote_pain_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 1.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_pain_small_12_emote_pain_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 1.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_pain_small_13_emote_pain_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 1.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_pain_small_14_emote_pain_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 1.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_pain_small_15_emote_pain_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 1.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_pain_small_16_emote_pain_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 1.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_pain_small_17_emote_pain_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 1.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_pain_small_18_emote_pain_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 1.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_pain_small_19_emote_pain_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 1.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_pain_small_20_emote_pain_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 1.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_pain_small_21_emote_pain_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 1.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_pain_small_22_emote_pain_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 1.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_pain_small_23_emote_pain_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 1.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_pain_small_24_emote_pain_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 1.500000
+							}
+						},
+					]
+					m_children = 
+					[
+						
+						{
+							m_name = "Slork_Pain_Big"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_pain_big_01_emote_pain_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_pain_big_02_emote_pain_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_pain_big_03_emote_pain_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_pain_big_04_emote_pain_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_pain_big_05_emote_pain_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_pain_big_06_emote_pain_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_pain_big_07_emote_pain_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_pain_big_08_emote_pain_3d"
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Pain_Big"
+								m_Requirements = 
+								[
+									"IsDamageHigh",
+								]
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Slork_Pain"
+						m_Requirements = 
+						[
+							"ConceptPain",
+						]
+					}
+				},
+				
+				{
+					m_name = "Slork_Death"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_pain_death_01_emote_death_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 0.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_pain_death_02_emote_death_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 0.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_pain_death_03_emote_death_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 0.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_pain_death_04_emote_death_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 0.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_pain_death_05_emote_death_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 0.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_pain_death_06_emote_death_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 0.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_pain_death_07_emote_death_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 0.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_pain_death_08_emote_death_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 0.500000
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Slork_Death"
+						m_Requirements = 
+						[
+							"ConceptDeath",
+						]
+					}
+				},
+				
+				{
+					m_children = 
+					[
+						
+						{
+							m_name = "Slork_Lets_Do_Mid"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_take_mid_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Lets_Do_Mid"
+								m_Requirements = 
+								[
+									"ConceptPingedMid",
+									"IsPassive",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Going_In"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_going_in_01_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Going_In"
+								m_Requirements = 
+								[
+									"ConceptGoingIn",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Good_Job"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_good_job_01_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Good_Job"
+								m_Requirements = 
+								[
+									"ConceptGoodJob",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Good_Job_All_Chat"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_good_job_01_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Good_Job_All_Chat"
+								m_Requirements = 
+								[
+									"ConceptGoodJobAllChat",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Ping_Retreat"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_retreat_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Ping_Retreat"
+								m_Requirements = 
+								[
+									"ConceptRetreat",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Im_Back"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_right_back_01_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Im_Back"
+								m_Requirements = 
+								[
+									"ConceptBack",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Ping_Stay_Together"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_stay_together_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Ping_Stay_Together"
+								m_Requirements = 
+								[
+									"ConceptStayTogether",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Ping_Help_Yellow"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_need_help_yellow_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Ping_Help_Yellow"
+								m_Requirements = 
+								[
+									"ConceptHelp",
+									"PlayerInYellow",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Ping_Help_Orange"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_need_help_orange_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Ping_Help_Orange"
+								m_Requirements = 
+								[
+									"ConceptHelp",
+									"PlayerInOrange",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Ping_Help_Blue"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_need_help_blue_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Ping_Help_Blue"
+								m_Requirements = 
+								[
+									"ConceptHelp",
+									"PlayerInBlue",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Ping_Help_Purple"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_need_help_purple_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Ping_Help_Purple"
+								m_Requirements = 
+								[
+									"ConceptHelp",
+									"PlayerInPurple",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Ping_Thank_You"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_thank_you_01_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_thank_you_02_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Ping_Thank_You"
+								m_Requirements = 
+								[
+									"ConceptThanks",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Ping_Thank_You_AllChat"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_thank_you_01_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_thank_you_02_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Ping_Thank_You_AllChat"
+								m_Requirements = 
+								[
+									"ConceptThanksAllChat",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Ping_On_My_Way"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_on_way_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Ping_On_My_Way"
+								m_Requirements = 
+								[
+									"ConceptOnMyWay",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Push_Base"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_take_core_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Push_Base"
+								m_Requirements = 
+								[
+									"ConceptPushLane",
+									"IsFinalObjective",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Push_Titan"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_attack_enemy_titan_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Push_Titan"
+								m_Requirements = 
+								[
+									"ConceptPushLane",
+									"TargetIsTier3Boss",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Push_Boss_Orange_Lane"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_push_orange_01_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Push_Boss_Orange_Lane"
+								m_Requirements = 
+								[
+									"ConceptPushLane",
+									"OrangeLane",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Push_Boss_Yellow_Lane"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_push_yellow_01_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Push_Boss_Yellow_Lane"
+								m_Requirements = 
+								[
+									"ConceptPushLane",
+									"YellowLane",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Push_Boss_Purple_Lane"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_push_purple_01_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Push_Boss_Purple_Lane"
+								m_Requirements = 
+								[
+									"ConceptPushLane",
+									"PurpleLane",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Push_Boss_Blue_Lane"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_push_blue_01_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Push_Boss_Blue_Lane"
+								m_Requirements = 
+								[
+									"ConceptPushLane",
+									"BlueLane",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Defend_Boss_Blue_Lane"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_headed_blue_01_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Defend_Boss_Blue_Lane"
+								m_Requirements = 
+								[
+									"ConceptDefendLane",
+									"BlueLane",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Blue_Lane_Boss_Needs_Help"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_blue_help_01_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Blue_Lane_Boss_Needs_Help"
+								m_Requirements = 
+								[
+									"ConceptDefendLane",
+									"BlueLane",
+									"IsAggressive",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Defend_Boss_Yellow_Lane"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_headed_yellow_01_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Defend_Boss_Yellow_Lane"
+								m_Requirements = 
+								[
+									"ConceptDefendLane",
+									"YellowLane",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Yellow_Lane_Boss_Needs_Help"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_yellow_help_01_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Yellow_Lane_Boss_Needs_Help"
+								m_Requirements = 
+								[
+									"ConceptDefendLane",
+									"YellowLane",
+									"IsAggressive",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Defend_Boss_Purple_Lane"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_headed_purple_01_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Defend_Boss_Purple_Lane"
+								m_Requirements = 
+								[
+									"ConceptDefendLane",
+									"PurpleLane",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Purple_Lane_Boss_Needs_Help"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_purple_help_01_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Purple_Lane_Boss_Needs_Help"
+								m_Requirements = 
+								[
+									"ConceptDefendLane",
+									"PurpleLane",
+									"IsAggressive",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Defend_Boss_Orange_Lane"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_headed_orange_01_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Defend_Boss_Orange_Lane"
+								m_Requirements = 
+								[
+									"ConceptDefendLane",
+									"OrangeLane",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Orange_Lane_Boss_Needs_Help"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_orange_help_01_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_orange_help_01_alt_01_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Orange_Lane_Boss_Needs_Help"
+								m_Requirements = 
+								[
+									"ConceptDefendLane",
+									"OrangeLane",
+									"IsAggressive",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Heading_Generic"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_headed_this_way_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Heading_Generic"
+								m_Requirements = 
+								[
+									"ConceptHeadingLane",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Heading_Blue"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_headed_blue_01_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Heading_Blue"
+								m_Requirements = 
+								[
+									"ConceptHeadingLane",
+									"BlueLane",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Heading_Yellow"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_headed_yellow_01_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Heading_Yellow"
+								m_Requirements = 
+								[
+									"ConceptHeadingLane",
+									"YellowLane",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Heading_Orange"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_headed_orange_01_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Heading_Orange"
+								m_Requirements = 
+								[
+									"ConceptHeadingLane",
+									"OrangeLane",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Heading_Purple"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_headed_purple_01_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Heading_Purple"
+								m_Requirements = 
+								[
+									"ConceptHeadingLane",
+									"PurpleLane",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Lets_Go_Blue"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_lets_go_blue_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Lets_Go_Blue"
+								m_Requirements = 
+								[
+									"ConceptLetsGoHere",
+									"BlueLane",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Lets_Go_Yellow"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_lets_go_yellow_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Lets_Go_Yellow"
+								m_Requirements = 
+								[
+									"ConceptLetsGoHere",
+									"YellowLane",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Lets_Go_Orange"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_lets_go_orange_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Lets_Go_Orange"
+								m_Requirements = 
+								[
+									"ConceptLetsGoHere",
+									"OrangeLane",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Lets_Go_Purple"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_lets_go_purple_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Lets_Go_Purple"
+								m_Requirements = 
+								[
+									"ConceptLetsGoHere",
+									"PurpleLane",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Be_Right_back"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_right_back_01_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_going_shop_01_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_be_back_soon_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Be_Right_back"
+								m_Requirements = 
+								[
+									"ConceptHeadedToBase",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Cancel_That"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_nevermind_01_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_nevermind_02_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_nevermind_03_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Cancel_That"
+								m_Requirements = 
+								[
+									"ConceptCancelLastMessage",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Ability1_Ready"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_use_ability1_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Ability1_Ready"
+								m_Requirements = 
+								[
+									"ConceptAbilityPing",
+									"AbilityReady",
+									"IsAbility1",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Ability2_Ready"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_use_ability2_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Ability2_Ready"
+								m_Requirements = 
+								[
+									"ConceptAbilityPing",
+									"AbilityReady",
+									"IsAbility2",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Ability3_Ready"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_use_ability3_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Ability3_Ready"
+								m_Requirements = 
+								[
+									"ConceptAbilityPing",
+									"AbilityReady",
+									"IsAbility3",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Ability4_Ready"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_use_ability4_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Ability4_Ready"
+								m_Requirements = 
+								[
+									"ConceptAbilityPing",
+									"AbilityReady",
+									"IsAbility4",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Ability1_OnCooldown"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_ability1_not_ready_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Ability1_OnCooldown"
+								m_Requirements = 
+								[
+									"ConceptAbilityPing",
+									"AbilityOnCooldown",
+									"IsAbility1",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Ability2_OnCooldown"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_ability2_not_ready_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Ability2_OnCooldown"
+								m_Requirements = 
+								[
+									"ConceptAbilityPing",
+									"AbilityOnCooldown",
+									"IsAbility2",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Ability3_OnCooldown"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_ability3_not_ready_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Ability3_OnCooldown"
+								m_Requirements = 
+								[
+									"ConceptAbilityPing",
+									"AbilityOnCooldown",
+									"IsAbility3",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Ability4_OnCooldown"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_ability4_not_ready_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Ability4_OnCooldown"
+								m_Requirements = 
+								[
+									"ConceptAbilityPing",
+									"AbilityOnCooldown",
+									"IsAbility4",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Hero_Careful"
+							m_children = 
+							[
+								
+								{
+									m_name = "Slork_Hero_Careful_PingedInferno"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_careful_inferno_01_ping_2d"
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_Hero_Careful_PingedInferno"
+										m_Requirements = 
+										[
+											"PingedInferno",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_Hero_Careful_PingedGigawatt"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_careful_gigawatt_01_ping_2d"
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_Hero_Careful_PingedGigawatt"
+										m_Requirements = 
+										[
+											"PingedGigawatt",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_Hero_Careful_PingedHornet"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_careful_hornet_01_ping_2d"
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_Hero_Careful_PingedHornet"
+										m_Requirements = 
+										[
+											"PingedHornet",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_Hero_Careful_PingedGhost"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_careful_ghost_01_ping_2d"
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_Hero_Careful_PingedGhost"
+										m_Requirements = 
+										[
+											"PingedGhost",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_Hero_Careful_PingedAtlas"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_careful_atlas_01_ping_2d"
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_Hero_Careful_PingedAtlas"
+										m_Requirements = 
+										[
+											"PingedAtlas",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_Hero_Careful_PingedWraith"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_careful_wraith_01_ping_2d"
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_Hero_Careful_PingedWraith"
+										m_Requirements = 
+										[
+											"PingedWraith",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_Hero_Careful_PingedForge"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_careful_forge_01_ping_2d"
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_Hero_Careful_PingedForge"
+										m_Requirements = 
+										[
+											"PingedForge",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_Hero_Careful_PingedChrono"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_careful_chrono_01_ping_2d"
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_Hero_Careful_PingedChrono"
+										m_Requirements = 
+										[
+											"PingedChrono",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_Hero_Careful_PingedDynamo"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_careful_dynamo_01_ping_2d"
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_Hero_Careful_PingedDynamo"
+										m_Requirements = 
+										[
+											"PingedDynamo",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_Hero_Careful_PingedKelvin"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_careful_kelvin_01_ping_2d"
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_Hero_Careful_PingedKelvin"
+										m_Requirements = 
+										[
+											"PingedKelvin",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_Hero_Careful_PingedHaze"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_careful_haze_01_ping_2d"
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_Hero_Careful_PingedHaze"
+										m_Requirements = 
+										[
+											"PingedHaze",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_Hero_Careful_PingedAstro"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_careful_astro_01_ping_2d"
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_Hero_Careful_PingedAstro"
+										m_Requirements = 
+										[
+											"PingedAstro",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_Hero_Careful_PingedBebop"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_careful_bebop_01_ping_2d"
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_Hero_Careful_PingedBebop"
+										m_Requirements = 
+										[
+											"PingedBebop",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_Hero_Careful_PingedNano"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_careful_nano_01_ping_2d"
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_Hero_Careful_PingedNano"
+										m_Requirements = 
+										[
+											"PingedNano",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_Hero_Careful_PingedOrion"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_careful_orion_01_ping_2d"
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_Hero_Careful_PingedOrion"
+										m_Requirements = 
+										[
+											"PingedOrion",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_Hero_Careful_PingedKrill"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_careful_krill_01_ping_2d"
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_Hero_Careful_PingedKrill"
+										m_Requirements = 
+										[
+											"PingedKrill",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_Hero_Careful_PingedShiv"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_careful_shiv_01_ping_2d"
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_Hero_Careful_PingedShiv"
+										m_Requirements = 
+										[
+											"PingedShiv",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_Hero_Careful_PingedWarden"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_careful_warden_01_ping_2d"
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_Hero_Careful_PingedWarden"
+										m_Requirements = 
+										[
+											"PingedWarden",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_Hero_Careful_PingedYamato"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_careful_yamato_01_ping_2d"
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_Hero_Careful_PingedYamato"
+										m_Requirements = 
+										[
+											"PingedYamato",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_Hero_Careful_PingedLash"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_careful_lash_01_ping_2d"
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_Hero_Careful_PingedLash"
+										m_Requirements = 
+										[
+											"PingedLash",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_Hero_Careful_PingedViscous"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_careful_viscous_01_ping_2d"
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_Hero_Careful_PingedViscous"
+										m_Requirements = 
+										[
+											"PingedViscous",
+										]
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Hero_Careful"
+								m_Requirements = 
+								[
+									"ConceptPingedTeammate",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_Missing_Enemy_Hero"
+							m_children = 
+							[
+								
+								{
+									m_name = "Slork_Missing_Enemy_Hero_PingedInferno"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_inferno_missing_01_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_Missing_Enemy_Hero_PingedInferno"
+										m_Requirements = 
+										[
+											"PingedInferno",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_Missing_Enemy_Hero_PingedGigawatt"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_gigawatt_missing_01_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_Missing_Enemy_Hero_PingedGigawatt"
+										m_Requirements = 
+										[
+											"PingedGigawatt",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_Missing_Enemy_Hero_PingedHornet"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_hornet_missing_01_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_Missing_Enemy_Hero_PingedHornet"
+										m_Requirements = 
+										[
+											"PingedHornet",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_Missing_Enemy_Hero_PingedGhost"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_ghost_missing_01_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_Missing_Enemy_Hero_PingedGhost"
+										m_Requirements = 
+										[
+											"PingedGhost",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_Missing_Enemy_Hero_PingedAtlas"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_atlas_missing_01_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_Missing_Enemy_Hero_PingedAtlas"
+										m_Requirements = 
+										[
+											"PingedAtlas",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_Missing_Enemy_Hero_PingedWraith"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_wraith_missing_01_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_Missing_Enemy_Hero_PingedWraith"
+										m_Requirements = 
+										[
+											"PingedWraith",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_Missing_Enemy_Hero_PingedForge"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_forge_missing_01_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_Missing_Enemy_Hero_PingedForge"
+										m_Requirements = 
+										[
+											"PingedForge",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_Missing_Enemy_Hero_PingedChrono"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_chrono_missing_01_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_Missing_Enemy_Hero_PingedChrono"
+										m_Requirements = 
+										[
+											"PingedChrono",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_Missing_Enemy_Hero_PingedDynamo"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_dynamo_missing_01_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_Missing_Enemy_Hero_PingedDynamo"
+										m_Requirements = 
+										[
+											"PingedDynamo",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_Missing_Enemy_Hero_PingedKelvin"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_kelvin_missing_01_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_Missing_Enemy_Hero_PingedKelvin"
+										m_Requirements = 
+										[
+											"PingedKelvin",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_Missing_Enemy_Hero_PingedHaze"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_haze_missing_01_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_Missing_Enemy_Hero_PingedHaze"
+										m_Requirements = 
+										[
+											"PingedHaze",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_Missing_Enemy_Hero_PingedAstro"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_astro_missing_01_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_Missing_Enemy_Hero_PingedAstro"
+										m_Requirements = 
+										[
+											"PingedAstro",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_Missing_Enemy_Hero_PingedBebop"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_bebop_missing_01_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_Missing_Enemy_Hero_PingedBebop"
+										m_Requirements = 
+										[
+											"PingedBebop",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_Missing_Enemy_Hero_PingedNano"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_nano_missing_01_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_Missing_Enemy_Hero_PingedNano"
+										m_Requirements = 
+										[
+											"PingedNano",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_Missing_Enemy_Hero_PingedOrion"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_orion_missing_01_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_Missing_Enemy_Hero_PingedOrion"
+										m_Requirements = 
+										[
+											"PingedOrion",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_Missing_Enemy_Hero_PingedKrill"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_krill_missing_01_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_Missing_Enemy_Hero_PingedKrill"
+										m_Requirements = 
+										[
+											"PingedKrill",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_Missing_Enemy_Hero_PingedShiv"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_shiv_missing_01_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_Missing_Enemy_Hero_PingedShiv"
+										m_Requirements = 
+										[
+											"PingedShiv",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_Missing_Enemy_Hero_PingedWarden"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_warden_missing_01_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_Missing_Enemy_Hero_PingedWarden"
+										m_Requirements = 
+										[
+											"PingedWarden",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_Missing_Enemy_Hero_PingedYamato"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_yamato_missing_01_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_Missing_Enemy_Hero_PingedYamato"
+										m_Requirements = 
+										[
+											"PingedYamato",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_Missing_Enemy_Hero_PingedLash"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_lash_missing_01_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_Missing_Enemy_Hero_PingedLash"
+										m_Requirements = 
+										[
+											"PingedLash",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_Missing_Enemy_Hero_PingedViscous"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_viscous_missing_01_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_Missing_Enemy_Hero_PingedViscous"
+										m_Requirements = 
+										[
+											"PingedViscous",
+										]
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Missing_Enemy_Hero"
+								m_Requirements = 
+								[
+									"ConceptMissing",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_See_Hero"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_ping_see_enemy_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+							]
+							m_children = 
+							[
+								
+								{
+									m_name = "Slork_See_Hero_PingedInferno"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_inferno_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_PingedInferno"
+										m_Requirements = 
+										[
+											"PingedInferno",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_PingedGigawatt"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_gigawatt_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_PingedGigawatt"
+										m_Requirements = 
+										[
+											"PingedGigawatt",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_PingedHornet"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_hornet_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_PingedHornet"
+										m_Requirements = 
+										[
+											"PingedHornet",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_PingedGhost"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_ghost_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_PingedGhost"
+										m_Requirements = 
+										[
+											"PingedGhost",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_PingedAtlas"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_atlas_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_PingedAtlas"
+										m_Requirements = 
+										[
+											"PingedAtlas",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_PingedWraith"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_wraith_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_PingedWraith"
+										m_Requirements = 
+										[
+											"PingedWraith",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_PingedForge"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_forge_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_PingedForge"
+										m_Requirements = 
+										[
+											"PingedForge",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_PingedChrono"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_chrono_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_PingedChrono"
+										m_Requirements = 
+										[
+											"PingedChrono",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_PingedDynamo"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_dynamo_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_PingedDynamo"
+										m_Requirements = 
+										[
+											"PingedDynamo",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_PingedKelvin"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_kelvin_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_PingedKelvin"
+										m_Requirements = 
+										[
+											"PingedKelvin",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_PingedHaze"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_haze_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_PingedHaze"
+										m_Requirements = 
+										[
+											"PingedHaze",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_PingedAstro"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_astro_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_PingedAstro"
+										m_Requirements = 
+										[
+											"PingedAstro",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_PingedBebop"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_bebop_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_PingedBebop"
+										m_Requirements = 
+										[
+											"PingedBebop",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_PingedNano"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_nano_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_PingedNano"
+										m_Requirements = 
+										[
+											"PingedNano",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_PingedOrion"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_orion_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_PingedOrion"
+										m_Requirements = 
+										[
+											"PingedOrion",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_PingedKrill"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_krill_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_PingedKrill"
+										m_Requirements = 
+										[
+											"PingedKrill",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_PingedShiv"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_shiv_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_PingedShiv"
+										m_Requirements = 
+										[
+											"PingedShiv",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_PingedWarden"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_warden_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_PingedWarden"
+										m_Requirements = 
+										[
+											"PingedWarden",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_PingedYamato"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_yamato_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_PingedYamato"
+										m_Requirements = 
+										[
+											"PingedYamato",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_PingedLash"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_lash_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_PingedLash"
+										m_Requirements = 
+										[
+											"PingedLash",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_PingedViscous"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_viscous_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_PingedViscous"
+										m_Requirements = 
+										[
+											"PingedViscous",
+										]
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_See_Hero"
+								m_Requirements = 
+								[
+									"ConceptPingedEnemyPlayer",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_See_Hero_On_Roof"
+							m_children = 
+							[
+								
+								{
+									m_name = "Slork_See_Hero_On_Roof_PingedInferno"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_inferno_on_roof_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_On_Roof_PingedInferno"
+										m_Requirements = 
+										[
+											"PingedInferno",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_On_Roof_PingedGigawatt"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_gigawatt_on_roof_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_On_Roof_PingedGigawatt"
+										m_Requirements = 
+										[
+											"PingedGigawatt",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_On_Roof_PingedHornet"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_hornet_on_roof_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_On_Roof_PingedHornet"
+										m_Requirements = 
+										[
+											"PingedHornet",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_On_Roof_PingedGhost"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_ghost_on_roof_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_On_Roof_PingedGhost"
+										m_Requirements = 
+										[
+											"PingedGhost",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_On_Roof_PingedAtlas"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_atlas_on_roof_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_On_Roof_PingedAtlas"
+										m_Requirements = 
+										[
+											"PingedAtlas",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_On_Roof_PingedWraith"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_wraith_on_roof_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_On_Roof_PingedWraith"
+										m_Requirements = 
+										[
+											"PingedWraith",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_On_Roof_PingedForge"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_forge_on_roof_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_On_Roof_PingedForge"
+										m_Requirements = 
+										[
+											"PingedForge",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_On_Roof_PingedChrono"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_chrono_on_roof_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_On_Roof_PingedChrono"
+										m_Requirements = 
+										[
+											"PingedChrono",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_On_Roof_PingedDynamo"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_dynamo_on_roof_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_On_Roof_PingedDynamo"
+										m_Requirements = 
+										[
+											"PingedDynamo",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_On_Roof_PingedKelvin"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_kelvin_on_roof_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_On_Roof_PingedKelvin"
+										m_Requirements = 
+										[
+											"PingedKelvin",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_On_Roof_PingedHaze"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_haze_on_roof_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_On_Roof_PingedHaze"
+										m_Requirements = 
+										[
+											"PingedHaze",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_On_Roof_PingedAstro"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_astro_on_roof_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_On_Roof_PingedAstro"
+										m_Requirements = 
+										[
+											"PingedAstro",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_On_Roof_PingedBebop"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_bebop_on_roof_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_On_Roof_PingedBebop"
+										m_Requirements = 
+										[
+											"PingedBebop",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_On_Roof_PingedNano"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_nano_on_roof_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_On_Roof_PingedNano"
+										m_Requirements = 
+										[
+											"PingedNano",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_On_Roof_PingedOrion"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_orion_on_roof_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_On_Roof_PingedOrion"
+										m_Requirements = 
+										[
+											"PingedOrion",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_On_Roof_PingedKrill"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_krill_on_roof_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_On_Roof_PingedKrill"
+										m_Requirements = 
+										[
+											"PingedKrill",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_On_Roof_PingedShiv"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_shiv_on_roof_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_On_Roof_PingedShiv"
+										m_Requirements = 
+										[
+											"PingedShiv",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_On_Roof_PingedWarden"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_warden_on_roof_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_On_Roof_PingedWarden"
+										m_Requirements = 
+										[
+											"PingedWarden",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_On_Roof_PingedYamato"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_yamato_on_roof_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_On_Roof_PingedYamato"
+										m_Requirements = 
+										[
+											"PingedYamato",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_On_Roof_PingedLash"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_lash_on_roof_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_On_Roof_PingedLash"
+										m_Requirements = 
+										[
+											"PingedLash",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_On_Roof_PingedViscous"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_viscous_on_roof_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_On_Roof_PingedViscous"
+										m_Requirements = 
+										[
+											"PingedViscous",
+										]
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_See_Hero_On_Roof"
+								m_Requirements = 
+								[
+									"ConceptPingedEnemyPlayer",
+									"PlayerOnRoof",
+								]
+							}
+						},
+						
+						{
+							m_name = "Slork_See_Hero_On_Bridge"
+							m_children = 
+							[
+								
+								{
+									m_name = "Slork_See_Hero_On_Bridge_PingedInferno"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_inferno_on_bridge_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_On_Bridge_PingedInferno"
+										m_Requirements = 
+										[
+											"PingedInferno",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_On_Bridge_PingedGigawatt"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_gigawatt_on_bridge_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_On_Bridge_PingedGigawatt"
+										m_Requirements = 
+										[
+											"PingedGigawatt",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_On_Bridge_PingedHornet"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_hornet_on_bridge_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_On_Bridge_PingedHornet"
+										m_Requirements = 
+										[
+											"PingedHornet",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_On_Bridge_PingedGhost"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_ghost_on_bridge_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_On_Bridge_PingedGhost"
+										m_Requirements = 
+										[
+											"PingedGhost",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_On_Bridge_PingedAtlas"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_atlas_on_bridge_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_On_Bridge_PingedAtlas"
+										m_Requirements = 
+										[
+											"PingedAtlas",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_On_Bridge_PingedWraith"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_wraith_on_bridge_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_On_Bridge_PingedWraith"
+										m_Requirements = 
+										[
+											"PingedWraith",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_On_Bridge_PingedForge"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_forge_on_bridge_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_On_Bridge_PingedForge"
+										m_Requirements = 
+										[
+											"PingedForge",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_On_Bridge_PingedChrono"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_chrono_on_bridge_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_On_Bridge_PingedChrono"
+										m_Requirements = 
+										[
+											"PingedChrono",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_On_Bridge_PingedDynamo"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_dynamo_on_bridge_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_On_Bridge_PingedDynamo"
+										m_Requirements = 
+										[
+											"PingedDynamo",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_On_Bridge_PingedKelvin"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_kelvin_on_bridge_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_On_Bridge_PingedKelvin"
+										m_Requirements = 
+										[
+											"PingedKelvin",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_On_Bridge_PingedHaze"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_haze_on_bridge_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_On_Bridge_PingedHaze"
+										m_Requirements = 
+										[
+											"PingedHaze",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_On_Bridge_PingedAstro"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_astro_on_bridge_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_On_Bridge_PingedAstro"
+										m_Requirements = 
+										[
+											"PingedAstro",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_On_Bridge_PingedBebop"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_bebop_on_bridge_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_On_Bridge_PingedBebop"
+										m_Requirements = 
+										[
+											"PingedBebop",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_On_Bridge_PingedNano"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_nano_on_bridge_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_On_Bridge_PingedNano"
+										m_Requirements = 
+										[
+											"PingedNano",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_On_Bridge_PingedOrion"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_orion_on_bridge_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_On_Bridge_PingedOrion"
+										m_Requirements = 
+										[
+											"PingedOrion",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_On_Bridge_PingedKrill"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_krill_on_bridge_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_On_Bridge_PingedKrill"
+										m_Requirements = 
+										[
+											"PingedKrill",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_On_Bridge_PingedShiv"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_shiv_on_bridge_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_On_Bridge_PingedShiv"
+										m_Requirements = 
+										[
+											"PingedShiv",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_On_Bridge_PingedWarden"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_warden_on_bridge_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_On_Bridge_PingedWarden"
+										m_Requirements = 
+										[
+											"PingedWarden",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_On_Bridge_PingedYamato"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_yamato_on_bridge_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_On_Bridge_PingedYamato"
+										m_Requirements = 
+										[
+											"PingedYamato",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_On_Bridge_PingedLash"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_lash_on_bridge_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_On_Bridge_PingedLash"
+										m_Requirements = 
+										[
+											"PingedLash",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_See_Hero_On_Bridge_PingedViscous"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_see_viscous_on_bridge_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_See_Hero_On_Bridge_PingedViscous"
+										m_Requirements = 
+										[
+											"PingedViscous",
+										]
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_See_Hero_On_Bridge"
+								m_Requirements = 
+								[
+									"ConceptPingedEnemyPlayer",
+									"PlayerOnBridge",
+								]
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_Requirements = 
+						[
+							"ConceptPing",
+						]
+					}
+				},
+				
+				{
+					m_name = "Slork_Defend_Base"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_ping_defend_base_01_ping_2d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Slork_Defend_Base"
+						m_Requirements = 
+						[
+							"ConceptDefendLane",
+							"IsFinalObjective",
+						]
+					}
+				},
+				
+				{
+					m_name = "Slork_Defend_Titan"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_ping_titan_under_attack_ping_2d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Slork_Defend_Titan"
+						m_Requirements = 
+						[
+							"ConceptDefendLane",
+							"TargetIsTier3Boss",
+						]
+					}
+				},
+				
+				{
+					m_children = 
+					[
+						
+						{
+							m_children = 
+							[
+								
+								{
+									m_name = "Slork_General_Observe_Three_Enemies_Affected_TEST"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_nice_work_01_ping_2d"
+											m_params = 
+											{
+												m_respeakdelay.start = 15.000000
+												m_predelay.start = 3.000000
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_General_Observe_Three_Enemies_Affected_TEST"
+										m_Requirements = 
+										[
+											"Affected3Players",
+										]
+									}
+								},
+								
+								{
+									m_name = "Slork_General_Observe_Three_Enemies_Killed_TEST"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "rr_test_26_ping_nice_work_01_ping_2d"
+											m_params = 
+											{
+												m_respeakdelay.start = 15.000000
+												m_predelay.start = 3.000000
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Slork_General_Observe_Three_Enemies_Killed_TEST"
+										m_Requirements = 
+										[
+											"Killed3Players",
+										]
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_Requirements = 
+								[
+									"IsCasterAlly",
+								]
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_Requirements = 
+						[
+							"ConceptObserveCastFinish",
+						]
+					}
+				},
+				
+				{
+					m_name = "Slork_Assists"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_congrats_01_hero_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 60.000000
+								m_predelay.start = 4.000000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_congrats_01_alt_01_hero_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 60.000000
+								m_predelay.start = 4.000000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_congrats_02_hero_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 60.000000
+								m_predelay.start = 4.000000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_congrats_03_hero_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 60.000000
+								m_predelay.start = 4.000000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_congrats_04_hero_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 60.000000
+								m_predelay.start = 4.000000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_congrats_05_hero_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 60.000000
+								m_predelay.start = 4.000000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "rr_test_26_congrats_05_alt_01_hero_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 60.000000
+								m_predelay.start = 4.000000
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Slork_Assists"
+						m_Requirements = 
+						[
+							"ConceptKillAssist",
+						]
+						m_recipientFilter = "nearby_allies_and_spectators"
+					}
+				},
+				
+				{
+					m_children = 
+					[
+						
+						{
+							m_name = "Slork_Close_Call"
+							m_bDisabled = true
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_close_call_01_hero_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+									}
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_close_call_02_hero_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+									}
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_close_call_03_hero_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+									}
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_close_call_04_hero_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+									}
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_close_call_05_hero_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Close_Call"
+								m_bDisabled = true
+								m_Requirements = 
+								[
+									"IsHealthLowerThan10Percent",
+									"IsRecentDamageUnder1Percent",
+									"IsDamageOver10Percent",
+								]
+								m_respeakDelay.start = 30.000000
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_Requirements = 
+						[
+							"ConceptSurvived",
+						]
+					}
+				},
+				
+				{
+					m_children = 
+					[
+						
+						{
+							m_name = "Slork_Observed_Enemy_Near_Miss"
+							m_bDisabled = true
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_near_miss_01_hero_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 30.000000
+									}
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_near_miss_01_alt_01_hero_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 30.000000
+									}
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_near_miss_02_hero_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 30.000000
+									}
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_near_miss_03_hero_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 30.000000
+									}
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_near_miss_04_hero_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 30.000000
+									}
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_near_miss_05_hero_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 30.000000
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Observed_Enemy_Near_Miss"
+								m_bDisabled = true
+								m_Requirements = 
+								[
+									"IsTargetEnemy",
+									"IsRecentDamageUnder1Percent",
+									"IsTargetHealthBelow10Percent",
+									"IsDamageOver10Percent",
+								]
+								m_respeakDelay.start = 30.000000
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_Requirements = 
+						[
+							"ConceptObservedSurvival",
+						]
+					}
+				},
+				
+				{
+					m_children = 
+					[
+						
+						{
+							m_name = "Slork_Be_Careful"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_be_careful_01_hero_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 30.000000
+										m_predelay.start = 0.000000
+									}
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_be_careful_02_hero_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 30.000000
+										m_predelay.start = 0.000000
+									}
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "rr_test_26_be_careful_03_hero_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 30.000000
+										m_predelay.start = 0.000000
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Slork_Be_Careful"
+								m_Requirements = 
+								[
+									"InEnemyTerritoryFor2Seconds",
+									"AwayFromAlliesFor2Seconds",
+									"NoNearbyEnemiesFor2Seconds",
+								]
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_Requirements = 
+						[
+							"ConceptBeCareful",
+						]
+					}
+				},
+			]
+			m_pEmbeddedRule = 
+			{
+				m_Requirements = 
+				[
+					"IsSlork",
+				]
+			}
+		},
+	]
+	m_speakerType = "player"
+	m_actorName = "Slork"
+	m_soundEventActorOverride = "rr_test_26"
+}

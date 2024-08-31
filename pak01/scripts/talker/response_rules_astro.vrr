@@ -1,0 +1,3909 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vrfunknown:version{c1f07085-5299-4e8a-b7e9-1cbb66bbbe23} -->
+{
+	m_Includes = 
+	[
+		"scripts/talker/response_rules_criterion.vrr",
+		"scripts/talker/response_rules_contextual_ping.vrr",
+	]
+	m_SoundEventScripts = 
+	[
+		"soundevents/vo/generated_vo_hero_astro.vsndevts",
+		"soundevents/vo/vo_npc_shopkeeper.vsndevts",
+	]
+	m_ResponseGroups = 
+	[
+		
+		{
+			m_name = "Holliday_Upgrade_Explosive_Barrel"
+			m_notes = "ABILITY RELATED RESPONSES //"
+			m_responses = 
+			[
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_upgrade_power1_02_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_upgrade_power1_03_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_upgrade_power1_04_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_upgrade_power1_05_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_upgrade_power1_06_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_upgrade_power1_07_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_upgrade_power1_08_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_upgrade_power1_09_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_upgrade_power1_10_hero_3d"
+				},
+			]
+			m_pEmbeddedRule = 
+			{
+				m_name = "Holliday_Upgrade_Explosive_Barrel"
+				m_Requirements = 
+				[
+					"IsAstro",
+					"ConceptUpgradeAbility",
+					"IsExplosiveBarrel",
+				]
+			}
+		},
+		
+		{
+			m_name = "Holliday_Use_Explosive_Barrel"
+			m_notes = "ABILITY RELATED RESPONSES //"
+			m_responses = 
+			[
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_use_power1_01_ability_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_use_power1_02_ability_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_use_power1_03_ability_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_use_power1_04_ability_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_use_power1_05_ability_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_use_power1_06_ability_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_use_power1_08_ability_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_use_power1_09_ability_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_use_power1_10_ability_3d"
+				},
+			]
+			m_pEmbeddedRule = 
+			{
+				m_name = "Holliday_Use_Explosive_Barrel"
+				m_Requirements = 
+				[
+					"IsAstro",
+					"ConceptAbilityCast",
+					"IsExplosiveBarrel",
+				]
+			}
+		},
+		
+		{
+			m_name = "Holliday_Upgrade_Bounce_Pad"
+			m_notes = "ABILITY RELATED RESPONSES //"
+			m_responses = 
+			[
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_upgrade_power2_02_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_upgrade_power2_03_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_upgrade_power2_04_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_upgrade_power2_05_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_upgrade_power2_06_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_upgrade_power2_07_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_upgrade_power2_08_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_upgrade_power2_09_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_upgrade_power2_10_hero_3d"
+				},
+			]
+			m_pEmbeddedRule = 
+			{
+				m_name = "Holliday_Upgrade_Bounce_Pad"
+				m_Requirements = 
+				[
+					"IsAstro",
+					"ConceptUpgradeAbility",
+					"IsAbilityBouncePad",
+				]
+			}
+		},
+		
+		{
+			m_name = "Holliday_Use_Bounce_Pad"
+			m_notes = "ABILITY RELATED RESPONSES //"
+			m_responses = 
+			[
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_use_power2_01_ability_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_use_power2_02_ability_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_use_power2_03_ability_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_use_power2_04_ability_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_use_power2_05_ability_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_use_power2_06_ability_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_use_power2_07_ability_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_use_power2_08_ability_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_use_power2_09_ability_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_use_power2_10_ability_3d"
+				},
+			]
+			m_pEmbeddedRule = 
+			{
+				m_name = "Holliday_Use_Bounce_Pad"
+				m_Requirements = 
+				[
+					"IsAstro",
+					"ConceptAbilityCast",
+					"IsAbilityBouncePad",
+				]
+			}
+		},
+		
+		{
+			m_name = "Holliday_Upgrade_Rifle"
+			m_notes = "ABILITY RELATED RESPONSES //"
+			m_responses = 
+			[
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_upgrade_power3_01_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_upgrade_power3_02_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_upgrade_power3_03_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_upgrade_power3_04_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_upgrade_power3_05_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_upgrade_power3_06_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_upgrade_power3_07_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_upgrade_power3_08_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_upgrade_power3_09_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_upgrade_power3_10_hero_3d"
+				},
+			]
+			m_pEmbeddedRule = 
+			{
+				m_name = "Holliday_Upgrade_Rifle"
+				m_Requirements = 
+				[
+					"ConceptUpgradeAbility",
+					"IsAstro",
+					"IsRifle",
+				]
+			}
+		},
+		
+		{
+			m_name = "Holliday_Use_Rifle"
+			m_notes = "ABILITY RELATED RESPONSES //"
+			m_responses = 
+			[
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_use_power3_01_ability_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_use_power3_02_ability_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_use_power3_03_ability_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_use_power3_04_ability_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_use_power3_05_ability_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_use_power3_06_ability_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_use_power3_07_ability_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_use_power3_08_ability_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_use_power3_09_ability_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_use_power3_10_ability_3d"
+				},
+			]
+			m_pEmbeddedRule = 
+			{
+				m_name = "Holliday_Use_Rifle"
+				m_Requirements = 
+				[
+					"ConceptAbilityCast",
+					"IsAstro",
+					"IsRifle",
+				]
+			}
+		},
+		
+		{
+			m_name = "Holliday_Upgrade_Lasso"
+			m_notes = "ABILITY RELATED RESPONSES //"
+			m_responses = 
+			[
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_upgrade_power4_01_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_upgrade_power4_02_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_upgrade_power4_03_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_upgrade_power4_04_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_upgrade_power4_05_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_upgrade_power4_06_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_upgrade_power4_07_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_upgrade_power4_08_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_upgrade_power4_09_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_upgrade_power4_10_hero_3d"
+				},
+			]
+			m_pEmbeddedRule = 
+			{
+				m_name = "Holliday_Upgrade_Lasso"
+				m_Requirements = 
+				[
+					"IsAstro",
+					"ConceptUpgradeAbility",
+					"IsAbilityLasso",
+				]
+			}
+		},
+		
+		{
+			m_name = "Holliday_Use_Lasso"
+			m_notes = "ABILITY RELATED RESPONSES //"
+			m_responses = 
+			[
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_use_power4_01_ult_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_use_power4_02_ult_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_use_power4_03_ult_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_use_power4_04_ult_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_use_power4_05_ult_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_use_power4_06_ult_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_use_power4_07_ult_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_use_power4_08_ult_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_use_power4_09_ult_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "holliday_use_power4_10_ult_3d"
+				},
+			]
+			m_pEmbeddedRule = 
+			{
+				m_name = "Holliday_Use_Lasso"
+				m_Requirements = 
+				[
+					"IsAstro",
+					"ConceptUltimateCast",
+					"IsAbilityLasso",
+				]
+			}
+		},
+		
+		{
+			m_name = "Holliday_Early_Shop"
+			m_notes = "MANUAL SHOPPING LINES //"
+			m_responses = 
+			[
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_early_01"
+					m_params = 
+					{
+						m_bSpeakOnce = true
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_early_02"
+					m_params = 
+					{
+						m_bSpeakOnce = true
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_early_03"
+					m_params = 
+					{
+						m_bSpeakOnce = true
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_early_04"
+					m_params = 
+					{
+						m_bSpeakOnce = true
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_early_05"
+					m_params = 
+					{
+						m_bSpeakOnce = true
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_early_06"
+					m_params = 
+					{
+						m_bSpeakOnce = true
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_early_07"
+					m_params = 
+					{
+						m_bSpeakOnce = true
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_early_08"
+					m_params = 
+					{
+						m_bSpeakOnce = true
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_early_09"
+					m_params = 
+					{
+						m_bSpeakOnce = true
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_early_10"
+					m_params = 
+					{
+						m_bSpeakOnce = true
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_early_11_alt_01"
+					m_params = 
+					{
+						m_bSpeakOnce = true
+					}
+				},
+			]
+			m_pEmbeddedRule = 
+			{
+				m_name = "Holliday_Early_Shop"
+				m_Requirements = 
+				[
+					"IsAstro",
+					"ConceptOpenShop",
+					"CanBuy",
+					"IsAfter1Minute",
+					"IsBefore6Minute",
+				]
+			}
+		},
+		
+		{
+			m_name = "Holliday_Upgrade_Weapon"
+			m_notes = "MANUAL SHOPPING LINES //"
+			m_responses = 
+			[
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_gun_01"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_gun_02"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_gun_03"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_gun_04"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_gun_05"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_gun_06"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_gun_07"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_gun_08"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_gun_09"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_gun_10"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_gun_11"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_gun_12"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_gun_13"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_gun_14"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_gun_15"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_holliday_buy_01"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_holliday_buy_02"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_holliday_buy_03"
+				},
+			]
+			m_pEmbeddedRule = 
+			{
+				m_name = "Holliday_Upgrade_Weapon"
+				m_Requirements = 
+				[
+					"IsAstro",
+					"ConceptBuyUpgrade",
+					"UpgradeWeapon",
+				]
+			}
+		},
+		
+		{
+			m_name = "Holliday_Upgrade_Armor"
+			m_notes = "MANUAL SHOPPING LINES //"
+			m_responses = 
+			[
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_armor_01"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_armor_02"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_armor_03"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_armor_04"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_armor_05"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_armor_06"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_armor_07"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_armor_08"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_armor_09"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_armor_10"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_armor_11"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_armor_12"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_armor_13"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_armor_14"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_armor_15"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_holliday_buy_01"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_holliday_buy_02"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_holliday_buy_03"
+				},
+			]
+			m_pEmbeddedRule = 
+			{
+				m_name = "Holliday_Upgrade_Armor"
+				m_Requirements = 
+				[
+					"IsAstro",
+					"ConceptBuyUpgrade",
+					"UpgradeArmor",
+				]
+			}
+		},
+		
+		{
+			m_name = "Holliday_Upgrade_Tech_Or_Utility"
+			m_notes = "MANUAL SHOPPING LINES //"
+			m_responses = 
+			[
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_tech_01"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_tech_02"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_tech_03"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_tech_04"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_tech_05"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_tech_06"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_tech_07"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_tech_08"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_tech_09"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_tech_10"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_tech_11"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_tech_12"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_tech_13"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_tech_14"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_tech_15"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_holliday_buy_01"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_holliday_buy_02"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_holliday_buy_03"
+				},
+			]
+			m_pEmbeddedRule = 
+			{
+				m_name = "Holliday_Upgrade_Tech_Or_Utility"
+				m_Requirements = 
+				[
+					"IsAstro",
+					"ConceptBuyUpgrade",
+				]
+			}
+		},
+		
+		{
+			m_name = "Holliday_Pregame_Banter_Teammate"
+			m_notes = "PREGAME CHATWHEEL TEST //"
+			m_bDisabled = true
+			m_children = 
+			[
+				
+				{
+					m_name = "Holliday_Pregame_Banter_Teammate_PingedHaze"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_07_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_08_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_05_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_08_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_10_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Holliday_Pregame_Banter_Teammate_PingedHaze"
+						m_Requirements = 
+						[
+							"PingedHaze",
+						]
+					}
+				},
+				
+				{
+					m_name = "Holliday_Pregame_Banter_Teammate_PingedBebop"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_07_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_08_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_05_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_08_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_10_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Holliday_Pregame_Banter_Teammate_PingedBebop"
+						m_Requirements = 
+						[
+							"PingedBebop",
+						]
+					}
+				},
+				
+				{
+					m_name = "Holliday_Pregame_Banter_Teammate_PingedShiv"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_07_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_08_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_05_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_08_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_10_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Holliday_Pregame_Banter_Teammate_PingedShiv"
+						m_Requirements = 
+						[
+							"PingedShiv",
+						]
+					}
+				},
+				
+				{
+					m_name = "Holliday_Pregame_Banter_Teammate_PingedForge"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_07_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_08_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_05_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_08_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_10_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_assist_forge_01_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_assist_forge_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Holliday_Pregame_Banter_Teammate_PingedForge"
+						m_Requirements = 
+						[
+							"PingedForge",
+						]
+					}
+				},
+				
+				{
+					m_name = "Holliday_Pregame_Banter_Teammate_PingedAtlas"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_07_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_08_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_05_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_08_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_10_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Holliday_Pregame_Banter_Teammate_PingedAtlas"
+						m_Requirements = 
+						[
+							"PingedAtlas",
+						]
+					}
+				},
+				
+				{
+					m_name = "Holliday_Pregame_Banter_Teammate_PingedWrecker"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_07_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_08_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_05_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_08_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_10_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Holliday_Pregame_Banter_Teammate_PingedWrecker"
+						m_Requirements = 
+						[
+							"PingedWrecker",
+						]
+					}
+				},
+				
+				{
+					m_name = "Holliday_Pregame_Banter_Teammate_PingedKelvin"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_07_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_08_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_05_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_08_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_10_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Holliday_Pregame_Banter_Teammate_PingedKelvin"
+						m_Requirements = 
+						[
+							"PingedKelvin",
+						]
+					}
+				},
+				
+				{
+					m_name = "Holliday_Pregame_Banter_Teammate_PingedViscous"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_07_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_08_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_05_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_08_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_10_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Holliday_Pregame_Banter_Teammate_PingedViscous"
+						m_Requirements = 
+						[
+							"PingedViscous",
+						]
+					}
+				},
+				
+				{
+					m_name = "Holliday_Pregame_Banter_Teammate_PingedKrill"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_07_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_08_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_05_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_08_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_10_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Holliday_Pregame_Banter_Teammate_PingedKrill"
+						m_Requirements = 
+						[
+							"PingedKrill",
+						]
+					}
+				},
+				
+				{
+					m_name = "Holliday_Pregame_Banter_Teammate_PingedWraith"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_07_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_08_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_05_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_08_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_10_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Holliday_Pregame_Banter_Teammate_PingedWraith"
+						m_Requirements = 
+						[
+							"PingedWraith",
+						]
+					}
+				},
+				
+				{
+					m_name = "Holliday_Pregame_Banter_Teammate_PingedLash"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_07_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_08_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_05_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_08_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_10_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Holliday_Pregame_Banter_Teammate_PingedLash"
+						m_Requirements = 
+						[
+							"PingedLash",
+						]
+					}
+				},
+				
+				{
+					m_name = "Holliday_Pregame_Banter_Teammate_PingedInferno"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_07_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_08_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_05_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_08_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_10_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Holliday_Pregame_Banter_Teammate_PingedInferno"
+						m_Requirements = 
+						[
+							"PingedInferno",
+						]
+					}
+				},
+				
+				{
+					m_name = "Holliday_Pregame_Banter_Teammate_PingedChrono"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_07_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_08_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_05_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_08_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_10_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Holliday_Pregame_Banter_Teammate_PingedChrono"
+						m_Requirements = 
+						[
+							"PingedChrono",
+						]
+					}
+				},
+				
+				{
+					m_name = "Holliday_Pregame_Banter_Teammate_PingedHornet"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_07_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_08_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_05_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_08_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_10_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Holliday_Pregame_Banter_Teammate_PingedHornet"
+						m_Requirements = 
+						[
+							"PingedHornet",
+						]
+					}
+				},
+				
+				{
+					m_name = "Holliday_Pregame_Banter_Teammate_PingedGigawatt"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_07_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_08_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_05_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_08_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_10_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Holliday_Pregame_Banter_Teammate_PingedGigawatt"
+						m_Requirements = 
+						[
+							"PingedGigawatt",
+						]
+					}
+				},
+				
+				{
+					m_name = "Holliday_Pregame_Banter_Teammate_PingedDynamo"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_07_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_08_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_05_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_08_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_10_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Holliday_Pregame_Banter_Teammate_PingedDynamo"
+						m_Requirements = 
+						[
+							"PingedDynamo",
+						]
+					}
+				},
+				
+				{
+					m_name = "Holliday_Pregame_Banter_Teammate_PingedWarden"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_07_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_08_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_05_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_08_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_10_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Holliday_Pregame_Banter_Teammate_PingedWarden"
+						m_Requirements = 
+						[
+							"PingedWarden",
+						]
+					}
+				},
+				
+				{
+					m_name = "Holliday_Pregame_Banter_Teammate_PingedGhost"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_07_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_08_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_05_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_08_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_10_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Holliday_Pregame_Banter_Teammate_PingedGhost"
+						m_Requirements = 
+						[
+							"PingedGhost",
+						]
+					}
+				},
+				
+				{
+					m_name = "Holliday_Pregame_Banter_Teammate_PingedOrion"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_07_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_08_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_05_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_08_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_10_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Holliday_Pregame_Banter_Teammate_PingedOrion"
+						m_Requirements = 
+						[
+							"PingedOrion",
+						]
+					}
+				},
+				
+				{
+					m_name = "Holliday_Pregame_Banter_Teammate_PingedYamato"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_07_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_08_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_05_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_08_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_10_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Holliday_Pregame_Banter_Teammate_PingedYamato"
+						m_Requirements = 
+						[
+							"PingedYamato",
+						]
+					}
+				},
+				
+				{
+					m_name = "Holliday_Pregame_Banter_Teammate_PingedNano"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_07_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_08_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_happy_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_05_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_08_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_start_match_10_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Holliday_Pregame_Banter_Teammate_PingedNano"
+						m_Requirements = 
+						[
+							"PingedNano",
+						]
+					}
+				},
+			]
+			m_pEmbeddedRule = 
+			{
+				m_name = "Holliday_Pregame_Banter_Teammate"
+				m_bDisabled = true
+				m_Requirements = 
+				[
+					"IsAstro",
+					"ConceptChatWheel",
+					"ChatWheelPregame",
+					"PingedTeammate",
+				]
+			}
+		},
+		
+		{
+			m_name = "Holliday_Pregame_Banter_Enemy"
+			m_notes = "PREGAME CHATWHEEL TEST //"
+			m_bDisabled = true
+			m_children = 
+			[
+				
+				{
+					m_name = "Holliday_Pregame_Banter_Enemy_PingedHaze"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_kill_haze_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_kill_haze_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_kill_haze_05_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Holliday_Pregame_Banter_Enemy_PingedHaze"
+						m_Requirements = 
+						[
+							"PingedHaze",
+						]
+					}
+				},
+				
+				{
+					m_name = "Holliday_Pregame_Banter_Enemy_PingedBebop"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_kill_bebop_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_kill_bebop_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_killstreak_start_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Holliday_Pregame_Banter_Enemy_PingedBebop"
+						m_Requirements = 
+						[
+							"PingedBebop",
+						]
+					}
+				},
+				
+				{
+					m_name = "Holliday_Pregame_Banter_Enemy_PingedShiv"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_kill_shiv_01_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_kill_shiv_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_kill_shiv_05_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Holliday_Pregame_Banter_Enemy_PingedShiv"
+						m_Requirements = 
+						[
+							"PingedShiv",
+						]
+					}
+				},
+				
+				{
+					m_name = "Holliday_Pregame_Banter_Enemy_PingedKelvin"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_kill_kelvin_05_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_kill_kelvin_01_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_killstreak_high_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Holliday_Pregame_Banter_Enemy_PingedKelvin"
+						m_Requirements = 
+						[
+							"PingedKelvin",
+						]
+					}
+				},
+				
+				{
+					m_name = "Holliday_Pregame_Banter_Enemy_PingedAtlas"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_kill_atlas_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_kill_atlas_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_parry_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Holliday_Pregame_Banter_Enemy_PingedAtlas"
+						m_Requirements = 
+						[
+							"PingedAtlas",
+						]
+					}
+				},
+				
+				{
+					m_name = "Holliday_Pregame_Banter_Enemy_PingedWrecker"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_kill_butcher_05_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_killstreak_high_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_killstreak_start_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Holliday_Pregame_Banter_Enemy_PingedWrecker"
+						m_Requirements = 
+						[
+							"PingedWrecker",
+						]
+					}
+				},
+				
+				{
+					m_name = "Holliday_Pregame_Banter_Enemy_PingedForge"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_kill_forge_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_kill_forge_05_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_killed_by_forge_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Holliday_Pregame_Banter_Enemy_PingedForge"
+						m_Requirements = 
+						[
+							"PingedForge",
+						]
+					}
+				},
+				
+				{
+					m_name = "Holliday_Pregame_Banter_Enemy_PingedViscous"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_kill_viscous_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_kill_viscous_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_killstreak_start_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Holliday_Pregame_Banter_Enemy_PingedViscous"
+						m_Requirements = 
+						[
+							"PingedViscous",
+						]
+					}
+				},
+				
+				{
+					m_name = "Holliday_Pregame_Banter_Enemy_PingedKrill"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_killstreak_high_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_killstreak_start_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_parry_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Holliday_Pregame_Banter_Enemy_PingedKrill"
+						m_Requirements = 
+						[
+							"PingedKrill",
+						]
+					}
+				},
+				
+				{
+					m_name = "Holliday_Pregame_Banter_Enemy_PingedLash"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_kill_lash_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_kill_lash_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_kill_lash_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Holliday_Pregame_Banter_Enemy_PingedLash"
+						m_Requirements = 
+						[
+							"PingedLash",
+						]
+					}
+				},
+				
+				{
+					m_name = "Holliday_Pregame_Banter_Enemy_PingedInferno"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_kill_inferno_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_kill_inferno_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_kill_inferno_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Holliday_Pregame_Banter_Enemy_PingedInferno"
+						m_Requirements = 
+						[
+							"PingedInferno",
+						]
+					}
+				},
+				
+				{
+					m_name = "Holliday_Pregame_Banter_Enemy_PingedChrono"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_kill_chrono_01_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_kill_chrono_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_kill_chrono_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Holliday_Pregame_Banter_Enemy_PingedChrono"
+						m_Requirements = 
+						[
+							"PingedChrono",
+						]
+					}
+				},
+				
+				{
+					m_name = "Holliday_Pregame_Banter_Enemy_PingedHornet"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_kill_hornet_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_kill_hornet_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_kill_hornet_05_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Holliday_Pregame_Banter_Enemy_PingedHornet"
+						m_Requirements = 
+						[
+							"PingedHornet",
+						]
+					}
+				},
+				
+				{
+					m_name = "Holliday_Pregame_Banter_Enemy_PingedGigawatt"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_kill_gigawatt_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_kill_gigawatt_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_kill_gigawatt_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_kill_gigawatt_05_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Holliday_Pregame_Banter_Enemy_PingedGigawatt"
+						m_Requirements = 
+						[
+							"PingedGigawatt",
+						]
+					}
+				},
+				
+				{
+					m_name = "Holliday_Pregame_Banter_Enemy_PingedDynamo"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_kill_dynamo_01_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_kill_dynamo_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_kill_dynamo_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_kill_dynamo_05_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Holliday_Pregame_Banter_Enemy_PingedDynamo"
+						m_Requirements = 
+						[
+							"PingedDynamo",
+						]
+					}
+				},
+				
+				{
+					m_name = "Holliday_Pregame_Banter_Enemy_PingedWarden"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_kill_warden_01_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_kill_warden_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_kill_warden_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_kill_warden_05_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Holliday_Pregame_Banter_Enemy_PingedWarden"
+						m_Requirements = 
+						[
+							"PingedWarden",
+						]
+					}
+				},
+				
+				{
+					m_name = "Holliday_Pregame_Banter_Enemy_PingedGhost"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_kill_ghost_01_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_kill_ghost_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_killstreak_start_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Holliday_Pregame_Banter_Enemy_PingedGhost"
+						m_Requirements = 
+						[
+							"PingedGhost",
+						]
+					}
+				},
+				
+				{
+					m_name = "Holliday_Pregame_Banter_Enemy_PingedOrion"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_kill_orion_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_kill_orion_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_kill_orion_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Holliday_Pregame_Banter_Enemy_PingedOrion"
+						m_Requirements = 
+						[
+							"PingedOrion",
+						]
+					}
+				},
+				
+				{
+					m_name = "Holliday_Pregame_Banter_Enemy_PingedNano"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_kill_nano_01_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_kill_nano_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_kill_nano_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Holliday_Pregame_Banter_Enemy_PingedNano"
+						m_Requirements = 
+						[
+							"PingedNano",
+						]
+					}
+				},
+				
+				{
+					m_name = "Holliday_Pregame_Banter_Enemy_PingedYamato"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_kill_yamato_01_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_killstreak_high_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_killstreak_start_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Holliday_Pregame_Banter_Enemy_PingedYamato"
+						m_Requirements = 
+						[
+							"PingedYamato",
+						]
+					}
+				},
+				
+				{
+					m_name = "Holliday_Pregame_Banter_Enemy_PingedWraith"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_killstreak_high_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_killstreak_start_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "holliday_parry_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Holliday_Pregame_Banter_Enemy_PingedWraith"
+						m_Requirements = 
+						[
+							"PingedWraith",
+						]
+					}
+				},
+			]
+			m_pEmbeddedRule = 
+			{
+				m_name = "Holliday_Pregame_Banter_Enemy"
+				m_bDisabled = true
+				m_Requirements = 
+				[
+					"IsAstro",
+					"ConceptChatWheel",
+					"ChatWheelPregame",
+					"PingedEnemy",
+				]
+			}
+		},
+		
+		{
+			m_name = "Holliday_Introduced_By_Patron_Female"
+			m_responses = 
+			[
+				
+				{
+					m_type = "SPEAK"
+					m_value = "patron_female_ally_holliday_start_01_announcer"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "patron_female_ally_holliday_start_02_announcer"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "patron_female_ally_holliday_start_03_announcer"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "patron_female_ally_holliday_start_04_announcer"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "patron_female_ally_holliday_start_05_announcer"
+				},
+			]
+			m_pEmbeddedRule = 
+			{
+				m_name = "Holliday_Introduced_By_Patron_Female"
+				m_Requirements = 
+				[
+					"ConceptMatchStart",
+					"IsAstro",
+					"IsTeam3",
+				]
+			}
+		},
+		
+		{
+			m_name = "Holliday_Introduced_By_Patron_Male"
+			m_responses = 
+			[
+				
+				{
+					m_type = "SPEAK"
+					m_value = "patron_male_ally_holliday_start_01_announcer"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "patron_male_ally_holliday_start_02_announcer"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "patron_male_ally_holliday_start_03_announcer"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "patron_male_ally_holliday_start_04_announcer"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "patron_male_ally_holliday_start_05_announcer"
+				},
+			]
+			m_pEmbeddedRule = 
+			{
+				m_name = "Holliday_Introduced_By_Patron_Male"
+				m_Requirements = 
+				[
+					"ConceptMatchStart",
+					"IsAstro",
+					"IsTeam2",
+				]
+			}
+		},
+	]
+	m_Requirements = 
+	[
+		
+		{
+			m_name = "IsExplosiveBarrel"
+			m_matchKey = "ability_name"
+			m_matchExpr = "ability_explosive_barrel"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsDecoy"
+			m_matchKey = "ability_name"
+			m_matchExpr = "citadel_ability_running_decoy"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsTargetPractice"
+			m_matchKey = "ability_name"
+			m_matchExpr = "ability_target_practice"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsAbilityBouncePad"
+			m_notes = "ConceptCustom reasons"
+			m_matchKey = "ability"
+			m_matchExpr = "bounce_pad"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsRifle"
+			m_matchKey = "ability_name"
+			m_matchExpr = "ability_astro_rifle"
+			m_bRequired = true
+		},
+	]
+	m_speakerType = "player"
+	m_actorName = "astro"
+	m_soundEventActorOverride = "holliday"
+}

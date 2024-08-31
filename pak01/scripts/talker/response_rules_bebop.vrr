@@ -1,0 +1,4524 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vrfunknown:version{c1f07085-5299-4e8a-b7e9-1cbb66bbbe23} -->
+{
+	m_Includes = 
+	[
+		"scripts/talker/response_rules_criterion.vrr",
+		"scripts/talker/response_rules_contextual_ping.vrr",
+	]
+	m_SoundEventScripts = 
+	[
+		"soundevents/vo/generated_vo_hero_bebop.vsndevts",
+		"soundevents/vo/vo_npc_shopkeeper.vsndevts",
+	]
+	m_ResponseGroups = 
+	[
+		
+		{
+			m_name = "Bebop_Upgrade_Uppercut"
+			m_notes = "ABILITY RELATED RESPONSES //"
+			m_responses = 
+			[
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_upgrade_power1_01_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_upgrade_power1_02_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_upgrade_power1_03_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_upgrade_power1_04_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_upgrade_power1_05_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_upgrade_power1_06_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_upgrade_power1_07_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_upgrade_power1_08_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_upgrade_power1_09_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_upgrade_power1_10_hero_3d"
+				},
+			]
+			m_pEmbeddedRule = 
+			{
+				m_name = "Bebop_Upgrade_Uppercut"
+				m_Requirements = 
+				[
+					"IsBebop",
+					"ConceptUpgradeAbility",
+					"IsUppercut",
+				]
+			}
+		},
+		
+		{
+			m_name = "Bebop_Use_Uppercut"
+			m_notes = "ABILITY RELATED RESPONSES //"
+			m_responses = 
+			[
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_angry_08_hero_3d"
+					m_params = 
+					{
+						m_predelay.start = 0.750000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_angry_09_hero_3d"
+					m_params = 
+					{
+						m_predelay.start = 0.750000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_use_power1_01_ability_3d"
+					m_params = 
+					{
+						m_predelay.start = 0.750000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_use_power1_02_ability_3d"
+					m_params = 
+					{
+						m_predelay.start = 0.750000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_use_power1_03_ability_3d"
+					m_params = 
+					{
+						m_predelay.start = 0.750000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_use_power1_04_ability_3d"
+					m_params = 
+					{
+						m_predelay.start = 0.750000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_use_power1_05_ability_3d"
+					m_params = 
+					{
+						m_predelay.start = 0.750000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_use_power1_06_ability_3d"
+					m_params = 
+					{
+						m_predelay.start = 0.750000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_use_power1_07_ability_3d"
+					m_params = 
+					{
+						m_predelay.start = 0.750000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_use_power1_08_ability_3d"
+					m_params = 
+					{
+						m_predelay.start = 0.750000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_use_power1_09_ability_3d"
+					m_params = 
+					{
+						m_predelay.start = 0.750000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_use_power1_10_ability_3d"
+					m_params = 
+					{
+						m_predelay.start = 0.750000
+					}
+				},
+			]
+			m_pEmbeddedRule = 
+			{
+				m_name = "Bebop_Use_Uppercut"
+				m_Requirements = 
+				[
+					"IsBebop",
+					"ConceptAbilityCast",
+					"IsUppercut",
+				]
+			}
+		},
+		
+		{
+			m_name = "Bebop_Use_Uppercut_bomb_attached"
+			m_notes = "ABILITY RELATED RESPONSES //"
+			m_responses = 
+			[
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_use_power1_01_ability_3d"
+					m_params = 
+					{
+						m_predelay.start = 0.750000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_use_power1_02_ability_3d"
+					m_params = 
+					{
+						m_predelay.start = 0.750000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_use_power1_03_ability_3d"
+					m_params = 
+					{
+						m_predelay.start = 0.750000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_use_power1_04_ability_3d"
+					m_params = 
+					{
+						m_predelay.start = 0.750000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_use_power1_05_ability_3d"
+					m_params = 
+					{
+						m_predelay.start = 0.750000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_use_power1_06_ability_3d"
+					m_params = 
+					{
+						m_predelay.start = 0.750000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_use_power1_07_ability_3d"
+					m_params = 
+					{
+						m_predelay.start = 0.750000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_use_power1_08_ability_3d"
+					m_params = 
+					{
+						m_predelay.start = 0.750000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_use_power1_09_ability_3d"
+					m_params = 
+					{
+						m_predelay.start = 0.750000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_use_power1_10_ability_3d"
+					m_params = 
+					{
+						m_predelay.start = 0.750000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_angry_08_hero_3d"
+					m_params = 
+					{
+						m_predelay.start = 0.750000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_angry_09_hero_3d"
+					m_params = 
+					{
+						m_predelay.start = 0.750000
+					}
+				},
+			]
+			m_pEmbeddedRule = 
+			{
+				m_name = "Bebop_Use_Uppercut_bomb_attached"
+				m_Requirements = 
+				[
+					"IsBebop",
+					"ConceptAbilityCast",
+					"IsUppercut",
+					"BombAttached",
+				]
+			}
+		},
+		
+		{
+			m_name = "Bebop_Upgrade_Sticky_Bomb"
+			m_notes = "ABILITY RELATED RESPONSES //"
+			m_responses = 
+			[
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_upgrade_power3_01_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_upgrade_power3_02_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_upgrade_power3_03_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_upgrade_power3_04_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_upgrade_power3_05_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_upgrade_power3_06_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_upgrade_power3_07_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_upgrade_power3_08_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_upgrade_power3_09_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_upgrade_power3_10_hero_3d"
+				},
+			]
+			m_pEmbeddedRule = 
+			{
+				m_name = "Bebop_Upgrade_Sticky_Bomb"
+				m_Requirements = 
+				[
+					"IsBebop",
+					"ConceptUpgradeAbility",
+					"IsStickyBomb",
+				]
+			}
+		},
+		
+		{
+			m_name = "Bebop_Use_Sticky_Bomb"
+			m_notes = "ABILITY RELATED RESPONSES //"
+			m_responses = 
+			[
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_use_power3_01_ability_3d"
+					m_params = 
+					{
+						m_predelay.start = 0.750000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_use_power3_02_ability_3d"
+					m_params = 
+					{
+						m_predelay.start = 0.750000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_use_power3_03_ability_3d"
+					m_params = 
+					{
+						m_predelay.start = 0.750000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_use_power3_04_ability_3d"
+					m_params = 
+					{
+						m_predelay.start = 0.750000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_use_power3_05_ability_3d"
+					m_params = 
+					{
+						m_predelay.start = 0.750000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_use_power3_06_ability_3d"
+					m_params = 
+					{
+						m_predelay.start = 0.750000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_use_power3_07_ability_3d"
+					m_params = 
+					{
+						m_predelay.start = 0.750000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_use_power3_08_ability_3d"
+					m_params = 
+					{
+						m_predelay.start = 0.750000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_use_power3_09_ability_3d"
+					m_params = 
+					{
+						m_predelay.start = 0.750000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_use_power3_10_ability_3d"
+					m_params = 
+					{
+						m_predelay.start = 0.750000
+					}
+				},
+			]
+			m_pEmbeddedRule = 
+			{
+				m_name = "Bebop_Use_Sticky_Bomb"
+				m_Requirements = 
+				[
+					"IsBebop",
+					"ConceptAbilityCast",
+					"IsStickyBomb",
+				]
+			}
+		},
+		
+		{
+			m_name = "Bebop_Upgrade_Laser_Beam"
+			m_notes = "ABILITY RELATED RESPONSES //"
+			m_responses = 
+			[
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_upgrade_power4_01_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_upgrade_power4_02_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_upgrade_power4_04_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_upgrade_power4_05_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_upgrade_power4_06_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_upgrade_power4_07_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_upgrade_power4_08_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_upgrade_power4_09_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_upgrade_power4_10_hero_3d"
+				},
+			]
+			m_pEmbeddedRule = 
+			{
+				m_name = "Bebop_Upgrade_Laser_Beam"
+				m_Requirements = 
+				[
+					"IsBebop",
+					"ConceptUpgradeAbility",
+					"IsLaserBeam",
+				]
+			}
+		},
+		
+		{
+			m_name = "Bebop_Use_Laser_Beam"
+			m_notes = "ABILITY RELATED RESPONSES //"
+			m_responses = 
+			[
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_use_power4_01_ult_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_use_power4_02_ult_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_use_power4_03_ult_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_use_power4_04_ult_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_use_power4_05_ult_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_use_power4_06_ult_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_use_power4_07_ult_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_use_power4_08_ult_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_use_power4_09_ult_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_use_power4_10_ult_3d"
+				},
+			]
+			m_pEmbeddedRule = 
+			{
+				m_name = "Bebop_Use_Laser_Beam"
+				m_Requirements = 
+				[
+					"IsBebop",
+					"ConceptUltimateCast",
+					"IsLaserBeam",
+				]
+			}
+		},
+		
+		{
+			m_name = "Bebop_Upgrade_Hook"
+			m_notes = "ABILITY RELATED RESPONSES //"
+			m_responses = 
+			[
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_upgrade_power2_02_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_upgrade_power2_01_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_upgrade_power2_04_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_upgrade_power2_05_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_upgrade_power2_06_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_upgrade_power2_07_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_upgrade_power2_08_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_upgrade_power2_09_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_upgrade_power2_10_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_upgrade_power4_03_hero_3d"
+				},
+			]
+			m_pEmbeddedRule = 
+			{
+				m_name = "Bebop_Upgrade_Hook"
+				m_Requirements = 
+				[
+					"IsBebop",
+					"ConceptUpgradeAbility",
+					"IsHook",
+				]
+			}
+		},
+		
+		{
+			m_name = "Bebop_Use_Hook"
+			m_notes = "ABILITY RELATED RESPONSES //"
+			m_bDisabled = true
+			m_responses = 
+			[
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_use_hook_01_ability_3d"
+					m_params = 
+					{
+						m_predelay.start = 0.750000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_use_hook_02_ability_3d"
+					m_params = 
+					{
+						m_predelay.start = 0.750000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_use_hook_03_ability_3d"
+					m_params = 
+					{
+						m_predelay.start = 0.750000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_use_hook_04_ability_3d"
+					m_params = 
+					{
+						m_predelay.start = 0.750000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_use_hook_05_ability_3d"
+					m_params = 
+					{
+						m_predelay.start = 0.750000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_use_hook_06_ability_3d"
+					m_params = 
+					{
+						m_predelay.start = 0.750000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_use_hook_07_02_ability_3d"
+					m_params = 
+					{
+						m_predelay.start = 0.750000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_use_hook_07_ability_3d"
+					m_params = 
+					{
+						m_predelay.start = 0.750000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_use_hook_08_ability_3d"
+					m_params = 
+					{
+						m_predelay.start = 0.750000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_use_hook_09_ability_3d"
+					m_params = 
+					{
+						m_predelay.start = 0.750000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_use_hook_10_ability_3d"
+					m_params = 
+					{
+						m_predelay.start = 0.750000
+					}
+				},
+			]
+			m_pEmbeddedRule = 
+			{
+				m_name = "Bebop_Use_Hook"
+				m_bDisabled = true
+				m_Requirements = 
+				[
+					"IsBebop",
+					"ConceptAbilityCast",
+					"IsHook",
+				]
+			}
+		},
+		
+		{
+			m_name = "Bebop_Selected"
+			m_notes = "GAME START RESPONSES //"
+			m_responses = 
+			[
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_select_01_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_select_02_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_select_03_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_select_04_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_select_05_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_select_06_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_select_07_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_select_08_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_select_09_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_select_10_hero_3d"
+				},
+			]
+			m_pEmbeddedRule = 
+			{
+				m_name = "Bebop_Selected"
+				m_Requirements = 
+				[
+					"IsBebop",
+					"ConceptHeroSelected",
+				]
+			}
+		},
+		
+		{
+			m_name = "Bebop_Early_Shop"
+			m_notes = "MANUAL SHOPPING LINES //"
+			m_responses = 
+			[
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_early_01"
+					m_params = 
+					{
+						m_bSpeakOnce = true
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_early_02"
+					m_params = 
+					{
+						m_bSpeakOnce = true
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_early_03"
+					m_params = 
+					{
+						m_bSpeakOnce = true
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_early_04"
+					m_params = 
+					{
+						m_bSpeakOnce = true
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_early_05"
+					m_params = 
+					{
+						m_bSpeakOnce = true
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_early_06"
+					m_params = 
+					{
+						m_bSpeakOnce = true
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_early_07"
+					m_params = 
+					{
+						m_bSpeakOnce = true
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_early_08"
+					m_params = 
+					{
+						m_bSpeakOnce = true
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_early_09"
+					m_params = 
+					{
+						m_bSpeakOnce = true
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_early_10"
+					m_params = 
+					{
+						m_bSpeakOnce = true
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_early_11_alt_01"
+					m_params = 
+					{
+						m_bSpeakOnce = true
+					}
+				},
+			]
+			m_pEmbeddedRule = 
+			{
+				m_name = "Bebop_Early_Shop"
+				m_Requirements = 
+				[
+					"IsBebop",
+					"ConceptOpenShop",
+					"CanBuy",
+					"IsAfter1Minute",
+					"IsBefore6Minute",
+				]
+			}
+		},
+		
+		{
+			m_name = "Bebop_Upgrade_Weapon"
+			m_notes = "MANUAL SHOPPING LINES //"
+			m_responses = 
+			[
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_gun_01"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_gun_02"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_gun_03"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_gun_04"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_gun_05"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_gun_06"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_gun_07"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_gun_08"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_gun_09"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_gun_10"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_gun_11"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_gun_12"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_gun_13"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_gun_14"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_gun_15"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_bebop_buy_01"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_bebop_buy_02"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_bebop_buy_03"
+				},
+			]
+			m_pEmbeddedRule = 
+			{
+				m_name = "Bebop_Upgrade_Weapon"
+				m_Requirements = 
+				[
+					"IsBebop",
+					"ConceptBuyUpgrade",
+					"UpgradeWeapon",
+				]
+			}
+		},
+		
+		{
+			m_name = "Bebop_Upgrade_Armor"
+			m_notes = "MANUAL SHOPPING LINES //"
+			m_responses = 
+			[
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_armor_01"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_armor_02"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_armor_03"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_armor_04"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_armor_05"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_armor_06"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_armor_07"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_armor_08"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_armor_09"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_armor_10"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_armor_11"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_armor_12"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_armor_13"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_armor_14"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_armor_15"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_bebop_buy_01"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_bebop_buy_02"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_bebop_buy_03"
+				},
+			]
+			m_pEmbeddedRule = 
+			{
+				m_name = "Bebop_Upgrade_Armor"
+				m_Requirements = 
+				[
+					"IsBebop",
+					"ConceptBuyUpgrade",
+					"UpgradeArmor",
+				]
+			}
+		},
+		
+		{
+			m_name = "Bebop_Upgrade_Tech_Or_Utility"
+			m_notes = "MANUAL SHOPPING LINES //"
+			m_responses = 
+			[
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_tech_01"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_tech_02"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_tech_03"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_tech_04"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_tech_05"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_tech_06"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_tech_07"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_tech_08"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_tech_09"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_tech_10"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_tech_11"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_tech_12"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_tech_13"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_tech_14"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_buy_tech_15"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_bebop_buy_01"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_bebop_buy_02"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "shopkeeper_hotdog_bebop_buy_03"
+				},
+			]
+			m_pEmbeddedRule = 
+			{
+				m_name = "Bebop_Upgrade_Tech_Or_Utility"
+				m_Requirements = 
+				[
+					"IsBebop",
+					"ConceptBuyUpgrade",
+				]
+			}
+		},
+		
+		{
+			m_name = "Bebop_Pregame_Banter_Teammate"
+			m_notes = "PREGAME CHATWHEEL TEST //"
+			m_bDisabled = true
+			m_children = 
+			[
+				
+				{
+					m_name = "Bebop_Pregame_Banter_Teammate_PingedHaze"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_07_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_10_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Bebop_Pregame_Banter_Teammate_PingedHaze"
+						m_Requirements = 
+						[
+							"PingedHaze",
+						]
+					}
+				},
+				
+				{
+					m_name = "Bebop_Pregame_Banter_Teammate_PingedAstro"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_07_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_10_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Bebop_Pregame_Banter_Teammate_PingedAstro"
+						m_Requirements = 
+						[
+							"PingedAstro",
+						]
+					}
+				},
+				
+				{
+					m_name = "Bebop_Pregame_Banter_Teammate_PingedShiv"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_07_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_10_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Bebop_Pregame_Banter_Teammate_PingedShiv"
+						m_Requirements = 
+						[
+							"PingedShiv",
+						]
+					}
+				},
+				
+				{
+					m_name = "Bebop_Pregame_Banter_Teammate_PingedForge"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_07_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_10_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Bebop_Pregame_Banter_Teammate_PingedForge"
+						m_Requirements = 
+						[
+							"PingedForge",
+						]
+					}
+				},
+				
+				{
+					m_name = "Bebop_Pregame_Banter_Teammate_PingedAtlas"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_07_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_10_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Bebop_Pregame_Banter_Teammate_PingedAtlas"
+						m_Requirements = 
+						[
+							"PingedAtlas",
+						]
+					}
+				},
+				
+				{
+					m_name = "Bebop_Pregame_Banter_Teammate_PingedWrecker"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_07_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_10_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Bebop_Pregame_Banter_Teammate_PingedWrecker"
+						m_Requirements = 
+						[
+							"PingedWrecker",
+						]
+					}
+				},
+				
+				{
+					m_name = "Bebop_Pregame_Banter_Teammate_PingedKelvin"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_07_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_10_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Bebop_Pregame_Banter_Teammate_PingedKelvin"
+						m_Requirements = 
+						[
+							"PingedKelvin",
+						]
+					}
+				},
+				
+				{
+					m_name = "Bebop_Pregame_Banter_Teammate_PingedViscous"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_07_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_10_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Bebop_Pregame_Banter_Teammate_PingedViscous"
+						m_Requirements = 
+						[
+							"PingedViscous",
+						]
+					}
+				},
+				
+				{
+					m_name = "Bebop_Pregame_Banter_Teammate_PingedKrill"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_07_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_10_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Bebop_Pregame_Banter_Teammate_PingedKrill"
+						m_Requirements = 
+						[
+							"PingedKrill",
+						]
+					}
+				},
+				
+				{
+					m_name = "Bebop_Pregame_Banter_Teammate_PingedWraith"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_07_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_10_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Bebop_Pregame_Banter_Teammate_PingedWraith"
+						m_Requirements = 
+						[
+							"PingedWraith",
+						]
+					}
+				},
+				
+				{
+					m_name = "Bebop_Pregame_Banter_Teammate_PingedLash"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_07_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_10_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Bebop_Pregame_Banter_Teammate_PingedLash"
+						m_Requirements = 
+						[
+							"PingedLash",
+						]
+					}
+				},
+				
+				{
+					m_name = "Bebop_Pregame_Banter_Teammate_PingedInferno"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_07_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_10_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Bebop_Pregame_Banter_Teammate_PingedInferno"
+						m_Requirements = 
+						[
+							"PingedInferno",
+						]
+					}
+				},
+				
+				{
+					m_name = "Bebop_Pregame_Banter_Teammate_PingedChrono"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_07_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_10_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Bebop_Pregame_Banter_Teammate_PingedChrono"
+						m_Requirements = 
+						[
+							"PingedChrono",
+						]
+					}
+				},
+				
+				{
+					m_name = "Bebop_Pregame_Banter_Teammate_PingedHornet"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_07_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_10_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Bebop_Pregame_Banter_Teammate_PingedHornet"
+						m_Requirements = 
+						[
+							"PingedHornet",
+						]
+					}
+				},
+				
+				{
+					m_name = "Bebop_Pregame_Banter_Teammate_PingedGigawatt"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_07_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_10_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Bebop_Pregame_Banter_Teammate_PingedGigawatt"
+						m_Requirements = 
+						[
+							"PingedGigawatt",
+						]
+					}
+				},
+				
+				{
+					m_name = "Bebop_Pregame_Banter_Teammate_PingedDynamo"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_07_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_10_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Bebop_Pregame_Banter_Teammate_PingedDynamo"
+						m_Requirements = 
+						[
+							"PingedDynamo",
+						]
+					}
+				},
+				
+				{
+					m_name = "Bebop_Pregame_Banter_Teammate_PingedWarden"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_07_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_10_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Bebop_Pregame_Banter_Teammate_PingedWarden"
+						m_Requirements = 
+						[
+							"PingedWarden",
+						]
+					}
+				},
+				
+				{
+					m_name = "Bebop_Pregame_Banter_Teammate_PingedGhost"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_07_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_10_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Bebop_Pregame_Banter_Teammate_PingedGhost"
+						m_Requirements = 
+						[
+							"PingedGhost",
+						]
+					}
+				},
+				
+				{
+					m_name = "Bebop_Pregame_Banter_Teammate_PingedOrion"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_07_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_10_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Bebop_Pregame_Banter_Teammate_PingedOrion"
+						m_Requirements = 
+						[
+							"PingedOrion",
+						]
+					}
+				},
+				
+				{
+					m_name = "Bebop_Pregame_Banter_Teammate_PingedYamato"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_07_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_10_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Bebop_Pregame_Banter_Teammate_PingedYamato"
+						m_Requirements = 
+						[
+							"PingedYamato",
+						]
+					}
+				},
+				
+				{
+					m_name = "Bebop_Pregame_Banter_Teammate_PingedNano"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_happy_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_07_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_09_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_start_match_10_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Bebop_Pregame_Banter_Teammate_PingedNano"
+						m_Requirements = 
+						[
+							"PingedNano",
+						]
+					}
+				},
+			]
+			m_pEmbeddedRule = 
+			{
+				m_name = "Bebop_Pregame_Banter_Teammate"
+				m_bDisabled = true
+				m_Requirements = 
+				[
+					"IsBebop",
+					"ConceptChatWheel",
+					"ChatWheelPregame",
+					"PingedTeammate",
+				]
+			}
+		},
+		
+		{
+			m_name = "Bebop_Pregame_Banter_Enemy"
+			m_notes = "PREGAME CHATWHEEL TEST //"
+			m_bDisabled = true
+			m_children = 
+			[
+				
+				{
+					m_name = "Bebop_Pregame_Banter_Enemy_PingedHaze"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_kill_haze_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_kill_haze_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_kill_haze_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_kill_haze_05_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Bebop_Pregame_Banter_Enemy_PingedHaze"
+						m_Requirements = 
+						[
+							"PingedHaze",
+						]
+					}
+				},
+				
+				{
+					m_name = "Bebop_Pregame_Banter_Enemy_PingedAstro"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_kill_astro_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_killstreak_start_05_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_killstreak_mid_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Bebop_Pregame_Banter_Enemy_PingedAstro"
+						m_Requirements = 
+						[
+							"PingedAstro",
+						]
+					}
+				},
+				
+				{
+					m_name = "Bebop_Pregame_Banter_Enemy_PingedShiv"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_kill_shiv_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_kill_shiv_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_kill_shiv_05_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Bebop_Pregame_Banter_Enemy_PingedShiv"
+						m_Requirements = 
+						[
+							"PingedShiv",
+						]
+					}
+				},
+				
+				{
+					m_name = "Bebop_Pregame_Banter_Enemy_PingedKelvin"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_killstreak_start_05_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_killstreak_mid_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_angry_08_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Bebop_Pregame_Banter_Enemy_PingedKelvin"
+						m_Requirements = 
+						[
+							"PingedKelvin",
+						]
+					}
+				},
+				
+				{
+					m_name = "Bebop_Pregame_Banter_Enemy_PingedAtlas"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_kill_atlas_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_kill_atlas_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_angry_06_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Bebop_Pregame_Banter_Enemy_PingedAtlas"
+						m_Requirements = 
+						[
+							"PingedAtlas",
+						]
+					}
+				},
+				
+				{
+					m_name = "Bebop_Pregame_Banter_Enemy_PingedWrecker"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_kill_butcher_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_angry_08_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_angry_06_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Bebop_Pregame_Banter_Enemy_PingedWrecker"
+						m_Requirements = 
+						[
+							"PingedWrecker",
+						]
+					}
+				},
+				
+				{
+					m_name = "Bebop_Pregame_Banter_Enemy_PingedForge"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_kill_forge_01_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_kill_forge_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_kill_forge_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_kill_forge_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Bebop_Pregame_Banter_Enemy_PingedForge"
+						m_Requirements = 
+						[
+							"PingedForge",
+						]
+					}
+				},
+				
+				{
+					m_name = "Bebop_Pregame_Banter_Enemy_PingedViscous"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_kill_viscous_01_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_angry_08_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_angry_06_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Bebop_Pregame_Banter_Enemy_PingedViscous"
+						m_Requirements = 
+						[
+							"PingedViscous",
+						]
+					}
+				},
+				
+				{
+					m_name = "Bebop_Pregame_Banter_Enemy_PingedKrill"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_kill_krill_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_killstreak_start_05_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_killstreak_mid_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Bebop_Pregame_Banter_Enemy_PingedKrill"
+						m_Requirements = 
+						[
+							"PingedKrill",
+						]
+					}
+				},
+				
+				{
+					m_name = "Bebop_Pregame_Banter_Enemy_PingedLash"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_kill_lash_01_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_kill_lash_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_killstreak_high_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Bebop_Pregame_Banter_Enemy_PingedLash"
+						m_Requirements = 
+						[
+							"PingedLash",
+						]
+					}
+				},
+				
+				{
+					m_name = "Bebop_Pregame_Banter_Enemy_PingedInferno"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_kill_inferno_01_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_kill_inferno_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_kill_inferno_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Bebop_Pregame_Banter_Enemy_PingedInferno"
+						m_Requirements = 
+						[
+							"PingedInferno",
+						]
+					}
+				},
+				
+				{
+					m_name = "Bebop_Pregame_Banter_Enemy_PingedChrono"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "astro_kill_chrono_01_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "astro_kill_chrono_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "astro_kill_chrono_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Bebop_Pregame_Banter_Enemy_PingedChrono"
+						m_Requirements = 
+						[
+							"PingedChrono",
+						]
+					}
+				},
+				
+				{
+					m_name = "Bebop_Pregame_Banter_Enemy_PingedHornet"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_kill_chrono_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_kill_chrono_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_kill_chrono_05_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Bebop_Pregame_Banter_Enemy_PingedHornet"
+						m_Requirements = 
+						[
+							"PingedHornet",
+						]
+					}
+				},
+				
+				{
+					m_name = "Bebop_Pregame_Banter_Enemy_PingedGigawatt"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_kill_gigawatt_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_killstreak_start_05_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_killstreak_mid_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Bebop_Pregame_Banter_Enemy_PingedGigawatt"
+						m_Requirements = 
+						[
+							"PingedGigawatt",
+						]
+					}
+				},
+				
+				{
+					m_name = "Bebop_Pregame_Banter_Enemy_PingedDynamo"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_kill_dynamo_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_kill_dynamo_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_kill_dynamo_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_kill_dynamo_05_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Bebop_Pregame_Banter_Enemy_PingedDynamo"
+						m_Requirements = 
+						[
+							"PingedDynamo",
+						]
+					}
+				},
+				
+				{
+					m_name = "Bebop_Pregame_Banter_Enemy_PingedWarden"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_kill_warden_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_kill_warden_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_killstreak_mid_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Bebop_Pregame_Banter_Enemy_PingedWarden"
+						m_Requirements = 
+						[
+							"PingedWarden",
+						]
+					}
+				},
+				
+				{
+					m_name = "Bebop_Pregame_Banter_Enemy_PingedGhost"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_kill_ghost_05_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_killstreak_start_05_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_killstreak_mid_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Bebop_Pregame_Banter_Enemy_PingedGhost"
+						m_Requirements = 
+						[
+							"PingedGhost",
+						]
+					}
+				},
+				
+				{
+					m_name = "Bebop_Pregame_Banter_Enemy_PingedOrion"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_kill_orion_01_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_kill_orion_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_kill_orion_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_kill_orion_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Bebop_Pregame_Banter_Enemy_PingedOrion"
+						m_Requirements = 
+						[
+							"PingedOrion",
+						]
+					}
+				},
+				
+				{
+					m_name = "Bebop_Pregame_Banter_Enemy_PingedNano"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_kill_nano_05_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_killstreak_start_05_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_killstreak_mid_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Bebop_Pregame_Banter_Enemy_PingedNano"
+						m_Requirements = 
+						[
+							"PingedNano",
+						]
+					}
+				},
+				
+				{
+					m_name = "Bebop_Pregame_Banter_Enemy_PingedYamato"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_kill_yamato_04_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_kill_yamato_05_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_killstreak_start_05_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Bebop_Pregame_Banter_Enemy_PingedYamato"
+						m_Requirements = 
+						[
+							"PingedYamato",
+						]
+					}
+				},
+				
+				{
+					m_name = "Bebop_Pregame_Banter_Enemy_PingedWraith"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_kill_wraith_01_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_kill_wraith_02_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "bebop_kill_wraith_03_hero_3d"
+							m_params = 
+							{
+								m_bCancelExisting = true
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Bebop_Pregame_Banter_Enemy_PingedWraith"
+						m_Requirements = 
+						[
+							"PingedWraith",
+						]
+					}
+				},
+			]
+			m_pEmbeddedRule = 
+			{
+				m_name = "Bebop_Pregame_Banter_Enemy"
+				m_bDisabled = true
+				m_Requirements = 
+				[
+					"IsBebop",
+					"ConceptChatWheel",
+					"ChatWheelPregame",
+					"PingedEnemy",
+				]
+			}
+		},
+		
+		{
+			m_name = "Bebop_Hit_With_Hook"
+			m_responses = 
+			[
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_hook_lands_01_ability_3d"
+					m_flWeight = 100.000000
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_hook_lands_02_ability_3d"
+					m_flWeight = 100.000000
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_hook_lands_03_ability_3d"
+					m_flWeight = 100.000000
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_hook_lands_04_ability_3d"
+					m_flWeight = 100.000000
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_hook_lands_05_ability_3d"
+					m_flWeight = 100.000000
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_hook_lands_06_ability_3d"
+					m_flWeight = 100.000000
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_hook_lands_07_ability_3d"
+					m_flWeight = 100.000000
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_hook_lands_08_ability_3d"
+					m_flWeight = 100.000000
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_hook_lands_09_ability_3d"
+					m_flWeight = 100.000000
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_hook_lands_10_ability_3d"
+					m_flWeight = 100.000000
+				},
+			]
+			m_pEmbeddedRule = 
+			{
+				m_name = "Bebop_Hit_With_Hook"
+				m_Requirements = 
+				[
+					"IsBebop",
+					"IsHook",
+					"ConceptAbilityProjectileHit",
+					"DidProjectileHitEnemy",
+				]
+			}
+		},
+		
+		{
+			m_name = "Bebop_Introduced_By_Patron_Female"
+			m_responses = 
+			[
+				
+				{
+					m_type = "SPEAK"
+					m_value = "patron_female_ally_bebop_start_01_announcer"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "patron_female_ally_bebop_start_02_announcer"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "patron_female_ally_bebop_start_03_announcer"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "patron_female_ally_bebop_start_04_announcer"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "patron_female_ally_bebop_start_05_announcer"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "patron_female_ally_bebop_start_06_announcer"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "patron_female_ally_bebop_start_07_announcer"
+				},
+			]
+			m_pEmbeddedRule = 
+			{
+				m_name = "Bebop_Introduced_By_Patron_Female"
+				m_Requirements = 
+				[
+					"ConceptMatchStart",
+					"IsBebop",
+					"IsTeam3",
+				]
+			}
+		},
+		
+		{
+			m_name = "Bebop_Introduced_By_Patron_Male"
+			m_responses = 
+			[
+				
+				{
+					m_type = "SPEAK"
+					m_value = "patron_male_ally_bebop_start_01_announcer"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "patron_male_ally_bebop_start_02_announcer"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "patron_male_ally_bebop_start_03_announcer"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "patron_male_ally_bebop_start_04_announcer"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "patron_male_ally_bebop_start_05_announcer"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "patron_male_ally_bebop_start_06_announcer"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "patron_male_ally_bebop_start_07_announcer"
+				},
+			]
+			m_pEmbeddedRule = 
+			{
+				m_name = "Bebop_Introduced_By_Patron_Male"
+				m_Requirements = 
+				[
+					"ConceptMatchStart",
+					"IsBebop",
+					"IsTeam2",
+				]
+			}
+		},
+		
+		{
+			m_name = "Bebop_Desperation_Uppercut"
+			m_notes = "ABILITY RELATED RESPONSES //"
+			m_responses = 
+			[
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_desperation_power1_01_ability_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_desperation_power1_02_ability_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_desperation_power1_03_ability_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_desperation_power1_04_ability_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_desperation_power1_05_ability_3d"
+				},
+			]
+			m_pEmbeddedRule = 
+			{
+				m_name = "Bebop_Desperation_Uppercut"
+				m_Requirements = 
+				[
+					"ConceptAbilityCast",
+					"IsHealthLowerThan10Percent",
+					"IsBebop",
+					"IsUppercut",
+				]
+			}
+		},
+		
+		{
+			m_name = "Bebop_Desperation_Bomb"
+			m_notes = "ABILITY RELATED RESPONSES //"
+			m_responses = 
+			[
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_desperation_power3_01_ability_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_desperation_power3_02_ability_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_desperation_power3_03_ability_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_desperation_power3_04_ability_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_desperation_power3_05_ability_3d"
+				},
+			]
+			m_pEmbeddedRule = 
+			{
+				m_name = "Bebop_Desperation_Bomb"
+				m_Requirements = 
+				[
+					"ConceptAbilityCast",
+					"IsHealthLowerThan10Percent",
+					"IsBebop",
+					"IsStickyBomb",
+				]
+			}
+		},
+		
+		{
+			m_name = "Bebop_Desperation_Hook"
+			m_notes = "ABILITY RELATED RESPONSES //"
+			m_responses = 
+			[
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_desperation_power2_01_ability_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_desperation_power2_02_ability_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_desperation_power2_03_ability_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_desperation_power2_04_ability_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_desperation_power2_05_ability_3d"
+				},
+			]
+			m_pEmbeddedRule = 
+			{
+				m_name = "Bebop_Desperation_Hook"
+				m_Requirements = 
+				[
+					"ConceptAbilityCast",
+					"IsHealthLowerThan10Percent",
+					"IsBebop",
+					"IsHook",
+				]
+			}
+		},
+		
+		{
+			m_name = "Bebop_Desperation_Laser"
+			m_notes = "ABILITY RELATED RESPONSES //"
+			m_responses = 
+			[
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_desperation_power4_01_ult_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_desperation_power4_02_ult_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_desperation_power4_03_ult_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_desperation_power4_04_ult_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "bebop_desperation_power4_05_ult_3d"
+				},
+			]
+			m_pEmbeddedRule = 
+			{
+				m_name = "Bebop_Desperation_Laser"
+				m_Requirements = 
+				[
+					"ConceptUltimateCast",
+					"IsHealthLowerThan10Percent",
+					"IsBebop",
+					"IsLaserBeam",
+				]
+			}
+		},
+	]
+	m_Requirements = 
+	[
+		
+		{
+			m_name = "IsUppercut"
+			m_matchKey = "ability_name"
+			m_matchExpr = "citadel_ability_uppercut"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsStickyBomb"
+			m_matchKey = "ability_name"
+			m_matchExpr = "citadel_ability_sticky_bomb"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsLaserBeam"
+			m_matchKey = "ability_name"
+			m_matchExpr = "citadel_ability_bebop_laser_beam"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsHook"
+			m_matchKey = "ability_name"
+			m_matchExpr = "citadel_ability_hook"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "BombAttached"
+			m_matchKey = "bomb_attached"
+			m_matchExpr = "1"
+			m_bRequired = true
+		},
+	]
+	m_speakerType = "player"
+}

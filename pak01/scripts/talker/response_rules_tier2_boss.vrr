@@ -1,0 +1,73 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vrfunknown:version{c1f07085-5299-4e8a-b7e9-1cbb66bbbe23} -->
+{
+	m_Includes = 
+	[
+		"scripts/talker/response_rules_criterion.vrr",
+		"scripts/talker/response_rules_contextual_ping.vrr",
+	]
+	m_ResponseGroups = 
+	[
+		
+		{
+			m_name = "Tier2Boss_UsingRockets"
+			m_responses = 
+			[
+				
+				{
+					m_type = "SPEAK"
+					m_value = "Trooper.ShoutAttack"
+				},
+			]
+			m_pEmbeddedRule = 
+			{
+				m_name = "Tier2Boss_UsingRockets"
+				m_Requirements = 
+				[
+					"IsTier2Boss",
+					"ConceptAbilitySelected",
+					"Tier2BossRockets",
+				]
+			}
+		},
+		
+		{
+			m_name = "Tier2Boss_UsingLaser"
+			m_responses = 
+			[
+				
+				{
+					m_type = "SPEAK"
+					m_value = "Trooper.ShoutAttack"
+				},
+			]
+			m_pEmbeddedRule = 
+			{
+				m_name = "Tier2Boss_UsingLaser"
+				m_Requirements = 
+				[
+					"IsTier2Boss",
+					"ConceptAbilitySelected",
+					"Tier2BossLaser",
+				]
+			}
+		},
+	]
+	m_Requirements = 
+	[
+		
+		{
+			m_name = "Tier2BossRockets"
+			m_matchKey = "ability_name"
+			m_matchExpr = "citadel_ability_tier2boss_rocket_barrage"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "Tier2BossLaser"
+			m_matchKey = "ability_name"
+			m_matchExpr = "citadel_ability_tier2boss_laser_beam"
+			m_bRequired = true
+		},
+	]
+	m_speakerType = "CAI_CitadelNPC"
+}
