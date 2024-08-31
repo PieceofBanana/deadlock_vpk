@@ -1,0 +1,1 @@
+decompiler.exe -i "D:\Steam_client\steamapps\common\Project8Staging\game\citadel\pak01_dir.vpk" --output "pak01" --vpk_filepath "sound" -d
