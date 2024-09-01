@@ -1,0 +1,541 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vrfunknown:version{4dddb66e-c6ed-4bd0-a4ef-afb45a02acc2} -->
+{
+	generic_data_type = "CSmartPropRoot"
+	_editor = 
+	{
+		next_element_id = 25
+	}
+	m_Variables = 
+	[
+		
+		{
+			_class = "CSmartPropVariable_Model"
+			m_nElementID = 12
+			m_DefaultValue = resource_name:"models/props_city/window_frame01a.vmdl"
+			m_VariableName = "frame_model"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Int"
+			m_nElementID = 15
+			m_VariableName = "number_of_floors"
+			m_DefaultValue = 1
+		},
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_nElementID = 16
+			m_VariableName = "floor_height"
+			m_DefaultValue = 192
+		},
+		
+		{
+			_class = "CSmartPropVariable_Int"
+			m_nElementID = 22
+			m_VariableName = "number_of_bays"
+			m_DefaultValue = 2
+		},
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_nElementID = 24
+			m_VariableName = "bay_length"
+			m_DefaultValue = 128.000000
+		},
+	]
+	m_Choices = 
+	[
+		
+		{
+			_class = "CSmartPropChoice"
+			m_nElementID = 11
+			m_Name = "Window Type"
+			m_Options = 
+			[
+				
+				{
+					m_Name = "Frame 01a"
+					m_VariableValues = 
+					[
+						
+						{
+							m_TargetName = "frame_model"
+							m_DataType = "STRING"
+							m_Value = resource_name:"models/props_city/window_frame01a.vmdl"
+						},
+					]
+				},
+				
+				{
+					m_Name = "Frame 01b"
+					m_VariableValues = 
+					[
+						
+						{
+							m_TargetName = "frame_model"
+							m_DataType = "STRING"
+							m_Value = resource_name:"models/props_city/window_frame01b.vmdl"
+						},
+					]
+				},
+				
+				{
+					m_Name = "Frame 01c"
+					m_VariableValues = 
+					[
+						
+						{
+							m_TargetName = "frame_model"
+							m_DataType = "STRING"
+							m_Value = resource_name:"models/props_city/window_frame01c.vmdl"
+						},
+					]
+				},
+				
+				{
+					m_Name = "Frame 02a"
+					m_VariableValues = 
+					[
+						
+						{
+							m_TargetName = "frame_model"
+							m_DataType = "STRING"
+							m_Value = resource_name:"models/props_city/window_frame02a.vmdl"
+						},
+					]
+				},
+				
+				{
+					m_Name = "Frame 02b"
+					m_VariableValues = 
+					[
+						
+						{
+							m_TargetName = "frame_model"
+							m_DataType = "STRING"
+							m_Value = resource_name:"models/props_city/window_frame02b.vmdl"
+						},
+					]
+				},
+			]
+			m_DefaultOption = "Frame 01a"
+		},
+		
+		{
+			_class = "CSmartPropChoice"
+			m_nElementID = 14
+			m_Name = "Number of Floors"
+			m_Options = 
+			[
+				
+				{
+					m_Name = "1"
+					m_VariableValues = 
+					[
+						
+						{
+							m_TargetName = "number_of_floors"
+							m_DataType = "INTEGER"
+							m_Value = 1
+						},
+						
+						{
+							m_TargetName = "floor_height"
+							m_DataType = "INTEGER"
+							m_Value = 0
+						},
+					]
+				},
+				
+				{
+					m_VariableValues = 
+					[
+						
+						{
+							m_TargetName = "number_of_floors"
+							m_DataType = "INTEGER"
+							m_Value = 2
+						},
+						
+						{
+							m_TargetName = "floor_height"
+							m_DataType = "INTEGER"
+							m_Value = 192
+						},
+					]
+					m_Name = "2"
+				},
+				
+				{
+					m_Name = "3"
+					m_VariableValues = 
+					[
+						
+						{
+							m_TargetName = "number_of_floors"
+							m_DataType = "INTEGER"
+							m_Value = 3
+						},
+						
+						{
+							m_TargetName = "floor_height"
+							m_DataType = "INTEGER"
+							m_Value = 384
+						},
+					]
+				},
+				
+				{
+					m_Name = "4"
+					m_VariableValues = 
+					[
+						
+						{
+							m_TargetName = "number_of_floors"
+							m_DataType = "INTEGER"
+							m_Value = 4
+						},
+						
+						{
+							m_TargetName = "floor_height"
+							m_DataType = "INTEGER"
+							m_Value = 576
+						},
+					]
+				},
+			]
+			m_DefaultOption = "1"
+		},
+		
+		{
+			_class = "CSmartPropChoice"
+			m_nElementID = 23
+			m_Name = "Number of Bays"
+			m_Options = 
+			[
+				
+				{
+					m_VariableValues = 
+					[
+						
+						{
+							m_TargetName = "number_of_bays"
+							m_DataType = "INTEGER"
+							m_Value = 1
+						},
+						
+						{
+							m_TargetName = "bay_length"
+							m_DataType = "FLOAT"
+							m_Value = 0.000000
+						},
+					]
+					m_Name = "1"
+					m_DisplayName = "1"
+				},
+				
+				{
+					m_VariableValues = 
+					[
+						
+						{
+							m_TargetName = "number_of_bays"
+							m_DataType = "INTEGER"
+							m_Value = 2
+						},
+						
+						{
+							m_TargetName = "bay_length"
+							m_DataType = "FLOAT"
+							m_Value = 128.000000
+						},
+					]
+					m_Name = "2"
+					m_DisplayName = "2"
+				},
+				
+				{
+					m_VariableValues = 
+					[
+						
+						{
+							m_TargetName = "number_of_bays"
+							m_DataType = "INTEGER"
+							m_Value = 3
+						},
+						
+						{
+							m_TargetName = "bay_length"
+							m_DataType = "FLOAT"
+							m_Value = 256.000000
+						},
+					]
+					m_Name = "3"
+					m_DisplayName = "3"
+				},
+				
+				{
+					m_VariableValues = 
+					[
+						
+						{
+							m_TargetName = "number_of_bays"
+							m_DataType = "INTEGER"
+							m_Value = 4
+						},
+						
+						{
+							m_TargetName = "bay_length"
+							m_DataType = "FLOAT"
+							m_Value = 384.000000
+						},
+					]
+					m_Name = "4"
+					m_DisplayName = "4"
+				},
+				
+				{
+					m_Name = "5"
+					m_DisplayName = "5"
+					m_VariableValues = 
+					[
+						
+						{
+							m_TargetName = "number_of_bays"
+							m_DataType = "INTEGER"
+							m_Value = 5
+						},
+						
+						{
+							m_TargetName = "bay_length"
+							m_DataType = "FLOAT"
+							m_Value = 512.000000
+						},
+					]
+				},
+				
+				{
+					m_Name = "6"
+					m_DisplayName = "6"
+					m_VariableValues = 
+					[
+						
+						{
+							m_TargetName = "number_of_bays"
+							m_DataType = "INTEGER"
+							m_Value = 6
+						},
+						
+						{
+							m_TargetName = "bay_length"
+							m_DataType = "FLOAT"
+							m_Value = 640.000000
+						},
+					]
+				},
+			]
+			m_DefaultOption = "2"
+		},
+	]
+	m_Children = 
+	[
+		
+		{
+			_class = "CSmartPropElement_Layout2DGrid"
+			m_nElementID = 7
+			m_bVerticalLength = true
+			m_nCountW = 0
+			m_nCountL = 
+			{
+				m_SourceName = "number_of_floors"
+			}
+			m_flLength = 
+			{
+				m_SourceName = "floor_height"
+			}
+			m_flWidth = 128.000000
+			m_GridOriginMode = "CORNER"
+			m_Children = 
+			[
+				
+				{
+					_class = "CSmartPropElement_Layout2DGrid"
+					m_nElementID = 2
+					m_flWidth = 0.000000
+					m_flLength = 
+					{
+						m_SourceName = "bay_length"
+					}
+					m_nCountW = 1
+					m_nCountL = 
+					{
+						m_SourceName = "number_of_bays"
+					}
+					m_bVerticalLength = false
+					_editor = 
+					{
+						folder_name = ""
+					}
+					m_GridOriginMode = "CENTER"
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_sModelName = 
+							{
+								m_SourceName = "frame_model"
+							}
+							m_nElementID = 1
+							_editor = 
+							{
+								folder_name = ""
+							}
+						},
+						
+						{
+							_class = "CSmartPropElement_PickOne"
+							m_nElementID = 4
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_Children = 
+							[
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 6
+									_editor = 
+									{
+										folder_name = ""
+									}
+								},
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_sModelName = resource_name:"models/props_street/unit_wall_04.vmdl"
+									m_nElementID = 3
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												0.000000,
+												0.000000,
+												12.000000,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_sModelName = resource_name:"models/props_street/unit_wall_sidewalk_01.vmdl"
+									m_nElementID = 5
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												0.000000,
+												0.000000,
+												12.000000,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_sModelName = resource_name:"models/props_street/unit_wall_01.vmdl"
+									m_nElementID = 19
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												0.000000,
+												0.000000,
+												12.000000,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_sModelName = resource_name:"models/props_street/unit_wall_02.vmdl"
+									m_nElementID = 20
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												0.000000,
+												0.000000,
+												12.000000,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_sModelName = resource_name:"models/props_street/unit_wall_05.vmdl"
+									m_nElementID = 21
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												0.000000,
+												0.000000,
+												12.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_Scale"
+											m_flScale = 0.750000
+										},
+									]
+								},
+							]
+						},
+					]
+				},
+			]
+		},
+	]
+}

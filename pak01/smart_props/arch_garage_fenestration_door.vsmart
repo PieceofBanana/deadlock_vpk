@@ -1,0 +1,941 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vrfunknown:version{4dddb66e-c6ed-4bd0-a4ef-afb45a02acc2} -->
+{
+	generic_data_type = "CSmartPropRoot"
+	_editor = 
+	{
+		next_element_id = 221
+	}
+	m_Variables = 
+	[
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_nElementID = 181
+			m_VariableName = "fGlobalWidth"
+			m_DefaultValue = 96.000000
+		},
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_nElementID = 182
+			m_VariableName = "fGlobalHeight"
+			m_DefaultValue = 167.000000
+		},
+		
+		{
+			_class = "CSmartPropVariable_Int"
+			m_nElementID = 188
+			m_VariableName = "iDoorSelection"
+			m_DefaultValue = 0
+		},
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_nElementID = 200
+			m_VariableName = "fRot"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Bool"
+			m_nElementID = 214
+			m_VariableName = "bIsNested"
+		},
+	]
+	m_Children = 
+	[
+		
+		{
+			_class = "CSmartPropElement_Group"
+			m_nElementID = 213
+			_editor = 
+			{
+				folder_name = ""
+			}
+			m_Modifiers = 
+			[
+				
+				{
+					_class = "CSmartPropFilter_VariableValue"
+					m_VariableComparison = 
+					{
+						m_Name = "bIsNested"
+						m_Value = false
+						m_Comparison = "EQUAL"
+					}
+				},
+				
+				{
+					_class = "CSmartPropOperation_CreateSizer"
+					m_flInitialMaxY = 
+					{
+						m_SourceName = "fGlobalWidth"
+					}
+					m_OutputVariableMaxY = "fGlobalWidth"
+					m_flInitialMaxZ = 
+					{
+						m_SourceName = "fGlobalHeight"
+					}
+					m_OutputVariableMaxZ = "fGlobalHeight"
+				},
+			]
+		},
+		
+		{
+			_class = "CSmartPropElement_Group"
+			m_nElementID = 170
+			m_sLabel = "Door"
+			m_Children = 
+			[
+				
+				{
+					_class = "CSmartPropElement_Group"
+					m_nElementID = 191
+					m_Modifiers = 
+					[
+						
+						{
+							_class = "CSmartPropOperation_Translate"
+							m_vPosition = 
+							[
+								2.000000,
+								0.000000,
+								0.000000,
+							]
+						},
+					]
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_PickOne"
+							m_nElementID = 171
+							m_vHandleOffset = 
+							{
+								m_Components = 
+								[
+									0.000000,
+									0.000000,
+									80.000000,
+								]
+							}
+							m_HandleColor = 
+							[
+								255,
+								255,
+								0,
+							]
+							m_HandleShape = "DIAMOND"
+							m_SelectionMode = "FIRST"
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_SpecificChildIndex = 3
+							m_Children = 
+							[
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 199
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_CreateRotator"
+											m_OutputVariable = "fRot"
+											m_bEnforceLimits = true
+											m_flSnappingIncrement = 15.000000
+											m_flMinAngle = 20.000000
+											m_flMaxAngle = 90.000000
+											m_vRotationAxis = 
+											[
+												0.000000,
+												0.000000,
+												1.000000,
+											]
+										},
+									]
+									m_Children = 
+									[
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 172
+											m_sModelName = resource_name:"models/architecture/arch_garage_indus/fenestration_door_a.vmdl"
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_vModelScale = 
+											{
+												m_Components = 
+												[
+													1.000000,
+													{
+														m_Expression = "fGlobalWidth / 96"
+													},
+													{
+														m_Expression = "fGlobalHeight / 167"
+													},
+												]
+											}
+										},
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 189
+											m_sModelName = resource_name:"models/architecture/arch_garage_indus/fenestration_door_a_hinge.vmdl"
+											m_vModelScale = 
+											{
+												m_Components = 
+												[
+													1.000000,
+													1.000000,
+													{
+														m_Expression = "fGlobalHeight / 167"
+													},
+												]
+											}
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropFilter_VariableValue"
+													m_VariableComparison = 
+													{
+														m_Name = "iDoorSelection"
+														m_Value = 0
+														m_Comparison = "EQUAL"
+													}
+													m_bEnabled = true
+												},
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														0.000000,
+														0.000000,
+														0.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_Rotate"
+													m_vRotation = 
+													{
+														m_Components = 
+														[
+															0.000000,
+															{
+																m_Expression = "-fRot"
+															},
+															0.000000,
+														]
+													}
+												},
+											]
+										},
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 216
+											m_sModelName = resource_name:"models/architecture/arch_garage_indus/fenestration_door_a_hinge_in.vmdl"
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_vModelScale = 
+											{
+												m_Components = 
+												[
+													1.000000,
+													{
+														m_Expression = "fGlobalWidth / 71.7"
+													},
+													{
+														m_Expression = "fGlobalHeight / 167"
+													},
+												]
+											}
+										},
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 217
+											m_sModelName = resource_name:"models/architecture/arch_garage_indus/fenestration_door_a_glass.vmdl"
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_vModelScale = 
+											{
+												m_Components = 
+												[
+													1.000000,
+													{
+														m_Expression = "fGlobalWidth / 96"
+													},
+													{
+														m_Expression = "fGlobalHeight / 167"
+													},
+												]
+											}
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 201
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_CreateRotator"
+											m_OutputVariable = "fRot"
+											m_bEnforceLimits = true
+											m_flSnappingIncrement = 15.000000
+											m_flMinAngle = 20.000000
+											m_flMaxAngle = 90.000000
+											m_vRotationAxis = 
+											[
+												0.000000,
+												0.000000,
+												1.000000,
+											]
+										},
+									]
+									m_Children = 
+									[
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 202
+											m_sModelName = resource_name:"models/architecture/arch_garage_indus/fenestration_door_b.vmdl"
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_vModelScale = 
+											{
+												m_Components = 
+												[
+													1.000000,
+													{
+														m_Expression = "fGlobalWidth / 71.7"
+													},
+													{
+														m_Expression = "fGlobalHeight / 167"
+													},
+												]
+											}
+										},
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 203
+											m_sModelName = resource_name:"models/architecture/arch_garage_indus/fenestration_door_b_hinge.vmdl"
+											m_vModelScale = 
+											{
+												m_Components = 
+												[
+													1.000000,
+													1.000000,
+													{
+														m_Expression = "fGlobalHeight / 167"
+													},
+												]
+											}
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropFilter_VariableValue"
+													m_VariableComparison = 
+													{
+														m_Name = "iDoorSelection"
+														m_Value = 0
+														m_Comparison = "EQUAL"
+													}
+													m_bEnabled = true
+												},
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														0.000000,
+														0.000000,
+														0.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_Rotate"
+													m_vRotation = 
+													{
+														m_Components = 
+														[
+															0.000000,
+															{
+																m_Expression = "-fRot"
+															},
+															0.000000,
+														]
+													}
+												},
+											]
+										},
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 204
+											m_sModelName = resource_name:"models/architecture/arch_garage_indus/fenestration_door_b_hinge_in.vmdl"
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_vModelScale = 
+											{
+												m_Components = 
+												[
+													1.000000,
+													{
+														m_Expression = "fGlobalWidth / 71.7"
+													},
+													{
+														m_Expression = "fGlobalHeight / 167"
+													},
+												]
+											}
+										},
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 218
+											m_sModelName = resource_name:"models/architecture/arch_garage_indus/fenestration_door_b_glass.vmdl"
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_vModelScale = 
+											{
+												m_Components = 
+												[
+													1.000000,
+													{
+														m_Expression = "fGlobalWidth / 71.7"
+													},
+													{
+														m_Expression = "fGlobalHeight / 167"
+													},
+												]
+											}
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 205
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											{
+												m_Components = 
+												[
+													1.500000,
+													{
+														m_Expression = "fGlobalWidth"
+													},
+													0.000000,
+												]
+											}
+										},
+										
+										{
+											_class = "CSmartPropOperation_CreateRotator"
+											m_OutputVariable = "fRot"
+											m_bEnforceLimits = true
+											m_flSnappingIncrement = 15.000000
+											m_flMinAngle = 20.000000
+											m_flMaxAngle = 90.000000
+											m_vRotationAxis = 
+											[
+												0.000000,
+												0.000000,
+												1.000000,
+											]
+										},
+									]
+									m_Children = 
+									[
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 206
+											m_sModelName = resource_name:"models/architecture/arch_garage_indus/fenestration_door_a.vmdl"
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_vModelScale = 
+											{
+												m_Components = 
+												[
+													1.000000,
+													{
+														m_Expression = "fGlobalWidth / 96"
+													},
+													{
+														m_Expression = "fGlobalHeight / 167"
+													},
+												]
+											}
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													{
+														m_Components = 
+														[
+															-5.000000,
+															0.000000,
+															0.000000,
+														]
+													}
+													m_bEnabled = true
+												},
+												
+												{
+													_class = "CSmartPropOperation_Rotate"
+													m_vRotation = 
+													[
+														0.000000,
+														180.000000,
+														0.000000,
+													]
+												},
+											]
+										},
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 207
+											m_sModelName = resource_name:"models/architecture/arch_garage_indus/fenestration_door_a_hinge.vmdl"
+											m_vModelScale = 
+											{
+												m_Components = 
+												[
+													1.000000,
+													1.000000,
+													{
+														m_Expression = "fGlobalHeight / 167"
+													},
+												]
+											}
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_bEnabled = true
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													{
+														m_Components = 
+														[
+															0.000000,
+															0.000000,
+															0.000000,
+														]
+													}
+													m_bEnabled = true
+												},
+											]
+										},
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 208
+											m_sModelName = resource_name:"models/architecture/arch_garage_indus/fenestration_door_a_hinge_in.vmdl"
+											m_vModelScale = 
+											{
+												m_Components = 
+												[
+													1.000000,
+													1.000000,
+													{
+														m_Expression = "fGlobalHeight / 167"
+													},
+												]
+											}
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_bEnabled = true
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													{
+														m_Components = 
+														[
+															0.000000,
+															0.000000,
+															0.000000,
+														]
+													}
+													m_bEnabled = true
+												},
+												
+												{
+													_class = "CSmartPropOperation_Rotate"
+													m_vRotation = 
+													{
+														m_Components = 
+														[
+															180.000000,
+															{
+																m_Expression = "180 - fRot"
+															},
+															180.000000,
+														]
+													}
+													m_bEnabled = true
+												},
+											]
+										},
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 219
+											m_sModelName = resource_name:"models/architecture/arch_garage_indus/fenestration_door_a_glass.vmdl"
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_vModelScale = 
+											{
+												m_Components = 
+												[
+													1.000000,
+													{
+														m_Expression = "fGlobalWidth / 96"
+													},
+													{
+														m_Expression = "fGlobalHeight / 167"
+													},
+												]
+											}
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													{
+														m_Components = 
+														[
+															-5.000000,
+															0.000000,
+															0.000000,
+														]
+													}
+													m_bEnabled = true
+												},
+												
+												{
+													_class = "CSmartPropOperation_Rotate"
+													m_vRotation = 
+													[
+														0.000000,
+														180.000000,
+														0.000000,
+													]
+												},
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 209
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											{
+												m_Components = 
+												[
+													1.500000,
+													{
+														m_Expression = "fGlobalWidth"
+													},
+													0.000000,
+												]
+											}
+										},
+										
+										{
+											_class = "CSmartPropOperation_CreateRotator"
+											m_OutputVariable = "fRot"
+											m_bEnforceLimits = true
+											m_flSnappingIncrement = 15.000000
+											m_flMinAngle = 20.000000
+											m_flMaxAngle = 90.000000
+											m_vRotationAxis = 
+											[
+												0.000000,
+												0.000000,
+												1.000000,
+											]
+										},
+									]
+									m_Children = 
+									[
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 210
+											m_sModelName = resource_name:"models/architecture/arch_garage_indus/fenestration_door_b.vmdl"
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_vModelScale = 
+											{
+												m_Components = 
+												[
+													1.000000,
+													{
+														m_Expression = "fGlobalWidth / 71.7"
+													},
+													{
+														m_Expression = "fGlobalHeight / 167"
+													},
+												]
+											}
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													{
+														m_Components = 
+														[
+															-5.000000,
+															0.000000,
+															0.000000,
+														]
+													}
+													m_bEnabled = true
+												},
+												
+												{
+													_class = "CSmartPropOperation_Rotate"
+													m_vRotation = 
+													[
+														0.000000,
+														180.000000,
+														0.000000,
+													]
+												},
+											]
+										},
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 211
+											m_sModelName = resource_name:"models/architecture/arch_garage_indus/fenestration_door_b_hinge.vmdl"
+											m_vModelScale = 
+											{
+												m_Components = 
+												[
+													1.000000,
+													1.000000,
+													{
+														m_Expression = "fGlobalHeight / 167"
+													},
+												]
+											}
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_bEnabled = true
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													{
+														m_Components = 
+														[
+															0.000000,
+															0.000000,
+															0.000000,
+														]
+													}
+													m_bEnabled = true
+												},
+											]
+										},
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 212
+											m_sModelName = resource_name:"models/architecture/arch_garage_indus/fenestration_door_b_hinge_in.vmdl"
+											m_vModelScale = 
+											{
+												m_Components = 
+												[
+													1.000000,
+													1.000000,
+													{
+														m_Expression = "fGlobalHeight / 167"
+													},
+												]
+											}
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_bEnabled = true
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													{
+														m_Components = 
+														[
+															0.000000,
+															0.000000,
+															0.000000,
+														]
+													}
+													m_bEnabled = true
+												},
+												
+												{
+													_class = "CSmartPropOperation_Rotate"
+													m_vRotation = 
+													{
+														m_Components = 
+														[
+															180.000000,
+															{
+																m_Expression = "180 - fRot"
+															},
+															180.000000,
+														]
+													}
+													m_bEnabled = true
+												},
+											]
+										},
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 220
+											m_sModelName = resource_name:"models/architecture/arch_garage_indus/fenestration_door_b_glass.vmdl"
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_vModelScale = 
+											{
+												m_Components = 
+												[
+													1.000000,
+													{
+														m_Expression = "fGlobalWidth / 71.7"
+													},
+													{
+														m_Expression = "fGlobalHeight / 167"
+													},
+												]
+											}
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													{
+														m_Components = 
+														[
+															-5.000000,
+															0.000000,
+															0.000000,
+														]
+													}
+													m_bEnabled = true
+												},
+												
+												{
+													_class = "CSmartPropOperation_Rotate"
+													m_vRotation = 
+													[
+														0.000000,
+														180.000000,
+														0.000000,
+													]
+												},
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 192
+									m_sLabel = "None"
+								},
+							]
+						},
+					]
+				},
+			]
+		},
+	]
+}

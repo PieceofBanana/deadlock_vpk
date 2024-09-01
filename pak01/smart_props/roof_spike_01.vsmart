@@ -1,0 +1,282 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vrfunknown:version{4dddb66e-c6ed-4bd0-a4ef-afb45a02acc2} -->
+{
+	generic_data_type = "CSmartPropRoot"
+	_editor = 
+	{
+		next_element_id = 94
+	}
+	m_Variables = 
+	[
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_nElementID = 88
+			m_VariableName = "flength"
+			m_DefaultValue = 64.000000
+		},
+	]
+	m_Children = 
+	[
+		
+		{
+			_class = "CSmartPropElement_Group"
+			m_nElementID = 86
+			_editor = 
+			{
+				folder_name = ""
+			}
+			m_Modifiers = 
+			[
+				
+				{
+					_class = "CSmartPropOperation_CreateSizer"
+					m_OutputVariableMaxY = "flength"
+					m_flConstraintMaxY = 0.000000
+					m_flInitialMaxY = 
+					{
+						m_SourceName = "flength"
+					}
+				},
+			]
+			m_Children = 
+			[
+				
+				{
+					_class = "CSmartPropElement_FitOnLine"
+					m_nElementID = 89
+					m_vEnd = 
+					{
+						m_Components = 
+						[
+							0.000000,
+							{
+								m_SourceName = "flength"
+							},
+							0.000000,
+						]
+					}
+					m_nScaleMode = "SCALE_EQUALLY"
+					m_nPickMode = "RANDOM"
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_PickOne"
+							m_nElementID = 93
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_SelectionMode = "RANDOM"
+							m_HandleSize = 8
+							m_HandleColor = 
+							[
+								173,
+								255,
+								47,
+							]
+							m_vHandleOffset = 
+							[
+								0.000000,
+								0.000000,
+								40.000000,
+							]
+							m_SelectionCriteria = 
+							[
+								
+								{
+									_class = "CSmartPropSelectionCriteria_LinearLength"
+									m_flLength = 64.000000
+									m_bAllowScale = true
+									m_flMinLength = 32.000000
+									m_flMaxLength = 96.000000
+								},
+							]
+							m_Children = 
+							[
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 84
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_sLabel = "Spike"
+									m_SelectionCriteria = 
+									[
+										
+										{
+											_class = "CSmartPropSelectionCriteria_ChoiceWeight"
+											m_flWeight = 1.000000
+										},
+									]
+									m_Children = 
+									[
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 4
+											m_sModelName = resource_name:"models/props_city/satellite_dish_bracket_rooftop.vmdl"
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_RandomRotation"
+													m_vRandomRotationMax = 
+													[
+														0.000000,
+														5.000000,
+														0.000000,
+													]
+													m_vRandomRotationMin = 
+													[
+														0.000000,
+														-5.000000,
+														0.000000,
+													]
+												},
+											]
+										},
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 6
+											m_sModelName = resource_name:"models/props/dota_import/dota_import_spike001.vmdl"
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_SetTintColor"
+													m_ColorChoices = 
+													[
+														
+														{
+															m_Color = 
+															[
+																62,
+																46,
+																19,
+															]
+														},
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_SetPosition"
+													m_vPosition = 
+													[
+														0.000000,
+														0.000000,
+														72.000000,
+													]
+													m_CoordinateSpace = "ELEMENT"
+												},
+												
+												{
+													_class = "CSmartPropOperation_RandomRotation"
+													m_vRandomRotationMax = 
+													[
+														5.000000,
+														5.000000,
+														5.000000,
+													]
+													m_vRandomRotationMin = 
+													[
+														-5.000000,
+														-5.000000,
+														-5.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_RandomScale"
+													m_flRandomScaleMin = 1.500000
+													m_flRandomScaleMax = 2.250000
+												},
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 7
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_bEnabled = true
+									m_sLabel = "Chimney"
+									m_SelectionCriteria = 
+									[
+										
+										{
+											_class = "CSmartPropSelectionCriteria_ChoiceWeight"
+										},
+									]
+									m_Children = 
+									[
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 78
+											m_sModelName = resource_name:"models/props_city/chimney_rooftop05a.vmdl"
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_RandomRotation"
+													m_vRandomRotationMax = 
+													[
+														0.000000,
+														355.000000,
+														0.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_RandomScale"
+													m_flRandomScaleMax = 1.500000
+												},
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 92
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_SelectionCriteria = 
+									[
+										
+										{
+											_class = "CSmartPropSelectionCriteria_ChoiceWeight"
+											m_flWeight = 0.500000
+										},
+									]
+								},
+							]
+						},
+					]
+				},
+			]
+		},
+	]
+}

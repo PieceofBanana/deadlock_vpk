@@ -1,0 +1,215 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vrfunknown:version{4dddb66e-c6ed-4bd0-a4ef-afb45a02acc2} -->
+{
+	generic_data_type = "CSmartPropRoot"
+	_editor = 
+	{
+		next_element_id = 13
+	}
+	m_Children = 
+	[
+		
+		{
+			_class = "CSmartPropElement_Model"
+			m_sModelName = resource_name:"models/props_city/phone_booth_01.vmdl"
+			m_nElementID = 1
+		},
+		
+		{
+			_class = "CSmartPropElement_PickOne"
+			m_nElementID = 3
+			m_SelectionMode = "FIRST"
+			m_Children = 
+			[
+				
+				{
+					_class = "CSmartPropElement_Group"
+					m_nElementID = 4
+					m_bEnabled = true
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_sModelName = resource_name:"models/props_city/phone_booth_01_door_left.vmdl"
+							m_nElementID = 2
+							_editor = 
+							{
+								folder_name = ""
+							}
+						},
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_sModelName = resource_name:"models/props_city/phone_booth_01_door_right.vmdl"
+							m_nElementID = 5
+							_editor = 
+							{
+								folder_name = ""
+							}
+						},
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_sModelName = resource_name:"models/props_city/phone_booth_01_glass_left.vmdl"
+							m_nElementID = 6
+							_editor = 
+							{
+								folder_name = ""
+							}
+						},
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_sModelName = resource_name:"models/props_city/phone_booth_01_glass_right.vmdl"
+							m_nElementID = 7
+							_editor = 
+							{
+								folder_name = ""
+							}
+						},
+					]
+				},
+				
+				{
+					_class = "CSmartPropElement_Group"
+					m_nElementID = 8
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_sModelName = resource_name:"models/props_city/phone_booth_01_door_left.vmdl"
+							m_nElementID = 9
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_Rotate"
+									m_vRotation = 
+									[
+										0.000000,
+										45.000000,
+										0.000000,
+									]
+								},
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									[
+										15.000000,
+										-2.000000,
+										0.000000,
+									]
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_sModelName = resource_name:"models/props_city/phone_booth_01_door_right.vmdl"
+							m_nElementID = 10
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_Rotate"
+									m_vRotation = 
+									[
+										0.000000,
+										110.000000,
+										0.000000,
+									]
+								},
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									[
+										20.000000,
+										49.000000,
+										0.000000,
+									]
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_sModelName = resource_name:"models/props_city/phone_booth_01_glass_left.vmdl"
+							m_nElementID = 11
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_Rotate"
+									m_vRotation = 
+									[
+										0.000000,
+										45.000000,
+										0.000000,
+									]
+								},
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									[
+										15.000000,
+										-2.000000,
+										0.000000,
+									]
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_sModelName = resource_name:"models/props_city/phone_booth_01_glass_right.vmdl"
+							m_nElementID = 12
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_Rotate"
+									m_vRotation = 
+									[
+										0.000000,
+										110.000000,
+										0.000000,
+									]
+								},
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									[
+										20.000000,
+										49.000000,
+										0.000000,
+									]
+								},
+							]
+						},
+					]
+				},
+			]
+		},
+	]
+}

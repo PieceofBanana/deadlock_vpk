@@ -1,0 +1,2048 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vrfunknown:version{4dddb66e-c6ed-4bd0-a4ef-afb45a02acc2} -->
+{
+	generic_data_type = "CSmartPropRoot"
+	_editor = 
+	{
+		next_element_id = 152
+	}
+	m_Children = 
+	[
+		
+		{
+			_class = "CSmartPropElement_ModifyState"
+			m_nElementID = 71
+			_editor = 
+			{
+				folder_name = ""
+			}
+			m_Modifiers = 
+			[
+				
+				{
+					_class = "CSmartPropOperation_SetTintColor"
+					m_ColorChoices = 
+					[
+						
+						{
+							m_Color = 
+							[
+								255,
+								215,
+								0,
+							]
+						},
+						
+						{
+							m_Color = 
+							[
+								205,
+								133,
+								63,
+							]
+						},
+						
+						{
+							m_Color = 
+							[
+								70,
+								130,
+								180,
+							]
+						},
+						
+						{
+							m_Color = 
+							[
+								75,
+								0,
+								130,
+							]
+						},
+					]
+					m_bEnabled = false
+				},
+				
+				{
+					_class = "CSmartPropOperation_Scale"
+					m_flScale = 2.000000
+					m_bEnabled = false
+				},
+				
+				{
+					_class = "CSmartPropOperation_RandomRotation"
+					m_vRandomRotationMax = 
+					[
+						0.000000,
+						355.000000,
+						0.000000,
+					]
+				},
+			]
+		},
+		
+		{
+			_class = "CSmartPropElement_PickOne"
+			m_nElementID = 1
+			m_HandleColor = 
+			[
+				255,
+				0,
+				0,
+			]
+			m_HandleSize = 16
+			m_vHandleOffset = 
+			[
+				0.000000,
+				0.000000,
+				32.000000,
+			]
+			m_HandleShape = "DIAMOND"
+			m_SelectionMode = "FIRST"
+			m_Children = 
+			[
+				
+				{
+					_class = "CSmartPropElement_Group"
+					m_nElementID = 7
+					_editor = 
+					{
+						folder_name = ""
+					}
+					m_bEnabled = true
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_ModifyState"
+							m_nElementID = 151
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_SetTintColor"
+									m_ColorChoices = 
+									[
+										
+										{
+											m_Color = 
+											[
+												255,
+												215,
+												0,
+											]
+										},
+										
+										{
+											m_Color = 
+											[
+												205,
+												133,
+												63,
+											]
+										},
+										
+										{
+											m_Color = 
+											[
+												70,
+												130,
+												180,
+											]
+										},
+										
+										{
+											m_Color = 
+											[
+												75,
+												0,
+												130,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropOperation_Scale"
+									m_flScale = 2.000000
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 6
+							m_sModelName = resource_name:"models/props/bottle_04.vmdl"
+							m_bEnabled = true
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									[
+										-10.000000,
+										0.000000,
+										0.000000,
+									]
+								},
+								
+								{
+									_class = "CSmartPropOperation_RandomRotation"
+									m_vRandomRotationMax = 
+									[
+										0.000000,
+										355.000000,
+										0.000000,
+									]
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 9
+							m_sModelName = resource_name:"models/props/bottle_05.vmdl"
+							m_bEnabled = true
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									[
+										-8.000000,
+										10.000000,
+										0.000000,
+									]
+								},
+								
+								{
+									_class = "CSmartPropOperation_RandomRotation"
+									m_vRandomRotationMax = 
+									[
+										0.000000,
+										355.000000,
+										0.000000,
+									]
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 13
+							m_sModelName = resource_name:"models/props/bottle_04.vmdl"
+							m_bEnabled = true
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									[
+										0.000000,
+										-10.000000,
+										0.000000,
+									]
+								},
+								
+								{
+									_class = "CSmartPropOperation_RandomRotation"
+									m_vRandomRotationMax = 
+									[
+										0.000000,
+										355.000000,
+										0.000000,
+									]
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 14
+							m_sModelName = resource_name:"models/props/bottle_05.vmdl"
+							m_bEnabled = true
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									[
+										8.000000,
+										-14.000000,
+										0.000000,
+									]
+								},
+								
+								{
+									_class = "CSmartPropOperation_RandomRotation"
+									m_vRandomRotationMax = 
+									[
+										0.000000,
+										355.000000,
+										0.000000,
+									]
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_PickOne"
+							m_nElementID = 72
+							m_Children = 
+							[
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 2
+									m_sModelName = resource_name:"models/props/bottle_01.vmdl"
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_RandomRotation"
+											m_vRandomRotationMax = 
+											[
+												0.000000,
+												355.000000,
+												0.000000,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 10
+									m_sModelName = resource_name:"models/props/bottle_01.vmdl"
+									m_bEnabled = true
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												-11.000000,
+												-12.000000,
+												0.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomRotation"
+											m_vRandomRotationMax = 
+											[
+												0.000000,
+												355.000000,
+												0.000000,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 16
+									m_sModelName = resource_name:"models/props/bottle_01.vmdl"
+									m_bEnabled = true
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												11.000000,
+												6.000000,
+												0.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomRotation"
+											m_vRandomRotationMax = 
+											[
+												0.000000,
+												355.000000,
+												0.000000,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 75
+									_editor = 
+									{
+										folder_name = ""
+									}
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_PickOne"
+							m_nElementID = 73
+							m_Children = 
+							[
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 8
+									m_sModelName = resource_name:"models/props/bottle_02.vmdl"
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												-14.000000,
+												4.000000,
+												0.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomRotation"
+											m_vRandomRotationMax = 
+											[
+												0.000000,
+												355.000000,
+												0.000000,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 17
+									m_sModelName = resource_name:"models/props/bottle_02.vmdl"
+									m_bEnabled = true
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												12.000000,
+												-6.000000,
+												0.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomRotation"
+											m_vRandomRotationMax = 
+											[
+												0.000000,
+												355.000000,
+												0.000000,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 11
+									m_sModelName = resource_name:"models/props/bottle_02.vmdl"
+									m_bEnabled = true
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												0.000000,
+												9.000000,
+												0.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomRotation"
+											m_vRandomRotationMax = 
+											[
+												0.000000,
+												355.000000,
+												0.000000,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 76
+									_editor = 
+									{
+										folder_name = ""
+									}
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_PickOne"
+							m_nElementID = 74
+							m_Children = 
+							[
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 12
+									m_sModelName = resource_name:"models/props/bottle_03.vmdl"
+									m_bEnabled = true
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												8.000000,
+												-8.000000,
+												0.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomRotation"
+											m_vRandomRotationMax = 
+											[
+												0.000000,
+												355.000000,
+												0.000000,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 4
+									m_sModelName = resource_name:"models/props/bottle_03.vmdl"
+									m_bEnabled = true
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												16.000000,
+												0.000000,
+												0.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomRotation"
+											m_vRandomRotationMax = 
+											[
+												0.000000,
+												355.000000,
+												0.000000,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 77
+									_editor = 
+									{
+										folder_name = ""
+									}
+								},
+							]
+						},
+					]
+				},
+				
+				{
+					_class = "CSmartPropElement_Group"
+					m_nElementID = 78
+					_editor = 
+					{
+						folder_name = ""
+					}
+					m_bEnabled = true
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_ModifyState"
+							m_nElementID = 150
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_SetTintColor"
+									m_ColorChoices = 
+									[
+										
+										{
+											m_Color = 
+											[
+												255,
+												215,
+												0,
+											]
+										},
+										
+										{
+											m_Color = 
+											[
+												205,
+												133,
+												63,
+											]
+										},
+										
+										{
+											m_Color = 
+											[
+												70,
+												130,
+												180,
+											]
+										},
+										
+										{
+											m_Color = 
+											[
+												75,
+												0,
+												130,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropOperation_Scale"
+									m_flScale = 2.000000
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_PickOne"
+							m_nElementID = 83
+							m_HandleColor = 
+							[
+								124,
+								252,
+								0,
+							]
+							m_HandleSize = 16
+							m_vHandleOffset = 
+							[
+								0.000000,
+								0.000000,
+								24.000000,
+							]
+							m_Children = 
+							[
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 87
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_bEnabled = true
+									m_Children = 
+									[
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 84
+											m_sModelName = resource_name:"models/props/bottle_01.vmdl"
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_RandomRotation"
+													m_vRandomRotationMax = 
+													[
+														0.000000,
+														355.000000,
+														0.000000,
+													]
+												},
+											]
+										},
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 85
+											m_sModelName = resource_name:"models/props/bottle_01.vmdl"
+											m_bEnabled = true
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														-7.000000,
+														-12.000000,
+														0.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_RandomRotation"
+													m_vRandomRotationMax = 
+													[
+														0.000000,
+														355.000000,
+														0.000000,
+													]
+												},
+											]
+										},
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 86
+											m_sModelName = resource_name:"models/props/bottle_01.vmdl"
+											m_bEnabled = true
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														9.000000,
+														6.000000,
+														0.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_RandomRotation"
+													m_vRandomRotationMax = 
+													[
+														0.000000,
+														355.000000,
+														0.000000,
+													]
+												},
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 96
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_bEnabled = true
+									m_Children = 
+									[
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 94
+											m_sModelName = resource_name:"models/props/bottle_03.vmdl"
+											m_bEnabled = true
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														8.000000,
+														-8.000000,
+														0.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_RandomRotation"
+													m_vRandomRotationMax = 
+													[
+														0.000000,
+														355.000000,
+														0.000000,
+													]
+												},
+											]
+										},
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 95
+											m_sModelName = resource_name:"models/props/bottle_03.vmdl"
+											m_bEnabled = true
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														16.000000,
+														0.000000,
+														0.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_RandomRotation"
+													m_vRandomRotationMax = 
+													[
+														0.000000,
+														355.000000,
+														0.000000,
+													]
+												},
+											]
+										},
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 104
+											m_sModelName = resource_name:"models/props/bottle_03.vmdl"
+											m_bEnabled = true
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														0.000000,
+														0.000000,
+														0.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_RandomRotation"
+													m_vRandomRotationMax = 
+													[
+														0.000000,
+														355.000000,
+														0.000000,
+													]
+												},
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 92
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_bEnabled = true
+									m_Children = 
+									[
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 89
+											m_sModelName = resource_name:"models/props/bottle_02.vmdl"
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														-8.000000,
+														4.000000,
+														0.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_RandomRotation"
+													m_vRandomRotationMax = 
+													[
+														0.000000,
+														355.000000,
+														0.000000,
+													]
+												},
+											]
+										},
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 90
+											m_sModelName = resource_name:"models/props/bottle_02.vmdl"
+											m_bEnabled = true
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														5.000000,
+														-6.000000,
+														0.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_RandomRotation"
+													m_vRandomRotationMax = 
+													[
+														0.000000,
+														355.000000,
+														0.000000,
+													]
+												},
+											]
+										},
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 91
+											m_sModelName = resource_name:"models/props/bottle_02.vmdl"
+											m_bEnabled = true
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														0.000000,
+														9.000000,
+														0.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_RandomRotation"
+													m_vRandomRotationMax = 
+													[
+														0.000000,
+														355.000000,
+														0.000000,
+													]
+												},
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 97
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_bEnabled = true
+									m_Children = 
+									[
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 79
+											m_sModelName = resource_name:"models/props/bottle_04.vmdl"
+											m_bEnabled = true
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														-10.000000,
+														0.000000,
+														0.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_RandomRotation"
+													m_vRandomRotationMax = 
+													[
+														0.000000,
+														355.000000,
+														0.000000,
+													]
+												},
+											]
+										},
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 81
+											m_sModelName = resource_name:"models/props/bottle_04.vmdl"
+											m_bEnabled = true
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														0.000000,
+														-10.000000,
+														0.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_RandomRotation"
+													m_vRandomRotationMax = 
+													[
+														0.000000,
+														355.000000,
+														0.000000,
+													]
+												},
+											]
+										},
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 105
+											m_sModelName = resource_name:"models/props/bottle_04.vmdl"
+											m_bEnabled = true
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														0.000000,
+														0.000000,
+														0.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_RandomRotation"
+													m_vRandomRotationMax = 
+													[
+														0.000000,
+														355.000000,
+														0.000000,
+													]
+												},
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 101
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_bEnabled = true
+									m_Children = 
+									[
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 82
+											m_sModelName = resource_name:"models/props/bottle_05.vmdl"
+											m_bEnabled = true
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														4.000000,
+														-4.000000,
+														0.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_RandomRotation"
+													m_vRandomRotationMax = 
+													[
+														0.000000,
+														355.000000,
+														0.000000,
+													]
+												},
+											]
+										},
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 80
+											m_sModelName = resource_name:"models/props/bottle_05.vmdl"
+											m_bEnabled = true
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														-6.000000,
+														6.000000,
+														0.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_RandomRotation"
+													m_vRandomRotationMax = 
+													[
+														0.000000,
+														355.000000,
+														0.000000,
+													]
+												},
+											]
+										},
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 106
+											m_sModelName = resource_name:"models/props/bottle_05.vmdl"
+											m_bEnabled = true
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														0.000000,
+														0.000000,
+														0.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_RandomRotation"
+													m_vRandomRotationMax = 
+													[
+														0.000000,
+														355.000000,
+														0.000000,
+													]
+												},
+											]
+										},
+									]
+								},
+							]
+						},
+					]
+				},
+				
+				{
+					_class = "CSmartPropElement_Group"
+					m_nElementID = 107
+					_editor = 
+					{
+						folder_name = ""
+					}
+					m_bEnabled = true
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 108
+							m_sModelName = resource_name:"models/props_market/crate_milk_single_01.vmdl"
+							m_bEnabled = true
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									[
+										0.000000,
+										0.000000,
+										0.000000,
+									]
+								},
+								
+								{
+									_class = "CSmartPropOperation_RandomRotation"
+									m_vRandomRotationMax = 
+									[
+										0.000000,
+										355.000000,
+										0.000000,
+									]
+									m_bEnabled = false
+								},
+								
+								{
+									_class = "CSmartPropOperation_RandomColorTintColor"
+									m_Gradient = 
+									{
+										m_Stops = 
+										[
+											
+											{
+												m_flPosition = 0.000000
+												m_Color = 
+												[
+													192,
+													192,
+													192,
+												]
+											},
+											
+											{
+												m_flPosition = 0.204134
+												m_Color = 
+												[
+													105,
+													105,
+													105,
+												]
+											},
+										]
+									}
+									m_Mode = "REPLACE"
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_ModifyState"
+							m_nElementID = 149
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_SetTintColor"
+									m_ColorChoices = 
+									[
+										
+										{
+											m_Color = 
+											[
+												255,
+												215,
+												0,
+											]
+										},
+										
+										{
+											m_Color = 
+											[
+												205,
+												133,
+												63,
+											]
+										},
+										
+										{
+											m_Color = 
+											[
+												70,
+												130,
+												180,
+											]
+										},
+										
+										{
+											m_Color = 
+											[
+												75,
+												0,
+												130,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropOperation_Scale"
+									m_flScale = 2.000000
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_PickOne"
+							m_nElementID = 127
+							m_HandleColor = 
+							[
+								124,
+								252,
+								0,
+							]
+							m_HandleSize = 16
+							m_vHandleOffset = 
+							[
+								0.000000,
+								0.000000,
+								24.000000,
+							]
+							m_Children = 
+							[
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 128
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_bEnabled = true
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Scale"
+											m_flScale = 0.750000
+										},
+									]
+									m_Children = 
+									[
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 129
+											m_sModelName = resource_name:"models/props/bottle_01.vmdl"
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_RandomRotation"
+													m_vRandomRotationMax = 
+													[
+														0.000000,
+														355.000000,
+														0.000000,
+													]
+												},
+											]
+										},
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 130
+											m_sModelName = resource_name:"models/props/bottle_01.vmdl"
+											m_bEnabled = true
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														-6.000000,
+														-5.000000,
+														0.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_RandomRotation"
+													m_vRandomRotationMax = 
+													[
+														0.000000,
+														355.000000,
+														0.000000,
+													]
+												},
+											]
+										},
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 131
+											m_sModelName = resource_name:"models/props/bottle_01.vmdl"
+											m_bEnabled = true
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														7.000000,
+														3.000000,
+														0.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_RandomRotation"
+													m_vRandomRotationMax = 
+													[
+														0.000000,
+														355.000000,
+														0.000000,
+													]
+												},
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 132
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_bEnabled = true
+									m_Children = 
+									[
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 133
+											m_sModelName = resource_name:"models/props/bottle_03.vmdl"
+											m_bEnabled = true
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														4.000000,
+														-3.000000,
+														0.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_RandomRotation"
+													m_vRandomRotationMax = 
+													[
+														0.000000,
+														355.000000,
+														0.000000,
+													]
+												},
+											]
+										},
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 134
+											m_sModelName = resource_name:"models/props/bottle_03.vmdl"
+											m_bEnabled = true
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														-5.000000,
+														2.000000,
+														0.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_RandomRotation"
+													m_vRandomRotationMax = 
+													[
+														0.000000,
+														355.000000,
+														0.000000,
+													]
+												},
+											]
+										},
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 135
+											m_sModelName = resource_name:"models/props/bottle_03.vmdl"
+											m_bEnabled = true
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														0.000000,
+														0.000000,
+														0.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_RandomRotation"
+													m_vRandomRotationMax = 
+													[
+														0.000000,
+														355.000000,
+														0.000000,
+													]
+												},
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 136
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_bEnabled = true
+									m_Children = 
+									[
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 137
+											m_sModelName = resource_name:"models/props/bottle_02.vmdl"
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														-5.000000,
+														3.000000,
+														0.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_RandomRotation"
+													m_vRandomRotationMax = 
+													[
+														0.000000,
+														355.000000,
+														0.000000,
+													]
+												},
+											]
+										},
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 138
+											m_sModelName = resource_name:"models/props/bottle_02.vmdl"
+											m_bEnabled = true
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														3.000000,
+														-3.000000,
+														0.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_RandomRotation"
+													m_vRandomRotationMax = 
+													[
+														0.000000,
+														355.000000,
+														0.000000,
+													]
+												},
+											]
+										},
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 139
+											m_sModelName = resource_name:"models/props/bottle_02.vmdl"
+											m_bEnabled = true
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														0.000000,
+														1.000000,
+														0.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_RandomRotation"
+													m_vRandomRotationMax = 
+													[
+														0.000000,
+														355.000000,
+														0.000000,
+													]
+												},
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 140
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_bEnabled = true
+									m_Children = 
+									[
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 141
+											m_sModelName = resource_name:"models/props/bottle_04.vmdl"
+											m_bEnabled = true
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														-4.000000,
+														0.000000,
+														0.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_RandomRotation"
+													m_vRandomRotationMax = 
+													[
+														0.000000,
+														355.000000,
+														0.000000,
+													]
+												},
+											]
+										},
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 142
+											m_sModelName = resource_name:"models/props/bottle_04.vmdl"
+											m_bEnabled = true
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														0.000000,
+														-4.000000,
+														0.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_RandomRotation"
+													m_vRandomRotationMax = 
+													[
+														0.000000,
+														355.000000,
+														0.000000,
+													]
+												},
+											]
+										},
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 143
+											m_sModelName = resource_name:"models/props/bottle_04.vmdl"
+											m_bEnabled = true
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														3.000000,
+														3.000000,
+														0.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_RandomRotation"
+													m_vRandomRotationMax = 
+													[
+														0.000000,
+														355.000000,
+														0.000000,
+													]
+												},
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 144
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_bEnabled = true
+									m_Children = 
+									[
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 145
+											m_sModelName = resource_name:"models/props/bottle_05.vmdl"
+											m_bEnabled = true
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														4.000000,
+														-4.000000,
+														0.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_RandomRotation"
+													m_vRandomRotationMax = 
+													[
+														0.000000,
+														355.000000,
+														0.000000,
+													]
+												},
+											]
+										},
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 146
+											m_sModelName = resource_name:"models/props/bottle_05.vmdl"
+											m_bEnabled = true
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														-3.000000,
+														3.000000,
+														0.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_RandomRotation"
+													m_vRandomRotationMax = 
+													[
+														0.000000,
+														355.000000,
+														0.000000,
+													]
+												},
+											]
+										},
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 147
+											m_sModelName = resource_name:"models/props/bottle_05.vmdl"
+											m_bEnabled = true
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														0.000000,
+														0.000000,
+														0.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_RandomRotation"
+													m_vRandomRotationMax = 
+													[
+														0.000000,
+														355.000000,
+														0.000000,
+													]
+												},
+											]
+										},
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 148
+											m_sModelName = resource_name:"models/props/bottle_05.vmdl"
+											m_bEnabled = true
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														3.000000,
+														4.000000,
+														0.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_RandomRotation"
+													m_vRandomRotationMax = 
+													[
+														0.000000,
+														355.000000,
+														0.000000,
+													]
+												},
+											]
+										},
+									]
+								},
+							]
+						},
+					]
+				},
+			]
+		},
+	]
+}

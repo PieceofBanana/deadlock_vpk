@@ -1,0 +1,2571 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vrfunknown:version{14569973-573f-43a7-a0e2-0c7241e19925} -->
+{
+	_class = "CAnimGraphModelBinding"
+	m_modelName = "models/npc/trooper_zipline_container/trooper_zipline_container.vmdl"
+	m_pSharedData = 
+	{
+		_class = "CAnimUpdateSharedData"
+		m_nodes = 
+		[
+			
+			{
+				_class = "CSequenceUpdateNode"
+				m_nodePath = 
+				{
+					m_path = 
+					[
+						
+						{
+							m_id = 224308822
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+					]
+					m_nCount = 1
+				}
+				m_networkMode = "ServerAuthoritative"
+				m_name = "null_add"
+				m_playbackSpeed = 1.000000
+				m_bLoop = true
+				m_hSequence = 0
+				m_duration = 0.333333
+				m_paramSpans = 
+				{
+					m_spans = 
+					[
+					]
+				}
+				m_tags = 
+				[
+				]
+			},
+			
+			{
+				_class = "CSequenceUpdateNode"
+				m_nodePath = 
+				{
+					m_path = 
+					[
+						
+						{
+							m_id = 253393982
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+					]
+					m_nCount = 1
+				}
+				m_networkMode = "ServerAuthoritative"
+				m_name = "falling"
+				m_playbackSpeed = 1.000000
+				m_bLoop = true
+				m_hSequence = 1
+				m_duration = 4.000000
+				m_paramSpans = 
+				{
+					m_spans = 
+					[
+					]
+				}
+				m_tags = 
+				[
+				]
+			},
+			
+			{
+				_class = "CSelectorUpdateNode"
+				m_nodePath = 
+				{
+					m_path = 
+					[
+						
+						{
+							m_id = 1874168712
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+					]
+					m_nCount = 1
+				}
+				m_networkMode = "ServerAuthoritative"
+				m_name = "b_Falling"
+				m_children = 
+				[
+					
+					{
+						m_nodeIndex = 0
+					},
+					
+					{
+						m_nodeIndex = 1
+					},
+				]
+				m_tags = 
+				[
+					-1,
+					-1,
+				]
+				m_blendCurve = 
+				{
+					m_flControlPoint1 = 0.000000
+					m_flControlPoint2 = 1.000000
+				}
+				m_flBlendTime = 
+				{
+					m_constValue = 0.200000
+					m_hParam = 
+					{
+						m_type = "ANIMPARAM_UNKNOWN"
+						m_index = 255
+					}
+				}
+				m_hParameter = 
+				{
+					m_type = "ANIMPARAM_BOOL"
+					m_index = 0
+				}
+				m_nTagIndex = -1
+				m_eTagBehavior = "SelectorTagBehavior_OffWhenFinished"
+				m_bResetOnChange = true
+				m_bLockWhenWaning = false
+				m_bSyncCyclesOnChange = false
+			},
+			
+			{
+				_class = "CSequenceUpdateNode"
+				m_nodePath = 
+				{
+					m_path = 
+					[
+						
+						{
+							m_id = 1392220850
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+					]
+					m_nCount = 1
+				}
+				m_networkMode = "ServerAuthoritative"
+				m_name = "zipline_loco"
+				m_playbackSpeed = 1.000000
+				m_bLoop = true
+				m_hSequence = 2
+				m_duration = 10.000000
+				m_paramSpans = 
+				{
+					m_spans = 
+					[
+					]
+				}
+				m_tags = 
+				[
+				]
+			},
+			
+			{
+				_class = "CSelectorUpdateNode"
+				m_nodePath = 
+				{
+					m_path = 
+					[
+						
+						{
+							m_id = 468771306
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+					]
+					m_nCount = 1
+				}
+				m_networkMode = "ServerAuthoritative"
+				m_name = "b_ZipLining"
+				m_children = 
+				[
+					
+					{
+						m_nodeIndex = 2
+					},
+					
+					{
+						m_nodeIndex = 3
+					},
+				]
+				m_tags = 
+				[
+					-1,
+					-1,
+				]
+				m_blendCurve = 
+				{
+					m_flControlPoint1 = 0.000000
+					m_flControlPoint2 = 1.000000
+				}
+				m_flBlendTime = 
+				{
+					m_constValue = 0.200000
+					m_hParam = 
+					{
+						m_type = "ANIMPARAM_UNKNOWN"
+						m_index = 255
+					}
+				}
+				m_hParameter = 
+				{
+					m_type = "ANIMPARAM_BOOL"
+					m_index = 1
+				}
+				m_nTagIndex = -1
+				m_eTagBehavior = "SelectorTagBehavior_OffWhenFinished"
+				m_bResetOnChange = true
+				m_bLockWhenWaning = false
+				m_bSyncCyclesOnChange = false
+			},
+			
+			{
+				_class = "CRootUpdateNode"
+				m_nodePath = 
+				{
+					m_path = 
+					[
+						
+						{
+							m_id = 566324135
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+					]
+					m_nCount = 1
+				}
+				m_networkMode = "ServerAuthoritative"
+				m_name = "Final Pose"
+				m_pChildNode = 
+				{
+					m_nodeIndex = 4
+				}
+			},
+		]
+		m_nodeIndexMap = 
+		[
+			
+			{
+				key = 
+				{
+					m_path = 
+					[
+						
+						{
+							m_id = 224308822
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+					]
+					m_nCount = 1
+				}
+				value = 0
+			},
+			
+			{
+				key = 
+				{
+					m_path = 
+					[
+						
+						{
+							m_id = 253393982
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+					]
+					m_nCount = 1
+				}
+				value = 1
+			},
+			
+			{
+				key = 
+				{
+					m_path = 
+					[
+						
+						{
+							m_id = 468771306
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+					]
+					m_nCount = 1
+				}
+				value = 4
+			},
+			
+			{
+				key = 
+				{
+					m_path = 
+					[
+						
+						{
+							m_id = 566324135
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+					]
+					m_nCount = 1
+				}
+				value = 5
+			},
+			
+			{
+				key = 
+				{
+					m_path = 
+					[
+						
+						{
+							m_id = 1392220850
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+					]
+					m_nCount = 1
+				}
+				value = 3
+			},
+			
+			{
+				key = 
+				{
+					m_path = 
+					[
+						
+						{
+							m_id = 1874168712
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+						
+						{
+							m_id = 4294967295
+						},
+					]
+					m_nCount = 1
+				}
+				value = 2
+			},
+		]
+		m_components = 
+		[
+		]
+		m_pParamListUpdater = 
+		{
+			_class = "CAnimParameterManagerUpdater"
+			m_parameters = 
+			[
+				
+				{
+					_class = "CBoolAnimParameter"
+					m_name = "b_Falling"
+					m_sComment = ""
+					m_group = ""
+					m_id = 
+					{
+						m_id = 320379198
+					}
+					m_componentName = ""
+					m_bNetworkingRequested = true
+					m_bIsReferenced = true
+					m_previewButton = "ANIMPARAM_BUTTON_NONE"
+					m_eNetworkSetting = "Auto"
+					m_bUseMostRecentValue = false
+					m_bAutoReset = false
+					m_bGameWritable = true
+					m_bGraphWritable = false
+					m_bDefaultValue = false
+				},
+				
+				{
+					_class = "CBoolAnimParameter"
+					m_name = "<Duplicate> b_ZipLining"
+					m_sComment = ""
+					m_group = ""
+					m_id = 
+					{
+						m_id = 1459385658
+					}
+					m_componentName = ""
+					m_bNetworkingRequested = true
+					m_bIsReferenced = true
+					m_previewButton = "ANIMPARAM_BUTTON_NONE"
+					m_eNetworkSetting = "Auto"
+					m_bUseMostRecentValue = false
+					m_bAutoReset = false
+					m_bGameWritable = true
+					m_bGraphWritable = false
+					m_bDefaultValue = false
+				},
+				
+				{
+					_class = "CBoolAnimParameter"
+					m_name = "b_Crouching"
+					m_sComment = ""
+					m_group = "trooper_params"
+					m_id = 
+					{
+						m_id = 308655969
+					}
+					m_componentName = ""
+					m_bNetworkingRequested = false
+					m_bIsReferenced = false
+					m_previewButton = "ANIMPARAM_BUTTON_NONE"
+					m_eNetworkSetting = "AlwaysNetwork"
+					m_bUseMostRecentValue = false
+					m_bAutoReset = false
+					m_bGameWritable = true
+					m_bGraphWritable = true
+					m_bDefaultValue = false
+				},
+				
+				{
+					_class = "CFloatAnimParameter"
+					m_name = "f_Hit_Forward"
+					m_sComment = ""
+					m_group = "trooper_params"
+					m_id = 
+					{
+						m_id = 1864190268
+					}
+					m_componentName = ""
+					m_bNetworkingRequested = false
+					m_bIsReferenced = false
+					m_previewButton = "ANIMPARAM_BUTTON_NONE"
+					m_eNetworkSetting = "Auto"
+					m_bUseMostRecentValue = false
+					m_bAutoReset = false
+					m_bGameWritable = true
+					m_bGraphWritable = true
+					m_fDefaultValue = 0.000000
+					m_fMinValue = 0.000000
+					m_fMaxValue = 1.000000
+					m_bInterpolate = false
+				},
+				
+				{
+					_class = "CFloatAnimParameter"
+					m_name = "f_Hit_Side"
+					m_sComment = ""
+					m_group = "trooper_params"
+					m_id = 
+					{
+						m_id = 92927803
+					}
+					m_componentName = ""
+					m_bNetworkingRequested = false
+					m_bIsReferenced = false
+					m_previewButton = "ANIMPARAM_BUTTON_NONE"
+					m_eNetworkSetting = "Auto"
+					m_bUseMostRecentValue = false
+					m_bAutoReset = false
+					m_bGameWritable = true
+					m_bGraphWritable = true
+					m_fDefaultValue = 0.000000
+					m_fMinValue = 0.000000
+					m_fMaxValue = 1.000000
+					m_bInterpolate = false
+				},
+				
+				{
+					_class = "CBoolAnimParameter"
+					m_name = "b_NearDeath"
+					m_sComment = ""
+					m_group = "trooper_params"
+					m_id = 
+					{
+						m_id = 1136935194
+					}
+					m_componentName = ""
+					m_bNetworkingRequested = false
+					m_bIsReferenced = false
+					m_previewButton = "ANIMPARAM_BUTTON_NONE"
+					m_eNetworkSetting = "Auto"
+					m_bUseMostRecentValue = false
+					m_bAutoReset = false
+					m_bGameWritable = true
+					m_bGraphWritable = true
+					m_bDefaultValue = false
+				},
+				
+				{
+					_class = "CBoolAnimParameter"
+					m_name = "b_ZipLining"
+					m_sComment = ""
+					m_group = "trooper_params"
+					m_id = 
+					{
+						m_id = 1595254575
+					}
+					m_componentName = ""
+					m_bNetworkingRequested = false
+					m_bIsReferenced = false
+					m_previewButton = "ANIMPARAM_BUTTON_NONE"
+					m_eNetworkSetting = "Auto"
+					m_bUseMostRecentValue = false
+					m_bAutoReset = false
+					m_bGameWritable = true
+					m_bGraphWritable = true
+					m_bDefaultValue = false
+				},
+				
+				{
+					_class = "CBoolAnimParameter"
+					m_name = "b_HasTarget"
+					m_sComment = ""
+					m_group = "trooper_params"
+					m_id = 
+					{
+						m_id = 1285696523
+					}
+					m_componentName = ""
+					m_bNetworkingRequested = false
+					m_bIsReferenced = false
+					m_previewButton = "ANIMPARAM_BUTTON_NONE"
+					m_eNetworkSetting = "Auto"
+					m_bUseMostRecentValue = false
+					m_bAutoReset = false
+					m_bGameWritable = true
+					m_bGraphWritable = true
+					m_bDefaultValue = false
+				},
+				
+				{
+					_class = "CIntAnimParameter"
+					m_name = "i_Hit_Layer_Trigger"
+					m_sComment = ""
+					m_group = "trooper_params"
+					m_id = 
+					{
+						m_id = 1424003497
+					}
+					m_componentName = ""
+					m_bNetworkingRequested = false
+					m_bIsReferenced = false
+					m_previewButton = "ANIMPARAM_BUTTON_NONE"
+					m_eNetworkSetting = "Auto"
+					m_bUseMostRecentValue = false
+					m_bAutoReset = true
+					m_bGameWritable = true
+					m_bGraphWritable = true
+					m_defaultValue = 0
+					m_minValue = 0
+					m_maxValue = 100
+				},
+				
+				{
+					_class = "CFloatAnimParameter"
+					m_name = "fl_TimeScale"
+					m_sComment = ""
+					m_group = "trooper_params"
+					m_id = 
+					{
+						m_id = 1285676289
+					}
+					m_componentName = ""
+					m_bNetworkingRequested = false
+					m_bIsReferenced = false
+					m_previewButton = "ANIMPARAM_BUTTON_NONE"
+					m_eNetworkSetting = "Auto"
+					m_bUseMostRecentValue = false
+					m_bAutoReset = false
+					m_bGameWritable = true
+					m_bGraphWritable = true
+					m_fDefaultValue = 1.000000
+					m_fMinValue = 0.000000
+					m_fMaxValue = 5.000000
+					m_bInterpolate = false
+				},
+				
+				{
+					_class = "CBoolAnimParameter"
+					m_name = "b_InAir"
+					m_sComment = ""
+					m_group = "trooper_params"
+					m_id = 
+					{
+						m_id = 74750935
+					}
+					m_componentName = ""
+					m_bNetworkingRequested = false
+					m_bIsReferenced = false
+					m_previewButton = "ANIMPARAM_BUTTON_NONE"
+					m_eNetworkSetting = "Auto"
+					m_bUseMostRecentValue = false
+					m_bAutoReset = false
+					m_bGameWritable = true
+					m_bGraphWritable = true
+					m_bDefaultValue = false
+				},
+				
+				{
+					_class = "CBoolAnimParameter"
+					m_name = "b_Flying"
+					m_sComment = ""
+					m_group = "trooper_params"
+					m_id = 
+					{
+						m_id = 1716570476
+					}
+					m_componentName = ""
+					m_bNetworkingRequested = false
+					m_bIsReferenced = false
+					m_previewButton = "ANIMPARAM_BUTTON_NONE"
+					m_eNetworkSetting = "Auto"
+					m_bUseMostRecentValue = false
+					m_bAutoReset = false
+					m_bGameWritable = true
+					m_bGraphWritable = true
+					m_bDefaultValue = false
+				},
+				
+				{
+					_class = "CBoolAnimParameter"
+					m_name = "b_GestureFollowMe"
+					m_sComment = ""
+					m_group = "trooper_params"
+					m_id = 
+					{
+						m_id = 207385527
+					}
+					m_componentName = ""
+					m_bNetworkingRequested = false
+					m_bIsReferenced = false
+					m_previewButton = "ANIMPARAM_BUTTON_NONE"
+					m_eNetworkSetting = "Auto"
+					m_bUseMostRecentValue = false
+					m_bAutoReset = true
+					m_bGameWritable = true
+					m_bGraphWritable = true
+					m_bDefaultValue = false
+				},
+				
+				{
+					_class = "CBoolAnimParameter"
+					m_name = "b_Shoot"
+					m_sComment = ""
+					m_group = "trooper_params"
+					m_id = 
+					{
+						m_id = 1156915188
+					}
+					m_componentName = ""
+					m_bNetworkingRequested = false
+					m_bIsReferenced = false
+					m_previewButton = "ANIMPARAM_BUTTON_NONE"
+					m_eNetworkSetting = "Auto"
+					m_bUseMostRecentValue = false
+					m_bAutoReset = true
+					m_bGameWritable = true
+					m_bGraphWritable = true
+					m_bDefaultValue = false
+				},
+				
+				{
+					_class = "CBoolAnimParameter"
+					m_name = "b_Reloading"
+					m_sComment = ""
+					m_group = "trooper_params"
+					m_id = 
+					{
+						m_id = 860001240
+					}
+					m_componentName = ""
+					m_bNetworkingRequested = false
+					m_bIsReferenced = false
+					m_previewButton = "ANIMPARAM_BUTTON_NONE"
+					m_eNetworkSetting = "Auto"
+					m_bUseMostRecentValue = false
+					m_bAutoReset = true
+					m_bGameWritable = true
+					m_bGraphWritable = true
+					m_bDefaultValue = false
+				},
+				
+				{
+					_class = "CBoolAnimParameter"
+					m_name = "b_ExplosionReact"
+					m_sComment = ""
+					m_group = "trooper_params"
+					m_id = 
+					{
+						m_id = 2041277777
+					}
+					m_componentName = ""
+					m_bNetworkingRequested = false
+					m_bIsReferenced = false
+					m_previewButton = "ANIMPARAM_BUTTON_NONE"
+					m_eNetworkSetting = "Auto"
+					m_bUseMostRecentValue = false
+					m_bAutoReset = true
+					m_bGameWritable = true
+					m_bGraphWritable = true
+					m_bDefaultValue = false
+				},
+				
+				{
+					_class = "CBoolAnimParameter"
+					m_name = "b_ShieldMode"
+					m_sComment = ""
+					m_group = "trooper_params"
+					m_id = 
+					{
+						m_id = 1670283845
+					}
+					m_componentName = ""
+					m_bNetworkingRequested = false
+					m_bIsReferenced = false
+					m_previewButton = "ANIMPARAM_BUTTON_NONE"
+					m_eNetworkSetting = "Auto"
+					m_bUseMostRecentValue = false
+					m_bAutoReset = false
+					m_bGameWritable = true
+					m_bGraphWritable = true
+					m_bDefaultValue = false
+				},
+				
+				{
+					_class = "CFloatAnimParameter"
+					m_name = "f_Hit_Strength"
+					m_sComment = ""
+					m_group = "trooper_params"
+					m_id = 
+					{
+						m_id = 1996006898
+					}
+					m_componentName = ""
+					m_bNetworkingRequested = false
+					m_bIsReferenced = false
+					m_previewButton = "ANIMPARAM_BUTTON_NONE"
+					m_eNetworkSetting = "Auto"
+					m_bUseMostRecentValue = true
+					m_bAutoReset = false
+					m_bGameWritable = true
+					m_bGraphWritable = true
+					m_fDefaultValue = 0.700000
+					m_fMinValue = 0.000000
+					m_fMaxValue = 1.000000
+					m_bInterpolate = false
+				},
+				
+				{
+					_class = "CIntAnimParameter"
+					m_name = "i_Hit_Bone"
+					m_sComment = ""
+					m_group = "trooper_params"
+					m_id = 
+					{
+						m_id = 1962433261
+					}
+					m_componentName = ""
+					m_bNetworkingRequested = false
+					m_bIsReferenced = false
+					m_previewButton = "ANIMPARAM_BUTTON_NONE"
+					m_eNetworkSetting = "Auto"
+					m_bUseMostRecentValue = true
+					m_bAutoReset = false
+					m_bGameWritable = true
+					m_bGraphWritable = true
+					m_defaultValue = 7
+					m_minValue = 0
+					m_maxValue = 500
+				},
+				
+				{
+					_class = "CFloatAnimParameter"
+					m_name = "f_Health"
+					m_sComment = ""
+					m_group = "trooper_params"
+					m_id = 
+					{
+						m_id = 852142994
+					}
+					m_componentName = ""
+					m_bNetworkingRequested = false
+					m_bIsReferenced = false
+					m_previewButton = "ANIMPARAM_BUTTON_NONE"
+					m_eNetworkSetting = "Auto"
+					m_bUseMostRecentValue = false
+					m_bAutoReset = false
+					m_bGameWritable = true
+					m_bGraphWritable = false
+					m_fDefaultValue = 0.000000
+					m_fMinValue = 0.000000
+					m_fMaxValue = 1.000000
+					m_bInterpolate = false
+				},
+				
+				{
+					_class = "CEnumAnimParameter"
+					m_name = "e_action_desired"
+					m_sComment = ""
+					m_group = "trooper_params"
+					m_id = 
+					{
+						m_id = 1417190852
+					}
+					m_componentName = ""
+					m_bNetworkingRequested = false
+					m_bIsReferenced = false
+					m_previewButton = "ANIMPARAM_BUTTON_NONE"
+					m_eNetworkSetting = "Auto"
+					m_bUseMostRecentValue = false
+					m_bAutoReset = false
+					m_bGameWritable = true
+					m_bGraphWritable = false
+					m_defaultValue = 0
+					m_enumOptions = 
+					[
+						"none",
+						"melee",
+					]
+					m_vecEnumReferenced = 
+					[
+					]
+				},
+				
+				{
+					_class = "CBoolAnimParameter"
+					m_name = "b_Melee"
+					m_sComment = ""
+					m_group = "trooper_params"
+					m_id = 
+					{
+						m_id = 184636791
+					}
+					m_componentName = ""
+					m_bNetworkingRequested = false
+					m_bIsReferenced = false
+					m_previewButton = "ANIMPARAM_BUTTON_NONE"
+					m_eNetworkSetting = "Auto"
+					m_bUseMostRecentValue = false
+					m_bAutoReset = false
+					m_bGameWritable = true
+					m_bGraphWritable = false
+					m_bDefaultValue = false
+				},
+				
+				{
+					_class = "CSymbolAnimParameter"
+					m_name = "s_npc_current_task"
+					m_sComment = ""
+					m_group = "npc_params_and_tags"
+					m_id = 
+					{
+						m_id = 1505952638
+					}
+					m_componentName = ""
+					m_bNetworkingRequested = false
+					m_bIsReferenced = false
+					m_previewButton = "ANIMPARAM_BUTTON_NONE"
+					m_eNetworkSetting = "Auto"
+					m_bUseMostRecentValue = false
+					m_bAutoReset = false
+					m_bGameWritable = true
+					m_bGraphWritable = false
+					m_defaultValue = ""
+				},
+				
+				{
+					_class = "CBoolAnimParameter"
+					m_name = "b_Shielded"
+					m_sComment = ""
+					m_group = "npc_params_and_tags"
+					m_id = 
+					{
+						m_id = 1823882781
+					}
+					m_componentName = ""
+					m_bNetworkingRequested = false
+					m_bIsReferenced = false
+					m_previewButton = "ANIMPARAM_BUTTON_NONE"
+					m_eNetworkSetting = "Auto"
+					m_bUseMostRecentValue = false
+					m_bAutoReset = false
+					m_bGameWritable = true
+					m_bGraphWritable = false
+					m_bDefaultValue = false
+				},
+				
+				{
+					_class = "CEnumAnimParameter"
+					m_name = "e_action_desired_shared"
+					m_sComment = ""
+					m_group = "npc_params_and_tags"
+					m_id = 
+					{
+						m_id = 2109137936
+					}
+					m_componentName = ""
+					m_bNetworkingRequested = false
+					m_bIsReferenced = false
+					m_previewButton = "ANIMPARAM_BUTTON_NONE"
+					m_eNetworkSetting = "Auto"
+					m_bUseMostRecentValue = false
+					m_bAutoReset = false
+					m_bGameWritable = true
+					m_bGraphWritable = false
+					m_defaultValue = 0
+					m_enumOptions = 
+					[
+						"none",
+					]
+					m_vecEnumReferenced = 
+					[
+					]
+				},
+				
+				{
+					_class = "CSymbolAnimParameter"
+					m_name = "s_npc_current_schedule"
+					m_sComment = ""
+					m_group = "npc_params_and_tags"
+					m_id = 
+					{
+						m_id = 345379453
+					}
+					m_componentName = ""
+					m_bNetworkingRequested = false
+					m_bIsReferenced = false
+					m_previewButton = "ANIMPARAM_BUTTON_NONE"
+					m_eNetworkSetting = "Auto"
+					m_bUseMostRecentValue = false
+					m_bAutoReset = false
+					m_bGameWritable = true
+					m_bGraphWritable = false
+					m_defaultValue = ""
+				},
+				
+				{
+					_class = "CBoolAnimParameter"
+					m_name = "b_action_restart"
+					m_sComment = ""
+					m_group = "npc_params_and_tags"
+					m_id = 
+					{
+						m_id = 1909784739
+					}
+					m_componentName = ""
+					m_bNetworkingRequested = false
+					m_bIsReferenced = false
+					m_previewButton = "ANIMPARAM_BUTTON_NONE"
+					m_eNetworkSetting = "Auto"
+					m_bUseMostRecentValue = false
+					m_bAutoReset = false
+					m_bGameWritable = true
+					m_bGraphWritable = false
+					m_bDefaultValue = false
+				},
+				
+				{
+					_class = "CEnumAnimParameter"
+					m_name = "e_movement_type_desired_shared"
+					m_sComment = ""
+					m_group = "npc_params_and_tags"
+					m_id = 
+					{
+						m_id = 652660152
+					}
+					m_componentName = ""
+					m_bNetworkingRequested = false
+					m_bIsReferenced = false
+					m_previewButton = "ANIMPARAM_BUTTON_NONE"
+					m_eNetworkSetting = "Auto"
+					m_bUseMostRecentValue = false
+					m_bAutoReset = false
+					m_bGameWritable = true
+					m_bGraphWritable = false
+					m_defaultValue = 0
+					m_enumOptions = 
+					[
+						"none",
+						"transition",
+						"navlink",
+					]
+					m_vecEnumReferenced = 
+					[
+					]
+				},
+				
+				{
+					_class = "CBoolAnimParameter"
+					m_name = "b_movement_type_restart"
+					m_sComment = ""
+					m_group = "npc_params_and_tags"
+					m_id = 
+					{
+						m_id = 1560970298
+					}
+					m_componentName = ""
+					m_bNetworkingRequested = false
+					m_bIsReferenced = false
+					m_previewButton = "ANIMPARAM_BUTTON_NONE"
+					m_eNetworkSetting = "Auto"
+					m_bUseMostRecentValue = false
+					m_bAutoReset = false
+					m_bGameWritable = true
+					m_bGraphWritable = false
+					m_bDefaultValue = false
+				},
+				
+				{
+					_class = "CEnumAnimParameter"
+					m_name = "e_navlink_type_shared"
+					m_sComment = ""
+					m_group = "npc_params_and_tags"
+					m_id = 
+					{
+						m_id = 1533139660
+					}
+					m_componentName = ""
+					m_bNetworkingRequested = false
+					m_bIsReferenced = false
+					m_previewButton = "ANIMPARAM_BUTTON_NONE"
+					m_eNetworkSetting = "Auto"
+					m_bUseMostRecentValue = false
+					m_bAutoReset = false
+					m_bGameWritable = true
+					m_bGraphWritable = false
+					m_defaultValue = 0
+					m_enumOptions = 
+					[
+						"none",
+					]
+					m_vecEnumReferenced = 
+					[
+					]
+				},
+				
+				{
+					_class = "CBoolAnimParameter"
+					m_name = "b_Alert"
+					m_sComment = ""
+					m_group = "npc_params_and_tags"
+					m_id = 
+					{
+						m_id = 1809365112
+					}
+					m_componentName = ""
+					m_bNetworkingRequested = false
+					m_bIsReferenced = false
+					m_previewButton = "ANIMPARAM_BUTTON_NONE"
+					m_eNetworkSetting = "Auto"
+					m_bUseMostRecentValue = false
+					m_bAutoReset = false
+					m_bGameWritable = true
+					m_bGraphWritable = false
+					m_bDefaultValue = false
+				},
+			]
+			m_idToIndexMap = 
+			[
+				
+				{
+					key = 
+					{
+						m_id = 74750935
+					}
+					value = 10
+				},
+				
+				{
+					key = 
+					{
+						m_id = 92927803
+					}
+					value = 4
+				},
+				
+				{
+					key = 
+					{
+						m_id = 184636791
+					}
+					value = 21
+				},
+				
+				{
+					key = 
+					{
+						m_id = 207385527
+					}
+					value = 12
+				},
+				
+				{
+					key = 
+					{
+						m_id = 308655969
+					}
+					value = 2
+				},
+				
+				{
+					key = 
+					{
+						m_id = 320379198
+					}
+					value = 0
+				},
+				
+				{
+					key = 
+					{
+						m_id = 345379453
+					}
+					value = 25
+				},
+				
+				{
+					key = 
+					{
+						m_id = 652660152
+					}
+					value = 27
+				},
+				
+				{
+					key = 
+					{
+						m_id = 852142994
+					}
+					value = 19
+				},
+				
+				{
+					key = 
+					{
+						m_id = 860001240
+					}
+					value = 14
+				},
+				
+				{
+					key = 
+					{
+						m_id = 1136935194
+					}
+					value = 5
+				},
+				
+				{
+					key = 
+					{
+						m_id = 1156915188
+					}
+					value = 13
+				},
+				
+				{
+					key = 
+					{
+						m_id = 1285676289
+					}
+					value = 9
+				},
+				
+				{
+					key = 
+					{
+						m_id = 1285696523
+					}
+					value = 7
+				},
+				
+				{
+					key = 
+					{
+						m_id = 1417190852
+					}
+					value = 20
+				},
+				
+				{
+					key = 
+					{
+						m_id = 1424003497
+					}
+					value = 8
+				},
+				
+				{
+					key = 
+					{
+						m_id = 1459385658
+					}
+					value = 1
+				},
+				
+				{
+					key = 
+					{
+						m_id = 1505952638
+					}
+					value = 22
+				},
+				
+				{
+					key = 
+					{
+						m_id = 1533139660
+					}
+					value = 29
+				},
+				
+				{
+					key = 
+					{
+						m_id = 1560970298
+					}
+					value = 28
+				},
+				
+				{
+					key = 
+					{
+						m_id = 1595254575
+					}
+					value = 6
+				},
+				
+				{
+					key = 
+					{
+						m_id = 1670283845
+					}
+					value = 16
+				},
+				
+				{
+					key = 
+					{
+						m_id = 1716570476
+					}
+					value = 11
+				},
+				
+				{
+					key = 
+					{
+						m_id = 1809365112
+					}
+					value = 30
+				},
+				
+				{
+					key = 
+					{
+						m_id = 1823882781
+					}
+					value = 23
+				},
+				
+				{
+					key = 
+					{
+						m_id = 1864190268
+					}
+					value = 3
+				},
+				
+				{
+					key = 
+					{
+						m_id = 1909784739
+					}
+					value = 26
+				},
+				
+				{
+					key = 
+					{
+						m_id = 1962433261
+					}
+					value = 18
+				},
+				
+				{
+					key = 
+					{
+						m_id = 1996006898
+					}
+					value = 17
+				},
+				
+				{
+					key = 
+					{
+						m_id = 2041277777
+					}
+					value = 15
+				},
+				
+				{
+					key = 
+					{
+						m_id = 2109137936
+					}
+					value = 24
+				},
+			]
+			m_nameToIndexMap = 
+			{
+				"<Duplicate> b_ZipLining" = 1
+				b_Alert = 30
+				b_Crouching = 2
+				b_ExplosionReact = 15
+				b_Falling = 0
+				b_Flying = 11
+				b_GestureFollowMe = 12
+				b_HasTarget = 7
+				b_InAir = 10
+				b_Melee = 21
+				b_NearDeath = 5
+				b_Reloading = 14
+				b_ShieldMode = 16
+				b_Shielded = 23
+				b_Shoot = 13
+				b_ZipLining = 6
+				b_action_restart = 26
+				b_movement_type_restart = 28
+				e_action_desired = 20
+				e_action_desired_shared = 24
+				e_movement_type_desired_shared = 27
+				e_navlink_type_shared = 29
+				f_Health = 19
+				f_Hit_Forward = 3
+				f_Hit_Side = 4
+				f_Hit_Strength = 17
+				fl_TimeScale = 9
+				i_Hit_Bone = 18
+				i_Hit_Layer_Trigger = 8
+				s_npc_current_schedule = 25
+				s_npc_current_task = 22
+			}
+			m_indexToHandle = 
+			[
+				
+				{
+					m_type = "ANIMPARAM_BOOL"
+					m_index = 0
+				},
+				
+				{
+					m_type = "ANIMPARAM_BOOL"
+					m_index = 1
+				},
+				
+				{
+					m_type = "ANIMPARAM_BOOL"
+					m_index = 2
+				},
+				
+				{
+					m_type = "ANIMPARAM_FLOAT"
+					m_index = 0
+				},
+				
+				{
+					m_type = "ANIMPARAM_FLOAT"
+					m_index = 1
+				},
+				
+				{
+					m_type = "ANIMPARAM_BOOL"
+					m_index = 3
+				},
+				
+				{
+					m_type = "ANIMPARAM_BOOL"
+					m_index = 4
+				},
+				
+				{
+					m_type = "ANIMPARAM_BOOL"
+					m_index = 5
+				},
+				
+				{
+					m_type = "ANIMPARAM_INT"
+					m_index = 0
+				},
+				
+				{
+					m_type = "ANIMPARAM_FLOAT"
+					m_index = 2
+				},
+				
+				{
+					m_type = "ANIMPARAM_BOOL"
+					m_index = 6
+				},
+				
+				{
+					m_type = "ANIMPARAM_BOOL"
+					m_index = 7
+				},
+				
+				{
+					m_type = "ANIMPARAM_BOOL"
+					m_index = 8
+				},
+				
+				{
+					m_type = "ANIMPARAM_BOOL"
+					m_index = 9
+				},
+				
+				{
+					m_type = "ANIMPARAM_BOOL"
+					m_index = 10
+				},
+				
+				{
+					m_type = "ANIMPARAM_BOOL"
+					m_index = 11
+				},
+				
+				{
+					m_type = "ANIMPARAM_BOOL"
+					m_index = 12
+				},
+				
+				{
+					m_type = "ANIMPARAM_FLOAT"
+					m_index = 3
+				},
+				
+				{
+					m_type = "ANIMPARAM_INT"
+					m_index = 1
+				},
+				
+				{
+					m_type = "ANIMPARAM_FLOAT"
+					m_index = 4
+				},
+				
+				{
+					m_type = "ANIMPARAM_ENUM"
+					m_index = 0
+				},
+				
+				{
+					m_type = "ANIMPARAM_BOOL"
+					m_index = 13
+				},
+				
+				{
+					m_type = "ANIMPARAM_GLOBALSYMBOL"
+					m_index = 0
+				},
+				
+				{
+					m_type = "ANIMPARAM_BOOL"
+					m_index = 14
+				},
+				
+				{
+					m_type = "ANIMPARAM_ENUM"
+					m_index = 1
+				},
+				
+				{
+					m_type = "ANIMPARAM_GLOBALSYMBOL"
+					m_index = 1
+				},
+				
+				{
+					m_type = "ANIMPARAM_BOOL"
+					m_index = 15
+				},
+				
+				{
+					m_type = "ANIMPARAM_ENUM"
+					m_index = 2
+				},
+				
+				{
+					m_type = "ANIMPARAM_BOOL"
+					m_index = 16
+				},
+				
+				{
+					m_type = "ANIMPARAM_ENUM"
+					m_index = 3
+				},
+				
+				{
+					m_type = "ANIMPARAM_BOOL"
+					m_index = 17
+				},
+			]
+			m_autoResetParams = 
+			[
+				
+				[
+					
+					{
+						m_type = "ANIMPARAM_INT"
+						m_index = 0
+					},
+					
+					{
+						m_nType = 3
+						m_data = 0
+					},
+				],
+				
+				[
+					
+					{
+						m_type = "ANIMPARAM_BOOL"
+						m_index = 8
+					},
+					
+					{
+						m_nType = 1
+						m_data = false
+					},
+				],
+				
+				[
+					
+					{
+						m_type = "ANIMPARAM_BOOL"
+						m_index = 9
+					},
+					
+					{
+						m_nType = 1
+						m_data = false
+					},
+				],
+				
+				[
+					
+					{
+						m_type = "ANIMPARAM_BOOL"
+						m_index = 10
+					},
+					
+					{
+						m_nType = 1
+						m_data = false
+					},
+				],
+				
+				[
+					
+					{
+						m_type = "ANIMPARAM_BOOL"
+						m_index = 11
+					},
+					
+					{
+						m_nType = 1
+						m_data = false
+					},
+				],
+			]
+			m_autoResetMap = 
+			[
+				
+				{
+					key = 
+					{
+						m_type = "ANIMPARAM_BOOL"
+						m_index = 8
+					}
+					value = 1
+				},
+				
+				{
+					key = 
+					{
+						m_type = "ANIMPARAM_BOOL"
+						m_index = 9
+					}
+					value = 2
+				},
+				
+				{
+					key = 
+					{
+						m_type = "ANIMPARAM_BOOL"
+						m_index = 10
+					}
+					value = 3
+				},
+				
+				{
+					key = 
+					{
+						m_type = "ANIMPARAM_BOOL"
+						m_index = 11
+					}
+					value = 4
+				},
+				
+				{
+					key = 
+					{
+						m_type = "ANIMPARAM_INT"
+						m_index = 0
+					}
+					value = 0
+				},
+			]
+		}
+		m_pTagManagerUpdater = 
+		{
+			_class = "CAnimTagManagerUpdater"
+			m_tags = 
+			[
+				
+				{
+					_class = "CFootstepLandedAnimTag"
+					m_name = "L Foot Landed"
+					m_sComment = ""
+					m_group = "trooper_tags"
+					m_tagID = 
+					{
+						m_id = 1162701950
+					}
+					m_bIsReferenced = false
+					m_FootstepType = "FOOTSOUND_Left"
+					m_OverrideSoundName = ""
+					m_DebugAnimSourceString = ""
+					m_BoneName = "ankle_L"
+				},
+				
+				{
+					_class = "CStringAnimTag"
+					m_name = "Jump_Impact"
+					m_sComment = ""
+					m_group = "trooper_tags"
+					m_tagID = 
+					{
+						m_id = 1595170896
+					}
+					m_bIsReferenced = false
+				},
+				
+				{
+					_class = "CFootstepLandedAnimTag"
+					m_name = "R Foot Landed"
+					m_sComment = ""
+					m_group = "trooper_tags"
+					m_tagID = 
+					{
+						m_id = 281816154
+					}
+					m_bIsReferenced = false
+					m_FootstepType = "FOOTSOUND_Right"
+					m_OverrideSoundName = ""
+					m_DebugAnimSourceString = ""
+					m_BoneName = "ankle_R"
+				},
+				
+				{
+					_class = "CTaskStatusAnimTag"
+					m_name = "UsingMelee"
+					m_sComment = ""
+					m_group = "trooper_tags"
+					m_tagID = 
+					{
+						m_id = 1191807279
+					}
+					m_bIsReferenced = false
+				},
+				
+				{
+					_class = "CStringAnimTag"
+					m_name = "Feet_IK_OFF"
+					m_sComment = ""
+					m_group = "trooper_tags"
+					m_tagID = 
+					{
+						m_id = 1086896298
+					}
+					m_bIsReferenced = false
+				},
+				
+				{
+					_class = "CTaskStatusAnimTag"
+					m_name = "GettingShot"
+					m_sComment = ""
+					m_group = "trooper_tags"
+					m_tagID = 
+					{
+						m_id = 576427678
+					}
+					m_bIsReferenced = false
+				},
+				
+				{
+					_class = "CStringAnimTag"
+					m_name = "AIM_OFF"
+					m_sComment = ""
+					m_group = "trooper_tags"
+					m_tagID = 
+					{
+						m_id = 2070600976
+					}
+					m_bIsReferenced = false
+				},
+				
+				{
+					_class = "CStringAnimTag"
+					m_name = "TurningTrue"
+					m_sComment = ""
+					m_group = "trooper_tags"
+					m_tagID = 
+					{
+						m_id = 472099512
+					}
+					m_bIsReferenced = false
+				},
+				
+				{
+					_class = "CStringAnimTag"
+					m_name = "StopAnimPlay"
+					m_sComment = ""
+					m_group = "trooper_tags"
+					m_tagID = 
+					{
+						m_id = 1467194030
+					}
+					m_bIsReferenced = false
+				},
+				
+				{
+					_class = "CStringAnimTag"
+					m_name = "IK_OFF"
+					m_sComment = ""
+					m_group = "trooper_tags"
+					m_tagID = 
+					{
+						m_id = 1098667213
+					}
+					m_bIsReferenced = false
+				},
+				
+				{
+					_class = "CTaskStatusAnimTag"
+					m_name = "Tier1ShieldDeployed"
+					m_sComment = ""
+					m_group = "trooper_tags"
+					m_tagID = 
+					{
+						m_id = 1024470062
+					}
+					m_bIsReferenced = false
+				},
+				
+				{
+					_class = "CTaskStatusAnimTag"
+					m_name = "Finished_AnimateDeath"
+					m_sComment = ""
+					m_group = "trooper_tags"
+					m_tagID = 
+					{
+						m_id = 1181168363
+					}
+					m_bIsReferenced = false
+				},
+				
+				{
+					_class = "CStringAnimTag"
+					m_name = "ARM_L_IK_ON"
+					m_sComment = ""
+					m_group = "trooper_tags"
+					m_tagID = 
+					{
+						m_id = 1767901612
+					}
+					m_bIsReferenced = false
+				},
+				
+				{
+					_class = "CStringAnimTag"
+					m_name = "NULL"
+					m_sComment = ""
+					m_group = "trooper_tags"
+					m_tagID = 
+					{
+						m_id = 673922977
+					}
+					m_bIsReferenced = false
+				},
+				
+				{
+					_class = "CStringAnimTag"
+					m_name = "Leans_Off"
+					m_sComment = ""
+					m_group = "trooper_tags"
+					m_tagID = 
+					{
+						m_id = 822096532
+					}
+					m_bIsReferenced = false
+				},
+				
+				{
+					_class = "CTaskHandshakeAnimTag"
+					m_name = "Action_Active"
+					m_sComment = ""
+					m_group = "npc_params_and_tags"
+					m_tagID = 
+					{
+						m_id = 1068730817
+					}
+					m_bIsReferenced = false
+					m_bIsDisableTag = false
+				},
+				
+				{
+					_class = "CStringAnimTag"
+					m_name = "Action_Restart_Disabled"
+					m_sComment = ""
+					m_group = "npc_params_and_tags"
+					m_tagID = 
+					{
+						m_id = 598276885
+					}
+					m_bIsReferenced = false
+				},
+				
+				{
+					_class = "CMovementHandshakeAnimTag"
+					m_name = "Movement_Active"
+					m_sComment = ""
+					m_group = "npc_params_and_tags"
+					m_tagID = 
+					{
+						m_id = 245765482
+					}
+					m_bIsReferenced = false
+					m_bIsDisableTag = false
+				},
+				
+				{
+					_class = "CStringAnimTag"
+					m_name = "Movement_Restart_Disabled"
+					m_sComment = ""
+					m_group = "npc_params_and_tags"
+					m_tagID = 
+					{
+						m_id = 351532316
+					}
+					m_bIsReferenced = false
+				},
+			]
+		}
+		m_scriptManager = 
+		{
+			_class = "CAnimScriptManager"
+			m_scriptInfo = 
+			[
+			]
+		}
+		m_settings = 
+		{
+			_class = "CAnimGraphSettingsManager"
+			m_settingsGroups = 
+			[
+				
+				{
+					_class = "CAnimGraphNetworkSettings"
+					m_bNetworkingEnabled = true
+				},
+			]
+		}
+		m_pStaticPoseCache = 
+		{
+			_class = "CStaticPoseCacheBuilder"
+			m_poses = 
+			[
+			]
+			m_nBoneCount = 5
+			m_nMorphCount = 0
+		}
+		m_pSkeleton = 
+		{
+			_class = "CAnimSkeleton"
+			m_localSpaceTransforms = 
+			[
+				
+				[
+					-0.000000,
+					-0.000000,
+					99.361824,
+					1.000000,
+					0.000000,
+					0.707107,
+					0.000000,
+					0.707107,
+				],
+				
+				[
+					65.930145,
+					0.000000,
+					0.000000,
+					1.000000,
+					0.000000,
+					0.000000,
+					0.707107,
+					0.707107,
+				],
+				
+				[
+					-0.000000,
+					-34.481735,
+					-0.000000,
+					1.000001,
+					0.000000,
+					0.000000,
+					0.000000,
+					1.000000,
+				],
+				
+				[
+					-10.807484,
+					-23.821157,
+					10.837359,
+					1.000001,
+					0.000000,
+					0.000000,
+					0.000000,
+					1.000000,
+				],
+				
+				[
+					-0.000029,
+					-33.431793,
+					0.000029,
+					1.000002,
+					0.000000,
+					0.000000,
+					0.000000,
+					1.000000,
+				],
+			]
+			m_modelSpaceTransforms = 
+			[
+				
+				[
+					-0.000000,
+					-0.000000,
+					99.361824,
+					1.000000,
+					0.000000,
+					0.707107,
+					0.000000,
+					0.707107,
+				],
+				
+				[
+					0.000000,
+					0.000000,
+					33.431679,
+					1.000000,
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				],
+				
+				[
+					0.000000,
+					0.000000,
+					-1.050064,
+					1.000001,
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				],
+				
+				[
+					10.837362,
+					-10.807487,
+					9.610516,
+					1.000001,
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				],
+				
+				[
+					10.837393,
+					-10.807517,
+					-23.821316,
+					1.000003,
+					0.500000,
+					0.500000,
+					0.500000,
+					0.500000,
+				],
+			]
+			m_boneNames = 
+			[
+				"root",
+				"bottle",
+				"_bottle_end",
+				"tags",
+				"tags_end",
+			]
+			m_children = 
+			[
+				
+				[
+					1,
+				],
+				
+				[
+					2,
+					3,
+				],
+				
+				[
+				],
+				
+				[
+					4,
+				],
+				
+				[
+				],
+			]
+			m_parents = 
+			[
+				-1,
+				0,
+				1,
+				1,
+				3,
+			]
+			m_feet = 
+			[
+			]
+			m_morphNames = 
+			[
+			]
+			m_lodBoneCounts = 
+			[
+			]
+		}
+		m_rootNodePath = 
+		{
+			m_path = 
+			[
+				
+				{
+					m_id = 566324135
+				},
+				
+				{
+					m_id = 4294967295
+				},
+				
+				{
+					m_id = 4294967295
+				},
+				
+				{
+					m_id = 4294967295
+				},
+				
+				{
+					m_id = 4294967295
+				},
+				
+				{
+					m_id = 4294967295
+				},
+				
+				{
+					m_id = 4294967295
+				},
+				
+				{
+					m_id = 4294967295
+				},
+				
+				{
+					m_id = 4294967295
+				},
+				
+				{
+					m_id = 4294967295
+				},
+				
+				{
+					m_id = 4294967295
+				},
+			]
+			m_nCount = 1
+		}
+	}
+}

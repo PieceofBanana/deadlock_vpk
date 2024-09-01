@@ -1,0 +1,1450 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vrfunknown:version{4dddb66e-c6ed-4bd0-a4ef-afb45a02acc2} -->
+{
+	generic_data_type = "CSmartPropRoot"
+	_editor = 
+	{
+		next_element_id = 123
+	}
+	m_Variables = 
+	[
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_nElementID = 1
+			m_VariableName = "fGlobalWidth"
+			m_DefaultValue = 64.000000
+		},
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_nElementID = 2
+			m_VariableName = "fGlobalHeight"
+			m_DefaultValue = 64.000000
+		},
+		
+		{
+			_class = "CSmartPropVariable_Int"
+			m_nElementID = 56
+			m_VariableName = "iTemp"
+			m_DefaultValue = 8
+		},
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_nElementID = 55
+			m_VariableName = "fTemp"
+			m_DefaultValue = 1.000000
+		},
+		
+		{
+			_class = "CSmartPropVariable_Int"
+			m_nElementID = 60
+			m_VariableName = "iHorizontal"
+			m_DefaultValue = 64
+		},
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_nElementID = 61
+			m_VariableName = "fHorizontalScale"
+			m_DefaultValue = 1.000000
+		},
+		
+		{
+			_class = "CSmartPropVariable_Int"
+			m_nElementID = 62
+			m_VariableName = "iVertical"
+			m_DefaultValue = 64
+		},
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_nElementID = 63
+			m_VariableName = "fVerticalScale"
+			m_DefaultValue = 1.000000
+		},
+		
+		{
+			_class = "CSmartPropVariable_Bool"
+			m_nElementID = 121
+			m_VariableName = "bIsNested"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Color"
+			m_nElementID = 122
+			m_VariableName = "cPanelColor"
+			m_DefaultValue = 
+			[
+				129,
+				175,
+				149,
+			]
+		},
+	]
+	m_Children = 
+	[
+		
+		{
+			_class = "CSmartPropElement_Group"
+			m_nElementID = 38
+			_editor = 
+			{
+				folder_name = ""
+			}
+			m_sLabel = "Sizer"
+			m_bEnabled = true
+			m_Modifiers = 
+			[
+				
+				{
+					_class = "CSmartPropFilter_VariableValue"
+					m_VariableComparison = 
+					{
+						m_Name = "bIsNested"
+						m_Value = false
+						m_Comparison = "EQUAL"
+					}
+				},
+				
+				{
+					_class = "CSmartPropOperation_CreateSizer"
+					m_flInitialMaxY = 
+					{
+						m_SourceName = "fGlobalWidth"
+					}
+					m_OutputVariableMaxY = "fGlobalWidth"
+					m_flInitialMaxZ = 
+					{
+						m_SourceName = "fGlobalHeight"
+					}
+					m_OutputVariableMaxZ = "fGlobalHeight"
+					m_bEnabled = true
+				},
+			]
+		},
+		
+		{
+			_class = "CSmartPropElement_Group"
+			m_nElementID = 64
+			m_sLabel = "Vertical"
+			m_bEnabled = true
+			m_Children = 
+			[
+				
+				{
+					_class = "CSmartPropElement_FitOnLine"
+					m_nElementID = 46
+					m_vStart = 
+					[
+						0.000000,
+						0.000000,
+						0.000000,
+					]
+					m_vEnd = 
+					{
+						m_Components = 
+						[
+							null,
+							null,
+							{
+								m_SourceName = "fGlobalHeight"
+							},
+						]
+					}
+					_editor = 
+					{
+						folder_name = ""
+					}
+					m_nScaleMode = "SCALE_EQUALLY"
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_Group"
+							m_nElementID = 48
+							m_sLabel = "16"
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_SelectionCriteria = 
+							[
+								
+								{
+									_class = "CSmartPropSelectionCriteria_LinearLength"
+									m_flLength = 16.000000
+									m_bAllowScale = true
+									m_flMinLength = 0.000000
+									m_flMaxLength = 24.000000
+								},
+							]
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropFilter_Expression"
+									m_Expression = "iTemp < 16"
+								},
+								
+								{
+									_class = "CSmartPropOperation_SetVariable"
+									m_VariableValue = 
+									{
+										m_TargetName = "iTemp"
+										m_DataType = "INTEGER"
+										m_Value = 
+										{
+											m_Expression = "16"
+										}
+									}
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Group"
+							m_nElementID = 57
+							m_sLabel = "32"
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_SelectionCriteria = 
+							[
+								
+								{
+									_class = "CSmartPropSelectionCriteria_LinearLength"
+									m_flLength = 32.000000
+									m_bAllowScale = true
+									m_flMinLength = 24.000000
+									m_flMaxLength = 48.000000
+								},
+							]
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropFilter_Expression"
+									m_Expression = "iTemp < 32"
+								},
+								
+								{
+									_class = "CSmartPropOperation_SetVariable"
+									m_VariableValue = 
+									{
+										m_TargetName = "iTemp"
+										m_DataType = "INTEGER"
+										m_Value = 
+										{
+											m_Expression = "32"
+										}
+									}
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Group"
+							m_nElementID = 58
+							m_sLabel = "64"
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_SelectionCriteria = 
+							[
+								
+								{
+									_class = "CSmartPropSelectionCriteria_LinearLength"
+									m_flLength = 64.000000
+									m_bAllowScale = true
+									m_flMinLength = 48.000000
+									m_flMaxLength = 96.000000
+								},
+							]
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropFilter_Expression"
+									m_Expression = "iTemp < 64"
+								},
+								
+								{
+									_class = "CSmartPropOperation_SetVariable"
+									m_VariableValue = 
+									{
+										m_TargetName = "iTemp"
+										m_DataType = "INTEGER"
+										m_Value = 
+										{
+											m_Expression = "64"
+										}
+									}
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Group"
+							m_nElementID = 59
+							m_sLabel = "128"
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_SelectionCriteria = 
+							[
+								
+								{
+									_class = "CSmartPropSelectionCriteria_LinearLength"
+									m_flLength = 128.000000
+									m_bAllowScale = true
+									m_flMinLength = 96.000000
+									m_flMaxLength = 9999.000000
+								},
+							]
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropFilter_Expression"
+									m_Expression = "iTemp < 128"
+								},
+								
+								{
+									_class = "CSmartPropOperation_SetVariable"
+									m_VariableValue = 
+									{
+										m_TargetName = "iTemp"
+										m_DataType = "INTEGER"
+										m_Value = 
+										{
+											m_Expression = "128"
+										}
+									}
+								},
+							]
+						},
+					]
+				},
+				
+				{
+					_class = "CSmartPropElement_Group"
+					m_nElementID = 65
+					_editor = 
+					{
+						folder_name = ""
+					}
+					m_Modifiers = 
+					[
+						
+						{
+							_class = "CSmartPropOperation_SetVariable"
+							m_VariableValue = 
+							{
+								m_TargetName = "iVertical"
+								m_DataType = "INTEGER"
+								m_Value = 
+								{
+									m_SourceName = "iTemp"
+								}
+							}
+						},
+						
+						{
+							_class = "CSmartPropOperation_SetVariable"
+							m_VariableValue = 
+							{
+								m_TargetName = "fVerticalScale"
+								m_DataType = "FLOAT"
+								m_Value = 
+								{
+									m_Expression = "fGlobalHeight / iVertical"
+								}
+							}
+							m_bEnabled = true
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			_class = "CSmartPropElement_Group"
+			m_nElementID = 94
+			_editor = 
+			{
+				folder_name = ""
+			}
+			m_sLabel = "Reset Temp"
+			m_Modifiers = 
+			[
+				
+				{
+					_class = "CSmartPropOperation_SetVariable"
+					m_VariableValue = 
+					{
+						m_TargetName = "iTemp"
+						m_DataType = "INTEGER"
+						m_Value = 8
+					}
+				},
+			]
+		},
+		
+		{
+			_class = "CSmartPropElement_Group"
+			m_nElementID = 85
+			m_sLabel = "Horizontal"
+			m_bEnabled = true
+			_editor = 
+			{
+				folder_name = ""
+			}
+			m_Children = 
+			[
+				
+				{
+					_class = "CSmartPropElement_FitOnLine"
+					m_nElementID = 86
+					m_vStart = 
+					[
+						0.000000,
+						0.000000,
+						0.000000,
+					]
+					m_vEnd = 
+					{
+						m_Components = 
+						[
+							null,
+							{
+								m_SourceName = "fGlobalWidth"
+							},
+							null,
+						]
+					}
+					_editor = 
+					{
+						folder_name = ""
+					}
+					m_nScaleMode = "SCALE_EQUALLY"
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_Group"
+							m_nElementID = 87
+							m_sLabel = "16"
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_SelectionCriteria = 
+							[
+								
+								{
+									_class = "CSmartPropSelectionCriteria_LinearLength"
+									m_flLength = 16.000000
+									m_bAllowScale = true
+									m_flMinLength = 0.000000
+									m_flMaxLength = 24.000000
+								},
+							]
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropFilter_Expression"
+									m_Expression = "iTemp < 16"
+								},
+								
+								{
+									_class = "CSmartPropOperation_SetVariable"
+									m_VariableValue = 
+									{
+										m_TargetName = "iTemp"
+										m_DataType = "INTEGER"
+										m_Value = 
+										{
+											m_Expression = "16"
+										}
+									}
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Group"
+							m_nElementID = 88
+							m_sLabel = "32"
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_SelectionCriteria = 
+							[
+								
+								{
+									_class = "CSmartPropSelectionCriteria_LinearLength"
+									m_flLength = 32.000000
+									m_bAllowScale = true
+									m_flMinLength = 24.000000
+									m_flMaxLength = 48.000000
+								},
+							]
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropFilter_Expression"
+									m_Expression = "iTemp < 32"
+								},
+								
+								{
+									_class = "CSmartPropOperation_SetVariable"
+									m_VariableValue = 
+									{
+										m_TargetName = "iTemp"
+										m_DataType = "INTEGER"
+										m_Value = 
+										{
+											m_Expression = "32"
+										}
+									}
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Group"
+							m_nElementID = 89
+							m_sLabel = "64"
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_SelectionCriteria = 
+							[
+								
+								{
+									_class = "CSmartPropSelectionCriteria_LinearLength"
+									m_flLength = 64.000000
+									m_bAllowScale = true
+									m_flMinLength = 48.000000
+									m_flMaxLength = 96.000000
+								},
+							]
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropFilter_Expression"
+									m_Expression = "iTemp < 64"
+								},
+								
+								{
+									_class = "CSmartPropOperation_SetVariable"
+									m_VariableValue = 
+									{
+										m_TargetName = "iTemp"
+										m_DataType = "INTEGER"
+										m_Value = 
+										{
+											m_Expression = "64"
+										}
+									}
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Group"
+							m_nElementID = 90
+							m_sLabel = "128"
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_SelectionCriteria = 
+							[
+								
+								{
+									_class = "CSmartPropSelectionCriteria_LinearLength"
+									m_flLength = 128.000000
+									m_bAllowScale = true
+									m_flMinLength = 96.000000
+									m_flMaxLength = 9999.000000
+								},
+							]
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropFilter_Expression"
+									m_Expression = "iTemp < 128"
+								},
+								
+								{
+									_class = "CSmartPropOperation_SetVariable"
+									m_VariableValue = 
+									{
+										m_TargetName = "iTemp"
+										m_DataType = "INTEGER"
+										m_Value = 
+										{
+											m_Expression = "128"
+										}
+									}
+								},
+							]
+						},
+					]
+				},
+				
+				{
+					_class = "CSmartPropElement_Group"
+					m_nElementID = 91
+					_editor = 
+					{
+						folder_name = ""
+					}
+					m_Modifiers = 
+					[
+						
+						{
+							_class = "CSmartPropOperation_SetVariable"
+							m_VariableValue = 
+							{
+								m_TargetName = "iHorizontal"
+								m_DataType = "INTEGER"
+								m_Value = 
+								{
+									m_SourceName = "iTemp"
+								}
+							}
+						},
+						
+						{
+							_class = "CSmartPropOperation_SetVariable"
+							m_VariableValue = 
+							{
+								m_TargetName = "fHorizontalScale"
+								m_DataType = "FLOAT"
+								m_Value = 
+								{
+									m_Expression = "fGlobalWidth / iHorizontal"
+								}
+							}
+							m_bEnabled = true
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			_class = "CSmartPropElement_Group"
+			m_nElementID = 74
+			m_Modifiers = 
+			[
+				
+				{
+					_class = "CSmartPropOperation_Translate"
+					m_vPosition = 
+					[
+						2.000000,
+						0.000000,
+						0.000000,
+					]
+					m_bEnabled = true
+				},
+				
+				{
+					_class = "CSmartPropOperation_SetTintColor"
+					m_ColorChoices = 
+					[
+						
+						{
+							m_Color = 
+							{
+								m_SourceName = "cPanelColor"
+							}
+						},
+					]
+				},
+			]
+			m_Children = 
+			[
+				
+				{
+					_class = "CSmartPropElement_Group"
+					m_nElementID = 75
+					m_sLabel = "iHorzontal / iVertical == 1.0"
+					m_Modifiers = 
+					[
+						
+						{
+							_class = "CSmartPropFilter_Expression"
+							m_Expression = "iHorizontal == iVertical"
+							m_bEnabled = true
+						},
+					]
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 76
+							m_sModelName = resource_name:"models/architecture/arch_garage_indus/fenestration_panel_16x16.vmdl"
+							m_bEnabled = true
+							m_vModelScale = 
+							{
+								m_Components = 
+								[
+									1.000000,
+									{
+										m_SourceName = "fHorizontalScale"
+									},
+									{
+										m_SourceName = "fVerticalScale"
+									},
+								]
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropFilter_Expression"
+									m_Expression = "iHorizontal == 16"
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 77
+							m_sModelName = resource_name:"models/architecture/arch_garage_indus/fenestration_panel_32x32.vmdl"
+							m_bEnabled = true
+							m_vModelScale = 
+							{
+								m_Components = 
+								[
+									1.000000,
+									{
+										m_SourceName = "fHorizontalScale"
+									},
+									{
+										m_SourceName = "fVerticalScale"
+									},
+								]
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropFilter_Expression"
+									m_Expression = "iHorizontal == 32"
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 78
+							m_sModelName = resource_name:"models/architecture/arch_garage_indus/fenestration_panel_64x64.vmdl"
+							m_vModelScale = 
+							{
+								m_Components = 
+								[
+									1.000000,
+									{
+										m_SourceName = "fHorizontalScale"
+									},
+									{
+										m_SourceName = "fVerticalScale"
+									},
+								]
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropFilter_Expression"
+									m_Expression = "iHorizontal == 64"
+									m_bEnabled = true
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 120
+							m_sModelName = resource_name:"models/architecture/arch_garage_indus/fenestration_panel_128x128.vmdl"
+							m_vModelScale = 
+							{
+								m_Components = 
+								[
+									1.000000,
+									{
+										m_SourceName = "fHorizontalScale"
+									},
+									{
+										m_SourceName = "fVerticalScale"
+									},
+								]
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropFilter_Expression"
+									m_Expression = "iHorizontal == 128"
+									m_bEnabled = true
+								},
+							]
+						},
+					]
+				},
+				
+				{
+					_class = "CSmartPropElement_Group"
+					m_nElementID = 95
+					m_sLabel = "iHorizontal == 16"
+					m_Modifiers = 
+					[
+						
+						{
+							_class = "CSmartPropFilter_Expression"
+							m_Expression = "iHorizontal == 16"
+						},
+					]
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 97
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_sModelName = resource_name:"models/architecture/arch_garage_indus/fenestration_panel_16x32.vmdl"
+							m_vModelScale = 
+							{
+								m_Components = 
+								[
+									1.000000,
+									{
+										m_SourceName = "fHorizontalScale"
+									},
+									{
+										m_SourceName = "fVerticalScale"
+									},
+								]
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropFilter_Expression"
+									m_Expression = "iVertical== 32"
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 98
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_sModelName = resource_name:"models/architecture/arch_garage_indus/fenestration_panel_16x64.vmdl"
+							m_vModelScale = 
+							{
+								m_Components = 
+								[
+									1.000000,
+									{
+										m_SourceName = "fHorizontalScale"
+									},
+									{
+										m_SourceName = "fVerticalScale"
+									},
+								]
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropFilter_Expression"
+									m_Expression = "iVertical== 64"
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 99
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_sModelName = resource_name:"models/architecture/arch_garage_indus/fenestration_panel_16x128.vmdl"
+							m_vModelScale = 
+							{
+								m_Components = 
+								[
+									1.000000,
+									{
+										m_SourceName = "fHorizontalScale"
+									},
+									{
+										m_SourceName = "fVerticalScale"
+									},
+								]
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropFilter_Expression"
+									m_Expression = "iVertical== 128"
+								},
+							]
+						},
+					]
+				},
+				
+				{
+					_class = "CSmartPropElement_Group"
+					m_nElementID = 100
+					m_sLabel = "iVertical == 16"
+					m_Modifiers = 
+					[
+						
+						{
+							_class = "CSmartPropFilter_Expression"
+							m_Expression = "iVertical == 16"
+						},
+					]
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 101
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_sModelName = resource_name:"models/architecture/arch_garage_indus/fenestration_panel_16x32.vmdl"
+							m_vModelScale = 
+							{
+								m_Components = 
+								[
+									1.000000,
+									{
+										m_SourceName = "fVerticalScale"
+									},
+									{
+										m_SourceName = "fHorizontalScale"
+									},
+								]
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropFilter_Expression"
+									m_Expression = "iHorizontal == 32"
+								},
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									{
+										m_Components = 
+										[
+											0.000000,
+											0.000000,
+											{
+												m_Expression = "16 * fVerticalScale"
+											},
+										]
+									}
+									m_bEnabled = true
+								},
+								
+								{
+									_class = "CSmartPropOperation_Rotate"
+									m_vRotation = 
+									[
+										0.000000,
+										0.000000,
+										-90.000000,
+									]
+									m_bEnabled = true
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 104
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_sModelName = resource_name:"models/architecture/arch_garage_indus/fenestration_panel_16x64.vmdl"
+							m_vModelScale = 
+							{
+								m_Components = 
+								[
+									1.000000,
+									{
+										m_SourceName = "fVerticalScale"
+									},
+									{
+										m_SourceName = "fHorizontalScale"
+									},
+								]
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropFilter_Expression"
+									m_Expression = "iHorizontal == 64"
+								},
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									{
+										m_Components = 
+										[
+											0.000000,
+											0.000000,
+											{
+												m_Expression = "16 * fVerticalScale"
+											},
+										]
+									}
+									m_bEnabled = true
+								},
+								
+								{
+									_class = "CSmartPropOperation_Rotate"
+									m_vRotation = 
+									[
+										0.000000,
+										0.000000,
+										-90.000000,
+									]
+									m_bEnabled = true
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 105
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_sModelName = resource_name:"models/architecture/arch_garage_indus/fenestration_panel_16x128.vmdl"
+							m_vModelScale = 
+							{
+								m_Components = 
+								[
+									1.000000,
+									{
+										m_SourceName = "fVerticalScale"
+									},
+									{
+										m_SourceName = "fHorizontalScale"
+									},
+								]
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropFilter_Expression"
+									m_Expression = "iHorizontal == 128"
+								},
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									{
+										m_Components = 
+										[
+											0.000000,
+											0.000000,
+											{
+												m_Expression = "16 * fVerticalScale"
+											},
+										]
+									}
+									m_bEnabled = true
+								},
+								
+								{
+									_class = "CSmartPropOperation_Rotate"
+									m_vRotation = 
+									[
+										0.000000,
+										0.000000,
+										-90.000000,
+									]
+									m_bEnabled = true
+								},
+							]
+						},
+					]
+				},
+				
+				{
+					_class = "CSmartPropElement_Group"
+					m_nElementID = 106
+					m_sLabel = "iHorizontal == 32"
+					m_Modifiers = 
+					[
+						
+						{
+							_class = "CSmartPropFilter_Expression"
+							m_Expression = "iHorizontal == 32"
+						},
+					]
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 107
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_sModelName = resource_name:"models/architecture/arch_garage_indus/fenestration_panel_32x64.vmdl"
+							m_vModelScale = 
+							{
+								m_Components = 
+								[
+									1.000000,
+									{
+										m_SourceName = "fHorizontalScale"
+									},
+									{
+										m_SourceName = "fVerticalScale"
+									},
+								]
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropFilter_Expression"
+									m_Expression = "iVertical== 64"
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 109
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_sModelName = resource_name:"models/architecture/arch_garage_indus/fenestration_panel_32x128.vmdl"
+							m_vModelScale = 
+							{
+								m_Components = 
+								[
+									1.000000,
+									{
+										m_SourceName = "fHorizontalScale"
+									},
+									{
+										m_SourceName = "fVerticalScale"
+									},
+								]
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropFilter_Expression"
+									m_Expression = "iVertical== 128"
+								},
+							]
+						},
+					]
+				},
+				
+				{
+					_class = "CSmartPropElement_Group"
+					m_nElementID = 110
+					m_sLabel = "iVertical == 32"
+					m_Modifiers = 
+					[
+						
+						{
+							_class = "CSmartPropFilter_Expression"
+							m_Expression = "iVertical == 32"
+						},
+					]
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 112
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_sModelName = resource_name:"models/architecture/arch_garage_indus/fenestration_panel_32x64.vmdl"
+							m_vModelScale = 
+							{
+								m_Components = 
+								[
+									1.000000,
+									{
+										m_SourceName = "fVerticalScale"
+									},
+									{
+										m_SourceName = "fHorizontalScale"
+									},
+								]
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropFilter_Expression"
+									m_Expression = "iHorizontal == 64"
+								},
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									{
+										m_Components = 
+										[
+											0.000000,
+											0.000000,
+											{
+												m_Expression = "32 * fVerticalScale"
+											},
+										]
+									}
+									m_bEnabled = true
+								},
+								
+								{
+									_class = "CSmartPropOperation_Rotate"
+									m_vRotation = 
+									[
+										0.000000,
+										0.000000,
+										-90.000000,
+									]
+									m_bEnabled = true
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 113
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_sModelName = resource_name:"models/architecture/arch_garage_indus/fenestration_panel_32x128.vmdl"
+							m_vModelScale = 
+							{
+								m_Components = 
+								[
+									1.000000,
+									{
+										m_SourceName = "fVerticalScale"
+									},
+									{
+										m_SourceName = "fHorizontalScale"
+									},
+								]
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropFilter_Expression"
+									m_Expression = "iHorizontal == 128"
+								},
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									{
+										m_Components = 
+										[
+											0.000000,
+											0.000000,
+											{
+												m_Expression = "32 * fVerticalScale"
+											},
+										]
+									}
+									m_bEnabled = true
+								},
+								
+								{
+									_class = "CSmartPropOperation_Rotate"
+									m_vRotation = 
+									[
+										0.000000,
+										0.000000,
+										-90.000000,
+									]
+									m_bEnabled = true
+								},
+							]
+						},
+					]
+				},
+				
+				{
+					_class = "CSmartPropElement_Group"
+					m_nElementID = 114
+					m_sLabel = "iHorizontal == 64"
+					m_Modifiers = 
+					[
+						
+						{
+							_class = "CSmartPropFilter_Expression"
+							m_Expression = "iHorizontal == 64"
+						},
+					]
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 116
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_sModelName = resource_name:"models/architecture/arch_garage_indus/fenestration_panel_64x128.vmdl"
+							m_vModelScale = 
+							{
+								m_Components = 
+								[
+									1.000000,
+									{
+										m_SourceName = "fHorizontalScale"
+									},
+									{
+										m_SourceName = "fVerticalScale"
+									},
+								]
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropFilter_Expression"
+									m_Expression = "iVertical== 128"
+								},
+							]
+						},
+					]
+				},
+				
+				{
+					_class = "CSmartPropElement_Group"
+					m_nElementID = 117
+					m_sLabel = "iVertical == 64"
+					m_Modifiers = 
+					[
+						
+						{
+							_class = "CSmartPropFilter_Expression"
+							m_Expression = "iVertical == 64"
+						},
+					]
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 119
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_sModelName = resource_name:"models/architecture/arch_garage_indus/fenestration_panel_64x128.vmdl"
+							m_vModelScale = 
+							{
+								m_Components = 
+								[
+									1.000000,
+									{
+										m_SourceName = "fVerticalScale"
+									},
+									{
+										m_SourceName = "fHorizontalScale"
+									},
+								]
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropFilter_Expression"
+									m_Expression = "iHorizontal == 128"
+								},
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									{
+										m_Components = 
+										[
+											0.000000,
+											0.000000,
+											{
+												m_Expression = "64 * fVerticalScale"
+											},
+										]
+									}
+									m_bEnabled = true
+								},
+								
+								{
+									_class = "CSmartPropOperation_Rotate"
+									m_vRotation = 
+									[
+										0.000000,
+										0.000000,
+										-90.000000,
+									]
+									m_bEnabled = true
+								},
+							]
+						},
+					]
+				},
+			]
+		},
+	]
+}

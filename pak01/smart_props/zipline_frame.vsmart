@@ -1,0 +1,632 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vrfunknown:version{4dddb66e-c6ed-4bd0-a4ef-afb45a02acc2} -->
+{
+	generic_data_type = "CSmartPropRoot"
+	_editor = 
+	{
+		next_element_id = 53
+	}
+	m_nMaxDepth = 10
+	m_Children = 
+	[
+		
+		{
+			_class = "CSmartPropElement_Group"
+			m_nElementID = 51
+			m_Children = 
+			[
+				
+				{
+					_class = "CSmartPropElement_PlaceOnPath"
+					m_nElementID = 1
+					m_flSpacing = 13.000000
+					m_PathName = "Path"
+					m_PathSpace = "WORLD"
+					m_DefaultPath = 
+					[
+						
+						[
+							-1500.000000,
+							-500.000000,
+							0.000000,
+						],
+						
+						[
+							-500.000000,
+							500.000000,
+							0.000000,
+						],
+						
+						[
+							500.000000,
+							-500.000000,
+							0.000000,
+						],
+						
+						[
+							1500.000000,
+							500.000000,
+							0.000000,
+						],
+					]
+					m_bUseFixedUpDirection = false
+					m_bUseProjectedDistance = false
+					m_flOffsetAlongPath = 0.000000
+					m_vPathOffset = 
+					[
+						101.000000,
+						0.000000,
+					]
+					m_vUpDirection = 
+					[
+						0.000000,
+						0.000000,
+						1.000000,
+					]
+					_editor = 
+					{
+						folder_name = ""
+					}
+					m_bEnabled = true
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 3
+							m_sModelName = resource_name:"models/props_gameplay/zipline_coils/zipline_frame_wires.vmdl"
+							m_bEnabled = true
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_vModelScale = 
+							[
+								1.000000,
+								0.900000,
+								0.900000,
+							]
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									[
+										0.000000,
+										0.000000,
+										20.000000,
+									]
+								},
+							]
+						},
+					]
+				},
+				
+				{
+					_class = "CSmartPropElement_PlaceOnPath"
+					m_nElementID = 30
+					m_flSpacing = 13.000000
+					m_PathName = "Path"
+					m_PathSpace = "WORLD"
+					m_DefaultPath = 
+					[
+						
+						[
+							-1500.000000,
+							-500.000000,
+							0.000000,
+						],
+						
+						[
+							-500.000000,
+							500.000000,
+							0.000000,
+						],
+						
+						[
+							500.000000,
+							-500.000000,
+							0.000000,
+						],
+						
+						[
+							1500.000000,
+							500.000000,
+							0.000000,
+						],
+					]
+					m_bUseFixedUpDirection = false
+					m_bUseProjectedDistance = false
+					m_flOffsetAlongPath = 0.000000
+					m_vPathOffset = 
+					[
+						-101.000000,
+						0.000000,
+					]
+					_editor = 
+					{
+						folder_name = ""
+					}
+					m_vUpDirection = 
+					[
+						0.000000,
+						0.000000,
+						1.000000,
+					]
+					m_bEnabled = true
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 31
+							m_sModelName = resource_name:"models/props_gameplay/zipline_coils/zipline_frame_wires.vmdl"
+							m_bEnabled = true
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_vModelScale = 
+							[
+								1.000000,
+								0.900000,
+								0.900000,
+							]
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									[
+										0.000000,
+										0.000000,
+										20.000000,
+									]
+								},
+							]
+						},
+					]
+				},
+				
+				{
+					_class = "CSmartPropElement_PlaceOnPath"
+					m_nElementID = 7
+					m_flSpacing = 30.000000
+					m_PathName = "Path"
+					m_PathSpace = "WORLD"
+					m_DefaultPath = 
+					[
+						
+						[
+							-1500.000000,
+							-500.000000,
+							0.000000,
+						],
+						
+						[
+							-500.000000,
+							500.000000,
+							0.000000,
+						],
+						
+						[
+							500.000000,
+							-500.000000,
+							0.000000,
+						],
+						
+						[
+							1500.000000,
+							500.000000,
+							0.000000,
+						],
+					]
+					m_bUseProjectedDistance = false
+					m_bUseFixedUpDirection = false
+					_editor = 
+					{
+						folder_name = ""
+					}
+					m_UpDirectionSpace = "WORLD"
+					m_vPathOffset = 
+					[
+						0.000000,
+						0.000000,
+					]
+					m_bEnabled = true
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 8
+							m_sModelName = resource_name:"models/props_gameplay/zipline_coils/zipline_frame_mid01.vmdl"
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_SelectionCriteria = 
+							[
+								
+								{
+									_class = "CSmartPropSelectionCriteria_PathPosition"
+									m_bEnabled = true
+									m_PlaceAtPositions = "CONTROL_POINTS"
+									m_nPlaceEveryNthPosition = 20
+									m_bAllowAtStart = true
+									m_bAllowAtEnd = true
+								},
+							]
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									[
+										0.000000,
+										0.000000,
+										20.000000,
+									]
+								},
+							]
+						},
+					]
+				},
+				
+				{
+					_class = "CSmartPropElement_PlaceOnPath"
+					m_nElementID = 38
+					m_flSpacing = 30.000000
+					m_PathName = "Path"
+					m_PathSpace = "WORLD"
+					m_DefaultPath = 
+					[
+						
+						[
+							-1500.000000,
+							-500.000000,
+							0.000000,
+						],
+						
+						[
+							-500.000000,
+							500.000000,
+							0.000000,
+						],
+						
+						[
+							500.000000,
+							-500.000000,
+							0.000000,
+						],
+						
+						[
+							1500.000000,
+							500.000000,
+							0.000000,
+						],
+					]
+					m_bUseProjectedDistance = false
+					m_bUseFixedUpDirection = false
+					_editor = 
+					{
+						folder_name = ""
+					}
+					m_UpDirectionSpace = "WORLD"
+					m_vPathOffset = 
+					[
+						0.000000,
+						0.000000,
+					]
+					m_bEnabled = true
+					m_flOffsetAlongPath = 0.000000
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 39
+							m_sModelName = resource_name:"models/props_gameplay/zipline_coils/zipline_frame_mid02.vmdl"
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_vModelScale = 
+							[
+								1.000000,
+								1.000000,
+								1.000000,
+							]
+							m_SelectionCriteria = 
+							[
+								
+								{
+									_class = "CSmartPropSelectionCriteria_PathPosition"
+									m_PlaceAtPositions = "NTH"
+									m_nPlaceEveryNthPosition = 15
+									m_nNthPositionIndexOffset = 95
+								},
+							]
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									[
+										0.000000,
+										0.000000,
+										20.000000,
+									]
+								},
+							]
+						},
+					]
+				},
+				
+				{
+					_class = "CSmartPropElement_PlaceOnPath"
+					m_nElementID = 32
+					m_flSpacing = 13.000000
+					m_PathName = "Path"
+					m_PathSpace = "WORLD"
+					m_DefaultPath = 
+					[
+						
+						[
+							-1500.000000,
+							-500.000000,
+							0.000000,
+						],
+						
+						[
+							-500.000000,
+							500.000000,
+							0.000000,
+						],
+						
+						[
+							500.000000,
+							-500.000000,
+							0.000000,
+						],
+						
+						[
+							1500.000000,
+							500.000000,
+							0.000000,
+						],
+					]
+					m_bUseFixedUpDirection = false
+					m_bUseProjectedDistance = false
+					m_flOffsetAlongPath = 0.000000
+					m_vPathOffset = 
+					[
+						44.500000,
+						0.000000,
+					]
+					m_vUpDirection = 
+					[
+						0.000000,
+						0.000000,
+						1.000000,
+					]
+					_editor = 
+					{
+						folder_name = ""
+					}
+					m_bEnabled = true
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 33
+							m_sModelName = resource_name:"models/props_gameplay/zipline_coils/zipline_frame_wires.vmdl"
+							m_bEnabled = true
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_vModelScale = 
+							[
+								1.000000,
+								0.500000,
+								0.500000,
+							]
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									[
+										0.000000,
+										0.000000,
+										20.000000,
+									]
+								},
+							]
+						},
+					]
+				},
+				
+				{
+					_class = "CSmartPropElement_PlaceOnPath"
+					m_nElementID = 34
+					m_flSpacing = 13.000000
+					m_PathName = "Path"
+					m_PathSpace = "WORLD"
+					m_DefaultPath = 
+					[
+						
+						[
+							-1500.000000,
+							-500.000000,
+							0.000000,
+						],
+						
+						[
+							-500.000000,
+							500.000000,
+							0.000000,
+						],
+						
+						[
+							500.000000,
+							-500.000000,
+							0.000000,
+						],
+						
+						[
+							1500.000000,
+							500.000000,
+							0.000000,
+						],
+					]
+					m_bUseFixedUpDirection = false
+					m_bUseProjectedDistance = false
+					m_flOffsetAlongPath = 0.000000
+					m_vPathOffset = 
+					[
+						-44.500000,
+						0.000000,
+					]
+					_editor = 
+					{
+						folder_name = ""
+					}
+					m_vUpDirection = 
+					[
+						0.000000,
+						0.000000,
+						1.000000,
+					]
+					m_bEnabled = true
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 35
+							m_sModelName = resource_name:"models/props_gameplay/zipline_coils/zipline_frame_wires.vmdl"
+							m_bEnabled = true
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_vModelScale = 
+							[
+								1.000000,
+								0.500000,
+								0.500000,
+							]
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									[
+										0.000000,
+										0.000000,
+										20.000000,
+									]
+								},
+							]
+						},
+					]
+				},
+				
+				{
+					_class = "CSmartPropElement_PlaceOnPath"
+					m_nElementID = 36
+					m_flSpacing = 13.000000
+					m_PathName = "Path"
+					m_PathSpace = "WORLD"
+					m_DefaultPath = 
+					[
+						
+						[
+							-1500.000000,
+							-500.000000,
+							0.000000,
+						],
+						
+						[
+							-500.000000,
+							500.000000,
+							0.000000,
+						],
+						
+						[
+							500.000000,
+							-500.000000,
+							0.000000,
+						],
+						
+						[
+							1500.000000,
+							500.000000,
+							0.000000,
+						],
+					]
+					m_bUseFixedUpDirection = false
+					m_bUseProjectedDistance = false
+					m_flOffsetAlongPath = 0.000000
+					m_vPathOffset = 
+					[
+						0.000000,
+						101.000000,
+					]
+					m_vUpDirection = 
+					[
+						0.000000,
+						0.000000,
+						1.000000,
+					]
+					_editor = 
+					{
+						folder_name = ""
+					}
+					m_bEnabled = true
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 37
+							m_sModelName = resource_name:"models/props_gameplay/zipline_coils/zipline_frame_wires.vmdl"
+							m_bEnabled = true
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_vModelScale = 
+							[
+								1.000000,
+								0.700000,
+								0.700000,
+							]
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									[
+										0.000000,
+										0.000000,
+										20.000000,
+									]
+								},
+							]
+						},
+					]
+				},
+			]
+		},
+	]
+}

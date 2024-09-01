@@ -1,0 +1,645 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vrfunknown:version{4dddb66e-c6ed-4bd0-a4ef-afb45a02acc2} -->
+{
+	generic_data_type = "CSmartPropRoot"
+	_editor = 
+	{
+		next_element_id = 38
+	}
+	m_Children = 
+	[
+		
+		{
+			_class = "CSmartPropElement_PickOne"
+			m_nElementID = 1
+			m_SelectionMode = "FIRST"
+			m_HandleSize = 30
+			m_vHandleOffset = 
+			[
+				40.000000,
+				0.000000,
+				0.000000,
+			]
+			m_Children = 
+			[
+				
+				{
+					_class = "CSmartPropElement_Group"
+					m_nElementID = 3
+					_editor = 
+					{
+						folder_name = ""
+					}
+					m_sLabel = "Bracket A"
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 2
+							m_sModelName = resource_name:"models/props_city/satellite_dish_bracket_a.vmdl"
+							_editor = 
+							{
+								folder_name = ""
+							}
+						},
+						
+						{
+							_class = "CSmartPropElement_Group"
+							m_nElementID = 4
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_SetPosition"
+									m_vPosition = 
+									[
+										-42.000000,
+										0.000000,
+										40.000000,
+									]
+									m_CoordinateSpace = "ELEMENT"
+								},
+								
+								{
+									_class = "CSmartPropOperation_CreateRotator"
+									m_vRotationAxis = 
+									[
+										1.000000,
+										0.000000,
+										0.000000,
+									]
+									m_flDisplayRadius = 24.000000
+								},
+							]
+							m_Children = 
+							[
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 6
+									m_sModelName = resource_name:"models/props_city/satellite_dish_bracket_hinge.vmdl"
+									_editor = 
+									{
+										folder_name = ""
+									}
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 5
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_SetPosition"
+											m_vPosition = 
+											[
+												8.000000,
+												0.000000,
+												2.000000,
+											]
+											m_CoordinateSpace = "ELEMENT"
+										},
+										
+										{
+											_class = "CSmartPropOperation_CreateRotator"
+											m_vRotationAxis = 
+											[
+												0.000000,
+												1.000000,
+												0.000000,
+											]
+											m_flDisplayRadius = 60.000000
+											m_bEnforceLimits = false
+											m_flMaxAngle = 45.000000
+											m_flMinAngle = -45.000000
+										},
+									]
+									m_Children = 
+									[
+										
+										{
+											_class = "CSmartPropElement_PickOne"
+											m_nElementID = 8
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_vHandleOffset = 
+											[
+												0.000000,
+												0.000000,
+												40.000000,
+											]
+											m_HandleSize = 20
+											m_HandleShape = "CIRCLE"
+											m_Children = 
+											[
+												
+												{
+													_class = "CSmartPropElement_Model"
+													m_nElementID = 7
+													m_sModelName = resource_name:"models/props_city/satellite_dish_a.vmdl"
+													_editor = 
+													{
+														folder_name = ""
+													}
+												},
+												
+												{
+													_class = "CSmartPropElement_Model"
+													m_nElementID = 9
+													m_sModelName = resource_name:"models/props_city/satellite_dish_b.vmdl"
+													_editor = 
+													{
+														folder_name = ""
+													}
+												},
+												
+												{
+													_class = "CSmartPropElement_Model"
+													m_nElementID = 10
+													m_sModelName = resource_name:"models/props_city/satellite_dish_c.vmdl"
+													_editor = 
+													{
+														folder_name = ""
+													}
+												},
+											]
+										},
+									]
+								},
+							]
+						},
+					]
+				},
+				
+				{
+					_class = "CSmartPropElement_Group"
+					m_nElementID = 11
+					_editor = 
+					{
+						folder_name = ""
+					}
+					m_sLabel = "Bracket B"
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 12
+							m_sModelName = resource_name:"models/props_city/satellite_dish_bracket_b.vmdl"
+							_editor = 
+							{
+								folder_name = ""
+							}
+						},
+						
+						{
+							_class = "CSmartPropElement_Group"
+							m_nElementID = 13
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_SetPosition"
+									m_vPosition = 
+									[
+										-58.000000,
+										0.000000,
+										46.000000,
+									]
+									m_CoordinateSpace = "ELEMENT"
+								},
+								
+								{
+									_class = "CSmartPropOperation_CreateRotator"
+									m_vRotationAxis = 
+									[
+										1.000000,
+										0.000000,
+										0.000000,
+									]
+									m_flDisplayRadius = 24.000000
+								},
+							]
+							m_Children = 
+							[
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 14
+									m_sModelName = resource_name:"models/props_city/satellite_dish_bracket_hinge.vmdl"
+									_editor = 
+									{
+										folder_name = ""
+									}
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 15
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_SetPosition"
+											m_vPosition = 
+											[
+												8.000000,
+												0.000000,
+												2.000000,
+											]
+											m_CoordinateSpace = "ELEMENT"
+										},
+										
+										{
+											_class = "CSmartPropOperation_CreateRotator"
+											m_vRotationAxis = 
+											[
+												0.000000,
+												1.000000,
+												0.000000,
+											]
+											m_flDisplayRadius = 60.000000
+											m_bEnforceLimits = false
+											m_flMaxAngle = 45.000000
+											m_flMinAngle = -45.000000
+										},
+									]
+									m_Children = 
+									[
+										
+										{
+											_class = "CSmartPropElement_PickOne"
+											m_nElementID = 16
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_vHandleOffset = 
+											[
+												0.000000,
+												0.000000,
+												40.000000,
+											]
+											m_HandleSize = 20
+											m_HandleShape = "CIRCLE"
+											m_Children = 
+											[
+												
+												{
+													_class = "CSmartPropElement_Model"
+													m_nElementID = 17
+													m_sModelName = resource_name:"models/props_city/satellite_dish_a.vmdl"
+													_editor = 
+													{
+														folder_name = ""
+													}
+												},
+												
+												{
+													_class = "CSmartPropElement_Model"
+													m_nElementID = 18
+													m_sModelName = resource_name:"models/props_city/satellite_dish_b.vmdl"
+													_editor = 
+													{
+														folder_name = ""
+													}
+												},
+												
+												{
+													_class = "CSmartPropElement_Model"
+													m_nElementID = 19
+													m_sModelName = resource_name:"models/props_city/satellite_dish_c.vmdl"
+													_editor = 
+													{
+														folder_name = ""
+													}
+												},
+											]
+										},
+									]
+								},
+							]
+						},
+					]
+				},
+				
+				{
+					_class = "CSmartPropElement_Group"
+					m_nElementID = 20
+					_editor = 
+					{
+						folder_name = ""
+					}
+					m_sLabel = "Bracket C"
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 21
+							m_sModelName = resource_name:"models/props_city/satellite_dish_bracket_c.vmdl"
+							_editor = 
+							{
+								folder_name = ""
+							}
+						},
+						
+						{
+							_class = "CSmartPropElement_Group"
+							m_nElementID = 22
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_SetPosition"
+									m_vPosition = 
+									[
+										-41.000000,
+										0.000000,
+										76.000000,
+									]
+									m_CoordinateSpace = "ELEMENT"
+								},
+								
+								{
+									_class = "CSmartPropOperation_CreateRotator"
+									m_vRotationAxis = 
+									[
+										1.000000,
+										0.000000,
+										0.000000,
+									]
+									m_flDisplayRadius = 24.000000
+								},
+							]
+							m_Children = 
+							[
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 23
+									m_sModelName = resource_name:"models/props_city/satellite_dish_bracket_hinge.vmdl"
+									_editor = 
+									{
+										folder_name = ""
+									}
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 24
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_SetPosition"
+											m_vPosition = 
+											[
+												8.000000,
+												0.000000,
+												2.000000,
+											]
+											m_CoordinateSpace = "ELEMENT"
+										},
+										
+										{
+											_class = "CSmartPropOperation_CreateRotator"
+											m_vRotationAxis = 
+											[
+												0.000000,
+												1.000000,
+												0.000000,
+											]
+											m_flDisplayRadius = 60.000000
+											m_bEnforceLimits = false
+											m_flMaxAngle = 45.000000
+											m_flMinAngle = -45.000000
+										},
+									]
+									m_Children = 
+									[
+										
+										{
+											_class = "CSmartPropElement_PickOne"
+											m_nElementID = 25
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_vHandleOffset = 
+											[
+												0.000000,
+												0.000000,
+												40.000000,
+											]
+											m_HandleSize = 20
+											m_HandleShape = "CIRCLE"
+											m_Children = 
+											[
+												
+												{
+													_class = "CSmartPropElement_Model"
+													m_nElementID = 26
+													m_sModelName = resource_name:"models/props_city/satellite_dish_a.vmdl"
+													_editor = 
+													{
+														folder_name = ""
+													}
+												},
+												
+												{
+													_class = "CSmartPropElement_Model"
+													m_nElementID = 27
+													m_sModelName = resource_name:"models/props_city/satellite_dish_b.vmdl"
+													_editor = 
+													{
+														folder_name = ""
+													}
+												},
+												
+												{
+													_class = "CSmartPropElement_Model"
+													m_nElementID = 28
+													m_sModelName = resource_name:"models/props_city/satellite_dish_c.vmdl"
+													_editor = 
+													{
+														folder_name = ""
+													}
+												},
+											]
+										},
+									]
+								},
+							]
+						},
+					]
+				},
+				
+				{
+					_class = "CSmartPropElement_Group"
+					m_nElementID = 29
+					_editor = 
+					{
+						folder_name = ""
+					}
+					m_sLabel = "Rooftop"
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 30
+							m_sModelName = resource_name:"models/props_city/satellite_dish_bracket_rooftop.vmdl"
+							_editor = 
+							{
+								folder_name = ""
+							}
+						},
+						
+						{
+							_class = "CSmartPropElement_Group"
+							m_nElementID = 31
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_SetPosition"
+									m_vPosition = 
+									[
+										0.000000,
+										0.000000,
+										71.000000,
+									]
+									m_CoordinateSpace = "ELEMENT"
+								},
+								
+								{
+									_class = "CSmartPropOperation_Rotate"
+									m_vRotation = 
+									[
+										90.000000,
+										0.000000,
+										0.000000,
+									]
+								},
+								
+								{
+									_class = "CSmartPropOperation_CreateRotator"
+									m_vRotationAxis = 
+									[
+										1.000000,
+										0.000000,
+										0.000000,
+									]
+									m_flDisplayRadius = 24.000000
+								},
+							]
+							m_Children = 
+							[
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 32
+									m_sModelName = resource_name:"models/props_city/satellite_dish_bracket_hinge.vmdl"
+									_editor = 
+									{
+										folder_name = ""
+									}
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 33
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_SetPosition"
+											m_vPosition = 
+											[
+												8.000000,
+												0.000000,
+												2.000000,
+											]
+											m_CoordinateSpace = "ELEMENT"
+										},
+										
+										{
+											_class = "CSmartPropOperation_CreateRotator"
+											m_vRotationAxis = 
+											[
+												0.000000,
+												1.000000,
+												0.000000,
+											]
+											m_flDisplayRadius = 60.000000
+											m_bEnforceLimits = false
+											m_flMaxAngle = 45.000000
+											m_flMinAngle = -45.000000
+										},
+									]
+									m_Children = 
+									[
+										
+										{
+											_class = "CSmartPropElement_PickOne"
+											m_nElementID = 34
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_vHandleOffset = 
+											[
+												0.000000,
+												0.000000,
+												40.000000,
+											]
+											m_HandleSize = 20
+											m_HandleShape = "CIRCLE"
+											m_Children = 
+											[
+												
+												{
+													_class = "CSmartPropElement_Model"
+													m_nElementID = 35
+													m_sModelName = resource_name:"models/props_city/satellite_dish_a.vmdl"
+													_editor = 
+													{
+														folder_name = ""
+													}
+												},
+												
+												{
+													_class = "CSmartPropElement_Model"
+													m_nElementID = 36
+													m_sModelName = resource_name:"models/props_city/satellite_dish_b.vmdl"
+													_editor = 
+													{
+														folder_name = ""
+													}
+												},
+												
+												{
+													_class = "CSmartPropElement_Model"
+													m_nElementID = 37
+													m_sModelName = resource_name:"models/props_city/satellite_dish_c.vmdl"
+													_editor = 
+													{
+														folder_name = ""
+													}
+												},
+											]
+										},
+									]
+								},
+							]
+						},
+					]
+				},
+			]
+		},
+	]
+}

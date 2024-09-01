@@ -1,0 +1,1254 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vrfunknown:version{4dddb66e-c6ed-4bd0-a4ef-afb45a02acc2} -->
+{
+	generic_data_type = "CSmartPropRoot"
+	_editor = 
+	{
+		next_element_id = 71
+	}
+	m_Children = 
+	[
+		
+		{
+			_class = "CSmartPropElement_PickOne"
+			m_nElementID = 1
+			m_Children = 
+			[
+				
+				{
+					_class = "CSmartPropElement_Group"
+					m_nElementID = 7
+					_editor = 
+					{
+						folder_name = ""
+					}
+					m_bEnabled = true
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 2
+							m_sModelName = resource_name:"models/props_market/box_cardboard_large_01.vmdl"
+							_editor = 
+							{
+								folder_name = ""
+							}
+						},
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 8
+							m_sModelName = resource_name:"models/props_market/box_cardboard_large_01.vmdl"
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									[
+										-46.000000,
+										2.000000,
+										22.000000,
+									]
+								},
+								
+								{
+									_class = "CSmartPropOperation_Rotate"
+									m_vRotation = 
+									[
+										0.000000,
+										180.000000,
+										0.000000,
+									]
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 4
+							m_sModelName = resource_name:"models/props_market/box_cardboard_medium_01.vmdl"
+							m_bEnabled = true
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									[
+										40.000000,
+										0.000000,
+										0.000000,
+									]
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 6
+							m_sModelName = resource_name:"models/props_market/box_cardboard_small_01.vmdl"
+							m_bEnabled = true
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									[
+										-34.000000,
+										0.000000,
+										0.000000,
+									]
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 9
+							m_sModelName = resource_name:"models/props_market/box_cardboard_small_01.vmdl"
+							m_bEnabled = true
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									[
+										-63.000000,
+										16.000000,
+										0.000000,
+									]
+								},
+								
+								{
+									_class = "CSmartPropOperation_Rotate"
+									m_vRotation = 
+									[
+										0.000000,
+										90.000000,
+										0.000000,
+									]
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 10
+							m_sModelName = resource_name:"models/props_market/box_cardboard_small_01.vmdl"
+							m_bEnabled = true
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									[
+										-63.000000,
+										-8.000000,
+										0.000000,
+									]
+								},
+								
+								{
+									_class = "CSmartPropOperation_Rotate"
+									m_vRotation = 
+									[
+										0.000000,
+										270.000000,
+										0.000000,
+									]
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 11
+							m_sModelName = resource_name:"models/props_market/box_cardboard_medium_01.vmdl"
+							m_bEnabled = true
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									[
+										-7.000000,
+										0.000000,
+										46.000000,
+									]
+								},
+								
+								{
+									_class = "CSmartPropOperation_Rotate"
+									m_vRotation = 
+									[
+										0.000000,
+										180.000000,
+										0.000000,
+									]
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 12
+							m_sModelName = resource_name:"models/props_market/box_cardboard_small_01.vmdl"
+							m_bEnabled = true
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									[
+										43.000000,
+										19.000000,
+										40.000000,
+									]
+								},
+								
+								{
+									_class = "CSmartPropOperation_Rotate"
+									m_vRotation = 
+									[
+										90.000000,
+										270.000000,
+										0.000000,
+									]
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 13
+							m_sModelName = resource_name:"models/props_market/box_cardboard_small_01.vmdl"
+							m_bEnabled = true
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									[
+										43.000000,
+										-28.000000,
+										40.000000,
+									]
+								},
+								
+								{
+									_class = "CSmartPropOperation_Rotate"
+									m_vRotation = 
+									[
+										90.000000,
+										90.000000,
+										0.000000,
+									]
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 14
+							m_sModelName = resource_name:"models/props_market/box_cardboard_small_01.vmdl"
+							m_bEnabled = true
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									[
+										17.000000,
+										3.000000,
+										47.000000,
+									]
+								},
+								
+								{
+									_class = "CSmartPropOperation_Rotate"
+									m_vRotation = 
+									[
+										0.000000,
+										180.000000,
+										0.000000,
+									]
+								},
+								
+								{
+									_class = "CSmartPropOperation_Scale"
+									m_flScale = 0.750000
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 16
+							m_sModelName = resource_name:"models/props_market/box_cardboard_medium_01.vmdl"
+							m_bEnabled = true
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_Rotate"
+									m_vRotation = 
+									[
+										0.000000,
+										180.000000,
+										0.000000,
+									]
+								},
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									[
+										-70.000000,
+										8.000000,
+										0.000000,
+									]
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 17
+							m_sModelName = resource_name:"models/props_market/box_cardboard_medium_01.vmdl"
+							m_bEnabled = true
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_Rotate"
+									m_vRotation = 
+									[
+										0.000000,
+										0.000000,
+										0.000000,
+									]
+								},
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									[
+										41.000000,
+										-2.000000,
+										50.000000,
+									]
+								},
+							]
+						},
+					]
+				},
+				
+				{
+					_class = "CSmartPropElement_Group"
+					m_nElementID = 18
+					_editor = 
+					{
+						folder_name = ""
+					}
+					m_bEnabled = true
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 20
+							m_sModelName = resource_name:"models/props_market/box_cardboard_large_01.vmdl"
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									[
+										-40.000000,
+										2.000000,
+										0.000000,
+									]
+								},
+								
+								{
+									_class = "CSmartPropOperation_Rotate"
+									m_vRotation = 
+									[
+										0.000000,
+										180.000000,
+										0.000000,
+									]
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 31
+							m_sModelName = resource_name:"models/props_market/box_cardboard_large_01.vmdl"
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									[
+										38.000000,
+										20.000000,
+										24.000000,
+									]
+								},
+								
+								{
+									_class = "CSmartPropOperation_Rotate"
+									m_vRotation = 
+									[
+										90.000000,
+										0.000000,
+										90.000000,
+									]
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 32
+							m_sModelName = resource_name:"models/props_market/box_cardboard_medium_01.vmdl"
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_Rotate"
+									m_vRotation = 
+									[
+										0.000000,
+										0.000000,
+										90.000000,
+									]
+								},
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									[
+										0.000000,
+										18.000000,
+										-22.000000,
+									]
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 33
+							m_sModelName = resource_name:"models/props_market/box_cardboard_medium_01.vmdl"
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_Rotate"
+									m_vRotation = 
+									[
+										0.000000,
+										0.000000,
+										0.000000,
+									]
+								},
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									[
+										0.000000,
+										8.000000,
+										36.000000,
+									]
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 35
+							m_sModelName = resource_name:"models/props_market/box_cardboard_small_01.vmdl"
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_Rotate"
+									m_vRotation = 
+									[
+										0.000000,
+										0.000000,
+										0.000000,
+									]
+								},
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									[
+										26.000000,
+										4.000000,
+										46.000000,
+									]
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 36
+							m_sModelName = resource_name:"models/props_market/box_cardboard_small_01.vmdl"
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_Rotate"
+									m_vRotation = 
+									[
+										0.000000,
+										180.000000,
+										0.000000,
+									]
+								},
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									[
+										-50.000000,
+										-4.000000,
+										46.000000,
+									]
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 37
+							m_sModelName = resource_name:"models/props_market/box_cardboard_large_01.vmdl"
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									[
+										85.000000,
+										-1.000000,
+										0.000000,
+									]
+								},
+								
+								{
+									_class = "CSmartPropOperation_Rotate"
+									m_vRotation = 
+									[
+										0.000000,
+										90.000000,
+										0.000000,
+									]
+								},
+							]
+						},
+					]
+				},
+				
+				{
+					_class = "CSmartPropElement_Group"
+					m_nElementID = 38
+					_editor = 
+					{
+						folder_name = ""
+					}
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 39
+							m_sModelName = resource_name:"models/props_market/box_cardboard_large_01.vmdl"
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									[
+										0.000000,
+										0.000000,
+										0.000000,
+									]
+								},
+								
+								{
+									_class = "CSmartPropOperation_RandomRotation"
+									m_vRandomRotationMax = 
+									[
+										0.000000,
+										15.000000,
+										0.000000,
+									]
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 40
+							m_sModelName = resource_name:"models/props_market/box_cardboard_large_01.vmdl"
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									[
+										56.000000,
+										0.000000,
+										0.000000,
+									]
+								},
+								
+								{
+									_class = "CSmartPropOperation_RandomRotation"
+									m_vRandomRotationMax = 
+									[
+										0.000000,
+										105.000000,
+										0.000000,
+									]
+									m_vRandomRotationMin = 
+									[
+										0.000000,
+										90.000000,
+										0.000000,
+									]
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 46
+							m_sModelName = resource_name:"models/props_market/box_cardboard_large_01.vmdl"
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									[
+										0.000000,
+										56.000000,
+										0.000000,
+									]
+								},
+								
+								{
+									_class = "CSmartPropOperation_RandomRotation"
+									m_vRandomRotationMax = 
+									[
+										0.000000,
+										195.000000,
+										0.000000,
+									]
+									m_vRandomRotationMin = 
+									[
+										0.000000,
+										180.000000,
+										0.000000,
+									]
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_PickOne"
+							m_nElementID = 49
+							m_Children = 
+							[
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 48
+									m_sModelName = resource_name:"models/props_market/box_cardboard_small_01.vmdl"
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												56.000000,
+												0.000000,
+												47.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomRotation"
+											m_vRandomRotationMax = 
+											[
+												0.000000,
+												105.000000,
+												0.000000,
+											]
+											m_vRandomRotationMin = 
+											[
+												0.000000,
+												90.000000,
+												0.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomOffset"
+											m_vRandomPositionMin = 
+											[
+												-5.000000,
+												-5.000000,
+												0.000000,
+											]
+											m_vRandomPositionMax = 
+											[
+												5.000000,
+												5.000000,
+												0.000000,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 50
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_PickOne"
+							m_nElementID = 51
+							m_Children = 
+							[
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 52
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 53
+									m_Children = 
+									[
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 47
+											m_sModelName = resource_name:"models/props_market/box_cardboard_medium_01.vmdl"
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														0.000000,
+														56.000000,
+														47.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_RandomRotation"
+													m_vRandomRotationMax = 
+													[
+														0.000000,
+														15.000000,
+														0.000000,
+													]
+												},
+											]
+										},
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 54
+											m_sModelName = resource_name:"models/props_market/box_cardboard_small_01.vmdl"
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														0.000000,
+														56.000000,
+														75.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_RandomRotation"
+													m_vRandomRotationMax = 
+													[
+														0.000000,
+														15.000000,
+														0.000000,
+													]
+												},
+											]
+										},
+									]
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_PickOne"
+							m_nElementID = 55
+							m_Children = 
+							[
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 57
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 58
+									m_Children = 
+									[
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 56
+											m_sModelName = resource_name:"models/props_market/box_cardboard_large_01.vmdl"
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														0.000000,
+														0.000000,
+														47.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_RandomRotation"
+													m_vRandomRotationMax = 
+													[
+														0.000000,
+														185.000000,
+														0.000000,
+													]
+													m_vRandomRotationMin = 
+													[
+														0.000000,
+														180.000000,
+														0.000000,
+													]
+												},
+											]
+										},
+										
+										{
+											_class = "CSmartPropElement_PickOne"
+											m_nElementID = 59
+											m_Children = 
+											[
+												
+												{
+													_class = "CSmartPropElement_Model"
+													m_nElementID = 60
+													m_sModelName = resource_name:"models/props_market/box_cardboard_medium_01.vmdl"
+													_editor = 
+													{
+														folder_name = ""
+													}
+													m_Modifiers = 
+													[
+														
+														{
+															_class = "CSmartPropOperation_Translate"
+															m_vPosition = 
+															[
+																0.000000,
+																0.000000,
+																94.000000,
+															]
+														},
+														
+														{
+															_class = "CSmartPropOperation_RandomRotation"
+															m_vRandomRotationMax = 
+															[
+																0.000000,
+																10.000000,
+																0.000000,
+															]
+															m_vRandomRotationMin = 
+															[
+																0.000000,
+																0.000000,
+																0.000000,
+															]
+														},
+														
+														{
+															_class = "CSmartPropOperation_RandomOffset"
+															m_vRandomPositionMin = 
+															[
+																-5.000000,
+																-5.000000,
+																0.000000,
+															]
+															m_vRandomPositionMax = 
+															[
+																5.000000,
+																5.000000,
+																0.000000,
+															]
+														},
+													]
+												},
+												
+												{
+													_class = "CSmartPropElement_Group"
+													m_nElementID = 61
+												},
+											]
+										},
+									]
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_PickOne"
+							m_nElementID = 62
+							m_Children = 
+							[
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 63
+									m_sModelName = resource_name:"models/props_market/box_cardboard_medium_01.vmdl"
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												56.000000,
+												56.000000,
+												0.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomRotation"
+											m_vRandomRotationMax = 
+											[
+												0.000000,
+												285.000000,
+												0.000000,
+											]
+											m_vRandomRotationMin = 
+											[
+												0.000000,
+												270.000000,
+												0.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomOffset"
+											m_vRandomPositionMin = 
+											[
+												-5.000000,
+												-5.000000,
+												0.000000,
+											]
+											m_vRandomPositionMax = 
+											[
+												5.000000,
+												5.000000,
+												0.000000,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 64
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_PickOne"
+							m_nElementID = 65
+							m_Children = 
+							[
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 66
+									m_sModelName = resource_name:"models/props_market/box_cardboard_medium_01.vmdl"
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												112.000000,
+												0.000000,
+												0.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomRotation"
+											m_vRandomRotationMax = 
+											[
+												0.000000,
+												90.000000,
+												0.000000,
+											]
+											m_vRandomRotationMin = 
+											[
+												0.000000,
+												75.000000,
+												0.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomOffset"
+											m_vRandomPositionMin = 
+											[
+												-5.000000,
+												-5.000000,
+												0.000000,
+											]
+											m_vRandomPositionMax = 
+											[
+												5.000000,
+												5.000000,
+												0.000000,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 67
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_PickOne"
+							m_nElementID = 68
+							m_Children = 
+							[
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 69
+									m_sModelName = resource_name:"models/props_market/box_cardboard_medium_01.vmdl"
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												0.000000,
+												112.000000,
+												0.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomRotation"
+											m_vRandomRotationMax = 
+											[
+												0.000000,
+												180.000000,
+												0.000000,
+											]
+											m_vRandomRotationMin = 
+											[
+												0.000000,
+												165.000000,
+												0.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomOffset"
+											m_vRandomPositionMin = 
+											[
+												-5.000000,
+												-5.000000,
+												0.000000,
+											]
+											m_vRandomPositionMax = 
+											[
+												5.000000,
+												5.000000,
+												0.000000,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 70
+								},
+							]
+						},
+					]
+				},
+			]
+		},
+	]
+}

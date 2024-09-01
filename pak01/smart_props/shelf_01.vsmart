@@ -1,0 +1,2822 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vrfunknown:version{4dddb66e-c6ed-4bd0-a4ef-afb45a02acc2} -->
+{
+	generic_data_type = "CSmartPropRoot"
+	_editor = 
+	{
+		next_element_id = 114
+	}
+	m_Children = 
+	[
+		
+		{
+			_class = "CSmartPropElement_Model"
+			m_nElementID = 2
+			m_sModelName = resource_name:"models/props_market/shelf_commercial_01.vmdl"
+			_editor = 
+			{
+				folder_name = ""
+			}
+			m_Modifiers = 
+			[
+				
+				{
+					_class = "CSmartPropOperation_SetTintColor"
+					m_ColorChoices = 
+					[
+						
+						{
+							m_Color = 
+							[
+								216,
+								212,
+								185,
+							]
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			_class = "CSmartPropElement_PickOne"
+			m_nElementID = 1
+			m_Children = 
+			[
+				
+				{
+					_class = "CSmartPropElement_Group"
+					m_nElementID = 7
+					m_bEnabled = true
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_PickOne"
+							m_nElementID = 11
+							m_Children = 
+							[
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 9
+									m_sModelName = resource_name:"models/props_city/newspaper_stack01a.vmdl"
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												20.000000,
+												0.000000,
+												8.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomOffset"
+											m_vRandomPositionMin = 
+											[
+												0.000000,
+												-16.000000,
+												0.000000,
+											]
+											m_vRandomPositionMax = 
+											[
+												0.000000,
+												16.000000,
+												0.000000,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 12
+									m_sModelName = resource_name:"models/props_city/newspaper_stack01b.vmdl"
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												20.000000,
+												0.000000,
+												8.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomOffset"
+											m_vRandomPositionMin = 
+											[
+												0.000000,
+												-16.000000,
+												0.000000,
+											]
+											m_vRandomPositionMax = 
+											[
+												0.000000,
+												16.000000,
+												0.000000,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 97
+									m_sModelName = resource_name:"models/props_city/newspaper_stack01c.vmdl"
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												20.000000,
+												0.000000,
+												8.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomOffset"
+											m_vRandomPositionMin = 
+											[
+												0.000000,
+												-16.000000,
+												0.000000,
+											]
+											m_vRandomPositionMax = 
+											[
+												0.000000,
+												16.000000,
+												0.000000,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 67
+									_editor = 
+									{
+										folder_name = ""
+									}
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_PickOne"
+							m_nElementID = 13
+							m_Children = 
+							[
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 14
+									m_sModelName = resource_name:"models/props_city/newspaper_stack01a.vmdl"
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												20.000000,
+												0.000000,
+												40.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomOffset"
+											m_vRandomPositionMin = 
+											[
+												0.000000,
+												-16.000000,
+												0.000000,
+											]
+											m_vRandomPositionMax = 
+											[
+												0.000000,
+												16.000000,
+												0.000000,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 15
+									m_sModelName = resource_name:"models/props_city/newspaper_stack01b.vmdl"
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												20.000000,
+												0.000000,
+												40.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomOffset"
+											m_vRandomPositionMin = 
+											[
+												0.000000,
+												-16.000000,
+												0.000000,
+											]
+											m_vRandomPositionMax = 
+											[
+												0.000000,
+												16.000000,
+												0.000000,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 98
+									m_sModelName = resource_name:"models/props_city/newspaper_stack01c.vmdl"
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												20.000000,
+												0.000000,
+												40.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomOffset"
+											m_vRandomPositionMin = 
+											[
+												0.000000,
+												-16.000000,
+												0.000000,
+											]
+											m_vRandomPositionMax = 
+											[
+												0.000000,
+												16.000000,
+												0.000000,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 70
+									_editor = 
+									{
+										folder_name = ""
+									}
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_PickOne"
+							m_nElementID = 16
+							m_Children = 
+							[
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 17
+									m_sModelName = resource_name:"models/props_city/newspaper_stack01a.vmdl"
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												20.000000,
+												0.000000,
+												72.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomOffset"
+											m_vRandomPositionMin = 
+											[
+												0.000000,
+												-16.000000,
+												0.000000,
+											]
+											m_vRandomPositionMax = 
+											[
+												0.000000,
+												16.000000,
+												0.000000,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 18
+									m_sModelName = resource_name:"models/props_city/newspaper_stack01b.vmdl"
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												20.000000,
+												0.000000,
+												72.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomOffset"
+											m_vRandomPositionMin = 
+											[
+												0.000000,
+												-16.000000,
+												0.000000,
+											]
+											m_vRandomPositionMax = 
+											[
+												0.000000,
+												16.000000,
+												0.000000,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 99
+									m_sModelName = resource_name:"models/props_city/newspaper_stack01c.vmdl"
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												20.000000,
+												0.000000,
+												72.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomOffset"
+											m_vRandomPositionMin = 
+											[
+												0.000000,
+												-16.000000,
+												0.000000,
+											]
+											m_vRandomPositionMax = 
+											[
+												0.000000,
+												16.000000,
+												0.000000,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 71
+									_editor = 
+									{
+										folder_name = ""
+									}
+								},
+							]
+						},
+					]
+				},
+				
+				{
+					_class = "CSmartPropElement_Group"
+					m_nElementID = 36
+					m_bEnabled = true
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_PickOne"
+							m_nElementID = 37
+							m_Children = 
+							[
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 38
+									m_sModelName = resource_name:"models/props_market/box_cardboard_large_01.vmdl"
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_vModelScale = 
+									[
+										0.500000,
+										0.500000,
+										0.500000,
+									]
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												20.000000,
+												0.000000,
+												8.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomOffset"
+											m_vRandomPositionMin = 
+											[
+												0.000000,
+												-16.000000,
+												0.000000,
+											]
+											m_vRandomPositionMax = 
+											[
+												0.000000,
+												16.000000,
+												0.000000,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 39
+									m_sModelName = resource_name:"models/props_market/box_cardboard_medium_01.vmdl"
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_vModelScale = 
+									[
+										0.900000,
+										0.900000,
+										0.900000,
+									]
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												20.000000,
+												0.000000,
+												8.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomOffset"
+											m_vRandomPositionMin = 
+											[
+												0.000000,
+												-16.000000,
+												0.000000,
+											]
+											m_vRandomPositionMax = 
+											[
+												0.000000,
+												16.000000,
+												0.000000,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 46
+									m_sModelName = resource_name:"models/props_market/box_cardboard_small_01.vmdl"
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_vModelScale = 
+									[
+										0.900000,
+										0.900000,
+										0.900000,
+									]
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												20.000000,
+												0.000000,
+												8.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomOffset"
+											m_vRandomPositionMin = 
+											[
+												0.000000,
+												-16.000000,
+												0.000000,
+											]
+											m_vRandomPositionMax = 
+											[
+												0.000000,
+												16.000000,
+												0.000000,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 72
+									_editor = 
+									{
+										folder_name = ""
+									}
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_PickOne"
+							m_nElementID = 40
+							m_Children = 
+							[
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 47
+									m_sModelName = resource_name:"models/props_market/box_cardboard_large_01.vmdl"
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_vModelScale = 
+									[
+										0.500000,
+										0.500000,
+										0.500000,
+									]
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												20.000000,
+												0.000000,
+												40.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomOffset"
+											m_vRandomPositionMin = 
+											[
+												0.000000,
+												-16.000000,
+												0.000000,
+											]
+											m_vRandomPositionMax = 
+											[
+												0.000000,
+												16.000000,
+												0.000000,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 48
+									m_sModelName = resource_name:"models/props_market/box_cardboard_medium_01.vmdl"
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_vModelScale = 
+									[
+										0.900000,
+										0.900000,
+										0.900000,
+									]
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												20.000000,
+												0.000000,
+												40.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomOffset"
+											m_vRandomPositionMin = 
+											[
+												0.000000,
+												-16.000000,
+												0.000000,
+											]
+											m_vRandomPositionMax = 
+											[
+												0.000000,
+												16.000000,
+												0.000000,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 49
+									m_sModelName = resource_name:"models/props_market/box_cardboard_small_01.vmdl"
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_vModelScale = 
+									[
+										0.900000,
+										0.900000,
+										0.900000,
+									]
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												20.000000,
+												0.000000,
+												40.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomOffset"
+											m_vRandomPositionMin = 
+											[
+												0.000000,
+												-16.000000,
+												0.000000,
+											]
+											m_vRandomPositionMax = 
+											[
+												0.000000,
+												16.000000,
+												0.000000,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 73
+									_editor = 
+									{
+										folder_name = ""
+									}
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_PickOne"
+							m_nElementID = 43
+							m_Children = 
+							[
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 50
+									m_sModelName = resource_name:"models/props_market/box_cardboard_large_01.vmdl"
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_vModelScale = 
+									[
+										0.500000,
+										0.500000,
+										0.500000,
+									]
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												20.000000,
+												0.000000,
+												72.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomOffset"
+											m_vRandomPositionMin = 
+											[
+												0.000000,
+												-16.000000,
+												0.000000,
+											]
+											m_vRandomPositionMax = 
+											[
+												0.000000,
+												16.000000,
+												0.000000,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 51
+									m_sModelName = resource_name:"models/props_market/box_cardboard_medium_01.vmdl"
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_vModelScale = 
+									[
+										0.900000,
+										0.900000,
+										0.900000,
+									]
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												20.000000,
+												0.000000,
+												72.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomOffset"
+											m_vRandomPositionMin = 
+											[
+												0.000000,
+												-16.000000,
+												0.000000,
+											]
+											m_vRandomPositionMax = 
+											[
+												0.000000,
+												16.000000,
+												0.000000,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 52
+									m_sModelName = resource_name:"models/props_market/box_cardboard_small_01.vmdl"
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_vModelScale = 
+									[
+										0.900000,
+										0.900000,
+										0.900000,
+									]
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												20.000000,
+												0.000000,
+												72.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomOffset"
+											m_vRandomPositionMin = 
+											[
+												0.000000,
+												-16.000000,
+												0.000000,
+											]
+											m_vRandomPositionMax = 
+											[
+												0.000000,
+												16.000000,
+												0.000000,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 74
+									_editor = 
+									{
+										folder_name = ""
+									}
+								},
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 78
+									m_sModelName = resource_name:"models/props_market/plastic_bin_01.vmdl"
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_vModelScale = 
+									[
+										0.600000,
+										0.600000,
+										0.600000,
+									]
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												20.000000,
+												0.000000,
+												72.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomOffset"
+											m_vRandomPositionMin = 
+											[
+												0.000000,
+												-16.000000,
+												0.000000,
+											]
+											m_vRandomPositionMax = 
+											[
+												0.000000,
+												16.000000,
+												0.000000,
+											]
+										},
+									]
+								},
+							]
+						},
+					]
+				},
+				
+				{
+					_class = "CSmartPropElement_Group"
+					m_nElementID = 53
+					m_bEnabled = true
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_ModifyState"
+							m_nElementID = 66
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_SetTintColor"
+									m_Mode = "REPLACE"
+									m_ColorChoices = 
+									[
+										
+										{
+											m_Color = 
+											[
+												132,
+												158,
+												204,
+											]
+										},
+										
+										{
+											m_Color = 
+											[
+												212,
+												160,
+												102,
+											]
+										},
+										
+										{
+											m_Color = 
+											[
+												110,
+												123,
+												89,
+											]
+										},
+										
+										{
+											m_Color = 
+											[
+												105,
+												105,
+												105,
+											]
+										},
+									]
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_PickOne"
+							m_nElementID = 54
+							m_Children = 
+							[
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 55
+									m_sModelName = resource_name:"models/props_market/crate_milk_single_01.vmdl"
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_vModelScale = 
+									[
+										0.750000,
+										0.750000,
+										0.750000,
+									]
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												20.000000,
+												0.000000,
+												8.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomOffset"
+											m_vRandomPositionMin = 
+											[
+												0.000000,
+												-16.000000,
+												0.000000,
+											]
+											m_vRandomPositionMax = 
+											[
+												0.000000,
+												16.000000,
+												0.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomRotation"
+											m_vRandomRotationMax = 
+											[
+												0.000000,
+												355.000000,
+												0.000000,
+											]
+											m_vRandomRotationMin = 
+											[
+												0.000000,
+												0.000000,
+												0.000000,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 56
+									m_sModelName = resource_name:"models/props_market/crate_milk_single_01.vmdl"
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_vModelScale = 
+									[
+										0.750000,
+										0.750000,
+										0.750000,
+									]
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												20.000000,
+												0.000000,
+												8.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomOffset"
+											m_vRandomPositionMin = 
+											[
+												0.000000,
+												-16.000000,
+												0.000000,
+											]
+											m_vRandomPositionMax = 
+											[
+												0.000000,
+												16.000000,
+												0.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomRotation"
+											m_vRandomRotationMax = 
+											[
+												0.000000,
+												355.000000,
+												0.000000,
+											]
+											m_vRandomRotationMin = 
+											[
+												0.000000,
+												0.000000,
+												0.000000,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 57
+									m_sModelName = resource_name:"models/props_market/crate_milk_single_01.vmdl"
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_vModelScale = 
+									[
+										0.750000,
+										0.750000,
+										0.750000,
+									]
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												20.000000,
+												0.000000,
+												8.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomOffset"
+											m_vRandomPositionMin = 
+											[
+												0.000000,
+												-16.000000,
+												0.000000,
+											]
+											m_vRandomPositionMax = 
+											[
+												0.000000,
+												16.000000,
+												0.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomRotation"
+											m_vRandomRotationMax = 
+											[
+												0.000000,
+												355.000000,
+												0.000000,
+											]
+											m_vRandomRotationMin = 
+											[
+												0.000000,
+												0.000000,
+												0.000000,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 75
+									_editor = 
+									{
+										folder_name = ""
+									}
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_PickOne"
+							m_nElementID = 58
+							m_Children = 
+							[
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 59
+									m_sModelName = resource_name:"models/props_market/crate_milk_single_01.vmdl"
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_vModelScale = 
+									[
+										0.750000,
+										0.750000,
+										0.750000,
+									]
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												20.000000,
+												0.000000,
+												40.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomOffset"
+											m_vRandomPositionMin = 
+											[
+												0.000000,
+												-16.000000,
+												0.000000,
+											]
+											m_vRandomPositionMax = 
+											[
+												0.000000,
+												16.000000,
+												0.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomRotation"
+											m_vRandomRotationMax = 
+											[
+												0.000000,
+												355.000000,
+												0.000000,
+											]
+											m_vRandomRotationMin = 
+											[
+												0.000000,
+												0.000000,
+												0.000000,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 60
+									m_sModelName = resource_name:"models/props_market/crate_milk_single_01.vmdl"
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_vModelScale = 
+									[
+										0.750000,
+										0.750000,
+										0.750000,
+									]
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												20.000000,
+												0.000000,
+												40.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomOffset"
+											m_vRandomPositionMin = 
+											[
+												0.000000,
+												-16.000000,
+												0.000000,
+											]
+											m_vRandomPositionMax = 
+											[
+												0.000000,
+												16.000000,
+												0.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomRotation"
+											m_vRandomRotationMax = 
+											[
+												0.000000,
+												355.000000,
+												0.000000,
+											]
+											m_vRandomRotationMin = 
+											[
+												0.000000,
+												0.000000,
+												0.000000,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 61
+									m_sModelName = resource_name:"models/props_market/crate_milk_single_01.vmdl"
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_vModelScale = 
+									[
+										0.750000,
+										0.750000,
+										0.750000,
+									]
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												20.000000,
+												0.000000,
+												40.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomOffset"
+											m_vRandomPositionMin = 
+											[
+												0.000000,
+												-16.000000,
+												0.000000,
+											]
+											m_vRandomPositionMax = 
+											[
+												0.000000,
+												16.000000,
+												0.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomRotation"
+											m_vRandomRotationMax = 
+											[
+												0.000000,
+												355.000000,
+												0.000000,
+											]
+											m_vRandomRotationMin = 
+											[
+												0.000000,
+												0.000000,
+												0.000000,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 76
+									_editor = 
+									{
+										folder_name = ""
+									}
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_PickOne"
+							m_nElementID = 62
+							m_Children = 
+							[
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 63
+									m_sModelName = resource_name:"models/props_market/crate_milk_single_01.vmdl"
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_vModelScale = 
+									[
+										0.750000,
+										0.750000,
+										0.750000,
+									]
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												20.000000,
+												0.000000,
+												72.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomOffset"
+											m_vRandomPositionMin = 
+											[
+												0.000000,
+												-16.000000,
+												0.000000,
+											]
+											m_vRandomPositionMax = 
+											[
+												0.000000,
+												16.000000,
+												0.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomRotation"
+											m_vRandomRotationMax = 
+											[
+												0.000000,
+												355.000000,
+												0.000000,
+											]
+											m_vRandomRotationMin = 
+											[
+												0.000000,
+												0.000000,
+												0.000000,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 64
+									m_sModelName = resource_name:"models/props_market/crate_milk_single_01.vmdl"
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_vModelScale = 
+									[
+										0.750000,
+										0.750000,
+										0.750000,
+									]
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												20.000000,
+												0.000000,
+												72.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomOffset"
+											m_vRandomPositionMin = 
+											[
+												0.000000,
+												-16.000000,
+												0.000000,
+											]
+											m_vRandomPositionMax = 
+											[
+												0.000000,
+												16.000000,
+												0.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomRotation"
+											m_vRandomRotationMax = 
+											[
+												0.000000,
+												355.000000,
+												0.000000,
+											]
+											m_vRandomRotationMin = 
+											[
+												0.000000,
+												0.000000,
+												0.000000,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 65
+									m_sModelName = resource_name:"models/props_market/crate_milk_single_01.vmdl"
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_vModelScale = 
+									[
+										0.750000,
+										0.750000,
+										0.750000,
+									]
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												20.000000,
+												0.000000,
+												72.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomOffset"
+											m_vRandomPositionMin = 
+											[
+												0.000000,
+												-16.000000,
+												0.000000,
+											]
+											m_vRandomPositionMax = 
+											[
+												0.000000,
+												16.000000,
+												0.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomRotation"
+											m_vRandomRotationMax = 
+											[
+												0.000000,
+												355.000000,
+												0.000000,
+											]
+											m_vRandomRotationMin = 
+											[
+												0.000000,
+												0.000000,
+												0.000000,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 77
+									_editor = 
+									{
+										folder_name = ""
+									}
+								},
+							]
+						},
+					]
+				},
+				
+				{
+					_class = "CSmartPropElement_Group"
+					m_nElementID = 80
+					m_bEnabled = true
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_PickOne"
+							m_nElementID = 81
+							m_Children = 
+							[
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 82
+									m_sModelName = resource_name:"models/props_market/plastic_bin_01.vmdl"
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_vModelScale = 
+									[
+										0.500000,
+										0.500000,
+										0.500000,
+									]
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												20.000000,
+												0.000000,
+												8.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomOffset"
+											m_vRandomPositionMin = 
+											[
+												0.000000,
+												-16.000000,
+												0.000000,
+											]
+											m_vRandomPositionMax = 
+											[
+												0.000000,
+												16.000000,
+												0.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomRotation"
+											m_vRandomRotationMax = 
+											[
+												0.000000,
+												355.000000,
+												0.000000,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 83
+									m_sModelName = resource_name:"models/props_market/plastic_crate_01.vmdl"
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_vModelScale = 
+									[
+										0.650000,
+										0.650000,
+										0.650000,
+									]
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												20.000000,
+												0.000000,
+												8.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomOffset"
+											m_vRandomPositionMin = 
+											[
+												0.000000,
+												-16.000000,
+												0.000000,
+											]
+											m_vRandomPositionMax = 
+											[
+												0.000000,
+												16.000000,
+												0.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_Rotate"
+											m_vRotation = 
+											[
+												0.000000,
+												90.000000,
+												0.000000,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 85
+									_editor = 
+									{
+										folder_name = ""
+									}
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_PickOne"
+							m_nElementID = 86
+							m_Children = 
+							[
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 87
+									m_sModelName = resource_name:"models/props_market/plastic_bin_01.vmdl"
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_vModelScale = 
+									[
+										0.500000,
+										0.500000,
+										0.500000,
+									]
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												20.000000,
+												0.000000,
+												40.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomOffset"
+											m_vRandomPositionMin = 
+											[
+												0.000000,
+												-16.000000,
+												0.000000,
+											]
+											m_vRandomPositionMax = 
+											[
+												0.000000,
+												16.000000,
+												0.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomRotation"
+											m_vRandomRotationMax = 
+											[
+												0.000000,
+												355.000000,
+												0.000000,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 88
+									m_sModelName = resource_name:"models/props_market/plastic_crate_01.vmdl"
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_vModelScale = 
+									[
+										0.650000,
+										0.650000,
+										0.650000,
+									]
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												20.000000,
+												0.000000,
+												40.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomOffset"
+											m_vRandomPositionMin = 
+											[
+												0.000000,
+												-16.000000,
+												0.000000,
+											]
+											m_vRandomPositionMax = 
+											[
+												0.000000,
+												16.000000,
+												0.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_Rotate"
+											m_vRotation = 
+											[
+												0.000000,
+												90.000000,
+												0.000000,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 90
+									_editor = 
+									{
+										folder_name = ""
+									}
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_PickOne"
+							m_nElementID = 91
+							m_Children = 
+							[
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 92
+									m_sModelName = resource_name:"models/props_market/plastic_bin_01.vmdl"
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_vModelScale = 
+									[
+										0.500000,
+										0.500000,
+										0.500000,
+									]
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												20.000000,
+												0.000000,
+												72.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomOffset"
+											m_vRandomPositionMin = 
+											[
+												0.000000,
+												-16.000000,
+												0.000000,
+											]
+											m_vRandomPositionMax = 
+											[
+												0.000000,
+												16.000000,
+												0.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomRotation"
+											m_vRandomRotationMax = 
+											[
+												0.000000,
+												355.000000,
+												0.000000,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 93
+									m_sModelName = resource_name:"models/props_market/plastic_crate_01.vmdl"
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_vModelScale = 
+									[
+										0.650000,
+										0.650000,
+										0.650000,
+									]
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												20.000000,
+												0.000000,
+												72.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_RandomOffset"
+											m_vRandomPositionMin = 
+											[
+												0.000000,
+												-16.000000,
+												0.000000,
+											]
+											m_vRandomPositionMax = 
+											[
+												0.000000,
+												16.000000,
+												0.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_Rotate"
+											m_vRotation = 
+											[
+												0.000000,
+												90.000000,
+												0.000000,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 95
+									_editor = 
+									{
+										folder_name = ""
+									}
+								},
+							]
+						},
+					]
+				},
+				
+				{
+					_class = "CSmartPropElement_Group"
+					m_nElementID = 100
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_PickOne"
+							m_nElementID = 101
+							m_Children = 
+							[
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 104
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_bEnabled = true
+									m_Children = 
+									[
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 102
+											m_sModelName = resource_name:"models/props/bottle_01.vmdl"
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_vModelScale = 
+											[
+												0.500000,
+												0.500000,
+												0.500000,
+											]
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														20.000000,
+														0.000000,
+														8.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_RandomOffset"
+													m_vRandomPositionMin = 
+													[
+														-8.000000,
+														-24.000000,
+														0.000000,
+													]
+													m_vRandomPositionMax = 
+													[
+														8.000000,
+														-8.000000,
+														0.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_RandomRotation"
+													m_vRandomRotationMax = 
+													[
+														0.000000,
+														355.000000,
+														0.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_Scale"
+													m_flScale = 2.000000
+													m_bEnabled = true
+												},
+												
+												{
+													_class = "CSmartPropOperation_SetTintColor"
+													m_ColorChoices = 
+													[
+														
+														{
+															m_Color = 
+															[
+																0,
+																100,
+																0,
+															]
+														},
+														
+														{
+															m_Color = 
+															[
+																189,
+																183,
+																107,
+															]
+														},
+														
+														{
+															m_Color = 
+															[
+																92,
+																107,
+																119,
+															]
+														},
+														
+														{
+															m_Color = 
+															[
+																91,
+																73,
+																90,
+															]
+														},
+														
+														{
+															m_Color = 
+															[
+																139,
+																69,
+																19,
+															]
+														},
+														
+														{
+															m_Color = 
+															[
+																128,
+																0,
+																0,
+															]
+														},
+													]
+												},
+											]
+										},
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 103
+											m_sModelName = resource_name:"models/props/bottle_02.vmdl"
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_vModelScale = 
+											[
+												0.650000,
+												0.650000,
+												0.650000,
+											]
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														20.000000,
+														0.000000,
+														8.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_RandomOffset"
+													m_vRandomPositionMin = 
+													[
+														-8.000000,
+														8.000000,
+														0.000000,
+													]
+													m_vRandomPositionMax = 
+													[
+														8.000000,
+														24.000000,
+														0.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_RandomRotation"
+													m_vRandomRotationMax = 
+													[
+														0.000000,
+														355.000000,
+														0.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_Scale"
+													m_flScale = 2.000000
+												},
+												
+												{
+													_class = "CSmartPropOperation_SetTintColor"
+													m_ColorChoices = 
+													[
+														
+														{
+															m_Color = 
+															[
+																0,
+																100,
+																0,
+															]
+														},
+														
+														{
+															m_Color = 
+															[
+																189,
+																183,
+																107,
+															]
+														},
+														
+														{
+															m_Color = 
+															[
+																92,
+																107,
+																119,
+															]
+														},
+														
+														{
+															m_Color = 
+															[
+																91,
+																73,
+																90,
+															]
+														},
+														
+														{
+															m_Color = 
+															[
+																139,
+																69,
+																19,
+															]
+														},
+														
+														{
+															m_Color = 
+															[
+																128,
+																0,
+																0,
+															]
+														},
+													]
+												},
+											]
+										},
+									]
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_PickOne"
+							m_nElementID = 105
+							m_Children = 
+							[
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 108
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_bEnabled = true
+									m_Children = 
+									[
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 106
+											m_sModelName = resource_name:"models/props/bottle_03.vmdl"
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_vModelScale = 
+											[
+												0.500000,
+												0.500000,
+												0.500000,
+											]
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														20.000000,
+														0.000000,
+														40.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_RandomOffset"
+													m_vRandomPositionMin = 
+													[
+														-8.000000,
+														-24.000000,
+														0.000000,
+													]
+													m_vRandomPositionMax = 
+													[
+														8.000000,
+														-8.000000,
+														0.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_RandomRotation"
+													m_vRandomRotationMax = 
+													[
+														0.000000,
+														355.000000,
+														0.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_Scale"
+													m_flScale = 2.000000
+												},
+												
+												{
+													_class = "CSmartPropOperation_SetTintColor"
+													m_ColorChoices = 
+													[
+														
+														{
+															m_Color = 
+															[
+																0,
+																100,
+																0,
+															]
+														},
+														
+														{
+															m_Color = 
+															[
+																189,
+																183,
+																107,
+															]
+														},
+														
+														{
+															m_Color = 
+															[
+																92,
+																107,
+																119,
+															]
+														},
+														
+														{
+															m_Color = 
+															[
+																91,
+																73,
+																90,
+															]
+														},
+														
+														{
+															m_Color = 
+															[
+																139,
+																69,
+																19,
+															]
+														},
+														
+														{
+															m_Color = 
+															[
+																128,
+																0,
+																0,
+															]
+														},
+													]
+												},
+											]
+										},
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 107
+											m_sModelName = resource_name:"models/props/bottle_04.vmdl"
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_vModelScale = 
+											[
+												0.650000,
+												0.650000,
+												0.650000,
+											]
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														20.000000,
+														0.000000,
+														40.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_RandomOffset"
+													m_vRandomPositionMin = 
+													[
+														-8.000000,
+														8.000000,
+														0.000000,
+													]
+													m_vRandomPositionMax = 
+													[
+														8.000000,
+														24.000000,
+														0.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_RandomRotation"
+													m_vRandomRotationMax = 
+													[
+														0.000000,
+														355.000000,
+														0.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_Scale"
+													m_flScale = 2.000000
+												},
+												
+												{
+													_class = "CSmartPropOperation_SetTintColor"
+													m_ColorChoices = 
+													[
+														
+														{
+															m_Color = 
+															[
+																0,
+																100,
+																0,
+															]
+														},
+														
+														{
+															m_Color = 
+															[
+																189,
+																183,
+																107,
+															]
+														},
+														
+														{
+															m_Color = 
+															[
+																92,
+																107,
+																119,
+															]
+														},
+														
+														{
+															m_Color = 
+															[
+																91,
+																73,
+																90,
+															]
+														},
+														
+														{
+															m_Color = 
+															[
+																139,
+																69,
+																19,
+															]
+														},
+														
+														{
+															m_Color = 
+															[
+																128,
+																0,
+																0,
+															]
+														},
+													]
+												},
+											]
+										},
+									]
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_PickOne"
+							m_nElementID = 109
+							m_Children = 
+							[
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 112
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_bEnabled = true
+									m_Children = 
+									[
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 110
+											m_sModelName = resource_name:"models/props/bottle_05.vmdl"
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_vModelScale = 
+											[
+												0.500000,
+												0.500000,
+												0.500000,
+											]
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														20.000000,
+														0.000000,
+														72.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_RandomOffset"
+													m_vRandomPositionMin = 
+													[
+														-8.000000,
+														-24.000000,
+														0.000000,
+													]
+													m_vRandomPositionMax = 
+													[
+														8.000000,
+														-8.000000,
+														0.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_RandomRotation"
+													m_vRandomRotationMax = 
+													[
+														0.000000,
+														355.000000,
+														0.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_Scale"
+													m_flScale = 2.000000
+												},
+												
+												{
+													_class = "CSmartPropOperation_SetTintColor"
+													m_ColorChoices = 
+													[
+														
+														{
+															m_Color = 
+															[
+																0,
+																100,
+																0,
+															]
+														},
+														
+														{
+															m_Color = 
+															[
+																189,
+																183,
+																107,
+															]
+														},
+														
+														{
+															m_Color = 
+															[
+																92,
+																107,
+																119,
+															]
+														},
+														
+														{
+															m_Color = 
+															[
+																91,
+																73,
+																90,
+															]
+														},
+														
+														{
+															m_Color = 
+															[
+																139,
+																69,
+																19,
+															]
+														},
+														
+														{
+															m_Color = 
+															[
+																128,
+																0,
+																0,
+															]
+														},
+													]
+												},
+											]
+										},
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 111
+											m_sModelName = resource_name:"models/props_table/bottle_01.vmdl"
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_vModelScale = 
+											[
+												0.650000,
+												0.650000,
+												0.650000,
+											]
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														20.000000,
+														0.000000,
+														72.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_RandomOffset"
+													m_vRandomPositionMin = 
+													[
+														-8.000000,
+														8.000000,
+														0.000000,
+													]
+													m_vRandomPositionMax = 
+													[
+														8.000000,
+														24.000000,
+														0.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_RandomRotation"
+													m_vRandomRotationMax = 
+													[
+														0.000000,
+														355.000000,
+														0.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_Scale"
+													m_flScale = 2.000000
+												},
+												
+												{
+													_class = "CSmartPropOperation_SetTintColor"
+													m_ColorChoices = 
+													[
+														
+														{
+															m_Color = 
+															[
+																0,
+																100,
+																0,
+															]
+														},
+														
+														{
+															m_Color = 
+															[
+																189,
+																183,
+																107,
+															]
+														},
+														
+														{
+															m_Color = 
+															[
+																92,
+																107,
+																119,
+															]
+														},
+														
+														{
+															m_Color = 
+															[
+																91,
+																73,
+																90,
+															]
+														},
+														
+														{
+															m_Color = 
+															[
+																139,
+																69,
+																19,
+															]
+														},
+														
+														{
+															m_Color = 
+															[
+																128,
+																0,
+																0,
+															]
+														},
+													]
+												},
+											]
+										},
+									]
+								},
+							]
+						},
+					]
+				},
+			]
+		},
+	]
+}

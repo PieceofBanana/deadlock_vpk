@@ -1,0 +1,230 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vrfunknown:version{4dddb66e-c6ed-4bd0-a4ef-afb45a02acc2} -->
+{
+	generic_data_type = "CSmartPropRoot"
+	_editor = 
+	{
+		next_element_id = 14
+	}
+	m_Children = 
+	[
+		
+		{
+			_class = "CSmartPropElement_Model"
+			m_sModelName = resource_name:"models/props_street/barrel_stand_02.vmdl"
+			m_nElementID = 1
+			m_Modifiers = 
+			[
+				
+				{
+					_class = "CSmartPropOperation_SetTintColor"
+					m_ColorChoices = 
+					[
+						
+						{
+							m_Color = 
+							[
+								101,
+								91,
+								84,
+							]
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			_class = "CSmartPropElement_SmartProp"
+			m_nElementID = 2
+			m_sSmartProp = resource_name:"smart_props/barrel_01.vsmart"
+			_editor = 
+			{
+				folder_name = ""
+			}
+			m_Modifiers = 
+			[
+				
+				{
+					_class = "CSmartPropOperation_Translate"
+					m_vPosition = 
+					[
+						-22.200001,
+						0.000000,
+						37.000000,
+					]
+				},
+				
+				{
+					_class = "CSmartPropOperation_Rotate"
+					m_vRotation = 
+					[
+						90.000000,
+						0.000000,
+						0.000000,
+					]
+				},
+				
+				{
+					_class = "CSmartPropOperation_CreateLocator"
+					m_LocatorName = "Barrel_01"
+				},
+			]
+		},
+		
+		{
+			_class = "CSmartPropElement_SmartProp"
+			m_nElementID = 3
+			m_sSmartProp = resource_name:"smart_props/barrel_01.vsmart"
+			_editor = 
+			{
+				folder_name = ""
+			}
+			m_Modifiers = 
+			[
+				
+				{
+					_class = "CSmartPropOperation_Translate"
+					m_vPosition = 
+					[
+						-19.931101,
+						36.727798,
+						37.000000,
+					]
+				},
+				
+				{
+					_class = "CSmartPropOperation_Rotate"
+					m_vRotation = 
+					[
+						90.000000,
+						0.000000,
+						0.000000,
+					]
+				},
+				
+				{
+					_class = "CSmartPropOperation_CreateLocator"
+					m_LocatorName = "Barrel_02"
+				},
+			]
+		},
+		
+		{
+			_class = "CSmartPropElement_SmartProp"
+			m_nElementID = 4
+			m_sSmartProp = resource_name:"smart_props/barrel_01.vsmart"
+			m_bEnabled = true
+			_editor = 
+			{
+				folder_name = ""
+			}
+			m_Modifiers = 
+			[
+				
+				{
+					_class = "CSmartPropOperation_Translate"
+					m_vPosition = 
+					[
+						-22.900000,
+						-18.363899,
+						66.199997,
+					]
+				},
+				
+				{
+					_class = "CSmartPropOperation_Rotate"
+					m_vRotation = 
+					[
+						90.000000,
+						0.000000,
+						0.000000,
+					]
+				},
+				
+				{
+					_class = "CSmartPropOperation_CreateLocator"
+					m_LocatorName = "Barrel_03"
+					m_bConfigurable = true
+				},
+			]
+		},
+		
+		{
+			_class = "CSmartPropElement_SmartProp"
+			m_nElementID = 12
+			m_sSmartProp = resource_name:"smart_props/barrel_01.vsmart"
+			m_bEnabled = true
+			_editor = 
+			{
+				folder_name = ""
+			}
+			m_Modifiers = 
+			[
+				
+				{
+					_class = "CSmartPropOperation_Translate"
+					m_vPosition = 
+					[
+						-22.900000,
+						18.363899,
+						66.199997,
+					]
+				},
+				
+				{
+					_class = "CSmartPropOperation_Rotate"
+					m_vRotation = 
+					[
+						90.000000,
+						0.000000,
+						0.000000,
+					]
+				},
+				
+				{
+					_class = "CSmartPropOperation_CreateLocator"
+					m_LocatorName = "Barrel_03"
+					m_bConfigurable = true
+				},
+			]
+		},
+		
+		{
+			_class = "CSmartPropElement_SmartProp"
+			m_nElementID = 13
+			m_sSmartProp = resource_name:"smart_props/barrel_01.vsmart"
+			_editor = 
+			{
+				folder_name = ""
+			}
+			m_Modifiers = 
+			[
+				
+				{
+					_class = "CSmartPropOperation_Translate"
+					m_vPosition = 
+					[
+						-19.931101,
+						-36.727798,
+						37.000000,
+					]
+				},
+				
+				{
+					_class = "CSmartPropOperation_Rotate"
+					m_vRotation = 
+					[
+						90.000000,
+						0.000000,
+						0.000000,
+					]
+				},
+				
+				{
+					_class = "CSmartPropOperation_CreateLocator"
+					m_LocatorName = "Barrel_02"
+				},
+			]
+		},
+	]
+}

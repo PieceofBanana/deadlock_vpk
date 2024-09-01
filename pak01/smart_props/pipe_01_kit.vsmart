@@ -1,0 +1,1751 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vrfunknown:version{4dddb66e-c6ed-4bd0-a4ef-afb45a02acc2} -->
+{
+	generic_data_type = "CSmartPropRoot"
+	_editor = 
+	{
+		next_element_id = 189
+	}
+	m_nMaxDepth = 8
+	m_Variables = 
+	[
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_nElementID = 8
+			m_DefaultValue = 256.000000
+			m_VariableName = "floor_bottom_height"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_nElementID = 78
+			m_VariableName = "length"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_nElementID = 81
+			m_VariableName = "choice_weight_end"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_nElementID = 83
+			m_VariableName = "choice_weight_wall"
+			m_DefaultValue = 1.000000
+		},
+		
+		{
+			_class = "CSmartPropVariable_MaterialGroup"
+			m_nElementID = 188
+			m_sModelName = resource_name:"models/props_industrial/pipe_straight_128.vmdl"
+			m_bExposeAsParameter = true
+			m_DisplayName = ""
+			m_VariableName = "skin"
+			m_DefaultValue = "default"
+		},
+	]
+	m_Children = 
+	[
+		
+		{
+			_class = "CSmartPropElement_ModifyState"
+			m_nElementID = 163
+			_editor = 
+			{
+				folder_name = ""
+			}
+			m_sLabel = "Init"
+			m_Modifiers = 
+			[
+				
+				{
+					_class = "CSmartPropFilter_Expression"
+					m_Expression = "EvaluationDepth () == 1"
+				},
+				
+				{
+					_class = "CSmartPropOperation_Rotate"
+					m_vRotation = 
+					[
+						0.000000,
+						0.000000,
+						90.000000,
+					]
+				},
+				
+				{
+					_class = "CSmartPropOperation_SetTintColor"
+				},
+			]
+		},
+		
+		{
+			_class = "CSmartPropElement_ModifyState"
+			m_nElementID = 152
+			_editor = 
+			{
+				folder_name = ""
+			}
+			m_sLabel = "Cap Offset"
+			m_Modifiers = 
+			[
+				
+				{
+					_class = "CSmartPropFilter_Expression"
+					m_Expression = "EvaluationDepth () == 1"
+				},
+				
+				{
+					_class = "CSmartPropOperation_Translate"
+					m_vPosition = 
+					[
+						0.000000,
+						16.000000,
+						0.000000,
+					]
+				},
+			]
+		},
+		
+		{
+			_class = "CSmartPropElement_Group"
+			m_nElementID = 115
+			_editor = 
+			{
+				folder_name = ""
+			}
+			m_sLabel = "Init"
+			m_Children = 
+			[
+				
+				{
+					_class = "CSmartPropElement_ModifyState"
+					m_nElementID = 114
+					_editor = 
+					{
+						folder_name = ""
+					}
+					m_Modifiers = 
+					[
+						
+						{
+							_class = "CSmartPropOperation_Translate"
+							m_vPosition = 
+							{
+								m_Components = 
+								[
+									0.000000,
+									-16.000000,
+									{
+										m_SourceName = "floor_bottom_height"
+									},
+								]
+							}
+							m_bEnabled = true
+						},
+						
+						{
+							_class = "CSmartPropOperation_CreateLocator"
+							m_flDisplayScale = 3.000000
+							m_bEnabled = false
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			_class = "CSmartPropElement_Group"
+			m_nElementID = 127
+			_editor = 
+			{
+				folder_name = ""
+			}
+			m_sLabel = "Cap Left"
+			m_Modifiers = 
+			[
+				
+				{
+					_class = "CSmartPropFilter_Expression"
+					m_Expression = "EvaluationDepth()==1"
+				},
+			]
+			m_Children = 
+			[
+				
+				{
+					_class = "CSmartPropElement_Model"
+					m_nElementID = 130
+					m_sModelName = resource_name:"models/props_industrial/pipe_straight_32.vmdl"
+					m_bEnabled = true
+					m_Modifiers = 
+					[
+						
+						{
+							_class = "CSmartPropOperation_Rotate"
+							m_vRotation = 
+							[
+								0.000000,
+								0.000000,
+								90.000000,
+							]
+						},
+						
+						{
+							_class = "CSmartPropOperation_Translate"
+							m_vPosition = 
+							[
+								0.000000,
+								0.000000,
+								-16.000000,
+							]
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			_class = "CSmartPropElement_PickOne"
+			m_nElementID = 45
+			_editor = 
+			{
+				folder_name = ""
+			}
+			m_bConfigurable = true
+			m_HandleShape = "DIAMOND"
+			m_vHandleOffset = 
+			[
+				0.000000,
+				0.000000,
+				-16.000000,
+			]
+			m_HandleColor = 
+			[
+				173,
+				255,
+				47,
+			]
+			m_HandleSize = 16
+			m_Children = 
+			[
+				
+				{
+					_class = "CSmartPropElement_Group"
+					m_nElementID = 47
+					_editor = 
+					{
+						folder_name = ""
+					}
+					m_sLabel = "End"
+					m_SelectionCriteria = 
+					[
+						
+						{
+							_class = "CSmartPropSelectionCriteria_ChoiceWeight"
+							m_flWeight = 
+							{
+								m_SourceName = "choice_weight_end"
+							}
+						},
+					]
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 153
+							m_sModelName = resource_name:"models/props_industrial/pipe_straight_32.vmdl"
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_bEnabled = false
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_Rotate"
+									m_vRotation = 
+									[
+										0.000000,
+										180.000000,
+										90.000000,
+									]
+								},
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									[
+										0.000000,
+										0.000000,
+										16.000000,
+									]
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_ModifyState"
+							m_nElementID = 80
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_Rotate"
+									m_vRotation = 
+									[
+										0.000000,
+										0.000000,
+										270.000000,
+									]
+								},
+								
+								{
+									_class = "CSmartPropOperation_CreateLocator"
+									m_flDisplayScale = 2.000000
+									m_bEnabled = true
+									m_vOffset = 
+									[
+										0.000000,
+										0.000000,
+										16.000000,
+									]
+								},
+							]
+						},
+					]
+				},
+				
+				{
+					_class = "CSmartPropElement_Group"
+					m_nElementID = 46
+					_editor = 
+					{
+						folder_name = ""
+					}
+					m_sLabel = "Wall"
+					m_SelectionCriteria = 
+					[
+						
+						{
+							_class = "CSmartPropSelectionCriteria_ChoiceWeight"
+							m_flWeight = 
+							{
+								m_Expression = "choice_weight_wall"
+							}
+						},
+					]
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_ModifyState"
+							m_nElementID = 77
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_sLabel = "Sizer Length"
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_CreateSizer"
+									m_Name = "sizer_length"
+									m_OutputVariableMaxY = "length"
+									m_flInitialMinY = 0.000000
+									m_flInitialMaxY = 128.000000
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_FitOnLine"
+							m_nElementID = 76
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_sLabel = "Building Length"
+							m_vEnd = 
+							{
+								m_Components = 
+								[
+									0.000000,
+									{
+										m_SourceName = "length"
+									},
+									0.000000,
+								]
+							}
+							m_nScaleMode = "SCALE_END_TO_FIT"
+							m_Children = 
+							[
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 79
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_sLabel = "128"
+									m_SelectionCriteria = 
+									[
+										
+										{
+											_class = "CSmartPropSelectionCriteria_LinearLength"
+											m_flLength = 128.000000
+											m_bAllowScale = true
+											m_flMinLength = 112.000000
+											m_flMaxLength = 144.000000
+										},
+									]
+									m_Children = 
+									[
+										
+										{
+											_class = "CSmartPropElement_PickOne"
+											m_nElementID = 108
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_SelectionMode = "FIRST"
+											m_Children = 
+											[
+												
+												{
+													_class = "CSmartPropElement_Model"
+													m_nElementID = 105
+													_editor = 
+													{
+														folder_name = ""
+													}
+													m_sModelName = resource_name:"models/props_industrial/pipe_straight_128.vmdl"
+													m_vModelScale = 
+													[
+														1.000000,
+														1.000000,
+														1.000000,
+													]
+													m_SelectionCriteria = 
+													[
+														
+														{
+															_class = "CSmartPropSelectionCriteria_ChoiceWeight"
+														},
+													]
+													m_Modifiers = 
+													[
+														
+														{
+															_class = "CSmartPropOperation_Rotate"
+															m_vRotation = 
+															[
+																0.000000,
+																0.000000,
+																90.000000,
+															]
+														},
+														
+														{
+															_class = "CSmartPropOperation_Translate"
+															m_vPosition = 
+															[
+																0.000000,
+																0.000000,
+																-80.000000,
+															]
+														},
+													]
+												},
+												
+												{
+													_class = "CSmartPropElement_Group"
+													m_nElementID = 110
+													_editor = 
+													{
+														folder_name = ""
+													}
+													m_SelectionCriteria = 
+													[
+														
+														{
+															_class = "CSmartPropSelectionCriteria_ChoiceWeight"
+															m_flWeight = 0.000000
+														},
+													]
+													m_Children = 
+													[
+														
+														{
+															_class = "CSmartPropElement_Model"
+															m_nElementID = 109
+															_editor = 
+															{
+																folder_name = ""
+															}
+															m_sModelName = resource_name:"models/props_industrial/pipe_tee_128.vmdl"
+															m_vModelScale = 
+															{
+																m_Components = 
+																[
+																	1.000000,
+																	{
+																		m_Expression = "1"
+																	},
+																	1.000000,
+																]
+															}
+															m_Modifiers = 
+															[
+																
+																{
+																	_class = "CSmartPropOperation_Rotate"
+																	m_vRotation = 
+																	[
+																		90.000000,
+																		0.000000,
+																		0.000000,
+																	]
+																},
+																
+																{
+																	_class = "CSmartPropOperation_Translate"
+																	m_vPosition = 
+																	[
+																		0.000000,
+																		80.000000,
+																		-64.000000,
+																	]
+																},
+															]
+														},
+														
+														{
+															_class = "CSmartPropElement_ModifyState"
+															m_nElementID = 165
+															m_Modifiers = 
+															[
+																
+																{
+																	_class = "CSmartPropOperation_Rotate"
+																	m_vRotation = 
+																	[
+																		270.000000,
+																		0.000000,
+																		0.000000,
+																	]
+																},
+																
+																{
+																	_class = "CSmartPropOperation_CreateLocator"
+																	m_flDisplayScale = 2.000000
+																	m_bEnabled = true
+																	m_vOffset = 
+																	[
+																		0.000000,
+																		80.000000,
+																		64.000000,
+																	]
+																},
+															]
+														},
+													]
+												},
+											]
+										},
+										
+										{
+											_class = "CSmartPropElement_ModifyState"
+											m_nElementID = 74
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_bEnabled = true
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													{
+														m_Components = 
+														[
+															0.000000,
+															{
+																m_Expression = "128"
+															},
+															0.000000,
+														]
+													}
+												},
+												
+												{
+													_class = "CSmartPropOperation_CreateLocator"
+													m_bEnabled = true
+													m_bConfigurable = false
+												},
+												
+												{
+													_class = "CSmartPropOperation_SaveState"
+													m_StateName = "Anchor A"
+													m_bEnabled = true
+												},
+												
+												{
+													_class = "CSmartPropOperation_SetVariable"
+													m_VariableValue = 
+													{
+														m_TargetName = "choice_weight_end"
+														m_DataType = "FLOAT"
+														m_Value = 1.000000
+													}
+												},
+												
+												{
+													_class = "CSmartPropOperation_SetVariable"
+													m_VariableValue = 
+													{
+														m_TargetName = "choice_weight_wall"
+														m_DataType = "FLOAT"
+														m_Value = 0.000000
+													}
+												},
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 116
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_sLabel = "64"
+									m_SelectionCriteria = 
+									[
+										
+										{
+											_class = "CSmartPropSelectionCriteria_LinearLength"
+											m_flLength = 64.000000
+											m_bAllowScale = true
+											m_flMinLength = 48.000000
+											m_flMaxLength = 80.000000
+										},
+									]
+									m_Children = 
+									[
+										
+										{
+											_class = "CSmartPropElement_PickOne"
+											m_nElementID = 126
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_Children = 
+											[
+												
+												{
+													_class = "CSmartPropElement_Model"
+													m_nElementID = 118
+													_editor = 
+													{
+														folder_name = ""
+													}
+													m_sModelName = resource_name:"models/props_industrial/pipe_straight_64.vmdl"
+													m_vModelScale = 
+													[
+														1.000000,
+														1.000000,
+														1.000000,
+													]
+													m_SelectionCriteria = 
+													[
+														
+														{
+															_class = "CSmartPropSelectionCriteria_ChoiceWeight"
+														},
+													]
+													m_Modifiers = 
+													[
+														
+														{
+															_class = "CSmartPropOperation_Rotate"
+															m_vRotation = 
+															[
+																0.000000,
+																0.000000,
+																90.000000,
+															]
+														},
+														
+														{
+															_class = "CSmartPropOperation_Translate"
+															m_vPosition = 
+															[
+																0.000000,
+																0.000000,
+																-80.000000,
+															]
+														},
+													]
+												},
+											]
+										},
+										
+										{
+											_class = "CSmartPropElement_ModifyState"
+											m_nElementID = 123
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_bEnabled = true
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													{
+														m_Components = 
+														[
+															0.000000,
+															{
+																m_Expression = " 64"
+															},
+															0.000000,
+														]
+													}
+												},
+												
+												{
+													_class = "CSmartPropOperation_CreateLocator"
+													m_bEnabled = true
+													m_bConfigurable = false
+												},
+												
+												{
+													_class = "CSmartPropOperation_SaveState"
+													m_StateName = "Anchor A"
+													m_bEnabled = true
+												},
+												
+												{
+													_class = "CSmartPropOperation_SetVariable"
+													m_VariableValue = 
+													{
+														m_TargetName = "choice_weight_end"
+														m_DataType = "FLOAT"
+														m_Value = 1.000000
+													}
+												},
+												
+												{
+													_class = "CSmartPropOperation_SetVariable"
+													m_VariableValue = 
+													{
+														m_TargetName = "choice_weight_wall"
+														m_DataType = "FLOAT"
+														m_Value = 0.000000
+													}
+												},
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 159
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_sLabel = "32"
+									m_SelectionCriteria = 
+									[
+										
+										{
+											_class = "CSmartPropSelectionCriteria_LinearLength"
+											m_flLength = 64.000000
+											m_bAllowScale = true
+											m_flMinLength = 48.000000
+											m_flMaxLength = 80.000000
+										},
+									]
+									m_Children = 
+									[
+										
+										{
+											_class = "CSmartPropElement_PickOne"
+											m_nElementID = 160
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_Children = 
+											[
+												
+												{
+													_class = "CSmartPropElement_Model"
+													m_nElementID = 161
+													_editor = 
+													{
+														folder_name = ""
+													}
+													m_sModelName = resource_name:"models/props_industrial/pipe_straight_32.vmdl"
+													m_vModelScale = 
+													[
+														1.000000,
+														1.000000,
+														1.000000,
+													]
+													m_SelectionCriteria = 
+													[
+														
+														{
+															_class = "CSmartPropSelectionCriteria_ChoiceWeight"
+														},
+													]
+													m_Modifiers = 
+													[
+														
+														{
+															_class = "CSmartPropOperation_Rotate"
+															m_vRotation = 
+															[
+																0.000000,
+																0.000000,
+																90.000000,
+															]
+														},
+														
+														{
+															_class = "CSmartPropOperation_Translate"
+															m_vPosition = 
+															[
+																0.000000,
+																0.000000,
+																-80.000000,
+															]
+														},
+													]
+												},
+											]
+										},
+										
+										{
+											_class = "CSmartPropElement_ModifyState"
+											m_nElementID = 162
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_bEnabled = true
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													{
+														m_Components = 
+														[
+															0.000000,
+															{
+																m_Expression = "32"
+															},
+															0.000000,
+														]
+													}
+												},
+												
+												{
+													_class = "CSmartPropOperation_CreateLocator"
+													m_bEnabled = true
+													m_bConfigurable = false
+												},
+												
+												{
+													_class = "CSmartPropOperation_SaveState"
+													m_StateName = "Anchor A"
+													m_bEnabled = true
+												},
+												
+												{
+													_class = "CSmartPropOperation_SetVariable"
+													m_VariableValue = 
+													{
+														m_TargetName = "choice_weight_end"
+														m_DataType = "FLOAT"
+														m_Value = 1.000000
+													}
+												},
+												
+												{
+													_class = "CSmartPropOperation_SetVariable"
+													m_VariableValue = 
+													{
+														m_TargetName = "choice_weight_wall"
+														m_DataType = "FLOAT"
+														m_Value = 0.000000
+													}
+												},
+											]
+										},
+									]
+								},
+							]
+						},
+					]
+				},
+				
+				{
+					_class = "CSmartPropElement_Group"
+					m_nElementID = 48
+					_editor = 
+					{
+						folder_name = ""
+					}
+					m_sLabel = "Corner"
+					m_bEnabled = true
+					m_SelectionCriteria = 
+					[
+						
+						{
+							_class = "CSmartPropSelectionCriteria_ChoiceWeight"
+							m_flWeight = 0.000000
+						},
+					]
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_PickOne"
+							m_nElementID = 166
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_SelectionMode = "FIRST"
+							m_Children = 
+							[
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 167
+									m_SelectionCriteria = 
+									[
+										
+										{
+											_class = "CSmartPropSelectionCriteria_ChoiceWeight"
+										},
+									]
+									m_Children = 
+									[
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 106
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_sModelName = resource_name:"models/props_industrial/pipe_elbow_90_small.vmdl"
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Rotate"
+													m_vRotation = 
+													[
+														180.000000,
+														0.000000,
+														270.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														0.000000,
+														0.000000,
+														16.000000,
+													]
+												},
+											]
+										},
+										
+										{
+											_class = "CSmartPropElement_ModifyState"
+											m_nElementID = 75
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_bEnabled = true
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														0.000000,
+														52.000000,
+														-20.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_Rotate"
+													m_vRotation = 
+													[
+														0.000000,
+														0.000000,
+														270.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_CreateLocator"
+													m_bEnabled = true
+													m_bConfigurable = false
+												},
+												
+												{
+													_class = "CSmartPropOperation_SaveState"
+													m_StateName = "Anchor A"
+													m_bEnabled = true
+												},
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 168
+									m_SelectionCriteria = 
+									[
+										
+										{
+											_class = "CSmartPropSelectionCriteria_ChoiceWeight"
+											m_flWeight = 0.000000
+										},
+									]
+									m_Children = 
+									[
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 169
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_sModelName = resource_name:"models/props_industrial/pipe_elbow_90_small.vmdl"
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Rotate"
+													m_vRotation = 
+													[
+														90.000000,
+														0.000000,
+														270.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														0.000000,
+														0.000000,
+														16.000000,
+													]
+												},
+											]
+										},
+										
+										{
+											_class = "CSmartPropElement_ModifyState"
+											m_nElementID = 170
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_bEnabled = true
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														20.000000,
+														52.000000,
+														0.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_Rotate"
+													m_vRotation = 
+													[
+														270.000000,
+														0.000000,
+														270.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_CreateLocator"
+													m_bEnabled = true
+													m_bConfigurable = false
+												},
+												
+												{
+													_class = "CSmartPropOperation_SaveState"
+													m_StateName = "Anchor A"
+													m_bEnabled = true
+												},
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 171
+									m_SelectionCriteria = 
+									[
+										
+										{
+											_class = "CSmartPropSelectionCriteria_ChoiceWeight"
+											m_flWeight = 0.000000
+										},
+									]
+									m_Children = 
+									[
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 172
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_sModelName = resource_name:"models/props_industrial/pipe_elbow_90_small.vmdl"
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Rotate"
+													m_vRotation = 
+													[
+														0.000000,
+														0.000000,
+														270.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														0.000000,
+														0.000000,
+														16.000000,
+													]
+												},
+											]
+										},
+										
+										{
+											_class = "CSmartPropElement_ModifyState"
+											m_nElementID = 173
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_bEnabled = true
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														0.000000,
+														52.000000,
+														20.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_Rotate"
+													m_vRotation = 
+													[
+														180.000000,
+														0.000000,
+														270.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_CreateLocator"
+													m_bEnabled = true
+													m_bConfigurable = false
+												},
+												
+												{
+													_class = "CSmartPropOperation_SaveState"
+													m_StateName = "Anchor A"
+													m_bEnabled = true
+												},
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 174
+									m_SelectionCriteria = 
+									[
+										
+										{
+											_class = "CSmartPropSelectionCriteria_ChoiceWeight"
+											m_flWeight = 0.000000
+										},
+									]
+									m_Children = 
+									[
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 175
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_sModelName = resource_name:"models/props_industrial/pipe_elbow_90_small.vmdl"
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Rotate"
+													m_vRotation = 
+													[
+														270.000000,
+														0.000000,
+														270.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														0.000000,
+														0.000000,
+														16.000000,
+													]
+												},
+											]
+										},
+										
+										{
+											_class = "CSmartPropElement_ModifyState"
+											m_nElementID = 176
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_bEnabled = true
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														-20.000000,
+														52.000000,
+														0.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_Rotate"
+													m_vRotation = 
+													[
+														90.000000,
+														0.000000,
+														270.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_CreateLocator"
+													m_bEnabled = true
+													m_bConfigurable = false
+												},
+												
+												{
+													_class = "CSmartPropOperation_SaveState"
+													m_StateName = "Anchor A"
+													m_bEnabled = true
+												},
+											]
+										},
+									]
+								},
+							]
+						},
+					]
+				},
+				
+				{
+					_class = "CSmartPropElement_Group"
+					m_nElementID = 84
+					_editor = 
+					{
+						folder_name = ""
+					}
+					m_sLabel = "Angle"
+					m_bEnabled = true
+					m_SelectionCriteria = 
+					[
+						
+						{
+							_class = "CSmartPropSelectionCriteria_ChoiceWeight"
+							m_flWeight = 0.000000
+						},
+					]
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_PickOne"
+							m_nElementID = 177
+							m_SelectionMode = "FIRST"
+							m_Children = 
+							[
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 178
+									m_SelectionCriteria = 
+									[
+										
+										{
+											_class = "CSmartPropSelectionCriteria_ChoiceWeight"
+										},
+									]
+									m_Children = 
+									[
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 107
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_sModelName = resource_name:"models/props_industrial/pipe_elbow_90.vmdl"
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Rotate"
+													m_vRotation = 
+													[
+														180.000000,
+														0.000000,
+														270.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														0.000000,
+														0.000000,
+														16.000000,
+													]
+												},
+											]
+										},
+										
+										{
+											_class = "CSmartPropElement_ModifyState"
+											m_nElementID = 95
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_bEnabled = true
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														0.000000,
+														144.000000,
+														-112.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_Rotate"
+													m_vRotation = 
+													[
+														0.000000,
+														0.000000,
+														270.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_CreateLocator"
+													m_bEnabled = true
+													m_bConfigurable = false
+												},
+												
+												{
+													_class = "CSmartPropOperation_SaveState"
+													m_StateName = "Anchor A"
+													m_bEnabled = true
+												},
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 179
+									m_SelectionCriteria = 
+									[
+										
+										{
+											_class = "CSmartPropSelectionCriteria_ChoiceWeight"
+											m_flWeight = 0.000000
+										},
+									]
+									m_Children = 
+									[
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 180
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_sModelName = resource_name:"models/props_industrial/pipe_elbow_90.vmdl"
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Rotate"
+													m_vRotation = 
+													[
+														90.000000,
+														0.000000,
+														270.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														0.000000,
+														0.000000,
+														16.000000,
+													]
+												},
+											]
+										},
+										
+										{
+											_class = "CSmartPropElement_ModifyState"
+											m_nElementID = 181
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_bEnabled = true
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														112.000000,
+														144.000000,
+														0.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_Rotate"
+													m_vRotation = 
+													[
+														270.000000,
+														180.000000,
+														90.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_CreateLocator"
+													m_bEnabled = true
+													m_bConfigurable = false
+												},
+												
+												{
+													_class = "CSmartPropOperation_SaveState"
+													m_StateName = "Anchor A"
+													m_bEnabled = true
+												},
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 182
+									m_SelectionCriteria = 
+									[
+										
+										{
+											_class = "CSmartPropSelectionCriteria_ChoiceWeight"
+											m_flWeight = 0.000000
+										},
+									]
+									m_Children = 
+									[
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 183
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_sModelName = resource_name:"models/props_industrial/pipe_elbow_90.vmdl"
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Rotate"
+													m_vRotation = 
+													[
+														0.000000,
+														0.000000,
+														270.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														0.000000,
+														0.000000,
+														16.000000,
+													]
+												},
+											]
+										},
+										
+										{
+											_class = "CSmartPropElement_ModifyState"
+											m_nElementID = 184
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_bEnabled = true
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														0.000000,
+														144.000000,
+														112.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_Rotate"
+													m_vRotation = 
+													[
+														0.000000,
+														180.000000,
+														90.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_CreateLocator"
+													m_bEnabled = true
+													m_bConfigurable = false
+												},
+												
+												{
+													_class = "CSmartPropOperation_SaveState"
+													m_StateName = "Anchor A"
+													m_bEnabled = true
+												},
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 185
+									m_SelectionCriteria = 
+									[
+										
+										{
+											_class = "CSmartPropSelectionCriteria_ChoiceWeight"
+											m_flWeight = 0.000000
+										},
+									]
+									m_Children = 
+									[
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 186
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_sModelName = resource_name:"models/props_industrial/pipe_elbow_90.vmdl"
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Rotate"
+													m_vRotation = 
+													[
+														270.000000,
+														0.000000,
+														270.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														0.000000,
+														0.000000,
+														16.000000,
+													]
+												},
+											]
+										},
+										
+										{
+											_class = "CSmartPropElement_ModifyState"
+											m_nElementID = 187
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_bEnabled = true
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														-112.000000,
+														144.000000,
+														0.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_Rotate"
+													m_vRotation = 
+													[
+														90.000000,
+														180.000000,
+														90.000000,
+													]
+												},
+												
+												{
+													_class = "CSmartPropOperation_CreateLocator"
+													m_bEnabled = true
+													m_bConfigurable = false
+												},
+												
+												{
+													_class = "CSmartPropOperation_SaveState"
+													m_StateName = "Anchor A"
+													m_bEnabled = true
+												},
+											]
+										},
+									]
+								},
+							]
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			_class = "CSmartPropElement_SmartProp"
+			m_nElementID = 73
+			m_sSmartProp = resource_name:"smart_props/pipe_01_kit.vsmart"
+			_editor = 
+			{
+				folder_name = ""
+			}
+			m_bLocalEvaluationState = true
+			m_bEnabled = true
+			m_Modifiers = 
+			[
+				
+				{
+					_class = "CSmartPropOperation_RestoreState"
+					m_StateName = "Anchor A"
+				},
+			]
+		},
+	]
+}
