@@ -10,4 +10,5 @@ decompiler.exe -i "D:\Steam_client\steamapps\common\Project8Staging\game\citadel
 robocopy "D:\Steam_client\steamapps\common\Project8Staging\game\citadel\resource\localization\." ".\localization" "*english.txt" /e
 robocopy "D:\Steam_client\steamapps\common\Project8Staging\game\citadel\resource\localization\." ".\localization" "*russian.txt" /e
 robocopy "D:\Steam_client\steamapps\common\Project8Staging\game\citadel" ".\ver" steam.inf
-git commit -a "test"
+set /p clientver=< .\ver\steam.inf
+git commit -a -m %clientver%
