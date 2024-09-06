@@ -1,0 +1,7 @@
+{
+    "generic_data_type": "CModifierVData",
+    "modifier_citadel_in_fountain": {
+        "_class": "modifier_citadel_in_fountain",
+        "m_bIsHidden": "true"
+    }
+}

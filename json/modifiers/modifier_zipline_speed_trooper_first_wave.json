@@ -1,0 +1,7 @@
+{
+    "modifier_zipline_speed_trooper_first_wave": {
+        "_class": "modifier_zipline_speed",
+        "m_flPercentageMultiplierEnd": "33.333300",
+        "m_flRampUpTime": "0"
+    }
+}

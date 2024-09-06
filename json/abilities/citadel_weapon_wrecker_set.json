@@ -1,0 +1,315 @@
+{
+    "citadel_weapon_wrecker_set": {
+        "_class": "citadel_ability_primary_weapon",
+        "m_mapAbilityProperties": {
+            "AbilityCooldown": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldown_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldown"
+                }
+            },
+            "AbilityDuration": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "duration",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            },
+            "AbilityCastRange": {
+                "m_strValue": "0",
+                "m_eDisplayUnits": "EDisplayUnit_Meters",
+                "m_strCSSClass": "range",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCastRange_scale_function",
+                    "m_eSpecificStatScaleType": "ETechRange"
+                }
+            },
+            "AbilityUnitTargetLimit": {
+                "m_strValue": "1",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityCastDelay": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityChannelTime": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_multi_stats",
+                    "_my_subclass_name": "scale_duration",
+                    "m_vecScalingStats": [
+                        "EChannelDuration",
+                        "ETechDuration"
+                    ]
+                }
+            },
+            "AbilityPostCastDuration": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0"
+            },
+            "AbilityCharges": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCharges_scale_function",
+                    "m_eSpecificStatScaleType": "EMaxChargesIncrease"
+                }
+            },
+            "AbilityCooldownBetweenCharge": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "charge_cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldownBetweenCharge_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldownBetweenChargeUses"
+                }
+            },
+            "ChannelMoveSpeed": {
+                "m_strValue": "50",
+                "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond",
+                "m_strCSSClass": "move_speed",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityResourceCost": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_strCSSClass": "cast"
+            },
+            "TechPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_POWER"
+            },
+            "WeaponPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
+            }
+        },
+        "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
+        "_editor": {
+            "folder_name": "Hero Wrecker"
+        },
+        "m_WeaponInfo": {
+            "m_BulletSpeedCurve": {
+                "m_spline": [
+                    {
+                        "x": "0.000000",
+                        "y": "25000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    },
+                    {
+                        "x": "100.000000",
+                        "y": "25000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    }
+                ],
+                "m_tangents": [
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    },
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    }
+                ],
+                "m_vDomainMins": [
+                    "0.000000",
+                    "1.000000"
+                ],
+                "m_vDomainMaxs": [
+                    "100.000000",
+                    "25000.000000"
+                ]
+            },
+            "m_Spread": "0.000000",
+            "m_StandingSpread": "1.000000",
+            "m_flScatterYawScale": "1",
+            "m_flShootingUpSpreadPenalty": "0",
+            "m_flZoomMoveSpeedPercent": "1.000000",
+            "m_flShootMoveSpeedPercent": "0.700000",
+            "m_flHorizontalPunch": "0",
+            "m_flVerticalPunch": "0.150000",
+            "m_flRecoilRecoverySpeed": "5.000000",
+            "m_VerticallRecoil": {
+                "m_Range": [
+                    "0.000000",
+                    "0.000000"
+                ],
+                "m_flBurstSlope": "0.000000",
+                "m_flBurstExponent": "0.000000",
+                "m_flBurstConstant": "0.000000"
+            },
+            "m_HorizontalRecoil": {
+                "m_Range": [
+                    "0.000000",
+                    "0.000000"
+                ],
+                "m_flBurstExponent": "0.000000"
+            },
+            "m_flRecoilSpeed": "6.000000",
+            "m_flZoomFOV": "35.000000",
+            "m_flDamageFalloffStartRange": "866.000000",
+            "m_flDamageFalloffEndRange": "2264.000000",
+            "m_flRange": "7000.000000",
+            "m_flBulletLifetime": "2",
+            "m_flDamageFalloffStartScale": "1.000000",
+            "m_flDamageFalloffEndScale": "0.100000",
+            "m_flDamageFalloffBias": "0.500000",
+            "m_iBullets": "1",
+            "m_flCycleTime": "0.350000",
+            "m_reloadDuration": "2.750000",
+            "m_iClipSize": "10",
+            "m_iBurstShotCount": "1",
+            "m_flBurstShotCooldown": "0",
+            "m_flBulletGravityScale": "0.800000",
+            "m_flBulletRadius": "3",
+            "m_flBulletReflectScale": "0",
+            "m_flBulletReflectAmount": "1",
+            "m_flBulletInheritShooterVelocityScale": "0",
+            "m_szBulletTravelTracerParticle": "particles/weapon_fx/default_tracer.vpcf",
+            "m_szMuzzleFlashEffectName": "particles/weapon_fx/default_muzzle_flash.vpcf",
+            "m_strShootSound": "Wrecker.Wpn.Fire",
+            "m_strBulletWhizSound": "Base.Bullet.Whizby",
+            "m_flBulletWhizDistance": "150",
+            "m_mapImpactEffects": {
+                "default": {
+                    "m_strDecal": "Impact.Concrete",
+                    "m_strParticle": "particles/impact_fx/impact_spark_spray_large.vpcf",
+                    "m_strSound": "Default.BulletImpact"
+                },
+                "flesh": {
+                    "m_strDecal": "",
+                    "m_strParticle": "particles/blood_impact/blood_impact_red_01.vpcf",
+                    "m_strSound": "Flesh.BulletImpact"
+                },
+                "concrete": {
+                    "m_strDecal": "Impact.Concrete",
+                    "m_strParticle": "particles/impact_fx/impact_spark_spray_large.vpcf",
+                    "m_strSound": "Concrete.BulletImpact"
+                },
+                "solidmetal": {
+                    "m_strDecal": "Impact.Concrete",
+                    "m_strParticle": "particles/impact_fx/impact_spark_spray_large.vpcf",
+                    "m_strSound": "SolidMetal.BulletImpact"
+                },
+                "portals": {
+                    "m_strDecal": "Impact.Concrete",
+                    "m_strParticle": "particles/impact_fx/impact_spark_spray_large.vpcf",
+                    "m_strSound": "Player.HitInvuln"
+                },
+                "dirt": {
+                    "m_strSound": "Dirt.BulletImpact"
+                },
+                "metalvehicle": {
+                    "m_strSound": "MetalVehicle.BulletImpact"
+                },
+                "metal": {
+                    "m_strSound": "SolidMetal.BulletImpact"
+                },
+                "leafy_tree": {
+                    "m_strSound": "Foliage.BulletImpact"
+                },
+                "wood": {
+                    "m_strSound": "Wood.BulletImpact"
+                },
+                "wood_plank": {
+                    "m_strSound": "Wood_Plank.BulletImpact"
+                }
+            },
+            "m_flCritBonusStart": "1.900000",
+            "m_flCritBonusEnd": "1.900000",
+            "m_flCritBonusStartRange": "500.000000",
+            "m_flCritBonusEndRange": "1500.000000",
+            "m_flCritBonusAgainstNPCs": "0",
+            "m_flShootSpreadPenaltyPerShot": "0.250000",
+            "m_flShootSpreadPenaltyDecayDelay": "0.100000",
+            "m_flShootSpreadPenaltyDecay": "3.000000",
+            "m_flRecoilShotIndexRecoveryTimeFactor": "0.250000",
+            "m_bCanZoom": "true",
+            "m_strWeaponImpactEffect": "particles/weapon_fx/default_tracer_impact.vpcf",
+            "m_flReloadMoveSpeed": "10000",
+            "m_strLocalPlayerBulletImpactSound": "Player.Bullet.Impact.Hero",
+            "m_strLocalPlayerBulletImpactHeavySound": "Player.Bullet.Impact.Hero.Large",
+            "m_strReloadSound": "Player.WpnReload.Shared.Clip.Out",
+            "m_strReloadEndSound": "Player.WpnReload.Shared.Clip.In",
+            "m_strZoomInSound": "Wrecker.Zoom.In",
+            "m_strZoomOutSound": "Wrecker.Zoom.Out",
+            "m_bBulletShouldUseVerlet": "true",
+            "m_flRecoilRecoveryDelayFactor": "0.800000",
+            "m_flIronSightsTime": "0.100000",
+            "m_StandingMoveSpreadPenalty": [
+                "0.000000",
+                "1.000000"
+            ],
+            "m_AimingMoveSpreadPenalty": [
+                "0.000000",
+                "0.150000"
+            ],
+            "m_AimingShootSpreadPenalty": [
+                "0.000000",
+                "0.500000"
+            ],
+            "m_StandingShootSpreadPenalty": [
+                "0.000000",
+                "0.500000"
+            ],
+            "m_strBulletImpactSound": "",
+            "m_flBulletDamage": "25"
+        },
+        "_multibase": [
+            "hero_weapon_base"
+        ],
+        "m_bStartTrained": "true",
+        "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_SELF",
+        "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_ON_BUTTON_IS_DOWN",
+        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_IS_PRIMARY_WEAPON | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK | CITADEL_ABILITY_BEHAVIOR_DISARMABLE | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_WEAPON_TOGGLE",
+        "m_bitsInterruptingStates": "MODIFIER_STATE_STUNNED | MODIFIER_STATE_IS_ASLEEP",
+        "m_eAbilityType": "EAbilityType_Weapon",
+        "m_strAbilityImage": "file://{images}/hud/abilities/weapon_damage.psd",
+        "m_nAbilityPointsCost": "1",
+        "m_HUDPanel": {
+            "m_vecHUDElements": [
+                {
+                    "m_strContext": "gun",
+                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_GUN"
+                }
+            ]
+        },
+        "m_sObstructedShotSound": "Gameplay.Obstructed.Shot.Impact",
+        "m_DOFWhileZoomed": {
+            "m_flDofNearCrisp": "200.000000",
+            "m_flDofFarCrisp": "100.000000",
+            "m_flDofFarBlurry": "7000.000000"
+        },
+        "m_sDisarmedSound": "Player.Weapon.Jammed",
+        "m_flMinDisarmedSoundInterval": "0.100000"
+    }
+}

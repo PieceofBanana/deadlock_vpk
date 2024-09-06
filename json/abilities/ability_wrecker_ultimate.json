@@ -1,0 +1,374 @@
+{
+    "ability_wrecker_ultimate": {
+        "_class": "ability_wrecker_ultimate",
+        "m_mapAbilityProperties": {
+            "AbilityCooldown": {
+                "m_strValue": "160",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldown_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldown"
+                }
+            },
+            "AbilityDuration": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "duration",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            },
+            "AbilityCastRange": {
+                "m_strValue": "0",
+                "m_eDisplayUnits": "EDisplayUnit_Meters",
+                "m_strCSSClass": "range",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCastRange_scale_function",
+                    "m_eSpecificStatScaleType": "ETechRange"
+                }
+            },
+            "AbilityUnitTargetLimit": {
+                "m_strValue": "1",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityCastDelay": {
+                "m_strValue": "1.0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityChannelTime": {
+                "m_strValue": "5",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_multi_stats",
+                    "_my_subclass_name": "scale_duration",
+                    "m_vecScalingStats": [
+                        "EChannelDuration",
+                        "ETechDuration"
+                    ]
+                }
+            },
+            "AbilityPostCastDuration": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0"
+            },
+            "AbilityCharges": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCharges_scale_function",
+                    "m_eSpecificStatScaleType": "EMaxChargesIncrease"
+                }
+            },
+            "AbilityCooldownBetweenCharge": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "charge_cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldownBetweenCharge_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldownBetweenChargeUses"
+                }
+            },
+            "ChannelMoveSpeed": {
+                "m_strValue": "200",
+                "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond",
+                "m_strCSSClass": "move_speed",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityResourceCost": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_strCSSClass": "cast"
+            },
+            "TechPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_POWER"
+            },
+            "WeaponPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
+            },
+            "BeamLength": {
+                "m_strValue": "20m",
+                "m_strCSSClass": "distance",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "BeamLength_scale_function",
+                    "m_eSpecificStatScaleType": "ETechRange"
+                }
+            },
+            "GrabRange": {
+                "m_strValue": "5m",
+                "m_strCSSClass": "distance",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "GrabRange_scale_function",
+                    "m_eSpecificStatScaleType": "ETechRange"
+                }
+            },
+            "HoldHeight": {
+                "m_strValue": "120"
+            },
+            "HoldDistance": {
+                "m_strValue": "2m"
+            },
+            "PullSpeed": {
+                "m_strValue": "800"
+            },
+            "AccelSpeed": {
+                "m_strValue": "2400"
+            },
+            "ThrowSpeed": {
+                "m_strValue": "500"
+            },
+            "TimeUntilStasis": {
+                "m_strValue": "0.5"
+            },
+            "TrackingSpeed": {
+                "m_strValue": "70"
+            },
+            "GrabDamage": {
+                "m_strValue": "0",
+                "m_strCSSClass": "damage",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_tech_damage",
+                    "_my_subclass_name": "GrabDamage_scale_function",
+                    "m_flStatScale": "0.655200"
+                }
+            },
+            "ThrowDamage": {
+                "m_strValue": "160",
+                "m_strCSSClass": "tech_damage",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_tech_damage",
+                    "_my_subclass_name": "ThrowDamage_scale_function",
+                    "m_flStatScale": "0.524160"
+                }
+            },
+            "StunDuration": {
+                "m_strValue": "1.5",
+                "m_strCSSClass": "duration",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "StunDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            },
+            "Invulnerable": {
+                "m_strValue": "0"
+            },
+            "BeamWidth": {
+                "m_strValue": "40"
+            }
+        },
+        "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
+        "_editor": {
+            "folder_name": "Hero Wrecker"
+        },
+        "m_WeaponInfo": {
+            "m_BulletSpeedCurve": {
+                "m_spline": [
+                    {
+                        "x": "0.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    },
+                    {
+                        "x": "100.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    }
+                ],
+                "m_tangents": [
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    },
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    }
+                ],
+                "m_vDomainMins": [
+                    "0.000000",
+                    "0.000000"
+                ],
+                "m_vDomainMaxs": [
+                    "100.000000",
+                    "10000.000000"
+                ]
+            }
+        },
+        "m_strCancelAbilityKey": "+in_cancel_ability",
+        "m_HUDPanel": {
+            "m_vecButtonHints": [
+                {
+                    "m_strContext": "throw",
+                    "m_eButton1": "EButtonHint_Attack",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_Throw"
+                },
+                {
+                    "m_strContext": "deploy",
+                    "m_eButton1": "EButtonHint_Attack",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_Deploy"
+                },
+                {
+                    "m_strContext": "cast_on_target",
+                    "m_eButton1": "EButtonHint_Attack",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_CastOnTarget",
+                    "m_bShowAsUnitTargetActivationHint": "true",
+                    "m_bShowAbilityIcon": "true"
+                },
+                {
+                    "m_strContext": "alt_cast_hold_hint",
+                    "m_eButton1": "EButtonHint_AbilityKey",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_HoldToSelfCast"
+                },
+                {
+                    "m_strContext": "alt_cast_double_tap_hint",
+                    "m_eButton1": "EButtonHint_AbilityKey",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_DoubleTapToSelfCast"
+                },
+                {
+                    "m_strContext": "alt_cast_modifier_key_hint",
+                    "m_strBindingOverride1": "in_alt_cast_modifier",
+                    "m_eButton2": "EButtonHint_AbilityKey",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_eButtonHintType": "EButtonHintType_TwoButtonCombination",
+                    "m_strLocToken": "#AbilityButtonHint_ModifierKeyToSelfCast"
+                },
+                {
+                    "m_strContext": "alt_cast_select_then_alt_cast_key_hint",
+                    "m_strBindingOverride1": "in_alt_cast",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_SelectThenSelfCastButton"
+                },
+                {
+                    "m_strContext": "deselect",
+                    "m_eButton1": "EButtonHint_AbilityKey",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_Deselect",
+                    "m_nPriority": "1"
+                },
+                {
+                    "m_strLocToken": "#AbilityButtonHint_Activate",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_eButton1": "EButtonHint_AbilityKey",
+                    "m_strContext": "unit_target_activate",
+                    "m_bShowAsUnitTargetActivationHint": "true",
+                    "m_bShowAbilityIcon": "true"
+                }
+            ]
+        },
+        "_multibase": [
+            "ultimate_base"
+        ],
+        "m_bStartTrained": "false",
+        "m_nAbilityPointsCost": "0",
+        "m_nAbillityUnlocksCost": "1",
+        "m_eAbilityType": "EAbilityType_Ultimate",
+        "m_iMaxLevel": "1",
+        "m_bitsInterruptingStates": "MODIFIER_STATE_STUNNED",
+        "m_PreviewPathParticle": "particles/generic/generic_arc.vpcf",
+        "m_strAbilityOffCooldownSound": "",
+        "m_strAbilityChargeReadySound": "",
+        "m_skillshotMissParticle": "particles/abilities/skillshot_default_miss_owner.vpcf",
+        "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_SELF",
+        "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
+        "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_HERO_ENEMY | CITADEL_UNIT_TARGET_TROOPER_ENEMY | CITADEL_UNIT_TARGET_MINION_ENEMY | CITADEL_UNIT_TARGET_CREEP_ENEMY",
+        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+        "m_strAbilityImage": "file://{images}/hud/abilities/wrecker/wrecking_crew.psd",
+        "m_iUpdateTime": "1641924609",
+        "m_vecAbilityUpgrades": [
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "BeamLength",
+                        "m_strBonus": "10m"
+                    }
+                ]
+            },
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "AbilityCooldown",
+                        "m_strBonus": "-40"
+                    }
+                ]
+            },
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "Invulnerable",
+                        "m_strBonus": "1"
+                    }
+                ]
+            }
+        ],
+        "m_ChargeParticle": "particles/abilities/wrecker/wrecker_ultimate_charge.vpcf",
+        "m_BeamParticle": "particles/abilities/wrecker/wrecker_ultimate_beam.vpcf",
+        "m_ActiveModifier": {
+            "_class": "modifier_wrecker_ultimate",
+            "_my_subclass_name": "modifier_wrecker_ultimate_subclass",
+            "m_GrabRangeParticle": "particles/abilities/wrecker/wrecker_ultimate_aoe.vpcf",
+            "m_GrabSound": "Wrecker.Wrecking.Crew.Grab",
+            "m_sAmbientLoopingSound": "Wrecker.Wrecking.Crew.Lp",
+            "m_ThrowSound": "Wrecker.Wrecking.Crew.Throw",
+            "m_EnemyGrabModifier": {
+                "_class": "modifier_wrecker_ultimate_grab_enemy",
+                "_my_subclass_name": "modifier_wrecker_ultimate_grab_enemy",
+                "m_EnemyHeroStasisEffect": "particles/abilities/wrecker/wrecker_ultimate_grab_debuff.vpcf",
+                "m_EnemyHeroGrabEffect": "particles/abilities/wrecker/wrecker_ultimate_grab.vpcf",
+                "m_bReverseHudProgressBar": "false",
+                "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER",
+                "m_bDurationReducible": "false",
+                "m_sLocalizationName": "wrecker_ultimate_grab_debuff"
+            },
+            "m_EnemyThrowModifier": {
+                "_class": "modifier_wrecker_ultimate_throw_enemy",
+                "_my_subclass_name": "modifier_wrecker_ultimate_throw_enemy"
+            },
+            "m_EnemyDamageModifier": {
+                "_class": "modifier_damage_on_hit_ground",
+                "_my_subclass_name": "modifier_wrecker_ultimate_damage_enemy"
+            },
+            "m_InvincibleModifier": {
+                "_my_subclass_name": "wrecker_invincible",
+                "_class": "modifier_wrecker_ultimate_invincible",
+                "m_strParticleStatusEffect": "particles/status_fx/status_fx_yamato_shadow_form.vpcf",
+                "m_nEnabledStateMask": "MODIFIER_STATE_INVULNERABLE | MODIFIER_STATE_TECH_UNTARGETABLE | MODIFIER_STATE_UNIT_STATUS_HEALTH_HIDDEN | MODIFIER_STATE_IGNORE_BULLETS | MODIFIER_STATE_IGNORE_MELEE"
+            },
+            "m_sStartSound": "Wrecker.Wrecking.Crew.Cast",
+            "m_sExpiredSound": "Wrecker.Wrecking.Crew.End"
+        },
+        "m_strCastAnimGraphParam": "b_WreckerUlt"
+    }
+}

@@ -1,0 +1,410 @@
+{
+    "upgrade_magic_carpet": {
+        "_class": "upgrade_magic_carpet",
+        "m_mapAbilityProperties": {
+            "AbilityCooldown": {
+                "m_strValue": "30",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldown_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldown"
+                }
+            },
+            "AbilityDuration": {
+                "m_strValue": "7",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "duration",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            },
+            "AbilityCastRange": {
+                "m_strValue": "0",
+                "m_eDisplayUnits": "EDisplayUnit_Meters",
+                "m_strCSSClass": "range",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCastRange_scale_function",
+                    "m_eSpecificStatScaleType": "ETechRange"
+                }
+            },
+            "AbilityUnitTargetLimit": {
+                "m_strValue": "1",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityCastDelay": {
+                "m_strValue": "0.2",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityChannelTime": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_multi_stats",
+                    "_my_subclass_name": "scale_duration",
+                    "m_vecScalingStats": [
+                        "EChannelDuration",
+                        "ETechDuration"
+                    ]
+                }
+            },
+            "AbilityPostCastDuration": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0"
+            },
+            "AbilityCharges": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCharges_scale_function",
+                    "m_eSpecificStatScaleType": "EMaxChargesIncrease"
+                }
+            },
+            "AbilityCooldownBetweenCharge": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "charge_cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldownBetweenCharge_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldownBetweenChargeUses"
+                }
+            },
+            "ChannelMoveSpeed": {
+                "m_strValue": "-1",
+                "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond",
+                "m_strCSSClass": "move_speed",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityResourceCost": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_strCSSClass": "cast"
+            },
+            "TechPower": {
+                "m_strValue": "15",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_POWER",
+                "m_eDisplayType": "ETechPower",
+                "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
+            },
+            "WeaponPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
+            },
+            "SummonDuration": {
+                "m_strValue": "1.3"
+            },
+            "ShieldDuration": {
+                "m_strLocTokenOverride": "MagicCarpetShieldDuration",
+                "m_strValue": "16",
+                "m_strCSSClass": "duration",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "ShieldDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            },
+            "FlyingBulletShield": {
+                "m_strLocTokenOverride": "BulletShieldHealth",
+                "m_strValue": "400",
+                "m_strCSSClass": "bullet_armor_up",
+                "m_eDisplayType": "EBulletShieldHealth"
+            },
+            "FlyingTechShield": {
+                "m_strLocTokenOverride": "TechShieldHealth",
+                "m_strValue": "400",
+                "m_strCSSClass": "tech_armor_up",
+                "m_eDisplayType": "ETechShieldHealth"
+            },
+            "FlyMoveSpeed": {
+                "m_strLocTokenOverride": "MagicCarpetMoveSpeed",
+                "m_strValue": "6m",
+                "m_eDisplayUnits": "EDisplayUnit_Meters",
+                "m_strCSSClass": "move_speed",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_MOVEMENT_SPEED_MAX",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
+            },
+            "BonusHealth": {
+                "m_strValue": "150",
+                "m_strCSSClass": "health",
+                "m_eDisplayType": "EMaxHealth",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_HEALTH_MAX",
+                "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
+            },
+            "BonusAbilityDurationPercent": {
+                "m_strValue": "10",
+                "m_strCSSClass": "duration",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_BONUS_ABILITY_DURATION_PERCENTAGE",
+                "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
+            }
+        },
+        "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
+        "_editor": {
+            "folder_name": "Tech"
+        },
+        "m_WeaponInfo": {
+            "m_BulletSpeedCurve": {
+                "m_spline": [
+                    {
+                        "x": "0.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    },
+                    {
+                        "x": "100.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    }
+                ],
+                "m_tangents": [
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    },
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    }
+                ],
+                "m_vDomainMins": [
+                    "0.000000",
+                    "0.000000"
+                ],
+                "m_vDomainMaxs": [
+                    "100.000000",
+                    "10000.000000"
+                ]
+            }
+        },
+        "m_strCancelAbilityKey": "+in_cancel_ability",
+        "m_HUDPanel": {
+            "m_vecButtonHints": [
+                {
+                    "m_strContext": "throw",
+                    "m_eButton1": "EButtonHint_Attack",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_Throw"
+                },
+                {
+                    "m_strContext": "deploy",
+                    "m_eButton1": "EButtonHint_Attack",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_Deploy"
+                },
+                {
+                    "m_strContext": "cast_on_target",
+                    "m_eButton1": "EButtonHint_Attack",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_CastOnTarget",
+                    "m_bShowAsUnitTargetActivationHint": "true",
+                    "m_bShowAbilityIcon": "true"
+                },
+                {
+                    "m_strContext": "alt_cast_hold_hint",
+                    "m_eButton1": "EButtonHint_AbilityKey",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_HoldToSelfCast"
+                },
+                {
+                    "m_strContext": "alt_cast_double_tap_hint",
+                    "m_eButton1": "EButtonHint_AbilityKey",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_DoubleTapToSelfCast"
+                },
+                {
+                    "m_strContext": "alt_cast_modifier_key_hint",
+                    "m_strBindingOverride1": "in_alt_cast_modifier",
+                    "m_eButton2": "EButtonHint_AbilityKey",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_eButtonHintType": "EButtonHintType_TwoButtonCombination",
+                    "m_strLocToken": "#AbilityButtonHint_ModifierKeyToSelfCast"
+                },
+                {
+                    "m_strContext": "alt_cast_select_then_alt_cast_key_hint",
+                    "m_strBindingOverride1": "in_alt_cast",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_SelectThenSelfCastButton"
+                },
+                {
+                    "m_strContext": "deselect",
+                    "m_eButton1": "EButtonHint_AbilityKey",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_Deselect",
+                    "m_nPriority": "1"
+                },
+                {
+                    "m_strLocToken": "#AbilityButtonHint_Activate",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_eButton1": "EButtonHint_AbilityKey",
+                    "m_strContext": "unit_target_activate",
+                    "m_bShowAsUnitTargetActivationHint": "true",
+                    "m_bShowAbilityIcon": "true"
+                }
+            ]
+        },
+        "_multibase": [
+            "tech_upgrade_t4"
+        ],
+        "m_bStartTrained": "true",
+        "m_eAbilityType": "EAbilityType_Item",
+        "m_nUpgradeSlotCost": "1",
+        "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_SELF",
+        "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
+        "m_strCastAnimGraphParam": "e_GenericCast",
+        "m_strCastAnimSequenceName": "ability_generic_cast",
+        "m_strSelectionNameOverride": "item",
+        "m_PreviewPathParticle": "particles/generic/generic_arc.vpcf",
+        "m_eItemSlotType": "EItemSlotType_Tech",
+        "m_iItemTier": "EModTier_4",
+        "m_iUpdateTime": "1723600790",
+        "m_strCSSClass": "magicCarpet",
+        "m_strAbilityImage": "file://{images}/hud/abilities/kelvin/ice_path.psd",
+        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_MOVEMENT",
+        "m_bitsInterruptingStates": "MODIFIER_STATE_IMMOBILIZED | MODIFIER_STATE_STUNNED",
+        "m_flSummonVisualDuration": "2.000000",
+        "m_flBurstSpeedBonus": "200.000000",
+        "m_flBurstSpeedDuration": "0.500000",
+        "m_strCastSound": "Mods.Armor.RocketBoots.Cast",
+        "m_SummonFlyingCarpetModifier": {
+            "_class": "modifier_base",
+            "_my_subclass_name": "modifier_magiccarpet_castbar",
+            "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER",
+            "m_sLocalizationName": "modifier_summon_magiccarpet",
+            "m_bReverseHudProgressBar": "true"
+        },
+        "m_SummonFlyingCarpetVisualModifier": {
+            "_class": "modifier_magiccarpet_summon",
+            "_my_subclass_name": "modifier_magiccarpet_summon",
+            "m_bIsHidden": "true",
+            "m_SummonParticle": "particles/items/magic_carpet_summon.vpcf"
+        },
+        "m_FlyingCarpetVisualModifier": {
+            "_class": "modifier_base",
+            "_my_subclass_name": "modifier_magiccarpet_flying_visual",
+            "m_strParticleEffect": "particles/items/magic_carpet.vpcf",
+            "m_bIsHidden": "true"
+        },
+        "m_ShieldModifier": {
+            "_class": "modifier_magiccarpet_shields",
+            "_my_subclass_name": "modifier_magiccarpet_shields",
+            "m_bIsHidden": "true",
+            "m_strParticleEffect": "particles/upgrades/vex_shield_buff.vpcf"
+        },
+        "m_FlyingCarpetModifier": {
+            "_class": "modifier_base",
+            "_my_subclass_name": "modifier_magiccarpet_flying",
+            "m_nEnabledStateMask": "MODIFIER_STATE_FORCE_ANIM_DUCK | MODIFIER_STATE_FORCE_ANIM_KEEP_STILL | MODIFIER_STATE_SLOW_IMMUNE",
+            "m_sLocalizationName": "modifier_magiccarpet",
+            "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER",
+            "m_strHudMessageText": "#modifier_magiccarpet",
+            "m_sStartSound": "Inferno.FlameDash.Modifier.Start",
+            "m_sAmbientLoopingSound": "Inferno.FlameDash.Modifier.Lp",
+            "m_sExpiredSound": "Inferno.FlameDash.Modifier.Stop",
+            "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
+                "FlyMoveSpeed"
+            ],
+            "m_cameraSequenceCreated": {
+                "m_vecFOVOperations": [
+                    {
+                        "m_bLerpEndAtDefault": "false",
+                        "m_flLerpDuration": "0.300000",
+                        "m_flLerpBias": "0.750000",
+                        "m_flLerpEnd": "100.000000",
+                        "m_eCameraOperation": "k_ECameraOp_Lerp"
+                    },
+                    {
+                        "m_flMaintainDuration": "0.500000",
+                        "m_eCameraOperation": "k_ECameraOp_Maintain"
+                    },
+                    {
+                        "m_flSpringStrength": "5.000000",
+                        "m_bSpringToDefault": "true",
+                        "m_eCameraOperation": "k_ECameraOp_Spring"
+                    }
+                ],
+                "m_vecDistanceOperations": [
+                    {
+                        "m_flSpringStrength": "10.000000",
+                        "m_bSpringToDefault": "false",
+                        "m_flSpringTarget": "300.000000",
+                        "m_eCameraOperation": "k_ECameraOp_Spring"
+                    },
+                    {
+                        "m_flMaintainDuration": "99.000000",
+                        "m_eCameraOperation": "k_ECameraOp_Maintain"
+                    }
+                ]
+            }
+        },
+        "m_vecTooltipSectionInfo": [
+            {
+                "m_eAbilitySectionType": "EArea_Innate",
+                "m_vecSectionAttributes": [
+                    {
+                        "m_vecAbilityProperties": [
+                            "BonusAbilityDurationPercent",
+                            "TechPower",
+                            "BonusHealth"
+                        ]
+                    }
+                ]
+            },
+            {
+                "m_eAbilitySectionType": "EArea_Active",
+                "m_vecSectionAttributes": [
+                    {
+                        "m_strLocString": "#upgrade_magic_carpet_desc",
+                        "m_vecImportantAbilityProperties": [
+                            {
+                                "m_strImportantProperty": "FlyingBulletShield"
+                            },
+                            {
+                                "m_strImportantProperty": "FlyingTechShield"
+                            }
+                        ],
+                        "m_vecAbilityProperties": [
+                            "AbilityDuration",
+                            "FlyMoveSpeed",
+                            "SummonDuration",
+                            "ShieldDuration"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "m_AutoIntrinsicModifiers": [
+            {
+                "_class": "modifier_intrinsic_base",
+                "_my_subclass_name": "modifier_intrinsic_base",
+                "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
+                    "BonusAbilityDurationPercent",
+                    "TechPower",
+                    "BonusHealth"
+                ]
+            }
+        ],
+        "m_eShopFilters": "EShopFilterMovement"
+    }
+}

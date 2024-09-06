@@ -1,0 +1,21 @@
+{
+    "modifier_magic_shield_tracker": {
+        "_class": "modifier_magic_shield_tracker",
+        "m_strParticleEffect": "",
+        "m_bIsHidden": "true",
+        "m_flShieldImpactEffectDuration": "1.500000",
+        "_base": "modifier_shield_tracker_base",
+        "flCooldownOnBreak": "60.000000",
+        "eShieldType": "TechShield",
+        "m_ShieldImpactModifier": {
+            "_class": "modifier_tech_shield_impact",
+            "_my_subclass_name": "tech_shield_impact",
+            "m_ShieldBreakParticle": "particles/upgrades/tech_shield_impact_break.vpcf",
+            "m_bIsHidden": "true",
+            "m_strParticleEffect": "particles/upgrades/tech_shield_impact.vpcf",
+            "m_ShieldBreakSound": "StatusEffects.ShieldBreak"
+        },
+        "m_ShieldImpactParticle": "particles/upgrades/magic_shield_impact.vpcf",
+        "m_nAttributes": "MODIFIER_ATTRIBUTE_PERMANENT"
+    }
+}

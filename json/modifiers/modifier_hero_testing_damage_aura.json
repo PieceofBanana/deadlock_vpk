@@ -1,0 +1,13 @@
+{
+    "modifier_hero_testing_damage_aura": {
+        "_class": "modifier_hero_testing_damage_aura",
+        "m_strParticleEffect": "particles/npc/tier2boss/tier2boss_barrage_explosion_ground.vpcf",
+        "m_flAuraRadius": "50.000000",
+        "m_modifierProvidedByAura": {
+            "_my_subclass_name": "modifier_hero_testing_damage_aura",
+            "_class": "modifier_hero_testing_damage_auradebuff",
+            "m_bIsHidden": "true"
+        },
+        "m_iAuraSearchType": "CITADEL_UNIT_TARGET_ALL"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "citadel_modifier_teleport": {
+        "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER",
+        "m_eDebuffType": "MODIFIER_DEBUFF_NO"
+    }
+}

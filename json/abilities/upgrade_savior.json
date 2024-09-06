@@ -1,0 +1,356 @@
+{
+    "upgrade_savior": {
+        "_class": "upgrade_savior",
+        "m_mapAbilityProperties": {
+            "AbilityCooldown": {
+                "m_strValue": "28",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldown_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldown"
+                }
+            },
+            "AbilityDuration": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "duration",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            },
+            "AbilityCastRange": {
+                "m_strValue": "35m",
+                "m_eDisplayUnits": "EDisplayUnit_Meters",
+                "m_strCSSClass": "range",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCastRange_scale_function",
+                    "m_eSpecificStatScaleType": "ETechRange"
+                }
+            },
+            "AbilityUnitTargetLimit": {
+                "m_strValue": "1",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityCastDelay": {
+                "m_strValue": "0.2",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityChannelTime": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_multi_stats",
+                    "_my_subclass_name": "scale_duration",
+                    "m_vecScalingStats": [
+                        "EChannelDuration",
+                        "ETechDuration"
+                    ]
+                }
+            },
+            "AbilityPostCastDuration": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0"
+            },
+            "AbilityCharges": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCharges_scale_function",
+                    "m_eSpecificStatScaleType": "EMaxChargesIncrease"
+                }
+            },
+            "AbilityCooldownBetweenCharge": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "charge_cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldownBetweenCharge_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldownBetweenChargeUses"
+                }
+            },
+            "ChannelMoveSpeed": {
+                "m_strValue": "20m",
+                "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond",
+                "m_strCSSClass": "move_speed",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityResourceCost": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_strCSSClass": "cast"
+            },
+            "TechPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_POWER"
+            },
+            "WeaponPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
+            },
+            "BuffDuration": {
+                "m_strValue": "5",
+                "m_strCSSClass": "duration",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "BuffDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            },
+            "SaviorBulletShieldHealth": {
+                "m_strValue": "300",
+                "m_strCSSClass": "bullet_armor_up"
+            },
+            "SaviorMagicShieldHealth": {
+                "m_strValue": "300",
+                "m_strCSSClass": "tech_armor_up"
+            },
+            "TechRangeMultiplier": {
+                "m_strValue": "8",
+                "m_strCSSClass": "distance",
+                "m_eDisplayType": "ETechRange",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_RANGE_PERCENT",
+                "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
+            },
+            "TechRadiusMultiplier": {
+                "m_strValue": "8",
+                "m_strCSSClass": "distance",
+                "m_eDisplayType": "ETechRadius",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_RADIUS_PERCENT",
+                "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
+            },
+            "BonusMoveSpeed": {
+                "m_strValue": "2m",
+                "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond",
+                "m_strCSSClass": "move_speed",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_MOVEMENT_SPEED_MAX"
+            },
+            "BonusSprintSpeed": {
+                "m_strValue": "1m",
+                "m_strCSSClass": "move_speed",
+                "m_eDisplayType": "ESprintSpeed",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_SPRINT_SPEED_BONUS",
+                "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
+            },
+            "BonusHealth": {
+                "m_strValue": "75",
+                "m_strCSSClass": "health",
+                "m_eDisplayType": "EMaxHealth",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_HEALTH_MAX",
+                "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
+            }
+        },
+        "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
+        "_editor": {
+            "folder_name": "Armor"
+        },
+        "m_WeaponInfo": {
+            "m_BulletSpeedCurve": {
+                "m_spline": [
+                    {
+                        "x": "0.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    },
+                    {
+                        "x": "100.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    }
+                ],
+                "m_tangents": [
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    },
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    }
+                ],
+                "m_vDomainMins": [
+                    "0.000000",
+                    "0.000000"
+                ],
+                "m_vDomainMaxs": [
+                    "100.000000",
+                    "10000.000000"
+                ]
+            }
+        },
+        "m_strCancelAbilityKey": "+in_cancel_ability",
+        "m_HUDPanel": {
+            "m_vecButtonHints": [
+                {
+                    "m_strContext": "throw",
+                    "m_eButton1": "EButtonHint_Attack",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_Throw"
+                },
+                {
+                    "m_strContext": "deploy",
+                    "m_eButton1": "EButtonHint_Attack",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_Deploy"
+                },
+                {
+                    "m_strContext": "cast_on_target",
+                    "m_eButton1": "EButtonHint_Attack",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_CastOnTarget",
+                    "m_bShowAsUnitTargetActivationHint": "true",
+                    "m_bShowAbilityIcon": "true"
+                },
+                {
+                    "m_strContext": "alt_cast_hold_hint",
+                    "m_eButton1": "EButtonHint_AbilityKey",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_HoldToSelfCast"
+                },
+                {
+                    "m_strContext": "alt_cast_double_tap_hint",
+                    "m_eButton1": "EButtonHint_AbilityKey",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_DoubleTapToSelfCast"
+                },
+                {
+                    "m_strContext": "alt_cast_modifier_key_hint",
+                    "m_strBindingOverride1": "in_alt_cast_modifier",
+                    "m_eButton2": "EButtonHint_AbilityKey",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_eButtonHintType": "EButtonHintType_TwoButtonCombination",
+                    "m_strLocToken": "#AbilityButtonHint_ModifierKeyToSelfCast"
+                },
+                {
+                    "m_strContext": "alt_cast_select_then_alt_cast_key_hint",
+                    "m_strBindingOverride1": "in_alt_cast",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_SelectThenSelfCastButton"
+                },
+                {
+                    "m_strContext": "deselect",
+                    "m_eButton1": "EButtonHint_AbilityKey",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_Deselect",
+                    "m_nPriority": "1"
+                },
+                {
+                    "m_strLocToken": "#AbilityButtonHint_Activate",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_eButton1": "EButtonHint_AbilityKey",
+                    "m_strContext": "unit_target_activate",
+                    "m_bShowAsUnitTargetActivationHint": "true",
+                    "m_bShowAbilityIcon": "true"
+                }
+            ]
+        },
+        "_multibase": [
+            "armor_upgrade_t2"
+        ],
+        "m_bStartTrained": "true",
+        "m_eAbilityType": "EAbilityType_Item",
+        "m_nUpgradeSlotCost": "1",
+        "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_UNIT",
+        "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_PRESS",
+        "m_strCastAnimGraphParam": "e_GenericCast",
+        "m_strCastAnimSequenceName": "ability_generic_cast",
+        "m_strSelectionNameOverride": "item",
+        "m_PreviewPathParticle": "particles/generic/generic_arc.vpcf",
+        "m_eItemSlotType": "EItemSlotType_Armor",
+        "m_iItemTier": "EModTier_2",
+        "m_iUpdateTime": "1711502928",
+        "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_CONE",
+        "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_HERO_FRIENDLY",
+        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_ALLOW_SELF_CAST",
+        "m_flTargetingConeAngle": "45",
+        "m_strCSSClass": "savior",
+        "m_strAbilityImage": "file://{images}/upgrades/mods_armor/savior.psd",
+        "m_strCastSound": "Mods.Weapon.Ability.InstantReload.Cast",
+        "m_SaviorModifier": {
+            "_class": "modifier_savior",
+            "_my_subclass_name": "modifier_savior",
+            "m_bIsHidden": "true",
+            "m_BuffParticle": "particles/upgrades/savior_buff.vpcf",
+            "m_TrailParticle": "particles/upgrades/savior_cast_beam.vpcf",
+            "m_sStartSound": "Mods.Armor.Savior.Start",
+            "m_sAmbientLoopingSound": "Mods.Armor.Savior.Lp",
+            "m_sExpiredSound": "Mods.Armor.Savior.End",
+            "m_strHudMessageText": "#upgrade_savior",
+            "m_strParticleEffect": "particles/upgrades/vex_shield_buff.vpcf"
+        },
+        "m_AutoIntrinsicModifiers": [
+            {
+                "_my_subclass_name": "modifier_intrinsic_base",
+                "_class": "modifier_intrinsic_base",
+                "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
+                    "BonusHealth",
+                    "BonusSprintSpeed",
+                    "TechRangeMultiplier",
+                    "TechRadiusMultiplier"
+                ]
+            }
+        ],
+        "m_vecTooltipSectionInfo": [
+            {
+                "m_eAbilitySectionType": "EArea_Innate",
+                "m_vecSectionAttributes": [
+                    {
+                        "m_vecAbilityProperties": [
+                            "TechRangeMultiplier",
+                            "BonusHealth",
+                            "BonusSprintSpeed"
+                        ]
+                    }
+                ]
+            },
+            {
+                "m_eAbilitySectionType": "EArea_Active",
+                "m_vecSectionAttributes": [
+                    {
+                        "m_strLocString": "#upgrade_savior_desc",
+                        "m_vecImportantAbilityProperties": [
+                            {
+                                "m_strImportantProperty": "SaviorBulletShieldHealth"
+                            },
+                            {
+                                "m_strImportantProperty": "SaviorMagicShieldHealth"
+                            },
+                            {
+                                "m_strImportantProperty": "BonusMoveSpeed"
+                            }
+                        ],
+                        "m_vecAbilityProperties": [
+                            "AbilityCooldown",
+                            "BuffDuration",
+                            "AbilityCastRange"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "m_eShopFilters": "EShopFilterDurability | EShopFilterMovement"
+    }
+}

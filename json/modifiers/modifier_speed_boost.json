@@ -1,0 +1,10 @@
+{
+    "modifier_speed_boost": {
+        "_class": "modifier_citadel_speed_boost",
+        "m_bIsHidden": "true",
+        "m_nAttributes": "MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED",
+        "m_eDebuffType": "MODIFIER_DEBUFF_ENEMY_TEAM_ONLY",
+        "m_flMoveSpeedBoost": "50.000000",
+        "m_strParticleEffect": "particles/generic/sprint.vpcf"
+    }
+}

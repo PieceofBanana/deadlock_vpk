@@ -1,0 +1,674 @@
+{
+    "citadel_ability_melee_bebop": {
+        "_class": "citadel_ability_hold_melee",
+        "m_mapAbilityProperties": {
+            "AbilityCooldown": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldown_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldown"
+                }
+            },
+            "AbilityDuration": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "duration",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            },
+            "AbilityCastRange": {
+                "m_strValue": "0",
+                "m_eDisplayUnits": "EDisplayUnit_Meters",
+                "m_strCSSClass": "range",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCastRange_scale_function",
+                    "m_eSpecificStatScaleType": "ETechRange"
+                }
+            },
+            "AbilityUnitTargetLimit": {
+                "m_strValue": "1",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityCastDelay": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityChannelTime": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_multi_stats",
+                    "_my_subclass_name": "scale_duration",
+                    "m_vecScalingStats": [
+                        "EChannelDuration",
+                        "ETechDuration"
+                    ]
+                }
+            },
+            "AbilityPostCastDuration": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0"
+            },
+            "AbilityCharges": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCharges_scale_function",
+                    "m_eSpecificStatScaleType": "EMaxChargesIncrease"
+                }
+            },
+            "AbilityCooldownBetweenCharge": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "charge_cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldownBetweenCharge_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldownBetweenChargeUses"
+                }
+            },
+            "ChannelMoveSpeed": {
+                "m_strValue": "50",
+                "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond",
+                "m_strCSSClass": "move_speed",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityResourceCost": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_strCSSClass": "cast"
+            },
+            "TechPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_POWER"
+            },
+            "WeaponPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
+            },
+            "MeleeHalfAngle": {
+                "m_strValue": "30"
+            },
+            "MeleeAttackLength": {
+                "m_strValue": "5m",
+                "m_strCSSClass": "distance",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "MeleeAttackLength_scale_function",
+                    "m_eSpecificStatScaleType": "EMeleeRange"
+                }
+            },
+            "MeleeDamageTakenScale": {
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_MELEE_DAMAGE_INCREASE_PERCENT",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional",
+                "m_strValue": "35"
+            }
+        },
+        "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
+        "_editor": {
+            "folder_name": "Hero Bebop"
+        },
+        "m_WeaponInfo": {
+            "m_BulletSpeedCurve": {
+                "m_spline": [
+                    {
+                        "x": "0.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    },
+                    {
+                        "x": "100.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    }
+                ],
+                "m_tangents": [
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    },
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    }
+                ],
+                "m_vDomainMins": [
+                    "0.000000",
+                    "0.000000"
+                ],
+                "m_vDomainMaxs": [
+                    "100.000000",
+                    "10000.000000"
+                ]
+            }
+        },
+        "_multibase": [
+            "inherent_base",
+            "citadel_hold_melee"
+        ],
+        "m_eAbilityType": "EAbilityType_Weapon",
+        "m_bStartTrained": "true",
+        "m_iMaxLevel": "1",
+        "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
+        "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_SELF",
+        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
+        "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY | CITADEL_UNIT_TARGET_TROPHY_ENEMY",
+        "m_nAbilityTargetFlags": "CITADEL_UNIT_TARGET_FLAG_PENETRATE_INVULNERABLE",
+        "m_bitsInterruptingStates": "MODIFIER_STATE_STUNNED | MODIFIER_STATE_IS_ASLEEP",
+        "m_strAbilityImage": "file://{images}/hud/abilities/melee_damage.psd",
+        "m_MeleeDamageFlags": "DFLAG_TRIGGER_FLINCH",
+        "m_flCollisionDistance": "50.000000",
+        "m_cameraSequenceHoldStart": {
+            "m_vecFOVOperations": [
+                {
+                    "m_flMaintainDuration": "0.100000",
+                    "m_eCameraOperation": "k_ECameraOp_Maintain"
+                },
+                {
+                    "m_flLerpDuration": "0.500000",
+                    "m_bLerpEndAtDefault": "false",
+                    "m_flLerpEnd": "90.000000",
+                    "m_flLerpBias": "0.784000",
+                    "m_eCameraOperation": "k_ECameraOp_Lerp"
+                },
+                {
+                    "m_eCameraOperation": "k_ECameraOp_Spring"
+                }
+            ],
+            "m_vecDistanceOperations": [
+                {
+                    "m_flMaintainDuration": "0.100000",
+                    "m_eCameraOperation": "k_ECameraOp_Maintain"
+                },
+                {
+                    "m_bLerpEndAtDefault": "false",
+                    "m_flLerpEnd": "75.000000",
+                    "m_flLerpDuration": "0.500000",
+                    "m_flLerpBias": "0.784000",
+                    "m_eCameraOperation": "k_ECameraOp_Lerp"
+                },
+                {
+                    "m_eCameraOperation": "k_ECameraOp_Spring"
+                }
+            ]
+        },
+        "m_strHoldBegin": "Player.Melee.Hold.Shared",
+        "m_HoldBeginEffect": "particles/abilities/melee/melee_heavy_activate_charge.vpcf",
+        "m_cameraSequenceHitImpact": {
+            "m_vecDistanceOperations": [
+                {
+                    "m_bValuesAreRelative": "true",
+                    "m_flApproachTarget": "-20.000000"
+                },
+                {
+                    "m_eCameraOperation": "k_ECameraOp_Approach",
+                    "m_flMaintainDuration": "1.000000",
+                    "m_flApproachTarget": "20.000000",
+                    "m_bValuesAreRelative": "true"
+                }
+            ]
+        },
+        "m_ParryVictimModifier": {
+            "_my_subclass_name": "modifier_citadel_parried_stun",
+            "_class": "modifier_citadel_stunned",
+            "m_strParticleEffect": "particles/abilities/melee/melee_parry_debuff.vpcf",
+            "m_OnCreateResponse": {
+                "m_nConcept": "TLK_CITADEL_INTERACT_WITH_ABILITY",
+                "m_nSpeakerType": "MODIFIER_RR_SPEAKER_CASTER"
+            },
+            "m_vecSetAndTrackedAnimGraphParams": [
+                {
+                    "m_strName": "b_Stumble",
+                    "m_strSetValue": "1",
+                    "m_strRestoreValue": "0"
+                }
+            ],
+            "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
+                "MeleeDamageTakenScale"
+            ]
+        },
+        "m_SuccessfulParryParticle": "particles/abilities/melee/melee_parry_success.vpcf",
+        "m_strSuccessfulParrySound": "Player.Melee.Parry.Shared",
+        "m_flParryWindow": "0.280000",
+        "m_flParryStunTime": "1.100000",
+        "m_ParryActivateParticle": "particles/abilities/melee/melee_parry_attack.vpcf",
+        "m_AirMeleeUpScale": [
+            "20.000000",
+            "-45.000000",
+            "1.000000",
+            "0.100000"
+        ],
+        "m_mapAttacks": {
+            "EAttackType_Light": {
+                "m_Trigger": "light",
+                "m_flCooldownOnHit": "0.750000",
+                "m_flCooldownOnMiss": "0.750000",
+                "m_SpeedBonusCurve": {
+                    "m_spline": [
+                        {
+                            "x": "0.000000",
+                            "y": "0.000000",
+                            "m_flSlopeIncoming": "0.000000",
+                            "m_flSlopeOutgoing": "0.000000"
+                        },
+                        {
+                            "x": "0.224286",
+                            "y": "0.000000",
+                            "m_flSlopeIncoming": "-1296.296265",
+                            "m_flSlopeOutgoing": "-1296.296265"
+                        },
+                        {
+                            "x": "0.231429",
+                            "y": "-300.000000",
+                            "m_flSlopeIncoming": "0.000000",
+                            "m_flSlopeOutgoing": "0.000000"
+                        },
+                        {
+                            "x": "0.705714",
+                            "y": "0.000000",
+                            "m_flSlopeIncoming": "632.530090",
+                            "m_flSlopeOutgoing": "632.530090"
+                        }
+                    ],
+                    "m_tangents": [
+                        {
+                            "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                            "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                        },
+                        {
+                            "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                            "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                        },
+                        {
+                            "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                            "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                        },
+                        {
+                            "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                            "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                        }
+                    ],
+                    "m_vDomainMins": [
+                        "0.000000",
+                        "-300.000000"
+                    ],
+                    "m_vDomainMaxs": [
+                        "1.000000",
+                        "0.000000"
+                    ]
+                },
+                "m_MovementSpeedCurve": {
+                    "m_spline": [
+                        {
+                            "x": "0.000000",
+                            "y": "128.545456",
+                            "m_flSlopeIncoming": "2650.541992",
+                            "m_flSlopeOutgoing": "2650.541992"
+                        },
+                        {
+                            "x": "0.140143",
+                            "y": "500.000000",
+                            "m_flSlopeIncoming": "1689.520264",
+                            "m_flSlopeOutgoing": "1689.520264"
+                        },
+                        {
+                            "x": "0.219858",
+                            "y": "500.000000",
+                            "m_flSlopeIncoming": "-6140.309082",
+                            "m_flSlopeOutgoing": "-6140.309082"
+                        },
+                        {
+                            "x": "0.221572",
+                            "y": "0.000000",
+                            "m_flSlopeIncoming": "-291716.781250",
+                            "m_flSlopeOutgoing": "-291716.781250"
+                        }
+                    ],
+                    "m_tangents": [
+                        {
+                            "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                            "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                        },
+                        {
+                            "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                            "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                        },
+                        {
+                            "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                            "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                        },
+                        {
+                            "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                            "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                        }
+                    ],
+                    "m_vDomainMins": [
+                        "0.000000",
+                        "0.000000"
+                    ],
+                    "m_vDomainMaxs": [
+                        "0.300000",
+                        "500.000000"
+                    ]
+                },
+                "m_MeleeActivateParticle": "",
+                "m_strHitSound": "Ability.Melee.Impact.Player",
+                "m_MeleeImpactParticle": "particles/abilities/melee_impact.vpcf",
+                "m_flAttackStateTime": "0.500000",
+                "m_MeleeSwingParticle": "particles/abilities/melee_quick.vpcf",
+                "m_strHitDebrisSound": "Player.Melee.Hit.Physics",
+                "m_strHitHeroSound": "Ability.Melee.Impact.Player"
+            },
+            "EAttackType_Heavy": {
+                "m_cameraSequenceAttackStart": {
+                    "m_vecTargetPosOperations": [
+                        {
+                            "m_flLagMinDuration": "0.200000",
+                            "m_flLagTime": "0.100000",
+                            "m_flLagMaxSpeed": "20.000000",
+                            "m_flLagSpringStrength": "5.000000",
+                            "m_eCameraOperation": "k_ECameraOp_Lag"
+                        }
+                    ],
+                    "m_vecFOVOperations": []
+                },
+                "m_Trigger": "heavy",
+                "m_flCooldownOnHit": "0.900000",
+                "m_flCooldownOnMiss": "0.900000",
+                "m_bApplyScreenShake": "true",
+                "m_SpeedBonusCurve": {
+                    "m_spline": [
+                        {
+                            "x": "0.000000",
+                            "y": "-300.000000",
+                            "m_flSlopeIncoming": "0.000000",
+                            "m_flSlopeOutgoing": "0.000000"
+                        },
+                        {
+                            "x": "0.271158",
+                            "y": "-300.000000",
+                            "m_flSlopeIncoming": "669.143250",
+                            "m_flSlopeOutgoing": "669.143250"
+                        },
+                        {
+                            "x": "0.345788",
+                            "y": "-68.618172",
+                            "m_flSlopeIncoming": "1323.338623",
+                            "m_flSlopeOutgoing": "1323.338623"
+                        },
+                        {
+                            "x": "0.497857",
+                            "y": "0.000000",
+                            "m_flSlopeIncoming": "451.231018",
+                            "m_flSlopeOutgoing": "451.231018"
+                        }
+                    ],
+                    "m_tangents": [
+                        {
+                            "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                            "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                        },
+                        {
+                            "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                            "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                        },
+                        {
+                            "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                            "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                        },
+                        {
+                            "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                            "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                        }
+                    ],
+                    "m_vDomainMins": [
+                        "0.000000",
+                        "-300.000000"
+                    ],
+                    "m_vDomainMaxs": [
+                        "0.500000",
+                        "0.000000"
+                    ]
+                },
+                "m_MovementSpeedCurve": {
+                    "m_spline": [
+                        {
+                            "x": "0.000080",
+                            "y": "470.109070",
+                            "m_flSlopeIncoming": "1842.533813",
+                            "m_flSlopeOutgoing": "1842.533813"
+                        },
+                        {
+                            "x": "0.179122",
+                            "y": "800.000000",
+                            "m_flSlopeIncoming": "940.240601",
+                            "m_flSlopeOutgoing": "940.240601"
+                        },
+                        {
+                            "x": "0.350938",
+                            "y": "800.000000",
+                            "m_flSlopeIncoming": "-4623.689453",
+                            "m_flSlopeOutgoing": "-4623.689453"
+                        },
+                        {
+                            "x": "0.352144",
+                            "y": "0.000000",
+                            "m_flSlopeIncoming": "-663344.125000",
+                            "m_flSlopeOutgoing": "-663344.125000"
+                        }
+                    ],
+                    "m_tangents": [
+                        {
+                            "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                            "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                        },
+                        {
+                            "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                            "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                        },
+                        {
+                            "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                            "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                        },
+                        {
+                            "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                            "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                        }
+                    ],
+                    "m_vDomainMins": [
+                        "0.000000",
+                        "0.000000"
+                    ],
+                    "m_vDomainMaxs": [
+                        "0.400000",
+                        "800.000000"
+                    ]
+                },
+                "m_flAttackEventTime": "0.950000",
+                "bIsHeavyAttack": "true",
+                "m_strActivateSound": "",
+                "m_flMovementAcc": "200000.000000",
+                "m_strHitSound": "Ability.Melee.Impact.Player",
+                "m_strDashStart": "Player.AirJump.Execute.Whoosh",
+                "m_MeleeSwingParticle": "particles/abilities/melee_swing_heavy.vpcf",
+                "m_MeleeActivateParticle": "",
+                "m_MeleeImpactParticle": "particles/abilities/melee/melee_impact_heavy.vpcf",
+                "m_strHitHeroSound": "Ability.Melee.Impact.Player",
+                "m_strHitDebrisSound": "Player.Melee.Hit.Physics",
+                "m_MeleeAttackParticle": "particles/abilities/melee/melee_heavy_activate.vpcf"
+            },
+            "EAttackType_HeavyAir": {
+                "m_Trigger": "heavy",
+                "bIsHeavyAttack": "true",
+                "m_flCooldownOnHit": "0.900000",
+                "m_flCooldownOnMiss": "0.900000",
+                "m_bApplyScreenShake": "true",
+                "m_SpeedBonusCurve": {
+                    "m_spline": [
+                        {
+                            "x": "0.000000",
+                            "y": "-300.000000",
+                            "m_flSlopeIncoming": "0.000000",
+                            "m_flSlopeOutgoing": "0.000000"
+                        },
+                        {
+                            "x": "0.199155",
+                            "y": "-300.000000",
+                            "m_flSlopeIncoming": "707.983032",
+                            "m_flSlopeOutgoing": "707.983032"
+                        },
+                        {
+                            "x": "0.303474",
+                            "y": "-85.145447",
+                            "m_flSlopeIncoming": "1004.345276",
+                            "m_flSlopeOutgoing": "1004.345276"
+                        },
+                        {
+                            "x": "0.497857",
+                            "y": "0.000000",
+                            "m_flSlopeIncoming": "438.029633",
+                            "m_flSlopeOutgoing": "438.029633"
+                        }
+                    ],
+                    "m_tangents": [
+                        {
+                            "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                            "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                        },
+                        {
+                            "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                            "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                        },
+                        {
+                            "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                            "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                        },
+                        {
+                            "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                            "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                        }
+                    ],
+                    "m_vDomainMins": [
+                        "0.000000",
+                        "-300.000000"
+                    ],
+                    "m_vDomainMaxs": [
+                        "0.500000",
+                        "0.000000"
+                    ]
+                },
+                "m_MovementSpeedCurve": {
+                    "m_spline": [
+                        {
+                            "x": "0.000000",
+                            "y": "337.890869",
+                            "m_flSlopeIncoming": "2661.166016",
+                            "m_flSlopeOutgoing": "2661.166016"
+                        },
+                        {
+                            "x": "0.173649",
+                            "y": "800.000000",
+                            "m_flSlopeIncoming": "1357.308105",
+                            "m_flSlopeOutgoing": "1357.308105"
+                        },
+                        {
+                            "x": "0.340460",
+                            "y": "800.000000",
+                            "m_flSlopeIncoming": "-4768.748535",
+                            "m_flSlopeOutgoing": "-4768.748535"
+                        },
+                        {
+                            "x": "0.341408",
+                            "y": "0.000000",
+                            "m_flSlopeIncoming": "-843871.312500",
+                            "m_flSlopeOutgoing": "-843871.312500"
+                        }
+                    ],
+                    "m_tangents": [
+                        {
+                            "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                            "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                        },
+                        {
+                            "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                            "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                        },
+                        {
+                            "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                            "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                        },
+                        {
+                            "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                            "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                        }
+                    ],
+                    "m_vDomainMins": [
+                        "0.000000",
+                        "0.000000"
+                    ],
+                    "m_vDomainMaxs": [
+                        "0.400000",
+                        "800.000000"
+                    ]
+                },
+                "m_flMovementAcc": "200000.000000",
+                "m_cameraSequenceAttackStart": {
+                    "m_vecDistanceOperations": [],
+                    "m_vecFOVOperations": [
+                        {
+                            "m_bValuesAreRelative": "true",
+                            "m_flApproachTarget": "-10.000000",
+                            "m_flApproachSpeed": "5.000000",
+                            "m_flApproachAcceleration": "10.000000"
+                        },
+                        {
+                            "m_eCameraOperation": "k_ECameraOp_Maintain",
+                            "m_flMaintainDuration": "5.000000"
+                        }
+                    ]
+                },
+                "m_flAttackStateTime": "0.300000",
+                "m_strHitHeroSound": "Ability.Melee.Impact.Player",
+                "m_MeleeAttackParticle": "particles/abilities/melee/melee_heavy_activate.vpcf"
+            }
+        },
+        "m_HUDPanel": {
+            "m_vecButtonHints": [
+                {
+                    "m_strLocToken": "#AbilityButtonHint_MeleeRejuvinator",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strBindingOverride1": "in_weapon1",
+                    "m_strContext": "melee_rejuv"
+                }
+            ]
+        },
+        "m_projectileInfo": {
+            "m_LoopingSound": ""
+        }
+    }
+}

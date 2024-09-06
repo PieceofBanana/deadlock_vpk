@@ -1,0 +1,391 @@
+{
+    "citadel_ability_chrono_pulse_grenade": {
+        "_class": "citadel_ability_chrono_pulse_grenade",
+        "m_mapAbilityProperties": {
+            "AbilityCooldown": {
+                "m_strValue": "26",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldown_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldown"
+                }
+            },
+            "AbilityDuration": {
+                "m_strValue": "4",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "duration",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": "",
+                "m_bIsHidden": "true"
+            },
+            "AbilityCastRange": {
+                "m_strValue": "0",
+                "m_eDisplayUnits": "EDisplayUnit_Meters",
+                "m_strCSSClass": "range",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCastRange_scale_function",
+                    "m_eSpecificStatScaleType": "ETechRange"
+                }
+            },
+            "AbilityUnitTargetLimit": {
+                "m_strValue": "1",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityCastDelay": {
+                "m_strValue": "0.2",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityChannelTime": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_multi_stats",
+                    "_my_subclass_name": "scale_duration",
+                    "m_vecScalingStats": [
+                        "EChannelDuration",
+                        "ETechDuration"
+                    ]
+                }
+            },
+            "AbilityPostCastDuration": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0"
+            },
+            "AbilityCharges": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCharges_scale_function",
+                    "m_eSpecificStatScaleType": "EMaxChargesIncrease"
+                }
+            },
+            "AbilityCooldownBetweenCharge": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "charge_cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldownBetweenCharge_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldownBetweenChargeUses"
+                }
+            },
+            "ChannelMoveSpeed": {
+                "m_strValue": "50",
+                "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond",
+                "m_strCSSClass": "move_speed",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityResourceCost": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_strCSSClass": "cast"
+            },
+            "TechPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_POWER"
+            },
+            "WeaponPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
+            },
+            "Radius": {
+                "m_strValue": "7m",
+                "m_strCSSClass": "distance",
+                "m_subclassScaleFunction": {
+                    "_my_subclass_name": "Radius_scale_function",
+                    "_class": "scale_function_single_stat",
+                    "m_eSpecificStatScaleType": "ETechRadius"
+                }
+            },
+            "PulseInterval": {
+                "m_strValue": "0.8",
+                "m_strCSSClass": "duration",
+                "m_eDisplayType": "ETechDuration"
+            },
+            "PulseDamage": {
+                "m_strValue": "45",
+                "m_strCSSClass": "tech_damage",
+                "m_subclassScaleFunction": {
+                    "_my_subclass_name": "PulseDamage_scale_function",
+                    "_class": "scale_function_tech_damage",
+                    "m_eSpecificStatScaleType": "ETechPower",
+                    "m_flStatScale": "0.458640"
+                }
+            },
+            "Pulses": {
+                "m_strValue": "4"
+            },
+            "DamageAmplificationPerStack": {
+                "m_strLocTokenOverride": "PulseGrenadeDamageAmplificationPerStack",
+                "m_strValue": "5"
+            },
+            "DebuffDuration": {
+                "m_strLocTokenOverride": "PulseGrenadeDebuffDuration",
+                "m_strValue": "8.0",
+                "m_strCSSClass": "duration",
+                "m_subclassScaleFunction": {
+                    "_my_subclass_name": "DebuffDuration_scale",
+                    "_class": "scale_function_single_stat",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            },
+            "SlowPercent": {
+                "m_strValue": "30",
+                "m_strCSSClass": "slow",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
+            },
+            "MovementSlowDuration": {
+                "m_strValue": "2.0",
+                "m_strCSSClass": "duration",
+                "m_subclassScaleFunction": {
+                    "_my_subclass_name": "MovementSlowDuration_scale_function",
+                    "_class": "scale_function_single_stat",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            },
+            "BossDamagePercent": {
+                "m_strValue": "50"
+            }
+        },
+        "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
+        "_editor": {
+            "folder_name": "Hero Chrono"
+        },
+        "m_WeaponInfo": {
+            "m_BulletSpeedCurve": {
+                "m_spline": [
+                    {
+                        "x": "0.000000",
+                        "y": "1600.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    },
+                    {
+                        "x": "100.000000",
+                        "y": "1600.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    }
+                ],
+                "m_tangents": [
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    },
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    }
+                ],
+                "m_vDomainMins": [
+                    "0.000000",
+                    "0.000000"
+                ],
+                "m_vDomainMaxs": [
+                    "100.000000",
+                    "1600.000000"
+                ]
+            },
+            "m_szBulletTravelTracerParticle": "particles/abilities/chrono/chrono_time_bomb_projectile.vpcf",
+            "m_flBulletGravityScale": "1.000000",
+            "m_flBulletRadius": "1.500000",
+            "m_flBulletRadiusVsWorld": "1.500000",
+            "m_mapImpactEffects": {
+                "default": {}
+            },
+            "m_eAttachmentSourceType": "EAttachmentSource_Custom",
+            "m_flVerticalAimBias": "10.000000"
+        },
+        "m_strCancelAbilityKey": "+in_cancel_ability",
+        "m_HUDPanel": {
+            "m_vecButtonHints": [
+                {
+                    "m_strContext": "throw",
+                    "m_eButton1": "EButtonHint_Attack",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_Throw"
+                },
+                {
+                    "m_strContext": "deploy",
+                    "m_eButton1": "EButtonHint_Attack",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_Deploy"
+                },
+                {
+                    "m_strContext": "cast_on_target",
+                    "m_eButton1": "EButtonHint_Attack",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_CastOnTarget",
+                    "m_bShowAsUnitTargetActivationHint": "true",
+                    "m_bShowAbilityIcon": "true"
+                },
+                {
+                    "m_strContext": "alt_cast_hold_hint",
+                    "m_eButton1": "EButtonHint_AbilityKey",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_HoldToSelfCast"
+                },
+                {
+                    "m_strContext": "alt_cast_double_tap_hint",
+                    "m_eButton1": "EButtonHint_AbilityKey",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_DoubleTapToSelfCast"
+                },
+                {
+                    "m_strContext": "alt_cast_modifier_key_hint",
+                    "m_strBindingOverride1": "in_alt_cast_modifier",
+                    "m_eButton2": "EButtonHint_AbilityKey",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_eButtonHintType": "EButtonHintType_TwoButtonCombination",
+                    "m_strLocToken": "#AbilityButtonHint_ModifierKeyToSelfCast"
+                },
+                {
+                    "m_strContext": "alt_cast_select_then_alt_cast_key_hint",
+                    "m_strBindingOverride1": "in_alt_cast",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_SelectThenSelfCastButton"
+                },
+                {
+                    "m_strContext": "deselect",
+                    "m_eButton1": "EButtonHint_AbilityKey",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_Deselect",
+                    "m_nPriority": "1"
+                },
+                {
+                    "m_strLocToken": "#AbilityButtonHint_Activate",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_eButton1": "EButtonHint_AbilityKey",
+                    "m_strContext": "unit_target_activate",
+                    "m_bShowAsUnitTargetActivationHint": "true",
+                    "m_bShowAbilityIcon": "true"
+                }
+            ]
+        },
+        "_multibase": [
+            "signature_base"
+        ],
+        "m_bStartTrained": "false",
+        "m_nAbilityPointsCost": "0",
+        "m_nAbillityUnlocksCost": "1",
+        "m_eAbilityType": "EAbilityType_Signature",
+        "m_iMaxLevel": "1",
+        "m_bitsInterruptingStates": "MODIFIER_STATE_STUNNED",
+        "m_PreviewPathParticle": "particles/generic/generic_arc.vpcf",
+        "m_strAbilityOffCooldownSound": "",
+        "m_strAbilityChargeReadySound": "",
+        "m_skillshotMissParticle": "particles/abilities/skillshot_default_miss_owner.vpcf",
+        "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_CIRCLE",
+        "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_NONE",
+        "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_PRESS",
+        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_PROJECTILE_FIRED_AS_BULLET",
+        "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
+        "m_bShowTargetingPreviewWhileCasting": "true",
+        "m_iUpdateTime": "1678490324",
+        "m_strCastAnimGraphParam": "e_CastTimeBomb",
+        "m_strAbilityImage": "file://{images}/hud/abilities/chrono/chrono_time_bomb.psd",
+        "m_vecAbilityUpgrades": [
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "Pulses",
+                        "m_strBonus": "1"
+                    }
+                ]
+            },
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "AbilityCooldown",
+                        "m_strBonus": "-8"
+                    }
+                ]
+            },
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "PulseDamage",
+                        "m_strBonus": "45"
+                    }
+                ]
+            }
+        ],
+        "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/chrono_time_bomb.webm",
+        "m_AbilityTooltipDetails": {
+            "m_vecAbilityInfoSections": [
+                {
+                    "m_strLocString": "#citadel_ability_chrono_pulse_grenade_desc",
+                    "m_vecAbilityPropertiesBlock": [
+                        {
+                            "m_vecAbilityProperties": [
+                                {
+                                    "m_strImportantProperty": "PulseDamage"
+                                },
+                                {
+                                    "m_strImportantProperty": "Pulses"
+                                },
+                                {
+                                    "m_strImportantProperty": "DamageAmplificationPerStack"
+                                }
+                            ]
+                        }
+                    ],
+                    "m_vecBasicProperties": [
+                        "PulseInterval",
+                        "DebuffDuration",
+                        "SlowPercent",
+                        "MovementSlowDuration"
+                    ]
+                }
+            ]
+        },
+        "m_strSecondaryStatName": "citadel_ability_chrono_pulse_grenade_AMP",
+        "m_PulseAreaModifier": {
+            "_class": "modifier_chrono_pulse_grenade_pulse_area",
+            "_my_subclass_name": "modifier_chrono_pulse_grenade_pulse_area",
+            "m_strLoopingSound": "Ability.TimeTrap.Active.lp",
+            "m_strHitSound": "",
+            "m_AreaEffect": "particles/abilities/chrono/chrono_time_bomb_aoe.vpcf",
+            "m_PreviewRingParticle": "particles/abilities/chrono/chrono_time_bomb_preview.vpcf",
+            "m_strArmedSound": "Ability.TimeTrap.Trigger",
+            "m_strArmingSound": "Chrono.TimeTrap.Armed",
+            "m_strParticleEffect": "particles/abilities/chrono/chrono_time_bomb_projectile.vpcf",
+            "m_DebuffModifier": {
+                "_my_subclass_name": "modifier_chrono_pulse_grenade_debuff",
+                "_class": "modifier_chrono_pulse_grenade_debuff",
+                "m_strParticleEffect": "particles/upgrades/tech_resist_debuff.vpcf",
+                "m_sLocalizationName": "citadel_ability_chrono_pulse_grenade",
+                "m_eDrawOverheadStatus": "OVERHEAD_DRAW_FOR_CASTER_ONLY",
+                "m_strSmallIconCssClass": "escalating_exposure"
+            },
+            "m_SlowModifier": {
+                "_class": "modifier_slow_base",
+                "_my_subclass_name": "slow",
+                "m_bIsHidden": "true",
+                "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
+                    "SlowPercent"
+                ]
+            }
+        },
+        "m_previewParticle": "particles/abilities/chrono/chrono_time_bomb_projectile_preview.vpcf"
+    }
+}

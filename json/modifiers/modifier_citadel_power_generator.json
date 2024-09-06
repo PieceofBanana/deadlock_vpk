@@ -1,0 +1,6 @@
+{
+    "modifier_citadel_power_generator": {
+        "_class": "modifier_citadel_power_generator",
+        "m_EffectToTitan": "particles/npc/tier3boss/tier3_boss_generator_beam.vpcf"
+    }
+}

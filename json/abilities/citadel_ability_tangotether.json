@@ -1,0 +1,464 @@
+{
+    "citadel_ability_tangotether": {
+        "_class": "citadel_ability_tangotether",
+        "m_mapAbilityProperties": {
+            "AbilityCooldown": {
+                "m_strValue": "35",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldown_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldown"
+                }
+            },
+            "AbilityDuration": {
+                "m_strValue": "12",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "duration",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            },
+            "AbilityCastRange": {
+                "m_strValue": "16m",
+                "m_eDisplayUnits": "EDisplayUnit_Meters",
+                "m_strCSSClass": "range",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCastRange_scale_function",
+                    "m_eSpecificStatScaleType": "ETechRange"
+                },
+                "m_strLocTokenOverride": "TetherDistance"
+            },
+            "AbilityUnitTargetLimit": {
+                "m_strValue": "1",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityCastDelay": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityChannelTime": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_multi_stats",
+                    "_my_subclass_name": "scale_duration",
+                    "m_vecScalingStats": [
+                        "EChannelDuration",
+                        "ETechDuration"
+                    ]
+                }
+            },
+            "AbilityPostCastDuration": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0"
+            },
+            "AbilityCharges": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCharges_scale_function",
+                    "m_eSpecificStatScaleType": "EMaxChargesIncrease"
+                }
+            },
+            "AbilityCooldownBetweenCharge": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "charge_cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldownBetweenCharge_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldownBetweenChargeUses"
+                }
+            },
+            "ChannelMoveSpeed": {
+                "m_strValue": "50",
+                "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond",
+                "m_strCSSClass": "move_speed",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityResourceCost": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_strCSSClass": "cast"
+            },
+            "TechPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_POWER"
+            },
+            "WeaponPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
+            },
+            "BonusFireRate": {
+                "m_strValue": "10",
+                "m_strCSSClass": "fireRate",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_FIRE_RATE",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "BonusFireRate_scale_function",
+                    "m_eSpecificStatScaleType": "ETechPower",
+                    "m_flStatScale": "0.200000"
+                }
+            },
+            "BulletLifestealPercent": {
+                "m_strValue": "15",
+                "m_strCSSClass": "healing",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_BULLET_LIFESTEAL",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_multi_stats",
+                    "_my_subclass_name": "BulletLifestealPercent_scale_function",
+                    "m_vecScalingStats": [
+                        "EHealingOutput",
+                        "ETechPower"
+                    ],
+                    "m_eSpecificStatScaleType": "ETechPower",
+                    "m_flStatScale": "0.180000"
+                }
+            },
+            "MoveSpeedBonus": {
+                "m_strValue": "0m",
+                "m_strCSSClass": "move_speed",
+                "m_eDisplayType": "EMaxMoveSpeed",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_MOVEMENT_SPEED_MAX",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
+            },
+            "TickRate": {
+                "m_strValue": "0.1"
+            },
+            "TetherSharedHealPct": {
+                "m_strValue": "30",
+                "m_strCSSClass": "healing"
+            },
+            "HealingPerGlub": {
+                "m_strValue": "20"
+            },
+            "TotalTetherTargets": {
+                "m_strValue": "1"
+            }
+        },
+        "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
+        "_editor": {
+            "folder_name": "Hero Tengu"
+        },
+        "m_WeaponInfo": {
+            "m_BulletSpeedCurve": {
+                "m_spline": [
+                    {
+                        "x": "0.000000",
+                        "y": "4000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    },
+                    {
+                        "x": "100.000000",
+                        "y": "4000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    }
+                ],
+                "m_tangents": [
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    },
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    }
+                ],
+                "m_vDomainMins": [
+                    "0.000000",
+                    "0.000000"
+                ],
+                "m_vDomainMaxs": [
+                    "100.000000",
+                    "4000.000000"
+                ]
+            },
+            "m_flBulletLifetime": "1.000000",
+            "m_szBulletTravelTracerParticle": "particles/abilities/shiv/shiv_thrown_shiv.vpcf",
+            "m_flBulletGravityScale": "0.300000",
+            "m_iClipSize": "1",
+            "m_flBulletRadius": "32",
+            "m_flRange": "10000",
+            "m_flDamageFalloffStartRange": "-1.000000",
+            "m_flDamageFalloffEndRange": "-1.000000",
+            "m_vecScatterOffsets": [
+                [
+                    "0.000000",
+                    "0.000000"
+                ],
+                [
+                    "1.000000",
+                    "0.000000"
+                ],
+                [
+                    "-1.000000",
+                    "0.000000"
+                ]
+            ],
+            "m_flPelletScatterFactor": "2.000000",
+            "m_bHitOnceAcrossAllBullets": "true",
+            "m_mapImpactEffects": {
+                "default": {
+                    "m_strSound": "Orion.Charged.Shot.Proj.Impact"
+                }
+            },
+            "m_strBulletWhizSound": "Orion.Charged.Shot.Whizby",
+            "m_strLocalPlayerBulletImpactSound": "Orion.Charged.Shot.Proj.Impact",
+            "m_szMuzzleFlashEffectName": "",
+            "m_strWeaponImpactEffect": ""
+        },
+        "m_strCancelAbilityKey": "+in_cancel_ability",
+        "m_HUDPanel": {
+            "m_vecButtonHints": [
+                {
+                    "m_strContext": "throw",
+                    "m_eButton1": "EButtonHint_Attack",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_Throw"
+                },
+                {
+                    "m_strContext": "deploy",
+                    "m_eButton1": "EButtonHint_Attack",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_Deploy"
+                },
+                {
+                    "m_strContext": "cast_on_target",
+                    "m_eButton1": "EButtonHint_Attack",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_CastOnTarget",
+                    "m_bShowAsUnitTargetActivationHint": "true",
+                    "m_bShowAbilityIcon": "true"
+                },
+                {
+                    "m_strContext": "alt_cast_hold_hint",
+                    "m_eButton1": "EButtonHint_AbilityKey",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_HoldToSelfCast"
+                },
+                {
+                    "m_strContext": "alt_cast_double_tap_hint",
+                    "m_eButton1": "EButtonHint_AbilityKey",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_DoubleTapToSelfCast"
+                },
+                {
+                    "m_strContext": "alt_cast_modifier_key_hint",
+                    "m_strBindingOverride1": "in_alt_cast_modifier",
+                    "m_eButton2": "EButtonHint_AbilityKey",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_eButtonHintType": "EButtonHintType_TwoButtonCombination",
+                    "m_strLocToken": "#AbilityButtonHint_ModifierKeyToSelfCast"
+                },
+                {
+                    "m_strContext": "alt_cast_select_then_alt_cast_key_hint",
+                    "m_strBindingOverride1": "in_alt_cast",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_SelectThenSelfCastButton"
+                },
+                {
+                    "m_strContext": "deselect",
+                    "m_eButton1": "EButtonHint_AbilityKey",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_Deselect",
+                    "m_nPriority": "1"
+                },
+                {
+                    "m_strLocToken": "#AbilityButtonHint_Activate",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_eButton1": "EButtonHint_AbilityKey",
+                    "m_strContext": "unit_target_activate",
+                    "m_bShowAsUnitTargetActivationHint": "true",
+                    "m_bShowAbilityIcon": "true"
+                }
+            ]
+        },
+        "_multibase": [
+            "signature_base"
+        ],
+        "m_bStartTrained": "false",
+        "m_nAbilityPointsCost": "0",
+        "m_nAbillityUnlocksCost": "1",
+        "m_eAbilityType": "EAbilityType_Signature",
+        "m_iMaxLevel": "1",
+        "m_bitsInterruptingStates": "MODIFIER_STATE_IMMOBILIZED | MODIFIER_STATE_STUNNED | MODIFIER_STATE_IS_ASLEEP",
+        "m_PreviewPathParticle": "particles/generic/generic_arc.vpcf",
+        "m_strAbilityOffCooldownSound": "",
+        "m_strAbilityChargeReadySound": "",
+        "m_skillshotMissParticle": "particles/abilities/skillshot_default_miss_owner.vpcf",
+        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+        "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
+        "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_FRIENDLY",
+        "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_NONE",
+        "m_strAbilityImage": "file://{images}/hud/abilities/tengu/tengu_tether.psd",
+        "m_iUpdateTime": "1643091758",
+        "m_flJumpPitch": "-35.000000",
+        "m_flJumpSpeed": "1500.000000",
+        "m_flJumpAirDrag": "4.000000",
+        "m_flDashSpeed": "1200.000000",
+        "m_flJumpAirSpeedMax": "20.000000",
+        "m_flDashCloseEnoughToTarget": "300.000000",
+        "m_flDashLockOntoTargetDist": "250.000000",
+        "m_strCastDelaySound": "",
+        "m_vecAbilityUpgrades": [
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "BonusFireRate",
+                        "m_strBonus": "10"
+                    }
+                ]
+            },
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "MoveSpeedBonus",
+                        "m_strBonus": "2.0m"
+                    }
+                ]
+            },
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "TotalTetherTargets",
+                        "m_strBonus": "1"
+                    }
+                ]
+            }
+        ],
+        "m_bShowTargetingPreviewWhileCasting": "true",
+        "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_CONE",
+        "m_SlashParticle": "particles/abilities/yamato/yamato_nightmare_cast_blast.vpcf",
+        "m_TetherModifier": {
+            "_class": "citadel_modifier_tangotether_tether",
+            "_my_subclass_name": "citadel_modifier_tangotether_tether",
+            "m_strParticleStatusEffect": "particles/status_fx/status_fx_tengu_tether_buff.vpcf",
+            "m_sLocalizationName": "citadel_ability_tangotether",
+            "m_TetherSound": "Tengu.Tether.Dur.Lp",
+            "m_HealSound": "Tengu.Tether.Heal",
+            "m_HitIndicator": "Tengu.Tether.HitIndicator",
+            "m_GrappleHitSound": "Ability.Tengu.Tether.Attach",
+            "m_flMinConnectTime": "2.000000",
+            "m_flDisconnectDistanceBuffer": "100.000000",
+            "m_flTargetAwayDistance": "250.000000",
+            "m_flCandidateCloserDistance": "400.000000",
+            "m_BuffModifier": {
+                "_class": "citadel_modifier_tangotether_tether_receiver",
+                "_my_subclass_name": "citadel_modifier_tangotether_tether_receiver",
+                "m_bIsHidden": "true",
+                "m_strAttackBuffParticle": "particles/abilities/tengu/tengu_tether.vpcf",
+                "m_TetherSound": "Tengu.Tether.Dur.Lp",
+                "m_nEnabledStateMask": "MODIFIER_STATE_COOP_TETHER_ACTIVE",
+                "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
+                    "BonusFireRate",
+                    "BulletLifestealPercent",
+                    "MoveSpeedBonus"
+                ]
+            },
+            "m_LockedTargetModifier": {
+                "_class": "modifier_base",
+                "_my_subclass_name": "tether_locked_modifier",
+                "m_nEnabledStateMask": "MODIFIER_STATE_COOP_TETHER_LOCKED_TARGET",
+                "m_bIsHidden": "true"
+            },
+            "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER"
+        },
+        "m_GrappleTargetModifier": {
+            "_class": "citadel_modifier_tangotether_target",
+            "m_bIsHidden": "true",
+            "_my_subclass_name": "target",
+            "m_GrappleRopeParticle": "particles/abilities/tengu/tengu_tether_pull.vpcf",
+            "m_strHudMessageText": "#citadel_ability_tangotether"
+        },
+        "m_vecDependentAbilities": [
+            "citadel_ability_tangotether_trigger"
+        ],
+        "m_flBackswingDuration": "0.500000",
+        "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/tengu_tangotether.webm",
+        "m_strCastAnimGraphParam": "e_FlyingStrike",
+        "m_flAnimToStrikePointTime": "0.500000",
+        "m_cameraSequenceFlying": {
+            "m_vecTargetPosOperations": [
+                {
+                    "m_flLagMinDuration": "0.000000",
+                    "m_flLagTime": "0.200000",
+                    "m_flLagSpringStrength": "2.300000",
+                    "m_flLagMaxSpeed": "400.000000",
+                    "m_eCameraOperation": "k_ECameraOp_Lag"
+                }
+            ],
+            "m_vecFOVOperations": []
+        },
+        "m_cameraSequenceAttacking": {
+            "m_vecDistanceOperations": []
+        },
+        "m_flTargetingConeAngle": "30.000000",
+        "m_flJumpFallSpeedMax": "1.000000",
+        "m_strStartAttack": "Yamato.Decimate.Cast",
+        "m_strStartDash": "Tengu.Tether.Activate",
+        "m_BulletGrappleTracerParticle": "",
+        "m_strGrappleHitWorld": "Ability.Tengu.Tether.Attach",
+        "m_strGrappleHitNothing": "",
+        "m_EnemyGrappleParticle": "",
+        "m_flGrappleShotDelayToFlyOnHit": "0.250000",
+        "m_flGrappleShotFloatTime": "0.000000",
+        "m_flVelocityTurnSpringStrength": "20.000000",
+        "m_flAngleToSpeedScale": [
+            "0.000000",
+            "45.000000",
+            "1.000000",
+            "0.500000"
+        ],
+        "m_AbilityTooltipDetails": {
+            "m_vecAbilityInfoSections": [
+                {
+                    "m_strLocString": "#citadel_ability_tangotether_desc",
+                    "m_vecAbilityPropertiesBlock": [
+                        {
+                            "m_vecAbilityProperties": [
+                                {
+                                    "m_strImportantProperty": "BonusFireRate"
+                                },
+                                {
+                                    "m_strImportantProperty": "BulletLifestealPercent"
+                                },
+                                {
+                                    "m_strImportantProperty": "TetherSharedHealPct"
+                                }
+                            ]
+                        }
+                    ],
+                    "m_vecBasicProperties": [
+                        "MoveSpeedBonus",
+                        "TotalTetherTargets"
+                    ]
+                }
+            ]
+        }
+    }
+}

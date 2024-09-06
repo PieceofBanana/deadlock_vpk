@@ -1,0 +1,327 @@
+{
+    "upgrade_unstoppable": {
+        "_class": "upgrade_self_buff_modifier",
+        "m_mapAbilityProperties": {
+            "AbilityCooldown": {
+                "m_strValue": "60",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldown_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldown"
+                }
+            },
+            "AbilityDuration": {
+                "m_strValue": "6",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "duration",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            },
+            "AbilityCastRange": {
+                "m_strValue": "0",
+                "m_eDisplayUnits": "EDisplayUnit_Meters",
+                "m_strCSSClass": "range",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCastRange_scale_function",
+                    "m_eSpecificStatScaleType": "ETechRange"
+                }
+            },
+            "AbilityUnitTargetLimit": {
+                "m_strValue": "1",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityCastDelay": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityChannelTime": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_multi_stats",
+                    "_my_subclass_name": "scale_duration",
+                    "m_vecScalingStats": [
+                        "EChannelDuration",
+                        "ETechDuration"
+                    ]
+                }
+            },
+            "AbilityPostCastDuration": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0"
+            },
+            "AbilityCharges": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCharges_scale_function",
+                    "m_eSpecificStatScaleType": "EMaxChargesIncrease"
+                }
+            },
+            "AbilityCooldownBetweenCharge": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "charge_cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldownBetweenCharge_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldownBetweenChargeUses"
+                }
+            },
+            "ChannelMoveSpeed": {
+                "m_strValue": "50",
+                "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond",
+                "m_strCSSClass": "move_speed",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityResourceCost": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_strCSSClass": "cast"
+            },
+            "TechPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_POWER"
+            },
+            "WeaponPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
+            },
+            "BonusHealth": {
+                "m_strValue": "150",
+                "m_strCSSClass": "health",
+                "m_eDisplayType": "EMaxHealth",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_HEALTH_MAX",
+                "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
+            },
+            "TechResist": {
+                "m_strValue": "15",
+                "m_eDisplayType": "ETechArmorDamageReduction",
+                "m_strCSSClass": "tech_armor_up",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST",
+                "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
+            },
+            "BonusMoveSpeed": {
+                "m_strValue": "1m",
+                "m_strCSSClass": "move_speed",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_MOVEMENT_SPEED_MAX",
+                "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
+            },
+            "SpiritPower": {
+                "m_strValue": "12",
+                "m_strCSSClass": "tech_damage",
+                "m_eDisplayType": "ETechPower",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_POWER",
+                "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
+            }
+        },
+        "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
+        "_editor": {
+            "folder_name": "Armor"
+        },
+        "m_WeaponInfo": {
+            "m_BulletSpeedCurve": {
+                "m_spline": [
+                    {
+                        "x": "0.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    },
+                    {
+                        "x": "100.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    }
+                ],
+                "m_tangents": [
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    },
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    }
+                ],
+                "m_vDomainMins": [
+                    "0.000000",
+                    "0.000000"
+                ],
+                "m_vDomainMaxs": [
+                    "100.000000",
+                    "10000.000000"
+                ]
+            }
+        },
+        "m_strCancelAbilityKey": "+in_cancel_ability",
+        "m_HUDPanel": {
+            "m_vecButtonHints": [
+                {
+                    "m_strContext": "throw",
+                    "m_eButton1": "EButtonHint_Attack",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_Throw"
+                },
+                {
+                    "m_strContext": "deploy",
+                    "m_eButton1": "EButtonHint_Attack",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_Deploy"
+                },
+                {
+                    "m_strContext": "cast_on_target",
+                    "m_eButton1": "EButtonHint_Attack",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_CastOnTarget",
+                    "m_bShowAsUnitTargetActivationHint": "true",
+                    "m_bShowAbilityIcon": "true"
+                },
+                {
+                    "m_strContext": "alt_cast_hold_hint",
+                    "m_eButton1": "EButtonHint_AbilityKey",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_HoldToSelfCast"
+                },
+                {
+                    "m_strContext": "alt_cast_double_tap_hint",
+                    "m_eButton1": "EButtonHint_AbilityKey",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_DoubleTapToSelfCast"
+                },
+                {
+                    "m_strContext": "alt_cast_modifier_key_hint",
+                    "m_strBindingOverride1": "in_alt_cast_modifier",
+                    "m_eButton2": "EButtonHint_AbilityKey",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_eButtonHintType": "EButtonHintType_TwoButtonCombination",
+                    "m_strLocToken": "#AbilityButtonHint_ModifierKeyToSelfCast"
+                },
+                {
+                    "m_strContext": "alt_cast_select_then_alt_cast_key_hint",
+                    "m_strBindingOverride1": "in_alt_cast",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_SelectThenSelfCastButton"
+                },
+                {
+                    "m_strContext": "deselect",
+                    "m_eButton1": "EButtonHint_AbilityKey",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_Deselect",
+                    "m_nPriority": "1"
+                },
+                {
+                    "m_strLocToken": "#AbilityButtonHint_Activate",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_eButton1": "EButtonHint_AbilityKey",
+                    "m_strContext": "unit_target_activate",
+                    "m_bShowAsUnitTargetActivationHint": "true",
+                    "m_bShowAbilityIcon": "true"
+                }
+            ]
+        },
+        "_multibase": [
+            "armor_upgrade_t4"
+        ],
+        "m_bStartTrained": "true",
+        "m_eAbilityType": "EAbilityType_Item",
+        "m_nUpgradeSlotCost": "1",
+        "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_SELF",
+        "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
+        "m_strCastAnimGraphParam": "e_GenericCast",
+        "m_strCastAnimSequenceName": "ability_generic_cast",
+        "m_strSelectionNameOverride": "item",
+        "m_PreviewPathParticle": "particles/generic/generic_arc.vpcf",
+        "m_eItemSlotType": "EItemSlotType_Armor",
+        "m_iItemTier": "EModTier_4",
+        "m_iUpdateTime": "1711137653",
+        "m_strCSSClass": "unstoppable",
+        "m_strAbilityImage": "file://{images}/upgrades/mods_armor/unstoppable.psd",
+        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_BUSY | CITADEL_ABILITY_BEHAVIOR_CAST_EVEN_IF_BUSY_AND_EXCLUSIVE",
+        "m_strCastDelaySound": "Mods.Armor.TechDefender.PreCast",
+        "m_BuffModifier": {
+            "_class": "modifier_unstoppable",
+            "_my_subclass_name": "modifier_unstoppable",
+            "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER",
+            "m_sAmbientLoopingSound": "Mods.Armor.TechDefender.Lp",
+            "m_sStartSound": "Mods.Armor.TechDefender.Cast",
+            "m_sExpiredSound": "Mods.Armor.TechDefender.End",
+            "m_nEnabledStateMask": "MODIFIER_STATE_STATUS_IMMUNE | MODIFIER_STATE_SLOW_IMMUNE | MODIFIER_STATE_KNOCKDOWN_IMMUNE | MODIFIER_STATE_UNSTOPPABLE",
+            "m_ShieldParticle": "particles/upgrades/unstoppable_buff.vpcf",
+            "m_PlayerShieldParticle": "particles/upgrades/unstoppable_buff_player.vpcf",
+            "m_strParticleStatusEffect": "particles/status_fx/status_fx_unstoppable.vpcf",
+            "m_nStatusEffectPriority": "25",
+            "m_bIsHiddenOverhead": "true",
+            "m_sLocalizationName": "modifier_unstoppable",
+            "m_nDisabledStateMask": "MODIFIER_STATE_DISARMED | MODIFIER_STATE_MUTED | MODIFIER_STATE_SILENCED | MODIFIER_STATE_SILENCE_MOVEMENT_ABILITES | MODIFIER_STATE_SLOWED | MODIFIER_STATE_GLITCHED | MODIFIER_STATE_MELEE_DISABLED_DEBUFF | MODIFIER_STATE_DASH_DISABLED_DEBUFF"
+        },
+        "m_vecTooltipSectionInfo": [
+            {
+                "m_eAbilitySectionType": "EArea_Innate",
+                "m_vecSectionAttributes": [
+                    {
+                        "m_vecAbilityProperties": [
+                            "BonusHealth",
+                            "TechResist",
+                            "BonusMoveSpeed",
+                            "SpiritPower"
+                        ]
+                    }
+                ]
+            },
+            {
+                "m_eAbilitySectionType": "EArea_Active",
+                "m_vecSectionAttributes": [
+                    {
+                        "m_strLocString": "#upgrade_unstoppable_desc",
+                        "m_vecAbilityProperties": [
+                            "AbilityCooldown"
+                        ],
+                        "m_vecImportantAbilityProperties": [
+                            {
+                                "m_strImportantProperty": "AbilityDuration"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "m_AutoIntrinsicModifiers": [
+            {
+                "_my_subclass_name": "unstoppable_modifier",
+                "_class": "modifier_base",
+                "m_bIsHidden": "true",
+                "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
+                    "BonusHealth",
+                    "TechResist",
+                    "BonusMoveSpeed",
+                    "SpiritPower"
+                ]
+            }
+        ],
+        "m_eShopFilters": "EShopFilterDurability | EShopFilterMovement"
+    }
+}

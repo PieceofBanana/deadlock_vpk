@@ -1,0 +1,507 @@
+{
+    "ability_flame_dash": {
+        "_class": "ability_flame_dash",
+        "m_mapAbilityProperties": {
+            "AbilityCooldown": {
+                "m_strValue": "38",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldown_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldown"
+                }
+            },
+            "AbilityDuration": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "duration",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            },
+            "AbilityCastRange": {
+                "m_strValue": "0",
+                "m_eDisplayUnits": "EDisplayUnit_Meters",
+                "m_strCSSClass": "range",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCastRange_scale_function",
+                    "m_eSpecificStatScaleType": "ETechRange"
+                }
+            },
+            "AbilityUnitTargetLimit": {
+                "m_strValue": "1",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityCastDelay": {
+                "m_strValue": "0.2",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityChannelTime": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_multi_stats",
+                    "_my_subclass_name": "scale_duration",
+                    "m_vecScalingStats": [
+                        "EChannelDuration",
+                        "ETechDuration"
+                    ]
+                }
+            },
+            "AbilityPostCastDuration": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0"
+            },
+            "AbilityCharges": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCharges_scale_function",
+                    "m_eSpecificStatScaleType": "EMaxChargesIncrease"
+                }
+            },
+            "AbilityCooldownBetweenCharge": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "charge_cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldownBetweenCharge_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldownBetweenChargeUses"
+                }
+            },
+            "ChannelMoveSpeed": {
+                "m_strValue": "18m",
+                "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond",
+                "m_strCSSClass": "move_speed",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityResourceCost": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_strCSSClass": "cast"
+            },
+            "TechPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_POWER"
+            },
+            "WeaponPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
+            },
+            "DashTime": {
+                "m_strValue": "3.0",
+                "m_strCSSClass": "duration",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "flame_dash_duration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            },
+            "DashSpeed": {
+                "m_strValue": "12m",
+                "m_strCSSClass": "move_speed"
+            },
+            "DashAirSpeed": {
+                "m_strValue": "8m",
+                "m_strCSSClass": "move_speed"
+            },
+            "FlameAuraRadius": {
+                "m_strValue": "4.5m",
+                "m_strCSSClass": "distance",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "FlameAuraRadius_scale_function",
+                    "m_eSpecificStatScaleType": "ETechRadius"
+                }
+            },
+            "FlameAuraDPS": {
+                "m_strValue": "40",
+                "m_strCSSClass": "tech_damage",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_tech_damage",
+                    "_my_subclass_name": "FlameAuraDPS_scale_function",
+                    "m_flStatScale": "0.655200"
+                }
+            },
+            "AuraLingerDuration": {
+                "m_strValue": "1.0",
+                "m_bIsHidden": "true"
+            },
+            "TickRate": {
+                "m_strValue": "0.5"
+            },
+            "GroundFlameDuration": {
+                "m_strValue": "4",
+                "m_strCSSClass": "duration",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "GroundFlameDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            },
+            "GroundAuraSpacing": {
+                "m_strValue": "1m"
+            },
+            "SpeedBurstSpeed": {
+                "m_strValue": "20m",
+                "m_strCSSClass": "move_speed"
+            },
+            "SpeedBurstDuration": {
+                "m_strValue": "0"
+            },
+            "SideMoveSpeedReduction": {
+                "m_strValue": "-65"
+            },
+            "FlameDashDebuffDuration": {
+                "m_strValue": "0",
+                "m_strCSSClass": "duration",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "FlameDashDebuffDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            },
+            "FlameDashJumpBonus": {
+                "m_strValue": "50",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_BONUS_JUMP_VERTICAL_SPEED_PERCENT",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
+            },
+            "FireRateSlow": {
+                "m_strValue": "0",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_FIRE_RATE_SLOW",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
+            },
+            "SlowResistancePercent": {
+                "m_strValue": "30",
+                "m_strCSSClass": "move_speed",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_MOVEMENT_SLOW_RESISTANCE",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
+            }
+        },
+        "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
+        "_editor": {
+            "folder_name": "Hero Inferno"
+        },
+        "m_WeaponInfo": {
+            "m_BulletSpeedCurve": {
+                "m_spline": [
+                    {
+                        "x": "0.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    },
+                    {
+                        "x": "100.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    }
+                ],
+                "m_tangents": [
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    },
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    }
+                ],
+                "m_vDomainMins": [
+                    "0.000000",
+                    "0.000000"
+                ],
+                "m_vDomainMaxs": [
+                    "100.000000",
+                    "10000.000000"
+                ]
+            }
+        },
+        "m_strCancelAbilityKey": "+in_cancel_ability",
+        "m_HUDPanel": {
+            "m_vecButtonHints": [
+                {
+                    "m_strContext": "throw",
+                    "m_eButton1": "EButtonHint_Attack",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_Throw"
+                },
+                {
+                    "m_strContext": "deploy",
+                    "m_eButton1": "EButtonHint_Attack",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_Deploy"
+                },
+                {
+                    "m_strContext": "cast_on_target",
+                    "m_eButton1": "EButtonHint_Attack",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_CastOnTarget",
+                    "m_bShowAsUnitTargetActivationHint": "true",
+                    "m_bShowAbilityIcon": "true"
+                },
+                {
+                    "m_strContext": "alt_cast_hold_hint",
+                    "m_eButton1": "EButtonHint_AbilityKey",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_HoldToSelfCast"
+                },
+                {
+                    "m_strContext": "alt_cast_double_tap_hint",
+                    "m_eButton1": "EButtonHint_AbilityKey",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_DoubleTapToSelfCast"
+                },
+                {
+                    "m_strContext": "alt_cast_modifier_key_hint",
+                    "m_strBindingOverride1": "in_alt_cast_modifier",
+                    "m_eButton2": "EButtonHint_AbilityKey",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_eButtonHintType": "EButtonHintType_TwoButtonCombination",
+                    "m_strLocToken": "#AbilityButtonHint_ModifierKeyToSelfCast"
+                },
+                {
+                    "m_strContext": "alt_cast_select_then_alt_cast_key_hint",
+                    "m_strBindingOverride1": "in_alt_cast",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_SelectThenSelfCastButton"
+                },
+                {
+                    "m_strContext": "deselect",
+                    "m_eButton1": "EButtonHint_AbilityKey",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_Deselect",
+                    "m_nPriority": "1"
+                },
+                {
+                    "m_strLocToken": "#AbilityButtonHint_Activate",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_eButton1": "EButtonHint_AbilityKey",
+                    "m_strContext": "unit_target_activate",
+                    "m_bShowAsUnitTargetActivationHint": "true",
+                    "m_bShowAbilityIcon": "true"
+                }
+            ],
+            "m_vecHUDElements": [
+                {
+                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
+                    "m_strContext": "channel",
+                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_progress_bar.vxml",
+                    "m_bReverseProgress": "false"
+                },
+                {
+                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
+                    "m_strContext": "dashing",
+                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_progress_bar.vxml",
+                    "m_bReverseProgress": "true"
+                }
+            ]
+        },
+        "_multibase": [
+            "signature_base"
+        ],
+        "m_bStartTrained": "false",
+        "m_nAbilityPointsCost": "0",
+        "m_nAbillityUnlocksCost": "1",
+        "m_eAbilityType": "EAbilityType_Signature",
+        "m_iMaxLevel": "1",
+        "m_bitsInterruptingStates": "MODIFIER_STATE_IMMOBILIZED | MODIFIER_STATE_STUNNED | MODIFIER_STATE_IS_ASLEEP",
+        "m_PreviewPathParticle": "particles/generic/generic_arc.vpcf",
+        "m_strAbilityOffCooldownSound": "",
+        "m_strAbilityChargeReadySound": "",
+        "m_skillshotMissParticle": "particles/abilities/skillshot_default_miss_owner.vpcf",
+        "m_iUpdateTime": "1706302943",
+        "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_SELF",
+        "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
+        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_PREVENT_BOT_USAGE | CITADEL_ABILITY_BEHAVIOR_MOVEMENT",
+        "m_eAbilitySpectatePriority": "CITADELTV_ABILITY_SPECTATE_PRIORITY_MEDIUM",
+        "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
+        "m_strAbilityImage": "file://{images}/hud/abilities/inferno_dash.psd",
+        "m_flSlideBufferSpeed": "216.535000",
+        "m_flSlideBufferTime": "0.500000",
+        "m_vecAbilityUpgrades": [
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "FireRateSlow",
+                        "m_strBonus": "30"
+                    },
+                    {
+                        "m_strPropertyName": "FlameDashDebuffDuration",
+                        "m_strBonus": "6"
+                    }
+                ]
+            },
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "FlameAuraDPS",
+                        "m_strBonus": "45"
+                    }
+                ]
+            },
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "AbilityCooldown",
+                        "m_strBonus": "-20"
+                    }
+                ]
+            }
+        ],
+        "m_vecDependentAbilities": [
+            "ability_flame_dash_cancel_trigger"
+        ],
+        "m_FlameDashModifier": {
+            "_class": "modifier_flamedash",
+            "_my_subclass_name": "modifier_flamedash",
+            "m_bIsHidden": "true",
+            "m_sAmbientLoopingSound": "Inferno.FlameDash.Modifier.Lp",
+            "m_sStartSound": "Inferno.FlameDash.Modifier.Start",
+            "m_sExpiredSound": "Inferno.FlameDash.Modifier.Stop",
+            "m_nEnabledStateMask": "MODIFIER_STATE_MANTLE_DISABLED | MODIFIER_STATE_MELEE_DISABLED | MODIFIER_STATE_SLIDING_DISABLED | MODIFIER_STATE_DUCKING_DISABLED",
+            "m_GroundAuraModifier": {
+                "_class": "modifier_flamedash_ground_aura",
+                "_my_subclass_name": "modifier_flamedash_ground_aura",
+                "m_GroundParticle": "particles/abilities/inferno/inferno_incendiary_debug.vpcf",
+                "m_sAmbientLoopingSound": "Inferno.FlameDash.Modifier.Aura.Lp",
+                "m_flHeight": "80.000000",
+                "m_modifierProvidedByAura": {
+                    "_class": "modifier_flamedash_burn",
+                    "_my_subclass_name": "modifier_flamedash_burn",
+                    "m_bIsHidden": "true",
+                    "m_strSmallIconCssClass": "flame_dash_burn",
+                    "m_strParticleStatusEffect": "particles/status_fx/status_fx_inferno_flame_dash_debuff.vpcf",
+                    "m_strParticleEffect": "particles/abilities/inferno/inferno_flame_dash_tag_enemy.vpcf",
+                    "m_DebuffModifier": {
+                        "_class": "modifier_base",
+                        "_my_subclass_name": "modifier_flamedash_debuff",
+                        "m_sLocalizationName": "modifier_flamedash_debuff",
+                        "m_strSmallIconCssClass": "flame_dash_burn",
+                        "m_eDrawOverheadStatus": "OVERHEAD_DRAW_FOR_CASTER_ONLY",
+                        "m_bIsHidden": "true",
+                        "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
+                            "FireRateSlow"
+                        ]
+                    },
+                    "m_strScreenParticleEffect": ""
+                }
+            },
+            "m_FlameAuraParticle": "particles/abilities/inferno/inferno_flame_dash.vpcf",
+            "m_ProgressModifier": {
+                "_my_subclass_name": "progress_watcher",
+                "_class": "modifier_base",
+                "m_sLocalizationName": "modifier_flamedash",
+                "m_bIsHidden": "true"
+            },
+            "m_cameraSequenceCreated": {
+                "m_vecDistanceOperations": [
+                    {
+                        "m_flSpringStrength": "10.000000",
+                        "m_bSpringToDefault": "false",
+                        "m_flSpringTarget": "120.000000",
+                        "m_eCameraOperation": "k_ECameraOp_Spring"
+                    },
+                    {
+                        "m_flMaintainDuration": "99.000000",
+                        "m_eCameraOperation": "k_ECameraOp_Maintain"
+                    }
+                ]
+            },
+            "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
+                "FlameDashJumpBonus",
+                "SlowResistancePercent"
+            ]
+        },
+        "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/ability_inferno_flame_dash.webm",
+        "m_cameraSpeedBoost": {
+            "m_vecFOVOperations": [
+                {
+                    "m_bLerpEndAtDefault": "false",
+                    "m_flLerpDuration": "0.300000",
+                    "m_flLerpBias": "0.750000",
+                    "m_flLerpEnd": "100.000000",
+                    "m_eCameraOperation": "k_ECameraOp_Lerp"
+                },
+                {
+                    "m_flMaintainDuration": "0.200000",
+                    "m_eCameraOperation": "k_ECameraOp_Maintain"
+                },
+                {
+                    "m_bSpringToDefault": "true",
+                    "m_eCameraOperation": "k_ECameraOp_Spring"
+                }
+            ],
+            "m_vecDistanceOperations": [
+                {
+                    "m_flLerpDuration": "0.300000",
+                    "m_flLerpGain": "0.750000",
+                    "m_bLerpEndAtDefault": "false",
+                    "m_flLerpEnd": "75.000000",
+                    "m_eCameraOperation": "k_ECameraOp_Lerp"
+                },
+                {
+                    "m_flMaintainDuration": "0.200000",
+                    "m_eCameraOperation": "k_ECameraOp_Maintain"
+                },
+                {
+                    "m_bSpringToDefault": "false",
+                    "m_flSpringTarget": "120.000000",
+                    "m_eCameraOperation": "k_ECameraOp_Spring"
+                },
+                {
+                    "m_flMaintainDuration": "999.000000",
+                    "m_eCameraOperation": "k_ECameraOp_Maintain"
+                }
+            ]
+        },
+        "m_AbilityTooltipDetails": {
+            "m_vecAbilityInfoSections": [
+                {
+                    "m_strLocString": "#ability_flame_dash_desc",
+                    "m_vecAbilityPropertiesBlock": [
+                        {
+                            "m_vecAbilityProperties": [
+                                {
+                                    "m_strImportantProperty": "SpeedBurstSpeed"
+                                },
+                                {
+                                    "m_strImportantProperty": "FlameAuraDPS"
+                                }
+                            ]
+                        }
+                    ],
+                    "m_vecBasicProperties": [
+                        "DashTime",
+                        "DashSpeed",
+                        "FlameDashDebuffDuration",
+                        "GroundFlameDuration",
+                        "FlameAuraRadius"
+                    ]
+                }
+            ]
+        }
+    }
+}

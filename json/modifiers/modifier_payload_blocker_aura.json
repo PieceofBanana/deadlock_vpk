@@ -1,0 +1,14 @@
+{
+    "modifier_payload_blocker_aura": {
+        "_class": "modifier_base_aura",
+        "m_flAuraRadius": "700.000000",
+        "m_iAuraSearchType": "CITADEL_UNIT_TARGET_HERO_ENEMY",
+        "m_iAuraSearchFlags": "CITADEL_UNIT_TARGET_FLAG_PENETRATE_INVULNERABLE | CITADEL_UNIT_TARGET_FLAG_NO_INVIS",
+        "m_modifierProvidedByAura": {
+            "_class": "modifier_base",
+            "_my_subclass_name": "modifier_aura_target",
+            "m_nAttributes": "MODIFIER_ATTRIBUTE_IGNORE_INVULNERABLE",
+            "m_bIsHidden": "true"
+        }
+    }
+}

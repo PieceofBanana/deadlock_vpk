@@ -1,0 +1,9 @@
+{
+    "modifier_citadel_can_damage_tier3phase2_boss": {
+        "_class": "modifier_citadel_can_damage_tier3phase2_boss",
+        "m_bIsHidden": "true",
+        "m_eDebuffType": "MODIFIER_DEBUFF_NO",
+        "m_nAttributes": "MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED | MODIFIER_ATTRIBUTE_MULTIPLE",
+        "m_nEnabledStateMask": "MODIFIER_STATE_IN_TIER3_PHASE2_BOSS_PIT"
+    }
+}

@@ -1,0 +1,393 @@
+{
+    "citadel_ability_infinity_slash": {
+        "_class": "ability_infinity_slash",
+        "m_mapAbilityProperties": {
+            "AbilityCooldown": {
+                "m_strValue": "100",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldown_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldown"
+                }
+            },
+            "AbilityDuration": {
+                "m_strValue": "5",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "duration",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            },
+            "AbilityCastRange": {
+                "m_strValue": "0",
+                "m_eDisplayUnits": "EDisplayUnit_Meters",
+                "m_strCSSClass": "range",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCastRange_scale_function",
+                    "m_eSpecificStatScaleType": "ETechRange"
+                }
+            },
+            "AbilityUnitTargetLimit": {
+                "m_strValue": "1",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityCastDelay": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_strLocTokenOverride": "PrepareTime"
+            },
+            "AbilityChannelTime": {
+                "m_strValue": "2",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "duration",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_multi_stats",
+                    "_my_subclass_name": "scale_duration",
+                    "m_vecScalingStats": [
+                        "EChannelDuration",
+                        "ETechDuration"
+                    ],
+                    "m_bFunctionDisabled": "true"
+                },
+                "m_eDisplayUnits": "EDisplayUnit_Normal",
+                "m_strLocTokenOverride": "ShadowDuration"
+            },
+            "AbilityPostCastDuration": {
+                "m_strValue": "0.6",
+                "m_strDisableValue": "0"
+            },
+            "AbilityCharges": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCharges_scale_function",
+                    "m_eSpecificStatScaleType": "EMaxChargesIncrease"
+                }
+            },
+            "AbilityCooldownBetweenCharge": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "charge_cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldownBetweenCharge_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldownBetweenChargeUses"
+                }
+            },
+            "ChannelMoveSpeed": {
+                "m_strValue": "0",
+                "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond",
+                "m_strCSSClass": "move_speed",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityResourceCost": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_strCSSClass": "cast"
+            },
+            "TechPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_POWER"
+            },
+            "WeaponPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
+            },
+            "Radius": {
+                "m_subclassScaleFunction": {}
+            },
+            "BuffDuration": {
+                "m_strValue": "20",
+                "m_subclassScaleFunction": {
+                    "_my_subclass_name": "scale",
+                    "_class": "scale_function_single_stat",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                },
+                "m_strCSSClass": "duration"
+            },
+            "BonusMoveSpeed": {
+                "m_strValue": "0m",
+                "m_strCSSClass": "move_speed",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_MOVEMENT_SPEED_MAX"
+            },
+            "AbilitySpeedPct": {
+                "m_strValue": "60",
+                "m_strCSSClass": "cast"
+            },
+            "TechResist": {
+                "m_strValue": "55",
+                "m_strCSSClass": "tech_armor_up",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
+            },
+            "BulletResist": {
+                "m_strValue": "55",
+                "m_strCSSClass": "bullet_armor_up",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
+            }
+        },
+        "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
+        "_editor": {
+            "folder_name": "Hero Yamato"
+        },
+        "m_WeaponInfo": {
+            "m_BulletSpeedCurve": {
+                "m_spline": [
+                    {
+                        "x": "0.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    },
+                    {
+                        "x": "100.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    }
+                ],
+                "m_tangents": [
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    },
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    }
+                ],
+                "m_vDomainMins": [
+                    "0.000000",
+                    "0.000000"
+                ],
+                "m_vDomainMaxs": [
+                    "100.000000",
+                    "10000.000000"
+                ]
+            }
+        },
+        "m_strCancelAbilityKey": "+in_cancel_ability",
+        "m_HUDPanel": {
+            "m_vecButtonHints": [
+                {
+                    "m_eButton1": "EButtonHint_Cancel",
+                    "m_strLocToken": "#ability_abort_cast",
+                    "m_eHintSide": "EButtonSide_Right",
+                    "m_strContext": "cast"
+                }
+            ],
+            "m_vecHUDElements": [
+                {
+                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
+                    "m_strContext": "cast",
+                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_progress_bar.vxml",
+                    "m_bReverseProgress": "true"
+                },
+                {
+                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
+                    "m_strContext": "channel",
+                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_progress_bar.vxml"
+                }
+            ]
+        },
+        "_multibase": [
+            "ultimate_base"
+        ],
+        "m_bStartTrained": "false",
+        "m_nAbilityPointsCost": "0",
+        "m_nAbillityUnlocksCost": "1",
+        "m_eAbilityType": "EAbilityType_Ultimate",
+        "m_iMaxLevel": "1",
+        "m_bitsInterruptingStates": "MODIFIER_STATE_STUNNED",
+        "m_PreviewPathParticle": "particles/generic/generic_arc.vpcf",
+        "m_strAbilityOffCooldownSound": "",
+        "m_strAbilityChargeReadySound": "",
+        "m_skillshotMissParticle": "particles/abilities/skillshot_default_miss_owner.vpcf",
+        "m_iUpdateTime": "1666719520",
+        "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_SELF",
+        "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
+        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CLEAVE_DISABLED | CITADEL_ABILITY_BEHAVIOR_CANNOT_CANCEL_DURING_CHANNEL | CITADEL_ABILITY_BEHAVIOR_CAN_CANCEL_DURING_CAST_DELAY",
+        "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
+        "m_nAbilityTargetFlags": "CITADEL_UNIT_TARGET_FLAG_NO_INVIS",
+        "m_strAbilityImage": "file://{images}/hud/abilities/yamato/yamato_blinding_steel.psd",
+        "m_vecAbilityUpgrades": [
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "AbilityCooldown",
+                        "m_strBonus": "-30"
+                    }
+                ]
+            },
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "BonusMoveSpeed",
+                        "m_strBonus": "4m"
+                    }
+                ]
+            },
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "AbilityDuration",
+                        "m_strBonus": "1.5"
+                    }
+                ]
+            }
+        ],
+        "m_AutoChannelModifier": {
+            "_class": "modifier_base",
+            "_my_subclass_name": "channel",
+            "m_bIsHidden": "true",
+            "m_eDrawOverheadStatus": "OVERHEAD_DRAW_FOR_EVERYONE",
+            "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER",
+            "m_nEnabledStateMask": "MODIFIER_STATE_INVULNERABLE | MODIFIER_STATE_TECH_UNTARGETABLE | MODIFIER_STATE_UNIT_STATUS_HEALTH_HIDDEN | MODIFIER_STATE_IGNORE_BULLETS | MODIFIER_STATE_IGNORE_MELEE",
+            "m_strParticleEffect": "particles/abilities/yamato/yamato_infinity_slash_invincible_buff_timer.vpcf"
+        },
+        "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/yamato_infinity_slash.webm",
+        "m_cameraSequenceChannelStart": {
+            "m_vecDistanceOperations": [
+                {
+                    "m_bSpringToDefault": "false",
+                    "m_flSpringTarget": "600.000000",
+                    "m_flSpringStrength": "1.000000",
+                    "m_eCameraOperation": "k_ECameraOp_Spring"
+                },
+                {
+                    "m_flMaintainDuration": "99.000000",
+                    "m_eCameraOperation": "k_ECameraOp_Maintain"
+                }
+            ],
+            "m_vecFOVOperations": [
+                {
+                    "m_flSpringStrength": "2.000000",
+                    "m_eCameraOperation": "k_ECameraOp_Spring"
+                }
+            ]
+        },
+        "m_cameraSequenceCastStart": {
+            "m_vecDistanceOperations": [
+                {
+                    "m_bLerpEndAtDefault": "false",
+                    "m_flLerpEnd": "120.000000",
+                    "m_flLerpBias": "0.738000",
+                    "m_flLerpDuration": "1.000000",
+                    "m_eCameraOperation": "k_ECameraOp_Lerp"
+                }
+            ],
+            "m_vecFOVOperations": [
+                {
+                    "m_flLerpDuration": "1.000000",
+                    "m_flLerpBias": "0.771000",
+                    "m_bLerpEndAtDefault": "false",
+                    "m_flLerpEnd": "60.000000",
+                    "m_eCameraOperation": "k_ECameraOp_Lerp"
+                }
+            ]
+        },
+        "m_strCastAnimGraphParam": "e_InfinitySlash",
+        "m_AutoCastDelayModifier": {},
+        "m_strChannelLoopSound": "Yamato.ShadowForm.CastDelay",
+        "m_AOERangeEffect": "particles/abilities/yamato/yamato_infinity_slash_start.vpcf",
+        "m_strCastSound": "Yamato.InfinitySlash.Impact",
+        "m_bEndCastStartSequenceOnCastComplete": "true",
+        "m_flRiseSpeed": "75.000000",
+        "m_flSpeedDecayScale": "1.500000",
+        "m_cameraSequenceExplosion": {
+            "m_vecDistanceOperations": [
+                {
+                    "m_flMaintainDuration": "0.400000",
+                    "m_eCameraOperation": "k_ECameraOp_Maintain"
+                }
+            ],
+            "m_vecFOVOperations": [
+                {
+                    "m_flMaintainDuration": "0.400000",
+                    "m_eCameraOperation": "k_ECameraOp_Maintain"
+                }
+            ]
+        },
+        "m_flExplosionShakeFrequency": "1.000000",
+        "m_flExplosionShakeAmplitude": "1000.000000",
+        "m_flExplosionShakeDuration": "1.000000",
+        "m_flRiseDuration": "0.300000",
+        "m_flExplodeHoldTime": "0.400000",
+        "m_AnimCastEffect": "particles/abilities/yamato/yamato_infinity_slash_seppuku.vpcf",
+        "m_strCastDelaySound": "Yamato.ShadowForm.Rebirth",
+        "m_AbilityTooltipDetails": {
+            "m_vecAbilityInfoSections": [
+                {
+                    "m_strLocString": "#citadel_ability_infinity_slash_desc",
+                    "m_vecAbilityPropertiesBlock": [
+                        {
+                            "m_vecAbilityProperties": [
+                                {
+                                    "m_strImportantProperty": "AbilityDuration"
+                                },
+                                {
+                                    "m_strImportantProperty": "AbilitySpeedPct"
+                                }
+                            ]
+                        }
+                    ],
+                    "m_vecBasicProperties": [
+                        "TechResist",
+                        "BulletResist"
+                    ]
+                }
+            ]
+        },
+        "m_BuffModifier": {
+            "_my_subclass_name": "buff",
+            "_class": "modifier_base",
+            "m_strParticleEffect": "",
+            "m_nEnabledStateMask": "MODIFIER_STATE_YAMATO_SHADOW_FORM | MODIFIER_STATE_INFINITE_CLIP | MODIFIER_STATE_UNKILLABLE | MODIFIER_STATE_STATUS_IMMUNE | MODIFIER_STATE_SLOW_IMMUNE | MODIFIER_STATE_KNOCKDOWN_IMMUNE | MODIFIER_STATE_UNSTOPPABLE",
+            "m_nDisabledStateMask": "MODIFIER_STATE_DISARMED | MODIFIER_STATE_MUTED | MODIFIER_STATE_SILENCED | MODIFIER_STATE_SILENCE_MOVEMENT_ABILITES | MODIFIER_STATE_SLOWED | MODIFIER_STATE_GLITCHED | MODIFIER_STATE_MELEE_DISABLED_DEBUFF | MODIFIER_STATE_DASH_DISABLED_DEBUFF",
+            "m_strParticleStatusEffect": "particles/status_fx/status_fx_yamato_shadow_form.vpcf",
+            "m_eHudDisplayLocation": "DISPLAY_HUD_LEFT",
+            "m_bIsHidden": "true",
+            "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
+                "BonusMoveSpeed",
+                "BulletResist",
+                "TechResist"
+            ],
+            "m_vecSetAndTrackedAnimGraphParams": [
+                {
+                    "m_strName": "fl_YamatoAbilitySpeed",
+                    "m_strSetValue": "1.65",
+                    "m_strRestoreValue": "1"
+                }
+            ],
+            "m_nStatusEffectPriority": "0"
+        },
+        "m_BuffTimerModifier": {
+            "_class": "modifier_yamato_infinity_slash_buff_timer",
+            "_my_subclass_name": "timer",
+            "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER",
+            "m_strParticleEffect": "particles/abilities/yamato/yamato_shadow_form_buff_timer.vpcf"
+        }
+    }
+}

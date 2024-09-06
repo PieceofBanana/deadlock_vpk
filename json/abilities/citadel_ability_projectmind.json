@@ -1,0 +1,356 @@
+{
+    "citadel_ability_projectmind": {
+        "_class": "citadel_ability_projectmind",
+        "m_mapAbilityProperties": {
+            "AbilityCooldown": {
+                "m_strValue": "45",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldown_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldown"
+                }
+            },
+            "AbilityDuration": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "duration",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            },
+            "AbilityCastRange": {
+                "m_strValue": "25m",
+                "m_eDisplayUnits": "EDisplayUnit_Meters",
+                "m_strCSSClass": "range",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCastRange_scale_function",
+                    "m_eSpecificStatScaleType": "ETechRange"
+                }
+            },
+            "AbilityUnitTargetLimit": {
+                "m_strValue": "1",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityCastDelay": {
+                "m_strValue": "0.75",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityChannelTime": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_multi_stats",
+                    "_my_subclass_name": "scale_duration",
+                    "m_vecScalingStats": [
+                        "EChannelDuration",
+                        "ETechDuration"
+                    ]
+                }
+            },
+            "AbilityPostCastDuration": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0"
+            },
+            "AbilityCharges": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCharges_scale_function",
+                    "m_eSpecificStatScaleType": "EMaxChargesIncrease"
+                }
+            },
+            "AbilityCooldownBetweenCharge": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "charge_cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldownBetweenCharge_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldownBetweenChargeUses"
+                }
+            },
+            "ChannelMoveSpeed": {
+                "m_strValue": "200",
+                "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond",
+                "m_strCSSClass": "move_speed",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityResourceCost": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_strCSSClass": "cast"
+            },
+            "TechPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_POWER"
+            },
+            "WeaponPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
+            },
+            "CameraDistance": {
+                "m_strValue": "250"
+            },
+            "TrailInterval": {
+                "m_strValue": "0.1"
+            },
+            "BulletShieldOnLand": {
+                "m_strValue": "0",
+                "m_strCSSClass": "bullet_armor_up",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "BulletShieldOnLand_scale_function",
+                    "m_eSpecificStatScaleType": "ETechPower",
+                    "m_flStatScale": "0.000000"
+                }
+            },
+            "BulletShieldDuration": {
+                "m_strValue": "0",
+                "m_strCSSClass": "bullet_armor_up",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "BulletShieldDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            }
+        },
+        "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
+        "_editor": {
+            "folder_name": "Hero Wraith"
+        },
+        "m_WeaponInfo": {
+            "m_BulletSpeedCurve": {
+                "m_spline": [
+                    {
+                        "x": "0.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    },
+                    {
+                        "x": "100.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    }
+                ],
+                "m_tangents": [
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    },
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    }
+                ],
+                "m_vDomainMins": [
+                    "0.000000",
+                    "0.000000"
+                ],
+                "m_vDomainMaxs": [
+                    "100.000000",
+                    "10000.000000"
+                ]
+            }
+        },
+        "m_strCancelAbilityKey": "+in_cancel_ability",
+        "m_HUDPanel": {
+            "m_vecButtonHints": [
+                {
+                    "m_strContext": "throw",
+                    "m_eButton1": "EButtonHint_Attack",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_Throw"
+                },
+                {
+                    "m_strContext": "deploy",
+                    "m_eButton1": "EButtonHint_Attack",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_Teleport"
+                },
+                {
+                    "m_strContext": "cast_on_target",
+                    "m_eButton1": "EButtonHint_Attack",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_CastOnTarget"
+                },
+                {
+                    "m_strContext": "alt_cast_hold_hint",
+                    "m_eButton1": "EButtonHint_AbilityKey",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_HoldToSelfCast"
+                },
+                {
+                    "m_strContext": "alt_cast_double_tap_hint",
+                    "m_eButton1": "EButtonHint_AbilityKey",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_DoubleTapToSelfCast"
+                },
+                {
+                    "m_strContext": "alt_cast_modifier_key_hint",
+                    "m_strBindingOverride1": "in_alt_cast_modifier",
+                    "m_eButton2": "EButtonHint_AbilityKey",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_eButtonHintType": "EButtonHintType_TwoButtonCombination",
+                    "m_strLocToken": "#AbilityButtonHint_ModifierKeyToSelfCast"
+                },
+                {
+                    "m_strContext": "alt_cast_select_then_alt_cast_key_hint",
+                    "m_strBindingOverride1": "in_alt_cast",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_SelectThenSelfCastButton"
+                },
+                {
+                    "m_strContext": "deselect",
+                    "m_eButton1": "EButtonHint_AbilityKey",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_Deselect",
+                    "m_nPriority": "1"
+                }
+            ],
+            "m_vecHUDElements": [
+                {
+                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
+                    "m_strContext": "cast",
+                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_empty.vxml"
+                }
+            ]
+        },
+        "_multibase": [
+            "signature_base"
+        ],
+        "m_bStartTrained": "false",
+        "m_nAbilityPointsCost": "0",
+        "m_nAbillityUnlocksCost": "1",
+        "m_eAbilityType": "EAbilityType_Signature",
+        "m_iMaxLevel": "1",
+        "m_bitsInterruptingStates": "MODIFIER_STATE_IMMOBILIZED | MODIFIER_STATE_STUNNED | MODIFIER_STATE_IS_ASLEEP",
+        "m_PreviewPathParticle": "particles/generic/generic_arc.vpcf",
+        "m_strAbilityOffCooldownSound": "",
+        "m_strAbilityChargeReadySound": "",
+        "m_skillshotMissParticle": "particles/abilities/skillshot_default_miss_owner.vpcf",
+        "m_iUpdateTime": "1692734621",
+        "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_GROUND",
+        "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_SPHERE",
+        "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_NONE",
+        "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_PRESS",
+        "m_eAbilitySpectatePriority": "CITADELTV_ABILITY_SPECTATE_PRIORITY_MEDIUM",
+        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_DEPLOY_OBJECT | CITADEL_ABILITY_BEHAVIOR_PREVENT_BOT_USAGE | CITADEL_ABILITY_BEHAVIOR_MOVEMENT",
+        "m_deploymentInfo": {
+            "m_bCheckPlayerFit": "true",
+            "m_bPointTrace": "true",
+            "m_previewParticle": "particles/abilities/wraith/wraith_project_mind_deploy.vpcf"
+        },
+        "m_strAbilityImage": "file://{images}/hud/abilities/wraith_teleport.psd",
+        "m_vecAbilityUpgrades": [
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "AbilityCastRange",
+                        "m_strBonus": "15m"
+                    }
+                ]
+            },
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "BulletShieldOnLand",
+                        "m_strBonus": "300"
+                    },
+                    {
+                        "m_strPropertyName": "BulletShieldDuration",
+                        "m_strBonus": "8"
+                    },
+                    {
+                        "m_strPropertyName": "BulletShieldOnLand",
+                        "m_eUpgradeType": "EAddToScale",
+                        "m_eScaleStatFilter": "ETechPower",
+                        "m_strBonus": "2.620800"
+                    }
+                ]
+            },
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "AbilityCooldown",
+                        "m_strBonus": "-30"
+                    }
+                ]
+            }
+        ],
+        "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/wraith_project_mind.webm",
+        "m_ProjectMindModifier": {
+            "_class": "modifier_citadel_projectmind",
+            "_my_subclass_name": "modifier_citadel_projectmind",
+            "m_bIsHidden": "true",
+            "m_TeleportStartParticle": "particles/abilities/wraith/wraith_project_mind_start.vpcf",
+            "m_TeleportEndParticle": "particles/abilities/wraith/wraith_project_mind_end.vpcf",
+            "m_TeleportTrailParticle": "particles/abilities/wraith/wraith_project_mind_trail.vpcf",
+            "m_TeleportModelParticle": "particles/abilities/wraith/wraith_project_mind_trail_model.vpcf",
+            "m_sExpiredSound": "Wraith.ProjectMind.Arrive",
+            "m_ShieldModifier": {
+                "_class": "modifier_wraith_project_mind_shield",
+                "_my_subclass_name": "modifier_wraith_project_mind_shield",
+                "m_strParticleEffect": "particles/abilities/wraith/wraith_projectmind_shield.vpcf"
+            },
+            "m_sStartSound": "Wraith.ProjectMind.Cast",
+            "m_cameraSequenceRemoved": {
+                "m_vecTargetPosOperations": [
+                    {
+                        "m_eCameraOperation": "k_ECameraOp_Spring"
+                    }
+                ]
+            }
+        },
+        "m_AbilityTooltipDetails": {
+            "m_vecAbilityInfoSections": [
+                {
+                    "m_strLocString": "#citadel_ability_projectmind_desc"
+                },
+                {
+                    "m_vecAbilityPropertiesBlock": [
+                        {
+                            "m_vecAbilityProperties": [
+                                {
+                                    "m_strImportantProperty": "BulletShieldOnLand",
+                                    "m_bRequiresAbilityUpgrade": "true"
+                                },
+                                {
+                                    "m_strImportantProperty": "BulletShieldDuration",
+                                    "m_bRequiresAbilityUpgrade": "true"
+                                }
+                            ],
+                            "m_strPropertiesTitleLocString": "#wraith_project_mind_t2_title"
+                        }
+                    ],
+                    "m_strAbilityPropertyUpgradeRequired": "BulletShieldOnLand"
+                }
+            ]
+        },
+        "m_strSelectedSound": "Wraith.ProjectMind.Select",
+        "m_strUnselectedSound": "Wraith.ProjectMind.Deselect",
+        "m_strCastAnimGraphParam": "e_ProjectMind"
+    }
+}

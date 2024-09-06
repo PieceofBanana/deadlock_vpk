@@ -1,0 +1,403 @@
+{
+    "ability_icepath": {
+        "_class": "ability_icepath",
+        "m_mapAbilityProperties": {
+            "AbilityCooldown": {
+                "m_strValue": "36",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldown_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldown"
+                }
+            },
+            "AbilityDuration": {
+                "m_strValue": "8",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "duration",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            },
+            "AbilityCastRange": {
+                "m_strValue": "0",
+                "m_eDisplayUnits": "EDisplayUnit_Meters",
+                "m_strCSSClass": "range",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCastRange_scale_function",
+                    "m_eSpecificStatScaleType": "ETechRange"
+                }
+            },
+            "AbilityUnitTargetLimit": {
+                "m_strValue": "1",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityCastDelay": {
+                "m_strValue": "0.2",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityChannelTime": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_multi_stats",
+                    "_my_subclass_name": "scale_duration",
+                    "m_vecScalingStats": [
+                        "EChannelDuration",
+                        "ETechDuration"
+                    ]
+                }
+            },
+            "AbilityPostCastDuration": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0"
+            },
+            "AbilityCharges": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCharges_scale_function",
+                    "m_eSpecificStatScaleType": "EMaxChargesIncrease"
+                }
+            },
+            "AbilityCooldownBetweenCharge": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "charge_cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldownBetweenCharge_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldownBetweenChargeUses"
+                }
+            },
+            "ChannelMoveSpeed": {
+                "m_strValue": "-1",
+                "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond",
+                "m_strCSSClass": "move_speed",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityResourceCost": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_strCSSClass": "cast"
+            },
+            "TechPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_POWER"
+            },
+            "WeaponPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
+            },
+            "IcePathInterval": {
+                "m_strValue": "0.5"
+            },
+            "CameraDistance": {
+                "m_strValue": "250"
+            },
+            "PopupForce": {
+                "m_strValue": "30"
+            },
+            "MinHeight": {
+                "m_strValue": "20"
+            },
+            "IcePathAuraDuration": {
+                "m_strValue": "18",
+                "m_strCSSClass": "duration"
+            },
+            "ModifierRadius": {
+                "m_strValue": "5m",
+                "m_strCSSClass": "distance"
+            },
+            "IcePathShardRadius": {
+                "m_strValue": "1.2m",
+                "m_strCSSClass": "distance"
+            },
+            "IcePathEdgeWidth": {
+                "m_strValue": "0.7m"
+            },
+            "IcePathPullInStrength": {
+                "m_strValue": "20"
+            },
+            "MoveSpeedBonus": {
+                "m_strValue": "2m",
+                "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond",
+                "m_strCSSClass": "move_speed",
+                "m_eDisplayType": "EMaxMoveSpeed",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_MOVEMENT_SPEED_MAX",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
+            },
+            "SprintSpeedBonus": {
+                "m_strValue": "2m",
+                "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond",
+                "m_strCSSClass": "move_speed",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_SPRINT_SPEED_BONUS",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
+            },
+            "BonusTechDamagePercent": {
+                "m_strValue": "0",
+                "m_strCSSClass": "tech_damage",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_DAMAGE_PERCENT",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
+            },
+            "SlowResistancePercent": {
+                "m_strValue": "60",
+                "m_strCSSClass": "move_speed",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_MOVEMENT_SLOW_RESISTANCE",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
+            },
+            "BonusSpiritMeter": {
+                "m_strValue": "0"
+            },
+            "BonusSpiritMax": {
+                "m_strValue": "0"
+            },
+            "BonusSpiritLingerDuration": {
+                "m_strValue": "0",
+                "m_strCSSClass": "duration",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "BonusSpiritLingerDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            },
+            "MoveWhileShootingSpeedPenaltyReductionPercent": {
+                "m_strValue": "100",
+                "m_strCSSClass": "move_speed",
+                "m_bIsHidden": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_MOVEMENT_SPEED_WHILE_SHOOTING_PENALTY_REDUCTION_PERCENT",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
+            },
+            "MoveWhileZoomedSpeedPenaltyReductionPercent": {
+                "m_strValue": "100",
+                "m_strCSSClass": "move_speed",
+                "m_bIsHidden": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_MOVEMENT_SPEED_WHILE_ZOOMED_PENALTY_REDUCTION_PERCENT",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
+            }
+        },
+        "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
+        "_editor": {
+            "folder_name": "Hero Kelvin"
+        },
+        "m_WeaponInfo": {
+            "m_BulletSpeedCurve": {
+                "m_spline": [
+                    {
+                        "x": "0.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    },
+                    {
+                        "x": "100.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    }
+                ],
+                "m_tangents": [
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    },
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    }
+                ],
+                "m_vDomainMins": [
+                    "0.000000",
+                    "0.000000"
+                ],
+                "m_vDomainMaxs": [
+                    "100.000000",
+                    "10000.000000"
+                ]
+            }
+        },
+        "m_strCancelAbilityKey": "+in_cancel_ability",
+        "m_HUDPanel": {
+            "m_vecButtonHints": [
+                {
+                    "m_eButton1": "EButtonHint_DashKey",
+                    "m_strLocToken": "#AbilityButtonHint_MoveUp",
+                    "m_eHintSide": "EButtonSide_Right",
+                    "m_strContext": "channel"
+                },
+                {
+                    "m_eButton1": "EButtonHint_CrouchKey",
+                    "m_strLocToken": "#AbilityButtonHint_MoveDown",
+                    "m_eHintSide": "EButtonSide_Right",
+                    "m_strContext": "channel"
+                }
+            ],
+            "m_vecHUDElements": [
+                {
+                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
+                    "m_strContext": "channel",
+                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_progress_bar.vxml"
+                }
+            ]
+        },
+        "_multibase": [
+            "signature_base"
+        ],
+        "m_bStartTrained": "false",
+        "m_nAbilityPointsCost": "0",
+        "m_nAbillityUnlocksCost": "1",
+        "m_eAbilityType": "EAbilityType_Signature",
+        "m_iMaxLevel": "1",
+        "m_bitsInterruptingStates": "MODIFIER_STATE_IMMOBILIZED | MODIFIER_STATE_STUNNED | MODIFIER_STATE_IS_ASLEEP",
+        "m_PreviewPathParticle": "particles/generic/generic_arc.vpcf",
+        "m_strAbilityOffCooldownSound": "",
+        "m_strAbilityChargeReadySound": "",
+        "m_skillshotMissParticle": "particles/abilities/skillshot_default_miss_owner.vpcf",
+        "m_iUpdateTime": "1677633731",
+        "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_SELF",
+        "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
+        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_PREVENT_BOT_USAGE |  CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_BUSY | CITADEL_ABILITY_BEHAVIOR_MOVEMENT",
+        "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL",
+        "m_strAbilityImage": "file://{images}/hud/abilities/kelvin/ice_path.psd",
+        "m_strCastAnimGraphParam": "e_IcePath",
+        "m_flMaxPitchChange": "5",
+        "m_flMaxPitchUp": "15.000000",
+        "m_flMaxPitchDown": "15.000000",
+        "m_flMaxHeight": "1400",
+        "m_flMomentumDecayRate": "0.300000",
+        "m_flMomentumWeight": "0.800000",
+        "m_flForwardAngleBias": "-10.000000",
+        "m_vecAbilityUpgrades": [
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "SprintSpeedBonus",
+                        "m_strBonus": "4m"
+                    }
+                ]
+            },
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "AbilityCooldown",
+                        "m_strBonus": "-16"
+                    }
+                ]
+            },
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "BonusSpiritMeter",
+                        "m_strBonus": "1"
+                    },
+                    {
+                        "m_strPropertyName": "BonusSpiritMax",
+                        "m_strBonus": "55"
+                    },
+                    {
+                        "m_strPropertyName": "BonusSpiritLingerDuration",
+                        "m_strBonus": "6"
+                    }
+                ]
+            }
+        ],
+        "m_strCastSound": "Kelvin.IcePath.Cast",
+        "m_IcePathModifier": {
+            "_class": "modifier_icepath",
+            "_my_subclass_name": "modifier_icepath",
+            "m_sAmbientLoopingSound": "Kelvin.IcePath.Dur.Lp",
+            "m_FrontModel": "",
+            "m_BodyModel": "models/props_gameplay/ice_path_body.vmdl",
+            "m_GroundParticle": "particles/abilities/kelvin/kelvin_ice_path_ground_thinker.vpcf",
+            "m_FloatingParticle": "particles/abilities/kelvin/kelvin_ice_path_thinker.vpcf",
+            "m_bIsHidden": "true",
+            "m_FriendlyAuraModifier": {
+                "_class": "modifier_base_aura",
+                "_my_subclass_name": "modifier_icepath_friendly_aura",
+                "m_iAuraSearchType": "CITADEL_UNIT_TARGET_HERO_FRIENDLY | CITADEL_UNIT_TARGET_CREEP_FRIENDLY",
+                "m_modifierProvidedByAura": {
+                    "_class": "modifier_icepath_buff",
+                    "_my_subclass_name": "modifier_icepath_buff",
+                    "m_strSmallIconCssClass": "enhanced_move_speed",
+                    "m_bIsHidden": "true",
+                    "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
+                        "MoveSpeedBonus",
+                        "SprintSpeedBonus"
+                    ]
+                }
+            },
+            "m_BonusSpiritLingerModifier": {
+                "_class": "modifier_icepath_tech_power_linger",
+                "_my_subclass_name": "modifier_icepath_tech_power_linger",
+                "m_bIsHidden": "true",
+                "m_vecAlwaysShowInStatModifierUI": [
+                    "MODIFIER_VALUE_TECH_POWER"
+                ]
+            },
+            "m_vecSetAndTrackedAnimGraphParams": [
+                {
+                    "m_strName": "b_IcePath",
+                    "m_strSetValue": "1",
+                    "m_strRestoreValue": "0"
+                }
+            ],
+            "m_IcePathBuffParticle": "particles/abilities/kelvin/kelvin_ice_path_buff.vpcf",
+            "m_strHintText": "modifier_hint_vertical_movement",
+            "m_sExpiredSound": "Ability.Kelvin.IcePath_End",
+            "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
+                "BonusTechDamagePercent",
+                "SlowResistancePercent",
+                "MoveWhileShootingSpeedPenaltyReductionPercent",
+                "MoveWhileZoomedSpeedPenaltyReductionPercent"
+            ]
+        },
+        "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/kelvin_ice_path.webm",
+        "m_bHasMovementControls": "true",
+        "m_AbilityTooltipDetails": {
+            "m_vecAbilityInfoSections": [
+                {
+                    "m_strLocString": "#ability_icepath_desc",
+                    "m_vecAbilityPropertiesBlock": [
+                        {
+                            "m_vecAbilityProperties": [
+                                {
+                                    "m_strImportantProperty": "MoveSpeedBonus"
+                                },
+                                {
+                                    "m_strImportantProperty": "SprintSpeedBonus"
+                                },
+                                {
+                                    "m_strImportantProperty": "BonusTechDamagePercent",
+                                    "m_bRequiresAbilityUpgrade": "true"
+                                }
+                            ]
+                        }
+                    ],
+                    "m_vecBasicProperties": [
+                        "IcePathAuraDuration"
+                    ]
+                }
+            ]
+        }
+    }
+}

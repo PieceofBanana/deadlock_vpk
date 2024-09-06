@@ -1,0 +1,296 @@
+{
+    "citadel_ability_slide": {
+        "_class": "citadel_ability_slide",
+        "m_mapAbilityProperties": {
+            "AbilityCooldown": {
+                "m_strValue": "0.6",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldown_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldown"
+                }
+            },
+            "AbilityDuration": {
+                "m_strValue": "0.6",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "duration",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            },
+            "AbilityCastRange": {
+                "m_strValue": "0",
+                "m_eDisplayUnits": "EDisplayUnit_Meters",
+                "m_strCSSClass": "range",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCastRange_scale_function",
+                    "m_eSpecificStatScaleType": "ETechRange"
+                }
+            },
+            "AbilityUnitTargetLimit": {
+                "m_strValue": "1",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityCastDelay": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityChannelTime": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_multi_stats",
+                    "_my_subclass_name": "scale_duration",
+                    "m_vecScalingStats": [
+                        "EChannelDuration",
+                        "ETechDuration"
+                    ]
+                }
+            },
+            "AbilityPostCastDuration": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0"
+            },
+            "AbilityCharges": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCharges_scale_function",
+                    "m_eSpecificStatScaleType": "EMaxChargesIncrease"
+                }
+            },
+            "AbilityCooldownBetweenCharge": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "charge_cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldownBetweenCharge_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldownBetweenChargeUses"
+                }
+            },
+            "ChannelMoveSpeed": {
+                "m_strValue": "50",
+                "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond",
+                "m_strCSSClass": "move_speed",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityResourceCost": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_strCSSClass": "cast"
+            },
+            "TechPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_POWER"
+            },
+            "WeaponPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
+            }
+        },
+        "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
+        "_editor": {
+            "folder_name": "Base"
+        },
+        "m_WeaponInfo": {
+            "m_BulletSpeedCurve": {
+                "m_spline": [
+                    {
+                        "x": "0.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    },
+                    {
+                        "x": "100.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    }
+                ],
+                "m_tangents": [
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    },
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    }
+                ],
+                "m_vDomainMins": [
+                    "0.000000",
+                    "0.000000"
+                ],
+                "m_vDomainMaxs": [
+                    "100.000000",
+                    "10000.000000"
+                ]
+            }
+        },
+        "_multibase": [
+            "inherent_base"
+        ],
+        "m_eAbilityType": "EAbilityType_Innate",
+        "m_bStartTrained": "true",
+        "m_iMaxLevel": "1",
+        "m_bitsInterruptingStates": "MODIFIER_STATE_STUNNED | MODIFIER_STATE_IS_ASLEEP",
+        "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_SELF",
+        "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_HOLD_TOGGLE",
+        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_DONT_BREAK_INVISIBILITY | CITADEL_ABILITY_BEHAVIOR_INPUT_DIRECTIONAL_2D | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_NON_COMBAT | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
+        "m_flTurnSpeed": "90.000000",
+        "m_flTurnMinAngDiff": "5.000000",
+        "m_flTurnMaxAngDiff": "2.000000",
+        "m_flSprintBoostSpeed": "300.000000",
+        "m_flMinSustainSpeed": "170.000000",
+        "m_flMinActivationSpeed": "350.000000",
+        "m_flBoostMinSpeed": "100.000000",
+        "m_flBoostMaxSpeed": "600.000000",
+        "m_flButtonPressWindow": "5.000000",
+        "m_flBoostMinTriggerSpeed": "300.000000",
+        "m_flBoostMaxTriggerSpeed": "700.000000",
+        "m_flAccMaxSlopeDeg": "45.000000",
+        "m_flAccMinSlopeDeg": "5.000000",
+        "m_flAccMinSlopeScale": "0.500000",
+        "m_flSlideActivationProbeForwardOffset": "200.000000",
+        "m_flSlopeFacingAngleToActivate": "75.000000",
+        "m_flAirDragAfterJump": "2.000000",
+        "m_flAirDragAfterJumpTime": "0.500000",
+        "m_flAirDragMaxAngle": "2.000000",
+        "m_flDashSlideSpeed": "650.000000",
+        "m_flDashMinActivationSpeed": "250.000000",
+        "m_flFrictionMaxSlope": "0.150000",
+        "m_flFrictionMinSlope": "0.150000",
+        "m_flFrictionFlatGround": "0.800000",
+        "m_flFlatGroundFrictionGraceTime": "0.600000",
+        "m_flMinAngleToConsiderASlope": "8.000000",
+        "m_flFrictionFlatGroundGrace": "0.050000",
+        "m_flAirDragResetTime": "0.500000",
+        "m_flLateSlideJumpWindow": "0.250000",
+        "m_cameraSequenceCastStart": {
+            "m_strToken": "",
+            "m_bIsEmpty": "false",
+            "m_vecDistanceOperations": [],
+            "m_vecFOVOperations": [],
+            "m_vecTargetPosOperations": [],
+            "m_vecVertOffsetOperations": [],
+            "m_vecHorizOffsetOperations": []
+        },
+        "m_cameraSequenceStartSliding": {
+            "m_vecFOVOperations": [
+                {
+                    "m_flApproachTarget": "85.000000",
+                    "m_flApproachSpeed": "50.000000",
+                    "m_flApproachAcceleration": "100.000000"
+                },
+                {
+                    "m_flMaintainDuration": "99.000000",
+                    "m_eCameraOperation": "k_ECameraOp_Maintain"
+                }
+            ]
+        },
+        "m_cameraSequenceEndSliding": {
+            "m_vecFOVOperations": [
+                {
+                    "m_flSpringStrength": "6.000000",
+                    "m_eCameraOperation": "k_ECameraOp_Spring"
+                }
+            ]
+        },
+        "m_flLandedFlatGroundFrictionGraceTime": "0.750000",
+        "m_flSlideMaxSlopeMaxAccSpeed": "1500.000000",
+        "m_flSlideMinSlopeMaxAccSpeed": "1200.000000",
+        "m_flSlideMaxSlopeAcceleration": "850.000000",
+        "m_flSlideMinSlopeAcceleration": "500.000000",
+        "m_flLandingSlopeScaleBias": "0.600000",
+        "m_flFrictionUphillMinSlope": "1.000000",
+        "m_flFrictionUphillMaxSlope": "1.500000",
+        "m_flInitialSlideUseForwardProbeTime": "0.250000",
+        "m_SlideParticle": "particles/generic/slide.vpcf",
+        "m_flSlideProbeForwardOffset": "60.000000",
+        "m_flMaxDistanceBetweenProbeSamples": "20.000000",
+        "m_flCurrentSlopeSampleDistance": "20.000000",
+        "m_flSampleVelDiffStdDevScaleCutoff": "1.000000",
+        "m_strStartSound": "Gameplay.Slide.Enter",
+        "m_strStopSound": "Gameplay.Slide.Exit",
+        "m_strLoopingSound": "Gameplay.Slide.Lp",
+        "m_SlideEffectRemap": [
+            "250.000000",
+            "700.000000",
+            "0.100000",
+            "1.000000"
+        ],
+        "m_flDashSlideFrictionTime": "1.000000",
+        "m_flDashSlideFriction": "0.175000",
+        "m_flDashSlideFailSpeed": "450.000000",
+        "m_flDashSlideStartTime": "0.300000",
+        "m_strDashSlideActivate": "Player.RollJump.Activate",
+        "m_GetupSpeedCurve": {
+            "m_spline": [
+                {
+                    "x": "0.000000",
+                    "y": "-20.000000",
+                    "m_flSlopeIncoming": "3.954919",
+                    "m_flSlopeOutgoing": "3.954919"
+                },
+                {
+                    "x": "0.650053",
+                    "y": "-17.429092",
+                    "m_flSlopeIncoming": "26.666666",
+                    "m_flSlopeOutgoing": "26.666666"
+                },
+                {
+                    "x": "0.750000",
+                    "y": "0.000000",
+                    "m_flSlopeIncoming": "174.383698",
+                    "m_flSlopeOutgoing": "174.383698"
+                }
+            ],
+            "m_tangents": [
+                {
+                    "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                    "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                },
+                {
+                    "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                    "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                },
+                {
+                    "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                    "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                }
+            ],
+            "m_vDomainMins": [
+                "0.000000",
+                "-20.000000"
+            ],
+            "m_vDomainMaxs": [
+                "0.750000",
+                "0.000000"
+            ]
+        },
+        "m_flGetupBusyDuration": "0.350000"
+    }
+}

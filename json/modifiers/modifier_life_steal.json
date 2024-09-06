@@ -1,0 +1,6 @@
+{
+    "modifier_life_steal": {
+        "_class": "modifier_life_steal",
+        "m_nAttributes": "MODIFIER_ATTRIBUTE_MULTIPLE"
+    }
+}

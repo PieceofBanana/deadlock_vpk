@@ -1,0 +1,135 @@
+{
+    "weapon_info_base": {
+        "_not_pickable": "2",
+        "m_WeaponInfo": {
+            "m_Spread": "0.500000",
+            "m_StandingSpread": "1.500000",
+            "m_flScatterYawScale": "1",
+            "m_flShootingUpSpreadPenalty": "0",
+            "m_flZoomMoveSpeedPercent": "1.000000",
+            "m_flShootMoveSpeedPercent": "0.700000",
+            "m_flHorizontalPunch": "0",
+            "m_flVerticalPunch": "0",
+            "m_flRecoilRecoverySpeed": "10.000000",
+            "m_VerticallRecoil": {
+                "m_Range": [
+                    "-0.200000",
+                    "0.200000"
+                ],
+                "m_flBurstSlope": "0.000000",
+                "m_flBurstExponent": "0.000000",
+                "m_flBurstConstant": "0.000000"
+            },
+            "m_HorizontalRecoil": {
+                "m_Range": [
+                    "-0.100000",
+                    "0.100000"
+                ],
+                "m_flBurstExponent": "0.000000"
+            },
+            "m_flRecoilSpeed": "1",
+            "m_flZoomFOV": "35.000000",
+            "m_flDamageFalloffStartRange": "866.000000",
+            "m_flDamageFalloffEndRange": "2264.000000",
+            "m_flRange": "7000.000000",
+            "m_flBulletLifetime": "2",
+            "m_flDamageFalloffStartScale": "1.000000",
+            "m_flDamageFalloffEndScale": "0.100000",
+            "m_flDamageFalloffBias": "0.500000",
+            "m_iBullets": "1",
+            "m_flCycleTime": "0.300000",
+            "m_reloadDuration": "1.500000",
+            "m_iClipSize": "10",
+            "m_iBurstShotCount": "1",
+            "m_flBurstShotCooldown": "0",
+            "m_flBulletGravityScale": "0.800000",
+            "m_flBulletRadius": "3",
+            "m_flBulletReflectScale": "0",
+            "m_flBulletReflectAmount": "1",
+            "m_flBulletInheritShooterVelocityScale": "0",
+            "m_szBulletTravelTracerParticle": "particles/weapon_fx/default_tracer.vpcf",
+            "m_szMuzzleFlashEffectName": "particles/dev/bullet_debug_muzzle_flash.vpcf",
+            "m_strShootSound": "Pistol.Fire",
+            "m_strBulletWhizSound": "Base.Bullet.Whizby",
+            "m_flBulletWhizDistance": "150",
+            "m_BulletSpeedCurve": {
+                "m_spline": [
+                    {
+                        "x": "0.000000",
+                        "y": "25000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    },
+                    {
+                        "x": "100.000000",
+                        "y": "25000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    }
+                ],
+                "m_tangents": [
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    },
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    }
+                ],
+                "m_vDomainMins": [
+                    "0.000000",
+                    "1.000000"
+                ],
+                "m_vDomainMaxs": [
+                    "100.000000",
+                    "25000.000000"
+                ]
+            },
+            "m_mapImpactEffects": {
+                "default": {
+                    "m_strDecal": "Impact.Concrete",
+                    "m_strParticle": "particles/impact_fx/impact_spark_spray_large.vpcf",
+                    "m_strSound": "Default.BulletImpact"
+                },
+                "flesh": {
+                    "m_strDecal": "",
+                    "m_strParticle": "particles/blood_impact/blood_impact_red_01.vpcf",
+                    "m_strSound": "Flesh.BulletImpact"
+                },
+                "concrete": {
+                    "m_strDecal": "Impact.Concrete",
+                    "m_strParticle": "particles/impact_fx/impact_spark_spray_large.vpcf",
+                    "m_strSound": "Concrete.BulletImpact"
+                },
+                "solidmetal": {
+                    "m_strDecal": "Impact.Concrete",
+                    "m_strParticle": "particles/impact_fx/impact_spark_spray_large.vpcf",
+                    "m_strSound": "SolidMetal.BulletImpact"
+                },
+                "portals": {
+                    "m_strDecal": "Impact.Concrete",
+                    "m_strParticle": "particles/impact_fx/impact_spark_spray_large.vpcf",
+                    "m_strSound": "Player.HitInvuln"
+                }
+            },
+            "m_flCritBonusStart": "1.900000",
+            "m_flCritBonusEnd": "1.900000",
+            "m_flCritBonusStartRange": "500.000000",
+            "m_flCritBonusEndRange": "1500.000000",
+            "m_flCritBonusAgainstNPCs": "0",
+            "m_flShootSpreadPenaltyPerShot": "0.000000",
+            "m_flShootSpreadPenaltyDecayDelay": "0.000000",
+            "m_flShootSpreadPenaltyDecay": "2.000000",
+            "m_flRecoilShotIndexRecoveryTimeFactor": "0.250000",
+            "m_bCanZoom": "true",
+            "m_strWeaponImpactEffect": "particles/weapon_fx/default_tracer_impact.vpcf",
+            "m_flReloadMoveSpeed": "10000",
+            "m_strLocalPlayerBulletImpactSound": "Player.Bullet.Impact.Default",
+            "m_strLocalPlayerBulletImpactHeavySound": "Player.Bullet.Impact.Default"
+        },
+        "_editor": {
+            "folder_name": "Base"
+        }
+    }
+}

@@ -1,0 +1,434 @@
+{
+    "citadel_ability_hook": {
+        "_class": "citadel_ability_hook",
+        "m_mapAbilityProperties": {
+            "AbilityCooldown": {
+                "m_strValue": "22",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldown_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldown"
+                }
+            },
+            "AbilityDuration": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "duration",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            },
+            "AbilityCastRange": {
+                "m_strValue": "35m",
+                "m_eDisplayUnits": "EDisplayUnit_Meters",
+                "m_strCSSClass": "range",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCastRange_scale_function",
+                    "m_eSpecificStatScaleType": "ETechRange"
+                }
+            },
+            "AbilityUnitTargetLimit": {
+                "m_strValue": "1",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityCastDelay": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityChannelTime": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_multi_stats",
+                    "_my_subclass_name": "scale_duration",
+                    "m_vecScalingStats": [
+                        "EChannelDuration",
+                        "ETechDuration"
+                    ]
+                }
+            },
+            "AbilityPostCastDuration": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0"
+            },
+            "AbilityCharges": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCharges_scale_function",
+                    "m_eSpecificStatScaleType": "EMaxChargesIncrease"
+                }
+            },
+            "AbilityCooldownBetweenCharge": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "charge_cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldownBetweenCharge_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldownBetweenChargeUses"
+                }
+            },
+            "ChannelMoveSpeed": {
+                "m_strValue": "50",
+                "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond",
+                "m_strCSSClass": "move_speed",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityResourceCost": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_strCSSClass": "cast"
+            },
+            "TechPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_POWER"
+            },
+            "WeaponPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
+            },
+            "Damage": {
+                "m_strValue": "40",
+                "m_strCSSClass": "tech_damage"
+            },
+            "HookingSlowSpeedLimit": {
+                "m_strValue": "0.001"
+            },
+            "ReturnSpeed": {
+                "m_strValue": "2200"
+            },
+            "ReturnDelay": {
+                "m_strValue": "0.5"
+            },
+            "ReturnPositionForwardOffset": {
+                "m_strValue": "100"
+            },
+            "EndOfHookSlowTargetSpeed": {
+                "m_strValue": "0",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
+            },
+            "EndOfHookSlowTargetDuration": {
+                "m_strValue": "0",
+                "m_strCSSClass": "duration",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "EndOfHookSlowTargetDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            },
+            "EndOfHookMoveSpeedBonus": {
+                "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond",
+                "m_strValue": "0m",
+                "m_strCSSClass": "move_speed"
+            },
+            "EndOfHookCommandRestrictLinger": {
+                "m_strValue": "0.25"
+            },
+            "ResetCooldownOnFriendlyHook": {
+                "m_strValue": "0",
+                "m_strCSSClass": "cooldown"
+            },
+            "FriendlyHookIgnoreRange": {
+                "m_strValue": "3m"
+            },
+            "BulletAmp": {
+                "m_strValue": "0",
+                "m_strCSSClass": "bullet_armor_down"
+            },
+            "BulletAmpDuration": {
+                "m_strValue": "0",
+                "m_strCSSClass": "duration",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "BulletAmp_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            },
+            "BulletShieldOnHook": {
+                "m_strValue": "0",
+                "m_strCSSClass": "bullet_armor_up",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "BulletShieldOnHook_scale_function",
+                    "m_eSpecificStatScaleType": "ETechPower",
+                    "m_flStatScale": "0.000000"
+                }
+            },
+            "BulletShieldDuration": {
+                "m_strValue": "0",
+                "m_strCSSClass": "bullet_armor_up",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "BulletShieldDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            }
+        },
+        "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
+        "_editor": {
+            "folder_name": "Hero Bebop"
+        },
+        "m_WeaponInfo": {
+            "m_BulletSpeedCurve": {
+                "m_spline": [
+                    {
+                        "x": "0.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    },
+                    {
+                        "x": "100.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    }
+                ],
+                "m_tangents": [
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    },
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    }
+                ],
+                "m_vDomainMins": [
+                    "0.000000",
+                    "0.000000"
+                ],
+                "m_vDomainMaxs": [
+                    "100.000000",
+                    "10000.000000"
+                ]
+            }
+        },
+        "m_strCancelAbilityKey": "+in_cancel_ability",
+        "m_HUDPanel": {
+            "m_vecButtonHints": [
+                {
+                    "m_eButton1": "EButtonHint_Cancel",
+                    "m_strLocToken": "#ability_abort_cast",
+                    "m_eHintSide": "EButtonSide_Right",
+                    "m_strContext": "abort"
+                }
+            ],
+            "m_vecHUDElements": [
+                {
+                    "m_strContext": "hook_out",
+                    "m_vecPanels": [
+                        {
+                            "m_strPanelName": "circular_progress",
+                            "m_eProgressType": "EProgress_RadialCW",
+                            "m_bReverseProgress": "false",
+                            "m_flStartValue": "0.000000",
+                            "m_flEndValue": "360.000000"
+                        }
+                    ],
+                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
+                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_circular_progress.vxml",
+                    "m_strAdditionalClasses": "medium"
+                },
+                {
+                    "m_strContext": "hook_in",
+                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
+                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_circular_progress.vxml",
+                    "m_vecPanels": [
+                        {
+                            "m_strPanelName": "circular_progress",
+                            "m_eProgressType": "EProgress_RadialCW",
+                            "m_bReverseProgress": "false",
+                            "m_flEndValue": "360.000000"
+                        }
+                    ],
+                    "m_strAdditionalClasses": "medium"
+                }
+            ]
+        },
+        "_multibase": [
+            "signature_base"
+        ],
+        "m_bStartTrained": "false",
+        "m_nAbilityPointsCost": "0",
+        "m_nAbillityUnlocksCost": "1",
+        "m_eAbilityType": "EAbilityType_Signature",
+        "m_iMaxLevel": "1",
+        "m_bitsInterruptingStates": "MODIFIER_STATE_STUNNED",
+        "m_PreviewPathParticle": "particles/generic/generic_arc.vpcf",
+        "m_strAbilityOffCooldownSound": "",
+        "m_strAbilityChargeReadySound": "",
+        "m_skillshotMissParticle": "particles/abilities/skillshot_default_miss_owner.vpcf",
+        "m_iUpdateTime": "1693505809",
+        "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_NONE",
+        "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_SPHERE",
+        "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
+        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_ALLOW_ALT_CAST | CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_PREVENT_BOT_USAGE",
+        "m_nAbilityTargetFlags": "",
+        "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_HERO",
+        "m_strHookSuccessSound": "Ability.Bebop.Hook.Success.Multi",
+        "m_strHookAllySound": "Ability.Bebop.Hook.Success.Multi",
+        "m_HookOutParticle": "particles/abilities/bebop/bebop_hook.vpcf",
+        "m_strHookMissSound": "",
+        "m_strHookImpactGeoSound": "Ability.Bebop.Hook.ImpactGeo",
+        "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/bebop_hook.webm",
+        "m_strAbilityImage": "file://{images}/hud/abilities/bebop/bebop_hook.psd",
+        "m_projectileInfo": {
+            "m_customModel": "",
+            "m_particle": "particles/weapon_fx/trail_grapple.vpcf",
+            "m_flSpeed": "2850",
+            "m_flUpSpeed": "0",
+            "m_flGravityScale": "0.050000",
+            "m_flPhysicsRadius": "1",
+            "m_bHideWarningParticle": "1",
+            "m_AutoProjectileModifier": {
+                "_class": "modifier_intrinsic_base",
+                "_my_subclass_name": "modifier_intrinsic_base",
+                "m_sStartSound": "Ability.Bebop.Hook.Shoot"
+            },
+            "m_flTriggerRadius": "33.000000",
+            "m_nBehaviors": "PBF_DisableTriggerProjectileImpactBehavior | PBF_ValidateTargetLineOfSight",
+            "m_LoopingSound": "Ability.Bebop.Hook.Proj.Lp"
+        },
+        "m_vecAbilityUpgrades": [
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "BulletAmp",
+                        "m_strBonus": "30"
+                    },
+                    {
+                        "m_strPropertyName": "BulletAmpDuration",
+                        "m_strBonus": "10"
+                    }
+                ]
+            },
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "AbilityCastRange",
+                        "m_strBonus": "30m"
+                    }
+                ]
+            },
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "AbilityCooldown",
+                        "m_strBonus": "-12"
+                    }
+                ]
+            }
+        ],
+        "m_SelfModifier": {
+            "_class": "modifier_citadel_hookself",
+            "_my_subclass_name": "modifier_citadel_hookself",
+            "m_nEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
+            "m_bIsHidden": "true"
+        },
+        "m_ShieldModifier": {
+            "_class": "modifier_hook_shield",
+            "_my_subclass_name": "modifier_hook_shield",
+            "m_strParticleEffect": "particles/abilities/wraith/wraith_projectmind_shield.vpcf",
+            "m_sLocalizationName": "hook_bullet_shield"
+        },
+        "m_TargetModifier": {
+            "_my_subclass_name": "modifier_citadel_hooktarget",
+            "_class": "modifier_citadel_hooktarget",
+            "m_nEnabledStateMask": "MODIFIER_STATE_COMMAND_RESTRICTED | MODIFIER_STATE_GLOW_TO_PROVIDER | MODIFIER_STATE_GLOW_THROUGH_WALLS_TO_PROVIDER | MODIFIER_STATE_AIR_DUCKING_FORCED | MODIFIER_STATE_SILENCE_MOVEMENT_ABILITES",
+            "m_SlowModifier": {
+                "_class": "modifier_slow_base",
+                "_my_subclass_name": "modifier_slow_base",
+                "m_strParticleEffect": "particles/generic/generic_slow_debuff.vpcf",
+                "m_sLocalizationName": "hook_modifier_slow",
+                "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
+                    "EndOfHookSlowTargetSpeed"
+                ]
+            },
+            "m_strRetractSound": "Ability.Bebop.Hook.Retract",
+            "m_HookRetrieveParticle": "particles/abilities/bebop/bebop_hook_retrieve.vpcf",
+            "m_strRetractSoundEnd": "Ability.Bebop.Hook.RetractEnd",
+            "m_cameraSequenceCreated": {
+                "m_vecDistanceOperations": [
+                    {
+                        "m_flSpringStrength": "5.000000",
+                        "m_bSpringToDefault": "false",
+                        "m_flSpringTarget": "150.000000",
+                        "m_eCameraOperation": "k_ECameraOp_Spring"
+                    },
+                    {
+                        "m_flMaintainDuration": "99.000000",
+                        "m_eCameraOperation": "k_ECameraOp_Maintain"
+                    }
+                ]
+            },
+            "m_flTossUpSpeed": "160",
+            "m_strApproachingWhooshSound": "Ability.Bebop.Hook.TargetApproaching",
+            "m_sAmbientLoopingSound": "Ability.Bebop.Hook.Proj.Lp"
+        },
+        "m_BulletAmpModifier": {
+            "_class": "modifier_bebop_hook_bullet_amp",
+            "_my_subclass_name": "modifier_bebop_hook_bullet_amp",
+            "m_sLocalizationName": "modifier_bullet_armor_reduction",
+            "m_strParticleEffect": "particles/modifiers/armor_suppressor.vpcf",
+            "m_strSmallIconCssClass": "bullet_armor_reduction",
+            "m_bIsHidden": "true"
+        },
+        "m_AbilityTooltipDetails": {
+            "m_vecAbilityInfoSections": [
+                {
+                    "m_strLocString": "#citadel_ability_hook_desc",
+                    "m_vecAbilityPropertiesBlock": [
+                        {
+                            "m_vecAbilityProperties": [
+                                {
+                                    "m_strImportantProperty": "Damage"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "m_strLocString": "#citadel_ability_hook_t2_desc",
+                    "m_vecAbilityPropertiesBlock": [
+                        {
+                            "m_vecAbilityProperties": [
+                                {
+                                    "m_strImportantProperty": "BulletShieldOnHook"
+                                },
+                                {
+                                    "m_strImportantProperty": "BulletShieldDuration"
+                                }
+                            ],
+                            "m_strPropertiesTitleLocString": "#Citadel_ability_hook_on_hook"
+                        }
+                    ],
+                    "m_strAbilityPropertyUpgradeRequired": "BulletShieldOnHook"
+                }
+            ]
+        }
+    }
+}

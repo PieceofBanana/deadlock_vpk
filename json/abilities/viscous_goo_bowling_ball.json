@@ -1,0 +1,396 @@
+{
+    "viscous_goo_bowling_ball": {
+        "_class": "viscous_goo_bowling_ball",
+        "m_mapAbilityProperties": {
+            "AbilityCooldown": {
+                "m_strValue": "90",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldown_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldown"
+                }
+            },
+            "AbilityDuration": {
+                "m_strValue": "10",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "duration",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            },
+            "AbilityCastRange": {
+                "m_strValue": "0",
+                "m_eDisplayUnits": "EDisplayUnit_Meters",
+                "m_strCSSClass": "range",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCastRange_scale_function",
+                    "m_eSpecificStatScaleType": "ETechRange"
+                }
+            },
+            "AbilityUnitTargetLimit": {
+                "m_strValue": "1",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityCastDelay": {
+                "m_strValue": "0.55",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityChannelTime": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_multi_stats",
+                    "_my_subclass_name": "scale_duration",
+                    "m_vecScalingStats": [
+                        "EChannelDuration",
+                        "ETechDuration"
+                    ]
+                }
+            },
+            "AbilityPostCastDuration": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0"
+            },
+            "AbilityCharges": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCharges_scale_function",
+                    "m_eSpecificStatScaleType": "EMaxChargesIncrease"
+                }
+            },
+            "AbilityCooldownBetweenCharge": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "charge_cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldownBetweenCharge_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldownBetweenChargeUses"
+                }
+            },
+            "ChannelMoveSpeed": {
+                "m_strValue": "275",
+                "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond",
+                "m_strCSSClass": "move_speed",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityResourceCost": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_strCSSClass": "cast"
+            },
+            "TechPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_POWER"
+            },
+            "WeaponPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
+            },
+            "BallRadius": {
+                "m_strValue": "63"
+            },
+            "Damage": {
+                "m_strValue": "140",
+                "m_strCSSClass": "tech_damage",
+                "m_eDisplayType": "ETechPower",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_tech_damage",
+                    "_my_subclass_name": "damage_scale",
+                    "m_flStatScale": "1.300000",
+                    "m_eSpecificStatScaleType": "ETechPower"
+                }
+            },
+            "BallOffset": {
+                "m_strValue": "50"
+            },
+            "BossDamagePercent": {
+                "m_strValue": "50"
+            },
+            "FrictionPercentage": {
+                "m_strValue": "-85",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_FRICTION_PERCENTAGE"
+            },
+            "AccelerationPercentage": {
+                "m_strValue": "-60"
+            },
+            "MoveSpeedMax": {
+                "m_strValue": "7m",
+                "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond",
+                "m_strCSSClass": "move_speed"
+            },
+            "BreakablePropDamageRadius": {
+                "m_strValue": "75"
+            },
+            "BallScale": {
+                "m_strValue": "2"
+            },
+            "JumpForce": {
+                "m_strValue": "500"
+            },
+            "Radius": {
+                "m_eDisplayType": "ETechRadius",
+                "m_eDisplayUnits": "EDisplayUnit_Meters",
+                "m_strCSSClass": "distance",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "Radius_scale_function",
+                    "m_eSpecificStatScaleType": "ETechRadius"
+                }
+            },
+            "ParticleRadiusMultiplier": {
+                "m_strValue": "1.2"
+            },
+            "TickRate": {
+                "m_strValue": "0.25"
+            },
+            "StunDuration": {
+                "m_strValue": "1",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "m_eSpecificStatScaleType": "ETechDuration",
+                    "_my_subclass_name": "viscous_ball_stun_scale"
+                }
+            },
+            "KnockForce": {
+                "m_strValue": "400"
+            },
+            "TechResist": {
+                "m_strValue": "70",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
+            },
+            "BulletResist": {
+                "m_strValue": "60",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
+            },
+            "AirJumpForce": {
+                "m_strValue": "500"
+            },
+            "CastWhileRolling": {
+                "m_strValue": "0"
+            }
+        },
+        "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
+        "_editor": {
+            "folder_name": "Hero Viscous"
+        },
+        "m_WeaponInfo": {
+            "m_BulletSpeedCurve": {
+                "m_spline": [
+                    {
+                        "x": "0.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    },
+                    {
+                        "x": "100.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    }
+                ],
+                "m_tangents": [
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    },
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    }
+                ],
+                "m_vDomainMins": [
+                    "0.000000",
+                    "0.000000"
+                ],
+                "m_vDomainMaxs": [
+                    "100.000000",
+                    "10000.000000"
+                ]
+            }
+        },
+        "m_strCancelAbilityKey": "+in_cancel_ability",
+        "m_HUDPanel": {
+            "m_vecButtonHints": [
+                {
+                    "m_strContext": "viscous_rolling_hint",
+                    "m_eButton1": "EButtonHint_Attack",
+                    "m_eHintSide": "EButtonSide_Right",
+                    "m_strLocToken": "#AbilityButtonHint_RollingGooAccelerate",
+                    "m_strBindingOverride1": "in_attack"
+                },
+                {
+                    "m_strContext": "viscous_rolling_jump",
+                    "m_eButton1": "EButtonHint_Cancel",
+                    "m_eHintSide": "EButtonSide_Right",
+                    "m_strLocToken": "#AbilityButtonHint_RollingGooJump"
+                }
+            ],
+            "m_vecHUDElements": [
+                {
+                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
+                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_progress_bar.vxml",
+                    "m_strContext": "viscous_rolling_progress",
+                    "m_bReverseProgress": "true"
+                }
+            ]
+        },
+        "_multibase": [
+            "ultimate_base"
+        ],
+        "m_bStartTrained": "false",
+        "m_nAbilityPointsCost": "0",
+        "m_nAbillityUnlocksCost": "1",
+        "m_eAbilityType": "EAbilityType_Ultimate",
+        "m_iMaxLevel": "1",
+        "m_bitsInterruptingStates": "",
+        "m_PreviewPathParticle": "particles/generic/generic_arc.vpcf",
+        "m_strAbilityOffCooldownSound": "",
+        "m_strAbilityChargeReadySound": "",
+        "m_skillshotMissParticle": "particles/abilities/skillshot_default_miss_owner.vpcf",
+        "m_iUpdateTime": "1669930587",
+        "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
+        "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
+        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CANNOT_CANCEL_DURING_CHANNEL",
+        "m_strCastAnimGraphParam": "b_RollingGoo",
+        "m_vecDependentAbilities": [
+            "viscous_goo_bowling_ball_cancel"
+        ],
+        "m_vecAbilityUpgrades": [
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "AbilityDuration",
+                        "m_strBonus": "5"
+                    }
+                ]
+            },
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "Damage",
+                        "m_strBonus": "120"
+                    }
+                ]
+            },
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "CastWhileRolling",
+                        "m_strBonus": "1"
+                    }
+                ]
+            }
+        ],
+        "m_TransformStartFx": "particles/abilities/viscous/viscous_bowling_transform_start.vpcf",
+        "m_flVerticalCameraOffsetLerpTime": "0.200000",
+        "m_flVerticalCameraOffsetBias": "0.750000",
+        "m_flVerticalCameraOffset": "40.000000",
+        "m_strAbilityImage": "file://{images}/hud/abilities/viscous/viscous_goo_sphere.psd",
+        "m_flDistanceCameraOffsetLerpTime": "0.200000",
+        "m_flDistanceCameraOffsetBias": "0.750000",
+        "m_flDistanceCameraOffset": "320.000000",
+        "m_BallJumpSound": "Ability.Astro.BouncePad.Solo",
+        "m_ExplodeFX": "particles/abilities/viscous/viscous_bowling_explode.vpcf",
+        "m_cameraSequenceCastStart": {},
+        "m_cameraSequenceCastComplete": {
+            "m_vecVertOffsetOperations": [],
+            "m_vecTargetPosOperations": []
+        },
+        "m_strPopGraphParamter": "",
+        "m_AbilityTooltipDetails": {
+            "m_vecAbilityInfoSections": [
+                {
+                    "m_strLocString": "#viscous_goo_bowling_ball_desc",
+                    "m_vecAbilityPropertiesBlock": [
+                        {
+                            "m_vecAbilityProperties": [
+                                {
+                                    "m_strImportantProperty": "Damage"
+                                },
+                                {
+                                    "m_strImportantProperty": "StunDuration"
+                                }
+                            ]
+                        }
+                    ],
+                    "m_vecBasicProperties": [
+                        "TechResist",
+                        "BulletResist"
+                    ]
+                }
+            ]
+        },
+        "m_flTransformToBallTime": "0",
+        "m_flTransformFromBallTime": "0.000000",
+        "m_flSpeedAccel": "600.000000",
+        "m_flSpeedDeccel": "50.000000",
+        "m_flTurnRatio": "95.000000",
+        "m_flAirTurnRatio": "50.000000",
+        "m_DamagePreventionModifier": {
+            "_my_subclass_name": "viscous_ball_damage_prevention",
+            "_class": "modifier_base",
+            "m_bIsHidden": "true",
+            "m_flDuration": "1.500000",
+            "m_strParticleEffect": "particles/abilities/viscous/viscous_ball_hero_impact.vpcf",
+            "m_sAmbientLoopingSound": "",
+            "m_sStartSound": "Viscous.GooBowlingBall.Impact_Hero",
+            "m_eDebuffType": "MODIFIER_DEBUFF_NO"
+        },
+        "m_WallImpactFx": "particles/abilities/viscous/viscous_ball_wall_impact.vpcf",
+        "m_strChannelLoopSound": "",
+        "m_BallLoopSound": "Viscous.GooBowlingBall.Movement_Lp",
+        "m_WallImpactSound": "Viscous.GooBowlingBall.Impact_Wall",
+        "m_PlayerImpactSound": "Viscous.GooBowlingBall.Impact_Hero",
+        "m_strCastSound": "",
+        "m_strCastDelaySound": "Viscous.GooBowlingBall.Cast",
+        "m_AutoIntrinsicModifiers": [],
+        "m_RollingModifier": {
+            "_class": "modifier_viscous_ball",
+            "_my_subclass_name": "viscous_rolling_resist",
+            "m_bIsHidden": "true",
+            "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
+                "TechResist",
+                "BulletResist"
+            ],
+            "m_TrailParticle": "particles/abilities/viscous/viscous_bowling_trail.vpcf",
+            "m_DirectionParticle": "particles/abilities/viscous/viscous_bowling_direction.vpcf"
+        },
+        "m_ExitBallSound": "Viscous.GooBowlingBall.End",
+        "m_flDefaultBallSpeed": "450.000000",
+        "m_flFastBallSpeed": "800.000000",
+        "m_flElasticity": "0.650000",
+        "m_flWallCheckGroundOffset": "65.000000",
+        "m_flWallPauseTime": "0.100000",
+        "m_flWallTurnRatioMax": "1200.000000",
+        "m_flWallTurnRatioMin": "1000.000000",
+        "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/viscous_goo_bowling_ball.webm",
+        "m_GroundImpactParticle": "particles/abilities/viscous/viscous_ball_ground_impact.vpcf",
+        "m_JumpParticle": "particles/abilities/viscous/viscous_bowling_ball_air_jump.vpcf"
+    }
+}

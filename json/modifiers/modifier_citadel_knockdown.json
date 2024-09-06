@@ -1,0 +1,46 @@
+{
+    "modifier_citadel_knockdown": {
+        "_class": "modifier_citadel_knockdown",
+        "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER",
+        "m_strSmallIconCssClass": "stunned",
+        "m_bKeepMaximumDurationOnRefresh": "true",
+        "m_cameraSequenceCreated": {
+            "m_vecDistanceOperations": [
+                {
+                    "m_eCameraOperation": "k_ECameraOp_Lerp",
+                    "m_bLerpEndAtDefault": "false",
+                    "m_flLerpEnd": "300.000000",
+                    "m_flLerpBias": "0.508000",
+                    "m_flLerpDuration": "0.500000"
+                },
+                {
+                    "m_eCameraOperation": "k_ECameraOp_Maintain",
+                    "m_flMaintainDuration": "5.000000"
+                }
+            ],
+            "m_vecFOVOperations": [
+                {
+                    "m_eCameraOperation": "k_ECameraOp_Lerp",
+                    "m_bLerpEndAtDefault": "false",
+                    "m_flLerpEnd": "80.000000",
+                    "m_flLerpDuration": "0.150000"
+                },
+                {
+                    "m_eCameraOperation": "k_ECameraOp_Lerp",
+                    "m_flLerpBias": "0.800000",
+                    "m_flLerpDuration": "0.150000"
+                }
+            ]
+        },
+        "m_cameraSequenceGetUp": {
+            "m_vecDistanceOperations": [
+                {
+                    "m_eCameraOperation": "k_ECameraOp_Lerp",
+                    "m_flLerpDuration": "0.250000",
+                    "m_flLerpBias": "0.702000"
+                }
+            ]
+        },
+        "m_flGetUpSeqDuration": "0.250000"
+    }
+}

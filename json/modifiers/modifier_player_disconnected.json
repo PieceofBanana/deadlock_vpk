@@ -1,0 +1,7 @@
+{
+    "modifier_player_disconnected": {
+        "_class": "modifier_player_disconnected",
+        "m_bIsHidden": "true",
+        "m_nAttributes": "MODIFIER_ATTRIBUTE_PERMANENT"
+    }
+}

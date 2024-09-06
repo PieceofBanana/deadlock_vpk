@@ -1,0 +1,7 @@
+{
+    "modifier_citadel_stunned": {
+        "_class": "modifier_citadel_stunned",
+        "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER",
+        "m_strSmallIconCssClass": "stunned"
+    }
+}

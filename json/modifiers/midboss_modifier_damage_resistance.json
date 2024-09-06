@@ -1,0 +1,8 @@
+{
+    "midboss_modifier_damage_resistance": {
+        "_class": "modifier_damage_resistance",
+        "m_flDamageResistancePerSecond": "100",
+        "m_flTickInterval": "0.050000",
+        "m_flDamageResistanceBonusPerGameMinute": "8"
+    }
+}

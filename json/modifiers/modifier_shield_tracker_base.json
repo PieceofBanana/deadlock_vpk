@@ -1,0 +1,10 @@
+{
+    "modifier_shield_tracker_base": {
+        "_class": "modifier_shield_tracker_base",
+        "m_strParticleEffect": "",
+        "m_bIsHidden": "true",
+        "m_flShieldImpactEffectDuration": "1.500000",
+        "_base": "",
+        "flCooldownOnBreak": "60.000000"
+    }
+}

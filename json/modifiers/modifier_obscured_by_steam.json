@@ -1,0 +1,14 @@
+{
+    "modifier_obscured_by_steam": {
+        "_class": "modifier_obscured",
+        "m_strScreenParticleEffect": "particles/modifiers/obscured_by_steam_screen.vpcf",
+        "m_nEnabledStateMask": "",
+        "m_strParticleEffect": "",
+        "m_strParticleStatusEffect": "particles/status_fx/status_fx_obscured_by_steam.vpcf",
+        "m_vecScriptValues": [],
+        "m_vecScriptEventHandlers": [],
+        "m_eDebuffType": "MODIFIER_DEBUFF_ENEMY_TEAM_ONLY",
+        "m_flRevealDuration": "1.000000",
+        "m_flHideDuration": "1.000000"
+    }
+}

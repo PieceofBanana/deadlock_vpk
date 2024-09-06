@@ -1,0 +1,7 @@
+{
+    "modifier_zipline_speed_trooper_reinforcement": {
+        "_class": "modifier_zipline_speed",
+        "m_flPercentageMultiplierEnd": "100",
+        "m_flRampUpTime": "0"
+    }
+}

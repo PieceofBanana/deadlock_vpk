@@ -1,0 +1,35 @@
+{
+    "invis_base": {
+        "_not_pickable": "2",
+        "m_mapAbilityProperties": {
+            "InvisAlertWhenFading": {
+                "m_strValue": "1"
+            },
+            "InvisCancelOnDamage": {
+                "m_strValue": "0"
+            },
+            "InvisFadeToDuration": {
+                "m_strValue": "0",
+                "m_strCSSClass": "duration"
+            },
+            "InvisMoveSpeedMod": {
+                "m_strValue": "0",
+                "m_strCSSClass": "move_speed"
+            },
+            "SpottedRadius": {
+                "m_strValue": "20m"
+            },
+            "RevealOnDamageDuration": {
+                "m_strValue": "0.25",
+                "m_strCSSClass": "duration"
+            },
+            "RevealOnSpottedDuration": {
+                "m_strValue": "0.25",
+                "m_strCSSClass": "duration"
+            }
+        },
+        "_editor": {
+            "folder_name": "Base"
+        }
+    }
+}

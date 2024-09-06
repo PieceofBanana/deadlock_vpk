@@ -1,0 +1,9 @@
+{
+    "modifier_citadel_disarmed": {
+        "_class": "modifier_citadel_disarmed",
+        "m_strParticleStatusEffect": "particles/generic/generic_disarmed.vpcf",
+        "m_sLocalizationName": "MODIFIER_STATE_DISARMED",
+        "m_strHudMessageText": "#modifier_citadel_disarmed",
+        "m_strSmallIconCssClass": "disarm_proc"
+    }
+}

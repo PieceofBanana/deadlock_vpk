@@ -1,0 +1,477 @@
+{
+    "citadel_ability_bull_leap": {
+        "_class": "citadel_ability_bull_leap",
+        "m_mapAbilityProperties": {
+            "AbilityCooldown": {
+                "m_strValue": "150",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldown_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldown"
+                }
+            },
+            "AbilityDuration": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "duration",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            },
+            "AbilityCastRange": {
+                "m_strValue": "0",
+                "m_eDisplayUnits": "EDisplayUnit_Meters",
+                "m_strCSSClass": "range",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCastRange_scale_function",
+                    "m_eSpecificStatScaleType": "ETechRange"
+                }
+            },
+            "AbilityUnitTargetLimit": {
+                "m_strValue": "1",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityCastDelay": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityChannelTime": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_multi_stats",
+                    "_my_subclass_name": "scale_duration",
+                    "m_vecScalingStats": [
+                        "EChannelDuration",
+                        "ETechDuration"
+                    ]
+                }
+            },
+            "AbilityPostCastDuration": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0"
+            },
+            "AbilityCharges": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCharges_scale_function",
+                    "m_eSpecificStatScaleType": "EMaxChargesIncrease"
+                }
+            },
+            "AbilityCooldownBetweenCharge": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "charge_cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldownBetweenCharge_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldownBetweenChargeUses"
+                }
+            },
+            "ChannelMoveSpeed": {
+                "m_strValue": "50",
+                "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond",
+                "m_strCSSClass": "move_speed",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityResourceCost": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_strCSSClass": "cast"
+            },
+            "TechPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_POWER"
+            },
+            "WeaponPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
+            },
+            "ImpactRadius": {
+                "m_strValue": "9m",
+                "m_strCSSClass": "distance",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "ImpactRadius_scale_function",
+                    "m_eSpecificStatScaleType": "ETechRadius"
+                }
+            },
+            "ImpactHeight": {
+                "m_strValue": "4m"
+            },
+            "ImpactRadiusPercentage": {
+                "m_strValue": "0",
+                "m_strCSSClass": "distance"
+            },
+            "Damage": {
+                "m_strValue": "150",
+                "m_strCSSClass": "tech_damage",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_tech_damage",
+                    "_my_subclass_name": "Damage_scale_function",
+                    "m_flStatScale": "0.917280",
+                    "m_eSpecificStatScaleType": "ETechPower"
+                }
+            },
+            "StunDuration": {
+                "m_strValue": "1",
+                "m_strCSSClass": "duration",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "StunDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            },
+            "BonusMaxHealthPerHero": {
+                "m_strValue": "0",
+                "m_strCSSClass": "health"
+            },
+            "BonusFireRatePerHero": {
+                "m_strValue": "0",
+                "m_strCSSClass": "bullet_damage",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_FIRE_RATE",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
+            },
+            "LandingBonusesDuration": {
+                "m_strValue": "0",
+                "m_strCSSClass": "duration",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "LandingBonusesDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            },
+            "ImmunityDuration": {
+                "m_strValue": "0",
+                "m_strCSSClass": "duration",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "ImmunityDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            }
+        },
+        "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
+        "_editor": {
+            "folder_name": "Hero Atlas"
+        },
+        "m_WeaponInfo": {
+            "m_BulletSpeedCurve": {
+                "m_spline": [
+                    {
+                        "x": "0.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    },
+                    {
+                        "x": "100.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    }
+                ],
+                "m_tangents": [
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    },
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    }
+                ],
+                "m_vDomainMins": [
+                    "0.000000",
+                    "0.000000"
+                ],
+                "m_vDomainMaxs": [
+                    "100.000000",
+                    "10000.000000"
+                ]
+            }
+        },
+        "m_strCancelAbilityKey": "+in_cancel_ability",
+        "m_HUDPanel": {
+            "m_vecButtonHints": [
+                {
+                    "m_strLocToken": "#AbilityButtonHint_BullLeapCrash",
+                    "m_eHintSide": "EButtonSide_Right",
+                    "m_eButton1": "EButtonHint_Attack",
+                    "m_strContext": "hovering"
+                }
+            ],
+            "m_vecHUDElements": [
+                {
+                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
+                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_converging_semi_circles.vxml",
+                    "m_strContext": "leaping"
+                }
+            ]
+        },
+        "_multibase": [
+            "ultimate_base"
+        ],
+        "m_bStartTrained": "false",
+        "m_nAbilityPointsCost": "0",
+        "m_nAbillityUnlocksCost": "1",
+        "m_eAbilityType": "EAbilityType_Ultimate",
+        "m_iMaxLevel": "1",
+        "m_bitsInterruptingStates": "MODIFIER_STATE_STUNNED",
+        "m_PreviewPathParticle": "particles/generic/generic_arc.vpcf",
+        "m_strAbilityOffCooldownSound": "",
+        "m_strAbilityChargeReadySound": "",
+        "m_skillshotMissParticle": "particles/abilities/skillshot_default_miss_owner.vpcf",
+        "m_iUpdateTime": "1685732973",
+        "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_SELF",
+        "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
+        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_MOVEMENT",
+        "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
+        "m_eAbilitySpectatePriority": "CITADELTV_ABILITY_SPECTATE_PRIORITY_HIGH",
+        "m_strAbilityImage": "file://{images}/hud/abilities/bull_jump.psd",
+        "m_strCastSound": "Ability.A4.Leap.Cast",
+        "m_strImpactSound": "Ability.Bull.Leap.Impact",
+        "m_ImpactParticle": "particles/abilities/abrams/abrams_leap_impact.vpcf",
+        "m_TakeOffParticle": "particles/abilities/bull/bull_leap_start.vpcf",
+        "m_AoEPreviewParticle": "particles/ui/ui_range_finder_aoe.vpcf",
+        "m_strCrashingSound": "Ability.Bull.Leap.Crash",
+        "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/atlas_leap.webm",
+        "m_vecAbilityUpgrades": [
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "AbilityCooldown",
+                        "m_strBonus": "-40"
+                    }
+                ]
+            },
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "BonusMaxHealthPerHero",
+                        "m_strBonus": "100"
+                    },
+                    {
+                        "m_strPropertyName": "BonusFireRatePerHero",
+                        "m_strBonus": "15"
+                    },
+                    {
+                        "m_strPropertyName": "LandingBonusesDuration",
+                        "m_strBonus": "25"
+                    }
+                ]
+            },
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "ImmunityDuration",
+                        "m_strBonus": "3"
+                    }
+                ]
+            }
+        ],
+        "m_flStartupTime": "0.200000",
+        "m_flForwardBoostSpeed": "625.000000",
+        "m_flUpBoostSpeed": "850.000000",
+        "m_flBoostGain": "0.100000",
+        "m_flBoostTime": "1.500000",
+        "m_flHoverTime": "3.000000",
+        "m_flMinAimAngle": "30",
+        "m_flCrashSpeed": "2400",
+        "m_flLandingTime": "0.300000",
+        "m_BoostModifier": {
+            "_my_subclass_name": "modifier_citadel_bull_leap_boosting",
+            "_class": "modifier_citadel_bull_leap_boosting",
+            "m_BoostTrailParticle": "particles/abilities/abrams/abrams_leap_buff_trail.vpcf",
+            "m_cameraSequenceCreated": {
+                "m_vecVertOffsetOperations": [
+                    {
+                        "m_eCameraOperation": "k_ECameraOp_Lerp",
+                        "m_flLerpBias": "0.800000",
+                        "m_flLerpDuration": "0.400000",
+                        "m_bLerpEndAtDefault": "false",
+                        "m_flLerpEnd": "60.000000"
+                    },
+                    {
+                        "m_eCameraOperation": "k_ECameraOp_Maintain",
+                        "m_flMaintainDuration": "100.000000"
+                    }
+                ],
+                "m_vecHorizOffsetOperations": [
+                    {
+                        "m_eCameraOperation": "k_ECameraOp_Lerp",
+                        "m_bLerpEndAtDefault": "false",
+                        "m_flLerpEnd": "-20.000000",
+                        "m_flLerpBias": "0.800000",
+                        "m_flLerpDuration": "0.400000"
+                    },
+                    {
+                        "m_eCameraOperation": "k_ECameraOp_Maintain",
+                        "m_flMaintainDuration": "100.000000"
+                    }
+                ],
+                "m_vecDistanceOperations": [
+                    {
+                        "m_eCameraOperation": "k_ECameraOp_Lerp",
+                        "m_flLerpBias": "0.800000",
+                        "m_flLerpDuration": "0.500000",
+                        "m_bLerpEndAtDefault": "false",
+                        "m_flLerpEnd": "50.000000"
+                    },
+                    {
+                        "m_eCameraOperation": "k_ECameraOp_Maintain",
+                        "m_flMaintainDuration": "100.000000"
+                    }
+                ]
+            }
+        },
+        "m_CrashModifier": {
+            "_class": "modifier_citadel_bull_leap_boosting_crash",
+            "_my_subclass_name": "modifier_citadel_bull_leap_boosting_crash",
+            "m_flCollideRadius": "120.000000",
+            "m_DragModifier": {
+                "_class": "modifier_charge_drag_enemy",
+                "_my_subclass_name": "modifier_charge_drag_enemy",
+                "m_bIsHidden": "true",
+                "m_flForwardOffset": "200",
+                "m_flVerticalOffset": "0"
+            },
+            "m_nEnabledStateMask": "MODIFIER_STATE_AIR_DUCKING_FORCED",
+            "m_CrashTrailParticle": "particles/abilities/abrams/abrams_leap_crash_trail.vpcf",
+            "m_CrashTrailSmokeParticle": "",
+            "m_sStartSound": "Ability.Bull.Leap.Crash"
+        },
+        "m_ImmunityModifier": {
+            "_class": "modifier_unstoppable",
+            "_my_subclass_name": "modifier_unstoppable",
+            "m_bIsHidden": "false",
+            "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER",
+            "m_sAmbientLoopingSound": "Mods.Armor.TechDefender.Lp",
+            "m_sStartSound": "Mods.Armor.TechDefender.Cast",
+            "m_sExpiredSound": "Mods.Armor.TechDefender.End",
+            "m_nEnabledStateMask": "MODIFIER_STATE_STATUS_IMMUNE | MODIFIER_STATE_SLOW_IMMUNE | MODIFIER_STATE_KNOCKDOWN_IMMUNE | MODIFIER_STATE_UNSTOPPABLE",
+            "m_ShieldParticle": "particles/abilities/abrams/abrams_leap_immunity_buff.vpcf",
+            "m_PlayerShieldParticle": "particles/abilities/abrams/abrams_leap_immunity_buff.vpcf",
+            "m_strParticleStatusEffect": "particles/status_fx/status_fx_unstoppable.vpcf",
+            "m_nStatusEffectPriority": "25",
+            "m_bIsHiddenOverhead": "true",
+            "m_sLocalizationName": "modifier_abrams_immunity",
+            "m_nDisabledStateMask": "MODIFIER_STATE_DISARMED | MODIFIER_STATE_MUTED | MODIFIER_STATE_SILENCED | MODIFIER_STATE_SILENCE_MOVEMENT_ABILITES | MODIFIER_STATE_SLOWED | MODIFIER_STATE_GLITCHED | MODIFIER_STATE_MELEE_DISABLED_DEBUFF | MODIFIER_STATE_DASH_DISABLED_DEBUFF"
+        },
+        "m_LandingBonusesModifier": {
+            "_class": "modifier_citadel_bull_leap_landing_bonuses",
+            "_my_subclass_name": "modifier_citadel_bull_leap_landing_bonuses",
+            "m_bIsHidden": "true"
+        },
+        "m_AbilityTooltipDetails": {
+            "m_vecAbilityInfoSections": [
+                {
+                    "m_strLocString": "#citadel_ability_bull_leap_desc",
+                    "m_vecAbilityPropertiesBlock": [
+                        {
+                            "m_vecAbilityProperties": [
+                                {
+                                    "m_strImportantProperty": "Damage"
+                                },
+                                {
+                                    "m_strImportantProperty": "StunDuration"
+                                }
+                            ]
+                        }
+                    ],
+                    "m_vecBasicProperties": [
+                        "ImpactRadius"
+                    ]
+                }
+            ]
+        },
+        "m_CrashSpeedScaleCurve": {
+            "m_spline": [
+                {
+                    "x": "0.000100",
+                    "y": "0.000000",
+                    "m_flSlopeIncoming": "0.136311",
+                    "m_flSlopeOutgoing": "0.136311"
+                },
+                {
+                    "x": "0.134819",
+                    "y": "0.018364",
+                    "m_flSlopeIncoming": "0.930955",
+                    "m_flSlopeOutgoing": "0.930955"
+                },
+                {
+                    "x": "0.217081",
+                    "y": "0.202000",
+                    "m_flSlopeIncoming": "3.758945",
+                    "m_flSlopeOutgoing": "3.758945"
+                },
+                {
+                    "x": "0.276493",
+                    "y": "0.550909",
+                    "m_flSlopeIncoming": "10.913244",
+                    "m_flSlopeOutgoing": "10.913244"
+                },
+                {
+                    "x": "0.290204",
+                    "y": "1.000000",
+                    "m_flSlopeIncoming": "32.755470",
+                    "m_flSlopeOutgoing": "32.755470"
+                }
+            ],
+            "m_tangents": [
+                {
+                    "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                    "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                },
+                {
+                    "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                    "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                },
+                {
+                    "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                    "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                },
+                {
+                    "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                    "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                },
+                {
+                    "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                    "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                }
+            ],
+            "m_vDomainMins": [
+                "0.000000",
+                "0.000000"
+            ],
+            "m_vDomainMaxs": [
+                "1.000000",
+                "1.000000"
+            ]
+        },
+        "m_nHoverParticle": "particles/abilities/abrams/abrams_anim_leap_hover.vpcf",
+        "m_flBoostTurnRate": "300.000000"
+    }
+}

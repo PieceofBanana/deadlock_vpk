@@ -1,0 +1,318 @@
+{
+    "citadel_ability_hornet_leap": {
+        "_class": "citadel_ability_hornet_leap",
+        "m_mapAbilityProperties": {
+            "AbilityCooldown": {
+                "m_strValue": "40",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldown_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldown"
+                }
+            },
+            "AbilityDuration": {
+                "m_strValue": "8",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "duration",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_multi_stats",
+                    "_my_subclass_name": "AbilityDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechPower",
+                    "m_vecScalingStats": [
+                        "ETechPower",
+                        "ETechDuration"
+                    ],
+                    "m_flStatScale": "0.163800"
+                }
+            },
+            "AbilityCastRange": {
+                "m_strValue": "0",
+                "m_eDisplayUnits": "EDisplayUnit_Meters",
+                "m_strCSSClass": "range",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCastRange_scale_function",
+                    "m_eSpecificStatScaleType": "ETechRange"
+                }
+            },
+            "AbilityUnitTargetLimit": {
+                "m_strValue": "1",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityCastDelay": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityChannelTime": {
+                "m_strValue": "0.2",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_multi_stats",
+                    "_my_subclass_name": "scale_duration",
+                    "m_vecScalingStats": [
+                        "EChannelDuration",
+                        "ETechDuration"
+                    ],
+                    "m_bFunctionDisabled": "true"
+                }
+            },
+            "AbilityPostCastDuration": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0"
+            },
+            "AbilityCharges": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCharges_scale_function",
+                    "m_eSpecificStatScaleType": "EMaxChargesIncrease"
+                }
+            },
+            "AbilityCooldownBetweenCharge": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "charge_cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldownBetweenCharge_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldownBetweenChargeUses"
+                }
+            },
+            "ChannelMoveSpeed": {
+                "m_strValue": "0",
+                "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond",
+                "m_strCSSClass": "move_speed",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityResourceCost": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_strCSSClass": "cast"
+            },
+            "TechPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_POWER"
+            },
+            "WeaponPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
+            },
+            "GravityScale": {
+                "m_strValue": "0"
+            },
+            "MaxFallSpeed": {
+                "m_strValue": "0"
+            },
+            "MaxFlyHeight": {
+                "m_strValue": "1720"
+            },
+            "JumpVelocity": {
+                "m_strValue": "1000",
+                "m_bIsHidden": "true"
+            },
+            "AirSpeedBonus": {
+                "m_strValue": "0m",
+                "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond",
+                "m_eDisplayType": "EMaxMoveSpeed",
+                "m_strCSSCLass": "move_speed"
+            },
+            "AirSideMoveSpeedPercentage": {
+                "m_strValue": "-35"
+            },
+            "AirDrag": {
+                "m_strValue": "2.0"
+            },
+            "MinVelocityZ": {
+                "m_strValue": "-20.0"
+            },
+            "WeaponRecoilReduction": {
+                "m_strValue": "40",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_RECOIL_REDUCTION_PERCENT",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
+            },
+            "MagicDamagePerBullet": {
+                "m_strValue": "10.0",
+                "m_strCSSClass": "tech_damage",
+                "m_bDamageAffectedByEffectiveness": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_tech_damage",
+                    "_my_subclass_name": "DPS_scale_function",
+                    "m_flStatScale": "0.201600"
+                }
+            },
+            "BonusClipSizePercent": {
+                "m_strValue": "0",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_AMMO_CLIP_SIZE_PERCENT",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
+            }
+        },
+        "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
+        "_editor": {
+            "folder_name": "Hero Hornet"
+        },
+        "m_WeaponInfo": {
+            "m_BulletSpeedCurve": {
+                "m_spline": [
+                    {
+                        "x": "0.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    },
+                    {
+                        "x": "100.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    }
+                ],
+                "m_tangents": [
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    },
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    }
+                ],
+                "m_vDomainMins": [
+                    "0.000000",
+                    "0.000000"
+                ],
+                "m_vDomainMaxs": [
+                    "100.000000",
+                    "10000.000000"
+                ]
+            }
+        },
+        "m_strCancelAbilityKey": "+in_cancel_ability",
+        "m_HUDPanel": {
+            "m_vecButtonHints": [
+                {
+                    "m_eButton1": "EButtonHint_DashKey",
+                    "m_strLocToken": "#AbilityButtonHint_FlyUp",
+                    "m_eHintSide": "EButtonSide_Right",
+                    "m_strContext": "leaping"
+                },
+                {
+                    "m_eButton1": "EButtonHint_CrouchKey",
+                    "m_strLocToken": "#AbilityButtonHint_FlyDown",
+                    "m_eHintSide": "EButtonSide_Right",
+                    "m_strContext": "leaping"
+                }
+            ],
+            "m_vecHUDElements": [
+                {
+                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
+                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_progress_bar.vxml",
+                    "m_strContext": "leaping",
+                    "m_bReverseProgress": "true"
+                }
+            ]
+        },
+        "_multibase": [
+            "signature_base"
+        ],
+        "m_bStartTrained": "false",
+        "m_nAbilityPointsCost": "0",
+        "m_nAbillityUnlocksCost": "1",
+        "m_eAbilityType": "EAbilityType_Signature",
+        "m_iMaxLevel": "1",
+        "m_bitsInterruptingStates": "MODIFIER_STATE_IMMOBILIZED | MODIFIER_STATE_STUNNED | MODIFIER_STATE_IS_ASLEEP | MODIFIER_STATE_COMMAND_RESTRICTED",
+        "m_PreviewPathParticle": "particles/generic/generic_arc.vpcf",
+        "m_strAbilityOffCooldownSound": "",
+        "m_strAbilityChargeReadySound": "",
+        "m_skillshotMissParticle": "particles/abilities/skillshot_default_miss_owner.vpcf",
+        "m_iUpdateTime": "1707519913",
+        "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_SELF",
+        "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
+        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_MOVEMENT",
+        "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_HERO_FRIENDLY",
+        "m_eAbilitySpectatePriority": "CITADELTV_ABILITY_SPECTATE_PRIORITY_MEDIUM",
+        "m_strAbilityImage": "file://{images}/hud/abilities/wasp_flight.psd",
+        "m_flVerticalMoveSpeedTarget": "320",
+        "m_vecAbilityUpgrades": [
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "BonusClipSizePercent",
+                        "m_strBonus": "50"
+                    }
+                ]
+            },
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "AbilityCooldown",
+                        "m_strBonus": "-15"
+                    }
+                ]
+            },
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "MagicDamagePerBullet",
+                        "m_strBonus": "12.0"
+                    }
+                ]
+            }
+        ],
+        "m_flAirDrag": "2.000000",
+        "m_LeapModifier": {
+            "_class": "modifier_hornet_leap",
+            "_my_subclass_name": "modifier_hornet_leap",
+            "m_strHintText": "modifier_hint_vertical_movement",
+            "m_sLocalizationName": "modifier_citadel_hornetleap",
+            "m_bIsHidden": "true",
+            "m_strParticleEffect": "particles/abilities/hornet/hornet_leap_buff.vpcf",
+            "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
+                "WeaponRecoilReduction",
+                "BonusClipSizePercent"
+            ],
+            "m_sAmbientLoopingSound": "Ability.Hornet.Leap.Lp",
+            "m_sExpiredSound": "Ability.Hornet.Leap.Expire"
+        },
+        "m_DustParticle": "particles/abilities/hornet/hornet_leap.vpcf",
+        "m_TrailParticle": "particles/abilities/hornet/hornet_leap_buff_trail.vpcf",
+        "m_CastParticle": "particles/abilities/hornet/hornet_leap_cast.vpcf",
+        "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/hornet_flight.webm",
+        "m_AbilityTooltipDetails": {
+            "m_vecAbilityInfoSections": [
+                {
+                    "m_strLocString": "#citadel_ability_hornet_leap_desc",
+                    "m_vecAbilityPropertiesBlock": [
+                        {
+                            "m_vecAbilityProperties": [
+                                {
+                                    "m_strImportantProperty": "MagicDamagePerBullet"
+                                }
+                            ]
+                        }
+                    ],
+                    "m_vecBasicProperties": []
+                }
+            ]
+        },
+        "m_strCastAnimGraphParam": "e_Flight",
+        "m_strChannelSound": "Ability.Hornet.Leap.Cast"
+    }
+}

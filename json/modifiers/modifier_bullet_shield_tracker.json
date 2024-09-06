@@ -1,0 +1,19 @@
+{
+    "modifier_bullet_shield_tracker": {
+        "_class": "modifier_bullet_shield_tracker",
+        "m_strParticleEffect": "",
+        "m_bIsHidden": "true",
+        "m_flShieldImpactEffectDuration": "1.500000",
+        "_base": "modifier_shield_tracker_base",
+        "flCooldownOnBreak": "60.000000",
+        "m_ShieldImpactModifier": {
+            "_class": "modifier_bullet_shield_impact",
+            "_my_subclass_name": "bullet_shield_impact",
+            "m_ShieldBreakParticle": "particles/upgrades/bullet_shield_impact_break.vpcf",
+            "m_bIsHidden": "true",
+            "m_ShieldBreakSound": "StatusEffects.ShieldBreak"
+        },
+        "m_ShieldImpactParticle": "particles/items/bullet_shield_impact.vpcf",
+        "m_nAttributes": "MODIFIER_ATTRIBUTE_PERMANENT"
+    }
+}

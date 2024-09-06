@@ -1,0 +1,397 @@
+{
+    "citadel_ability_zip_line": {
+        "_class": "citadel_ability_zip_line",
+        "m_mapAbilityProperties": {
+            "AbilityCooldown": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldown_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldown"
+                }
+            },
+            "AbilityDuration": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "duration",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            },
+            "AbilityCastRange": {
+                "m_strValue": "0",
+                "m_eDisplayUnits": "EDisplayUnit_Meters",
+                "m_strCSSClass": "range",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCastRange_scale_function",
+                    "m_eSpecificStatScaleType": "ETechRange"
+                }
+            },
+            "AbilityUnitTargetLimit": {
+                "m_strValue": "1",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityCastDelay": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityChannelTime": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_multi_stats",
+                    "_my_subclass_name": "scale_duration",
+                    "m_vecScalingStats": [
+                        "EChannelDuration",
+                        "ETechDuration"
+                    ]
+                }
+            },
+            "AbilityPostCastDuration": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0"
+            },
+            "AbilityCharges": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCharges_scale_function",
+                    "m_eSpecificStatScaleType": "EMaxChargesIncrease"
+                }
+            },
+            "AbilityCooldownBetweenCharge": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "charge_cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldownBetweenCharge_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldownBetweenChargeUses"
+                }
+            },
+            "ChannelMoveSpeed": {
+                "m_strValue": "50",
+                "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond",
+                "m_strCSSClass": "move_speed",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityResourceCost": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_strCSSClass": "cast"
+            },
+            "TechPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_POWER"
+            },
+            "WeaponPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
+            },
+            "MaxMountDistance2D": {
+                "m_strValue": "15m"
+            },
+            "StunDuration": {
+                "m_strValue": "3",
+                "m_strCSSClass": "duration"
+            },
+            "SlowDuration": {
+                "m_strValue": "8"
+            },
+            "KnockedOffDamagePct": {
+                "m_strValue": "15"
+            },
+            "DismountHorizontalMinSpeedPercent": {
+                "m_strValue": "40"
+            },
+            "DismountHorizontalMaxSpeedPercent": {
+                "m_strValue": "85"
+            },
+            "PlayerSpeedCheckScale": {
+                "m_strValue": "0.65"
+            },
+            "DismountVerticalSpeed": {
+                "m_strValue": "300"
+            },
+            "DamageCooldown": {
+                "m_strValue": "3",
+                "m_strCSSClass": "cooldown",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "DamageCooldown_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldown"
+                }
+            },
+            "ZipSpeedInner": {
+                "m_strValue": "693"
+            },
+            "ZipSpeedOuter": {
+                "m_strValue": "693"
+            },
+            "ZipAcc": {
+                "m_strValue": "1000"
+            },
+            "ZipMasteryAccelerationWaitTime": {
+                "m_strValue": "2"
+            },
+            "ZipMasteryExtraAcc": {
+                "m_strValue": "150"
+            },
+            "ZipMasteryDamageCooldown": {
+                "m_strValue": "3",
+                "m_strCSSClass": "cooldown",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "ZipMasteryDamageCooldown_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldown"
+                }
+            },
+            "ZipMasteryExtraSpeedBonus": {
+                "m_strValue": "125"
+            },
+            "LatchSpeed": {
+                "m_strValue": "1500"
+            },
+            "LatchInitialSpeed": {
+                "m_strValue": "600"
+            },
+            "LatchEndSpeed": {
+                "m_strValue": "500"
+            },
+            "LatchReelAcc": {
+                "m_strValue": "4000"
+            },
+            "LatchVisualSnapProgress": {
+                "m_strValue": "0.85"
+            },
+            "ZiplineProtectionSlowDurationOnHit": {
+                "m_strValue": "2.0"
+            },
+            "ZiplineProtectionDamageAmp": {
+                "m_strVAlue": "35"
+            }
+        },
+        "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
+        "_editor": {
+            "folder_name": "Base"
+        },
+        "m_WeaponInfo": {
+            "m_BulletSpeedCurve": {
+                "m_spline": [
+                    {
+                        "x": "0.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    },
+                    {
+                        "x": "100.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    }
+                ],
+                "m_tangents": [
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    },
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    }
+                ],
+                "m_vDomainMins": [
+                    "0.000000",
+                    "0.000000"
+                ],
+                "m_vDomainMaxs": [
+                    "100.000000",
+                    "10000.000000"
+                ]
+            }
+        },
+        "_multibase": [
+            "inherent_base"
+        ],
+        "m_eAbilityType": "EAbilityType_Innate",
+        "m_bStartTrained": "true",
+        "m_iMaxLevel": "1",
+        "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_SELF",
+        "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_ON_BUTTON_IS_DOWN",
+        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_DONT_BREAK_INVISIBILITY | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_NON_COMBAT | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
+        "m_bitsInterruptingStates": "MODIFIER_STATE_IMMOBILIZED | MODIFIER_STATE_STUNNED | MODIFIER_STATE_IS_ASLEEP",
+        "m_strZipLineStartSound": "Ability.ZipLine.Start",
+        "m_ZipLinePreviewParticle": "particles/environment/zip_line_path_preview.vpcf",
+        "m_ZipLineSpeedParticle": "particles/items/zip_line_speed.vpcf",
+        "m_ZipLineTetherParticle": "particles/environment/zip_line_path_universal_attach.vpcf",
+        "m_ZipLineTetherAttachParticle": "particles/environment/zip_line_path_universal_attach_end.vpcf",
+        "m_strZipLineSummonSound": "Ability.ZipLine.Summon",
+        "m_strZipLineLatchedSound": "Ability.ZipLine.Summon.Latched",
+        "m_flMinButtonHoldTimeToActivate": "0.175000",
+        "m_flCrouchDropSpeedFraction": "1.000000",
+        "m_flCrouchDropAirDragSuppressDuration": "2.000000",
+        "m_RidingZipLineModifier": {
+            "_class": "modifier_base",
+            "_my_subclass_name": "modifier_riding_zipline",
+            "m_sAmbientLoopingSound": "Ability.ZipLine.Loop",
+            "m_sEndSound": "Ability.ZipLine.End",
+            "m_bIsHidden": "true"
+        },
+        "m_KnockedOffSlowModifier": {
+            "_class": "modifier_diminishing_slow",
+            "_my_subclass_name": "modifier_knocked_off_zipline_slow",
+            "m_sLocalizationName": "modifier_knocked_off_zipline_slow",
+            "m_eDebuffType": "MODIFIER_DEBUFF_YES"
+        },
+        "m_ZipLineIntroModifier": {
+            "_class": "modifier_base",
+            "_my_subclass_name": "modifier_zipline_intro",
+            "m_nEnabledStateMask": "MODIFIER_STATE_ZIPLINE_INTRO",
+            "m_bIsHidden": "true"
+        },
+        "m_cameraSequenceAwaitingTether": {
+            "m_vecDistanceOperations": [
+                {
+                    "m_bLerpEndAtDefault": "false",
+                    "m_flLerpEnd": "20.000000",
+                    "m_flLerpDuration": "0.500000",
+                    "m_eCameraOperation": "k_ECameraOp_Lerp",
+                    "m_bValuesAreRelative": "true"
+                },
+                {
+                    "m_flMaintainDuration": "-1.000000",
+                    "m_eCameraOperation": "k_ECameraOp_Maintain"
+                }
+            ],
+            "m_vecFOVOperations": [
+                {
+                    "m_flLerpBias": "0.800000",
+                    "m_flLerpDuration": "0.500000",
+                    "m_bLerpEndAtDefault": "false",
+                    "m_flLerpEnd": "-10.000000",
+                    "m_eCameraOperation": "k_ECameraOp_Lerp",
+                    "m_bValuesAreRelative": "true"
+                },
+                {
+                    "m_flMaintainDuration": "-1.000000",
+                    "m_eCameraOperation": "k_ECameraOp_Maintain"
+                }
+            ]
+        },
+        "m_cameraSequenceLatched": {
+            "m_vecFOVOperations": [
+                {
+                    "m_bLerpEndAtDefault": "false",
+                    "m_flLerpEnd": "10.000000",
+                    "m_flLerpBias": "0.800000",
+                    "m_flLerpDuration": "0.400000",
+                    "m_eCameraOperation": "k_ECameraOp_Lerp",
+                    "m_bValuesAreRelative": "true"
+                },
+                {
+                    "m_flSpringStrength": "4.000000",
+                    "m_bSpringToDefault": "false",
+                    "m_flSpringTarget": "71.000000",
+                    "m_flLerpDuration": "4.000000",
+                    "m_bLerpEndAtDefault": "false",
+                    "m_flLerpEnd": "0.000000",
+                    "m_eCameraOperation": "k_ECameraOp_Lerp",
+                    "m_bValuesAreRelative": "true"
+                }
+            ],
+            "m_vecTargetPosOperations": [
+                {
+                    "m_flLagMinDuration": "0.000000",
+                    "m_flLagTime": "0.100000",
+                    "m_flLagSpringStrength": "5.000000",
+                    "m_flLagMaxSpeed": "75.000000",
+                    "m_eCameraOperation": "k_ECameraOp_Lag"
+                }
+            ]
+        },
+        "m_cameraSequenceAttached": {
+            "m_vecFOVOperations": [
+                {
+                    "m_flLerpDuration": "5.600000",
+                    "m_eCameraOperation": "k_ECameraOp_Lerp"
+                }
+            ],
+            "m_vecDistanceOperations": [
+                {
+                    "m_flLerpDuration": "5.600000",
+                    "m_bLerpEndAtDefault": "false",
+                    "m_flLerpEnd": "0.000000",
+                    "m_eCameraOperation": "k_ECameraOp_Lerp",
+                    "m_bValuesAreRelative": "true"
+                },
+                {
+                    "m_flMaintainDuration": "-1.000000",
+                    "m_eCameraOperation": "k_ECameraOp_Maintain"
+                }
+            ],
+            "m_vecVertOffsetOperations": []
+        },
+        "m_cameraSequenceClear": {
+            "m_vecDistanceOperations": [
+                {
+                    "m_eCameraOperation": "k_ECameraOp_Spring"
+                }
+            ],
+            "m_vecFOVOperations": [
+                {
+                    "m_eCameraOperation": "k_ECameraOp_Spring"
+                }
+            ]
+        },
+        "m_DOFWhileZiplining": {
+            "m_flDofNearCrisp": "200.000000",
+            "m_flDofFarCrisp": "1000000.000000",
+            "m_flDofFarBlurry": "1000001.000000"
+        },
+        "m_ZipLineEnemyKnockdownProtectionParticle": "particles/generic/zipline_bullet_safe_buff.vpcf",
+        "m_ZipLineSelfKnockdownProtectionParticle": "particles/generic/zipline_bullet_safe_buff_player.vpcf",
+        "m_ZipLineKnockdownProtectionStatusParticle": "particles/status_fx/status_fx_zipline_knockdown_protection.vpcf",
+        "m_ZipLineKnockdownImmuneModifier": {
+            "_class": "modifier_zipline_knockdown_immune",
+            "_my_subclass_name": "modifier_zipline_knockdown_immune",
+            "m_ZipLineEnemyKnockdownProtectionParticle": "particles/generic/zipline_bullet_safe_buff.vpcf",
+            "m_ZipLineSelfKnockdownProtectionParticle": "particles/generic/zipline_bullet_safe_buff_player.vpcf",
+            "m_ZipLineKnockdownProtectionStatusParticle": "particles/status_fx/status_fx_zipline_knockdown_protection_player.vpcf",
+            "m_sLocalizationName": "modifier_zipline_knockdown_immune",
+            "m_eDebuffType": "MODIFIER_DEBUFF_NO",
+            "m_bIsHidden": "true",
+            "m_ZipLineKnockdownProtectionStatusEnemyParticle": "particles/status_fx/status_fx_zipline_knockdown_protection.vpcf"
+        },
+        "m_ZipLineSlowModifier": {
+            "_my_subclass_name": "zipline_protection_slow",
+            "_class": "modifier_zipline_speed",
+            "m_flRampUpTime": "2.000000",
+            "m_flPercentageMultiplierStart": "-70",
+            "m_flPercentageMultiplierEnd": "0",
+            "m_bIsHidden": "true"
+        },
+        "m_flCameraWobbleIntensity": "0.300000"
+    }
+}

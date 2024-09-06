@@ -1,0 +1,11 @@
+{
+    "modifier_citadel_in_shop": {
+        "_class": "modifier_base",
+        "m_nEnabledStateMask": "MODIFIER_STATE_IN_SHOP",
+        "m_eDebuffType": "MODIFIER_DEBUFF_NO",
+        "m_nAttributes": "MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED",
+        "m_nAmbientLoopingSoundRecipients": "MODIFIER_SOUND_RECIPIENT_PARENT_IS_LOCAL_PLAYER",
+        "m_bIsHidden": "true",
+        "m_sAmbientLoopingSound": ""
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "modifier_citadel_idol_return": {
+        "_class": "modifier_citadel_idol_return",
+        "m_nEnabledStateMask": "MODIFIER_STATE_RETURN_IDOL_AREA",
+        "m_bIsHidden": "true"
+    }
+}

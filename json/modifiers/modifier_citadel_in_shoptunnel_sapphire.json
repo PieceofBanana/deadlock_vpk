@@ -1,0 +1,7 @@
+{
+    "modifier_citadel_in_shoptunnel_sapphire": {
+        "_class": "modifier_citadel_in_shoptunnel",
+        "m_nEnabledStateMask": "MODIFIER_STATE_IN_SHOPTUNNEL_SAPPHIRE",
+        "m_bIsHidden": "true"
+    }
+}

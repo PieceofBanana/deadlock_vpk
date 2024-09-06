@@ -1,0 +1,439 @@
+{
+    "viscous_restorative_goo": {
+        "_class": "viscous_restorative_goo",
+        "m_mapAbilityProperties": {
+            "AbilityCooldown": {
+                "m_strValue": "45",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldown_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldown"
+                }
+            },
+            "AbilityDuration": {
+                "m_strValue": "4",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "duration",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            },
+            "AbilityCastRange": {
+                "m_strValue": "30m",
+                "m_eDisplayUnits": "EDisplayUnit_Meters",
+                "m_strCSSClass": "range",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCastRange_scale_function",
+                    "m_eSpecificStatScaleType": "ETechRange"
+                }
+            },
+            "AbilityUnitTargetLimit": {
+                "m_strValue": "1",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityCastDelay": {
+                "m_strValue": "0.1",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityChannelTime": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_multi_stats",
+                    "_my_subclass_name": "scale_duration",
+                    "m_vecScalingStats": [
+                        "EChannelDuration",
+                        "ETechDuration"
+                    ]
+                }
+            },
+            "AbilityPostCastDuration": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0"
+            },
+            "AbilityCharges": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCharges_scale_function",
+                    "m_eSpecificStatScaleType": "EMaxChargesIncrease"
+                }
+            },
+            "AbilityCooldownBetweenCharge": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "charge_cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldownBetweenCharge_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldownBetweenChargeUses"
+                }
+            },
+            "ChannelMoveSpeed": {
+                "m_strValue": "50",
+                "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond",
+                "m_strCSSClass": "move_speed",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityResourceCost": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_strCSSClass": "cast"
+            },
+            "TechPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_POWER"
+            },
+            "WeaponPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
+            },
+            "CubeScale": {
+                "m_strValue": "1.5"
+            },
+            "Friction": {
+                "m_strValue": "-80"
+            },
+            "BonusHealthRegen": {
+                "m_strValue": "40",
+                "m_strCSSClass": "healing",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "BonusHealthRegen_scale_function",
+                    "m_eSpecificStatScaleType": "EHealingOutput"
+                },
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_HEALTH_REGEN_PER_SECOND"
+            },
+            "MaxHealthRegen": {
+                "m_strValue": "0",
+                "m_strCSSClass": "healing",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "MaxHealthRegen_scale_function",
+                    "m_eSpecificStatScaleType": "EHealingOutput"
+                }
+            },
+            "PurgeDebuffs": {
+                "m_strValue": "0"
+            },
+            "PushBackRadius": {
+                "m_strValue": "50"
+            },
+            "PushBackForce": {
+                "m_strValue": "250"
+            },
+            "LightMeleeForce": {
+                "m_strValue": "300"
+            },
+            "HeavyMeleeForce": {
+                "m_strValue": "700"
+            },
+            "BulletForce": {
+                "m_strValue": "600"
+            },
+            "SlideForce": {
+                "m_strValue": "70"
+            },
+            "BreakoutTime": {
+                "m_strValue": "1"
+            },
+            "PostCubeBuff": {
+                "m_strValue": "0"
+            },
+            "BonusMoveSpeed": {
+                "m_strValue": "0m",
+                "m_eDisplayType": "EMaxMoveSpeed",
+                "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_MOVEMENT_SPEED_MAX",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
+            },
+            "PostCubeBuffDuration": {
+                "m_strValue": "8",
+                "m_eDisplayType": "ETechDuration",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "m_eSpecificStatScaleType": "ETechDuration",
+                    "_my_subclass_name": "post_cube_buff_duration_scale_function"
+                }
+            },
+            "StaminaCooldownReduction": {
+                "m_strValue": "0",
+                "m_eDisplayType": "EStaminaRegenPerSecond",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_STAMINA_REGEN_PER_SECOND_PERCENTAGE",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
+            }
+        },
+        "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
+        "_editor": {
+            "folder_name": "Hero Viscous"
+        },
+        "m_WeaponInfo": {
+            "m_BulletSpeedCurve": {
+                "m_spline": [
+                    {
+                        "x": "0.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    },
+                    {
+                        "x": "100.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    }
+                ],
+                "m_tangents": [
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    },
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    }
+                ],
+                "m_vDomainMins": [
+                    "0.000000",
+                    "0.000000"
+                ],
+                "m_vDomainMaxs": [
+                    "100.000000",
+                    "10000.000000"
+                ]
+            }
+        },
+        "m_strCancelAbilityKey": "+in_cancel_ability",
+        "m_HUDPanel": {
+            "m_vecButtonHints": [
+                {
+                    "m_strContext": "throw",
+                    "m_eButton1": "EButtonHint_Attack",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_Throw"
+                },
+                {
+                    "m_strContext": "deploy",
+                    "m_eButton1": "EButtonHint_Attack",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_Deploy"
+                },
+                {
+                    "m_strContext": "cast_on_target",
+                    "m_eButton1": "EButtonHint_Attack",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_CastOnTarget",
+                    "m_bShowAsUnitTargetActivationHint": "true",
+                    "m_bShowAbilityIcon": "true"
+                },
+                {
+                    "m_strContext": "alt_cast_hold_hint",
+                    "m_eButton1": "EButtonHint_AbilityKey",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_HoldToSelfCast"
+                },
+                {
+                    "m_strContext": "alt_cast_double_tap_hint",
+                    "m_eButton1": "EButtonHint_AbilityKey",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_DoubleTapToSelfCast"
+                },
+                {
+                    "m_strContext": "alt_cast_modifier_key_hint",
+                    "m_strBindingOverride1": "in_alt_cast_modifier",
+                    "m_eButton2": "EButtonHint_AbilityKey",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_eButtonHintType": "EButtonHintType_TwoButtonCombination",
+                    "m_strLocToken": "#AbilityButtonHint_ModifierKeyToSelfCast"
+                },
+                {
+                    "m_strContext": "alt_cast_select_then_alt_cast_key_hint",
+                    "m_strBindingOverride1": "in_alt_cast",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_SelectThenSelfCastButton"
+                },
+                {
+                    "m_strContext": "deselect",
+                    "m_eButton1": "EButtonHint_AbilityKey",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_Deselect",
+                    "m_nPriority": "1"
+                },
+                {
+                    "m_strLocToken": "#AbilityButtonHint_Activate",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_eButton1": "EButtonHint_AbilityKey",
+                    "m_strContext": "unit_target_activate",
+                    "m_bShowAsUnitTargetActivationHint": "true",
+                    "m_bShowAbilityIcon": "true"
+                }
+            ]
+        },
+        "_multibase": [
+            "signature_base"
+        ],
+        "m_bStartTrained": "false",
+        "m_nAbilityPointsCost": "0",
+        "m_nAbillityUnlocksCost": "1",
+        "m_eAbilityType": "EAbilityType_Signature",
+        "m_iMaxLevel": "1",
+        "m_bitsInterruptingStates": "MODIFIER_STATE_STUNNED",
+        "m_PreviewPathParticle": "particles/generic/generic_arc.vpcf",
+        "m_strAbilityOffCooldownSound": "",
+        "m_strAbilityChargeReadySound": "",
+        "m_skillshotMissParticle": "particles/abilities/skillshot_default_miss_owner.vpcf",
+        "m_iUpdateTime": "1669930587",
+        "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_UNIT",
+        "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_CONE",
+        "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_PRESS",
+        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_EQUAL_UNIT_TARGET_PRIORITY|CITADEL_ABILITY_BEHAVIOR_ALLOW_SELF_CAST | CITADEL_ABILITY_BEHAVIOR_CAN_HEAL_PLAYERS | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+        "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_HERO_FRIENDLY",
+        "m_strAbilityImage": "file://{images}/hud/abilities/viscous/viscous_restorative_goo.psd",
+        "m_flTargetingConeAngle": "60.000000",
+        "m_strCastAnimGraphParam": "e_GenericCast",
+        "m_vecAbilityUpgrades": [
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "BonusMoveSpeed",
+                        "m_strBonus": "2.5m"
+                    },
+                    {
+                        "m_strPropertyName": "StaminaCooldownReduction",
+                        "m_strBonus": "30"
+                    },
+                    {
+                        "m_strPropertyName": "PostCubeBuff",
+                        "m_strBonus": "1"
+                    }
+                ]
+            },
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "AbilityCooldown",
+                        "m_strBonus": "-22"
+                    }
+                ]
+            },
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "BonusHealthRegen",
+                        "m_strBonus": "60"
+                    }
+                ]
+            }
+        ],
+        "m_RestorativeGooParticle": "particles/abilities/viscous/viscous_restorative_goo_start.vpcf",
+        "m_RestorativeGooModifier": {
+            "_class": "modifier_restorative_goo",
+            "_my_subclass_name": "modifier_restorative_goo",
+            "m_sLocalizationName": "modifier_restorative_goo",
+            "m_sAmbientLoopingSound": "",
+            "m_flDistanceCameraOffset": "450.000000",
+            "m_flDistanceCameraOffsetLerpTime": "0.500000",
+            "m_flDistanceCameraOffsetBias": "0.750000",
+            "m_RestorativeGooEndParticle": "particles/abilities/viscous/viscous_restorative_goo_end.vpcf",
+            "m_sExpiredSound": "Viscous.Cube.Dur.End",
+            "m_nAmbientLoopingSoundRecipients": "MODIFIER_SOUND_RECIPIENT_ALWAYS",
+            "m_sStartSound": "Viscous.Cube.Cast",
+            "m_NonTargetLoopingSound": "Viscous.Cube.Dur.Lp",
+            "m_TargetLoopingSound": "Viscous.Cube.Dur.Target.Lp",
+            "m_BreakoutProgressBarModifier": {
+                "_my_subclass_name": "breakoutProgress",
+                "_class": "modifier_base",
+                "m_bReverseHudProgressBar": "true",
+                "m_sLocalizationName": "",
+                "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER",
+                "m_strSmallIconCssClass": "",
+                "m_strHintText": ""
+            },
+            "m_eDebuffType": "MODIFIER_DEBUFF_NO",
+            "m_bIsHidden": "false",
+            "m_bReverseHudProgressBar": "false",
+            "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER",
+            "m_strParticleEffect": "particles/abilities/viscous/viscous_restorative_goo_healing.vpcf",
+            "m_PostCubeBuffModifier": {
+                "_class": "modifier_base",
+                "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
+                    "BonusMoveSpeed",
+                    "StaminaCooldownReduction"
+                ],
+                "_my_subclass_name": "cube_post_speed_buff",
+                "m_strParticleEffect": "particles/abilities/viscous/viscous_symbiosis_buff.vpcf",
+                "m_bIsHidden": "true"
+            },
+            "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [],
+            "m_strHintText": "",
+            "m_strHudMessageText": "#viscous_restorative_goo"
+        },
+        "m_AbilityTooltipDetails": {
+            "m_vecAbilityInfoSections": [
+                {
+                    "m_vecAbilityPropertiesBlock": [
+                        {
+                            "m_vecAbilityProperties": [
+                                {
+                                    "m_strImportantProperty": "BonusHealthRegen"
+                                },
+                                {
+                                    "m_strImportantProperty": "AbilityDuration"
+                                }
+                            ]
+                        }
+                    ],
+                    "m_strLocString": "#viscous_restorative_goo_desc",
+                    "m_vecBasicProperties": []
+                },
+                {
+                    "m_strLocString": "#viscous_restorative_goo_buff_desc",
+                    "m_strAbilityPropertyUpgradeRequired": "BonusMoveSpeed",
+                    "m_vecAbilityPropertiesBlock": [
+                        {
+                            "m_strPropertiesTitleLocString": "",
+                            "m_vecAbilityProperties": [
+                                {
+                                    "m_strImportantProperty": "BonusMoveSpeed",
+                                    "m_bRequiresAbilityUpgrade": "true"
+                                },
+                                {
+                                    "m_strImportantProperty": "StaminaCooldownReduction",
+                                    "m_bRequiresAbilityUpgrade": "true"
+                                },
+                                {
+                                    "m_strImportantProperty": "PostCubeBuffDuration",
+                                    "m_bRequiresAbilityUpgrade": "true"
+                                }
+                            ]
+                        }
+                    ],
+                    "m_vecBasicProperties": []
+                }
+            ]
+        },
+        "m_strDamageTakenSound": "",
+        "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/viscous_restorative_goo.webm"
+    }
+}

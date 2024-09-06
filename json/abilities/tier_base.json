@@ -1,0 +1,9 @@
+{
+    "tier4_base": {
+        "_not_pickable": "2",
+        "m_iItemTier": "EModTier_4",
+        "_editor": {
+            "folder_name": "Base"
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "modifier_trigger_push": {
+        "_class": "modifier_trigger_push",
+        "m_bIsHidden": "true",
+        "m_nAttributes": "MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED",
+        "m_eDebuffType": "MODIFIER_DEBUFF_NO"
+    }
+}

@@ -1,0 +1,108 @@
+{
+    "citadel_weapon_astro_set_shotgun_shared_weapon_info": {
+        "_not_pickable": "2",
+        "m_WeaponInfo": {
+            "m_Spread": "2.500000",
+            "m_VerticallRecoil": {
+                "m_Range": [
+                    "0.800000",
+                    "1.500000"
+                ]
+            },
+            "m_iClipSize": "2",
+            "m_flCycleTime": "0.550000",
+            "m_reloadDuration": "0.800000",
+            "m_iBullets": "8",
+            "m_bCanZoom": "false",
+            "m_flReloadSingleBulletsInitialDelay": "0.100000",
+            "m_bReloadSingleBullets": "true",
+            "m_bReloadSingleBulletsAllowCancel": "true",
+            "m_strShootSound": "Atlas.Wpn.Fire",
+            "m_strReloadSound": "Atlas.Wpn.Reload.Clip.Out",
+            "m_flRecoilRecoveryDelayFactor": "0.900000",
+            "m_AimingShootSpreadPenalty": [
+                "0.000000",
+                "2.000000"
+            ],
+            "m_StandingShootSpreadPenalty": [
+                "0.000000",
+                "2.000000"
+            ],
+            "m_flShootSpreadPenaltyPerShot": "0.200000",
+            "m_flShootSpreadPenaltyDecay": "5.000000",
+            "m_flPelletScatterFactor": "2.750000",
+            "m_flPelletScatterSpreadFactor": "0.400000",
+            "m_vecScatterOffsets": [
+                [
+                    "0.150000",
+                    "0.950000"
+                ],
+                [
+                    "0.700000",
+                    "0.700000"
+                ],
+                [
+                    "0.780000",
+                    "-0.200000"
+                ],
+                [
+                    "-0.220000",
+                    "0.090000"
+                ],
+                [
+                    "-0.100000",
+                    "0.000000"
+                ],
+                [
+                    "-0.650000",
+                    "-0.500000"
+                ],
+                [
+                    "-0.460000",
+                    "0.180000"
+                ],
+                [
+                    "-1.000000",
+                    "0.800000"
+                ]
+            ],
+            "m_strReloadEndSound": "Atlas.Wpn.Reload.Clip.In",
+            "m_strBulletImpactSound": "Atlas.Wpn.Impact",
+            "m_BulletSpeedCurve": {
+                "m_spline": [
+                    {
+                        "x": "0.000000",
+                        "y": "24000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    },
+                    {
+                        "x": "100.000000",
+                        "y": "24000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    }
+                ],
+                "m_tangents": [
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    },
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    }
+                ],
+                "m_vDomainMins": [
+                    "0.000000",
+                    "1.000000"
+                ],
+                "m_vDomainMaxs": [
+                    "100.000000",
+                    "24000.000000"
+                ]
+            },
+            "m_flBulletDamage": "5.800000"
+        }
+    }
+}

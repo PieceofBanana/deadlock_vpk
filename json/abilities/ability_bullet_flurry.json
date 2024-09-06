@@ -1,0 +1,385 @@
+{
+    "ability_bullet_flurry": {
+        "_class": "ability_bullet_flurry",
+        "m_mapAbilityProperties": {
+            "AbilityCooldown": {
+                "m_strValue": "130",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldown_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldown"
+                }
+            },
+            "AbilityDuration": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "duration",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            },
+            "AbilityCastRange": {
+                "m_strValue": "0",
+                "m_eDisplayUnits": "EDisplayUnit_Meters",
+                "m_strCSSClass": "range",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCastRange_scale_function",
+                    "m_eSpecificStatScaleType": "ETechRange"
+                }
+            },
+            "AbilityUnitTargetLimit": {
+                "m_strValue": "1",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityCastDelay": {
+                "m_strValue": "0.4",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityChannelTime": {
+                "m_strValue": "3.0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_multi_stats",
+                    "_my_subclass_name": "scale_duration",
+                    "m_vecScalingStats": [
+                        "ETechPower",
+                        "EChannelDuration",
+                        "ETechDuration"
+                    ],
+                    "m_eSpecificStatScaleType": "ETechPower",
+                    "m_flStatScale": "0.065520"
+                }
+            },
+            "AbilityPostCastDuration": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0"
+            },
+            "AbilityCharges": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCharges_scale_function",
+                    "m_eSpecificStatScaleType": "EMaxChargesIncrease"
+                }
+            },
+            "AbilityCooldownBetweenCharge": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "charge_cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldownBetweenCharge_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldownBetweenChargeUses"
+                }
+            },
+            "ChannelMoveSpeed": {
+                "m_strValue": "4m",
+                "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond",
+                "m_strCSSClass": "move_speed",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityResourceCost": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_strCSSClass": "cast"
+            },
+            "TechPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_POWER"
+            },
+            "WeaponPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
+            },
+            "Radius": {
+                "m_strValue": "15m",
+                "m_strCSSClass": "distance",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "Radius_scale_function",
+                    "m_eSpecificStatScaleType": "ETechRadius"
+                }
+            },
+            "TargetsPerTick": {
+                "m_strValue": "1",
+                "m_strCSSClass": "radius"
+            },
+            "BonusFireRate": {
+                "m_strValue": "25",
+                "m_strCSSClass": "bullet_damage",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_FIRE_RATE",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
+            },
+            "WeaponDamageBonus": {
+                "m_strValue": "2",
+                "m_strCSSClass": "bullet_damage",
+                "m_eDisplayUnits": "EDisplayUnit_Normal",
+                "m_eDisplayType": "EBaseWeaponDamageIncrease",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_ATTACK_DAMAGE_ADDITIVE_ONLY",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
+            },
+            "EvasionPercent": {
+                "m_strValue": "50"
+            }
+        },
+        "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
+        "_editor": {
+            "folder_name": "Hero Haze"
+        },
+        "m_WeaponInfo": {
+            "m_BulletSpeedCurve": {
+                "m_spline": [
+                    {
+                        "x": "0.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    },
+                    {
+                        "x": "100.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    }
+                ],
+                "m_tangents": [
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    },
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    }
+                ],
+                "m_vDomainMins": [
+                    "0.000000",
+                    "0.000000"
+                ],
+                "m_vDomainMaxs": [
+                    "100.000000",
+                    "10000.000000"
+                ]
+            }
+        },
+        "m_strCancelAbilityKey": "+in_cancel_ability",
+        "m_HUDPanel": {
+            "m_vecButtonHints": [
+                {
+                    "m_strContext": "throw",
+                    "m_eButton1": "EButtonHint_Attack",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_Throw"
+                },
+                {
+                    "m_strContext": "deploy",
+                    "m_eButton1": "EButtonHint_Attack",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_Deploy"
+                },
+                {
+                    "m_strContext": "cast_on_target",
+                    "m_eButton1": "EButtonHint_Attack",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_CastOnTarget",
+                    "m_bShowAsUnitTargetActivationHint": "true",
+                    "m_bShowAbilityIcon": "true"
+                },
+                {
+                    "m_strContext": "alt_cast_hold_hint",
+                    "m_eButton1": "EButtonHint_AbilityKey",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_HoldToSelfCast"
+                },
+                {
+                    "m_strContext": "alt_cast_double_tap_hint",
+                    "m_eButton1": "EButtonHint_AbilityKey",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_DoubleTapToSelfCast"
+                },
+                {
+                    "m_strContext": "alt_cast_modifier_key_hint",
+                    "m_strBindingOverride1": "in_alt_cast_modifier",
+                    "m_eButton2": "EButtonHint_AbilityKey",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_eButtonHintType": "EButtonHintType_TwoButtonCombination",
+                    "m_strLocToken": "#AbilityButtonHint_ModifierKeyToSelfCast"
+                },
+                {
+                    "m_strContext": "alt_cast_select_then_alt_cast_key_hint",
+                    "m_strBindingOverride1": "in_alt_cast",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_SelectThenSelfCastButton"
+                },
+                {
+                    "m_strContext": "deselect",
+                    "m_eButton1": "EButtonHint_AbilityKey",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_Deselect",
+                    "m_nPriority": "1"
+                },
+                {
+                    "m_strLocToken": "#AbilityButtonHint_Activate",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_eButton1": "EButtonHint_AbilityKey",
+                    "m_strContext": "unit_target_activate",
+                    "m_bShowAsUnitTargetActivationHint": "true",
+                    "m_bShowAbilityIcon": "true"
+                }
+            ]
+        },
+        "_multibase": [
+            "ultimate_base"
+        ],
+        "m_bStartTrained": "false",
+        "m_nAbilityPointsCost": "0",
+        "m_nAbillityUnlocksCost": "1",
+        "m_eAbilityType": "EAbilityType_Ultimate",
+        "m_iMaxLevel": "1",
+        "m_bitsInterruptingStates": "MODIFIER_STATE_STUNNED",
+        "m_PreviewPathParticle": "particles/generic/generic_arc.vpcf",
+        "m_strAbilityOffCooldownSound": "",
+        "m_strAbilityChargeReadySound": "",
+        "m_skillshotMissParticle": "particles/abilities/skillshot_default_miss_owner.vpcf",
+        "m_iUpdateTime": "1646772729",
+        "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_SELF",
+        "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
+        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED|CITADEL_ABILITY_BEHAVIOR_EXCLUSIVE_USE|CITADEL_ABILITY_BEHAVIOR_NO_TARGET|CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CLEAVE_DISABLED | CITADEL_ABILITY_BEHAVIOR_CAN_CANCEL_DURING_CAST_DELAY",
+        "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
+        "m_nAbilityTargetFlags": "CITADEL_UNIT_TARGET_FLAG_PENETRATE_INVULNERABLE",
+        "m_strAbilityImage": "file://{images}/hud/abilities/haze/haze_bullet_flurry.psd",
+        "m_vecAbilityUpgrades": [
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "WeaponDamageBonus",
+                        "m_strBonus": "7"
+                    }
+                ]
+            },
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "AbilityCooldown",
+                        "m_strBonus": "-40"
+                    }
+                ]
+            },
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "TargetsPerTick",
+                        "m_strBonus": "1"
+                    }
+                ]
+            }
+        ],
+        "m_AutoChannelModifier": {},
+        "m_BulletFlurryModifier": {
+            "_class": "modifier_citadel_bullet_flurry",
+            "_my_subclass_name": "modifier_citadel_bullet_flurry",
+            "m_strParticleEffect": "particles/abilities/haze/haze_flurry.vpcf",
+            "m_sStartSound": "Haze.BulletFlurry.Modifier.Start",
+            "m_sAmbientLoopingSound": "Haze.BulletFlurry.Modifier.Lp",
+            "m_sExpiredSound": "Haze.BulletFlurry.Modifier.End",
+            "m_bIsHidden": "true",
+            "m_vecSetAndTrackedAnimGraphParams": [],
+            "m_nEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION | MODIFIER_STATE_INFINITE_CLIP",
+            "m_eHudDisplayLocation": "DISPLAY_HUD_LEFT",
+            "m_ImpactParticle": "particles/abilities/mirage/mirage_sand_phantom_whirlwind_evasion.vpcf",
+            "m_strAttackerHitSound": "Mirage.A2.Sand.Phantom.ReturnBullet.Attacker",
+            "m_strVictimHitSound": "Mirage.A2.Sand.Phantom.ReturnBullet.Victim",
+            "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
+                "WeaponDamageBonus",
+                "BonusFireRate"
+            ]
+        },
+        "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/ability_haze_bullet_flurry.webm",
+        "m_AutoCastDelayModifier": {
+            "_class": "modifier_citadel_bullet_flurry_windup",
+            "_my_subclass_name": "cast",
+            "m_strParticleEffect": "particles/abilities/haze/haze_bullet_flurry_cast.vpcf",
+            "m_bIsHidden": "true"
+        },
+        "m_strCastDelaySound": "Haze.BulletFlurry.Cast.Delay",
+        "m_strCastAnimGraphParam": "e_BulletFlurry",
+        "m_cameraSequenceChannelStart": {
+            "m_vecDistanceOperations": [
+                {
+                    "m_bSpringToDefault": "false",
+                    "m_flSpringTarget": "350.000000",
+                    "m_flSpringStrength": "12.000000",
+                    "m_eCameraOperation": "k_ECameraOp_Spring"
+                },
+                {
+                    "m_flMaintainDuration": "99.000000",
+                    "m_eCameraOperation": "k_ECameraOp_Maintain"
+                }
+            ]
+        },
+        "m_cameraSequenceCastStart": {
+            "m_vecDistanceOperations": [
+                {
+                    "m_bLerpEndAtDefault": "false",
+                    "m_flLerpEnd": "120.000000",
+                    "m_flLerpBias": "0.738000",
+                    "m_flLerpDuration": "0.800000",
+                    "m_eCameraOperation": "k_ECameraOp_Lerp"
+                }
+            ],
+            "m_vecFOVOperations": [
+                {
+                    "m_flLerpDuration": "0.800000",
+                    "m_flLerpBias": "0.771000",
+                    "m_bLerpEndAtDefault": "false",
+                    "m_flLerpEnd": "60.000000",
+                    "m_eCameraOperation": "k_ECameraOp_Lerp"
+                }
+            ]
+        },
+        "m_AbilityTooltipDetails": {
+            "m_vecAbilityInfoSections": [
+                {
+                    "m_strLocString": "#ability_bullet_flurry_desc",
+                    "m_vecAbilityPropertiesBlock": [
+                        {
+                            "m_vecAbilityProperties": [
+                                {
+                                    "m_strImportantProperty": "BonusFireRate"
+                                },
+                                {
+                                    "m_strImportantProperty": "TargetsPerTick"
+                                }
+                            ]
+                        }
+                    ],
+                    "m_vecBasicProperties": [
+                        "WeaponDamageBonus",
+                        "EvasionPercent"
+                    ]
+                }
+            ]
+        }
+    }
+}

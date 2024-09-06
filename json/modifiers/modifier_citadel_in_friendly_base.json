@@ -1,0 +1,8 @@
+{
+    "modifier_citadel_in_friendly_base": {
+        "_class": "modifier_base_server_only",
+        "_base": "",
+        "m_nEnabledStateMask": "MODIFIER_STATE_IN_FRIENDLY_BASE",
+        "m_bIsHidden": "true"
+    }
+}

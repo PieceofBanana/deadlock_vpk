@@ -1,0 +1,12 @@
+{
+    "modifier_citadel_holding_golden_idol": {
+        "_class": "modifier_citadel_holding_golden_idol",
+        "m_strParticleStatusEffect": "",
+        "m_IdolParticle": "particles/generic/idol_carry.vpcf",
+        "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER",
+        "m_nAmbientLoopingSoundRecipients": "MODIFIER_SOUND_RECIPIENT_PARENT_IS_LOCAL_PLAYER",
+        "m_sStartSound": "",
+        "m_sAmbientLoopingSound": "",
+        "m_nEnabledStateMask": "MODIFIER_STATE_HOLDING_IDOL"
+    }
+}

@@ -1,0 +1,552 @@
+{
+    "citadel_ability_uppercut": {
+        "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
+        "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_SELF",
+        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+        "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL",
+        "m_nAbilityTargetFlags": "",
+        "m_bitsInterruptingStates": "MODIFIER_STATE_STUNNED",
+        "m_bStartTrained": "false",
+        "m_eAbilityType": "EAbilityType_Signature",
+        "m_strAbilityImage": "file://{images}/hud/abilities/bebop/bebop_uppercut.psd",
+        "m_MeleeDamageFlags": "DFLAG_TRIGGER_FLINCH | DFLAG_LIGHT_MELEE",
+        "m_mapAbilityProperties": {
+            "MeleeHalfAngle": {
+                "m_strValue": "60"
+            },
+            "MeleeAttackLength": {
+                "m_strValue": "6m",
+                "m_strCSSClass": "distance",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "MeleeAttackLength_scale_function",
+                    "m_eSpecificStatScaleType": "EMeleeRange"
+                },
+                "m_eDisplayType": "EMeleeRange"
+            },
+            "AbilityCooldown": {
+                "m_strValue": "20",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldown_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldown"
+                }
+            },
+            "AbilityDuration": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "duration",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            },
+            "AbilityCastRange": {
+                "m_strValue": "0",
+                "m_eDisplayUnits": "EDisplayUnit_Meters",
+                "m_strCSSClass": "range",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCastRange_scale_function",
+                    "m_eSpecificStatScaleType": "ETechRange"
+                }
+            },
+            "AbilityUnitTargetLimit": {
+                "m_strValue": "1",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityCastDelay": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityChannelTime": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_multi_stats",
+                    "_my_subclass_name": "scale_duration",
+                    "m_vecScalingStats": [
+                        "EChannelDuration",
+                        "ETechDuration"
+                    ]
+                }
+            },
+            "AbilityPostCastDuration": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0"
+            },
+            "AbilityCharges": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCharges_scale_function",
+                    "m_eSpecificStatScaleType": "EMaxChargesIncrease"
+                }
+            },
+            "AbilityCooldownBetweenCharge": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "charge_cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldownBetweenCharge_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldownBetweenChargeUses"
+                }
+            },
+            "ChannelMoveSpeed": {
+                "m_strValue": "50",
+                "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond",
+                "m_strCSSClass": "move_speed",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityResourceCost": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_strCSSClass": "cast"
+            },
+            "TechPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_POWER"
+            },
+            "WeaponPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
+            },
+            "EnemyHeroTossVelocity": {
+                "m_strValue": "20m"
+            },
+            "TossVelocity": {
+                "m_strValue": "25m"
+            },
+            "MeleeRadius": {
+                "m_strValue": "2.5m",
+                "m_strCSSClass": "distance"
+            },
+            "ForceReductionOnAngleDown": {
+                "m_strValue": "0.75"
+            },
+            "UppercutDamage": {
+                "m_strValue": "0.01",
+                "m_strCSSClass": "melee_damage",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "UppercutDamage_scale_function",
+                    "m_eSpecificStatScaleType": "ELightMeleeDamage",
+                    "m_flStatScale": "1.000000"
+                }
+            },
+            "LandingDamage": {
+                "m_strValue": "80",
+                "m_strCSSClass": "tech_damage",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_tech_damage",
+                    "_my_subclass_name": "damage_scale",
+                    "m_flStatScale": "0.524160"
+                }
+            },
+            "RestoreHookCooldown": {
+                "m_strValue": "0"
+            },
+            "StunOnLand": {
+                "m_strValue": "0",
+                "m_strCSSClass": "duration"
+            },
+            "OnLandDamageRadius": {
+                "m_strValue": "14m",
+                "m_strCSSClass": "distance",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "OnLandDamageRadius_scale_function",
+                    "m_eSpecificStatScaleType": "ETechRadius"
+                }
+            },
+            "UppercutBuffOnHit": {
+                "m_strValue": "0",
+                "m_strCSSClass": "duration",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "UppercutBuffOnHit_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            },
+            "BuffGunRangePercent": {
+                "m_strValue": "100",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_BONUS_ATTACK_RANGE_PERCENT",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
+            },
+            "BuffBaseWeaponPct": {
+                "m_strValue": "0",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_BASE_BULLET_DAMAGE_PERCENT",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
+            },
+            "ClipSizeBonus": {
+                "m_strValue": "0",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_AMMO_CLIP_SIZE_PERCENT",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
+            }
+        },
+        "m_flCollisionDistance": "100",
+        "_editor": {
+            "folder_name": "Hero Bebop"
+        },
+        "_class": "citadel_ability_uppercut",
+        "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
+        "m_WeaponInfo": {
+            "m_BulletSpeedCurve": {
+                "m_spline": [
+                    {
+                        "x": "0.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    },
+                    {
+                        "x": "100.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    }
+                ],
+                "m_tangents": [
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    },
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    }
+                ],
+                "m_vDomainMins": [
+                    "0.000000",
+                    "0.000000"
+                ],
+                "m_vDomainMaxs": [
+                    "100.000000",
+                    "10000.000000"
+                ]
+            }
+        },
+        "m_strCancelAbilityKey": "+in_cancel_ability",
+        "m_HUDPanel": {
+            "m_vecButtonHints": [
+                {
+                    "m_strContext": "throw",
+                    "m_eButton1": "EButtonHint_Attack",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_Throw"
+                },
+                {
+                    "m_strContext": "deploy",
+                    "m_eButton1": "EButtonHint_Attack",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_Deploy"
+                },
+                {
+                    "m_strContext": "cast_on_target",
+                    "m_eButton1": "EButtonHint_Attack",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_CastOnTarget",
+                    "m_bShowAsUnitTargetActivationHint": "true",
+                    "m_bShowAbilityIcon": "true"
+                },
+                {
+                    "m_strContext": "alt_cast_hold_hint",
+                    "m_eButton1": "EButtonHint_AbilityKey",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_HoldToSelfCast"
+                },
+                {
+                    "m_strContext": "alt_cast_double_tap_hint",
+                    "m_eButton1": "EButtonHint_AbilityKey",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_DoubleTapToSelfCast"
+                },
+                {
+                    "m_strContext": "alt_cast_modifier_key_hint",
+                    "m_strBindingOverride1": "in_alt_cast_modifier",
+                    "m_eButton2": "EButtonHint_AbilityKey",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_eButtonHintType": "EButtonHintType_TwoButtonCombination",
+                    "m_strLocToken": "#AbilityButtonHint_ModifierKeyToSelfCast"
+                },
+                {
+                    "m_strContext": "alt_cast_select_then_alt_cast_key_hint",
+                    "m_strBindingOverride1": "in_alt_cast",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_SelectThenSelfCastButton"
+                },
+                {
+                    "m_strContext": "deselect",
+                    "m_eButton1": "EButtonHint_AbilityKey",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_Deselect",
+                    "m_nPriority": "1"
+                },
+                {
+                    "m_strLocToken": "#AbilityButtonHint_Activate",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_eButton1": "EButtonHint_AbilityKey",
+                    "m_strContext": "unit_target_activate",
+                    "m_bShowAsUnitTargetActivationHint": "true",
+                    "m_bShowAbilityIcon": "true"
+                }
+            ]
+        },
+        "_multibase": [
+            "melee_base",
+            "signature_base"
+        ],
+        "m_nAbilityPointsCost": "0",
+        "m_nAbillityUnlocksCost": "1",
+        "m_iMaxLevel": "1",
+        "m_PreviewPathParticle": "particles/generic/generic_arc.vpcf",
+        "m_strAbilityOffCooldownSound": "",
+        "m_strAbilityChargeReadySound": "",
+        "m_skillshotMissParticle": "particles/abilities/skillshot_default_miss_owner.vpcf",
+        "m_iUpdateTime": "1693505809",
+        "m_flMaxPitchUp": "-80",
+        "m_vecAbilityUpgrades": [
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "AbilityCooldown",
+                        "m_strBonus": "-11"
+                    }
+                ]
+            },
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "UppercutBuffOnHit",
+                        "m_strBonus": "12"
+                    },
+                    {
+                        "m_strPropertyName": "BuffBaseWeaponPct",
+                        "m_strBonus": "60"
+                    }
+                ]
+            },
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "RestoreHookCooldown",
+                        "m_strBonus": "1"
+                    },
+                    {
+                        "m_strPropertyName": "ClipSizeBonus",
+                        "m_strBonus": "100"
+                    }
+                ]
+            }
+        ],
+        "m_UppercutModifier": {
+            "_class": "modifier_citadel_uppercutted",
+            "_my_subclass_name": "modifier_citadel_uppercutted",
+            "m_sLocalizationName": "modifier_citadel_enemy_uppercutted",
+            "m_strStunSound": "Ability.Astro.BouncePad.Impact",
+            "m_StunParticle": "particles/abilities/bebop/bebop_uppercut_perk_stun.vpcf",
+            "m_strParticleStatusEffect": "particles/abilities/bebop/bebop_uppercut_uppercutted_status.vpcf",
+            "m_sStartSound": "Ability.Bebop.Uppercut.Uppercutted",
+            "m_strParticleEffect": "particles/abilities/bebop/bebop_uppercut_debuff.vpcf",
+            "m_bIsHidden": "true",
+            "m_NoExplodeModifier": {
+                "_class": "modifier_base",
+                "_my_subclass_name": "modifier_no_uppercut_explosion_damage",
+                "m_bIsHidden": "true"
+            },
+            "m_nStatusEffectPriority": "20",
+            "m_strParticleEffectConfig": "preview"
+        },
+        "m_BuffModifier": {
+            "_class": "modifier_uppercut_buff",
+            "_my_subclass_name": "modifier_uppercut_buff",
+            "m_sLocalizationName": "modifier_uppercut_buff",
+            "m_strParticleStatusEffect": "",
+            "m_strParticleEffect": "particles/abilities/bebop/bebop_uppercut_perk_buff.vpcf",
+            "m_nEnabledStateMask": "MODIFIER_STATE_NO_WINDUP",
+            "m_sStartSound": "Wraith.RapidFire.Cast",
+            "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
+                "BuffGunRangePercent",
+                "BuffBaseWeaponPct"
+            ]
+        },
+        "m_ClipModifier": {
+            "_class": "modifier_uppercut_clipsize",
+            "_my_subclass_name": "modifier_uppercut_clipsize",
+            "m_bIsHidden": "true",
+            "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
+                "ClipSizeBonus"
+            ]
+        },
+        "m_strCastSound": "Ability.Bebop.Uppercut.Multi",
+        "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/bebop_uppercut.webm",
+        "m_UppercutAttackData": {
+            "m_strHitSound": "Ability.Bebop.Uppercut.Impact",
+            "m_strMissSound": "Ability.Bebop.Uppercut.Miss",
+            "m_bCanBeParried": "false",
+            "m_SpeedBonusCurve": {
+                "m_spline": [
+                    {
+                        "x": "0.000000",
+                        "y": "0.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    },
+                    {
+                        "x": "0.476358",
+                        "y": "0.000000",
+                        "m_flSlopeIncoming": "-625.817322",
+                        "m_flSlopeOutgoing": "-625.817322"
+                    },
+                    {
+                        "x": "0.479373",
+                        "y": "-300.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    },
+                    {
+                        "x": "1.000000",
+                        "y": "0.000000",
+                        "m_flSlopeIncoming": "576.228394",
+                        "m_flSlopeOutgoing": "576.228394"
+                    }
+                ],
+                "m_tangents": [
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    },
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    },
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    },
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    }
+                ],
+                "m_vDomainMins": [
+                    "0.000000",
+                    "-300.000000"
+                ],
+                "m_vDomainMaxs": [
+                    "1.000000",
+                    "0.000000"
+                ]
+            },
+            "m_MovementSpeedCurve": {
+                "m_spline": [
+                    {
+                        "x": "0.000000",
+                        "y": "308.509094",
+                        "m_flSlopeIncoming": "2685.628662",
+                        "m_flSlopeOutgoing": "2685.628662"
+                    },
+                    {
+                        "x": "0.108537",
+                        "y": "600.000000",
+                        "m_flSlopeIncoming": "644.550842",
+                        "m_flSlopeOutgoing": "644.550842"
+                    },
+                    {
+                        "x": "0.452239",
+                        "y": "600.000000",
+                        "m_flSlopeIncoming": "-1723.029419",
+                        "m_flSlopeOutgoing": "-1723.029419"
+                    },
+                    {
+                        "x": "0.456761",
+                        "y": "0.000000",
+                        "m_flSlopeIncoming": "-4060.605225",
+                        "m_flSlopeOutgoing": "-4060.605225"
+                    },
+                    {
+                        "x": "0.600000",
+                        "y": "0.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    }
+                ],
+                "m_tangents": [
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    },
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    },
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    },
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    },
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    }
+                ],
+                "m_vDomainMins": [
+                    "0.000000",
+                    "0.000000"
+                ],
+                "m_vDomainMaxs": [
+                    "0.600000",
+                    "600.000000"
+                ]
+            },
+            "m_MeleeActivateParticle": "particles/abilities/bebop/bebop_uppercut_activate.vpcf",
+            "m_MeleeImpactParticle": "particles/abilities/bebop/bebop_uppercut_impact.vpcf"
+        },
+        "m_AbilityTooltipDetails": {
+            "m_vecAbilityInfoSections": [
+                {
+                    "m_strLocString": "#citadel_ability_uppercut_desc",
+                    "m_vecAbilityPropertiesBlock": [
+                        {
+                            "m_vecAbilityProperties": [
+                                {
+                                    "m_strImportantProperty": "UppercutDamage"
+                                },
+                                {
+                                    "m_strImportantProperty": "LandingDamage"
+                                },
+                                {
+                                    "m_strImportantProperty": "OnLandDamageRadius"
+                                }
+                            ]
+                        }
+                    ],
+                    "m_vecBasicProperties": []
+                }
+            ]
+        }
+    }
+}

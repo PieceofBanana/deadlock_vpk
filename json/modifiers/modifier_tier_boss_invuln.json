@@ -1,0 +1,7 @@
+{
+    "modifier_tier3_boss_invuln": {
+        "_class": "modifier_tier3_boss_invuln",
+        "m_ShieldParticle": "particles/npc/tier3boss/tier3_boss_invulerability_shield.vpcf",
+        "m_flShieldRadius": "350.000000"
+    }
+}

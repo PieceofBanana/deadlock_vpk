@@ -1,0 +1,6 @@
+{
+    "modifier_boss_invuln": {
+        "_class": "modifier_boss_invuln",
+        "m_ShieldParticle": "particles/trooper/tier1_boss_invulerability_shield.vpcf"
+    }
+}

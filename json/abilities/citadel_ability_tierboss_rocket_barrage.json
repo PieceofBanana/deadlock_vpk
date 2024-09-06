@@ -1,0 +1,226 @@
+{
+    "citadel_ability_tier2boss_rocket_barrage": {
+        "_class": "citadel_ability_tier2boss_rocket_barrage",
+        "m_mapAbilityProperties": {
+            "AbilityCooldown": {
+                "m_strValue": "10",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldown_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldown"
+                }
+            },
+            "AbilityDuration": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "duration",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            },
+            "AbilityCastRange": {
+                "m_strValue": "4000",
+                "m_eDisplayUnits": "EDisplayUnit_Meters",
+                "m_strCSSClass": "range",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCastRange_scale_function",
+                    "m_eSpecificStatScaleType": "ETechRange",
+                    "m_bFunctionDisabled": "true"
+                }
+            },
+            "AbilityUnitTargetLimit": {
+                "m_strValue": "100",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityCastDelay": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityChannelTime": {
+                "m_strValue": "3.5",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_multi_stats",
+                    "_my_subclass_name": "scale_duration",
+                    "m_vecScalingStats": [
+                        "EChannelDuration",
+                        "ETechDuration"
+                    ],
+                    "m_bFunctionDisabled": "true"
+                }
+            },
+            "AbilityPostCastDuration": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0"
+            },
+            "AbilityCharges": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCharges_scale_function",
+                    "m_eSpecificStatScaleType": "EMaxChargesIncrease"
+                }
+            },
+            "AbilityCooldownBetweenCharge": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "charge_cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldownBetweenCharge_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldownBetweenChargeUses"
+                }
+            },
+            "ChannelMoveSpeed": {
+                "m_strValue": "50",
+                "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond",
+                "m_strCSSClass": "move_speed",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityResourceCost": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_strCSSClass": "cast"
+            },
+            "TechPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_POWER"
+            },
+            "WeaponPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
+            },
+            "VolleyInterval": {
+                "m_strValue": "0.5"
+            },
+            "GrenadesInVolley": {
+                "m_strValue": "6"
+            },
+            "Damage": {
+                "m_strValue": "200"
+            },
+            "DetonateTimer": {
+                "m_strValue": "10"
+            },
+            "ExplosionFalloffDisabled": {
+                "m_strValue": "1"
+            },
+            "Radius": {
+                "m_strValue": "5m",
+                "m_strCSSClass": "distance"
+            },
+            "FireDuration": {
+                "m_strValue": "5",
+                "m_strCSSClass": "duration"
+            },
+            "FireDPS": {
+                "m_strValue": "25",
+                "m_strCSSClass": "tech_damage"
+            },
+            "FireTickRate": {
+                "m_strValue": "0.5"
+            },
+            "FireRadius": {
+                "m_strValue": "5m"
+            }
+        },
+        "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
+        "_editor": {
+            "folder_name": "Base"
+        },
+        "m_WeaponInfo": {
+            "m_BulletSpeedCurve": {
+                "m_spline": [
+                    {
+                        "x": "0.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    },
+                    {
+                        "x": "100.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    }
+                ],
+                "m_tangents": [
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    },
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    }
+                ],
+                "m_vDomainMins": [
+                    "0.000000",
+                    "0.000000"
+                ],
+                "m_vDomainMaxs": [
+                    "100.000000",
+                    "10000.000000"
+                ]
+            }
+        },
+        "_multibase": [
+            "npc_base"
+        ],
+        "m_bStartTrained": "true",
+        "m_eAbilityType": "EAbilityType_Signature",
+        "m_bitsInterruptingStates": "MODIFIER_STATE_STUNNED | MODIFIER_STATE_IS_ASLEEP",
+        "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_UNIT",
+        "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_CIRCLE",
+        "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
+        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_TARGET_THROUGH_WALLS",
+        "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
+        "m_strAbilityImage": "file://{images}/hud/abilities/engineer_rockets.psd",
+        "m_projectileInfo": {
+            "m_particle": "particles/npc/tier2boss/tier2boss_barrage_fireball_projectile.vpcf",
+            "m_bHideWarningParticle": "1",
+            "m_bHideImpactParticle": "1",
+            "m_flTrackingDuration": "1",
+            "m_flTrackingStartTime": "1",
+            "m_flTrackingEndTime": "2",
+            "m_flSpeed": "800",
+            "m_flUpSpeed": "600",
+            "m_flGravityScale": "1",
+            "m_nBehaviors": "PBF_DetonateOnHitWorld"
+        },
+        "m_AuraModifier": {
+            "_class": "modifier_tier2boss_rocket_damage_aura",
+            "_my_subclass_name": "modifier_tier2boss_rocket_damage_aura",
+            "m_strParticleEffect": "particles/npc/tier2boss/tier2boss_barrage_explosion_ground.vpcf",
+            "m_modifierProvidedByAura": {
+                "_class": "modifier_tier2boss_rocket_damage_aura_debuff",
+                "_my_subclass_name": "modifier_tier2boss_rocket_damage_aura_debuff",
+                "m_bIsHidden": "true"
+            }
+        },
+        "m_RocketFireSound": "Ability.Tier2Boss.RocketBarrage.Fire",
+        "m_ExplosionSound": "Ability.Tier2Boss.RocketBarrage.Explode",
+        "m_ExplosionParticle": "particles/abilities/heavy_barrage_explode.vpcf"
+    }
+}

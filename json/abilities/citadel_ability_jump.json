@@ -1,0 +1,232 @@
+{
+    "citadel_ability_jump": {
+        "_class": "citadel_ability_jump",
+        "m_mapAbilityProperties": {
+            "AbilityCooldown": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldown_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldown"
+                }
+            },
+            "AbilityDuration": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "duration",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            },
+            "AbilityCastRange": {
+                "m_strValue": "0",
+                "m_eDisplayUnits": "EDisplayUnit_Meters",
+                "m_strCSSClass": "range",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCastRange_scale_function",
+                    "m_eSpecificStatScaleType": "ETechRange"
+                }
+            },
+            "AbilityUnitTargetLimit": {
+                "m_strValue": "1",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityCastDelay": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityChannelTime": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_multi_stats",
+                    "_my_subclass_name": "scale_duration",
+                    "m_vecScalingStats": [
+                        "EChannelDuration",
+                        "ETechDuration"
+                    ]
+                }
+            },
+            "AbilityPostCastDuration": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0"
+            },
+            "AbilityCharges": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCharges_scale_function",
+                    "m_eSpecificStatScaleType": "EMaxChargesIncrease"
+                }
+            },
+            "AbilityCooldownBetweenCharge": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "charge_cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldownBetweenCharge_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldownBetweenChargeUses"
+                }
+            },
+            "ChannelMoveSpeed": {
+                "m_strValue": "50",
+                "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond",
+                "m_strCSSClass": "move_speed",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityResourceCost": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_strCSSClass": "cast"
+            },
+            "TechPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_POWER"
+            },
+            "WeaponPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
+            },
+            "VerticalSpeed": {
+                "m_strValue": "300"
+            },
+            "SlideLeapSpeedPenaltyMax": {
+                "m_strValue": "100"
+            },
+            "SlideLeapSpeedPenaltyTime": {
+                "m_strValue": "0.2"
+            },
+            "WeaponSpreadPenalty": {
+                "m_strValue": "3"
+            },
+            "AirJumpVerticalSpeedPercent": {
+                "m_strValue": "75",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AirJumpVerticalSpeedPercent_scale_function",
+                    "m_eSpecificStatScaleType": "EAirMoveDistanceScale"
+                }
+            }
+        },
+        "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
+        "_editor": {
+            "folder_name": "Base"
+        },
+        "m_WeaponInfo": {
+            "m_BulletSpeedCurve": {
+                "m_spline": [
+                    {
+                        "x": "0.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    },
+                    {
+                        "x": "100.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    }
+                ],
+                "m_tangents": [
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    },
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    }
+                ],
+                "m_vDomainMins": [
+                    "0.000000",
+                    "0.000000"
+                ],
+                "m_vDomainMaxs": [
+                    "100.000000",
+                    "10000.000000"
+                ]
+            }
+        },
+        "_multibase": [
+            "inherent_base"
+        ],
+        "m_eAbilityType": "EAbilityType_Innate",
+        "m_bStartTrained": "true",
+        "m_iMaxLevel": "1",
+        "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_SELF",
+        "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
+        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_DONT_BREAK_INVISIBILITY | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_INPUT_DIRECTIONAL_2D | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_NON_COMBAT | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
+        "m_flDashJumpEndTime": "0.500000",
+        "m_flDashJumpMissMaxSpeed": "250.000000",
+        "m_strDashJumpActivate": "Player.RollJump.Activate",
+        "m_flDashJumpStartTime": "0.300000",
+        "m_flMantleRefundWindow": "0.100000",
+        "m_AirJumpParticle": "particles/generic/air_jump.vpcf",
+        "m_DashJumpParticle": "particles/generic/roll_jump.vpcf",
+        "m_AirJumpExecutedSound": "Player.AirJump.Execute",
+        "m_flLateJumpGraceWindow": "0.150000",
+        "m_flDashJumpVerticalSpeed": "400.000000",
+        "m_flDashJumpDistanceInMeters": "18.000000",
+        "m_flWallJumpSpeed": "600.000000",
+        "m_WallJumpParticle": "particles/generic/wall_jump.vpcf",
+        "m_WallJumpExecutedSound": "Player.WallJump",
+        "m_WallJumpAirDragCurve": {
+            "m_spline": [
+                {
+                    "x": "0.000000",
+                    "y": "2.203636",
+                    "m_flSlopeIncoming": "-4.451692",
+                    "m_flSlopeOutgoing": "-4.451692"
+                },
+                {
+                    "x": "0.495011",
+                    "y": "0.000000",
+                    "m_flSlopeIncoming": "-4.451692",
+                    "m_flSlopeOutgoing": "-4.451692"
+                }
+            ],
+            "m_tangents": [
+                {
+                    "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                    "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                },
+                {
+                    "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                    "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                }
+            ],
+            "m_vDomainMins": [
+                "0.000000",
+                "0.000000"
+            ],
+            "m_vDomainMaxs": [
+                "1.000000",
+                "5.000000"
+            ]
+        },
+        "m_flWallJumpNormalSpeed": "400.000000"
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "citadel_base_lockon_ability": {
+        "m_eAbilityType": "EAbilityType_Signature",
+        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_TARGET_THROUGH_WALLS",
+        "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
+        "m_mapAbilityProperties": {
+            "TimeToGainLockonStack": {
+                "m_strValue": "0.7",
+                "m_strCSSClass": "cooldown"
+            },
+            "LockonConeAngle": {
+                "m_strValue": "40",
+                "m_strCSSClass": "distance"
+            },
+            "TimeToLoseLockonStack": {
+                "m_strValue": "2"
+            },
+            "LosingLockGraceTime": {
+                "m_strValue": "0.5"
+            },
+            "MaxLockonStacks": {
+                "m_strValue": "1"
+            },
+            "StacksCanDecay": {
+                "m_strValue": "0"
+            }
+        },
+        "_class": "citadel_base_lockon_ability",
+        "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_CONE",
+        "m_flTargetingConeAngle": "20.000000",
+        "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
+        "m_nAbilityTargetFlags": "CITADEL_UNIT_TARGET_FLAG_NO_INVIS",
+        "m_bShowTargetingPreviewWhileChanneling": "false",
+        "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_UNIT",
+        "m_HUDPanel": {
+            "m_vecHUDElements": [
+                {
+                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_UNIT_TARGET",
+                    "m_strContext": "lockon"
+                }
+            ]
+        },
+        "m_strApplyLockonStack": "Base.Sentry.Beep"
+    }
+}

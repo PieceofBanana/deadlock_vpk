@@ -1,0 +1,349 @@
+{
+    "citadel_ability_power_slash": {
+        "_class": "citadel_ability_power_slash",
+        "m_mapAbilityProperties": {
+            "AbilityCooldown": {
+                "m_strValue": "8",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldown_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldown"
+                }
+            },
+            "AbilityDuration": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "duration",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            },
+            "AbilityCastRange": {
+                "m_strValue": "0",
+                "m_eDisplayUnits": "EDisplayUnit_Meters",
+                "m_strCSSClass": "range",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCastRange_scale_function",
+                    "m_eSpecificStatScaleType": "ETechRange"
+                }
+            },
+            "AbilityUnitTargetLimit": {
+                "m_strValue": "1",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityCastDelay": {
+                "m_strValue": "1.4",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityChannelTime": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_multi_stats",
+                    "_my_subclass_name": "scale_duration",
+                    "m_vecScalingStats": [
+                        "EChannelDuration",
+                        "ETechDuration"
+                    ]
+                }
+            },
+            "AbilityPostCastDuration": {
+                "m_strValue": "0.4",
+                "m_strDisableValue": "0"
+            },
+            "AbilityCharges": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCharges_scale_function",
+                    "m_eSpecificStatScaleType": "EMaxChargesIncrease"
+                }
+            },
+            "AbilityCooldownBetweenCharge": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "charge_cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldownBetweenCharge_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldownBetweenChargeUses"
+                }
+            },
+            "ChannelMoveSpeed": {
+                "m_strValue": "50",
+                "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond",
+                "m_strCSSClass": "move_speed",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityResourceCost": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_strCSSClass": "cast"
+            },
+            "TechPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_POWER"
+            },
+            "WeaponPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
+            },
+            "SlashLength": {
+                "m_strValue": "25m",
+                "m_strCSSClass": "distance",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "SlashLength_scale_function",
+                    "m_eSpecificStatScaleType": "ETechRange"
+                }
+            },
+            "ShortChargeDamagePct": {
+                "m_strValue": "40",
+                "m_strCSSClass": "tech_damage"
+            },
+            "MediumChargeDamagePct": {
+                "m_strValue": "60",
+                "m_strCSSClass": "tech_damage"
+            },
+            "FullChargeDamage": {
+                "m_strValue": "170",
+                "m_strCSSClass": "tech_damage",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_tech_damage",
+                    "_my_subclass_name": "FullChargeDamage_scale_function",
+                    "m_eSpecificStatScaleType": "ETechPower",
+                    "m_flStatScale": "2.000000"
+                }
+            },
+            "SlashRadius": {
+                "m_strValue": "41",
+                "m_strCSSClass": "",
+                "m_subclassScaleFunction": {
+                    "m_bFunctionDisabled": "true"
+                }
+            },
+            "FallSpeedMax": {
+                "m_strValue": "5"
+            },
+            "AirSpeedMax": {
+                "m_strValue": "0"
+            },
+            "PowerUpStages": {
+                "m_strValue": "3"
+            },
+            "SlashCollisionRadius": {
+                "m_strValue": "4"
+            },
+            "SlowDuration": {
+                "m_strValue": "0",
+                "m_strCSSClass": "duration",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "SlowDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            },
+            "SlowPercent": {
+                "m_strValue": "0",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional",
+                "m_strCSSClass": "slow"
+            },
+            "BulletResist": {
+                "m_strValue": "0",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional",
+                "m_strCSSClass": "bullet_armor_up"
+            }
+        },
+        "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
+        "_editor": {
+            "folder_name": "Hero Yamato"
+        },
+        "m_WeaponInfo": {
+            "m_BulletSpeedCurve": {
+                "m_spline": [
+                    {
+                        "x": "0.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    },
+                    {
+                        "x": "100.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    }
+                ],
+                "m_tangents": [
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    },
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    }
+                ],
+                "m_vDomainMins": [
+                    "0.000000",
+                    "0.000000"
+                ],
+                "m_vDomainMaxs": [
+                    "100.000000",
+                    "10000.000000"
+                ]
+            }
+        },
+        "m_strCancelAbilityKey": "+in_cancel_ability",
+        "m_HUDPanel": {
+            "m_vecButtonHints": [
+                {
+                    "m_strLocToken": "#AbilityButtonHint_Activate",
+                    "m_eHintSide": "EButtonSide_Right",
+                    "m_eButton1": "EButtonHint_Attack",
+                    "m_strContext": "trigger_early"
+                }
+            ],
+            "m_vecHUDElements": [
+                {
+                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
+                    "m_strContext": "slash",
+                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_power_slash.vxml",
+                    "m_strAdditionalClasses": ""
+                }
+            ]
+        },
+        "_multibase": [
+            "signature_base"
+        ],
+        "m_bStartTrained": "false",
+        "m_nAbilityPointsCost": "0",
+        "m_nAbillityUnlocksCost": "1",
+        "m_eAbilityType": "EAbilityType_Signature",
+        "m_iMaxLevel": "1",
+        "m_bitsInterruptingStates": "MODIFIER_STATE_STUNNED | MODIFIER_STATE_IS_ASLEEP",
+        "m_PreviewPathParticle": "particles/generic/generic_arc.vpcf",
+        "m_strAbilityOffCooldownSound": "",
+        "m_strAbilityChargeReadySound": "",
+        "m_skillshotMissParticle": "particles/abilities/skillshot_default_miss_owner.vpcf",
+        "m_iUpdateTime": "1686678287",
+        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_SHOW_CAST_RANGE_AS_SAT_SPHERE_WHILE_CASTING",
+        "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
+        "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
+        "m_vecAbilityUpgrades": [
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "BulletResist",
+                        "m_strBonus": "60"
+                    }
+                ]
+            },
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "SlowDuration",
+                        "m_strBonus": "3"
+                    },
+                    {
+                        "m_strPropertyName": "SlowPercent",
+                        "m_strBonus": "40"
+                    }
+                ]
+            },
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "FullChargeDamage",
+                        "m_strBonus": "200"
+                    }
+                ]
+            }
+        ],
+        "m_SlowModifier": {
+            "_my_subclass_name": "slow",
+            "_class": "modifier_slow_base",
+            "m_sLocalizationName": "movement_slow",
+            "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
+                "SlowPercent"
+            ],
+            "m_bIsHidden": "true"
+        },
+        "m_strAbilityImage": "file://{images}/hud/abilities/yamato/yamato_power_slash.psd",
+        "m_strCastAnimGraphParam": "e_PowerSlash",
+        "m_strStartSound": "Yamato.PowerSlash.Start",
+        "m_strChannelSound": "",
+        "m_ImpactParticle": "particles/abilities/yamato/yamato_power_slash_impact.vpcf",
+        "m_CastParticle": "particles/abilities/yamato/yamato_power_slash_charge.vpcf",
+        "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_UNIT",
+        "m_flAirDrag": "3.000000",
+        "m_vecLongEffectOffset": [
+            "0.000000",
+            "10.000000",
+            "-20.000000"
+        ],
+        "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/yamato_power_slash.webm",
+        "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_CONE",
+        "m_PowerUpParticle": "particles/abilities/yamato/yamato_power_slash_pulse.vpcf",
+        "m_flMaxPowerPadding": "0.000000",
+        "m_flEffectGroundTrace": "32.000000",
+        "m_strWhizbySound": "Yamato.PowerSlash.Whizby",
+        "m_strDamageImpactSound": "Yamato.PowerSlash.HitConfirmation",
+        "m_strDamageImpactVictimSound": "Yamato.PowerSlash.Victim.Impact",
+        "m_strPowerUp3Sounds": "Yamato.PowerSlash.PowerUp.Tick.03",
+        "m_strPowerUp2Sounds": "Yamato.PowerSlash.PowerUp.Tick.02",
+        "m_strPowerUp1Sounds": "Yamato.PowerSlash.PowerUp.Tick.01",
+        "m_PowerSlashParticle": "particles/abilities/yamato/yamato_blade_dash.vpcf",
+        "m_PowerSlashFullParticle": "particles/abilities/yamato/yamato_blade_dash_full.vpcf",
+        "m_strSlashSound": "Yamato.PowerSlash.Cast",
+        "m_strSlashFullSound": "Yamato.PowerSlash.Cast.Max",
+        "m_AbilityTooltipDetails": {
+            "m_vecAbilityInfoSections": [
+                {
+                    "m_strLocString": "#citadel_ability_power_slash_desc",
+                    "m_vecAbilityPropertiesBlock": [
+                        {
+                            "m_vecAbilityProperties": [
+                                {
+                                    "m_strImportantProperty": "FullChargeDamage"
+                                },
+                                {
+                                    "m_strImportantProperty": "SlashLength"
+                                }
+                            ]
+                        }
+                    ],
+                    "m_vecBasicProperties": [
+                        "SlowPercent",
+                        "SlowDuration",
+                        "BulletResist"
+                    ]
+                }
+            ]
+        },
+        "m_flStartPosTestCapsuleLength": "100.000000"
+    }
+}

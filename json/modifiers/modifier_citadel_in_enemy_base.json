@@ -1,0 +1,8 @@
+{
+    "modifier_citadel_in_enemy_base": {
+        "_class": "modifier_base_server_only",
+        "_base": "",
+        "m_nEnabledStateMask": "MODIFIER_STATE_IN_ENEMY_BASE | MODIFIER_STATE_TITAN_LASER_VALID_TARGET",
+        "m_bIsHidden": "true"
+    }
+}

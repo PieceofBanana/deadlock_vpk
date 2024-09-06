@@ -1,0 +1,24 @@
+{
+    "modifier_neutral_gold_pickup_aura": {
+        "_class": "modifier_item_pickup_aura",
+        "m_iAuraSearchType": "CITADEL_UNIT_TARGET_HERO",
+        "m_strParticleEffect": "particles/generic/neutral_gold_pickup_aura.vpcf",
+        "m_modifierProvidedByAura": {
+            "_class": "modifier_item_pickup_aura_target",
+            "_my_subclass_name": "aura_target",
+            "m_bIsHidden": "true",
+            "m_PickupTimerModifier": {
+                "_class": "modifier_item_pickup_timer",
+                "_my_subclass_name": "timer",
+                "m_bReverseHudProgressBar": "true",
+                "m_bIsHidden": "false",
+                "m_eDrawOverheadStatus": "OVERHEAD_DRAW_FOR_EVERYONE",
+                "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER",
+                "m_sEndSound": ""
+            },
+            "m_PickupTimer": "0.750000"
+        },
+        "m_bIsHidden": "true",
+        "m_flAuraRadius": "70.000000"
+    }
+}

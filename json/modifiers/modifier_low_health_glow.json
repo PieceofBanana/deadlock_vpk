@@ -1,0 +1,7 @@
+{
+    "modifier_low_health_glow": {
+        "_class": "modifier_low_health_glow",
+        "m_bIsHidden": "true",
+        "m_GlowParticle": "particles/status_fx/status_fx_last_hit.vpcf"
+    }
+}

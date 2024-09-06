@@ -1,0 +1,7 @@
+{
+    "modifier_debug_is_visible_to_enemy_team": {
+        "_class": "modifier_debug_is_visible_to_enemy_team",
+        "m_sLocalizationName": "Debug - On Enemy Minimap",
+        "m_eDebuffType": "MODIFIER_DEBUFF_YES"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "modifier_hero_upgrade_bonuses": {
+        "_class": "modifier_hero_upgrade_bonuses",
+        "m_nAttributes": "MODIFIER_ATTRIBUTE_PERMANENT|MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED",
+        "m_bIsHidden": "true"
+    }
+}

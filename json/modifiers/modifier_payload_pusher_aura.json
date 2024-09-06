@@ -1,0 +1,17 @@
+{
+    "modifier_payload_pusher_aura": {
+        "_class": "modifier_base_aura",
+        "m_strParticleEffect": "particles/generic/payload_push_aoe.vpcf",
+        "m_nAmbientParticleRadiusControlPoint": "1",
+        "m_flAuraRadius": "700.000000",
+        "m_iAuraSearchType": "CITADEL_UNIT_TARGET_HERO_FRIENDLY",
+        "m_iAuraSearchFlags": "CITADEL_UNIT_TARGET_FLAG_PENETRATE_INVULNERABLE | CITADEL_UNIT_TARGET_FLAG_NO_INVIS",
+        "m_modifierProvidedByAura": {
+            "_class": "modifier_payload_pusher_aura_target",
+            "_my_subclass_name": "modifier_payload_pusher_aura_target",
+            "m_strParticleEffect": "particles/abilities/nano/nano_cohesion.vpcf",
+            "m_nAttributes": "MODIFIER_ATTRIBUTE_IGNORE_INVULNERABLE",
+            "m_bIsHidden": "true"
+        }
+    }
+}

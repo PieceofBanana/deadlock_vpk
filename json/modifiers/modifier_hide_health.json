@@ -1,0 +1,9 @@
+{
+    "modifier_hide_health": {
+        "_class": "modifier_base",
+        "m_eDebuffType": "MODIFIER_DEBUFF_NO",
+        "m_nEnabledStateMask": "MODIFIER_STATE_UNIT_STATUS_HEALTH_HIDDEN",
+        "m_eDrawOverheadStatus": "OVERHEAD_DRAW_NEVER",
+        "m_bIsHidden": "true"
+    }
+}

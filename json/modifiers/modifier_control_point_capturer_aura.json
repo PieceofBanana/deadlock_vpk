@@ -1,0 +1,11 @@
+{
+    "modifier_control_point_capturer_aura": {
+        "_class": "modifier_control_point_capturer_aura",
+        "m_iAuraSearchType": "CITADEL_UNIT_TARGET_HERO_ENEMY",
+        "m_iAuraSearchFlags": "CITADEL_UNIT_TARGET_FLAG_PENETRATE_INVULNERABLE | CITADEL_UNIT_TARGET_FLAG_NO_INVIS",
+        "m_modifierProvidedByAura": {
+            "_class": "modifier_control_point_capturer_aura_target",
+            "_my_subclass_name": "modifier_control_point_capturer_aura_target"
+        }
+    }
+}

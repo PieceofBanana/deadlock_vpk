@@ -1,0 +1,9 @@
+{
+    "modifier_zipline_speed_player_generator_kill": {
+        "_class": "modifier_zipline_speed",
+        "m_flPercentageMultiplierEnd": "120",
+        "m_flRampUpTime": "4",
+        "m_bIsHidden": "true",
+        "m_nAttributes": "MODIFIER_ATTRIBUTE_MULTIPLE|MODIFIER_ATTRIBUTE_PERMANENT|MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED"
+    }
+}

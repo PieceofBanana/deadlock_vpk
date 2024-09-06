@@ -1,0 +1,514 @@
+{
+    "citadel_ability_lash_ultimate": {
+        "m_eAbilityType": "EAbilityType_Ultimate",
+        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+        "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
+        "m_mapAbilityProperties": {
+            "TimeToGainLockonStack": {
+                "m_strValue": "0.6",
+                "m_strCSSClass": "cooldown"
+            },
+            "LockonConeAngle": {
+                "m_strValue": "40",
+                "m_strCSSClass": "distance"
+            },
+            "TimeToLoseLockonStack": {
+                "m_strValue": "2"
+            },
+            "LosingLockGraceTime": {
+                "m_strValue": "0.4"
+            },
+            "MaxLockonStacks": {
+                "m_strValue": "1"
+            },
+            "StacksCanDecay": {
+                "m_strValue": "0"
+            },
+            "AbilityCooldown": {
+                "m_strValue": "130",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldown_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldown"
+                }
+            },
+            "AbilityDuration": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "duration",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            },
+            "AbilityCastRange": {
+                "m_strValue": "18m",
+                "m_eDisplayUnits": "EDisplayUnit_Meters",
+                "m_strCSSClass": "distance",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "Radius_scale_function",
+                    "m_eSpecificStatScaleType": "ETechRadius"
+                }
+            },
+            "AbilityUnitTargetLimit": {
+                "m_strValue": "6",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityCastDelay": {
+                "m_strValue": "0.3",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_strLocTokenOverride": "LashUltimateChargeTime"
+            },
+            "AbilityChannelTime": {
+                "m_strValue": "2",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_multi_stats",
+                    "_my_subclass_name": "scale_duration",
+                    "m_vecScalingStats": [
+                        "EChannelDuration",
+                        "ETechDuration"
+                    ]
+                }
+            },
+            "AbilityPostCastDuration": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0"
+            },
+            "AbilityCharges": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCharges_scale_function",
+                    "m_eSpecificStatScaleType": "EMaxChargesIncrease"
+                }
+            },
+            "AbilityCooldownBetweenCharge": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "charge_cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldownBetweenCharge_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldownBetweenChargeUses"
+                }
+            },
+            "ChannelMoveSpeed": {
+                "m_strValue": "50",
+                "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond",
+                "m_strCSSClass": "move_speed",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityResourceCost": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_strCSSClass": "cast"
+            },
+            "TechPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_POWER"
+            },
+            "WeaponPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
+            },
+            "ImpactDamage": {
+                "m_strValue": "115",
+                "m_strCSSClass": "tech_damage",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_tech_damage",
+                    "_my_subclass_name": "ImpactDamage_scale_function",
+                    "m_eSpecificStatScaleType": "ETechPower",
+                    "m_flStatScale": "1.048320"
+                }
+            },
+            "UpBoostSpeed": {
+                "m_strValue": "400"
+            },
+            "LiftHeight": {
+                "m_strValue": "6m"
+            },
+            "BoostTime": {
+                "m_strValue": "1.0"
+            },
+            "HangTime": {
+                "m_strValue": "0.6"
+            },
+            "ThrowDistance": {
+                "m_strValue": "12m",
+                "m_subclassScaleFunction": {
+                    "_my_subclass_name": "ThrowRange_scale_function",
+                    "_class": "scale_function_multi_stats",
+                    "m_vecScalingStats": [
+                        "ETechPower",
+                        "ETechRange"
+                    ],
+                    "m_eSpecificStatScaleType": "ETechPower",
+                    "m_flStatScale": "0.327600"
+                }
+            },
+            "MinAimAngle": {
+                "m_strValue": "0"
+            },
+            "SlamSpeed": {
+                "m_strValue": "1600"
+            },
+            "ThrowStraightDuration": {
+                "m_strValue": "1.5"
+            },
+            "SlowDuration": {
+                "m_strValue": "4",
+                "m_strCSSClass": "duration",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "SlowDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            },
+            "SlowPercent": {
+                "m_strValue": "50",
+                "m_strCSSClass": "slow",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
+            },
+            "ImpactRadius": {
+                "m_strValue": "5m",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "m_eSpecificStatScaleType": "ETechRange",
+                    "_my_subclass_name": "impact_radius"
+                }
+            },
+            "NotInConeLosesLock": {
+                "m_strValue": "1"
+            }
+        },
+        "_class": "citadel_ability_lash_ultimate",
+        "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_CONE",
+        "m_flTargetingConeAngle": "75.000000",
+        "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_HERO_ENEMY",
+        "m_nAbilityTargetFlags": "CITADEL_UNIT_TARGET_FLAG_NO_INVIS",
+        "m_bShowTargetingPreviewWhileChanneling": "false",
+        "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_UNIT",
+        "m_HUDPanel": {
+            "m_vecHUDElements": [
+                {
+                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
+                    "m_strContext": "lashthrow",
+                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_converging_semi_circles.vxml"
+                },
+                {
+                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
+                    "m_strContext": "cast",
+                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_progress_bar.vxml"
+                }
+            ],
+            "m_vecButtonHints": [
+                {
+                    "m_strContext": "throw",
+                    "m_eButton1": "EButtonHint_Attack",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_Throw"
+                },
+                {
+                    "m_strContext": "deploy",
+                    "m_eButton1": "EButtonHint_Attack",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_Deploy"
+                },
+                {
+                    "m_strContext": "cast_on_target",
+                    "m_eButton1": "EButtonHint_Attack",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_CastOnTarget",
+                    "m_bShowAsUnitTargetActivationHint": "true",
+                    "m_bShowAbilityIcon": "true"
+                },
+                {
+                    "m_strContext": "alt_cast_hold_hint",
+                    "m_eButton1": "EButtonHint_AbilityKey",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_HoldToSelfCast"
+                },
+                {
+                    "m_strContext": "alt_cast_double_tap_hint",
+                    "m_eButton1": "EButtonHint_AbilityKey",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_DoubleTapToSelfCast"
+                },
+                {
+                    "m_strContext": "alt_cast_modifier_key_hint",
+                    "m_strBindingOverride1": "in_alt_cast_modifier",
+                    "m_eButton2": "EButtonHint_AbilityKey",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_eButtonHintType": "EButtonHintType_TwoButtonCombination",
+                    "m_strLocToken": "#AbilityButtonHint_ModifierKeyToSelfCast"
+                },
+                {
+                    "m_strContext": "alt_cast_select_then_alt_cast_key_hint",
+                    "m_strBindingOverride1": "in_alt_cast",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_SelectThenSelfCastButton"
+                },
+                {
+                    "m_strContext": "deselect",
+                    "m_eButton1": "EButtonHint_AbilityKey",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_strLocToken": "#AbilityButtonHint_Deselect",
+                    "m_nPriority": "1"
+                },
+                {
+                    "m_strLocToken": "#AbilityButtonHint_Activate",
+                    "m_eHintSide": "EButtonSide_Bottom",
+                    "m_eButton1": "EButtonHint_AbilityKey",
+                    "m_strContext": "unit_target_activate",
+                    "m_bShowAsUnitTargetActivationHint": "true",
+                    "m_bShowAbilityIcon": "true"
+                }
+            ]
+        },
+        "m_strApplyLockonStack": "Base.Sentry.Beep",
+        "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
+        "_editor": {
+            "folder_name": "Hero Lash"
+        },
+        "m_WeaponInfo": {
+            "m_BulletSpeedCurve": {
+                "m_spline": [
+                    {
+                        "x": "0.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    },
+                    {
+                        "x": "100.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    }
+                ],
+                "m_tangents": [
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    },
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    }
+                ],
+                "m_vDomainMins": [
+                    "0.000000",
+                    "0.000000"
+                ],
+                "m_vDomainMaxs": [
+                    "100.000000",
+                    "10000.000000"
+                ]
+            }
+        },
+        "m_strCancelAbilityKey": "+in_cancel_ability",
+        "_multibase": [
+            "citadel_base_lockon_ability",
+            "ultimate_base"
+        ],
+        "m_bStartTrained": "false",
+        "m_nAbilityPointsCost": "0",
+        "m_nAbillityUnlocksCost": "1",
+        "m_iMaxLevel": "1",
+        "m_bitsInterruptingStates": "MODIFIER_STATE_STUNNED",
+        "m_PreviewPathParticle": "particles/generic/generic_arc.vpcf",
+        "m_strAbilityOffCooldownSound": "",
+        "m_strAbilityChargeReadySound": "",
+        "m_skillshotMissParticle": "particles/abilities/skillshot_default_miss_owner.vpcf",
+        "m_strAbilityImage": "file://{images}/hud/abilities/lash/lash_counter_lash.psd",
+        "m_iUpdateTime": "1686678287",
+        "m_flAirDrag": "2.000000",
+        "m_vecAbilityUpgrades": [
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "ThrowDistance",
+                        "m_strBonus": "8m"
+                    }
+                ]
+            },
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "ImpactDamage",
+                        "m_strBonus": "100"
+                    }
+                ]
+            },
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "AbilityCooldown",
+                        "m_strBonus": "-60"
+                    }
+                ]
+            }
+        ],
+        "m_GrappleEnemyModifier": {
+            "_class": "modifier_lash_grapple_enemy_debuff",
+            "_my_subclass_name": "modifier_lash_grapple_enemy_debuff",
+            "m_ImpactParticle": "particles/abilities/lash/final_strike_impact.vpcf",
+            "m_GrappleParticle": "",
+            "m_sStartSound": "Lash.A4.Death.Slam.Windup",
+            "m_ImpactSound": "Lash.A4.Death.Slam.Impact",
+            "m_cameraSequenceCreated": {
+                "m_vecDistanceOperations": [
+                    {
+                        "m_flSpringStrength": "3.000000",
+                        "m_flSpringMaxDuration": "0.000000",
+                        "m_bSpringToDefault": "false",
+                        "m_flSpringTarget": "300.000000",
+                        "m_eCameraOperation": "k_ECameraOp_Spring"
+                    },
+                    {
+                        "m_flMaintainDuration": "99.000000",
+                        "m_eCameraOperation": "k_ECameraOp_Maintain"
+                    }
+                ]
+            },
+            "m_DebuffModifier": {
+                "_my_subclass_name": "slow",
+                "_class": "modifier_slow_base",
+                "m_sLocalizationName": "citadel_ability_lash_ultimate_debuff",
+                "m_bIsHidden": "true",
+                "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
+                    "SlowPercent"
+                ],
+                "m_strParticleEffect": "particles/generic/generic_slow_debuff.vpcf",
+                "m_strParticleStatusEffect": "",
+                "m_strScreenParticleEffect": ""
+            },
+            "m_bIsHidden": "true",
+            "m_vecSetAndTrackedAnimGraphParams": [
+                {
+                    "m_strName": "b_KnockedDown",
+                    "m_strSetValue": "1",
+                    "m_strRestoreValue": "0"
+                }
+            ],
+            "m_LaunchParticle": "",
+            "m_RopeParticle": "particles/abilities/lash/lash_ultimate_throw_target_cable.vpcf"
+        },
+        "m_LaunchParticle": "particles/abilities/lash/lash_death_slam_start.vpcf",
+        "m_TargetPreviewParticle": "particles/ui/ui_range_finder_aoe.vpcf",
+        "m_strThrowEnemyAnimGraphParam": "b_ThrowEnemy",
+        "m_strCastAnimSequenceName": "lash_throw_enemy_lift",
+        "m_strCastSound": "Lash.A4.Death.Slam.Cast",
+        "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/lash_death_slam.webm",
+        "m_GrabSound": "Lash.A4.Death.Slam.Grab",
+        "m_MissSound": "Lash.A4.Death.Slam.Miss",
+        "m_ThrowSound": "Lash.A4.Death.Slam.Throw",
+        "m_UltimateCastParticle": "particles/abilities/lash/lash_final_strike_cast.vpcf",
+        "m_strCastDelaySound": "Lash.A4.Death.Slam.Cast.Delay",
+        "m_UltimateCastEnemyParticle": "particles/abilities/lash/lash_final_strike_cast_enemy.vpcf",
+        "m_AbilityTooltipDetails": {
+            "m_vecAbilityInfoSections": [
+                {
+                    "m_strLocString": "#citadel_ability_lash_ultimate_desc",
+                    "m_vecAbilityPropertiesBlock": [
+                        {
+                            "m_vecAbilityProperties": [
+                                {
+                                    "m_strImportantProperty": "ImpactDamage"
+                                },
+                                {
+                                    "m_strImportantProperty": "ThrowDistance"
+                                }
+                            ]
+                        }
+                    ],
+                    "m_vecBasicProperties": [
+                        "SlowPercent",
+                        "SlowDuration",
+                        "AbilityCastDelay"
+                    ]
+                }
+            ]
+        },
+        "m_GrappleTargetModifier": {
+            "_my_subclass_name": "target",
+            "_class": "modifier_lash_grapple_target",
+            "m_RopeParticle": "particles/abilities/lash/lash_ultimate_lock_on_cable.vpcf",
+            "m_sStartSound": "Lash.Lash.Impact",
+            "m_strParticleEffect": "",
+            "m_strParticleStatusEffect": ""
+        },
+        "m_cameraSequenceCastStart": {
+            "m_vecDistanceOperations": [
+                {
+                    "m_eCameraOperation": "k_ECameraOp_Spring",
+                    "m_bValuesAreRelative": "true",
+                    "m_bSpringToDefault": "false",
+                    "m_flSpringTarget": "-50.000000"
+                },
+                {
+                    "m_eCameraOperation": "k_ECameraOp_Maintain",
+                    "m_flMaintainDuration": "999.000000"
+                }
+            ],
+            "m_vecFOVOperations": [
+                {
+                    "m_eCameraOperation": "k_ECameraOp_Spring",
+                    "m_bValuesAreRelative": "true",
+                    "m_bSpringToDefault": "false",
+                    "m_flSpringTarget": "10.000000"
+                },
+                {
+                    "m_eCameraOperation": "k_ECameraOp_Maintain",
+                    "m_flMaintainDuration": "999.000000"
+                }
+            ]
+        },
+        "m_cameraSequenceChannelStart": {
+            "m_vecDistanceOperations": [
+                {
+                    "m_eCameraOperation": "k_ECameraOp_Maintain",
+                    "m_flMaintainDuration": "999.000000"
+                }
+            ],
+            "m_vecFOVOperations": [
+                {
+                    "m_eCameraOperation": "k_ECameraOp_Maintain",
+                    "m_flMaintainDuration": "99.000000"
+                }
+            ]
+        },
+        "m_TargetModifier": {
+            "_class": "modifier_lash_grapple_target",
+            "m_strParticleEffect": "",
+            "m_strParticleStatusEffect": "",
+            "m_strScreenParticleEffect": "",
+            "_my_subclass_name": "lockon",
+            "m_bIsHidden": "true",
+            "m_LockingOnParticle": "particles/abilities/lash/lash_ultimate_lock_on_cable.vpcf",
+            "m_LockedOnParticle": "particles/abilities/lash/lash_ultimate_locked_cable_taut.vpcf"
+        }
+    }
+}
