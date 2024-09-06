@@ -1,0 +1,8 @@
+{
+    "npc_hero_decoy": {
+        "_class": "npc_hero_decoy",
+        "m_flSightRangePlayers": "1600.000000",
+        "m_flSightRangeNPCs": "1600.000000",
+        "m_hFootstepSounds": "citadel"
+    }
+}

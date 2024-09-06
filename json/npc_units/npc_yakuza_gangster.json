@@ -1,0 +1,8 @@
+{
+    "npc_yakuza_gangster": {
+        "_class": "npc_yakuza_gangster",
+        "m_sModelName": "models/heroes_staging/gen_man/gen_man.vmdl",
+        "m_flSightRange": "1600.000000",
+        "m_flMeleeAttemptRange": "0.000000"
+    }
+}

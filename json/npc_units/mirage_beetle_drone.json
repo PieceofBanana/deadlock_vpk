@@ -1,0 +1,9 @@
+{
+    "mirage_beetle_drone": {
+        "_class": "npc_flying_drone",
+        "m_sModelName": "models/weapons/hornet/hornet_drone.vmdl",
+        "m_flSightRangePlayers": "1600.000000",
+        "m_flSightRangeNPCs": "1600.000000",
+        "m_iStartingHealth": "200"
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "citadel_item_pickup_rejuv": {
+        "_class": "citadel_item_pickup_rejuv",
+        "m_AbilityProjectile": "ability_item_pickup_effects",
+        "m_RejuvModifier": {
+            "_class": "modifier_citadel_respawn_credit",
+            "_my_subclass_name": "modifier_citadel_respawn_credit",
+            "m_sExpireSound": "",
+            "m_strParticleEffect": "particles/modifiers/respawn_credit_buff.vpcf",
+            "m_flBonusClipSize": "0.000000",
+            "m_flBonusFirerate": "20.000000",
+            "m_flBonusHealth": "200.000000",
+            "m_flBonusMoveSpeedMeterPerSecond": "1.000000",
+            "m_sLocalizationName": "modifier_citadel_respawn_credit",
+            "m_eRespawnMechanic": "RejuvenatorRespawnMechanic_PercentOfNormal"
+        },
+        "m_PunchPickupModifier": {
+            "_class": "modifier_item_pickup_punchable",
+            "_my_subclass_name": "modifier_item_pickup_punchable",
+            "m_nEnabledStateMask": "MODIFIER_STATE_IS_MELEE_TARGET",
+            "m_IsDroppingParticle": "particles/environment/rejuv_ambient.vpcf",
+            "m_IsPunchableParticle": "particles/environment/rejuv_attackable.vpcf",
+            "m_bIsHidden": "true",
+            "m_NearRejuvAuraModifier": {
+                "_class": "modifier_base_aura",
+                "_my_subclass_name": "near_rejuv",
+                "m_bIsHidden": "true",
+                "m_flAuraRadius": "300.000000",
+                "m_modifierProvidedByAura": {
+                    "_class": "modifier_base",
+                    "_my_subclass_name": "target_near_rejuv",
+                    "m_bIsHidden": "true",
+                    "m_nEnabledStateMask": "MODIFIER_STATE_NEAR_REJUVINATOR"
+                },
+                "m_iAuraSearchType": "CITADEL_UNIT_TARGET_HERO"
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "vehicle_large_truck_02": {
+        "_class": "citadel_breakable_prop",
+        "m_flRespawnTime": "180.000000",
+        "m_iHealth": "100000000",
+        "m_bBreakOnDodgeTouch": "false",
+        "m_bSolidAfterDeath": "false",
+        "m_bRenderAfterDeath": "false",
+        "m_bDamagedByAbilities": "true",
+        "m_bDamagedByMelee": "true",
+        "m_bDamagedByBullets": "true",
+        "m_flInitialSpawnTime": "0",
+        "m_flPrimaryDropChance": "40.000000",
+        "_base": "citadel_breakable_prop_car",
+        "m_vecPrimaryPickups": [
+            {
+                "m_sPickup": "small_gold_pickup",
+                "m_flPickupWeight": "1.000000"
+            }
+        ],
+        "m_eRollType": "ECitadelRandomRoll_BreakableGoldPickup",
+        "m_hModel": "models/props_vehicles/large_truck_02_breakable.vmdl",
+        "m_sAnimgraphParamOnHit": "b_Hit_Trigger",
+        "m_flDropChance": "0.000000",
+        "m_sAnimgraphParamDamageReceived": "",
+        "m_sDamageSound": "",
+        "m_bIsPermanent": "true",
+        "m_bIsMantleable": "true"
+    }
+}

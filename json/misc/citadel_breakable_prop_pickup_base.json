@@ -1,0 +1,17 @@
+{
+    "citadel_breakable_prop_pickup_base": {
+        "_class": "citadel_breakable_prop_pickup",
+        "_not_pickable": "2",
+        "m_flPickupRadius": "85.000000",
+        "m_spawnParticle": "particles/environment/powerup_spawner_ambient.vpcf",
+        "m_gainedParticle": "particles/generic/powerup_spawner_gained.vpcf",
+        "m_hModel": "models/null.vmdl",
+        "m_sSpawnSound": "Powerup.Spawn.Generic",
+        "m_flPickupExpirationDuration": "300.000000",
+        "m_flParticleRadius": "1.500000",
+        "m_bShowOnMinimap": "true",
+        "m_sNameLocString": "",
+        "m_sPickupSound": "Powerup.Pickup.Gold",
+        "m_nNameOffset": "150"
+    }
+}

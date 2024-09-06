@@ -1,0 +1,183 @@
+{
+    "neutral_gargoyle": {
+        "m_WeaponInfo": {
+            "m_Spread": "0.500000",
+            "m_StandingSpread": "1.500000",
+            "m_flScatterYawScale": "1",
+            "m_flShootingUpSpreadPenalty": "5",
+            "m_flZoomMoveSpeedPercent": "0.700000",
+            "m_flShootMoveSpeedPercent": "0.700000",
+            "m_flHorizontalPunch": "0",
+            "m_flVerticalPunch": "0",
+            "m_flRecoilRecoverySpeed": "10.000000",
+            "m_VerticallRecoil": {
+                "m_Range": [
+                    "-0.200000",
+                    "0.200000"
+                ],
+                "m_flBurstSlope": "0.000000",
+                "m_flBurstExponent": "0.000000",
+                "m_flBurstConstant": "0.000000"
+            },
+            "m_HorizontalRecoil": {
+                "m_Range": [
+                    "-0.100000",
+                    "0.100000"
+                ],
+                "m_flBurstExponent": "0.000000"
+            },
+            "m_flRecoilSpeed": "1",
+            "m_flZoomFOV": "40.000000",
+            "m_flDamageFalloffStartRange": "1500",
+            "m_flDamageFalloffEndRange": "1500",
+            "m_flRange": "1500",
+            "m_flBulletLifetime": "2",
+            "m_flDamageFalloffEndScale": "0.300000",
+            "m_flDamageFalloffBias": "0.500000",
+            "m_iBullets": "1",
+            "m_flCycleTime": "0.500000",
+            "m_reloadDuration": "0.250000",
+            "m_iClipSize": "-1",
+            "m_iBurstShotCount": "1",
+            "m_flBurstShotCooldown": "0",
+            "m_flBulletGravityScale": "0.000000",
+            "m_flBulletRadius": "16",
+            "m_flBulletDrag": "1",
+            "m_flBulletDragBias": "0.500000",
+            "m_flBulletReflectScale": "0",
+            "m_flBulletReflectAmount": "1",
+            "m_flBulletInheritShooterVelocityScale": "0",
+            "m_szBulletTravelTracerParticle": "particles/weapon_fx/npc/neutral_gargoyle_tracer.vpcf",
+            "m_szMuzzleFlashEffectName": "particles/dev/bullet_debug_muzzle_flash.vpcf",
+            "m_strShootSound": "Neutral.Gargoyle.Shoot",
+            "m_strBulletWhizSound": "Neutral.Gargoyle.Whizby.Base",
+            "m_BulletSpeedCurve": {
+                "m_spline": [
+                    {
+                        "x": "0.000000",
+                        "y": "1800.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    },
+                    {
+                        "x": "100.000000",
+                        "y": "1800.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    }
+                ],
+                "m_tangents": [
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    },
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    }
+                ],
+                "m_vDomainMins": [
+                    "0.000000",
+                    "1.000000"
+                ],
+                "m_vDomainMaxs": [
+                    "100.000000",
+                    "1800.000000"
+                ]
+            },
+            "m_mapImpactEffects": {
+                "default": {
+                    "m_strDecal": "Impact.Concrete",
+                    "m_strParticle": "particles/impact_fx/impact_spark_spray_large.vpcf",
+                    "m_strSound": "Default.BulletImpact"
+                },
+                "flesh": {
+                    "m_strDecal": "",
+                    "m_strParticle": "particles/blood_impact/blood_impact_red_01.vpcf",
+                    "m_strSound": "Flesh.BulletImpact"
+                },
+                "concrete": {
+                    "m_strDecal": "Impact.Concrete",
+                    "m_strParticle": "particles/impact_fx/impact_spark_spray_large.vpcf",
+                    "m_strSound": "Concrete.BulletImpact"
+                },
+                "solidmetal": {
+                    "m_strDecal": "Impact.Concrete",
+                    "m_strParticle": "particles/impact_fx/impact_spark_spray_large.vpcf",
+                    "m_strSound": "SolidMetal.BulletImpact"
+                },
+                "portals": {
+                    "m_strDecal": "Impact.Concrete",
+                    "m_strParticle": "particles/impact_fx/impact_spark_spray_large.vpcf",
+                    "m_strSound": "Player.HitInvuln"
+                }
+            },
+            "m_flCritBonusStart": "1.150000",
+            "m_flCritBonusEnd": "1.350000",
+            "m_flCritBonusStartRange": "500.000000",
+            "m_flCritBonusEndRange": "1500.000000",
+            "m_flCritBonusAgainstNPCs": "0.250000",
+            "m_flShootSpreadPenaltyPerShot": "0.000000",
+            "m_flShootSpreadPenaltyDecayDelay": "0.000000",
+            "m_flShootSpreadPenaltyDecay": "2.000000",
+            "m_flRecoilShotIndexRecoveryTimeFactor": "0.250000",
+            "m_bCanZoom": "true",
+            "m_strWeaponImpactEffect": "particles/weapon_fx/npc/neutral_gargoyle_tracer_impact.vpcf",
+            "m_flReloadMoveSpeed": "236.220000",
+            "m_strLocalPlayerBulletImpactSound": "SushiBot.Blade.Impact",
+            "m_flAutoReplenishClip": "6",
+            "m_NpcAimingSpread": [
+                "0.200000",
+                "0.600000"
+            ],
+            "m_flBulletDamage": "18.500000"
+        },
+        "_base": "neutral_trooper_strong",
+        "_class": "npc_trooper_neutral",
+        "m_ShieldParticle": "",
+        "m_flSightRangePlayers": "2000.000000",
+        "m_flMaxHealthBarDrawDistance": "800",
+        "m_flShieldReactivateDelay": "2.000000",
+        "m_flGoldReward": "220",
+        "m_flGoldRewardBonusPercentPerMinute": "1.200000",
+        "m_strLastHitSound": "LastHit.Default",
+        "m_sModelName": "models/npc/gargoyle/neutral_gargoyle.vmdl",
+        "m_flModelScale": "0.525000",
+        "m_nMaxHealth": "1760",
+        "m_hFootstepSounds": "citadel",
+        "m_sDefaultMaterialGroupName": "",
+        "m_flHealthBarOffset": "84",
+        "m_bFaceEnemyWhileIdle": "true",
+        "m_flPhysicsImpulseMultiplier": "0.000000",
+        "m_DeathParticle": "particles/npc/neutral_trooper_death.vpcf",
+        "m_vecIntrinsicModifiers": [
+            {
+                "_my_subclass_name": "strong_neutral_bullet_armor",
+                "_class": "modifier_intrinsic_base",
+                "m_vecScriptValues": [
+                    {
+                        "m_eModifierValue": "MODIFIER_VALUE_BULLET_DAMAGE_REDUCTION_PERCENT",
+                        "m_value": "60.000000"
+                    },
+                    {
+                        "m_eModifierValue": "MODIFIER_VALUE_ABILITY_DAMAGE_REDUCTION_PERCENT",
+                        "m_value": "35.000000"
+                    }
+                ],
+                "m_strParticleEffect": "particles/npc/neutral_strong_ambient_flame.vpcf"
+            }
+        ],
+        "m_eTrooperType": "NEUTRAL_TROOPER_STRONG",
+        "m_vecAttachments": [],
+        "m_flHullCapsuleHeight": "200.000000",
+        "m_flHullCapsuleRadius": "100.000000",
+        "m_sEnemyMaterialGroupName": "",
+        "m_bHasAOEAttack": "false",
+        "m_flAOERadius": "600.000000",
+        "m_flAOEDamage": "100.000000",
+        "m_flAOEAttackCooldown": "8.000000",
+        "m_AOEParticle": "particles/abilities/sumo_stomp.vpcf",
+        "m_AOESound": "Neutral.Gargoyle.StompImpact",
+        "m_AOEInitiateSound": "Neutral.Gargoyle.StompInitiate"
+    }
+}

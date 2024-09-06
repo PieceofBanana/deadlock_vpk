@@ -1,0 +1,75 @@
+{
+    "citadel_breakable_item_container": {
+        "_class": "citadel_breakable_prop",
+        "m_flRespawnTime": "180.000000",
+        "m_iHealth": "1",
+        "m_bBreakOnDodgeTouch": "true",
+        "m_bSolidAfterDeath": "false",
+        "m_bRenderAfterDeath": "false",
+        "m_bDamagedByAbilities": "true",
+        "m_bDamagedByMelee": "true",
+        "m_bDamagedByBullets": "true",
+        "m_flInitialSpawnTime": "180.000000",
+        "m_flPrimaryDropChance": "50.000000",
+        "_base": "citadel_breakable_prop_drop_powerups",
+        "m_vecPrimaryPickups": [
+            {
+                "m_sPickup": "spirit_permanent_pickup",
+                "m_flPickupWeight": "1.000000"
+            },
+            {
+                "m_sPickup": "firerate_permanent_pickup",
+                "m_flPickupWeight": "1.000000"
+            },
+            {
+                "m_sPickup": "ammo_permanent_pickup",
+                "m_flPickupWeight": "1.000000"
+            },
+            {
+                "m_sPickup": "hp_permanent_pickup",
+                "m_flPickupWeight": "2.000000"
+            },
+            {
+                "m_sPickup": "cd_permanent_pickup",
+                "m_flPickupWeight": "1.000000"
+            },
+            {
+                "m_sPickup": "wp_permanent_pickup",
+                "m_flPickupWeight": "1.000000"
+            }
+        ],
+        "m_vecPickups_lv2": [
+            {
+                "m_sPickup": "spirit_permanent_pickup_lv2",
+                "m_flPickupWeight": "1.000000"
+            },
+            {
+                "m_sPickup": "firerate_permanent_pickup_lv2",
+                "m_flPickupWeight": "1.000000"
+            },
+            {
+                "m_sPickup": "ammo_permanent_pickup_lv2",
+                "m_flPickupWeight": "1.000000"
+            },
+            {
+                "m_sPickup": "hp_permanent_pickup_lv2",
+                "m_flPickupWeight": "2.000000"
+            },
+            {
+                "m_sPickup": "cd_permanent_pickup_lv2",
+                "m_flPickupWeight": "1.000000"
+            },
+            {
+                "m_sPickup": "wp_permanent_pickup_lv2",
+                "m_flPickupWeight": "1.000000"
+            }
+        ],
+        "m_iMatchTimeMinsForLevel2Pickups": "15",
+        "m_flInitialSpawnTimeTest": "1.000000",
+        "m_flRespawnTimeTest": "5.000000",
+        "m_eRollType": "ECitadelRandomRoll_BreakablePowerupPickup",
+        "m_iLootListDeckSize": "2",
+        "m_hModel": "models/props_gameplay/item_container_breakable/item_container.vmdl",
+        "m_sBreakSound": "glass.break"
+    }
+}

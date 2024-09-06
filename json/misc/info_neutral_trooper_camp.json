@@ -1,0 +1,8 @@
+{
+    "info_neutral_trooper_camp": {
+        "_class": "info_neutral_trooper_camp",
+        "_not_pickable": "2",
+        "m_sIdleAmbient": "Neutral.Camp.Idle",
+        "m_sAlertAmbient": "Neutral.Camp.Aggro"
+    }
+}

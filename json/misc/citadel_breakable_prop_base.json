@@ -1,0 +1,16 @@
+{
+    "citadel_breakable_prop_base": {
+        "_class": "citadel_breakable_prop",
+        "_not_pickable": "2",
+        "m_flRespawnTime": "5.000000",
+        "m_iHealth": "1",
+        "m_bBreakOnDodgeTouch": "true",
+        "m_bSolidAfterDeath": "false",
+        "m_bRenderAfterDeath": "false",
+        "m_bDamagedByAbilities": "true",
+        "m_bDamagedByMelee": "true",
+        "m_bDamagedByBullets": "true",
+        "m_flInitialSpawnTime": "0.000000",
+        "m_flPrimaryDropChance": "0.000000"
+    }
+}

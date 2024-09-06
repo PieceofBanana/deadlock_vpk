@@ -1,0 +1,7 @@
+{
+    "citadel_viscous_ball": {
+        "_class": "citadel_viscous_ball",
+        "m_sModelName": "models/heroes_staging/viscous/viscous_inflated.vmdl",
+        "m_flPhysicsRadius": "40.000000"
+    }
+}

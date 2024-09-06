@@ -1,0 +1,8 @@
+{
+    "citadel_herotest_orbspawner": {
+        "m_hModel": "models/npc/sewer_beast/sewer.vmdl",
+        "m_flModelScale": "1.500000",
+        "m_AmbientParticle": "particles/environment/powerup_spawner_inactive_ambient.vpcf",
+        "m_SpawnParticle": "particles/trooper/trooper_death_sn.vpcf"
+    }
+}

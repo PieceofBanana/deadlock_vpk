@@ -1,0 +1,11 @@
+{
+    "nano_rollermine": {
+        "_class": "npc_nano_rollermine",
+        "m_sModelName": "models/heroes_staging/nano/roller/roller.vmdl",
+        "m_flSightRangePlayers": "1024.000000",
+        "m_flSightRangeNPCs": "1024.000000",
+        "m_hFootstepSounds": "",
+        "m_strAmbientLoopSound": "Nano.Predator.Travel",
+        "m_DeathSound": ""
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "citadel_bounce_pad": {
+        "_class": "citadel_bounce_pad",
+        "m_strOtherHeroBounceSound": "Ability.Astro.BouncePad.Solo",
+        "m_strCasterBounceSound": "Ability.Astro.BouncePad.Launch",
+        "m_strBarrelBounceSound": "Ability.Astro.BouncePad.Solo",
+        "m_strExpiredSound": "Astro.BouncePad.Expire",
+        "m_DestroyParticle": "particles/abilities/astro/astro_bounce_pad_destroy.vpcf",
+        "m_BounceParticle": "particles/abilities/astro/astro_bounce_pad_bounce.vpcf",
+        "m_IdleParticle": "particles/abilities/astro/astro_bounce_pad.vpcf",
+        "m_sModelName": "models/particle/cowboy_launchpad.vmdl"
+    }
+}

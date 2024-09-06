@@ -1,0 +1,18 @@
+{
+    "npc_field_sentry": {
+        "_class": "npc_field_sentry",
+        "m_DeployProgressModifier": {
+            "_my_subclass_name": "modifier_sentry_deploy",
+            "_class": "modifier_base"
+        },
+        "m_sModelName": "models/heroes_staging/engineer/turret/turret.vmdl",
+        "m_LaserSightParticle": "particles/abilities/engineer/engineer_sentry_laser_sight.vpcf",
+        "m_KillExplosionParticle": "particles/weapon_fx/weapon_grenade_explosion.vpcf",
+        "m_sSpawnSound": "Forge.Turret.Place",
+        "m_sKillExplosionSound": "Forge.Turret.Explosion",
+        "m_sTargetAcquiredLocalSound": "Forge.Turret.LockOn.LocalClient",
+        "m_sTargetAcquiredSound": "Forge.Turret.LockOn",
+        "m_flIdleTurnSpeed": "15.000000",
+        "m_flIdleTurnAngles": "60.000000"
+    }
+}

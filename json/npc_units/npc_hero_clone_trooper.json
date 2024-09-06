@@ -1,0 +1,9 @@
+{
+    "npc_hero_clone_trooper": {
+        "_class": "npc_hero_clone_trooper",
+        "m_sModelName": "models/heroes_staging/nano/roller/roller.vmdl",
+        "m_flSightRangePlayers": "2000.000000",
+        "m_flSightRangeNPCs": "2000.000000",
+        "m_hFootstepSounds": "citadel"
+    }
+}

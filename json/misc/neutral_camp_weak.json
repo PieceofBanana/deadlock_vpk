@@ -1,0 +1,11 @@
+{
+    "neutral_camp_weak": {
+        "_class": "info_neutral_trooper_camp",
+        "m_sIdleAmbient": "Neutral.Camp.Idle",
+        "m_sAlertAmbient": "Neutral.Camp.Aggro",
+        "_base": "info_neutral_trooper_camp",
+        "m_iInitialSpawnDelayInSeconds": "120",
+        "m_iSpawnIntervalInSeconds": "240",
+        "m_eNeutralType": "NEUTRAL_TROOPER_WEAK"
+    }
+}

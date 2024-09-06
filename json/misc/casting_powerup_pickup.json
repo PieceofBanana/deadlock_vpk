@@ -1,0 +1,46 @@
+{
+    "casting_powerup_pickup": {
+        "_class": "citadel_breakable_prop_modifier_pickup",
+        "m_flPickupRadius": "85.000000",
+        "m_spawnParticle": "particles/environment/powerup_spawner_ambient.vpcf",
+        "m_gainedParticle": "particles/generic/powerup_spawner_gained.vpcf",
+        "m_hModel": "models/null.vmdl",
+        "m_sSpawnSound": "Powerup.Spawn.Generic",
+        "m_flPickupExpirationDuration": "300.000000",
+        "m_flParticleRadius": "1.500000",
+        "m_bShowOnMinimap": "true",
+        "m_sNameLocString": "casting_powerup_pickup",
+        "m_sPickupSound": "Powerup.Pickup.Spirit",
+        "m_nNameOffset": "150",
+        "_base": "citadel_breakable_prop_pickup_base",
+        "m_sModifer": {
+            "_class": "modifier_breakable_prop_cooldown_reduction",
+            "_my_subclass_name": "casting_powerup_pickup",
+            "m_flDuration": "160.000000",
+            "m_vecScriptValues": [
+                {
+                    "m_eModifierValue": "MODIFIER_VALUE_TECH_POWER",
+                    "m_value": "25.000000"
+                },
+                {
+                    "m_eModifierValue": "MODIFIER_VALUE_COOLDOWN_REDUCTION_PERCENTAGE",
+                    "m_value": "20.000000"
+                }
+            ],
+            "m_sLocalizationName": "casting_powerup_pickup",
+            "m_strHudMessageText": "#casting_powerup_pickup",
+            "m_vecAlwaysShowInStatModifierUI": [
+                "MODIFIER_VALUE_TECH_POWER",
+                "MODIFIER_VALUE_COOLDOWN_REDUCTION_PERCENTAGE"
+            ],
+            "m_eDebuffType": "MODIFIER_DEBUFF_NO",
+            "m_strHudIcon": "file://{images}/hud/modifiers/icon_powerup.svg"
+        },
+        "m_Color": [
+            "203",
+            "143",
+            "252"
+        ],
+        "m_iTempParticleSheetIndex": "7"
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "generic_data_type": "CEntitySubclassVDataBase",
+    "_include": [
+        "scripts/misc/breakable_props.vdata_inc",
+        "scripts/misc/breakable_prop_pickups.vdata_inc",
+        "scripts/misc/xp_orbs.vdata_inc",
+        "scripts/misc/neutral_camps.vdata_inc"
+    ],
+    "citadel_item_powerup_spawner": {
+        "m_flInitialSpawnTime": "600.000000",
+        "m_flSpawnInterval": "300.000000",
+        "m_flInitialSpawnTimeTest": "1.000000",
+        "m_flRespawnTimeTest": "5.000000",
+        "m_hModel": "models/npc/sewer_beast/sewer.vmdl",
+        "m_flModelScale": "1.500000",
+        "m_InactiveParticle": "particles/environment/powerup_spawner_inactive_ambient.vpcf",
+        "m_ActiveParticle": "particles/environment/powerup_spawner_ambient.vpcf",
+        "m_vecPrimaryPickups": [
+            {
+                "m_sPickup": "gun_powerup_pickup",
+                "m_flPickupWeight": "1.000000"
+            },
+            {
+                "m_sPickup": "survival_powerup_pickup",
+                "m_flPickupWeight": "1.000000"
+            },
+            {
+                "m_sPickup": "casting_powerup_pickup",
+                "m_flPickupWeight": "1.000000"
+            },
+            {
+                "m_sPickup": "movement_powerup_pickup",
+                "m_flPickupWeight": "1.000000"
+            }
+        ]
+    }
+}

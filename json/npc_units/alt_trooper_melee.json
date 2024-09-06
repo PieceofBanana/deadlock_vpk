@@ -1,0 +1,221 @@
+{
+    "alt_trooper_melee": {
+        "m_WeaponInfo": {
+            "m_Spread": "0.500000",
+            "m_StandingSpread": "1.500000",
+            "m_flScatterYawScale": "1",
+            "m_flShootingUpSpreadPenalty": "2",
+            "m_flZoomMoveSpeedPercent": "0.700000",
+            "m_flShootMoveSpeedPercent": "0.700000",
+            "m_flHorizontalPunch": "0",
+            "m_flVerticalPunch": "0",
+            "m_flRecoilRecoverySpeed": "10.000000",
+            "m_VerticallRecoil": {
+                "m_Range": [
+                    "-0.200000",
+                    "0.200000"
+                ],
+                "m_flBurstSlope": "0.000000",
+                "m_flBurstExponent": "0.000000",
+                "m_flBurstConstant": "0.000000"
+            },
+            "m_HorizontalRecoil": {
+                "m_Range": [
+                    "-0.100000",
+                    "0.100000"
+                ],
+                "m_flBurstExponent": "0.000000"
+            },
+            "m_flRecoilSpeed": "1",
+            "m_flZoomFOV": "40.000000",
+            "m_flDamageFalloffStartRange": "600",
+            "m_flDamageFalloffEndRange": "1400",
+            "m_flRange": "1400",
+            "m_flBulletLifetime": "2",
+            "m_flDamageFalloffEndScale": "0.300000",
+            "m_flDamageFalloffBias": "0.500000",
+            "m_iBullets": "1",
+            "m_flCycleTime": "1.030000",
+            "m_reloadDuration": "1.800000",
+            "m_iClipSize": "-1",
+            "m_iBurstShotCount": "1",
+            "m_flBurstShotCooldown": "0",
+            "m_flBulletGravityScale": "0.000000",
+            "m_flBulletRadius": "3",
+            "m_flBulletDrag": "1",
+            "m_flBulletDragBias": "0.500000",
+            "m_flBulletReflectScale": "0",
+            "m_flBulletReflectAmount": "1",
+            "m_flBulletInheritShooterVelocityScale": "0",
+            "m_szBulletTravelTracerParticle": "particles/weapon_fx/trooper/trooper_bullet_travel.vpcf",
+            "m_szMuzzleFlashEffectName": "particles/dev/bullet_debug_muzzle_flash.vpcf",
+            "m_strShootSound": "TrooperRifle.Fire",
+            "m_strBulletWhizSound": "Base.Bullet.Whizby",
+            "m_BulletSpeedCurve": {
+                "m_spline": [
+                    {
+                        "x": "0.000000",
+                        "y": "12000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    },
+                    {
+                        "x": "100.000000",
+                        "y": "12000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    }
+                ],
+                "m_tangents": [
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    },
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    }
+                ],
+                "m_vDomainMins": [
+                    "0.000000",
+                    "1.000000"
+                ],
+                "m_vDomainMaxs": [
+                    "100.000000",
+                    "12000.000000"
+                ]
+            },
+            "m_mapImpactEffects": {
+                "default": {
+                    "m_strDecal": "Impact.Concrete",
+                    "m_strParticle": "particles/impact_fx/impact_spark_spray_large.vpcf",
+                    "m_strSound": "Default.BulletImpact"
+                },
+                "flesh": {
+                    "m_strDecal": "",
+                    "m_strParticle": "particles/blood_impact/blood_impact_red_01.vpcf",
+                    "m_strSound": "Flesh.BulletImpact"
+                },
+                "concrete": {
+                    "m_strDecal": "Impact.Concrete",
+                    "m_strParticle": "particles/impact_fx/impact_spark_spray_large.vpcf",
+                    "m_strSound": "Concrete.BulletImpact"
+                },
+                "solidmetal": {
+                    "m_strDecal": "Impact.Concrete",
+                    "m_strParticle": "particles/impact_fx/impact_spark_spray_large.vpcf",
+                    "m_strSound": "SolidMetal.BulletImpact"
+                },
+                "portals": {
+                    "m_strDecal": "Impact.Concrete",
+                    "m_strParticle": "particles/impact_fx/impact_spark_spray_large.vpcf",
+                    "m_strSound": "Player.HitInvuln"
+                }
+            },
+            "m_flCritBonusStart": "1.150000",
+            "m_flCritBonusEnd": "1.350000",
+            "m_flCritBonusStartRange": "500.000000",
+            "m_flCritBonusEndRange": "1500.000000",
+            "m_flCritBonusAgainstNPCs": "0.250000",
+            "m_flShootSpreadPenaltyPerShot": "0.000000",
+            "m_flShootSpreadPenaltyDecayDelay": "0.000000",
+            "m_flShootSpreadPenaltyDecay": "2.000000",
+            "m_flRecoilShotIndexRecoveryTimeFactor": "0.250000",
+            "m_bCanZoom": "true",
+            "m_strWeaponImpactEffect": "particles/weapon_fx/default_tracer_impact.vpcf",
+            "m_flReloadMoveSpeed": "236.220000",
+            "m_strLocalPlayerBulletImpactSound": "Player.Bullet.Impact.Trooper",
+            "m_NpcAimingSpread": [
+                "0.200000",
+                "0.800000"
+            ],
+            "m_flBulletDamage": "61.800000"
+        },
+        "_base": "trooper_melee",
+        "_class": "npc_trooper",
+        "m_sModelName": "models/npc/trooper/trooper_melee.vmdl",
+        "m_nMaxHealth": "400",
+        "m_flSightRangePlayers": "700.000000",
+        "m_flSightRangeNPCs": "1600.000000",
+        "m_hFootstepSounds": "trooper",
+        "m_flTrooperDamageResistPct": "25.000000",
+        "m_flT1BossDamageResistPct": "35.000000",
+        "m_flT2BossDamageResistPct": "20.000000",
+        "m_flShieldDamageResistPct": "80.000000",
+        "m_flNearDeathDuration": "1.000000",
+        "m_flWalkSpeed": "320",
+        "m_flRunSpeed": "433",
+        "m_flAcceleration": "200",
+        "m_flMeleeDamage": "80.000000",
+        "m_flMeleeAttemptRange": "120",
+        "m_flMeleeHitRange": "120",
+        "m_flMeleeDuration": "1.500000",
+        "m_flAttackT1BossMaxRange": "540",
+        "m_flAttackTrooperMaxRange": "700",
+        "m_BossAttackParticle": "particles/weapon_fx/trooper/trooper_bullet_bonus_dmg.vpcf",
+        "m_sDefaultMaterialGroupName": "Friendly",
+        "m_sEnemyMaterialGroupName": "Enemy",
+        "m_flMeleeChargeRange": "1000.000000",
+        "m_flHealthBarOffset": "76.000000",
+        "m_flHealthBarOffsetDucking": "40",
+        "m_DeathParticle": "particles/trooper/trooper_death_sn.vpcf",
+        "m_DeathSound": "Trooper.Death",
+        "m_MeleeHitSound": "Trooper.Melee.Damage.Hit",
+        "m_MeleeHitPlayerSound": "Player.Damage.Melee.Trooper.Impact",
+        "m_HealthBarParticle": "particles/npc/npc_healthbar.vpcf",
+        "m_sHealthBarAttachment": "head_fx",
+        "m_HealthBarColorFriend": [
+            "255",
+            "239",
+            "215"
+        ],
+        "m_HealthBarColorEnemy": [
+            "230",
+            "25",
+            "25"
+        ],
+        "m_HealthBarColorTeam1": [
+            "231",
+            "182",
+            "89"
+        ],
+        "m_HealthBarColorTeam2": [
+            "91",
+            "121",
+            "230"
+        ],
+        "m_HealthBarColorTeamNeutral": [
+            "0",
+            "125",
+            "125"
+        ],
+        "m_MeleeSwingParticle": "particles/npc/npc_melee_swing.vpcf",
+        "m_MeleeActivateParticle": "particles/npc/npc_melee_activate.vpcf",
+        "m_MeleeAnimName": "b_melee",
+        "m_LastHitParticle": "particles/generic/last_hit.vpcf",
+        "m_strLastHitSound": "LastHit.Default",
+        "m_bPlayLastHitSound": "true",
+        "m_NearDeathModifier": {
+            "_class": "modifier_near_death_fx",
+            "_my_subclass_name": "modifier_near_death_fx",
+            "m_EnemyNearDeathParticle": "particles/status_fx/status_fx_last_hit.vpcf",
+            "m_FriendlyNearDeathParticle": "particles/status_fx/status_fx_last_hit_friend.vpcf",
+            "m_sSelfDestructStart": "Trooper.SelfDestruct_Start",
+            "m_sSelfDestructEnd": "Trooper.SelfDestruct_Exp"
+        },
+        "m_TargetingLaserParticle": "particles/weapon_fx/trooper_laser_target.vpcf",
+        "m_TargetingEyeFlashParticle": "particles/enemy_targeting_indicator.vpcf",
+        "m_sCelebrationSound": "Trooper.Objective.Win.Cheer",
+        "m_flBarrackGuardianDamageResistPct": "67.500000",
+        "m_sTeam1MaterialGroupName": "Amber",
+        "m_sTeam2MaterialGroupName": "Sapphire",
+        "m_flT1BossDPS": "36.000000",
+        "m_flT2BossDPS": "80.000000",
+        "m_flT3BossDPS": "80.000000",
+        "m_flGeneratorBossDPS": "22",
+        "m_flBarrackBossDPS": "80.000000",
+        "m_flPlayerDPS": "28.000000",
+        "m_flTrooperDPS": "35.000000",
+        "m_TrooperType": "TROOPER_MELEE"
+    }
+}
