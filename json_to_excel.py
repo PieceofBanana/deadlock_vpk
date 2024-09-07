@@ -6,7 +6,7 @@ import shlex
 import os
 import glob
 
-path = 'C:/Users/Piece/Desktop/python/test3'
+path = 'D:\git\deadlock_backup\json\heroes'
 
 upgrades_keys=[
     ["m_mapAbilityProperties","*","m_strValue"],
@@ -16,118 +16,6 @@ hero_usefull_keys=[
     ["m_mapStartingStats"],
     ["m_mapStandardLevelUpUpgrades"],
     ["m_mapScalingStats"],
-]
-starting_stats_keys_backup=[
-"EMaxMoveSpeed",
-"ESprintSpeed",
-"ECrouchSpeed",
-"EMoveAcceleration",
-"ELightMeleeDamage",
-"EHeavyMeleeDamage",
-"EMaxHealth",
-"EWeaponPower",
-"EReloadSpeed",
-"EWeaponPowerScale",
-"EProcBuildUpRateScale",
-"EStamina",
-"EBaseHealthRegen",
-"EStaminaRegenPerSecond",
-"EAbilityResourceMax",
-"EAbilityResourceRegenPerSecond",
-"ECritDamageReceivedScale",
-"ETechDuration",
-"ETechRange",
-"EBulletArmorDamageReduction",
-"ETechArmorDamageReduction",
-"EMaxMoveSpeed",
-"ESprintSpeed",
-"ECrouchSpeed",
-"EMoveAcceleration",
-"ELightMeleeDamage",
-"EHeavyMeleeDamage",
-"EMaxHealth",
-"EWeaponPower",
-"EReloadSpeed",
-"EWeaponPowerScale",
-"EProcBuildUpRateScale",
-"EStamina",
-"EBaseHealthRegen",
-"EStaminaRegenPerSecond",
-"EAbilityResourceMax",
-"EAbilityResourceRegenPerSecond",
-"ECritDamageReceivedScale",
-"ETechDuration",
-"ETechRange",
-"EBulletArmorDamageReduction",
-"ETechArmorDamageReduction",
-]
-levelup_upgrades_keys_backup=[
-"EMaxMoveSpeed",
-"ESprintSpeed",
-"ECrouchSpeed",
-"EMoveAcceleration",
-"ELightMeleeDamage",
-"EHeavyMeleeDamage",
-"EMaxHealth",
-"EWeaponPower",
-"EReloadSpeed",
-"EWeaponPowerScale",
-"EProcBuildUpRateScale",
-"EStamina",
-"EBaseHealthRegen",
-"EStaminaRegenPerSecond",
-"EAbilityResourceMax",
-"EAbilityResourceRegenPerSecond",
-"ECritDamageReceivedScale",
-"ETechDuration",
-"ETechRange",
-"EBulletArmorDamageReduction",
-"ETechArmorDamageReduction",
-"MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL",
-"MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL",
-"MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL",
-"MODIFIER_VALUE_TECH_DAMAGE_PERCENT",
-"MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
-"MODIFIER_VALUE_BONUS_ATTACK_RANGE",
-]
-hero_collums_backup=[
-"hero_base",
-"hero_astro",
-"hero_atlas",
-"hero_bebop",
-"hero_bomber",
-"hero_cadence",
-"hero_chrono",
-"hero_dynamo",
-"hero_forge",
-"hero_genericperson",
-"hero_ghost",
-"hero_gigawatt",
-"hero_gunslinger",
-"hero_haze",
-"hero_hornet",
-"hero_inferno",
-"hero_kali",
-"hero_kelvin",
-"hero_krill",
-"hero_lash",
-"hero_mirage",
-"hero_nano",
-"hero_orion",
-"hero_rutger",
-"hero_shiv",
-"hero_slork",
-"hero_synth",
-"hero_targetdummy",
-"hero_tengu",
-"hero_thumper",
-"hero_tokamak",
-"hero_viscous",
-"hero_warden",
-"hero_wraith",
-"hero_wrecker",
-"hero_yakuza",
-"hero_yamato",
 ]
 
 collums_ability_properties=[
@@ -1133,15 +1021,21 @@ collums_ability_properties=[
 " ZiplineJumpBonusTimeScale ",
 " ZiplineJumpBonusDurationMax ",
 ]
-
+#m_mapStartingStats
 lvlup_upgrades_keys=[]
 lvlup_upgrades_data=[]
+#m_mapStandardLevelUpUpgrades
 starting_stats_keys=[]
 starting_stats_data=[]
+#m_mapScalingStats
+scaling_stats_keys=[]
+scaling_stats_data=[]
+
 hero_keys=[]
 
 
 hero_collums=[]
+
 
 for filename in glob.glob(os.path.join(path, '*.json')):
    with open(os.path.join(os.getcwd(), filename), 'r') as f:
@@ -1153,13 +1047,15 @@ for filename in glob.glob(os.path.join(path, '*.json')):
                 
                 #print(data.get(key).get("m_mapAbilityProperties").get("AbilityCooldown").get("m_strValue"))
                 if str(key).index("hero_")==0:
-                    #df= pandas.DataFrame()
                     hero_keys.append(key)
                     starting_stats_data.append([])
                     lvlup_upgrades_data.append([])
-                    starting_stats_data[hero_keys.index(key)] = [None]*len(starting_stats_keys)
-                    lvlup_upgrades_data[hero_keys.index(key)] = [None]*len(lvlup_upgrades_keys)
+                    scaling_stats_data.append([])
                     
+                    if(len(starting_stats_keys)>0):starting_stats_data[hero_keys.index(key)] = [None]*len(starting_stats_keys)
+                    if(len(lvlup_upgrades_keys)>0):lvlup_upgrades_data[hero_keys.index(key)] = [None]*len(lvlup_upgrades_keys)
+                    if(len(scaling_stats_keys)>0):scaling_stats_data[hero_keys.index(key)] = [None]*len(scaling_stats_keys)
+                    print(key)
                     for value in data[key]["m_mapStartingStats"].keys():
                         #print(hero_keys.index(key))
                         value = str(value).strip()
@@ -1186,19 +1082,22 @@ for filename in glob.glob(os.path.join(path, '*.json')):
                             #print(value)
                             lvlup_upgrades_data[hero_keys.index(key)][lvlup_upgrades_keys.index(value)]=data[key]["m_mapStandardLevelUpUpgrades"][value]
                             
-                    #m_mapScalingStats
+                    #m_mapScalingStats * flScale
                     for value in data[key]["m_mapScalingStats"].keys():
-                        #print(hero_keys.index(key))
+                        print(key)
                         value = str(value).strip()
-                        if not (value in lvlup_upgrades_keys):                         
-                            lvlup_upgrades_keys.append(value)
+                        #print(value)
+                        if not (value in scaling_stats_keys):                         
+                            scaling_stats_keys.append(value)
+                            #print(str(data[key]["m_mapScalingStats"][value]))
                             #print(data[key]["m_mapStartingStats"][value])
-                            lvlup_upgrades_data[hero_keys.index(key)].append(data[key]["m_mapScalingStats"][value])
+                            scaling_stats_data[hero_keys.index(key)].append(data[key]["m_mapScalingStats"][value]["flScale"])
+                            #print(value)
                         else:
                             #print(hero_keys.index(key))
                             #print(starting_stats_keys.index(value))
                             #print(value)
-                            lvlup_upgrades_data[hero_keys.index(key)][lvlup_upgrades_keys.index(value)]=data[key]["m_mapScalingStats"][value]
+                            scaling_stats_data[hero_keys.index(key)][scaling_stats_keys.index(value)]=data[key]["m_mapScalingStats"][value]["flScale"]
 
 #                    for value in data[key]["m_mapStandardLevelUpUpgrades"].keys():
 #                        if not (str(value).strip() in lvlup_upgrades_keys):
@@ -1222,13 +1121,16 @@ for filename in glob.glob(os.path.join(path, '*.json')):
 #    print(row,sep="/n")
 df = pandas.DataFrame(data=starting_stats_data,index=hero_keys,columns=starting_stats_keys)
 
-excel_name = "C:/Users/Piece/Desktop/python/heroes_starting_stats.xlsx"
+excel_name = "D:/git/deadlock_backup/excel/heroes_starting_stats.xlsx"
 df.to_excel(excel_name)
 
-excel_name = "C:/Users/Piece/Desktop/python/lvlup_upgrades_stats.xlsx"
+excel_name = "D:/git/deadlock_backup/excel/lvlup_upgrades_stats.xlsx"
 df = pandas.DataFrame(data=lvlup_upgrades_data,index=hero_keys,columns=lvlup_upgrades_keys)
 df.to_excel(excel_name)
 
 
+excel_name = "D:/git/deadlock_backup/excel/scaling_stats.xlsx"
+df = pandas.DataFrame(data=scaling_stats_data,index=hero_keys,columns=scaling_stats_keys)
+df.to_excel(excel_name)
 
 #print(starting_stats_data)
