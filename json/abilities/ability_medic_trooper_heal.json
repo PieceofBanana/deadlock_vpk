@@ -179,7 +179,6 @@
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_CREEP_FRIENDLY | CITADEL_UNIT_TARGET_HERO_FRIENDLY",
         "m_HealBeamParticle": "particles/trooper/trooper_medic_heal_instant.vpcf",
         "m_HealTargetParticle": "particles/npc/medic_target_beam.vpcf",
-        "m_strHealCastSound": "Player.Heal.Medium",
-        "m_sHealAnimParam": "b_medic_heal"
+        "m_strHealCastSound": "Player.Heal.Medium"
     }
 }

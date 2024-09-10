@@ -216,6 +216,7 @@
         "m_flBarrackBossDPS": "80.000000",
         "m_flPlayerDPS": "28.000000",
         "m_flTrooperDPS": "35.000000",
+        "m_sAG2VariationName": "models/npc/trooper_zipline_container/trooper_zipline_container----default.vnmvar",
         "m_TrooperType": "TROOPER_ZIPLINE_CONTAINER",
         "m_mapBoundAbilities": {
             "ESlot_Ability_ZipLine": "citadel_ability_trooper_zip_line"

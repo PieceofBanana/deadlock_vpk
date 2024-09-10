@@ -216,7 +216,7 @@
         "m_flBarrackBossDPS": "80.000000",
         "m_flPlayerDPS": "28.000000",
         "m_flTrooperDPS": "35.000000",
-        "m_sAG2VariationName": "models/animgraph2/trooper_humanoid/trooper_humanoid_trooper_humanoid.vnmvar",
+        "m_sAG2VariationName": "models/animgraph2/trooper_humanoid/trooper_humanoid----trooper_humanoid.vnmvar",
         "m_MeleeAttackPoints": [
             "0.300000",
             "0.766000"

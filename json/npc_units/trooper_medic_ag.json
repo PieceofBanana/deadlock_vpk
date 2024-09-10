@@ -221,7 +221,7 @@
             "ESlot_Signature_2": "ability_medic_trooper_heal"
         },
         "m_MedicHealActiveParticle": "particles/trooper/trooper_medic_chargeup.vpcf",
-        "m_sAG2VariationName": "models/animgraph2/trooper_humanoid/trooper_humanoid_trooper_medic.vnmvar",
+        "m_sAG2VariationName": "models/animgraph2/trooper_humanoid/trooper_humanoid----trooper_medic.vnmvar",
         "m_MeleeAttackPoints": [
             "0.300000"
         ]
