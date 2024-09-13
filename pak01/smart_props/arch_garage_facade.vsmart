@@ -1,0 +1,1465 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vrfunknown:version{4dddb66e-c6ed-4bd0-a4ef-afb45a02acc2} -->
+{
+	generic_data_type = "CSmartPropRoot"
+	_editor = 
+	{
+		next_element_id = 76
+	}
+	m_Variables = 
+	[
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_nElementID = 1
+			m_VariableName = "fGlobalLength"
+			m_DefaultValue = 512.000000
+		},
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_nElementID = 7
+			m_VariableName = "fCurrentLength"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Int"
+			m_nElementID = 20
+			m_VariableName = "iTrimStyle"
+			m_bExposeAsParameter = false
+			m_DisplayName = ""
+		},
+		
+		{
+			_class = "CSmartPropVariable_Model"
+			m_nElementID = 48
+			m_VariableName = "mLastModel"
+			m_DefaultValue = resource_name:"models/architecture/arch_garage_indus/window_192x276.vmdl"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_nElementID = 49
+			m_VariableName = "fLastLength"
+			m_DefaultValue = 64.000000
+		},
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_nElementID = 75
+			m_VariableName = "fTemp"
+			m_DefaultValue = 64.000000
+		},
+	]
+	m_Children = 
+	[
+		
+		{
+			_class = "CSmartPropElement_Group"
+			m_nElementID = 2
+			m_sLabel = "Sizer"
+			m_Modifiers = 
+			[
+				
+				{
+					_class = "CSmartPropOperation_CreateSizer"
+					m_flInitialMinX = 0.000000
+					m_flInitialMaxX = 0.000000
+					m_OutputVariableMaxX = ""
+					m_OutputVariableMaxY = "fGlobalLength"
+					m_flInitialMaxY = 
+					{
+						m_SourceName = "fGlobalLength"
+					}
+					m_bEnabled = true
+				},
+			]
+		},
+		
+		{
+			_class = "CSmartPropElement_PickOne"
+			m_nElementID = 45
+			_editor = 
+			{
+				folder_name = ""
+			}
+			m_vHandleOffset = 
+			[
+				0.000000,
+				0.000000,
+				276.000000,
+			]
+			m_HandleShape = "DIAMOND"
+			m_HandleColor = 
+			[
+				255,
+				229,
+				0,
+			]
+			m_Children = 
+			[
+				
+				{
+					_class = "CSmartPropElement_Group"
+					m_nElementID = 46
+					m_Modifiers = 
+					[
+						
+						{
+							_class = "CSmartPropOperation_SetVariable"
+							m_VariableValue = 
+							{
+								m_TargetName = "iTrimStyle"
+								m_DataType = "INTEGER"
+								m_Value = 0
+							}
+						},
+					]
+				},
+				
+				{
+					_class = "CSmartPropElement_Group"
+					m_nElementID = 47
+					m_Modifiers = 
+					[
+						
+						{
+							_class = "CSmartPropOperation_SetVariable"
+							m_VariableValue = 
+							{
+								m_TargetName = "iTrimStyle"
+								m_DataType = "INTEGER"
+								m_Value = 1
+							}
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			_class = "CSmartPropElement_PlaceMultiple"
+			m_nElementID = 5
+			m_nCount = 256
+			m_Expression = "fCurrentLength >= fGlobalLength"
+			m_Children = 
+			[
+				
+				{
+					_class = "CSmartPropElement_PickOne"
+					m_nElementID = 14
+					m_vHandleOffset = 
+					[
+						0.000000,
+						0.000000,
+						0.000000,
+					]
+					m_Modifiers = 
+					[
+						
+						{
+							_class = "CSmartPropOperation_Translate"
+							m_vPosition = 
+							{
+								m_Components = 
+								[
+									0.000000,
+									{
+										m_SourceName = "fCurrentLength"
+									},
+									0.000000,
+								]
+							}
+						},
+					]
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_Group"
+							m_nElementID = 17
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_SetVariable"
+									m_VariableValue = 
+									{
+										m_TargetName = "fCurrentLength"
+										m_DataType = "FLOAT"
+										m_Value = 
+										{
+											m_Expression = "fCurrentLength + 192"
+										}
+									}
+								},
+							]
+							m_Children = 
+							[
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 54
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropFilter_Expression"
+											m_Expression = "fCurrentLength < fGlobalLength"
+										},
+									]
+									m_Children = 
+									[
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 10
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_sModelName = resource_name:"models/architecture/arch_garage_indus/window_192x276_filled.vmdl"
+										},
+										
+										{
+											_class = "CSmartPropElement_Group"
+											m_nElementID = 33
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														0.000000,
+														0.000000,
+														276.000000,
+													]
+												},
+											]
+											m_Children = 
+											[
+												
+												{
+													_class = "CSmartPropElement_Model"
+													m_nElementID = 18
+													_editor = 
+													{
+														folder_name = ""
+													}
+													m_sModelName = resource_name:"models/architecture/arch_garage_indus/trim_192x72_a.vmdl"
+													m_Modifiers = 
+													[
+														
+														{
+															_class = "CSmartPropFilter_VariableValue"
+															m_VariableComparison = 
+															{
+																m_Name = "iTrimStyle"
+																m_Value = 0
+																m_Comparison = "EQUAL"
+															}
+														},
+													]
+												},
+												
+												{
+													_class = "CSmartPropElement_Model"
+													m_nElementID = 21
+													_editor = 
+													{
+														folder_name = ""
+													}
+													m_sModelName = resource_name:"models/architecture/arch_garage_indus/trim_192x72_b.vmdl"
+													m_Modifiers = 
+													[
+														
+														{
+															_class = "CSmartPropFilter_VariableValue"
+															m_VariableComparison = 
+															{
+																m_Name = "iTrimStyle"
+																m_Value = 1
+																m_Comparison = "EQUAL"
+															}
+														},
+													]
+												},
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 52
+									m_sLabel = "LastChild"
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropFilter_Expression"
+											m_Expression = "fCurrentLength >= fGlobalLength"
+										},
+										
+										{
+											_class = "CSmartPropOperation_SetVariable"
+											m_VariableValue = 
+											{
+												m_TargetName = "mLastModel"
+												m_DataType = "STRING"
+												m_Value = resource_name:"models/architecture/arch_garage_indus/window_192x276_filled.vmdl"
+											}
+										},
+										
+										{
+											_class = "CSmartPropOperation_SetVariable"
+											m_VariableValue = 
+											{
+												m_TargetName = "fLastLength"
+												m_DataType = "FLOAT"
+												m_Value = 192.000000
+											}
+										},
+										
+										{
+											_class = "CSmartPropOperation_SaveState"
+											m_StateName = "lastState"
+										},
+									]
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Group"
+							m_nElementID = 22
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_SetVariable"
+									m_VariableValue = 
+									{
+										m_TargetName = "fCurrentLength"
+										m_DataType = "FLOAT"
+										m_Value = 
+										{
+											m_Expression = "fCurrentLength + 192"
+										}
+									}
+								},
+							]
+							m_Children = 
+							[
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 55
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropFilter_Expression"
+											m_Expression = "fCurrentLength < fGlobalLength"
+										},
+									]
+									m_Children = 
+									[
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 13
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_sModelName = resource_name:"models/architecture/arch_garage_indus/window_192x276.vmdl"
+										},
+										
+										{
+											_class = "CSmartPropElement_Group"
+											m_nElementID = 34
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														0.000000,
+														0.000000,
+														276.000000,
+													]
+												},
+											]
+											m_Children = 
+											[
+												
+												{
+													_class = "CSmartPropElement_Model"
+													m_nElementID = 24
+													_editor = 
+													{
+														folder_name = ""
+													}
+													m_sModelName = resource_name:"models/architecture/arch_garage_indus/trim_192x72_a.vmdl"
+													m_Modifiers = 
+													[
+														
+														{
+															_class = "CSmartPropFilter_VariableValue"
+															m_VariableComparison = 
+															{
+																m_Name = "iTrimStyle"
+																m_Value = 0
+																m_Comparison = "EQUAL"
+															}
+														},
+													]
+												},
+												
+												{
+													_class = "CSmartPropElement_Model"
+													m_nElementID = 23
+													_editor = 
+													{
+														folder_name = ""
+													}
+													m_sModelName = resource_name:"models/architecture/arch_garage_indus/trim_192x72_b.vmdl"
+													m_Modifiers = 
+													[
+														
+														{
+															_class = "CSmartPropFilter_VariableValue"
+															m_VariableComparison = 
+															{
+																m_Name = "iTrimStyle"
+																m_Value = 1
+																m_Comparison = "EQUAL"
+															}
+														},
+													]
+												},
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 51
+									m_sLabel = "LastChild"
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropFilter_Expression"
+											m_Expression = "fCurrentLength >= fGlobalLength"
+										},
+										
+										{
+											_class = "CSmartPropOperation_SetVariable"
+											m_VariableValue = 
+											{
+												m_TargetName = "mLastModel"
+												m_DataType = "STRING"
+												m_Value = resource_name:"models/architecture/arch_garage_indus/window_192x276.vmdl"
+											}
+										},
+										
+										{
+											_class = "CSmartPropOperation_SetVariable"
+											m_VariableValue = 
+											{
+												m_TargetName = "fLastLength"
+												m_DataType = "FLOAT"
+												m_Value = 192.000000
+											}
+										},
+										
+										{
+											_class = "CSmartPropOperation_SaveState"
+											m_StateName = "lastState"
+										},
+									]
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Group"
+							m_nElementID = 25
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_SetVariable"
+									m_VariableValue = 
+									{
+										m_TargetName = "fCurrentLength"
+										m_DataType = "FLOAT"
+										m_Value = 
+										{
+											m_Expression = "fCurrentLength + 64"
+										}
+									}
+								},
+							]
+							m_Children = 
+							[
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 56
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropFilter_Expression"
+											m_Expression = "fCurrentLength < fGlobalLength"
+										},
+										
+										{
+											_class = "CSmartPropOperation_CreateSizer"
+											m_flInitialMaxY = 64.000000
+											m_OutputVariableMaxY = "fTemp"
+											m_flConstraintMaxY = 
+											{
+												m_Expression = "fGlobalLength - (fCurrentLength - 64 )"
+											}
+										},
+										
+										{
+											_class = "CSmartPropOperation_SetVariable"
+											m_VariableValue = 
+											{
+												m_TargetName = "fCurrentLength"
+												m_DataType = "FLOAT"
+												m_Value = 
+												{
+													m_Expression = "fCurrentLength - 64 + fTemp"
+												}
+											}
+										},
+									]
+									m_Children = 
+									[
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 15
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_sModelName = resource_name:"models/architecture/arch_garage_indus/wall_64x276.vmdl"
+											m_vModelScale = 
+											{
+												m_Components = 
+												[
+													1.000000,
+													{
+														m_Expression = "fTemp / 64"
+													},
+													1.000000,
+												]
+											}
+										},
+										
+										{
+											_class = "CSmartPropElement_Group"
+											m_nElementID = 35
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														0.000000,
+														0.000000,
+														276.000000,
+													]
+												},
+											]
+											m_Children = 
+											[
+												
+												{
+													_class = "CSmartPropElement_Model"
+													m_nElementID = 26
+													_editor = 
+													{
+														folder_name = ""
+													}
+													m_sModelName = resource_name:"models/architecture/arch_garage_indus/trim_64x72_a.vmdl"
+													m_vModelScale = 
+													{
+														m_Components = 
+														[
+															1.000000,
+															{
+																m_Expression = "fTemp / 64"
+															},
+															1.000000,
+														]
+													}
+													m_Modifiers = 
+													[
+														
+														{
+															_class = "CSmartPropFilter_VariableValue"
+															m_VariableComparison = 
+															{
+																m_Name = "iTrimStyle"
+																m_Value = 0
+																m_Comparison = "EQUAL"
+															}
+														},
+													]
+												},
+												
+												{
+													_class = "CSmartPropElement_Model"
+													m_nElementID = 27
+													_editor = 
+													{
+														folder_name = ""
+													}
+													m_sModelName = resource_name:"models/architecture/arch_garage_indus/trim_64x72_b.vmdl"
+													m_vModelScale = 
+													{
+														m_Components = 
+														[
+															1.000000,
+															{
+																m_Expression = "fTemp / 64"
+															},
+															1.000000,
+														]
+													}
+													m_Modifiers = 
+													[
+														
+														{
+															_class = "CSmartPropFilter_VariableValue"
+															m_VariableComparison = 
+															{
+																m_Name = "iTrimStyle"
+																m_Value = 1
+																m_Comparison = "EQUAL"
+															}
+														},
+													]
+												},
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 50
+									m_sLabel = "LastChild"
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropFilter_Expression"
+											m_Expression = "fCurrentLength >= fGlobalLength"
+										},
+										
+										{
+											_class = "CSmartPropOperation_SetVariable"
+											m_VariableValue = 
+											{
+												m_TargetName = "mLastModel"
+												m_DataType = "STRING"
+												m_Value = resource_name:"models/architecture/arch_garage_indus/wall_64x276.vmdl"
+											}
+										},
+										
+										{
+											_class = "CSmartPropOperation_SetVariable"
+											m_VariableValue = 
+											{
+												m_TargetName = "fLastLength"
+												m_DataType = "FLOAT"
+												m_Value = 64.000000
+											}
+										},
+										
+										{
+											_class = "CSmartPropOperation_SaveState"
+											m_StateName = "lastState"
+										},
+									]
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Group"
+							m_nElementID = 28
+							m_sLabel = "BarnDoor"
+							m_SelectionCriteria = 
+							[
+								
+								{
+									_class = "CSmartPropSelectionCriteria_ChoiceWeight"
+									m_flWeight = 0.000000
+								},
+							]
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_SetVariable"
+									m_VariableValue = 
+									{
+										m_TargetName = "fCurrentLength"
+										m_DataType = "FLOAT"
+										m_Value = 
+										{
+											m_Expression = "fCurrentLength + 372"
+										}
+									}
+								},
+							]
+							m_Children = 
+							[
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 57
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropFilter_Expression"
+											m_Expression = "fCurrentLength < fGlobalLength"
+										},
+									]
+									m_Children = 
+									[
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 16
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_sModelName = resource_name:"models/architecture/arch_garage_indus/window_372x276.vmdl"
+										},
+										
+										{
+											_class = "CSmartPropElement_Group"
+											m_nElementID = 36
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													[
+														0.000000,
+														0.000000,
+														276.000000,
+													]
+												},
+											]
+											m_Children = 
+											[
+												
+												{
+													_class = "CSmartPropElement_FitOnLine"
+													m_nElementID = 29
+													m_vStart = 
+													[
+														0.000000,
+														0.000000,
+														0.000000,
+													]
+													m_vEnd = 
+													[
+														0.000000,
+														372.000000,
+														0.000000,
+													]
+													m_nPickMode = "RANDOM"
+													m_nScaleMode = "SCALE_EQUALLY"
+													m_Modifiers = 
+													[
+														
+														{
+															_class = "CSmartPropFilter_VariableValue"
+															m_VariableComparison = 
+															{
+																m_Name = "iTrimStyle"
+																m_Value = 0
+																m_Comparison = "EQUAL"
+															}
+														},
+													]
+													m_Children = 
+													[
+														
+														{
+															_class = "CSmartPropElement_Model"
+															m_nElementID = 30
+															_editor = 
+															{
+																folder_name = ""
+															}
+															m_sModelName = resource_name:"models/architecture/arch_garage_indus/trim_192x72_a.vmdl"
+															m_vModelScale = 
+															{
+																m_Components = 
+																[
+																	1.000000,
+																	{
+																		m_Expression = "LinearScale()"
+																	},
+																	1.000000,
+																]
+															}
+															m_SelectionCriteria = 
+															[
+																
+																{
+																	_class = "CSmartPropSelectionCriteria_LinearLength"
+																	m_flLength = 192.000000
+																	m_bAllowScale = true
+																	m_flMinLength = 64.000000
+																	m_flMaxLength = 220.000000
+																},
+															]
+														},
+													]
+												},
+												
+												{
+													_class = "CSmartPropElement_FitOnLine"
+													m_nElementID = 31
+													m_vStart = 
+													[
+														0.000000,
+														0.000000,
+														0.000000,
+													]
+													m_vEnd = 
+													[
+														0.000000,
+														372.000000,
+														0.000000,
+													]
+													m_nPickMode = "RANDOM"
+													m_nScaleMode = "SCALE_EQUALLY"
+													m_Modifiers = 
+													[
+														
+														{
+															_class = "CSmartPropFilter_VariableValue"
+															m_VariableComparison = 
+															{
+																m_Name = "iTrimStyle"
+																m_Value = 1
+																m_Comparison = "EQUAL"
+															}
+														},
+													]
+													m_Children = 
+													[
+														
+														{
+															_class = "CSmartPropElement_Model"
+															m_nElementID = 32
+															_editor = 
+															{
+																folder_name = ""
+															}
+															m_sModelName = resource_name:"models/architecture/arch_garage_indus/trim_192x72_b.vmdl"
+															m_vModelScale = 
+															{
+																m_Components = 
+																[
+																	1.000000,
+																	{
+																		m_Expression = "LinearScale()"
+																	},
+																	1.000000,
+																]
+															}
+															m_SelectionCriteria = 
+															[
+																
+																{
+																	_class = "CSmartPropSelectionCriteria_LinearLength"
+																	m_flLength = 192.000000
+																	m_bAllowScale = true
+																	m_flMinLength = 64.000000
+																	m_flMaxLength = 220.000000
+																},
+															]
+														},
+													]
+												},
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 53
+									m_sLabel = "LastChild"
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropFilter_Expression"
+											m_Expression = "fCurrentLength >= fGlobalLength"
+										},
+										
+										{
+											_class = "CSmartPropOperation_SetVariable"
+											m_VariableValue = 
+											{
+												m_TargetName = "mLastModel"
+												m_DataType = "STRING"
+												m_Value = resource_name:"models/architecture/arch_garage_indus/window_372x276.vmdl"
+											}
+										},
+										
+										{
+											_class = "CSmartPropOperation_SetVariable"
+											m_VariableValue = 
+											{
+												m_TargetName = "fLastLength"
+												m_DataType = "FLOAT"
+												m_Value = 372.000000
+											}
+										},
+										
+										{
+											_class = "CSmartPropOperation_SaveState"
+											m_StateName = "lastState"
+										},
+									]
+								},
+							]
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			_class = "CSmartPropElement_Group"
+			m_nElementID = 58
+			m_sLabel = "PlaceLastChild"
+			_editor = 
+			{
+				folder_name = ""
+			}
+			m_bEnabled = true
+			m_Modifiers = 
+			[
+				
+				{
+					_class = "CSmartPropOperation_RestoreState"
+					m_StateName = "lastState"
+				},
+			]
+			m_Children = 
+			[
+				
+				{
+					_class = "CSmartPropElement_Model"
+					m_nElementID = 59
+					m_sModelName = 
+					{
+						m_SourceName = "mLastModel"
+					}
+					m_vModelScale = 
+					{
+						m_Components = 
+						[
+							1.000000,
+							{
+								m_Expression = "1.0 - abs( fGlobalLength - fCurrentLength ) / ( fLastLength + 0.0001 )"
+							},
+							1.000000,
+						]
+					}
+				},
+				
+				{
+					_class = "CSmartPropElement_Group"
+					m_nElementID = 61
+					m_Modifiers = 
+					[
+						
+						{
+							_class = "CSmartPropFilter_VariableValue"
+							m_VariableComparison = 
+							{
+								m_Name = "fLastLength"
+								m_Value = 64.000000
+								m_Comparison = "EQUAL"
+							}
+							m_bEnabled = true
+						},
+						
+						{
+							_class = "CSmartPropOperation_Translate"
+							m_vPosition = 
+							[
+								0.000000,
+								0.000000,
+								276.000000,
+							]
+						},
+					]
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 62
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_sModelName = resource_name:"models/architecture/arch_garage_indus/trim_64x72_a.vmdl"
+							m_vModelScale = 
+							{
+								m_Components = 
+								[
+									1.000000,
+									{
+										m_Expression = "1.0 - abs( fGlobalLength - fCurrentLength ) / ( fLastLength + 0.0001 )"
+									},
+									1.000000,
+								]
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropFilter_VariableValue"
+									m_VariableComparison = 
+									{
+										m_Name = "iTrimStyle"
+										m_Value = 0
+										m_Comparison = "EQUAL"
+									}
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 63
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_sModelName = resource_name:"models/architecture/arch_garage_indus/trim_64x72_b.vmdl"
+							m_vModelScale = 
+							{
+								m_Components = 
+								[
+									1.000000,
+									{
+										m_Expression = "1.0 - abs( fGlobalLength - fCurrentLength ) / ( fLastLength + 0.0001 )"
+									},
+									1.000000,
+								]
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropFilter_VariableValue"
+									m_VariableComparison = 
+									{
+										m_Name = "iTrimStyle"
+										m_Value = 1
+										m_Comparison = "EQUAL"
+									}
+								},
+							]
+						},
+					]
+				},
+				
+				{
+					_class = "CSmartPropElement_Group"
+					m_nElementID = 67
+					m_bEnabled = true
+					m_Modifiers = 
+					[
+						
+						{
+							_class = "CSmartPropFilter_Expression"
+							m_Expression = "fLastLength == 192"
+							m_bEnabled = true
+						},
+						
+						{
+							_class = "CSmartPropOperation_Translate"
+							m_vPosition = 
+							[
+								0.000000,
+								0.000000,
+								276.000000,
+							]
+						},
+					]
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 68
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_sModelName = resource_name:"models/architecture/arch_garage_indus/trim_192x72_a.vmdl"
+							m_vModelScale = 
+							{
+								m_Components = 
+								[
+									1.000000,
+									{
+										m_Expression = "1.0 - abs( fGlobalLength - fCurrentLength ) / ( fLastLength + 0.0001 )"
+									},
+									1.000000,
+								]
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropFilter_VariableValue"
+									m_VariableComparison = 
+									{
+										m_Name = "iTrimStyle"
+										m_Value = 0
+										m_Comparison = "EQUAL"
+									}
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_nElementID = 69
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_sModelName = resource_name:"models/architecture/arch_garage_indus/trim_192x72_b.vmdl"
+							m_vModelScale = 
+							{
+								m_Components = 
+								[
+									1.000000,
+									{
+										m_Expression = "1.0 - abs( fGlobalLength - fCurrentLength ) / ( fLastLength + 0.0001 )"
+									},
+									1.000000,
+								]
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropFilter_VariableValue"
+									m_VariableComparison = 
+									{
+										m_Name = "iTrimStyle"
+										m_Value = 1
+										m_Comparison = "EQUAL"
+									}
+								},
+							]
+						},
+					]
+				},
+				
+				{
+					_class = "CSmartPropElement_Group"
+					m_nElementID = 70
+					m_Modifiers = 
+					[
+						
+						{
+							_class = "CSmartPropFilter_VariableValue"
+							m_VariableComparison = 
+							{
+								m_Name = "fLastLength"
+								m_Value = 372.000000
+								m_Comparison = "EQUAL"
+							}
+						},
+						
+						{
+							_class = "CSmartPropOperation_Translate"
+							m_vPosition = 
+							[
+								0.000000,
+								0.000000,
+								276.000000,
+							]
+						},
+					]
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_FitOnLine"
+							m_nElementID = 71
+							m_vStart = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_vEnd = 
+							{
+								m_Components = 
+								[
+									0.000000,
+									{
+										m_Expression = "372 * ( 1.0 - abs( fGlobalLength - fCurrentLength ) / ( fLastLength + 0.0001 ) )"
+									},
+									0.000000,
+								]
+							}
+							m_nPickMode = "RANDOM"
+							m_nScaleMode = "SCALE_EQUALLY"
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropFilter_VariableValue"
+									m_VariableComparison = 
+									{
+										m_Name = "iTrimStyle"
+										m_Value = 0
+										m_Comparison = "EQUAL"
+									}
+								},
+							]
+							m_Children = 
+							[
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 72
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_sModelName = resource_name:"models/architecture/arch_garage_indus/trim_192x72_a.vmdl"
+									m_vModelScale = 
+									{
+										m_Components = 
+										[
+											1.000000,
+											{
+												m_Expression = "LinearScale()"
+											},
+											1.000000,
+										]
+									}
+									m_SelectionCriteria = 
+									[
+										
+										{
+											_class = "CSmartPropSelectionCriteria_LinearLength"
+											m_flLength = 192.000000
+											m_bAllowScale = true
+											m_flMinLength = 64.000000
+											m_flMaxLength = 256.000000
+										},
+									]
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_FitOnLine"
+							m_nElementID = 73
+							m_vStart = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+							m_vEnd = 
+							{
+								m_Components = 
+								[
+									0.000000,
+									{
+										m_Expression = "372 * ( 1.0 - abs( fGlobalLength - fCurrentLength ) / ( fLastLength + 0.0001 ) )"
+									},
+									0.000000,
+								]
+							}
+							m_nPickMode = "RANDOM"
+							m_nScaleMode = "SCALE_EQUALLY"
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropFilter_VariableValue"
+									m_VariableComparison = 
+									{
+										m_Name = "iTrimStyle"
+										m_Value = 1
+										m_Comparison = "EQUAL"
+									}
+								},
+							]
+							m_Children = 
+							[
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 74
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_sModelName = resource_name:"models/architecture/arch_garage_indus/trim_192x72_b.vmdl"
+									m_vModelScale = 
+									{
+										m_Components = 
+										[
+											1.000000,
+											{
+												m_Expression = "LinearScale()"
+											},
+											1.000000,
+										]
+									}
+									m_SelectionCriteria = 
+									[
+										
+										{
+											_class = "CSmartPropSelectionCriteria_LinearLength"
+											m_flLength = 192.000000
+											m_bAllowScale = true
+											m_flMinLength = 64.000000
+											m_flMaxLength = 256.000000
+										},
+									]
+								},
+							]
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			_class = "CSmartPropElement_PickOne"
+			m_nElementID = 42
+			_editor = 
+			{
+				folder_name = ""
+			}
+			m_SelectionMode = "FIRST"
+			m_vHandleOffset = 
+			[
+				0.000000,
+				0.000000,
+				20.000000,
+			]
+			m_HandleColor = 
+			[
+				0,
+				97,
+				255,
+			]
+			m_HandleSize = 12
+			m_HandleShape = "CIRCLE"
+			m_Modifiers = 
+			[
+				
+				{
+					_class = "CSmartPropOperation_Translate"
+					m_vPosition = 
+					{
+						m_Components = 
+						[
+							0.000000,
+							{
+								m_SourceName = "fGlobalLength"
+							},
+							0.000000,
+						]
+					}
+				},
+			]
+			m_Children = 
+			[
+				
+				{
+					_class = "CSmartPropElement_Group"
+					m_nElementID = 44
+					m_sLabel = "None"
+				},
+				
+				{
+					_class = "CSmartPropElement_SmartProp"
+					m_nElementID = 39
+					m_sSmartProp = resource_name:"smart_props/arch_garage_facade.vsmart"
+					_editor = 
+					{
+						folder_name = ""
+					}
+					m_Modifiers = 
+					[
+						
+						{
+							_class = "CSmartPropOperation_SetVariable"
+							m_VariableValue = 
+							{
+								m_TargetName = "fGlobalLength"
+								m_DataType = "FLOAT"
+								m_Value = 64.000000
+							}
+						},
+						
+						{
+							_class = "CSmartPropOperation_SetVariable"
+							m_VariableValue = 
+							{
+								m_TargetName = "fCurrentLength"
+								m_DataType = "FLOAT"
+								m_Value = 0.000000
+							}
+						},
+						
+						{
+							_class = "CSmartPropOperation_Rotate"
+							m_vRotation = 
+							[
+								0.000000,
+								-90.000000,
+								0.000000,
+							]
+						},
+					]
+				},
+			]
+		},
+	]
+}
