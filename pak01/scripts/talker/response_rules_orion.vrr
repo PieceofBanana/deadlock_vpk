@@ -93,6 +93,7 @@
 					m_value = "orion_use_power1_11_ability_3d"
 					m_params = 
 					{
+						m_respeakdelay.start = 0.000000
 						m_predelay.start = 0.150000
 					}
 				},
@@ -102,6 +103,7 @@
 					m_value = "orion_use_power1_12_ability_3d"
 					m_params = 
 					{
+						m_respeakdelay.start = 0.000000
 						m_predelay.start = 0.150000
 					}
 				},
@@ -111,6 +113,7 @@
 					m_value = "orion_use_power1_13_ability_3d"
 					m_params = 
 					{
+						m_respeakdelay.start = 0.000000
 						m_predelay.start = 0.150000
 					}
 				},
@@ -120,6 +123,7 @@
 					m_value = "orion_use_power1_14_ability_3d"
 					m_params = 
 					{
+						m_respeakdelay.start = 0.000000
 						m_predelay.start = 0.150000
 					}
 				},
@@ -129,6 +133,7 @@
 					m_value = "orion_use_power1_15_ability_3d"
 					m_params = 
 					{
+						m_respeakdelay.start = 0.000000
 						m_predelay.start = 0.150000
 					}
 				},
@@ -138,6 +143,7 @@
 					m_value = "orion_use_power1_16_ability_3d"
 					m_params = 
 					{
+						m_respeakdelay.start = 0.000000
 						m_predelay.start = 0.150000
 					}
 				},
@@ -147,6 +153,7 @@
 					m_value = "orion_use_power1_17_ability_3d"
 					m_params = 
 					{
+						m_respeakdelay.start = 0.000000
 						m_predelay.start = 0.150000
 					}
 				},
@@ -156,6 +163,7 @@
 					m_value = "orion_use_power1_18_ability_3d"
 					m_params = 
 					{
+						m_respeakdelay.start = 0.000000
 						m_predelay.start = 0.150000
 					}
 				},
@@ -165,6 +173,7 @@
 					m_value = "orion_use_power1_19_ability_3d"
 					m_params = 
 					{
+						m_respeakdelay.start = 0.000000
 						m_predelay.start = 0.150000
 					}
 				},
@@ -174,6 +183,7 @@
 					m_value = "orion_use_power1_20_ability_3d"
 					m_params = 
 					{
+						m_respeakdelay.start = 0.000000
 						m_predelay.start = 0.150000
 					}
 				},
@@ -183,6 +193,7 @@
 					m_value = "orion_use_power1_01_ability_3d"
 					m_params = 
 					{
+						m_respeakdelay.start = 0.000000
 						m_predelay.start = 0.150000
 					}
 				},
@@ -192,6 +203,7 @@
 					m_value = "orion_use_power1_02_ability_3d"
 					m_params = 
 					{
+						m_respeakdelay.start = 0.000000
 						m_predelay.start = 0.150000
 					}
 				},
@@ -201,6 +213,7 @@
 					m_value = "orion_use_power1_03_ability_3d"
 					m_params = 
 					{
+						m_respeakdelay.start = 0.000000
 						m_predelay.start = 0.150000
 					}
 				},
@@ -210,6 +223,7 @@
 					m_value = "orion_use_power1_04_ability_3d"
 					m_params = 
 					{
+						m_respeakdelay.start = 0.000000
 						m_predelay.start = 0.150000
 					}
 				},
@@ -219,6 +233,7 @@
 					m_value = "orion_use_power1_05_ability_3d"
 					m_params = 
 					{
+						m_respeakdelay.start = 0.000000
 						m_predelay.start = 0.150000
 					}
 				},
@@ -228,6 +243,7 @@
 					m_value = "orion_use_power1_06_ability_3d"
 					m_params = 
 					{
+						m_respeakdelay.start = 0.000000
 						m_predelay.start = 0.150000
 					}
 				},
@@ -237,6 +253,7 @@
 					m_value = "orion_use_power1_07_02_ability_3d"
 					m_params = 
 					{
+						m_respeakdelay.start = 0.000000
 						m_predelay.start = 0.150000
 					}
 				},
@@ -246,6 +263,7 @@
 					m_value = "orion_use_power1_07_ability_3d"
 					m_params = 
 					{
+						m_respeakdelay.start = 0.000000
 						m_predelay.start = 0.150000
 					}
 				},
@@ -255,6 +273,7 @@
 					m_value = "orion_use_power1_08_ability_3d"
 					m_params = 
 					{
+						m_respeakdelay.start = 0.000000
 						m_predelay.start = 0.150000
 					}
 				},
@@ -264,6 +283,7 @@
 					m_value = "orion_use_power1_09_ability_3d"
 					m_params = 
 					{
+						m_respeakdelay.start = 0.000000
 						m_predelay.start = 0.150000
 					}
 				},
@@ -273,6 +293,7 @@
 					m_value = "orion_use_power1_10_ability_3d"
 					m_params = 
 					{
+						m_respeakdelay.start = 0.000000
 						m_predelay.start = 0.150000
 					}
 				},
@@ -366,51 +387,101 @@
 				{
 					m_type = "SPEAK"
 					m_value = "orion_use_power2_01_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "orion_use_power2_02_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "orion_use_power2_03_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "orion_use_power2_04_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "orion_use_power2_05_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "orion_use_power2_06_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "orion_use_power2_07_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "orion_use_power2_08_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "orion_use_power2_09_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "orion_use_power2_10_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 			]
 			m_pEmbeddedRule = 
@@ -502,51 +573,101 @@
 				{
 					m_type = "SPEAK"
 					m_value = "orion_use_power3_01_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "orion_use_power3_02_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "orion_use_power3_03_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "orion_use_power3_04_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "orion_use_power3_05_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "orion_use_power3_06_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "orion_use_power3_07_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "orion_use_power3_08_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "orion_use_power3_09_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "orion_use_power3_10_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 			]
 			m_pEmbeddedRule = 
@@ -638,51 +759,101 @@
 				{
 					m_type = "SPEAK"
 					m_value = "orion_use_power4_01_ult_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.150000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "orion_use_power4_02_ult_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.150000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "orion_use_power4_03_ult_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.150000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "orion_use_power4_04_ult_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.150000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "orion_use_power4_05_ult_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.150000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "orion_use_power4_06_ult_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.150000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "orion_use_power4_07_ult_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.150000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "orion_use_power4_08_ult_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.150000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "orion_use_power4_09_ult_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.150000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "orion_use_power4_10_ult_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.150000
+					}
 				},
 			]
 			m_pEmbeddedRule = 
@@ -4363,26 +4534,51 @@
 				{
 					m_type = "SPEAK"
 					m_value = "orion_desperation_power1_01_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "orion_desperation_power1_02_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "orion_desperation_power1_03_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "orion_desperation_power1_04_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "orion_desperation_power1_05_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 			]
 			m_pEmbeddedRule = 
@@ -4393,7 +4589,7 @@
 					"ConceptAbilityCast",
 					"IsOrion",
 					"IsChargedShot",
-					"IsHealthLowerThan25Percent",
+					"IsHealthLowerThan20Percent",
 				]
 			}
 		},
@@ -4407,26 +4603,51 @@
 				{
 					m_type = "SPEAK"
 					m_value = "orion_desperation_power2_01_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "orion_desperation_power2_02_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "orion_desperation_power2_03_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "orion_desperation_power2_04_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "orion_desperation_power2_05_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 			]
 			m_pEmbeddedRule = 
@@ -4437,7 +4658,7 @@
 					"ConceptAbilityCast",
 					"IsOrion",
 					"IsPowerJump",
-					"IsHealthLowerThan25Percent",
+					"IsHealthLowerThan20Percent",
 				]
 			}
 		},
@@ -4451,26 +4672,51 @@
 				{
 					m_type = "SPEAK"
 					m_value = "orion_desperation_power3_01_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "orion_desperation_power3_02_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "orion_desperation_power3_03_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "orion_desperation_power3_04_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "orion_desperation_power3_05_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 			]
 			m_pEmbeddedRule = 
@@ -4481,7 +4727,7 @@
 					"ConceptAbilityCast",
 					"IsOrion",
 					"IsImmobilizeTrap",
-					"IsHealthLowerThan25Percent",
+					"IsHealthLowerThan20Percent",
 				]
 			}
 		},
@@ -4495,26 +4741,51 @@
 				{
 					m_type = "SPEAK"
 					m_value = "orion_desperation_power4_01_ult_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.150000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "orion_desperation_power4_02_ult_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.150000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "orion_desperation_power4_03_ult_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.150000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "orion_desperation_power4_04_ult_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.150000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "orion_desperation_power4_05_ult_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.150000
+					}
 				},
 			]
 			m_pEmbeddedRule = 
@@ -4525,7 +4796,7 @@
 					"ConceptUltimateCast",
 					"IsOrion",
 					"IsGuidedArrow",
-					"IsHealthLowerThan25Percent",
+					"IsHealthLowerThan20Percent",
 				]
 			}
 		},

@@ -1,9 +1,10 @@
 {
     "viscous_goo_bowling_ball": {
         "_class": "viscous_goo_bowling_ball",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "90",
+                "m_strValue": "95.000000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -234,32 +235,6 @@
                 ]
             }
         },
-        "m_strCancelAbilityKey": "+in_cancel_ability",
-        "m_HUDPanel": {
-            "m_vecButtonHints": [
-                {
-                    "m_strContext": "viscous_rolling_hint",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_eHintSide": "EButtonSide_Right",
-                    "m_strLocToken": "#AbilityButtonHint_RollingGooAccelerate",
-                    "m_strBindingOverride1": "in_attack"
-                },
-                {
-                    "m_strContext": "viscous_rolling_jump",
-                    "m_eButton1": "EButtonHint_Cancel",
-                    "m_eHintSide": "EButtonSide_Right",
-                    "m_strLocToken": "#AbilityButtonHint_RollingGooJump"
-                }
-            ],
-            "m_vecHUDElements": [
-                {
-                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
-                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_progress_bar.vxml",
-                    "m_strContext": "viscous_rolling_progress",
-                    "m_bReverseProgress": "true"
-                }
-            ]
-        },
         "_multibase": [
             "ultimate_base"
         ],
@@ -278,9 +253,6 @@
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
         "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CANNOT_CANCEL_DURING_CHANNEL",
         "m_strCastAnimGraphParam": "b_RollingGoo",
-        "m_vecDependentAbilities": [
-            "viscous_goo_bowling_ball_cancel"
-        ],
         "m_vecAbilityUpgrades": [
             {
                 "m_vecPropertyUpgrades": [
@@ -315,6 +287,31 @@
         "m_flDistanceCameraOffsetLerpTime": "0.200000",
         "m_flDistanceCameraOffsetBias": "0.750000",
         "m_flDistanceCameraOffset": "320.000000",
+        "m_HUDPanel": {
+            "m_vecHUDElements": [
+                {
+                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
+                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_progress_bar.vxml",
+                    "m_strContext": "viscous_rolling_progress",
+                    "m_bReverseProgress": "true"
+                }
+            ],
+            "m_vecButtonHints": [
+                {
+                    "m_strContext": "viscous_rolling_hint",
+                    "m_eButton1": "EButtonHint_Attack",
+                    "m_eHintSide": "EButtonSide_Right",
+                    "m_strLocToken": "#AbilityButtonHint_RollingGooAccelerate",
+                    "m_strBindingOverride1": "in_attack"
+                },
+                {
+                    "m_strContext": "viscous_rolling_jump",
+                    "m_eButton1": "EButtonHint_JumpKey",
+                    "m_eHintSide": "EButtonSide_Right",
+                    "m_strLocToken": "#AbilityButtonHint_RollingGooJump"
+                }
+            ]
+        },
         "m_BallJumpSound": "Ability.Astro.BouncePad.Solo",
         "m_ExplodeFX": "particles/abilities/viscous/viscous_bowling_explode.vpcf",
         "m_cameraSequenceCastStart": {},
@@ -350,13 +347,13 @@
         "m_flTransformFromBallTime": "0.000000",
         "m_flSpeedAccel": "600.000000",
         "m_flSpeedDeccel": "50.000000",
-        "m_flTurnRatio": "95.000000",
+        "m_flTurnRatio": "100.000000",
         "m_flAirTurnRatio": "50.000000",
         "m_DamagePreventionModifier": {
             "_my_subclass_name": "viscous_ball_damage_prevention",
             "_class": "modifier_base",
             "m_bIsHidden": "true",
-            "m_flDuration": "1.500000",
+            "m_flDuration": "1.250000",
             "m_strParticleEffect": "particles/abilities/viscous/viscous_ball_hero_impact.vpcf",
             "m_sAmbientLoopingSound": "",
             "m_sStartSound": "Viscous.GooBowlingBall.Impact_Hero",

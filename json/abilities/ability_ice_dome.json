@@ -1,9 +1,10 @@
 {
     "ability_ice_dome": {
         "_class": "ability_ice_dome",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "120",
+                "m_strValue": "127.000000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -205,72 +206,6 @@
                 ]
             }
         },
-        "m_strCancelAbilityKey": "+in_cancel_ability",
-        "m_HUDPanel": {
-            "m_vecButtonHints": [
-                {
-                    "m_strContext": "throw",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_Throw"
-                },
-                {
-                    "m_strContext": "deploy",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_Deploy"
-                },
-                {
-                    "m_strContext": "cast_on_target",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_CastOnTarget",
-                    "m_bShowAsUnitTargetActivationHint": "true",
-                    "m_bShowAbilityIcon": "true"
-                },
-                {
-                    "m_strContext": "alt_cast_hold_hint",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_HoldToSelfCast"
-                },
-                {
-                    "m_strContext": "alt_cast_double_tap_hint",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_DoubleTapToSelfCast"
-                },
-                {
-                    "m_strContext": "alt_cast_modifier_key_hint",
-                    "m_strBindingOverride1": "in_alt_cast_modifier",
-                    "m_eButton2": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_eButtonHintType": "EButtonHintType_TwoButtonCombination",
-                    "m_strLocToken": "#AbilityButtonHint_ModifierKeyToSelfCast"
-                },
-                {
-                    "m_strContext": "alt_cast_select_then_alt_cast_key_hint",
-                    "m_strBindingOverride1": "in_alt_cast",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_SelectThenSelfCastButton"
-                },
-                {
-                    "m_strContext": "deselect",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_Deselect",
-                    "m_nPriority": "1"
-                },
-                {
-                    "m_strLocToken": "#AbilityButtonHint_Activate",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_strContext": "unit_target_activate",
-                    "m_bShowAsUnitTargetActivationHint": "true",
-                    "m_bShowAbilityIcon": "true"
-                }
-            ]
-        },
         "_multibase": [
             "ultimate_base"
         ],
@@ -306,7 +241,7 @@
                 "m_vecPropertyUpgrades": [
                     {
                         "m_strPropertyName": "AbilityCooldown",
-                        "m_strBonus": "-40"
+                        "m_strBonus": "-38.000000"
                     }
                 ]
             },
@@ -349,16 +284,18 @@
             "m_EnemyAuraModifier": {
                 "_class": "modifier_base_aura",
                 "_my_subclass_name": "ice_dome_enemy_aura",
-                "m_iAuraSearchType": "CITADEL_UNIT_TARGET_ALL_ENEMY",
+                "m_iAuraSearchType": "CITADEL_UNIT_TARGET_ALL_ENEMY | CITADEL_UNIT_TARGET_TROPHY",
                 "m_modifierProvidedByAura": {
-                    "_class": "modifier_slow_base",
+                    "_class": "modifier_icedome_auramodifier_base",
                     "_my_subclass_name": "modifier_debuff",
                     "m_strParticleEffect": "particles/abilities/kelvin/kelvin_ice_grenade_slow.vpcf",
                     "m_strSmallIconCssClass": "slowed",
+                    "m_nEnabledStateMask": "MODIFIER_STATE_SLOWED",
                     "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
                         "FireRateSlow",
                         "SlowPercent"
-                    ]
+                    ],
+                    "m_strParticleStatusEffect": "particles/status_fx/status_fx_kelvin_freeze.vpcf"
                 },
                 "m_bIsHidden": "true"
             },
@@ -366,9 +303,6 @@
             "m_sAmbientLoopingSound": "Kelvin.IceDome.Lp"
         },
         "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/kelvin_frozen_shelter.webm",
-        "m_vecDependentAbilities": [
-            "ability_ice_dome_cancel"
-        ],
         "m_AbilityTooltipDetails": {
             "m_vecAbilityInfoSections": [
                 {

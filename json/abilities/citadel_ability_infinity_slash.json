@@ -1,9 +1,10 @@
 {
     "citadel_ability_infinity_slash": {
         "_class": "ability_infinity_slash",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "100",
+                "m_strValue": "106.000000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -136,13 +137,13 @@
                 "m_strCSSClass": "cast"
             },
             "TechResist": {
-                "m_strValue": "55",
+                "m_strValue": "40",
                 "m_strCSSClass": "tech_armor_up",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST",
                 "m_UsageFlags": "APUsageFlag_ModifierConditional"
             },
             "BulletResist": {
-                "m_strValue": "55",
+                "m_strValue": "40",
                 "m_strCSSClass": "bullet_armor_up",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
                 "m_UsageFlags": "APUsageFlag_ModifierConditional"
@@ -188,30 +189,6 @@
                 ]
             }
         },
-        "m_strCancelAbilityKey": "+in_cancel_ability",
-        "m_HUDPanel": {
-            "m_vecButtonHints": [
-                {
-                    "m_eButton1": "EButtonHint_Cancel",
-                    "m_strLocToken": "#ability_abort_cast",
-                    "m_eHintSide": "EButtonSide_Right",
-                    "m_strContext": "cast"
-                }
-            ],
-            "m_vecHUDElements": [
-                {
-                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
-                    "m_strContext": "cast",
-                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_progress_bar.vxml",
-                    "m_bReverseProgress": "true"
-                },
-                {
-                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
-                    "m_strContext": "channel",
-                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_progress_bar.vxml"
-                }
-            ]
-        },
         "_multibase": [
             "ultimate_base"
         ],
@@ -237,7 +214,7 @@
                 "m_vecPropertyUpgrades": [
                     {
                         "m_strPropertyName": "AbilityCooldown",
-                        "m_strBonus": "-30"
+                        "m_strBonus": "-28.000000"
                     }
                 ]
             },
@@ -272,13 +249,15 @@
             "m_vecDistanceOperations": [
                 {
                     "m_bSpringToDefault": "false",
-                    "m_flSpringTarget": "600.000000",
-                    "m_flSpringStrength": "1.000000",
-                    "m_eCameraOperation": "k_ECameraOp_Spring"
+                    "m_flSpringTarget": "300.000000",
+                    "m_flSpringStrength": "2.000000",
+                    "m_eCameraOperation": "k_ECameraOp_Spring",
+                    "m_bValuesAreRelative": "true"
                 },
                 {
                     "m_flMaintainDuration": "99.000000",
-                    "m_eCameraOperation": "k_ECameraOp_Maintain"
+                    "m_eCameraOperation": "k_ECameraOp_Maintain",
+                    "m_flMaintainFloat": "300.000000"
                 }
             ],
             "m_vecFOVOperations": [
@@ -320,13 +299,20 @@
             "m_vecDistanceOperations": [
                 {
                     "m_flMaintainDuration": "0.400000",
-                    "m_eCameraOperation": "k_ECameraOp_Maintain"
+                    "m_eCameraOperation": "k_ECameraOp_Maintain",
+                    "m_bValuesAreRelative": "true",
+                    "m_flMaintainFloat": "300.000000"
+                },
+                {
+                    "m_bValuesAreRelative": "true"
                 }
             ],
             "m_vecFOVOperations": [
                 {
                     "m_flMaintainDuration": "0.400000",
-                    "m_eCameraOperation": "k_ECameraOp_Maintain"
+                    "m_eCameraOperation": "k_ECameraOp_Maintain",
+                    "m_bValuesAreRelative": "true",
+                    "m_flMaintainFloat": "0.000000"
                 }
             ]
         },
@@ -357,6 +343,21 @@
                         "TechResist",
                         "BulletResist"
                     ]
+                }
+            ]
+        },
+        "m_HUDPanel": {
+            "m_vecHUDElements": [
+                {
+                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
+                    "m_strContext": "cast",
+                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_progress_bar.vxml",
+                    "m_bReverseProgress": "true"
+                },
+                {
+                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
+                    "m_strContext": "channel",
+                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_progress_bar.vxml"
                 }
             ]
         },

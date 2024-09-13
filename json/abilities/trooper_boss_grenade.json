@@ -1,6 +1,7 @@
 {
     "trooper_boss_grenade": {
         "_class": "trooper_boss_grenade",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
                 "m_strValue": "40 30 20",

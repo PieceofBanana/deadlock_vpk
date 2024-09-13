@@ -476,7 +476,12 @@
             ],
             "m_eWeaponStatDisplay": "EMeleeDamage_DEPRECATED"
         },
-        "m_mapScalingStats": {},
+        "m_mapScalingStats": {
+            "EClipSize": {
+                "eScalingStat": "ETechPower",
+                "flScale": "0.150000"
+            }
+        },
         "m_heroStatsDisplay": {
             "m_vecHealthHeaderStats": [
                 "EMaxHealth",

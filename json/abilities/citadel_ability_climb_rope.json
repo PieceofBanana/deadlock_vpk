@@ -1,9 +1,10 @@
 {
     "citadel_ability_climb_rope": {
         "_class": "citadel_ability_climb_rope",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "0.1",
+                "m_strValue": "0.350000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -162,8 +163,8 @@
         "m_bitsInterruptingStates": "MODIFIER_STATE_IMMOBILIZED | MODIFIER_STATE_STUNNED | MODIFIER_STATE_IS_ASLEEP",
         "m_flActivateRange": "94.500000",
         "m_flMinButtonHoldTimeToActivate": "0.150000",
-        "m_flClimbSpeedUp": "13.000000",
-        "m_flClimbSpeedDown": "14.000000",
+        "m_flClimbSpeedUp": "14.000000",
+        "m_flClimbSpeedDown": "15.000000",
         "m_flClimbSpeedDownMax": "30.000000",
         "m_flClimbDownAccelTime": "1.000000",
         "m_flLatchSpeed": "400",
@@ -180,6 +181,7 @@
         "m_flDuckOffHorizontal": "400.000000",
         "m_flJumpToRoofRayCheckDist": "160.000000",
         "m_flMinTimeToRoofCheck": "0.700000",
+        "m_flClimbRopeSlowDurationOnHit": "2.000000",
         "m_HUDPanel": {
             "m_vecButtonHints": [
                 {
@@ -189,6 +191,14 @@
                     "m_strContext": "climb_rope"
                 }
             ]
+        },
+        "m_ClimbRopeSlowOnHitModifier": {
+            "_my_subclass_name": "climb_rope_slow",
+            "_class": "modifier_climb_rope_speed",
+            "m_flRampUpTime": "2.000000",
+            "m_flPercentageMultiplierStart": "-30",
+            "m_flPercentageMultiplierEnd": "0",
+            "m_bIsHidden": "true"
         }
     }
 }

@@ -1,6 +1,7 @@
 {
     "ability_perched_predator_trigger": {
         "_class": "citadel_base_trigger_ability",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
                 "m_strValue": "0",
@@ -172,6 +173,6 @@
             ]
         },
         "m_AbilityToTrigger": "ability_perched_predator",
-        "m_flMinCancelTime": "0.500000"
+        "m_flMinCancelTime": "1.000000"
     }
 }

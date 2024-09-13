@@ -32,6 +32,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -42,6 +43,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -52,6 +54,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -62,6 +65,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -72,6 +76,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -82,6 +87,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -92,6 +98,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -102,6 +109,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -112,6 +120,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -122,6 +131,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -139,6 +149,7 @@
 											m_value = "calico_kill_gigawatt_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -148,6 +159,7 @@
 											m_value = "calico_kill_gigawatt_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -157,6 +169,7 @@
 											m_value = "calico_kill_gigawatt_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -166,6 +179,7 @@
 											m_value = "calico_kill_gigawatt_04_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -175,6 +189,7 @@
 											m_value = "calico_kill_gigawatt_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -200,6 +215,7 @@
 											m_value = "calico_kill_wraith_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -225,6 +241,7 @@
 											m_value = "calico_kill_kelvin_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -234,6 +251,7 @@
 											m_value = "calico_kill_kelvin_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -243,6 +261,7 @@
 											m_value = "calico_kill_kelvin_05_alt_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -268,6 +287,7 @@
 											m_value = "calico_kill_haze_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -277,6 +297,7 @@
 											m_value = "calico_kill_haze_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -286,6 +307,7 @@
 											m_value = "calico_kill_haze_04_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -295,6 +317,7 @@
 											m_value = "calico_kill_haze_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -320,6 +343,7 @@
 											m_value = "calico_kill_bebop_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -329,6 +353,7 @@
 											m_value = "calico_kill_bebop_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -338,6 +363,7 @@
 											m_value = "calico_kill_bebop_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -347,6 +373,7 @@
 											m_value = "calico_kill_bebop_04_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -372,6 +399,7 @@
 											m_value = "calico_kill_orion_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -381,6 +409,7 @@
 											m_value = "calico_kill_orion_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -390,6 +419,7 @@
 											m_value = "calico_kill_orion_04_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -399,6 +429,7 @@
 											m_value = "calico_kill_orion_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -424,6 +455,7 @@
 											m_value = "calico_kill_krill_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -433,6 +465,7 @@
 											m_value = "calico_kill_krill_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -442,6 +475,7 @@
 											m_value = "calico_kill_krill_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -451,6 +485,7 @@
 											m_value = "calico_kill_krill_04_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -460,6 +495,7 @@
 											m_value = "calico_kill_krill_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -485,6 +521,7 @@
 											m_value = "calico_kill_shiv_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -494,6 +531,7 @@
 											m_value = "calico_kill_shiv_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -519,6 +557,7 @@
 											m_value = "calico_kill_warden_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -544,6 +583,7 @@
 											m_value = "calico_kill_yamato_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -569,6 +609,7 @@
 											m_value = "calico_kill_lash_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -578,6 +619,7 @@
 											m_value = "calico_kill_lash_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -587,6 +629,7 @@
 											m_value = "calico_kill_lash_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -612,6 +655,7 @@
 											m_value = "calico_kill_viscous_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -621,6 +665,7 @@
 											m_value = "calico_kill_viscous_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -630,6 +675,7 @@
 											m_value = "calico_kill_viscous_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -639,6 +685,7 @@
 											m_value = "calico_kill_viscous_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -676,6 +723,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -686,6 +734,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -696,6 +745,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -706,6 +756,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -716,6 +767,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -731,26 +783,51 @@
 										{
 											m_type = "SPEAK"
 											m_value = "calico_kill_gigawatt_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "calico_kill_gigawatt_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "calico_kill_gigawatt_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "calico_kill_gigawatt_04_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "calico_kill_gigawatt_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -772,6 +849,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "calico_kill_wraith_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -793,16 +875,31 @@
 										{
 											m_type = "SPEAK"
 											m_value = "calico_kill_kelvin_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "calico_kill_kelvin_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "calico_kill_kelvin_05_alt_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -824,21 +921,41 @@
 										{
 											m_type = "SPEAK"
 											m_value = "calico_kill_haze_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "calico_kill_haze_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "calico_kill_haze_04_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "calico_kill_haze_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -860,21 +977,41 @@
 										{
 											m_type = "SPEAK"
 											m_value = "calico_kill_bebop_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "calico_kill_bebop_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "calico_kill_bebop_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "calico_kill_bebop_04_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -896,21 +1033,41 @@
 										{
 											m_type = "SPEAK"
 											m_value = "calico_kill_orion_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "calico_kill_orion_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "calico_kill_orion_04_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "calico_kill_orion_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -932,26 +1089,51 @@
 										{
 											m_type = "SPEAK"
 											m_value = "calico_kill_krill_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "calico_kill_krill_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "calico_kill_krill_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "calico_kill_krill_04_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "calico_kill_krill_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -973,11 +1155,21 @@
 										{
 											m_type = "SPEAK"
 											m_value = "calico_kill_shiv_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "calico_kill_shiv_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -999,6 +1191,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "calico_kill_warden_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -1020,6 +1217,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "calico_kill_yamato_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -1041,16 +1243,31 @@
 										{
 											m_type = "SPEAK"
 											m_value = "calico_kill_lash_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "calico_kill_lash_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "calico_kill_lash_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -1072,21 +1289,41 @@
 										{
 											m_type = "SPEAK"
 											m_value = "calico_kill_viscous_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "calico_kill_viscous_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "calico_kill_viscous_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "calico_kill_viscous_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -1123,6 +1360,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -1150,6 +1388,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -1177,6 +1416,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -1210,31 +1450,6 @@
 							m_name = "Nano_Ally_Died"
 							m_children = 
 							[
-								
-								{
-									m_name = "Nano_Ally_Died_AllyGigawatt"
-									m_responses = 
-									[
-										
-										{
-											m_type = "SPEAK"
-											m_value = "calico_ally_gigawatt_killed_in_lane_01_hero_3d"
-											m_params = 
-											{
-												m_respeakdelay.start = 10.000000
-												m_predelay.start = 0.000000
-											}
-										},
-									]
-									m_pEmbeddedRule = 
-									{
-										m_name = "Nano_Ally_Died_AllyGigawatt"
-										m_Requirements = 
-										[
-											"AllyGigawatt",
-										]
-									}
-								},
 								
 								{
 									m_name = "Nano_Ally_Died_AllyWraith"
@@ -1357,31 +1572,6 @@
 										m_Requirements = 
 										[
 											"AllyBebop",
-										]
-									}
-								},
-								
-								{
-									m_name = "Nano_Ally_Died_AllyOrion"
-									m_responses = 
-									[
-										
-										{
-											m_type = "SPEAK"
-											m_value = "calico_ally_orion_killed_in_lane_01_hero_3d"
-											m_params = 
-											{
-												m_respeakdelay.start = 10.000000
-												m_predelay.start = 0.000000
-											}
-										},
-									]
-									m_pEmbeddedRule = 
-									{
-										m_name = "Nano_Ally_Died_AllyOrion"
-										m_Requirements = 
-										[
-											"AllyOrion",
 										]
 									}
 								},
@@ -1974,16 +2164,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "calico_use_metal_skin_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "calico_use_metal_skin_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "calico_use_metal_skin_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -2004,16 +2209,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "calico_use_tech_purge_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "calico_use_tech_purge_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "calico_use_tech_purge_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -2034,16 +2254,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "calico_use_ability_refresher_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "calico_use_ability_refresher_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "calico_use_ability_refresher_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -2064,16 +2299,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "calico_use_ice_blast_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "calico_use_ice_blast_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "calico_use_ice_blast_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -2094,16 +2344,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "calico_use_surging_power_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "calico_use_surging_power_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "calico_use_surging_power_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -2124,16 +2389,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "calico_use_phantom_strike_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "calico_use_phantom_strike_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "calico_use_phantom_strike_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -2154,16 +2434,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "calico_use_unstoppable_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "calico_use_unstoppable_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "calico_use_unstoppable_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -2184,16 +2479,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "calico_use_echo_shard_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "calico_use_echo_shard_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "calico_use_echo_shard_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -2226,6 +2536,7 @@
 							m_params = 
 							{
 								m_delay.start = 0.500000
+								m_respeakdelay.start = 0.000000
 								m_predelay.start = 0.500000
 								m_bSpeakOnce = true
 							}
@@ -2237,6 +2548,7 @@
 							m_params = 
 							{
 								m_delay.start = 0.500000
+								m_respeakdelay.start = 0.000000
 								m_predelay.start = 0.500000
 								m_bSpeakOnce = true
 							}
@@ -2248,6 +2560,7 @@
 							m_params = 
 							{
 								m_delay.start = 0.500000
+								m_respeakdelay.start = 0.000000
 								m_predelay.start = 0.500000
 								m_bSpeakOnce = true
 							}
@@ -2267,6 +2580,8 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
 										m_bSpeakOnce = true
 									}
 								},
@@ -2277,6 +2592,8 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
 										m_bSpeakOnce = true
 									}
 								},
@@ -2287,6 +2604,8 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
 										m_bSpeakOnce = true
 									}
 								},
@@ -2327,6 +2646,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -2337,6 +2657,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -2347,6 +2668,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -2374,6 +2696,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -2384,6 +2707,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -2394,6 +2718,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -2421,6 +2746,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -2431,6 +2757,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -2441,6 +2768,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -2467,6 +2795,7 @@
 									m_value = "calico_t4_shop_reminder_01_hero_3d"
 									m_params = 
 									{
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -2476,6 +2805,7 @@
 									m_value = "calico_t4_shop_reminder_02_hero_3d"
 									m_params = 
 									{
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -2485,6 +2815,7 @@
 									m_value = "calico_t4_shop_reminder_03_hero_3d"
 									m_params = 
 									{
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -3772,31 +4103,6 @@
 						},
 						
 						{
-							m_name = "Nano_Ping_Help_Orange"
-							m_responses = 
-							[
-								
-								{
-									m_type = "SPEAK"
-									m_value = "calico_ping_need_help_orange_ping_2d"
-									m_params = 
-									{
-										m_bCancelExisting = true
-									}
-								},
-							]
-							m_pEmbeddedRule = 
-							{
-								m_name = "Nano_Ping_Help_Orange"
-								m_Requirements = 
-								[
-									"ConceptHelp",
-									"PlayerInOrange",
-								]
-							}
-						},
-						
-						{
 							m_name = "Nano_Ping_Help_Blue"
 							m_responses = 
 							[
@@ -4045,31 +4351,6 @@
 						},
 						
 						{
-							m_name = "Nano_Push_Boss_Orange_Lane"
-							m_responses = 
-							[
-								
-								{
-									m_type = "SPEAK"
-									m_value = "calico_ping_push_orange_01_ping_2d"
-									m_params = 
-									{
-										m_bCancelExisting = true
-									}
-								},
-							]
-							m_pEmbeddedRule = 
-							{
-								m_name = "Nano_Push_Boss_Orange_Lane"
-								m_Requirements = 
-								[
-									"ConceptPushLane",
-									"OrangeLane",
-								]
-							}
-						},
-						
-						{
 							m_name = "Nano_Push_Boss_Yellow_Lane"
 							m_responses = 
 							[
@@ -4298,57 +4579,6 @@
 						},
 						
 						{
-							m_name = "Nano_Defend_Boss_Orange_Lane"
-							m_responses = 
-							[
-								
-								{
-									m_type = "SPEAK"
-									m_value = "calico_ping_headed_orange_01_ping_2d"
-									m_params = 
-									{
-										m_bCancelExisting = true
-									}
-								},
-							]
-							m_pEmbeddedRule = 
-							{
-								m_name = "Nano_Defend_Boss_Orange_Lane"
-								m_Requirements = 
-								[
-									"ConceptDefendLane",
-									"OrangeLane",
-								]
-							}
-						},
-						
-						{
-							m_name = "Nano_Orange_Lane_Boss_Needs_Help"
-							m_responses = 
-							[
-								
-								{
-									m_type = "SPEAK"
-									m_value = "calico_ping_orange_help_01_ping_2d"
-									m_params = 
-									{
-										m_bCancelExisting = true
-									}
-								},
-							]
-							m_pEmbeddedRule = 
-							{
-								m_name = "Nano_Orange_Lane_Boss_Needs_Help"
-								m_Requirements = 
-								[
-									"ConceptDefendLane",
-									"OrangeLane",
-									"IsAggressive",
-								]
-							}
-						},
-						
-						{
 							m_name = "Nano_Heading_Generic"
 							m_responses = 
 							[
@@ -4418,31 +4648,6 @@
 								[
 									"ConceptHeadingLane",
 									"YellowLane",
-								]
-							}
-						},
-						
-						{
-							m_name = "Nano_Heading_Orange"
-							m_responses = 
-							[
-								
-								{
-									m_type = "SPEAK"
-									m_value = "calico_ping_headed_orange_01_ping_2d"
-									m_params = 
-									{
-										m_bCancelExisting = true
-									}
-								},
-							]
-							m_pEmbeddedRule = 
-							{
-								m_name = "Nano_Heading_Orange"
-								m_Requirements = 
-								[
-									"ConceptHeadingLane",
-									"OrangeLane",
 								]
 							}
 						},
@@ -4523,31 +4728,6 @@
 						},
 						
 						{
-							m_name = "Nano_Lets_Go_Orange"
-							m_responses = 
-							[
-								
-								{
-									m_type = "SPEAK"
-									m_value = "calico_ping_lets_go_orange_ping_2d"
-									m_params = 
-									{
-										m_bCancelExisting = true
-									}
-								},
-							]
-							m_pEmbeddedRule = 
-							{
-								m_name = "Nano_Lets_Go_Orange"
-								m_Requirements = 
-								[
-									"ConceptLetsGoHere",
-									"OrangeLane",
-								]
-							}
-						},
-						
-						{
 							m_name = "Nano_Lets_Go_Purple"
 							m_responses = 
 							[
@@ -4610,6 +4790,26 @@
 								m_Requirements = 
 								[
 									"ConceptHeadedToBase",
+								]
+							}
+						},
+						
+						{
+							m_name = "Nano_Idol_Ping"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "calico_ping_jar_call_01_ping_2d"
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Nano_Idol_Ping"
+								m_Requirements = 
+								[
+									"ConceptIdolPing",
 								]
 							}
 						},
@@ -10518,7 +10718,7 @@
 									m_value = "calico_be_careful_01_hero_3d"
 									m_params = 
 									{
-										m_respeakdelay.start = 30.000000
+										m_respeakdelay.start = 90.000000
 										m_predelay.start = 0.000000
 									}
 								},
@@ -10528,7 +10728,7 @@
 									m_value = "calico_be_careful_02_hero_3d"
 									m_params = 
 									{
-										m_respeakdelay.start = 30.000000
+										m_respeakdelay.start = 90.000000
 										m_predelay.start = 0.000000
 									}
 								},
@@ -10538,7 +10738,7 @@
 									m_value = "calico_be_careful_03_hero_3d"
 									m_params = 
 									{
-										m_respeakdelay.start = 30.000000
+										m_respeakdelay.start = 90.000000
 										m_predelay.start = 0.000000
 									}
 								},
@@ -10548,9 +10748,9 @@
 								m_name = "Nano_Be_Careful"
 								m_Requirements = 
 								[
-									"InEnemyTerritoryFor2Seconds",
 									"AwayFromAlliesFor2Seconds",
 									"NoNearbyEnemiesFor2Seconds",
+									"InEnemyTerritoryFor20Seconds",
 								]
 							}
 						},

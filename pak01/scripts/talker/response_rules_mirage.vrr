@@ -15,7 +15,7 @@
 	[
 		
 		{
-			m_name = "Mirage_Upgrade_Scouring_Sands"
+			m_name = "Mirage_Upgrade_Tornado"
 			m_notes = "ABILITY RELATED RESPONSES //"
 			m_responses = 
 			[
@@ -72,142 +72,6 @@
 			]
 			m_pEmbeddedRule = 
 			{
-				m_name = "Mirage_Upgrade_Scouring_Sands"
-				m_Requirements = 
-				[
-					"IsMirage",
-					"ConceptUpgradeAbility",
-					"IsScouringSands",
-				]
-			}
-		},
-		
-		{
-			m_name = "Mirage_Use_Scouring_Sands"
-			m_notes = "ABILITY RELATED RESPONSES //"
-			m_responses = 
-			[
-				
-				{
-					m_type = "SPEAK"
-					m_value = "mirage_use_power1_01_ability_3d"
-				},
-				
-				{
-					m_type = "SPEAK"
-					m_value = "mirage_use_power1_02_ability_3d"
-				},
-				
-				{
-					m_type = "SPEAK"
-					m_value = "mirage_use_power1_03_ability_3d"
-				},
-				
-				{
-					m_type = "SPEAK"
-					m_value = "mirage_use_power1_04_ability_3d"
-				},
-				
-				{
-					m_type = "SPEAK"
-					m_value = "mirage_use_power1_05_ability_3d"
-				},
-				
-				{
-					m_type = "SPEAK"
-					m_value = "mirage_use_power1_06_ability_3d"
-				},
-				
-				{
-					m_type = "SPEAK"
-					m_value = "mirage_use_power1_07_ability_3d"
-				},
-				
-				{
-					m_type = "SPEAK"
-					m_value = "mirage_use_power1_08_ability_3d"
-				},
-				
-				{
-					m_type = "SPEAK"
-					m_value = "mirage_use_power1_09_ability_3d"
-				},
-				
-				{
-					m_type = "SPEAK"
-					m_value = "mirage_use_power1_10_ability_3d"
-				},
-			]
-			m_pEmbeddedRule = 
-			{
-				m_name = "Mirage_Use_Scouring_Sands"
-				m_Requirements = 
-				[
-					"IsMirage",
-					"ConceptAbilityCast",
-					"IsScouringSands",
-				]
-			}
-		},
-		
-		{
-			m_name = "Mirage_Upgrade_Tornado"
-			m_notes = "ABILITY RELATED RESPONSES //"
-			m_responses = 
-			[
-				
-				{
-					m_type = "SPEAK"
-					m_value = "mirage_upgrade_power2_01_alt_01_hero_3d"
-				},
-				
-				{
-					m_type = "SPEAK"
-					m_value = "mirage_upgrade_power2_02_hero_3d"
-				},
-				
-				{
-					m_type = "SPEAK"
-					m_value = "mirage_upgrade_power2_03_hero_3d"
-				},
-				
-				{
-					m_type = "SPEAK"
-					m_value = "mirage_upgrade_power2_04_hero_3d"
-				},
-				
-				{
-					m_type = "SPEAK"
-					m_value = "mirage_upgrade_power2_05_alt_01_hero_3d"
-				},
-				
-				{
-					m_type = "SPEAK"
-					m_value = "mirage_upgrade_power2_06_alt_01_hero_3d"
-				},
-				
-				{
-					m_type = "SPEAK"
-					m_value = "mirage_upgrade_power2_07_hero_3d"
-				},
-				
-				{
-					m_type = "SPEAK"
-					m_value = "mirage_upgrade_power2_08_hero_3d"
-				},
-				
-				{
-					m_type = "SPEAK"
-					m_value = "mirage_upgrade_power2_09_alt_01_hero_3d"
-				},
-				
-				{
-					m_type = "SPEAK"
-					m_value = "mirage_upgrade_power2_10_hero_3d"
-				},
-			]
-			m_pEmbeddedRule = 
-			{
 				m_name = "Mirage_Upgrade_Tornado"
 				m_Requirements = 
 				[
@@ -226,52 +90,102 @@
 				
 				{
 					m_type = "SPEAK"
-					m_value = "mirage_use_power2_01_ability_3d"
+					m_value = "mirage_use_power1_01_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
-					m_value = "mirage_use_power2_02_ability_3d"
+					m_value = "mirage_use_power1_02_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
-					m_value = "mirage_use_power2_03_ability_3d"
+					m_value = "mirage_use_power1_03_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
-					m_value = "mirage_use_power2_04_ability_3d"
+					m_value = "mirage_use_power1_04_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
-					m_value = "mirage_use_power2_05_ability_3d"
+					m_value = "mirage_use_power1_05_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
-					m_value = "mirage_use_power2_06_ability_3d"
+					m_value = "mirage_use_power1_06_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
-					m_value = "mirage_use_power2_07_ability_3d"
+					m_value = "mirage_use_power1_07_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
-					m_value = "mirage_use_power2_08_ability_3d"
+					m_value = "mirage_use_power1_08_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
-					m_value = "mirage_use_power2_09_ability_3d"
+					m_value = "mirage_use_power1_09_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
-					m_value = "mirage_use_power2_10_ability_3d"
+					m_value = "mirage_use_power1_10_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 			]
 			m_pEmbeddedRule = 
@@ -287,7 +201,268 @@
 		},
 		
 		{
-			m_name = "Mirage_Upgrade_Ethereal_Bullets"
+			m_name = "Mirage_Upgrade_Fire_Beetles"
+			m_notes = "ABILITY RELATED RESPONSES //"
+			m_responses = 
+			[
+				
+				{
+					m_type = "SPEAK"
+					m_value = "mirage_upgrade_power2_01_alt_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "mirage_upgrade_power2_01_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "mirage_upgrade_power2_02_alt_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "mirage_upgrade_power2_02_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "mirage_upgrade_power2_03_alt_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "mirage_upgrade_power2_03_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "mirage_upgrade_power2_04_alt_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "mirage_upgrade_power2_04_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "mirage_upgrade_power2_05_alt_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "mirage_upgrade_power2_05_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "mirage_upgrade_power2_06_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "mirage_upgrade_power2_07_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "mirage_upgrade_power2_08_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "mirage_upgrade_power2_09_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "mirage_upgrade_power2_10_hero_3d"
+				},
+			]
+			m_pEmbeddedRule = 
+			{
+				m_name = "Mirage_Upgrade_Fire_Beetles"
+				m_Requirements = 
+				[
+					"IsMirage",
+					"ConceptUpgradeAbility",
+					"IsFireBeetles",
+				]
+			}
+		},
+		
+		{
+			m_name = "Mirage_Use_Fire_Beetles"
+			m_notes = "ABILITY RELATED RESPONSES //"
+			m_responses = 
+			[
+				
+				{
+					m_type = "SPEAK"
+					m_value = "mirage_use_power2_01_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "mirage_use_power2_01_alt_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "mirage_use_power2_02_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "mirage_use_power2_02_alt_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "mirage_use_power2_03_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "mirage_use_power2_03_alt_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "mirage_use_power2_04_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "mirage_use_power2_04_alt_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "mirage_use_power2_05_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "mirage_use_power2_05_alt_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "mirage_use_power2_06_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "mirage_use_power2_07_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "mirage_use_power2_08_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "mirage_use_power2_09_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "mirage_use_power2_10_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
+				},
+			]
+			m_pEmbeddedRule = 
+			{
+				m_name = "Mirage_Use_Fire_Beetles"
+				m_Requirements = 
+				[
+					"IsMirage",
+					"ConceptAbilityCast",
+					"IsFireBeetles",
+				]
+			}
+		},
+		
+		{
+			m_name = "Mirage_Upgrade_Tempest_Ward"
 			m_notes = "ABILITY RELATED RESPONSES //"
 			m_responses = 
 			[
@@ -329,12 +504,12 @@
 				
 				{
 					m_type = "SPEAK"
-					m_value = "mirage_upgrade_power3_08_alt_01_hero_3d"
+					m_value = "mirage_upgrade_power3_08_hero_3d"
 				},
 				
 				{
 					m_type = "SPEAK"
-					m_value = "mirage_upgrade_power3_09_alt_01_hero_3d"
+					m_value = "mirage_upgrade_power3_09_hero_3d"
 				},
 				
 				{
@@ -344,18 +519,18 @@
 			]
 			m_pEmbeddedRule = 
 			{
-				m_name = "Mirage_Upgrade_Ethereal_Bullets"
+				m_name = "Mirage_Upgrade_Tempest_Ward"
 				m_Requirements = 
 				[
 					"IsMirage",
 					"ConceptUpgradeAbility",
-					"IsEtherealBullets",
+					"IsSandPhantom",
 				]
 			}
 		},
 		
 		{
-			m_name = "Mirage_Use_Ethereal_Bullets"
+			m_name = "Mirage_Use_Tempest_Ward"
 			m_notes = "ABILITY RELATED RESPONSES //"
 			m_responses = 
 			[
@@ -363,74 +538,124 @@
 				{
 					m_type = "SPEAK"
 					m_value = "mirage_use_power3_01_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "mirage_use_power3_02_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "mirage_use_power3_03_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "mirage_use_power3_04_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "mirage_use_power3_05_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "mirage_use_power3_06_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "mirage_use_power3_07_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "mirage_use_power3_08_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "mirage_use_power3_09_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "mirage_use_power3_10_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 			]
 			m_pEmbeddedRule = 
 			{
-				m_name = "Mirage_Use_Ethereal_Bullets"
+				m_name = "Mirage_Use_Tempest_Ward"
 				m_Requirements = 
 				[
-					"IsMirage",
 					"ConceptAbilityCast",
-					"IsEtherealBullets",
+					"IsMirage",
+					"IsSandPhantom",
 				]
 			}
 		},
 		
 		{
-			m_name = "Mirage_Upgrade_Sand_Phantom"
+			m_name = "Mirage_Upgrade_Djinns_Reach"
 			m_notes = "ABILITY RELATED RESPONSES //"
 			m_responses = 
 			[
 				
 				{
 					m_type = "SPEAK"
-					m_value = "mirage_upgrade_power4_01_alt_01_hero_3d"
+					m_value = "mirage_upgrade_power4_01_hero_3d"
 				},
 				
 				{
@@ -460,12 +685,12 @@
 				
 				{
 					m_type = "SPEAK"
-					m_value = "mirage_upgrade_power4_07_alt_01_hero_3d"
+					m_value = "mirage_upgrade_power4_07_hero_3d"
 				},
 				
 				{
 					m_type = "SPEAK"
-					m_value = "mirage_upgrade_power4_08_alt_01_hero_3d"
+					m_value = "mirage_upgrade_power4_08_hero_3d"
 				},
 				
 				{
@@ -480,18 +705,18 @@
 			]
 			m_pEmbeddedRule = 
 			{
-				m_name = "Mirage_Upgrade_Sand_Phantom"
+				m_name = "Mirage_Upgrade_Djinns_Reach"
 				m_Requirements = 
 				[
 					"IsMirage",
 					"ConceptUpgradeAbility",
-					"IsSandPhantom",
+					"IsDjinnsReach",
 				]
 			}
 		},
 		
 		{
-			m_name = "Mirage_Use_Sand_Phantom"
+			m_name = "Mirage_Use_Djinns_Reach"
 			m_notes = "ABILITY RELATED RESPONSES //"
 			m_responses = 
 			[
@@ -499,61 +724,111 @@
 				{
 					m_type = "SPEAK"
 					m_value = "mirage_use_power4_01_ult_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.150000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "mirage_use_power4_02_ult_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.150000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "mirage_use_power4_03_ult_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.150000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "mirage_use_power4_04_ult_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.150000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "mirage_use_power4_05_ult_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.150000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "mirage_use_power4_06_ult_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.150000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "mirage_use_power4_07_ult_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.150000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "mirage_use_power4_08_ult_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.150000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "mirage_use_power4_09_ult_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.150000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "mirage_use_power4_10_ult_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.150000
+					}
 				},
 			]
 			m_pEmbeddedRule = 
 			{
-				m_name = "Mirage_Use_Sand_Phantom"
+				m_name = "Mirage_Use_Djinns_Reach"
 				m_Requirements = 
 				[
-					"IsMirage",
 					"ConceptUltimateCast",
-					"IsSandPhantom",
+					"IsMirage",
+					"IsDjinnsReach",
 				]
 			}
 		},
@@ -1045,50 +1320,6 @@
 		},
 		
 		{
-			m_name = "Mirage_Desperation_Scouring_Sands"
-			m_notes = "ABILITY RELATED RESPONSES //"
-			m_responses = 
-			[
-				
-				{
-					m_type = "SPEAK"
-					m_value = "mirage_desperation_power1_01_ability_3d"
-				},
-				
-				{
-					m_type = "SPEAK"
-					m_value = "mirage_desperation_power1_02_ability_3d"
-				},
-				
-				{
-					m_type = "SPEAK"
-					m_value = "mirage_desperation_power1_03_ability_3d"
-				},
-				
-				{
-					m_type = "SPEAK"
-					m_value = "mirage_desperation_power1_04_ability_3d"
-				},
-				
-				{
-					m_type = "SPEAK"
-					m_value = "mirage_desperation_power1_05_ability_3d"
-				},
-			]
-			m_pEmbeddedRule = 
-			{
-				m_name = "Mirage_Desperation_Scouring_Sands"
-				m_Requirements = 
-				[
-					"ConceptAbilityCast",
-					"IsMirage",
-					"IsScouringSands",
-					"IsHealthLowerThan10Percent",
-				]
-			}
-		},
-		
-		{
 			m_name = "Mirage_Desperation_Tornado"
 			m_notes = "ABILITY RELATED RESPONSES //"
 			m_responses = 
@@ -1096,27 +1327,52 @@
 				
 				{
 					m_type = "SPEAK"
-					m_value = "mirage_desperation_power2_01_ability_3d"
+					m_value = "mirage_desperation_power1_01_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
-					m_value = "mirage_desperation_power2_02_ability_3d"
+					m_value = "mirage_desperation_power1_02_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
-					m_value = "mirage_desperation_power2_03_ability_3d"
+					m_value = "mirage_desperation_power1_03_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
-					m_value = "mirage_desperation_power2_04_ability_3d"
+					m_value = "mirage_desperation_power1_04_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
-					m_value = "mirage_desperation_power2_05_ability_3d"
+					m_value = "mirage_desperation_power1_05_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 			]
 			m_pEmbeddedRule = 
@@ -1126,14 +1382,83 @@
 				[
 					"ConceptAbilityCast",
 					"IsMirage",
+					"IsHealthLowerThan20Percent",
 					"IsTornado",
-					"IsHealthLowerThan10Percent",
 				]
 			}
 		},
 		
 		{
-			m_name = "Mirage_Desperation_Ethereal_Bullets"
+			m_name = "Mirage_Desperation_Fire_Beetles"
+			m_notes = "ABILITY RELATED RESPONSES //"
+			m_responses = 
+			[
+				
+				{
+					m_type = "SPEAK"
+					m_value = "mirage_desperation_power2_01_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "mirage_desperation_power2_02_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "mirage_desperation_power2_03_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "mirage_desperation_power2_04_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "mirage_desperation_power2_05_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
+				},
+			]
+			m_pEmbeddedRule = 
+			{
+				m_name = "Mirage_Desperation_Fire_Beetles"
+				m_Requirements = 
+				[
+					"ConceptAbilityCast",
+					"IsMirage",
+					"IsHealthLowerThan20Percent",
+					"IsFireBeetles",
+				]
+			}
+		},
+		
+		{
+			m_name = "Mirage_Desperation_Tempest_Ward"
 			m_notes = "ABILITY RELATED RESPONSES //"
 			m_responses = 
 			[
@@ -1141,43 +1466,68 @@
 				{
 					m_type = "SPEAK"
 					m_value = "mirage_desperation_power3_01_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "mirage_desperation_power3_02_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "mirage_desperation_power3_03_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "mirage_desperation_power3_04_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "mirage_desperation_power3_05_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 			]
 			m_pEmbeddedRule = 
 			{
-				m_name = "Mirage_Desperation_Ethereal_Bullets"
+				m_name = "Mirage_Desperation_Tempest_Ward"
 				m_Requirements = 
 				[
 					"ConceptAbilityCast",
 					"IsMirage",
-					"IsEtherealBullets",
-					"IsHealthLowerThan10Percent",
+					"IsHealthLowerThan20Percent",
+					"IsSandPhantom",
 				]
 			}
 		},
 		
 		{
-			m_name = "Mirage_Desperation_Sand_Phantom"
+			m_name = "Mirage_Desperation_Djinns_Reach"
 			m_notes = "ABILITY RELATED RESPONSES //"
 			m_responses = 
 			[
@@ -1185,37 +1535,62 @@
 				{
 					m_type = "SPEAK"
 					m_value = "mirage_desperation_power4_01_ult_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.150000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "mirage_desperation_power4_02_ult_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.150000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "mirage_desperation_power4_03_ult_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.150000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "mirage_desperation_power4_04_ult_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.150000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "mirage_desperation_power4_05_ult_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.150000
+					}
 				},
 			]
 			m_pEmbeddedRule = 
 			{
-				m_name = "Mirage_Desperation_Sand_Phantom"
+				m_name = "Mirage_Desperation_Djinns_Reach"
 				m_Requirements = 
 				[
-					"IsMirage",
 					"ConceptUltimateCast",
-					"IsSandPhantom",
-					"IsHealthLowerThan10Percent",
+					"IsMirage",
+					"IsHealthLowerThan20Percent",
+					"IsDjinnsReach",
 				]
 			}
 		},
@@ -1248,6 +1623,20 @@
 			m_name = "IsSandPhantom"
 			m_matchKey = "ability_name"
 			m_matchExpr = "mirage_sand_phantom"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsFireBeetles"
+			m_matchKey = "ability_name"
+			m_matchExpr = "mirage_fire_beetles"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsDjinnsReach"
+			m_matchKey = "ability_name"
+			m_matchExpr = "mirage_djinns_reach"
 			m_bRequired = true
 		},
 	]

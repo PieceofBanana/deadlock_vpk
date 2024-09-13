@@ -1,9 +1,10 @@
 {
     "ability_burrow": {
         "_class": "ability_burrow",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "35",
+                "m_strValue": "37.000000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -219,36 +220,6 @@
                 ]
             }
         },
-        "m_strCancelAbilityKey": "+in_cancel_ability",
-        "m_HUDPanel": {
-            "m_vecButtonHints": [
-                {
-                    "m_eButton1": "EButtonHint_Cancel",
-                    "m_strLocToken": "#ability_abort_cast",
-                    "m_eHintSide": "EButtonSide_Right",
-                    "m_strContext": "cast"
-                },
-                {
-                    "m_eButton1": "EButtonHint_Cancel",
-                    "m_strLocToken": "#ability_burrow_cancel_channel",
-                    "m_eHintSide": "EButtonSide_Right",
-                    "m_strContext": "channel"
-                }
-            ],
-            "m_vecHUDElements": [
-                {
-                    "m_strContext": "cast",
-                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
-                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_progress_bar.vxml",
-                    "m_bReverseProgress": "true"
-                },
-                {
-                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
-                    "m_strContext": "channel",
-                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_progress_bar.vxml"
-                }
-            ]
-        },
         "_multibase": [
             "signature_base"
         ],
@@ -295,7 +266,7 @@
                 "m_vecPropertyUpgrades": [
                     {
                         "m_strPropertyName": "AbilityCooldown",
-                        "m_strBonus": "-20"
+                        "m_strBonus": "-19.000000"
                     },
                     {
                         "m_strPropertyName": "BonusMoveSpeed",
@@ -328,7 +299,22 @@
             ],
             "m_flDesatAmount": "0.300000",
             "m_BurrowPlayerParticle": "particles/abilities/digger/digger_burrow_channel_player.vpcf",
-            "m_sExpiredSound": ""
+            "m_sExpiredSound": "",
+            "m_cameraSequenceCreated": {
+                "m_vecDistanceOperations": [
+                    {
+                        "m_flSpringStrength": "10.000000",
+                        "m_bSpringToDefault": "false",
+                        "m_flSpringTarget": "500.000000",
+                        "m_eCameraOperation": "k_ECameraOp_Spring"
+                    },
+                    {
+                        "m_flMaintainDuration": "99.000000",
+                        "m_eCameraOperation": "k_ECameraOp_Maintain",
+                        "m_flMaintainFloat": "500.000000"
+                    }
+                ]
+            }
         },
         "m_SpinModifier": {
             "_class": "modifier_spin",
@@ -345,7 +331,22 @@
             "m_AoEParticle": "particles/abilities/digger/digger_burrow_spin.vpcf",
             "m_sAmbientLoopingSound": "MoKrill.Burrow.Spin.Lp",
             "m_sStartSound": "",
-            "m_sExpiredSound": "MoKrill.Burrow.Spin.End"
+            "m_sExpiredSound": "MoKrill.Burrow.Spin.End",
+            "m_cameraSequenceCreated": {
+                "m_vecDistanceOperations": [
+                    {
+                        "m_flSpringStrength": "10.000000",
+                        "m_bSpringToDefault": "false",
+                        "m_flSpringTarget": "500.000000",
+                        "m_eCameraOperation": "k_ECameraOp_Spring"
+                    },
+                    {
+                        "m_flMaintainDuration": "99.000000",
+                        "m_eCameraOperation": "k_ECameraOp_Maintain",
+                        "m_flMaintainFloat": "500.000000"
+                    }
+                ]
+            }
         },
         "m_ExplodeParticle": "particles/abilities/digger/digger_burrow_explode.vpcf",
         "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/mo_and_krill_burrow.webm",
@@ -377,10 +378,40 @@
                 }
             ]
         },
+        "m_HUDPanel": {
+            "m_vecHUDElements": [
+                {
+                    "m_strContext": "cast",
+                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
+                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_progress_bar.vxml",
+                    "m_bReverseProgress": "true"
+                },
+                {
+                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
+                    "m_strContext": "channel",
+                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_progress_bar.vxml"
+                }
+            ]
+        },
         "m_BurrowStartParticle": "particles/abilities/digger/digger_burrow_start.vpcf",
         "m_BurrowInGroundParticle": "particles/abilities/digger/digger_burrow_channel.vpcf",
         "m_BurrowEndParticle": "particles/abilities/digger/digger_burrow_start.vpcf",
         "m_flChannelEndEnemyPopUpForce": "400.000000",
-        "m_strBurrowEndSound": "MoKrill.Burrow.Spin"
+        "m_strBurrowEndSound": "MoKrill.Burrow.Spin",
+        "m_cameraSequenceCastStart": {
+            "m_vecDistanceOperations": [
+                {
+                    "m_flSpringStrength": "5.000000",
+                    "m_bSpringToDefault": "false",
+                    "m_flSpringTarget": "500.000000",
+                    "m_eCameraOperation": "k_ECameraOp_Spring"
+                },
+                {
+                    "m_flMaintainDuration": "99.000000",
+                    "m_eCameraOperation": "k_ECameraOp_Maintain",
+                    "m_flMaintainFloat": "500.000000"
+                }
+            ]
+        }
     }
 }

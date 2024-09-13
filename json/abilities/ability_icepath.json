@@ -1,9 +1,10 @@
 {
     "ability_icepath": {
         "_class": "ability_icepath",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "36",
+                "m_strValue": "38.000000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -236,30 +237,6 @@
                 ]
             }
         },
-        "m_strCancelAbilityKey": "+in_cancel_ability",
-        "m_HUDPanel": {
-            "m_vecButtonHints": [
-                {
-                    "m_eButton1": "EButtonHint_DashKey",
-                    "m_strLocToken": "#AbilityButtonHint_MoveUp",
-                    "m_eHintSide": "EButtonSide_Right",
-                    "m_strContext": "channel"
-                },
-                {
-                    "m_eButton1": "EButtonHint_CrouchKey",
-                    "m_strLocToken": "#AbilityButtonHint_MoveDown",
-                    "m_eHintSide": "EButtonSide_Right",
-                    "m_strContext": "channel"
-                }
-            ],
-            "m_vecHUDElements": [
-                {
-                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
-                    "m_strContext": "channel",
-                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_progress_bar.vxml"
-                }
-            ]
-        },
         "_multibase": [
             "signature_base"
         ],
@@ -300,7 +277,7 @@
                 "m_vecPropertyUpgrades": [
                     {
                         "m_strPropertyName": "AbilityCooldown",
-                        "m_strBonus": "-16"
+                        "m_strBonus": "-15.000000"
                     }
                 ]
             },
@@ -372,7 +349,29 @@
             ]
         },
         "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/kelvin_ice_path.webm",
-        "m_bHasMovementControls": "true",
+        "m_HUDPanel": {
+            "m_vecHUDElements": [
+                {
+                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
+                    "m_strContext": "channel",
+                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_progress_bar.vxml"
+                }
+            ],
+            "m_vecButtonHints": [
+                {
+                    "m_eButton1": "EButtonHint_DashKey",
+                    "m_strLocToken": "#AbilityButtonHint_MoveUp",
+                    "m_eHintSide": "EButtonSide_Right",
+                    "m_strContext": "channel"
+                },
+                {
+                    "m_eButton1": "EButtonHint_CrouchKey",
+                    "m_strLocToken": "#AbilityButtonHint_MoveDown",
+                    "m_eHintSide": "EButtonSide_Right",
+                    "m_strContext": "channel"
+                }
+            ]
+        },
         "m_AbilityTooltipDetails": {
             "m_vecAbilityInfoSections": [
                 {

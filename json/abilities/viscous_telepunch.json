@@ -1,9 +1,10 @@
 {
     "viscous_telepunch": {
         "_class": "viscous_telepunch",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "28",
+                "m_strValue": "30.000000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -208,11 +209,6 @@
                 ]
             }
         },
-        "m_strCancelAbilityKey": "+in_cancel_ability",
-        "m_HUDPanel": {
-            "m_vecButtonHints": [],
-            "m_vecHUDElements": []
-        },
         "_multibase": [
             "signature_base"
         ],
@@ -233,6 +229,10 @@
         "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_DEPLOY_OBJECT",
         "m_strAbilityImage": "file://{images}/damage_melee.psd",
         "m_flTargetingConeAngle": "100",
+        "m_HUDPanel": {
+            "m_vecHUDElements": [],
+            "m_vecButtonHints": []
+        },
         "m_cameraSequenceCastStart": {},
         "m_cameraSequenceCastComplete": {
             "m_vecVertOffsetOperations": [],
@@ -303,7 +303,7 @@
                 "m_vecPropertyUpgrades": [
                     {
                         "m_strPropertyName": "AbilityCooldown",
-                        "m_strBonus": "-12"
+                        "m_strBonus": "-11.500000"
                     }
                 ]
             }
@@ -322,7 +322,7 @@
             ],
             "m_bIsHidden": "true",
             "m_strHintText": "#viscous_telepunch",
-            "m_strParticleEffect": "particles/abilities/viscous/viscous_bowling_debuff.vpcf"
+            "m_strParticleEffect": "particles/abilities/viscous/viscous_punch_debuff.vpcf"
         },
         "m_strHitConfirmationSound": "Viscous.Cube.Impact",
         "m_flPlayerCheckSphereRadius": "5.000000",
@@ -331,7 +331,8 @@
             "_my_subclass_name": "viscous_telepunch_movement_slow",
             "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
                 "SlowPercent"
-            ]
+            ],
+            "m_bIsHidden": "true"
         },
         "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/viscous_telepunch.webm"
     }

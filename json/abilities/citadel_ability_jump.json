@@ -1,6 +1,7 @@
 {
     "citadel_ability_jump": {
         "_class": "citadel_ability_jump",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
                 "m_strValue": "0",
@@ -190,7 +191,6 @@
         "m_flLateJumpGraceWindow": "0.150000",
         "m_flDashJumpVerticalSpeed": "400.000000",
         "m_flDashJumpDistanceInMeters": "18.000000",
-        "m_flWallJumpSpeed": "600.000000",
         "m_WallJumpParticle": "particles/generic/wall_jump.vpcf",
         "m_WallJumpExecutedSound": "Player.WallJump",
         "m_WallJumpAirDragCurve": {
@@ -227,6 +227,13 @@
                 "5.000000"
             ]
         },
-        "m_flWallJumpNormalSpeed": "400.000000"
+        "m_flWallJumpNormalSpeed": "400.000000",
+        "m_flMaxWallYawOffset": "35.000000",
+        "m_flRemapSpeedToWallJumpVelocityDist": [
+            "300.000000",
+            "600.000000",
+            "10.000000",
+            "30.000000"
+        ]
     }
 }

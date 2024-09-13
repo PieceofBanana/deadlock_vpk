@@ -1,9 +1,10 @@
 {
     "mirage_tornado": {
         "_class": "mirage_tornado",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "30",
+                "m_strValue": "32.000000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -24,7 +25,7 @@
                     "m_eSpecificStatScaleType": "ETechDuration"
                 },
                 "m_eScaleType": "ETechDuration",
-                "m_strLocTokenOverride": "TornadoDuration"
+                "m_bIsHidden": "true"
             },
             "AbilityCastRange": {
                 "m_strValue": "0",
@@ -88,7 +89,7 @@
                 }
             },
             "ChannelMoveSpeed": {
-                "m_strValue": "50",
+                "m_strValue": "20m",
                 "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond",
                 "m_strCSSClass": "move_speed",
                 "m_bCanSetTokenOverride": "true"
@@ -121,7 +122,7 @@
                 }
             },
             "OpenHeight": {
-                "m_strValue": "3m",
+                "m_strValue": "8m",
                 "m_strCSSClass": "distance"
             },
             "Damage": {
@@ -174,23 +175,28 @@
             "MaxDeltaMovementControl": {
                 "m_strValue": "2m"
             },
-            "MoveSlowPercent": {
-                "m_strValue": "0",
-                "m_strCSSClass": "slow",
-                "m_eProvidedPropertyType": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
-                "m_UsageFlags": "APUsageFlag_ModifierConditional"
-            },
-            "MoveSlowDuration": {
-                "m_strValue": "0",
+            "HoldInPlaceDuration": {
+                "m_strValue": "1.25",
                 "m_strCSSClass": "duration",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",
-                    "_my_subclass_name": "MoveSlowDuration_scale_function",
+                    "_my_subclass_name": "HoldInPlaceDuration_scale_function",
                     "m_eSpecificStatScaleType": "ETechDuration"
                 }
             },
             "BossDamagePercent": {
                 "m_strValue": "50"
+            },
+            "TargetBulletEvasionChance": {
+                "m_strValue": "100",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_BULLET_EVASION",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
+            },
+            "TechArmorDamageReduction": {
+                "m_strValue": "0",
+                "m_strCSSClass": "tech_armor_down",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST_REDUCTION",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
             }
         },
         "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
@@ -233,72 +239,6 @@
                 ]
             }
         },
-        "m_strCancelAbilityKey": "+in_cancel_ability",
-        "m_HUDPanel": {
-            "m_vecButtonHints": [
-                {
-                    "m_strContext": "throw",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_Throw"
-                },
-                {
-                    "m_strContext": "deploy",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_Deploy"
-                },
-                {
-                    "m_strContext": "cast_on_target",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_CastOnTarget",
-                    "m_bShowAsUnitTargetActivationHint": "true",
-                    "m_bShowAbilityIcon": "true"
-                },
-                {
-                    "m_strContext": "alt_cast_hold_hint",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_HoldToSelfCast"
-                },
-                {
-                    "m_strContext": "alt_cast_double_tap_hint",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_DoubleTapToSelfCast"
-                },
-                {
-                    "m_strContext": "alt_cast_modifier_key_hint",
-                    "m_strBindingOverride1": "in_alt_cast_modifier",
-                    "m_eButton2": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_eButtonHintType": "EButtonHintType_TwoButtonCombination",
-                    "m_strLocToken": "#AbilityButtonHint_ModifierKeyToSelfCast"
-                },
-                {
-                    "m_strContext": "alt_cast_select_then_alt_cast_key_hint",
-                    "m_strBindingOverride1": "in_alt_cast",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_SelectThenSelfCastButton"
-                },
-                {
-                    "m_strContext": "deselect",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_Deselect",
-                    "m_nPriority": "1"
-                },
-                {
-                    "m_strLocToken": "#AbilityButtonHint_Activate",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_strContext": "unit_target_activate",
-                    "m_bShowAsUnitTargetActivationHint": "true",
-                    "m_bShowAbilityIcon": "true"
-                }
-            ]
-        },
         "_multibase": [
             "signature_base"
         ],
@@ -324,21 +264,20 @@
             "m_flGravityScale": "20.000000",
             "m_bHideImpactParticle": "1",
             "m_bHideWarningParticle": "1",
-            "m_flVerticalAimBias": "10.000000"
+            "m_flVerticalAimBias": "10.000000",
+            "m_LoopingSound": "Mirage.A1.Tornado.Proj_Lp"
         },
-        "m_strCastSound": "Mirage.A2.Tornado.Cast",
+        "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/mirage_tornado.webm",
+        "m_mapCastEventParticles": {},
+        "m_TornadoCastParticle": "particles/abilities/mirage/mirage_tornado_cast.vpcf",
         "m_strAbilityImage": "file://{images}/hud/abilities/mirage/mirage_tornado.psd",
         "m_strCastAnimGraphParam": "e_GenericThrow",
         "m_vecAbilityUpgrades": [
             {
                 "m_vecPropertyUpgrades": [
                     {
-                        "m_strPropertyName": "MoveSlowPercent",
-                        "m_strBonus": "30"
-                    },
-                    {
-                        "m_strPropertyName": "MoveSlowDuration",
-                        "m_strBonus": "3"
+                        "m_strPropertyName": "HoldInPlaceDuration",
+                        "m_strBonus": "0.75"
                     }
                 ]
             },
@@ -346,15 +285,15 @@
                 "m_vecPropertyUpgrades": [
                     {
                         "m_strPropertyName": "AbilityCooldown",
-                        "m_strBonus": "-15"
+                        "m_strBonus": "-14.000000"
                     }
                 ]
             },
             {
                 "m_vecPropertyUpgrades": [
                     {
-                        "m_strPropertyName": "Damage",
-                        "m_strBonus": "120"
+                        "m_strPropertyName": "TechArmorDamageReduction",
+                        "m_strBonus": "-15"
                     }
                 ]
             }
@@ -363,6 +302,10 @@
             "_class": "modifier_mirage_tornado_aura",
             "_my_subclass_name": "modifier_mirage_tornado_aura",
             "m_bIsHidden": "false",
+            "m_strParticleEffect": "particles/abilities/mirage/mirage_tornado.vpcf",
+            "m_sAmbientLoopingSound": "Mirage.A2.Tornado.Proj.Lp",
+            "m_strParticleStatusEffect": "",
+            "m_sExpiredSound": "Mirage.A1.Tornado.End",
             "m_modifierProvidedByAura": {
                 "_class": "modifier_mirage_tornado_aura_apply",
                 "_my_subclass_name": "modifier_mirage_tornado_aura_apply",
@@ -373,29 +316,26 @@
                     "m_sLocalizationName": "modifier_mirage_tornado_lift",
                     "m_LiftParticle": "particles/abilities/mirage/mirage_tornado_debuff.vpcf",
                     "m_bIsHidden": "true",
-                    "m_SlowModifier": {
-                        "_class": "modifier_slow_base",
-                        "_my_subclass_name": "modifier_slow",
-                        "m_sLocalizationName": "modifier_mirage_tornado_slow",
-                        "m_strParticleEffect": "particles/generic/generic_slow_debuff.vpcf",
-                        "m_strSmallIconCssClass": "slowed",
+                    "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
+                        "TargetBulletEvasionChance",
+                        "TechArmorDamageReduction"
+                    ],
+                    "m_HoldInPlaceModifier": {
+                        "_class": "modifier_mirage_tornado_hold_in_place",
+                        "_my_subclass_name": "modifier_mirage_tornado_hold_in_place",
+                        "m_sLocalizationName": "modifier_mirage_tornado_hold_in_place",
+                        "m_nEnabledStateMask": "MODIFIER_STATE_IMMOBILIZED | MODIFIER_STATE_MOVEMENT_ABILITY_RESTRICTED | MODIFIER_STATE_SILENCE_MOVEMENT_ABILITES | MODIFIER_STATE_DASH_DISABLED_DEBUFF | MODIFIER_STATE_JUMP_DISABLED | MODIFIER_STATE_DUCKING_DISABLED | MODIFIER_STATE_ZIPLINE_DISABLED | MODIFIER_STATE_MANTLE_DISABLED",
                         "m_bIsHidden": "true",
+                        "m_strParticleEffect": "particles/abilities/mirage/mirage_tornado_debuff.vpcf",
                         "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
-                            "MoveSlowPercent"
+                            "TargetBulletEvasionChance",
+                            "TechArmorDamageReduction"
                         ]
-                    }
-                },
-                "m_EnemyInAirModifier": {
-                    "_class": "modifier_mirage_tornado_enemy_in_air",
-                    "_my_subclass_name": "modifier_mirage_tornado_enemy_in_air",
-                    "m_sLocalizationName": "modifier_mirage_tornado_enemy_in_air",
-                    "m_bIsHidden": "true"
+                    },
+                    "m_sStartSound": "Wraith.PsychicLift.Impact"
                 }
             },
-            "m_strParticleEffect": "particles/abilities/mirage/mirage_tornado.vpcf",
-            "m_sAmbientLoopingSound": "Mirage.A2.Tornado.Proj.Lp",
-            "m_strParticleStatusEffect": "",
-            "m_sExpiredSound": "Mirage.A2.Tornado.Proj.Expire"
+            "m_sStartSound": "Mirage.A1.Tornado.Cast"
         },
         "m_AbilityTooltipDetails": {
             "m_vecAbilityInfoSections": [
@@ -409,7 +349,7 @@
                                     "m_strImportantProperty": "Damage"
                                 },
                                 {
-                                    "m_strImportantProperty": "EnemyLiftDuration"
+                                    "m_strImportantProperty": "HoldInPlaceDuration"
                                 }
                             ]
                         }
@@ -420,8 +360,6 @@
                 }
             ]
         },
-        "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/mirage_tornado.webm",
-        "m_mapCastEventParticles": {},
-        "m_TornadoCastParticle": "particles/abilities/mirage/mirage_tornado_cast.vpcf"
+        "m_strCastSound": "Mirage.A1.Tornado.Start"
     }
 }

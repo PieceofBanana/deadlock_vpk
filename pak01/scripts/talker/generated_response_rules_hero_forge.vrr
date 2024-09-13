@@ -32,6 +32,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -42,6 +43,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -52,6 +54,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -62,6 +65,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -72,6 +76,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -82,6 +87,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -92,6 +98,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -102,6 +109,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -112,6 +120,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -122,6 +131,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -139,6 +149,7 @@
 											m_value = "mcginnis_kill_gigawatt_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -148,6 +159,7 @@
 											m_value = "mcginnis_kill_gigawatt_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -173,6 +185,7 @@
 											m_value = "mcginnis_kill_wraith_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -182,6 +195,7 @@
 											m_value = "mcginnis_kill_wraith_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -191,6 +205,7 @@
 											m_value = "mcginnis_kill_wraith_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -200,6 +215,7 @@
 											m_value = "mcginnis_kill_wraith_04_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -209,6 +225,7 @@
 											m_value = "mcginnis_kill_wraith_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -234,6 +251,7 @@
 											m_value = "mcginnis_kill_dynamo_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -243,6 +261,7 @@
 											m_value = "mcginnis_kill_dynamo_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -252,6 +271,7 @@
 											m_value = "mcginnis_kill_dynamo_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -261,6 +281,7 @@
 											m_value = "mcginnis_kill_dynamo_04_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -270,6 +291,7 @@
 											m_value = "mcginnis_kill_dynamo_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -295,6 +317,7 @@
 											m_value = "mcginnis_kill_kelvin_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -304,6 +327,7 @@
 											m_value = "mcginnis_kill_kelvin_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -313,6 +337,7 @@
 											m_value = "mcginnis_kill_kelvin_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -322,6 +347,7 @@
 											m_value = "mcginnis_kill_kelvin_04_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -331,6 +357,7 @@
 											m_value = "mcginnis_kill_kelvin_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -356,6 +383,7 @@
 											m_value = "mcginnis_kill_haze_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -365,6 +393,7 @@
 											m_value = "mcginnis_kill_haze_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -374,6 +403,7 @@
 											m_value = "mcginnis_kill_haze_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -383,6 +413,7 @@
 											m_value = "mcginnis_kill_haze_04_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -392,6 +423,7 @@
 											m_value = "mcginnis_kill_haze_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -417,6 +449,7 @@
 											m_value = "mcginnis_kill_bebop_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -426,6 +459,7 @@
 											m_value = "mcginnis_kill_bebop_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -435,6 +469,7 @@
 											m_value = "mcginnis_kill_bebop_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -444,6 +479,7 @@
 											m_value = "mcginnis_kill_bebop_04_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -453,6 +489,7 @@
 											m_value = "mcginnis_kill_bebop_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -478,6 +515,7 @@
 											m_value = "mcginnis_kill_krill_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -487,6 +525,7 @@
 											m_value = "mcginnis_kill_krill_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -496,6 +535,7 @@
 											m_value = "mcginnis_kill_krill_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -505,6 +545,7 @@
 											m_value = "mcginnis_kill_krill_04_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -514,6 +555,7 @@
 											m_value = "mcginnis_kill_krill_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -539,6 +581,7 @@
 											m_value = "mcginnis_kill_shiv_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -548,6 +591,7 @@
 											m_value = "mcginnis_kill_shiv_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -557,6 +601,7 @@
 											m_value = "mcginnis_kill_shiv_04_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -566,6 +611,7 @@
 											m_value = "mcginnis_kill_shiv_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -591,6 +637,7 @@
 											m_value = "mcginnis_kill_warden_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -600,6 +647,7 @@
 											m_value = "mcginnis_kill_warden_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -609,6 +657,7 @@
 											m_value = "mcginnis_kill_warden_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -618,6 +667,7 @@
 											m_value = "mcginnis_kill_warden_04_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -627,6 +677,7 @@
 											m_value = "mcginnis_kill_warden_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -652,6 +703,7 @@
 											m_value = "mcginnis_kill_yamato_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -661,6 +713,7 @@
 											m_value = "mcginnis_kill_yamato_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -670,6 +723,7 @@
 											m_value = "mcginnis_kill_yamato_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -679,6 +733,7 @@
 											m_value = "mcginnis_kill_yamato_04_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -688,6 +743,7 @@
 											m_value = "mcginnis_kill_yamato_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -713,6 +769,7 @@
 											m_value = "mcginnis_kill_lash_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -722,6 +779,7 @@
 											m_value = "mcginnis_kill_lash_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -731,6 +789,7 @@
 											m_value = "mcginnis_kill_lash_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -740,6 +799,7 @@
 											m_value = "mcginnis_kill_lash_04_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -749,6 +809,7 @@
 											m_value = "mcginnis_kill_lash_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -774,6 +835,7 @@
 											m_value = "mcginnis_kill_viscous_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -783,6 +845,7 @@
 											m_value = "mcginnis_kill_viscous_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -792,6 +855,7 @@
 											m_value = "mcginnis_kill_viscous_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -801,6 +865,7 @@
 											m_value = "mcginnis_kill_viscous_04_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -810,6 +875,7 @@
 											m_value = "mcginnis_kill_viscous_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -835,6 +901,7 @@
 											m_value = "mcginnis_kill_wrecker_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -844,6 +911,7 @@
 											m_value = "mcginnis_kill_wrecker_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -853,6 +921,7 @@
 											m_value = "mcginnis_kill_wrecker_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -862,6 +931,7 @@
 											m_value = "mcginnis_kill_wrecker_04_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -871,6 +941,7 @@
 											m_value = "mcginnis_kill_wrecker_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -896,6 +967,7 @@
 											m_value = "mcginnis_kill_mirage_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -905,6 +977,7 @@
 											m_value = "mcginnis_kill_mirage_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -914,6 +987,7 @@
 											m_value = "mcginnis_kill_mirage_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -923,6 +997,7 @@
 											m_value = "mcginnis_kill_mirage_04_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -932,6 +1007,7 @@
 											m_value = "mcginnis_kill_mirage_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -969,6 +1045,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -979,6 +1056,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -989,6 +1067,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -999,6 +1078,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -1009,6 +1089,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -1024,11 +1105,21 @@
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_gigawatt_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_gigawatt_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -1050,26 +1141,51 @@
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_wraith_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_wraith_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_wraith_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_wraith_04_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_wraith_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -1091,26 +1207,51 @@
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_dynamo_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_dynamo_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_dynamo_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_dynamo_04_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_dynamo_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -1132,26 +1273,51 @@
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_kelvin_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_kelvin_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_kelvin_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_kelvin_04_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_kelvin_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -1173,26 +1339,51 @@
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_haze_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_haze_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_haze_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_haze_04_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_haze_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -1214,26 +1405,51 @@
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_bebop_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_bebop_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_bebop_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_bebop_04_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_bebop_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -1255,26 +1471,51 @@
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_krill_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_krill_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_krill_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_krill_04_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_krill_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -1296,21 +1537,41 @@
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_shiv_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_shiv_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_shiv_04_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_shiv_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -1332,26 +1593,51 @@
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_warden_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_warden_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_warden_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_warden_04_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_warden_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -1373,26 +1659,51 @@
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_yamato_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_yamato_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_yamato_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_yamato_04_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_yamato_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -1414,26 +1725,51 @@
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_lash_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_lash_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_lash_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_lash_04_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_lash_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -1455,26 +1791,51 @@
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_viscous_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_viscous_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_viscous_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_viscous_04_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_viscous_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -1496,26 +1857,51 @@
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_wrecker_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_wrecker_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_wrecker_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_wrecker_04_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_wrecker_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -1537,26 +1923,51 @@
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_mirage_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_mirage_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_mirage_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_mirage_04_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "mcginnis_kill_mirage_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -1593,6 +2004,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -1620,6 +2032,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -1647,6 +2060,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -2663,16 +3077,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "mcginnis_use_metal_skin_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "mcginnis_use_metal_skin_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "mcginnis_use_metal_skin_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -2693,16 +3122,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "mcginnis_use_ability_refresher_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "mcginnis_use_ability_refresher_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "mcginnis_use_ability_refresher_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -2723,16 +3167,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "mcginnis_use_ice_blast_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "mcginnis_use_ice_blast_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "mcginnis_use_ice_blast_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -2753,16 +3212,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "mcginnis_use_surging_power_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "mcginnis_use_surging_power_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "mcginnis_use_surging_power_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -2783,16 +3257,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "mcginnis_use_phantom_strike_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "mcginnis_use_phantom_strike_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "mcginnis_use_phantom_strike_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -2813,16 +3302,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "mcginnis_use_unstoppable_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "mcginnis_use_unstoppable_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "mcginnis_use_unstoppable_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -2843,16 +3347,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "mcginnis_use_echo_shard_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "mcginnis_use_echo_shard_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "mcginnis_use_echo_shard_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -2885,6 +3404,7 @@
 							m_params = 
 							{
 								m_delay.start = 0.500000
+								m_respeakdelay.start = 0.000000
 								m_predelay.start = 0.500000
 								m_bSpeakOnce = true
 							}
@@ -2896,6 +3416,7 @@
 							m_params = 
 							{
 								m_delay.start = 0.500000
+								m_respeakdelay.start = 0.000000
 								m_predelay.start = 0.500000
 								m_bSpeakOnce = true
 							}
@@ -2907,6 +3428,7 @@
 							m_params = 
 							{
 								m_delay.start = 0.500000
+								m_respeakdelay.start = 0.000000
 								m_predelay.start = 0.500000
 								m_bSpeakOnce = true
 							}
@@ -2926,6 +3448,8 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
 										m_bSpeakOnce = true
 									}
 								},
@@ -2936,6 +3460,8 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
 										m_bSpeakOnce = true
 									}
 								},
@@ -2946,6 +3472,8 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
 										m_bSpeakOnce = true
 									}
 								},
@@ -2986,6 +3514,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -2996,6 +3525,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -3006,6 +3536,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -3033,6 +3564,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -3043,6 +3575,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -3070,6 +3603,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -3080,6 +3614,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -3090,6 +3625,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -3116,6 +3652,7 @@
 									m_value = "mcginnis_t4_shop_reminder_01_hero_3d"
 									m_params = 
 									{
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -3125,6 +3662,7 @@
 									m_value = "mcginnis_t4_shop_reminder_02_hero_3d"
 									m_params = 
 									{
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -3134,6 +3672,7 @@
 									m_value = "mcginnis_t4_shop_reminder_03_hero_3d"
 									m_params = 
 									{
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -4810,13 +5349,13 @@
 						},
 						
 						{
-							m_name = "Forge_Ping_Help_Orange"
+							m_name = "Forge_Ping_Help_Green"
 							m_responses = 
 							[
 								
 								{
 									m_type = "SPEAK"
-									m_value = "mcginnis_ping_need_help_orange_ping_2d"
+									m_value = "mcginnis_ping_need_help_green_alt_ping_2d"
 									m_params = 
 									{
 										m_bCancelExisting = true
@@ -4825,11 +5364,11 @@
 							]
 							m_pEmbeddedRule = 
 							{
-								m_name = "Forge_Ping_Help_Orange"
+								m_name = "Forge_Ping_Help_Green"
 								m_Requirements = 
 								[
 									"ConceptHelp",
-									"PlayerInOrange",
+									"PlayerInGreen",
 								]
 							}
 						},
@@ -5041,13 +5580,22 @@
 						},
 						
 						{
-							m_name = "Forge_Push_Boss_Orange_Lane"
+							m_name = "Forge_Push_Boss_Green_Lane"
 							m_responses = 
 							[
 								
 								{
 									m_type = "SPEAK"
-									m_value = "mcginnis_ping_push_orange_01_ping_2d"
+									m_value = "mcginnis_ping_push_green_01_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "mcginnis_ping_push_green_02_ping_2d"
 									m_params = 
 									{
 										m_bCancelExisting = true
@@ -5056,11 +5604,11 @@
 							]
 							m_pEmbeddedRule = 
 							{
-								m_name = "Forge_Push_Boss_Orange_Lane"
+								m_name = "Forge_Push_Boss_Green_Lane"
 								m_Requirements = 
 								[
 									"ConceptPushLane",
-									"OrangeLane",
+									"GreenLane",
 								]
 							}
 						},
@@ -5294,13 +5842,22 @@
 						},
 						
 						{
-							m_name = "Forge_Defend_Boss_Orange_Lane"
+							m_name = "Forge_Defend_Boss_Green_Lane"
 							m_responses = 
 							[
 								
 								{
 									m_type = "SPEAK"
-									m_value = "mcginnis_ping_headed_orange_01_ping_2d"
+									m_value = "mcginnis_ping_headed_green_01_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "mcginnis_ping_headed_green_02_ping_2d"
 									m_params = 
 									{
 										m_bCancelExisting = true
@@ -5309,23 +5866,32 @@
 							]
 							m_pEmbeddedRule = 
 							{
-								m_name = "Forge_Defend_Boss_Orange_Lane"
+								m_name = "Forge_Defend_Boss_Green_Lane"
 								m_Requirements = 
 								[
 									"ConceptDefendLane",
-									"OrangeLane",
+									"GreenLane",
 								]
 							}
 						},
 						
 						{
-							m_name = "Forge_Orange_Lane_Boss_Needs_Help"
+							m_name = "Forge_Green_Lane_Boss_Needs_Help"
 							m_responses = 
 							[
 								
 								{
 									m_type = "SPEAK"
-									m_value = "mcginnis_ping_orange_help_01_ping_2d"
+									m_value = "mcginnis_ping_green_help_01_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "mcginnis_ping_green_help_02_ping_2d"
 									m_params = 
 									{
 										m_bCancelExisting = true
@@ -5334,11 +5900,11 @@
 							]
 							m_pEmbeddedRule = 
 							{
-								m_name = "Forge_Orange_Lane_Boss_Needs_Help"
+								m_name = "Forge_Green_Lane_Boss_Needs_Help"
 								m_Requirements = 
 								[
 									"ConceptDefendLane",
-									"OrangeLane",
+									"GreenLane",
 									"IsAggressive",
 								]
 							}
@@ -5419,13 +5985,22 @@
 						},
 						
 						{
-							m_name = "Forge_Heading_Orange"
+							m_name = "Forge_Heading_Green"
 							m_responses = 
 							[
 								
 								{
 									m_type = "SPEAK"
-									m_value = "mcginnis_ping_headed_orange_01_ping_2d"
+									m_value = "mcginnis_ping_headed_green_01_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "mcginnis_ping_headed_green_02_ping_2d"
 									m_params = 
 									{
 										m_bCancelExisting = true
@@ -5434,11 +6009,11 @@
 							]
 							m_pEmbeddedRule = 
 							{
-								m_name = "Forge_Heading_Orange"
+								m_name = "Forge_Heading_Green"
 								m_Requirements = 
 								[
 									"ConceptHeadingLane",
-									"OrangeLane",
+									"GreenLane",
 								]
 							}
 						},
@@ -5519,13 +6094,13 @@
 						},
 						
 						{
-							m_name = "Forge_Lets_Go_Orange"
+							m_name = "Forge_Lets_Go_Green"
 							m_responses = 
 							[
 								
 								{
 									m_type = "SPEAK"
-									m_value = "mcginnis_ping_lets_go_orange_ping_2d"
+									m_value = "mcginnis_ping_lets_go_green_ping_2d"
 									m_params = 
 									{
 										m_bCancelExisting = true
@@ -5534,11 +6109,11 @@
 							]
 							m_pEmbeddedRule = 
 							{
-								m_name = "Forge_Lets_Go_Orange"
+								m_name = "Forge_Lets_Go_Green"
 								m_Requirements = 
 								[
 									"ConceptLetsGoHere",
-									"OrangeLane",
+									"GreenLane",
 								]
 							}
 						},
@@ -13758,7 +14333,7 @@
 									m_value = "mcginnis_be_careful_01_hero_3d"
 									m_params = 
 									{
-										m_respeakdelay.start = 30.000000
+										m_respeakdelay.start = 90.000000
 										m_predelay.start = 0.000000
 									}
 								},
@@ -13768,7 +14343,7 @@
 									m_value = "mcginnis_be_careful_02_hero_3d"
 									m_params = 
 									{
-										m_respeakdelay.start = 30.000000
+										m_respeakdelay.start = 90.000000
 										m_predelay.start = 0.000000
 									}
 								},
@@ -13778,7 +14353,7 @@
 									m_value = "mcginnis_be_careful_03_hero_3d"
 									m_params = 
 									{
-										m_respeakdelay.start = 30.000000
+										m_respeakdelay.start = 90.000000
 										m_predelay.start = 0.000000
 									}
 								},
@@ -13788,9 +14363,9 @@
 								m_name = "Forge_Be_Careful"
 								m_Requirements = 
 								[
-									"InEnemyTerritoryFor2Seconds",
 									"AwayFromAlliesFor2Seconds",
 									"NoNearbyEnemiesFor2Seconds",
+									"InEnemyTerritoryFor20Seconds",
 								]
 							}
 						},

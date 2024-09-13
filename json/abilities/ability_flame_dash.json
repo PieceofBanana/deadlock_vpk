@@ -1,9 +1,10 @@
 {
     "ability_flame_dash": {
         "_class": "ability_flame_dash",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "38",
+                "m_strValue": "40.000000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -193,7 +194,7 @@
                 "m_UsageFlags": "APUsageFlag_ModifierConditional"
             },
             "SlowResistancePercent": {
-                "m_strValue": "30",
+                "m_strValue": "50",
                 "m_strCSSClass": "move_speed",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_MOVEMENT_SLOW_RESISTANCE",
                 "m_UsageFlags": "APUsageFlag_ModifierConditional"
@@ -238,86 +239,6 @@
                     "10000.000000"
                 ]
             }
-        },
-        "m_strCancelAbilityKey": "+in_cancel_ability",
-        "m_HUDPanel": {
-            "m_vecButtonHints": [
-                {
-                    "m_strContext": "throw",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_Throw"
-                },
-                {
-                    "m_strContext": "deploy",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_Deploy"
-                },
-                {
-                    "m_strContext": "cast_on_target",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_CastOnTarget",
-                    "m_bShowAsUnitTargetActivationHint": "true",
-                    "m_bShowAbilityIcon": "true"
-                },
-                {
-                    "m_strContext": "alt_cast_hold_hint",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_HoldToSelfCast"
-                },
-                {
-                    "m_strContext": "alt_cast_double_tap_hint",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_DoubleTapToSelfCast"
-                },
-                {
-                    "m_strContext": "alt_cast_modifier_key_hint",
-                    "m_strBindingOverride1": "in_alt_cast_modifier",
-                    "m_eButton2": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_eButtonHintType": "EButtonHintType_TwoButtonCombination",
-                    "m_strLocToken": "#AbilityButtonHint_ModifierKeyToSelfCast"
-                },
-                {
-                    "m_strContext": "alt_cast_select_then_alt_cast_key_hint",
-                    "m_strBindingOverride1": "in_alt_cast",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_SelectThenSelfCastButton"
-                },
-                {
-                    "m_strContext": "deselect",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_Deselect",
-                    "m_nPriority": "1"
-                },
-                {
-                    "m_strLocToken": "#AbilityButtonHint_Activate",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_strContext": "unit_target_activate",
-                    "m_bShowAsUnitTargetActivationHint": "true",
-                    "m_bShowAbilityIcon": "true"
-                }
-            ],
-            "m_vecHUDElements": [
-                {
-                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
-                    "m_strContext": "channel",
-                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_progress_bar.vxml",
-                    "m_bReverseProgress": "false"
-                },
-                {
-                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
-                    "m_strContext": "dashing",
-                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_progress_bar.vxml",
-                    "m_bReverseProgress": "true"
-                }
-            ]
         },
         "_multibase": [
             "signature_base"
@@ -366,7 +287,7 @@
                 "m_vecPropertyUpgrades": [
                     {
                         "m_strPropertyName": "AbilityCooldown",
-                        "m_strBonus": "-20"
+                        "m_strBonus": "-19.000000"
                     }
                 ]
             }
@@ -426,13 +347,30 @@
                     },
                     {
                         "m_flMaintainDuration": "99.000000",
-                        "m_eCameraOperation": "k_ECameraOp_Maintain"
+                        "m_eCameraOperation": "k_ECameraOp_Maintain",
+                        "m_flMaintainFloat": "120.000000"
                     }
                 ]
             },
             "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
                 "FlameDashJumpBonus",
                 "SlowResistancePercent"
+            ]
+        },
+        "m_HUDPanel": {
+            "m_vecHUDElements": [
+                {
+                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
+                    "m_strContext": "channel",
+                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_progress_bar.vxml",
+                    "m_bReverseProgress": "false"
+                },
+                {
+                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
+                    "m_strContext": "dashing",
+                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_progress_bar.vxml",
+                    "m_bReverseProgress": "true"
+                }
             ]
         },
         "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/ability_inferno_flame_dash.webm",
@@ -447,7 +385,8 @@
                 },
                 {
                     "m_flMaintainDuration": "0.200000",
-                    "m_eCameraOperation": "k_ECameraOp_Maintain"
+                    "m_eCameraOperation": "k_ECameraOp_Maintain",
+                    "m_flMaintainFloat": "100.000000"
                 },
                 {
                     "m_bSpringToDefault": "true",
@@ -464,7 +403,8 @@
                 },
                 {
                     "m_flMaintainDuration": "0.200000",
-                    "m_eCameraOperation": "k_ECameraOp_Maintain"
+                    "m_eCameraOperation": "k_ECameraOp_Maintain",
+                    "m_flMaintainFloat": "75.000000"
                 },
                 {
                     "m_bSpringToDefault": "false",
@@ -473,7 +413,8 @@
                 },
                 {
                     "m_flMaintainDuration": "999.000000",
-                    "m_eCameraOperation": "k_ECameraOp_Maintain"
+                    "m_eCameraOperation": "k_ECameraOp_Maintain",
+                    "m_flMaintainFloat": "120.000000"
                 }
             ]
         },

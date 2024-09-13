@@ -189,8 +189,8 @@
             "125",
             "125"
         ],
-        "m_MeleeSwingParticle": "particles/abilities/melee_swing.vpcf",
-        "m_MeleeActivateParticle": "particles/abilities/melee/melee_activate.vpcf",
+        "m_MeleeSwingParticle": "",
+        "m_MeleeActivateParticle": "",
         "m_MeleeAnimName": "b_melee",
         "m_LastHitParticle": "",
         "m_strLastHitSound": "",

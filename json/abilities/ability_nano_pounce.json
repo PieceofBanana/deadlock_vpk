@@ -1,9 +1,10 @@
 {
     "ability_nano_pounce": {
         "_class": "ability_nano_pounce",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "25",
+                "m_strValue": "32.000000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -25,14 +26,15 @@
                 }
             },
             "AbilityCastRange": {
-                "m_strValue": "16m",
+                "m_strValue": "14m",
                 "m_eDisplayUnits": "EDisplayUnit_Meters",
                 "m_strCSSClass": "range",
                 "m_bCanSetTokenOverride": "true",
                 "m_subclassScaleFunction": {
-                    "_class": "scale_function_single_stat",
+                    "_class": "scale_function_tech_damage",
                     "_my_subclass_name": "AbilityCastRange_scale_function",
-                    "m_eSpecificStatScaleType": "ETechRange"
+                    "m_eSpecificStatScaleType": "ETechPower",
+                    "m_flStatScale": "0.080000"
                 }
             },
             "AbilityUnitTargetLimit": {
@@ -60,11 +62,11 @@
                 }
             },
             "AbilityPostCastDuration": {
-                "m_strValue": "0",
+                "m_strValue": "0.25",
                 "m_strDisableValue": "0"
             },
             "AbilityCharges": {
-                "m_strValue": "0",
+                "m_strValue": "1",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cast",
                 "m_bCanSetTokenOverride": "true",
@@ -75,7 +77,7 @@
                 }
             },
             "AbilityCooldownBetweenCharge": {
-                "m_strValue": "0",
+                "m_strValue": "10",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "charge_cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -86,7 +88,7 @@
                 }
             },
             "ChannelMoveSpeed": {
-                "m_strValue": "-1",
+                "m_strValue": "50",
                 "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond",
                 "m_strCSSClass": "move_speed",
                 "m_bCanSetTokenOverride": "true"
@@ -109,12 +111,47 @@
                 "m_bCanSetTokenOverride": "true",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
             },
-            "ExplosionDamage": {
+            "FriendlyTargetCD": {
+                "m_strLocTokenOverride": "PounceFriendlyTargetCD",
+                "m_strCSSClass": "cooldown",
+                "m_strValue": "16.000000",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "FriendlyTargetCD_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldown"
+                }
+            },
+            "FriendlyRechargeTime": {
+                "m_strLocTokenOverride": "PounceFriendlyRechargeTime",
+                "m_strValue": "3",
+                "m_strCSSClass": "charge_cooldown",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "FriendlyRechargeTime_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldownBetweenChargeUses"
+                }
+            },
+            "MoveSpeedToTarget": {
+                "m_strValue": "25m"
+            },
+            "MinTimeToTarget": {
+                "m_strValue": "0.5"
+            },
+            "JumpHeight": {
+                "m_strValue": "3m"
+            },
+            "SlashRange": {
+                "m_strValue": "3m"
+            },
+            "CameraDistance": {
+                "m_strValue": "250"
+            },
+            "Damage": {
                 "m_strValue": "60",
                 "m_strCSSClass": "tech_damage",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_tech_damage",
-                    "_my_subclass_name": "ExplosionDamage_scale_function",
+                    "_my_subclass_name": "Damage_scale_function",
                     "m_flStatScale": "0.500000",
                     "m_eSpecificStatScaleType": "ETechPower"
                 }
@@ -122,14 +159,8 @@
             "InstantReload": {
                 "m_strValue": "0"
             },
-            "SlowPercent": {
-                "m_strValue": "20",
-                "m_strCSSClass": "slow",
-                "m_UsageFlags": "APUsageFlag_ModifierConditional",
-                "m_eProvidedPropertyType": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT"
-            },
             "SlowDuration": {
-                "m_strValue": "3",
+                "m_strValue": "2.0",
                 "m_strCSSClass": "duration",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",
@@ -138,8 +169,19 @@
                 },
                 "m_UsageFlags": "APUsageFlag_ModifierConditional"
             },
+            "SlowPercent": {
+                "m_strValue": "30",
+                "m_strCSSClass": "slow",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT"
+            },
+            "FireRateSlow": {
+                "m_strValue": "0",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_FIRE_RATE_SLOW",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
+            },
             "ExplodeRadius": {
-                "m_strLocTokenOverride": "WarpExplodeRadius",
+                "m_strLocTokenOverride": "PounceDebuffRadius",
                 "m_strValue": "4m",
                 "m_strCSSClass": "distance",
                 "m_subclassScaleFunction": {
@@ -158,31 +200,7 @@
                     "m_eSpecificStatScaleType": "ETechDuration"
                 }
             },
-            "DamageAmplification": {
-                "m_strValue": "0"
-            },
             "ActiveReloadPercent": {
-                "m_strValue": "0"
-            },
-            "FriendlyTargetCD": {
-                "m_strCSSClass": "cooldown",
-                "m_strValue": "12",
-                "m_subclassScaleFunction": {
-                    "_class": "scale_function_single_stat",
-                    "_my_subclass_name": "FriendlyTargetCD_scale_function",
-                    "m_eSpecificStatScaleType": "ETechCooldown"
-                }
-            },
-            "FriendlyRechargeTime": {
-                "m_strValue": "3",
-                "m_strCSSClass": "charge_cooldown",
-                "m_subclassScaleFunction": {
-                    "_class": "scale_function_single_stat",
-                    "_my_subclass_name": "FriendlyRechargeTime_scale_function",
-                    "m_eSpecificStatScaleType": "ETechCooldownBetweenChargeUses"
-                }
-            },
-            "DoublePounce": {
                 "m_strValue": "0"
             }
         },
@@ -226,72 +244,6 @@
                 ]
             }
         },
-        "m_strCancelAbilityKey": "+in_cancel_ability",
-        "m_HUDPanel": {
-            "m_vecButtonHints": [
-                {
-                    "m_strContext": "throw",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_Throw"
-                },
-                {
-                    "m_strContext": "deploy",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_Deploy"
-                },
-                {
-                    "m_strContext": "cast_on_target",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_CastOnTarget",
-                    "m_bShowAsUnitTargetActivationHint": "true",
-                    "m_bShowAbilityIcon": "true"
-                },
-                {
-                    "m_strContext": "alt_cast_hold_hint",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_HoldToSelfCast"
-                },
-                {
-                    "m_strContext": "alt_cast_double_tap_hint",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_DoubleTapToSelfCast"
-                },
-                {
-                    "m_strContext": "alt_cast_modifier_key_hint",
-                    "m_strBindingOverride1": "in_alt_cast_modifier",
-                    "m_eButton2": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_eButtonHintType": "EButtonHintType_TwoButtonCombination",
-                    "m_strLocToken": "#AbilityButtonHint_ModifierKeyToSelfCast"
-                },
-                {
-                    "m_strContext": "alt_cast_select_then_alt_cast_key_hint",
-                    "m_strBindingOverride1": "in_alt_cast",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_SelectThenSelfCastButton"
-                },
-                {
-                    "m_strContext": "deselect",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_Deselect",
-                    "m_nPriority": "1"
-                },
-                {
-                    "m_strLocToken": "#AbilityButtonHint_Activate",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_strContext": "unit_target_activate",
-                    "m_bShowAsUnitTargetActivationHint": "true",
-                    "m_bShowAbilityIcon": "true"
-                }
-            ]
-        },
         "_multibase": [
             "signature_base"
         ],
@@ -300,16 +252,16 @@
         "m_nAbillityUnlocksCost": "1",
         "m_eAbilityType": "EAbilityType_Signature",
         "m_iMaxLevel": "1",
-        "m_bitsInterruptingStates": "MODIFIER_STATE_IMMOBILIZED | MODIFIER_STATE_STUNNED | MODIFIER_STATE_IS_ASLEEP",
+        "m_bitsInterruptingStates": "MODIFIER_STATE_STUNNED | MODIFIER_STATE_IMMOBILIZED",
         "m_PreviewPathParticle": "particles/generic/generic_arc.vpcf",
         "m_strAbilityOffCooldownSound": "",
         "m_strAbilityChargeReadySound": "",
         "m_skillshotMissParticle": "particles/abilities/skillshot_default_miss_owner.vpcf",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_EQUAL_UNIT_TARGET_PRIORITY|CITADEL_ABILITY_BEHAVIOR_ALWAYS_PREVIEW_RADIUS | CITADEL_ABILITY_BEHAVIOR_USE_INSTANT_CAST_UNIT_TARGET_UI | CITADEL_ABILITY_BEHAVIOR_MOVEMENT",
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_UNIT",
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_CONE",
+        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_DONT_TRIGGER_POST_CAST_ON_CAST_COMPLETE | CITADEL_ABILITY_BEHAVIOR_USE_INSTANT_CAST_UNIT_TARGET_UI | CITADEL_ABILITY_BEHAVIOR_MOVEMENT",
         "m_flTargetingConeAngle": "20",
         "m_strCastAnimGraphParam": "b_RollerMine",
         "m_strAbilityImage": "file://{images}/hud/abilities/nano/nano_warp.psd",
@@ -317,56 +269,61 @@
             {
                 "m_vecPropertyUpgrades": [
                     {
-                        "m_strPropertyName": "SlowPercent",
-                        "m_strBonus": "20"
+                        "m_strPropertyName": "SlowDuration",
+                        "m_strBonus": "1"
                     }
                 ]
             },
             {
                 "m_vecPropertyUpgrades": [
                     {
-                        "m_strPropertyName": "DoublePounce",
-                        "m_strBonus": "4"
+                        "m_strPropertyName": "FireRateSlow",
+                        "m_strBonus": "30"
                     },
-                    {
-                        "m_strPropertyName": "AbilityCastRange",
-                        "m_strBonus": "8m"
-                    }
-                ]
-            },
-            {
-                "m_vecPropertyUpgrades": [
                     {
                         "m_strPropertyName": "ExplodeRadius",
                         "m_strBonus": "6m"
+                    }
+                ]
+            },
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "AbilityCharges",
+                        "m_strBonus": "1"
                     },
                     {
-                        "m_strPropertyName": "DebuffDuration",
-                        "m_strBonus": "8"
-                    },
-                    {
-                        "m_strPropertyName": "DamageAmplification",
-                        "m_strBonus": "35"
+                        "m_strPropertyName": "ActiveReloadPercent",
+                        "m_strBonus": "25"
                     }
                 ]
             }
         ],
         "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/nano_warp.webm",
-        "m_strCastSound": "Mods.Armor.RocketBoots.Cast",
-        "m_strExplodeSound": "Nano.NanoWarp.Impact",
-        "m_ExplodeSlowParticle": "particles/abilities/nano/nano_warp_detonation.vpcf",
-        "m_previewParticle": "particles/abilities/nano/nano_warp_cast_preview.vpcf",
-        "m_LaunchParticle": "particles/upgrades/rocket_boots.vpcf",
-        "m_flPounceDistanceFromTarget": "80",
-        "m_flPounceTargetOffset": "40.000000",
-        "m_flPounceToTargetMinStartTime": "0.600000",
-        "m_flPounceToTargetMaxStartTime": "0.600000",
-        "m_flPounceUpForce": "500.000000",
-        "m_flPounceXYForce": "1200.000000",
-        "m_flPounceNearbyForceFactor": "1.500000",
-        "m_flPounceMinSpeed": "400.000000",
-        "m_flPounceToTargetDist": "300",
-        "m_flAllyMinTargetRange": "400.000000",
+        "m_flAllyMinTargetRange": "200",
+        "m_flTargetVerticalOffset": "60",
+        "m_AttackSound": "Ability.Melee.Impact.Player",
+        "m_strCastSound": "Shiv.Ability.ShivFlash.Leap",
+        "m_flPreArrivalAttackStartTime": "0.200000",
+        "m_ExplodeSlowParticle": "particles/abilities/nano/nano_pounce_slow_aoe.vpcf",
+        "m_AttackParticle": "particles/abilities/nano/nano_pounce_attack_caster.vpcf",
+        "m_FlashParticle": "",
+        "m_CastParticle": "particles/abilities/nano/nano_pounce_cast.vpcf",
+        "m_PrimaryHitParticle": "particles/abilities/nano/nano_pounce.vpcf",
+        "m_LeapModifier": {
+            "_class": "modifier_citadel_nano_pounce_self",
+            "_my_subclass_name": "modifier_citadel_nano_pounce_self",
+            "m_bIsHidden": "true"
+        },
+        "m_SlowModifier": {
+            "_class": "modifier_slow_base",
+            "_my_subclass_name": "modifier_slow_base",
+            "m_sLocalizationName": "movement_slow",
+            "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
+                "SlowPercent",
+                "FireRateSlow"
+            ]
+        },
         "m_AbilityTooltipDetails": {
             "m_vecAbilityInfoSections": [
                 {
@@ -375,7 +332,7 @@
                         {
                             "m_vecAbilityProperties": [
                                 {
-                                    "m_strImportantProperty": "ExplosionDamage"
+                                    "m_strImportantProperty": "Damage"
                                 },
                                 {
                                     "m_strImportantProperty": "ExplodeRadius"
@@ -384,28 +341,13 @@
                         }
                     ],
                     "m_vecBasicProperties": [
+                        "FriendlyTargetCD",
+                        "FriendlyRechargeTime",
                         "SlowPercent",
-                        "SlowDuration",
-                        "DebuffDuration"
+                        "SlowDuration"
                     ]
                 }
             ]
-        },
-        "m_SlowModifier": {
-            "_class": "modifier_slow_base",
-            "_my_subclass_name": "modifier_slow_base",
-            "m_sLocalizationName": "movement_slow",
-            "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
-                "SlowPercent"
-            ]
-        },
-        "m_DebuffModifier": {
-            "_class": "modifier_nano_warp_debuff",
-            "_my_subclass_name": "modifier_nano_warp_debuff",
-            "m_sLocalizationName": "modifier_nano_warp_debuff",
-            "m_strParticleEffect": "particles/upgrades/tech_resist_debuff.vpcf",
-            "m_eDrawOverheadStatus": "OVERHEAD_DRAW_FOR_CASTER_ONLY",
-            "m_strSmallIconCssClass": "escalating_exposure"
         }
     }
 }

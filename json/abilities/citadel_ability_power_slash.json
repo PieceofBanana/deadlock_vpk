@@ -1,9 +1,10 @@
 {
     "citadel_ability_power_slash": {
         "_class": "citadel_ability_power_slash",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "8",
+                "m_strValue": "8.500000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -127,7 +128,7 @@
                 "m_strCSSClass": "tech_damage"
             },
             "FullChargeDamage": {
-                "m_strValue": "170",
+                "m_strValue": "160",
                 "m_strCSSClass": "tech_damage",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_tech_damage",
@@ -217,25 +218,6 @@
                 ]
             }
         },
-        "m_strCancelAbilityKey": "+in_cancel_ability",
-        "m_HUDPanel": {
-            "m_vecButtonHints": [
-                {
-                    "m_strLocToken": "#AbilityButtonHint_Activate",
-                    "m_eHintSide": "EButtonSide_Right",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_strContext": "trigger_early"
-                }
-            ],
-            "m_vecHUDElements": [
-                {
-                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
-                    "m_strContext": "slash",
-                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_power_slash.vxml",
-                    "m_strAdditionalClasses": ""
-                }
-            ]
-        },
         "_multibase": [
             "signature_base"
         ],
@@ -296,6 +278,24 @@
         "m_strCastAnimGraphParam": "e_PowerSlash",
         "m_strStartSound": "Yamato.PowerSlash.Start",
         "m_strChannelSound": "",
+        "m_HUDPanel": {
+            "m_vecHUDElements": [
+                {
+                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
+                    "m_strContext": "slash",
+                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_power_slash.vxml",
+                    "m_strAdditionalClasses": ""
+                }
+            ],
+            "m_vecButtonHints": [
+                {
+                    "m_strLocToken": "#AbilityButtonHint_Activate",
+                    "m_eHintSide": "EButtonSide_Right",
+                    "m_eButton1": "EButtonHint_Attack",
+                    "m_strContext": "trigger_early"
+                }
+            ]
+        },
         "m_ImpactParticle": "particles/abilities/yamato/yamato_power_slash_impact.vpcf",
         "m_CastParticle": "particles/abilities/yamato/yamato_power_slash_charge.vpcf",
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_UNIT",

@@ -1,9 +1,10 @@
 {
     "upgrade_rescue_beam": {
         "_class": "upgrade_rescue_beam",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "25",
+                "m_strValue": "26.000000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -25,7 +26,7 @@
                 }
             },
             "AbilityCastRange": {
-                "m_strValue": "45m",
+                "m_strValue": "36m",
                 "m_eDisplayUnits": "EDisplayUnit_Meters",
                 "m_strCSSClass": "range",
                 "m_bCanSetTokenOverride": "true",
@@ -114,7 +115,7 @@
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
             },
             "HealPercentAmount": {
-                "m_strValue": "30",
+                "m_strValue": "26",
                 "m_strCSSClass": "healing",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",
@@ -189,38 +190,6 @@
                 ]
             }
         },
-        "m_strCancelAbilityKey": "+in_cancel_ability",
-        "m_HUDPanel": {
-            "m_vecButtonHints": [
-                {
-                    "m_strLocToken": "#upgrade_rescue_beam_pull",
-                    "m_eHintSide": "EButtonSide_Right",
-                    "m_strContext": "rescue_pull",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_eButton2": "EButtonHint_Attack"
-                },
-                {
-                    "m_strContext": "alt_cast_select_then_alt_cast_key_hint",
-                    "m_strBindingOverride1": "in_alt_cast",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_SelectThenSelfCastButton"
-                },
-                {
-                    "m_strContext": "deselect",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_Deselect",
-                    "m_nPriority": "1"
-                }
-            ],
-            "m_vecHUDElements": [
-                {
-                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
-                    "m_strContext": "channel",
-                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_progress_bar.vxml"
-                }
-            ]
-        },
         "_multibase": [
             "armor_upgrade_t3"
         ],
@@ -243,6 +212,23 @@
         "m_strCSSClass": "medicBeam",
         "m_strAbilityImage": "file://{images}/upgrades/mods_tech/medic_beam.psd",
         "m_previewParticle": "particles/items/tech_dispel_and_heal_preview.vpcf",
+        "m_HUDPanel": {
+            "m_vecHUDElements": [
+                {
+                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
+                    "m_strContext": "channel",
+                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_progress_bar.vxml"
+                }
+            ],
+            "m_vecButtonHints": [
+                {
+                    "m_strLocToken": "#upgrade_rescue_beam_pull",
+                    "m_eHintSide": "EButtonSide_Right",
+                    "m_strContext": "rescue_pull",
+                    "m_eButton1": "EButtonHint_Attack"
+                }
+            ]
+        },
         "m_DispelAndHealModifier": {
             "_class": "modifier_citadel_rescue_beam",
             "_my_subclass_name": "modifier_citadel_rescue_beam",
@@ -306,9 +292,8 @@
                 ]
             }
         ],
-        "m_vecComponentItems": [
-            "upgrade_health_stimpak"
-        ],
-        "m_eShopFilters": "EShopFilterMagicDamage | EShopFilterDurability | EShopFilterHealing | EShopFilterMovement"
+        "m_eShopFilters": "EShopFilterMagicDamage | EShopFilterDurability | EShopFilterHealing | EShopFilterMovement",
+        "m_strAltCastButtonLocToken": "#AbilityButtonHint_HealSelf",
+        "m_strCastButtonLocToken": "#AbilityButtonHint_HealTarget"
     }
 }

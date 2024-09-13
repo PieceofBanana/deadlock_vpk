@@ -1395,7 +1395,7 @@
 		
 		{
 			m_name = "HasHealedHeroes1Thousand"
-			m_matchKey = "hero_healing"
+			m_matchKey = "other_hero_healing"
 			m_matchExpr = ">1000"
 			m_bRequired = true
 		},
@@ -1418,6 +1418,13 @@
 			m_name = "HasHealedHeroes5Thousand"
 			m_matchKey = "other_hero_healing"
 			m_matchExpr = ">5000"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "Is10thAssist"
+			m_matchKey = "assist_count"
+			m_matchExpr = "10"
 			m_bRequired = true
 		},
 	]
@@ -1447,6 +1454,7 @@
 		TLK_CITADEL_ANN_TEAM_LANE_BOSS_ATTACKED = 400
 		TLK_CITADEL_ANN_TEAM_BASE_BOSS_DESTROYED = 490
 		TLK_CITADEL_ANN_TEAM_LANE_BOSS_DESTROYED = 490
+		TLK_CITADEL_ANN_COMMEND_HERO = 380
 	}
 	m_speakerType = "citadel_announcer"
 }

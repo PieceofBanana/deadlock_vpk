@@ -1,9 +1,10 @@
 {
     "citadel_ability_hornet_leap": {
         "_class": "citadel_ability_hornet_leap",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "40",
+                "m_strValue": "42.000000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -137,9 +138,6 @@
             "AirSideMoveSpeedPercentage": {
                 "m_strValue": "-35"
             },
-            "AirDrag": {
-                "m_strValue": "2.0"
-            },
             "MinVelocityZ": {
                 "m_strValue": "-20.0"
             },
@@ -204,31 +202,6 @@
                 ]
             }
         },
-        "m_strCancelAbilityKey": "+in_cancel_ability",
-        "m_HUDPanel": {
-            "m_vecButtonHints": [
-                {
-                    "m_eButton1": "EButtonHint_DashKey",
-                    "m_strLocToken": "#AbilityButtonHint_FlyUp",
-                    "m_eHintSide": "EButtonSide_Right",
-                    "m_strContext": "leaping"
-                },
-                {
-                    "m_eButton1": "EButtonHint_CrouchKey",
-                    "m_strLocToken": "#AbilityButtonHint_FlyDown",
-                    "m_eHintSide": "EButtonSide_Right",
-                    "m_strContext": "leaping"
-                }
-            ],
-            "m_vecHUDElements": [
-                {
-                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
-                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_progress_bar.vxml",
-                    "m_strContext": "leaping",
-                    "m_bReverseProgress": "true"
-                }
-            ]
-        },
         "_multibase": [
             "signature_base"
         ],
@@ -263,7 +236,7 @@
                 "m_vecPropertyUpgrades": [
                     {
                         "m_strPropertyName": "AbilityCooldown",
-                        "m_strBonus": "-15"
+                        "m_strBonus": "-14.000000"
                     }
                 ]
             },
@@ -277,9 +250,11 @@
             }
         ],
         "m_flAirDrag": "2.000000",
+        "m_flAirSpeedApproach": "100.000000",
         "m_LeapModifier": {
             "_class": "modifier_hornet_leap",
             "_my_subclass_name": "modifier_hornet_leap",
+            "m_nEnabledStateMask": "MODIFIER_STATE_JUMP_DISABLED | MODIFIER_STATE_DISABLE_AIR_SPREAD_PENALTY | MODIFIER_STATE_UNLIMITED_AIR_DASHES | MODIFIER_STATE_ZIPLINE_DISABLED",
             "m_strHintText": "modifier_hint_vertical_movement",
             "m_sLocalizationName": "modifier_citadel_hornetleap",
             "m_bIsHidden": "true",
@@ -294,6 +269,30 @@
         "m_DustParticle": "particles/abilities/hornet/hornet_leap.vpcf",
         "m_TrailParticle": "particles/abilities/hornet/hornet_leap_buff_trail.vpcf",
         "m_CastParticle": "particles/abilities/hornet/hornet_leap_cast.vpcf",
+        "m_HUDPanel": {
+            "m_vecHUDElements": [
+                {
+                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
+                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_progress_bar.vxml",
+                    "m_strContext": "leaping",
+                    "m_bReverseProgress": "true"
+                }
+            ],
+            "m_vecButtonHints": [
+                {
+                    "m_eButton1": "EButtonHint_JumpKey",
+                    "m_strLocToken": "#AbilityButtonHint_FlyUp",
+                    "m_eHintSide": "EButtonSide_Right",
+                    "m_strContext": "leaping"
+                },
+                {
+                    "m_eButton1": "EButtonHint_CrouchKey",
+                    "m_strLocToken": "#AbilityButtonHint_FlyDown",
+                    "m_eHintSide": "EButtonSide_Right",
+                    "m_strContext": "leaping"
+                }
+            ]
+        },
         "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/hornet_flight.webm",
         "m_AbilityTooltipDetails": {
             "m_vecAbilityInfoSections": [

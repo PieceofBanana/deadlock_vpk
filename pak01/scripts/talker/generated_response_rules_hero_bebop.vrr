@@ -32,6 +32,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -42,6 +43,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -52,6 +54,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -62,6 +65,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -72,6 +76,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -82,6 +87,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -92,6 +98,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -102,6 +109,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -112,6 +120,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -122,6 +131,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -139,6 +149,7 @@
 											m_value = "bebop_kill_gigawatt_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -164,6 +175,7 @@
 											m_value = "bebop_kill_wraith_04_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -173,6 +185,7 @@
 											m_value = "bebop_kill_wraith_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -198,6 +211,7 @@
 											m_value = "bebop_kill_dynamo_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -207,6 +221,7 @@
 											m_value = "bebop_kill_dynamo_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -232,6 +247,7 @@
 											m_value = "bebop_kill_kelvin_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -241,6 +257,7 @@
 											m_value = "bebop_kill_kelvin_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -250,6 +267,7 @@
 											m_value = "bebop_kill_kelvin_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -259,6 +277,7 @@
 											m_value = "bebop_kill_kelvin_04_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -284,6 +303,7 @@
 											m_value = "bebop_kill_haze_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -293,6 +313,7 @@
 											m_value = "bebop_kill_haze_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -318,6 +339,7 @@
 											m_value = "bebop_kill_orion_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -343,6 +365,7 @@
 											m_value = "bebop_kill_krill_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -352,6 +375,7 @@
 											m_value = "bebop_kill_krill_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -361,6 +385,7 @@
 											m_value = "bebop_kill_krill_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -370,6 +395,7 @@
 											m_value = "bebop_kill_krill_04_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -379,6 +405,7 @@
 											m_value = "bebop_kill_krill_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -404,6 +431,7 @@
 											m_value = "bebop_kill_shiv_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -413,6 +441,7 @@
 											m_value = "bebop_kill_shiv_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -422,6 +451,7 @@
 											m_value = "bebop_kill_shiv_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -431,6 +461,7 @@
 											m_value = "bebop_kill_shiv_04_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -440,6 +471,7 @@
 											m_value = "bebop_kill_shiv_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -465,6 +497,7 @@
 											m_value = "bebop_kill_warden_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -474,6 +507,7 @@
 											m_value = "bebop_kill_warden_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -483,6 +517,7 @@
 											m_value = "bebop_kill_warden_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -492,6 +527,7 @@
 											m_value = "bebop_kill_warden_04_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -501,6 +537,7 @@
 											m_value = "bebop_kill_warden_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -526,6 +563,7 @@
 											m_value = "bebop_kill_yamato_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -551,6 +589,7 @@
 											m_value = "bebop_kill_lash_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -560,6 +599,7 @@
 											m_value = "bebop_kill_lash_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -569,6 +609,7 @@
 											m_value = "bebop_kill_lash_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -578,6 +619,7 @@
 											m_value = "bebop_kill_lash_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -603,6 +645,7 @@
 											m_value = "bebop_kill_viscous_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -612,6 +655,7 @@
 											m_value = "bebop_kill_viscous_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -621,6 +665,7 @@
 											m_value = "bebop_kill_viscous_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -630,6 +675,7 @@
 											m_value = "bebop_kill_viscous_04_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -639,6 +685,7 @@
 											m_value = "bebop_kill_viscous_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -676,6 +723,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -686,6 +734,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -696,6 +745,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -706,6 +756,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -716,6 +767,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -731,6 +783,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "bebop_kill_gigawatt_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -752,11 +809,21 @@
 										{
 											m_type = "SPEAK"
 											m_value = "bebop_kill_wraith_04_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "bebop_kill_wraith_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -778,11 +845,21 @@
 										{
 											m_type = "SPEAK"
 											m_value = "bebop_kill_dynamo_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "bebop_kill_dynamo_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -804,21 +881,41 @@
 										{
 											m_type = "SPEAK"
 											m_value = "bebop_kill_kelvin_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "bebop_kill_kelvin_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "bebop_kill_kelvin_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "bebop_kill_kelvin_04_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -840,11 +937,21 @@
 										{
 											m_type = "SPEAK"
 											m_value = "bebop_kill_haze_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "bebop_kill_haze_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -866,6 +973,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "bebop_kill_orion_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -887,26 +999,51 @@
 										{
 											m_type = "SPEAK"
 											m_value = "bebop_kill_krill_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "bebop_kill_krill_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "bebop_kill_krill_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "bebop_kill_krill_04_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "bebop_kill_krill_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -928,26 +1065,51 @@
 										{
 											m_type = "SPEAK"
 											m_value = "bebop_kill_shiv_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "bebop_kill_shiv_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "bebop_kill_shiv_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "bebop_kill_shiv_04_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "bebop_kill_shiv_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -969,26 +1131,51 @@
 										{
 											m_type = "SPEAK"
 											m_value = "bebop_kill_warden_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "bebop_kill_warden_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "bebop_kill_warden_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "bebop_kill_warden_04_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "bebop_kill_warden_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -1010,6 +1197,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "bebop_kill_yamato_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -1031,21 +1223,41 @@
 										{
 											m_type = "SPEAK"
 											m_value = "bebop_kill_lash_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "bebop_kill_lash_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "bebop_kill_lash_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "bebop_kill_lash_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -1067,26 +1279,51 @@
 										{
 											m_type = "SPEAK"
 											m_value = "bebop_kill_viscous_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "bebop_kill_viscous_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "bebop_kill_viscous_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "bebop_kill_viscous_04_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "bebop_kill_viscous_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -1123,6 +1360,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -1150,6 +1388,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -1177,6 +1416,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -2192,16 +2432,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "bebop_use_metal_skin_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "bebop_use_metal_skin_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "bebop_use_metal_skin_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -2222,16 +2477,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "bebop_use_tech_purge_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "bebop_use_tech_purge_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "bebop_use_tech_purge_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -2252,16 +2522,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "bebop_use_ability_refresher_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "bebop_use_ability_refresher_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "bebop_use_ability_refresher_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -2282,16 +2567,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "bebop_use_ice_blast_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "bebop_use_ice_blast_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "bebop_use_ice_blast_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -2312,16 +2612,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "bebop_use_surging_power_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "bebop_use_surging_power_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "bebop_use_surging_power_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -2342,16 +2657,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "bebop_use_phantom_strike_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "bebop_use_phantom_strike_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "bebop_use_phantom_strike_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -2372,16 +2702,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "bebop_use_unstoppable_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "bebop_use_unstoppable_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "bebop_use_unstoppable_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -2402,16 +2747,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "bebop_use_echo_shard_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "bebop_use_echo_shard_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "bebop_use_echo_shard_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -2444,6 +2804,7 @@
 							m_params = 
 							{
 								m_delay.start = 0.500000
+								m_respeakdelay.start = 0.000000
 								m_predelay.start = 0.500000
 								m_bSpeakOnce = true
 							}
@@ -2455,6 +2816,7 @@
 							m_params = 
 							{
 								m_delay.start = 0.500000
+								m_respeakdelay.start = 0.000000
 								m_predelay.start = 0.500000
 								m_bSpeakOnce = true
 							}
@@ -2466,6 +2828,7 @@
 							m_params = 
 							{
 								m_delay.start = 0.500000
+								m_respeakdelay.start = 0.000000
 								m_predelay.start = 0.500000
 								m_bSpeakOnce = true
 							}
@@ -2485,6 +2848,8 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
 										m_bSpeakOnce = true
 									}
 								},
@@ -2495,6 +2860,8 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
 										m_bSpeakOnce = true
 									}
 								},
@@ -2505,6 +2872,8 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
 										m_bSpeakOnce = true
 									}
 								},
@@ -2545,6 +2914,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -2555,6 +2925,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -2565,6 +2936,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -2592,6 +2964,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -2602,6 +2975,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -2612,6 +2986,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -2639,6 +3014,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -2649,6 +3025,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -2659,6 +3036,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -2685,6 +3063,7 @@
 									m_value = "bebop_t4_shop_reminder_01_hero_3d"
 									m_params = 
 									{
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -2694,6 +3073,7 @@
 									m_value = "bebop_t4_shop_reminder_02_hero_3d"
 									m_params = 
 									{
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -2703,6 +3083,7 @@
 									m_value = "bebop_t4_shop_reminder_03_hero_3d"
 									m_params = 
 									{
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -4181,31 +4562,6 @@
 						},
 						
 						{
-							m_name = "Bebop_Ping_Help_Orange"
-							m_responses = 
-							[
-								
-								{
-									m_type = "SPEAK"
-									m_value = "bebop_ping_need_help_orange_ping_2d"
-									m_params = 
-									{
-										m_bCancelExisting = true
-									}
-								},
-							]
-							m_pEmbeddedRule = 
-							{
-								m_name = "Bebop_Ping_Help_Orange"
-								m_Requirements = 
-								[
-									"ConceptHelp",
-									"PlayerInOrange",
-								]
-							}
-						},
-						
-						{
 							m_name = "Bebop_Ping_Help_Blue"
 							m_responses = 
 							[
@@ -4454,31 +4810,6 @@
 						},
 						
 						{
-							m_name = "Bebop_Push_Boss_Orange_Lane"
-							m_responses = 
-							[
-								
-								{
-									m_type = "SPEAK"
-									m_value = "bebop_ping_push_orange_01_ping_2d"
-									m_params = 
-									{
-										m_bCancelExisting = true
-									}
-								},
-							]
-							m_pEmbeddedRule = 
-							{
-								m_name = "Bebop_Push_Boss_Orange_Lane"
-								m_Requirements = 
-								[
-									"ConceptPushLane",
-									"OrangeLane",
-								]
-							}
-						},
-						
-						{
 							m_name = "Bebop_Push_Boss_Yellow_Lane"
 							m_responses = 
 							[
@@ -4716,57 +5047,6 @@
 						},
 						
 						{
-							m_name = "Bebop_Defend_Boss_Orange_Lane"
-							m_responses = 
-							[
-								
-								{
-									m_type = "SPEAK"
-									m_value = "bebop_ping_headed_orange_01_ping_2d"
-									m_params = 
-									{
-										m_bCancelExisting = true
-									}
-								},
-							]
-							m_pEmbeddedRule = 
-							{
-								m_name = "Bebop_Defend_Boss_Orange_Lane"
-								m_Requirements = 
-								[
-									"ConceptDefendLane",
-									"OrangeLane",
-								]
-							}
-						},
-						
-						{
-							m_name = "Bebop_Orange_Lane_Boss_Needs_Help"
-							m_responses = 
-							[
-								
-								{
-									m_type = "SPEAK"
-									m_value = "bebop_ping_orange_help_01_ping_2d"
-									m_params = 
-									{
-										m_bCancelExisting = true
-									}
-								},
-							]
-							m_pEmbeddedRule = 
-							{
-								m_name = "Bebop_Orange_Lane_Boss_Needs_Help"
-								m_Requirements = 
-								[
-									"ConceptDefendLane",
-									"OrangeLane",
-									"IsAggressive",
-								]
-							}
-						},
-						
-						{
 							m_name = "Bebop_Heading_Generic"
 							m_responses = 
 							[
@@ -4845,31 +5125,6 @@
 								[
 									"ConceptHeadingLane",
 									"YellowLane",
-								]
-							}
-						},
-						
-						{
-							m_name = "Bebop_Heading_Orange"
-							m_responses = 
-							[
-								
-								{
-									m_type = "SPEAK"
-									m_value = "bebop_ping_headed_orange_01_ping_2d"
-									m_params = 
-									{
-										m_bCancelExisting = true
-									}
-								},
-							]
-							m_pEmbeddedRule = 
-							{
-								m_name = "Bebop_Heading_Orange"
-								m_Requirements = 
-								[
-									"ConceptHeadingLane",
-									"OrangeLane",
 								]
 							}
 						},
@@ -4954,31 +5209,6 @@
 								[
 									"ConceptLetsGoHere",
 									"YellowLane",
-								]
-							}
-						},
-						
-						{
-							m_name = "Bebop_Lets_Go_Orange"
-							m_responses = 
-							[
-								
-								{
-									m_type = "SPEAK"
-									m_value = "bebop_ping_lets_go_orange_ping_2d"
-									m_params = 
-									{
-										m_bCancelExisting = true
-									}
-								},
-							]
-							m_pEmbeddedRule = 
-							{
-								m_name = "Bebop_Lets_Go_Orange"
-								m_Requirements = 
-								[
-									"ConceptLetsGoHere",
-									"OrangeLane",
 								]
 							}
 						},
@@ -12880,7 +13110,7 @@
 									m_value = "bebop_be_careful_01_hero_3d"
 									m_params = 
 									{
-										m_respeakdelay.start = 30.000000
+										m_respeakdelay.start = 90.000000
 										m_predelay.start = 0.000000
 									}
 								},
@@ -12890,7 +13120,7 @@
 									m_value = "bebop_be_careful_02_hero_3d"
 									m_params = 
 									{
-										m_respeakdelay.start = 30.000000
+										m_respeakdelay.start = 90.000000
 										m_predelay.start = 0.000000
 									}
 								},
@@ -12900,7 +13130,7 @@
 									m_value = "bebop_be_careful_03_hero_3d"
 									m_params = 
 									{
-										m_respeakdelay.start = 30.000000
+										m_respeakdelay.start = 90.000000
 										m_predelay.start = 0.000000
 									}
 								},
@@ -12910,9 +13140,9 @@
 								m_name = "Bebop_Be_Careful"
 								m_Requirements = 
 								[
-									"InEnemyTerritoryFor2Seconds",
 									"AwayFromAlliesFor2Seconds",
 									"NoNearbyEnemiesFor2Seconds",
+									"InEnemyTerritoryFor20Seconds",
 								]
 							}
 						},

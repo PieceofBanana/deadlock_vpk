@@ -35,10 +35,9 @@
             "EStaminaRegenPerSecond": "0.200000",
             "EAbilityResourceMax": "0",
             "EAbilityResourceRegenPerSecond": "0",
-            "ECritDamageReceivedScale": "0.750000",
+            "ECritDamageReceivedScale": "0.650000",
             "ETechDuration": "1",
-            "ETechRange": "1",
-            "EBulletArmorDamageReduction": "8.000000"
+            "ETechRange": "1"
         },
         "m_flCollisionRadius": "20",
         "m_flCollisionHeight": "80",
@@ -523,7 +522,7 @@
             "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": "3.400000",
             "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": "31.000000",
             "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": "0.000000",
-            "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": "1.000000"
+            "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": "0.000000"
         },
         "m_eAbilityResourceType": "EResourceType_None",
         "m_ShopStatDisplay": {
@@ -594,49 +593,6 @@
         "m_hGeneratedVOEventScript": "soundevents/vo/generated_vo_hero_gigawatt.vsndevts",
         "m_strRosterRemovedSound": "Gigawatt.VO.HeroRemove",
         "m_strTopBarImage": "file://{images}/hud/hero_portraits/gigwatt_hud.psd",
-        "m_cameraSequenceLatched": {
-            "m_vecDistanceOperations": [
-                {
-                    "m_bLerpEndAtDefault": "false",
-                    "m_flLerpEnd": "150.000000",
-                    "m_flLerpDuration": "0.300000",
-                    "m_eCameraOperation": "k_ECameraOp_Lerp"
-                },
-                {
-                    "m_flMaintainDuration": "-1.000000",
-                    "m_eCameraOperation": "k_ECameraOp_Maintain"
-                }
-            ],
-            "m_vecFOVOperations": [
-                {
-                    "m_bLerpEndAtDefault": "false",
-                    "m_flLerpEnd": "120.000000",
-                    "m_flLerpDuration": "0.300000",
-                    "m_eCameraOperation": "k_ECameraOp_Lerp"
-                },
-                {
-                    "m_flMaintainDuration": "-1.000000",
-                    "m_eCameraOperation": "k_ECameraOp_Maintain"
-                }
-            ]
-        },
-        "m_cameraSequenceAttached": {
-            "m_vecDistanceOperations": [
-                {
-                    "m_bLerpEndAtDefault": "false",
-                    "m_flLerpEnd": "71.000000",
-                    "m_flLerpDuration": "0.400000",
-                    "m_eCameraOperation": "k_ECameraOp_Lerp"
-                }
-            ],
-            "m_vecFOVOperations": [
-                {
-                    "m_flLerpDuration": "5.000000",
-                    "m_eCameraOperation": "k_ECameraOp_Lerp"
-                }
-            ]
-        },
-        "m_cameraSequenceClear": {},
         "m_strUIPortraitMap": "maps/ui/hero_prefabs/gigawatt.vmap",
         "m_RecommendedUpgrades": [
             "upgrade_non_player_bonus",

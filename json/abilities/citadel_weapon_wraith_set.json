@@ -1,6 +1,7 @@
 {
     "citadel_weapon_wraith_set": {
         "_class": "citadel_ability_primary_weapon",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
                 "m_strValue": "0",
@@ -262,7 +263,9 @@
             "m_strReloadEndSound": "Wraith.Wpn.Reload.Clip.In",
             "m_strZoomInSound": "Wraith.Wpn.Zoom.In",
             "m_strZoomOutSound": "Wraith.Wpn.Zoom.Out",
+            "m_strLowAmmoSound": "Player.WpnLowAmmo.Shared",
             "m_bBulletShouldUseVerlet": "true",
+            "m_nLowAmmoIndicatorThreshold": "8",
             "m_flSpreadPerShot": "0.000000",
             "m_flRecoilRecoveryDelayFactor": "0.050000",
             "m_flSpreadDecay": "2.500000",

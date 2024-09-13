@@ -1,9 +1,10 @@
 {
     "citadel_ability_tengu_airlift": {
         "_class": "citadel_ability_tengu_airlift",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "80.0",
+                "m_strValue": "85.000000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -204,7 +205,7 @@
             },
             "DebuffDuration": {
                 "m_strLocTokenOverride": "AirDropDebuffDuration",
-                "m_strValue": "4.5",
+                "m_strValue": "4",
                 "m_strCSSClass": "duration",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",
@@ -272,62 +273,6 @@
             "m_eAttachmentSourceType": "EAttachmentSource_Custom",
             "m_strBulletLoopingSound": "Tengu.StoneSquall.Projectile.Lp"
         },
-        "m_strCancelAbilityKey": "+in_cancel_ability",
-        "m_HUDPanel": {
-            "m_vecButtonHints": [
-                {
-                    "m_strLocToken": "#AbilityButtonHint_DragonsFireSpeedUp",
-                    "m_eHintSide": "EButtonSide_Right",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_strContext": "flying"
-                },
-                {
-                    "m_eButton1": "EButtonHint_DashKey",
-                    "m_strLocToken": "#AbilityButtonHint_MoveUp",
-                    "m_eHintSide": "EButtonSide_Right",
-                    "m_strContext": "flying"
-                },
-                {
-                    "m_eButton1": "EButtonHint_CrouchKey",
-                    "m_strLocToken": "#AbilityButtonHint_MoveDown",
-                    "m_eHintSide": "EButtonSide_Right",
-                    "m_strContext": "flying"
-                },
-                {
-                    "m_strLocToken": "#AbilityButtonHint_DropTarget",
-                    "m_eHintSide": "EButtonSide_Right",
-                    "m_strBindingOverride1": "+attack2",
-                    "m_strContext": "drop"
-                },
-                {
-                    "m_strLocToken": "#AbilityButtonHint_DropBomb",
-                    "m_eHintSide": "EButtonSide_Right",
-                    "m_strBindingOverride1": "+attack2",
-                    "m_strContext": "bomb"
-                },
-                {
-                    "m_strContext": "alt_cast_select_then_alt_cast_key_hint",
-                    "m_strBindingOverride1": "in_alt_cast",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_SelectThenSelfCastButton"
-                },
-                {
-                    "m_strContext": "deselect",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_Deselect",
-                    "m_nPriority": "1"
-                }
-            ],
-            "m_vecHUDElements": [
-                {
-                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
-                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_progress_bar.vxml",
-                    "m_strContext": "flying",
-                    "m_bReverseProgress": "true"
-                }
-            ]
-        },
         "_multibase": [
             "ultimate_base"
         ],
@@ -350,6 +295,7 @@
         "m_strAbilityImage": "file://{images}/hud/abilities/tengu/tengu_lightning_crash.psd",
         "m_flTargetAirSpeedFast": "708.661000",
         "m_flTargetAirSpeedBase": "433.071000",
+        "m_flMoveCollideSpeed": "275.591000",
         "m_flAcceleration": "9",
         "m_flDecceleration": "9",
         "m_flAirSideSpeedPercent": "-80.000000",
@@ -407,7 +353,7 @@
             "_my_subclass_name": "modifier_base",
             "_class": "modifier_base",
             "m_bIsHidden": "true",
-            "m_nEnabledStateMask": "MODIFIER_STATE_AIM_FORWARD_WITH_PITCH | MODIFIER_STATE_CHARGING | MODIFIER_STATE_DASH_DISABLED | MODIFIER_STATE_DAMAGE_MOVEMENT_PENALTY_IMMUNE | MODIFIER_STATE_SPRINTING | MODIFIER_STATE_MANTLE_DISABLED | MODIFIER_STATE_SLIDING_DISABLED | MODIFIER_STATE_DUCKING_DISABLED | MODIFIER_STATE_SHOOTING_DISABLED | MODIFIER_STATE_HIDE_CROSSHAIR | MODIFIER_STATE_MELEE_DISABLED",
+            "m_nEnabledStateMask": "MODIFIER_STATE_AIM_FORWARD_WITH_PITCH | MODIFIER_STATE_DASH_DISABLED | MODIFIER_STATE_SPRINTING | MODIFIER_STATE_MANTLE_DISABLED | MODIFIER_STATE_SLIDING_DISABLED | MODIFIER_STATE_DUCKING_DISABLED | MODIFIER_STATE_SHOOTING_DISABLED | MODIFIER_STATE_HIDE_CROSSHAIR | MODIFIER_STATE_MELEE_DISABLED",
             "m_cameraSequenceCreated": {
                 "m_vecDistanceOperations": [
                     {
@@ -418,7 +364,8 @@
                     },
                     {
                         "m_flMaintainDuration": "99.000000",
-                        "m_eCameraOperation": "k_ECameraOp_Maintain"
+                        "m_eCameraOperation": "k_ECameraOp_Maintain",
+                        "m_flMaintainFloat": "500.000000"
                     }
                 ]
             },
@@ -508,7 +455,8 @@
                     },
                     {
                         "m_flMaintainDuration": "99.000000",
-                        "m_eCameraOperation": "k_ECameraOp_Maintain"
+                        "m_eCameraOperation": "k_ECameraOp_Maintain",
+                        "m_flMaintainFloat": "500.000000"
                     }
                 ]
             },
@@ -549,6 +497,48 @@
                         "BulletArmorReductionDuration",
                         "SilenceDuration"
                     ]
+                }
+            ]
+        },
+        "m_HUDPanel": {
+            "m_vecHUDElements": [
+                {
+                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
+                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_progress_bar.vxml",
+                    "m_strContext": "flying",
+                    "m_bReverseProgress": "true"
+                }
+            ],
+            "m_vecButtonHints": [
+                {
+                    "m_strLocToken": "#AbilityButtonHint_DragonsFireSpeedUp",
+                    "m_eHintSide": "EButtonSide_Right",
+                    "m_eButton1": "EButtonHint_Attack",
+                    "m_strContext": "flying"
+                },
+                {
+                    "m_eButton1": "EButtonHint_DashKey",
+                    "m_strLocToken": "#AbilityButtonHint_MoveUp",
+                    "m_eHintSide": "EButtonSide_Right",
+                    "m_strContext": "flying"
+                },
+                {
+                    "m_eButton1": "EButtonHint_CrouchKey",
+                    "m_strLocToken": "#AbilityButtonHint_MoveDown",
+                    "m_eHintSide": "EButtonSide_Right",
+                    "m_strContext": "flying"
+                },
+                {
+                    "m_strLocToken": "#AbilityButtonHint_DropTarget",
+                    "m_eHintSide": "EButtonSide_Right",
+                    "m_strBindingOverride1": "+attack2",
+                    "m_strContext": "drop"
+                },
+                {
+                    "m_strLocToken": "#AbilityButtonHint_DropBomb",
+                    "m_eHintSide": "EButtonSide_Right",
+                    "m_strBindingOverride1": "+attack2",
+                    "m_strContext": "bomb"
                 }
             ]
         },

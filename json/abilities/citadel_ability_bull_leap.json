@@ -1,9 +1,10 @@
 {
     "citadel_ability_bull_leap": {
         "_class": "citadel_ability_bull_leap",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "150",
+                "m_strValue": "159.000000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -213,24 +214,6 @@
                 ]
             }
         },
-        "m_strCancelAbilityKey": "+in_cancel_ability",
-        "m_HUDPanel": {
-            "m_vecButtonHints": [
-                {
-                    "m_strLocToken": "#AbilityButtonHint_BullLeapCrash",
-                    "m_eHintSide": "EButtonSide_Right",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_strContext": "hovering"
-                }
-            ],
-            "m_vecHUDElements": [
-                {
-                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
-                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_converging_semi_circles.vxml",
-                    "m_strContext": "leaping"
-                }
-            ]
-        },
         "_multibase": [
             "ultimate_base"
         ],
@@ -263,7 +246,7 @@
                 "m_vecPropertyUpgrades": [
                     {
                         "m_strPropertyName": "AbilityCooldown",
-                        "m_strBonus": "-40"
+                        "m_strBonus": "-38.000000"
                     }
                 ]
             },
@@ -316,7 +299,8 @@
                     },
                     {
                         "m_eCameraOperation": "k_ECameraOp_Maintain",
-                        "m_flMaintainDuration": "100.000000"
+                        "m_flMaintainDuration": "100.000000",
+                        "m_flMaintainFloat": "60.000000"
                     }
                 ],
                 "m_vecHorizOffsetOperations": [
@@ -329,7 +313,8 @@
                     },
                     {
                         "m_eCameraOperation": "k_ECameraOp_Maintain",
-                        "m_flMaintainDuration": "100.000000"
+                        "m_flMaintainDuration": "100.000000",
+                        "m_flMaintainFloat": "-20.000000"
                     }
                 ],
                 "m_vecDistanceOperations": [
@@ -342,7 +327,8 @@
                     },
                     {
                         "m_eCameraOperation": "k_ECameraOp_Maintain",
-                        "m_flMaintainDuration": "100.000000"
+                        "m_flMaintainDuration": "100.000000",
+                        "m_flMaintainFloat": "50.000000"
                     }
                 ]
             }
@@ -366,7 +352,6 @@
         "m_ImmunityModifier": {
             "_class": "modifier_unstoppable",
             "_my_subclass_name": "modifier_unstoppable",
-            "m_bIsHidden": "false",
             "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER",
             "m_sAmbientLoopingSound": "Mods.Armor.TechDefender.Lp",
             "m_sStartSound": "Mods.Armor.TechDefender.Cast",
@@ -378,12 +363,31 @@
             "m_nStatusEffectPriority": "25",
             "m_bIsHiddenOverhead": "true",
             "m_sLocalizationName": "modifier_abrams_immunity",
+            "m_bIsHidden": "true",
+            "m_strHudMessageText": "#modifier_unstoppable",
             "m_nDisabledStateMask": "MODIFIER_STATE_DISARMED | MODIFIER_STATE_MUTED | MODIFIER_STATE_SILENCED | MODIFIER_STATE_SILENCE_MOVEMENT_ABILITES | MODIFIER_STATE_SLOWED | MODIFIER_STATE_GLITCHED | MODIFIER_STATE_MELEE_DISABLED_DEBUFF | MODIFIER_STATE_DASH_DISABLED_DEBUFF"
         },
         "m_LandingBonusesModifier": {
             "_class": "modifier_citadel_bull_leap_landing_bonuses",
             "_my_subclass_name": "modifier_citadel_bull_leap_landing_bonuses",
             "m_bIsHidden": "true"
+        },
+        "m_HUDPanel": {
+            "m_vecHUDElements": [
+                {
+                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
+                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_converging_semi_circles.vxml",
+                    "m_strContext": "leaping"
+                }
+            ],
+            "m_vecButtonHints": [
+                {
+                    "m_strLocToken": "#AbilityButtonHint_BullLeapCrash",
+                    "m_eHintSide": "EButtonSide_Right",
+                    "m_eButton1": "EButtonHint_Attack",
+                    "m_strContext": "hovering"
+                }
+            ]
         },
         "m_AbilityTooltipDetails": {
             "m_vecAbilityInfoSections": [

@@ -1,9 +1,10 @@
 {
     "citadel_ability_psychic_daggers": {
         "_class": "citadel_ability_psychic_daggers",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "40",
+                "m_strValue": "42.000000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -212,25 +213,6 @@
                 ]
             }
         },
-        "m_strCancelAbilityKey": "+in_cancel_ability",
-        "m_HUDPanel": {
-            "m_vecButtonHints": [
-                {
-                    "m_eButton1": "EButtonHint_Cancel",
-                    "m_strLocToken": "#ability_abort_cast",
-                    "m_eHintSide": "EButtonSide_Right",
-                    "m_strContext": "trigger"
-                }
-            ],
-            "m_vecHUDElements": [
-                {
-                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
-                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_progress_bar.vxml",
-                    "m_strContext": "cast",
-                    "m_bReverseProgress": "true"
-                }
-            ]
-        },
         "_multibase": [
             "signature_base"
         ],
@@ -264,7 +246,7 @@
                 "m_vecPropertyUpgrades": [
                     {
                         "m_strPropertyName": "AbilityCooldown",
-                        "m_strBonus": "-20"
+                        "m_strBonus": "-19.000000"
                     }
                 ]
             },
@@ -307,6 +289,16 @@
                 "0"
             ],
             "m_flDesatAmount": "0.000000"
+        },
+        "m_HUDPanel": {
+            "m_vecHUDElements": [
+                {
+                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
+                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_progress_bar.vxml",
+                    "m_strContext": "cast",
+                    "m_bReverseProgress": "true"
+                }
+            ]
         },
         "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/wraith_psychic_daggers.webm",
         "m_AbilityTooltipDetails": {

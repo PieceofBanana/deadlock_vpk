@@ -1,9 +1,10 @@
 {
     "citadel_ability_tier2boss_stomp": {
         "_class": "citadel_ability_tier2boss_stomp",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "6",
+                "m_strValue": "6.250000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",

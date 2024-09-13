@@ -1,6 +1,7 @@
 {
     "citadel_weapon_viscous_set_2": {
-        "_class": "citadel_base_ability",
+        "_class": "citadel_ability_primary_weapon",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
                 "m_strValue": "0",

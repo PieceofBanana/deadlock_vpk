@@ -153,7 +153,7 @@
 								},
 								
 								{
-									m_name = "Announcer_Tier1Boss_UnderAttacked_OrangeLane"
+									m_name = "Announcer_Tier1Boss_UnderAttacked_GreenLane"
 									m_responses = 
 									[
 										
@@ -168,10 +168,10 @@
 									]
 									m_pEmbeddedRule = 
 									{
-										m_name = "Announcer_Tier1Boss_UnderAttacked_OrangeLane"
+										m_name = "Announcer_Tier1Boss_UnderAttacked_GreenLane"
 										m_Requirements = 
 										[
-											"OrangeLane",
+											"GreenLane",
 										]
 									}
 								},
@@ -267,7 +267,7 @@
 								},
 								
 								{
-									m_name = "Announcer_Tier2Boss_UnderAttacked_OrangeLane"
+									m_name = "Announcer_Tier2Boss_UnderAttacked_GreenLane"
 									m_responses = 
 									[
 										
@@ -282,10 +282,10 @@
 									]
 									m_pEmbeddedRule = 
 									{
-										m_name = "Announcer_Tier2Boss_UnderAttacked_OrangeLane"
+										m_name = "Announcer_Tier2Boss_UnderAttacked_GreenLane"
 										m_Requirements = 
 										[
-											"OrangeLane",
+											"GreenLane",
 										]
 									}
 								},
@@ -381,7 +381,7 @@
 								},
 								
 								{
-									m_name = "Male_Announcer_Tier1Boss_UnderAttacked_OrangeLane"
+									m_name = "Male_Announcer_Tier1Boss_UnderAttacked_GreenLane"
 									m_responses = 
 									[
 										
@@ -396,10 +396,10 @@
 									]
 									m_pEmbeddedRule = 
 									{
-										m_name = "Male_Announcer_Tier1Boss_UnderAttacked_OrangeLane"
+										m_name = "Male_Announcer_Tier1Boss_UnderAttacked_GreenLane"
 										m_Requirements = 
 										[
-											"OrangeLane",
+											"GreenLane",
 										]
 									}
 								},
@@ -496,7 +496,7 @@
 								},
 								
 								{
-									m_name = "Male_Announcer_Tier2Boss_UnderAttacked_OrangeLane"
+									m_name = "Male_Announcer_Tier2Boss_UnderAttacked_GreenLane"
 									m_responses = 
 									[
 										
@@ -512,10 +512,10 @@
 									]
 									m_pEmbeddedRule = 
 									{
-										m_name = "Male_Announcer_Tier2Boss_UnderAttacked_OrangeLane"
+										m_name = "Male_Announcer_Tier2Boss_UnderAttacked_GreenLane"
 										m_Requirements = 
 										[
-											"OrangeLane",
+											"GreenLane",
 										]
 									}
 								},
@@ -869,7 +869,7 @@
 								},
 								
 								{
-									m_name = "Announcer_Enemy_Tier1Boss_Destroyed_OrangeLane"
+									m_name = "Announcer_Enemy_Tier1Boss_Destroyed_GreenLane"
 									m_responses = 
 									[
 										
@@ -884,10 +884,10 @@
 									]
 									m_pEmbeddedRule = 
 									{
-										m_name = "Announcer_Enemy_Tier1Boss_Destroyed_OrangeLane"
+										m_name = "Announcer_Enemy_Tier1Boss_Destroyed_GreenLane"
 										m_Requirements = 
 										[
-											"OrangeLane",
+											"GreenLane",
 										]
 									}
 								},
@@ -981,7 +981,7 @@
 								},
 								
 								{
-									m_name = "Announcer_Enemy_Tier2Boss_Destroyed_OrangeLane"
+									m_name = "Announcer_Enemy_Tier2Boss_Destroyed_GreenLane"
 									m_responses = 
 									[
 										
@@ -996,10 +996,10 @@
 									]
 									m_pEmbeddedRule = 
 									{
-										m_name = "Announcer_Enemy_Tier2Boss_Destroyed_OrangeLane"
+										m_name = "Announcer_Enemy_Tier2Boss_Destroyed_GreenLane"
 										m_Requirements = 
 										[
-											"OrangeLane",
+											"GreenLane",
 										]
 									}
 								},
@@ -1093,7 +1093,7 @@
 								},
 								
 								{
-									m_name = "Male_Announcer_Enemy_Tier1Boss_Destroyed_OrangeLane"
+									m_name = "Male_Announcer_Enemy_Tier1Boss_Destroyed_GreenLane"
 									m_responses = 
 									[
 										
@@ -1108,10 +1108,10 @@
 									]
 									m_pEmbeddedRule = 
 									{
-										m_name = "Male_Announcer_Enemy_Tier1Boss_Destroyed_OrangeLane"
+										m_name = "Male_Announcer_Enemy_Tier1Boss_Destroyed_GreenLane"
 										m_Requirements = 
 										[
-											"OrangeLane",
+											"GreenLane",
 										]
 									}
 								},
@@ -1205,7 +1205,7 @@
 								},
 								
 								{
-									m_name = "Male_Announcer_Enemy_Tier2Boss_Destroyed_OrangeLane"
+									m_name = "Male_Announcer_Enemy_Tier2Boss_Destroyed_GreenLane"
 									m_responses = 
 									[
 										
@@ -1220,10 +1220,10 @@
 									]
 									m_pEmbeddedRule = 
 									{
-										m_name = "Male_Announcer_Enemy_Tier2Boss_Destroyed_OrangeLane"
+										m_name = "Male_Announcer_Enemy_Tier2Boss_Destroyed_GreenLane"
 										m_Requirements = 
 										[
-											"OrangeLane",
+											"GreenLane",
 										]
 									}
 								},
@@ -1312,6 +1312,7 @@
 						
 						{
 							m_name = "Announcer_Enemy_Second_Barracks_Destroyed"
+							m_bDisabled = true
 							m_responses = 
 							[
 								
@@ -1373,6 +1374,7 @@
 							m_pEmbeddedRule = 
 							{
 								m_name = "Announcer_Enemy_Second_Barracks_Destroyed"
+								m_bDisabled = true
 								m_Requirements = 
 								[
 									"IsTeam3",
@@ -1406,6 +1408,7 @@
 						
 						{
 							m_name = "Male_Announcer_Enemy_Second_Barracks_Destroyed"
+							m_bDisabled = true
 							m_responses = 
 							[
 								
@@ -1457,6 +1460,7 @@
 							m_pEmbeddedRule = 
 							{
 								m_name = "Male_Announcer_Enemy_Second_Barracks_Destroyed"
+								m_bDisabled = true
 								m_Requirements = 
 								[
 									"IsTeam2",
@@ -1653,26 +1657,21 @@
 								},
 								
 								{
-									m_name = "Announcer_Tier1Boss_Destroyed_OrangeLane"
+									m_name = "Announcer_Tier1Boss_Destroyed_GreenLane"
 									m_responses = 
 									[
 										
 										{
 											m_type = "SPEAK"
-											m_value = "patron_female_ally_orange_guardian_destroyed_01_announcer"
-										},
-										
-										{
-											m_type = "SPEAK"
-											m_value = "patron_female_ally_orange_guardian_destroyed_02_announcer"
+											m_value = "patron_female_lose_objective_generic_announcer"
 										},
 									]
 									m_pEmbeddedRule = 
 									{
-										m_name = "Announcer_Tier1Boss_Destroyed_OrangeLane"
+										m_name = "Announcer_Tier1Boss_Destroyed_GreenLane"
 										m_Requirements = 
 										[
-											"OrangeLane",
+											"GreenLane",
 										]
 									}
 								},
@@ -1769,26 +1768,21 @@
 								},
 								
 								{
-									m_name = "Announcer_Tier2Boss_Destroyed_OrangeLane"
+									m_name = "Announcer_Tier2Boss_Destroyed_GreenLane"
 									m_responses = 
 									[
 										
 										{
 											m_type = "SPEAK"
-											m_value = "patron_female_ally_orange_walker_destroyed_01_announcer"
-										},
-										
-										{
-											m_type = "SPEAK"
-											m_value = "patron_female_ally_orange_walker_destroyed_02_announcer"
+											m_value = "patron_female_lose_objective_generic_announcer"
 										},
 									]
 									m_pEmbeddedRule = 
 									{
-										m_name = "Announcer_Tier2Boss_Destroyed_OrangeLane"
+										m_name = "Announcer_Tier2Boss_Destroyed_GreenLane"
 										m_Requirements = 
 										[
-											"OrangeLane",
+											"GreenLane",
 										]
 									}
 								},
@@ -1887,28 +1881,21 @@
 								},
 								
 								{
-									m_name = "Male_Announcer_Tier1Boss_Destroyed_OrangeLane"
+									m_name = "Male_Announcer_Tier1Boss_Destroyed_GreenLane"
 									m_responses = 
 									[
 										
 										{
 											m_type = "SPEAK"
-											m_value = "patron_male_ally_orange_guardian_destroyed_01_announcer"
-											m_flWeight = 50.000000
-										},
-										
-										{
-											m_type = "SPEAK"
-											m_value = "patron_male_ally_orange_guardian_destroyed_02_announcer"
-											m_flWeight = 50.000000
+											m_value = "patron_male_lose_objective_generic_announcer"
 										},
 									]
 									m_pEmbeddedRule = 
 									{
-										m_name = "Male_Announcer_Tier1Boss_Destroyed_OrangeLane"
+										m_name = "Male_Announcer_Tier1Boss_Destroyed_GreenLane"
 										m_Requirements = 
 										[
-											"OrangeLane",
+											"GreenLane",
 										]
 									}
 								},
@@ -2011,28 +1998,21 @@
 								},
 								
 								{
-									m_name = "Male_Announcer_Tier2Boss_Destroyed_OrangeLane"
+									m_name = "Male_Announcer_Tier2Boss_Destroyed_GreenLane"
 									m_responses = 
 									[
 										
 										{
 											m_type = "SPEAK"
-											m_value = "patron_male_ally_orange_walker_destroyed_01_announcer"
-											m_flWeight = 75.000000
-										},
-										
-										{
-											m_type = "SPEAK"
-											m_value = "patron_male_ally_orange_walker_destroyed_02_announcer"
-											m_flWeight = 75.000000
+											m_value = "patron_male_lose_objective_generic_announcer"
 										},
 									]
 									m_pEmbeddedRule = 
 									{
-										m_name = "Male_Announcer_Tier2Boss_Destroyed_OrangeLane"
+										m_name = "Male_Announcer_Tier2Boss_Destroyed_GreenLane"
 										m_Requirements = 
 										[
-											"OrangeLane",
+											"GreenLane",
 										]
 									}
 								},
@@ -2127,6 +2107,7 @@
 						
 						{
 							m_name = "Announcer_Second_Barracks_Destroyed"
+							m_bDisabled = true
 							m_responses = 
 							[
 								
@@ -2169,6 +2150,7 @@
 							m_pEmbeddedRule = 
 							{
 								m_name = "Announcer_Second_Barracks_Destroyed"
+								m_bDisabled = true
 								m_Requirements = 
 								[
 									"IsTeam3",
@@ -2203,6 +2185,7 @@
 						
 						{
 							m_name = "Male_Announcer_Second_Barracks_Destroyed"
+							m_bDisabled = true
 							m_responses = 
 							[
 								
@@ -2236,6 +2219,7 @@
 							m_pEmbeddedRule = 
 							{
 								m_name = "Male_Announcer_Second_Barracks_Destroyed"
+								m_bDisabled = true
 								m_Requirements = 
 								[
 									"IsTeam2",
@@ -4560,6 +4544,10 @@
 								{
 									m_type = "SPEAK"
 									m_value = "patron_female_mid_spawn_01_announcer"
+									m_params = 
+									{
+										m_predelay.start = 1.500000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -4570,6 +4558,7 @@
 									"IsMidbossSpawn",
 									"IsTeam3",
 								]
+								m_predelay.start = 1.500000
 							}
 						},
 						
@@ -4581,6 +4570,10 @@
 								{
 									m_type = "SPEAK"
 									m_value = "patron_male_mid_spawn_01_announcer"
+									m_params = 
+									{
+										m_predelay.start = 1.500000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -4591,6 +4584,7 @@
 									"IsMidbossSpawn",
 									"IsTeam2",
 								]
+								m_predelay.start = 1.500000
 							}
 						},
 					]
@@ -4600,6 +4594,7 @@
 						[
 							"ConceptAnnounceMidbossSpawn",
 						]
+						m_predelay.start = 1.500000
 					}
 				},
 				
@@ -4615,6 +4610,10 @@
 								{
 									m_type = "SPEAK"
 									m_value = "patron_female_rejuv_spawn_01_announcer"
+									m_params = 
+									{
+										m_predelay.start = 1.500000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -4625,6 +4624,7 @@
 									"IsMidbossKilled",
 									"IsTeam3",
 								]
+								m_predelay.start = 1.500000
 							}
 						},
 						
@@ -4636,6 +4636,10 @@
 								{
 									m_type = "SPEAK"
 									m_value = "patron_male_rejuv_spawn_01_announcer"
+									m_params = 
+									{
+										m_predelay.start = 1.500000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -4646,6 +4650,7 @@
 									"IsMidbossKilled",
 									"IsTeam2",
 								]
+								m_predelay.start = 1.500000
 							}
 						},
 					]
@@ -4655,6 +4660,7 @@
 						[
 							"ConceptAnnounceMidbossKilled",
 						]
+						m_predelay.start = 1.500000
 					}
 				},
 				
@@ -13720,6 +13726,7 @@
 													m_params = 
 													{
 														m_respeakdelay.start = 60.000000
+														m_predelay.start = 8.000000
 													}
 												},
 											]
@@ -13744,6 +13751,7 @@
 													m_params = 
 													{
 														m_respeakdelay.start = 60.000000
+														m_predelay.start = 8.000000
 													}
 												},
 											]
@@ -13768,6 +13776,7 @@
 													m_params = 
 													{
 														m_respeakdelay.start = 60.000000
+														m_predelay.start = 8.000000
 													}
 												},
 											]
@@ -13792,6 +13801,7 @@
 													m_params = 
 													{
 														m_respeakdelay.start = 60.000000
+														m_predelay.start = 8.000000
 													}
 												},
 											]
@@ -13816,6 +13826,7 @@
 													m_params = 
 													{
 														m_respeakdelay.start = 60.000000
+														m_predelay.start = 8.000000
 													}
 												},
 											]
@@ -13840,6 +13851,7 @@
 													m_params = 
 													{
 														m_respeakdelay.start = 60.000000
+														m_predelay.start = 8.000000
 													}
 												},
 											]
@@ -13864,6 +13876,7 @@
 													m_params = 
 													{
 														m_respeakdelay.start = 60.000000
+														m_predelay.start = 8.000000
 													}
 												},
 											]
@@ -13888,6 +13901,7 @@
 													m_params = 
 													{
 														m_respeakdelay.start = 60.000000
+														m_predelay.start = 8.000000
 													}
 												},
 											]
@@ -13912,6 +13926,7 @@
 													m_params = 
 													{
 														m_respeakdelay.start = 60.000000
+														m_predelay.start = 8.000000
 													}
 												},
 											]
@@ -13936,6 +13951,7 @@
 													m_params = 
 													{
 														m_respeakdelay.start = 60.000000
+														m_predelay.start = 8.000000
 													}
 												},
 											]
@@ -13960,6 +13976,7 @@
 													m_params = 
 													{
 														m_respeakdelay.start = 60.000000
+														m_predelay.start = 8.000000
 													}
 												},
 											]
@@ -13984,6 +14001,7 @@
 													m_params = 
 													{
 														m_respeakdelay.start = 60.000000
+														m_predelay.start = 8.000000
 													}
 												},
 											]
@@ -14008,6 +14026,7 @@
 													m_params = 
 													{
 														m_respeakdelay.start = 60.000000
+														m_predelay.start = 8.000000
 													}
 												},
 											]
@@ -14032,6 +14051,7 @@
 													m_params = 
 													{
 														m_respeakdelay.start = 60.000000
+														m_predelay.start = 8.000000
 													}
 												},
 											]
@@ -14056,6 +14076,7 @@
 													m_params = 
 													{
 														m_respeakdelay.start = 60.000000
+														m_predelay.start = 8.000000
 													}
 												},
 											]
@@ -14080,6 +14101,7 @@
 													m_params = 
 													{
 														m_respeakdelay.start = 60.000000
+														m_predelay.start = 8.000000
 													}
 												},
 											]
@@ -14104,6 +14126,7 @@
 													m_params = 
 													{
 														m_respeakdelay.start = 60.000000
+														m_predelay.start = 8.000000
 													}
 												},
 											]
@@ -14128,6 +14151,7 @@
 													m_params = 
 													{
 														m_respeakdelay.start = 60.000000
+														m_predelay.start = 8.000000
 													}
 												},
 											]
@@ -14152,6 +14176,7 @@
 													m_params = 
 													{
 														m_respeakdelay.start = 60.000000
+														m_predelay.start = 8.000000
 													}
 												},
 											]
@@ -14176,6 +14201,7 @@
 													m_params = 
 													{
 														m_respeakdelay.start = 60.000000
+														m_predelay.start = 8.000000
 													}
 												},
 											]
@@ -14200,6 +14226,7 @@
 													m_params = 
 													{
 														m_respeakdelay.start = 60.000000
+														m_predelay.start = 8.000000
 													}
 												},
 											]
@@ -14237,6 +14264,7 @@
 													m_params = 
 													{
 														m_respeakdelay.start = 60.000000
+														m_predelay.start = 8.000000
 													}
 												},
 											]
@@ -14261,6 +14289,7 @@
 													m_params = 
 													{
 														m_respeakdelay.start = 60.000000
+														m_predelay.start = 8.000000
 													}
 												},
 											]
@@ -14285,6 +14314,7 @@
 													m_params = 
 													{
 														m_respeakdelay.start = 60.000000
+														m_predelay.start = 8.000000
 													}
 												},
 											]
@@ -14309,6 +14339,7 @@
 													m_params = 
 													{
 														m_respeakdelay.start = 60.000000
+														m_predelay.start = 8.000000
 													}
 												},
 											]
@@ -14333,6 +14364,7 @@
 													m_params = 
 													{
 														m_respeakdelay.start = 60.000000
+														m_predelay.start = 8.000000
 													}
 												},
 											]
@@ -14357,6 +14389,7 @@
 													m_params = 
 													{
 														m_respeakdelay.start = 60.000000
+														m_predelay.start = 8.000000
 													}
 												},
 											]
@@ -14381,6 +14414,7 @@
 													m_params = 
 													{
 														m_respeakdelay.start = 60.000000
+														m_predelay.start = 8.000000
 													}
 												},
 											]
@@ -14405,6 +14439,7 @@
 													m_params = 
 													{
 														m_respeakdelay.start = 60.000000
+														m_predelay.start = 8.000000
 													}
 												},
 											]
@@ -14429,6 +14464,7 @@
 													m_params = 
 													{
 														m_respeakdelay.start = 60.000000
+														m_predelay.start = 8.000000
 													}
 												},
 											]
@@ -14453,6 +14489,7 @@
 													m_params = 
 													{
 														m_respeakdelay.start = 60.000000
+														m_predelay.start = 8.000000
 													}
 												},
 											]
@@ -14477,6 +14514,7 @@
 													m_params = 
 													{
 														m_respeakdelay.start = 60.000000
+														m_predelay.start = 8.000000
 													}
 												},
 											]
@@ -14501,6 +14539,7 @@
 													m_params = 
 													{
 														m_respeakdelay.start = 60.000000
+														m_predelay.start = 8.000000
 													}
 												},
 											]
@@ -14525,6 +14564,7 @@
 													m_params = 
 													{
 														m_respeakdelay.start = 60.000000
+														m_predelay.start = 8.000000
 													}
 												},
 											]
@@ -14549,6 +14589,7 @@
 													m_params = 
 													{
 														m_respeakdelay.start = 60.000000
+														m_predelay.start = 8.000000
 													}
 												},
 											]
@@ -14573,6 +14614,7 @@
 													m_params = 
 													{
 														m_respeakdelay.start = 60.000000
+														m_predelay.start = 8.000000
 													}
 												},
 											]
@@ -14597,6 +14639,7 @@
 													m_params = 
 													{
 														m_respeakdelay.start = 60.000000
+														m_predelay.start = 8.000000
 													}
 												},
 											]
@@ -14621,6 +14664,7 @@
 													m_params = 
 													{
 														m_respeakdelay.start = 60.000000
+														m_predelay.start = 8.000000
 													}
 												},
 											]
@@ -14645,6 +14689,7 @@
 													m_params = 
 													{
 														m_respeakdelay.start = 60.000000
+														m_predelay.start = 8.000000
 													}
 												},
 											]
@@ -14669,6 +14714,7 @@
 													m_params = 
 													{
 														m_respeakdelay.start = 60.000000
+														m_predelay.start = 8.000000
 													}
 												},
 											]
@@ -14693,6 +14739,7 @@
 													m_params = 
 													{
 														m_respeakdelay.start = 60.000000
+														m_predelay.start = 8.000000
 													}
 												},
 											]
@@ -14717,6 +14764,7 @@
 													m_params = 
 													{
 														m_respeakdelay.start = 60.000000
+														m_predelay.start = 8.000000
 													}
 												},
 											]
@@ -14744,7 +14792,7 @@
 								m_Requirements = 
 								[
 									"IsKillAssist",
-									"Has10OrMoreAssists",
+									"Is10thAssist",
 								]
 							}
 						},

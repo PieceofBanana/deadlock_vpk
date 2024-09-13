@@ -1,9 +1,10 @@
 {
     "citadel_ability_flying_strike": {
         "_class": "citadel_ability_flying_strike",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "20",
+                "m_strValue": "21.000000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -60,7 +61,7 @@
                 }
             },
             "AbilityPostCastDuration": {
-                "m_strValue": "0.5",
+                "m_strValue": "0.2",
                 "m_strDisableValue": "0"
             },
             "AbilityCharges": {
@@ -221,17 +222,6 @@
             "m_strLocalPlayerBulletImpactSound": "Orion.Charged.Shot.Proj.Impact",
             "m_szMuzzleFlashEffectName": "",
             "m_strWeaponImpactEffect": ""
-        },
-        "m_strCancelAbilityKey": "+in_cancel_ability",
-        "m_HUDPanel": {
-            "m_vecButtonHints": [
-                {
-                    "m_eButton1": "EButtonHint_Cancel",
-                    "m_strLocToken": "#ability_abort_cast",
-                    "m_eHintSide": "EButtonSide_Right",
-                    "m_strContext": "abort"
-                }
-            ]
         },
         "_multibase": [
             "signature_base"

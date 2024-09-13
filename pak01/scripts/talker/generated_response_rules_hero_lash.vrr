@@ -54,6 +54,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -64,6 +65,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -74,6 +76,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -84,6 +87,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -94,6 +98,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -104,6 +109,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -114,6 +120,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -124,6 +131,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -134,6 +142,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -144,6 +153,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -161,6 +171,7 @@
 											m_value = "lash_kill_inferno_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -170,6 +181,7 @@
 											m_value = "lash_kill_inferno_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -179,6 +191,7 @@
 											m_value = "lash_kill_inferno_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -188,6 +201,7 @@
 											m_value = "lash_kill_inferno_04_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -197,6 +211,7 @@
 											m_value = "lash_kill_inferno_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -206,6 +221,7 @@
 											m_value = "lash_kill_inferno_06_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -231,6 +247,7 @@
 											m_value = "lash_kill_gigawatt_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -240,6 +257,7 @@
 											m_value = "lash_kill_gigawatt_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -249,6 +267,7 @@
 											m_value = "lash_kill_gigawatt_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -258,6 +277,7 @@
 											m_value = "lash_kill_gigawatt_04_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -267,6 +287,7 @@
 											m_value = "lash_kill_gigawatt_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -292,6 +313,7 @@
 											m_value = "lash_kill_hornet_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -301,6 +323,7 @@
 											m_value = "lash_kill_hornet_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -310,6 +333,7 @@
 											m_value = "lash_kill_hornet_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -319,6 +343,7 @@
 											m_value = "lash_kill_hornet_04_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -328,6 +353,7 @@
 											m_value = "lash_kill_hornet_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -353,6 +379,7 @@
 											m_value = "lash_kill_ghost_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -362,6 +389,7 @@
 											m_value = "lash_kill_ghost_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -371,6 +399,7 @@
 											m_value = "lash_kill_ghost_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -380,6 +409,7 @@
 											m_value = "lash_kill_ghost_04_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -389,6 +419,7 @@
 											m_value = "lash_kill_ghost_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -414,6 +445,7 @@
 											m_value = "lash_kill_atlas_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -423,6 +455,7 @@
 											m_value = "lash_kill_atlas_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -432,6 +465,7 @@
 											m_value = "lash_kill_atlas_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -441,6 +475,7 @@
 											m_value = "lash_kill_atlas_04_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -450,6 +485,7 @@
 											m_value = "lash_kill_atlas_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -475,6 +511,7 @@
 											m_value = "lash_kill_wraith_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -484,6 +521,7 @@
 											m_value = "lash_kill_wraith_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -493,6 +531,7 @@
 											m_value = "lash_kill_wraith_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -502,6 +541,7 @@
 											m_value = "lash_kill_wraith_04_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -511,6 +551,7 @@
 											m_value = "lash_kill_wraith_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -536,6 +577,7 @@
 											m_value = "lash_kill_forge_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -545,6 +587,7 @@
 											m_value = "lash_kill_forge_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -554,6 +597,7 @@
 											m_value = "lash_kill_forge_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -563,6 +607,7 @@
 											m_value = "lash_kill_forge_04_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -572,6 +617,7 @@
 											m_value = "lash_kill_forge_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -597,6 +643,7 @@
 											m_value = "lash_kill_chrono_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -606,6 +653,7 @@
 											m_value = "lash_kill_chrono_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -615,6 +663,7 @@
 											m_value = "lash_kill_chrono_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -624,6 +673,7 @@
 											m_value = "lash_kill_chrono_04_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -633,6 +683,7 @@
 											m_value = "lash_kill_chrono_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -658,6 +709,7 @@
 											m_value = "lash_kill_dynamo_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -667,6 +719,7 @@
 											m_value = "lash_kill_dynamo_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -676,6 +729,7 @@
 											m_value = "lash_kill_dynamo_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -685,6 +739,7 @@
 											m_value = "lash_kill_dynamo_04_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -694,6 +749,7 @@
 											m_value = "lash_kill_dynamo_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -719,6 +775,7 @@
 											m_value = "lash_kill_kelvin_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -728,6 +785,7 @@
 											m_value = "lash_kill_kelvin_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -737,6 +795,7 @@
 											m_value = "lash_kill_kelvin_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -746,6 +805,7 @@
 											m_value = "lash_kill_kelvin_04_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -755,6 +815,7 @@
 											m_value = "lash_kill_kelvin_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -780,6 +841,7 @@
 											m_value = "lash_kill_haze_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -789,6 +851,7 @@
 											m_value = "lash_kill_haze_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -798,6 +861,7 @@
 											m_value = "lash_kill_haze_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -807,6 +871,7 @@
 											m_value = "lash_kill_haze_04_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -816,6 +881,7 @@
 											m_value = "lash_kill_haze_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -841,6 +907,7 @@
 											m_value = "lash_kill_astro_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -850,6 +917,7 @@
 											m_value = "lash_kill_astro_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -859,6 +927,7 @@
 											m_value = "lash_kill_astro_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -868,6 +937,7 @@
 											m_value = "lash_kill_astro_04_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -877,6 +947,7 @@
 											m_value = "lash_kill_astro_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -902,6 +973,7 @@
 											m_value = "lash_kill_bebop_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -911,6 +983,7 @@
 											m_value = "lash_kill_bebop_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -920,6 +993,7 @@
 											m_value = "lash_kill_bebop_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -929,6 +1003,7 @@
 											m_value = "lash_kill_bebop_04_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -938,6 +1013,7 @@
 											m_value = "lash_kill_bebop_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -947,6 +1023,7 @@
 											m_value = "lash_kill_bebop_06_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -972,6 +1049,7 @@
 											m_value = "lash_kill_nano_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -997,6 +1075,7 @@
 											m_value = "lash_kill_orion_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -1006,6 +1085,7 @@
 											m_value = "lash_kill_orion_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -1015,6 +1095,7 @@
 											m_value = "lash_kill_orion_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -1024,6 +1105,7 @@
 											m_value = "lash_kill_orion_04_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -1033,6 +1115,7 @@
 											m_value = "lash_kill_orion_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -1042,6 +1125,7 @@
 											m_value = "lash_kill_orion_06_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -1067,6 +1151,7 @@
 											m_value = "lash_kill_krill_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -1076,6 +1161,7 @@
 											m_value = "lash_kill_krill_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -1085,6 +1171,7 @@
 											m_value = "lash_kill_krill_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -1094,6 +1181,7 @@
 											m_value = "lash_kill_krill_04_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -1103,6 +1191,7 @@
 											m_value = "lash_kill_krill_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -1128,6 +1217,7 @@
 											m_value = "lash_kill_shiv_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -1137,6 +1227,7 @@
 											m_value = "lash_kill_shiv_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -1146,6 +1237,7 @@
 											m_value = "lash_kill_shiv_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -1155,6 +1247,7 @@
 											m_value = "lash_kill_shiv_03_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -1164,6 +1257,7 @@
 											m_value = "lash_kill_shiv_04_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -1173,6 +1267,7 @@
 											m_value = "lash_kill_shiv_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -1198,6 +1293,7 @@
 											m_value = "lash_kill_tengu_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -1207,6 +1303,7 @@
 											m_value = "lash_kill_tengu_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -1216,6 +1313,7 @@
 											m_value = "lash_kill_tengu_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -1225,6 +1323,7 @@
 											m_value = "lash_kill_tengu_04_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -1234,6 +1333,7 @@
 											m_value = "lash_kill_tengu_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -1259,6 +1359,7 @@
 											m_value = "lash_kill_warden_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -1268,6 +1369,7 @@
 											m_value = "lash_kill_warden_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -1277,6 +1379,7 @@
 											m_value = "lash_kill_warden_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -1286,6 +1389,7 @@
 											m_value = "lash_kill_warden_04_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -1295,6 +1399,7 @@
 											m_value = "lash_kill_warden_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -1320,6 +1425,7 @@
 											m_value = "lash_kill_yamato_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -1329,6 +1435,7 @@
 											m_value = "lash_kill_yamato_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -1338,6 +1445,7 @@
 											m_value = "lash_kill_yamato_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -1347,6 +1455,7 @@
 											m_value = "lash_kill_yamato_04_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -1356,6 +1465,7 @@
 											m_value = "lash_kill_yamato_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -1381,6 +1491,7 @@
 											m_value = "lash_kill_viscous_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -1390,6 +1501,7 @@
 											m_value = "lash_kill_viscous_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -1399,6 +1511,7 @@
 											m_value = "lash_kill_viscous_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -1408,6 +1521,7 @@
 											m_value = "lash_kill_viscous_04_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -1417,6 +1531,7 @@
 											m_value = "lash_kill_viscous_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -1442,6 +1557,7 @@
 											m_value = "lash_kill_wrecker_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -1451,6 +1567,7 @@
 											m_value = "lash_kill_wrecker_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -1460,6 +1577,7 @@
 											m_value = "lash_kill_wrecker_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -1469,6 +1587,7 @@
 											m_value = "lash_kill_wrecker_04_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -1478,6 +1597,7 @@
 											m_value = "lash_kill_wrecker_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -1503,6 +1623,7 @@
 											m_value = "lash_kill_synth_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -1512,6 +1633,7 @@
 											m_value = "lash_kill_synth_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -1521,6 +1643,7 @@
 											m_value = "lash_kill_synth_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -1530,6 +1653,7 @@
 											m_value = "lash_kill_synth_04_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -1539,6 +1663,7 @@
 											m_value = "lash_kill_synth_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -1576,6 +1701,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -1586,6 +1712,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -1596,6 +1723,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -1606,6 +1734,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -1616,6 +1745,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -1626,6 +1756,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -1636,6 +1767,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -1646,6 +1778,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -1661,31 +1794,61 @@
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_inferno_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_inferno_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_inferno_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_inferno_04_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_inferno_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_inferno_06_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -1707,26 +1870,51 @@
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_gigawatt_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_gigawatt_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_gigawatt_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_gigawatt_04_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_gigawatt_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -1748,26 +1936,51 @@
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_hornet_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_hornet_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_hornet_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_hornet_04_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_hornet_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -1789,26 +2002,51 @@
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_ghost_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_ghost_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_ghost_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_ghost_04_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_ghost_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -1830,26 +2068,51 @@
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_atlas_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_atlas_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_atlas_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_atlas_04_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_atlas_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -1871,26 +2134,51 @@
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_wraith_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_wraith_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_wraith_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_wraith_04_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_wraith_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -1912,26 +2200,51 @@
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_forge_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_forge_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_forge_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_forge_04_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_forge_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -1953,26 +2266,51 @@
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_chrono_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_chrono_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_chrono_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_chrono_04_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_chrono_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -1994,26 +2332,51 @@
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_dynamo_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_dynamo_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_dynamo_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_dynamo_04_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_dynamo_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -2035,26 +2398,51 @@
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_kelvin_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_kelvin_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_kelvin_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_kelvin_04_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_kelvin_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -2076,26 +2464,51 @@
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_haze_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_haze_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_haze_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_haze_04_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_haze_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -2117,26 +2530,51 @@
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_astro_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_astro_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_astro_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_astro_04_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_astro_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -2158,31 +2596,61 @@
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_bebop_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_bebop_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_bebop_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_bebop_04_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_bebop_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_bebop_06_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -2204,6 +2672,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_nano_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -2225,31 +2698,61 @@
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_orion_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_orion_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_orion_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_orion_04_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_orion_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_orion_06_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -2271,26 +2774,51 @@
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_krill_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_krill_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_krill_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_krill_04_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_krill_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -2312,31 +2840,61 @@
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_shiv_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_shiv_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_shiv_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_shiv_03_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_shiv_04_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_shiv_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -2358,26 +2916,51 @@
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_tengu_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_tengu_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_tengu_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_tengu_04_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_tengu_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -2399,26 +2982,51 @@
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_warden_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_warden_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_warden_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_warden_04_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_warden_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -2440,26 +3048,51 @@
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_yamato_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_yamato_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_yamato_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_yamato_04_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_yamato_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -2481,26 +3114,51 @@
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_viscous_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_viscous_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_viscous_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_viscous_04_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_viscous_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -2522,26 +3180,51 @@
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_wrecker_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_wrecker_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_wrecker_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_wrecker_04_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_wrecker_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -2563,26 +3246,51 @@
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_synth_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_synth_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_synth_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_synth_04_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "lash_kill_synth_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -2619,6 +3327,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -2646,6 +3355,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -2673,6 +3383,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -3743,16 +4454,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_metal_skin_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_metal_skin_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_metal_skin_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -3773,16 +4499,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_rocket_boots_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_rocket_boots_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_rocket_boots_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -3803,16 +4544,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_stasis_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_stasis_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_stasis_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -3833,16 +4589,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_tech_defender_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_tech_defender_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_tech_defender_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -3863,16 +4634,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_tech_purge_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_tech_purge_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_tech_purge_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -3893,16 +4679,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_ability_refresher_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_ability_refresher_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_ability_refresher_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -3923,16 +4724,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_area_immobilize_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_area_immobilize_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_area_immobilize_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -3953,16 +4769,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_emp_wave_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_emp_wave_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_emp_wave_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -3983,16 +4814,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_ice_blast_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_ice_blast_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_ice_blast_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -4013,16 +4859,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_knockdown_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_knockdown_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_knockdown_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -4043,16 +4904,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_decay_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_decay_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_decay_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -4073,16 +4949,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_curse_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_curse_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_curse_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -4103,26 +4994,51 @@
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_smoke_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_smoke_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_smoke_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_smoke_03_alt_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_smoke_03_alt_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -4143,16 +5059,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_surging_power_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_surging_power_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_surging_power_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -4173,16 +5104,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_phantom_strike_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_phantom_strike_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_phantom_strike_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -4203,16 +5149,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_unstoppable_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_unstoppable_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_unstoppable_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -4233,16 +5194,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_echo_shard_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_echo_shard_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_echo_shard_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -4263,16 +5239,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_colossus_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_colossus_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "lash_use_colossus_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -4305,6 +5296,7 @@
 							m_params = 
 							{
 								m_delay.start = 0.500000
+								m_respeakdelay.start = 0.000000
 								m_predelay.start = 0.500000
 								m_bSpeakOnce = true
 							}
@@ -4316,6 +5308,7 @@
 							m_params = 
 							{
 								m_delay.start = 0.500000
+								m_respeakdelay.start = 0.000000
 								m_predelay.start = 0.500000
 								m_bSpeakOnce = true
 							}
@@ -4327,6 +5320,7 @@
 							m_params = 
 							{
 								m_delay.start = 0.500000
+								m_respeakdelay.start = 0.000000
 								m_predelay.start = 0.500000
 								m_bSpeakOnce = true
 							}
@@ -4346,6 +5340,8 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
 										m_bSpeakOnce = true
 									}
 								},
@@ -4356,6 +5352,8 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
 										m_bSpeakOnce = true
 									}
 								},
@@ -4366,6 +5364,8 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
 										m_bSpeakOnce = true
 									}
 								},
@@ -4406,6 +5406,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -4416,6 +5417,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -4426,6 +5428,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -4453,6 +5456,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -4463,6 +5467,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -4473,6 +5478,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -4500,6 +5506,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -4510,6 +5517,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -4520,6 +5528,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -4546,6 +5555,7 @@
 									m_value = "lash_t4_shop_reminder_01_hero_3d"
 									m_params = 
 									{
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -4555,6 +5565,7 @@
 									m_value = "lash_t4_shop_reminder_02_hero_3d"
 									m_params = 
 									{
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -4564,6 +5575,7 @@
 									m_value = "lash_t4_shop_reminder_03_hero_3d"
 									m_params = 
 									{
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -5995,22 +7007,13 @@
 						},
 						
 						{
-							m_name = "Lash_Ping_Help_Orange"
+							m_name = "Lash_Ping_Help_Green"
 							m_responses = 
 							[
 								
 								{
 									m_type = "SPEAK"
-									m_value = "lash_ping_need_help_orange_ping_2d"
-									m_params = 
-									{
-										m_bCancelExisting = true
-									}
-								},
-								
-								{
-									m_type = "SPEAK"
-									m_value = "lash_ping_need_help_orange_alt_ping_2d"
+									m_value = "lash_ping_need_help_green_alt_ping_2d"
 									m_params = 
 									{
 										m_bCancelExisting = true
@@ -6019,11 +7022,11 @@
 							]
 							m_pEmbeddedRule = 
 							{
-								m_name = "Lash_Ping_Help_Orange"
+								m_name = "Lash_Ping_Help_Green"
 								m_Requirements = 
 								[
 									"ConceptHelp",
-									"PlayerInOrange",
+									"PlayerInGreen",
 								]
 							}
 						},
@@ -6327,13 +7330,13 @@
 						},
 						
 						{
-							m_name = "Lash_Push_Boss_Orange_Lane"
+							m_name = "Lash_Push_Boss_Green_Lane"
 							m_responses = 
 							[
 								
 								{
 									m_type = "SPEAK"
-									m_value = "lash_ping_push_orange_01_ping_2d"
+									m_value = "lash_ping_push_green_01_ping_2d"
 									m_params = 
 									{
 										m_bCancelExisting = true
@@ -6342,7 +7345,7 @@
 								
 								{
 									m_type = "SPEAK"
-									m_value = "lash_ping_push_orange_02_ping_2d"
+									m_value = "lash_ping_push_green_02_ping_2d"
 									m_params = 
 									{
 										m_bCancelExisting = true
@@ -6351,11 +7354,11 @@
 							]
 							m_pEmbeddedRule = 
 							{
-								m_name = "Lash_Push_Boss_Orange_Lane"
+								m_name = "Lash_Push_Boss_Green_Lane"
 								m_Requirements = 
 								[
 									"ConceptPushLane",
-									"OrangeLane",
+									"GreenLane",
 								]
 							}
 						},
@@ -6670,13 +7673,13 @@
 						},
 						
 						{
-							m_name = "Lash_Defend_Boss_Orange_Lane"
+							m_name = "Lash_Defend_Boss_Green_Lane"
 							m_responses = 
 							[
 								
 								{
 									m_type = "SPEAK"
-									m_value = "lash_ping_headed_orange_01_ping_2d"
+									m_value = "lash_ping_headed_green_01_ping_2d"
 									m_params = 
 									{
 										m_bCancelExisting = true
@@ -6685,7 +7688,7 @@
 								
 								{
 									m_type = "SPEAK"
-									m_value = "lash_ping_headed_orange_02_ping_2d"
+									m_value = "lash_ping_headed_green_02_ping_2d"
 									m_params = 
 									{
 										m_bCancelExisting = true
@@ -6694,23 +7697,23 @@
 							]
 							m_pEmbeddedRule = 
 							{
-								m_name = "Lash_Defend_Boss_Orange_Lane"
+								m_name = "Lash_Defend_Boss_Green_Lane"
 								m_Requirements = 
 								[
 									"ConceptDefendLane",
-									"OrangeLane",
+									"GreenLane",
 								]
 							}
 						},
 						
 						{
-							m_name = "Lash_Orange_Lane_Boss_Needs_Help"
+							m_name = "Lash_Green_Lane_Boss_Needs_Help"
 							m_responses = 
 							[
 								
 								{
 									m_type = "SPEAK"
-									m_value = "lash_ping_orange_help_01_ping_2d"
+									m_value = "lash_ping_green_help_01_ping_2d"
 									m_params = 
 									{
 										m_bCancelExisting = true
@@ -6719,7 +7722,7 @@
 								
 								{
 									m_type = "SPEAK"
-									m_value = "lash_ping_orange_help_02_ping_2d"
+									m_value = "lash_ping_green_help_02_ping_2d"
 									m_params = 
 									{
 										m_bCancelExisting = true
@@ -6728,11 +7731,11 @@
 							]
 							m_pEmbeddedRule = 
 							{
-								m_name = "Lash_Orange_Lane_Boss_Needs_Help"
+								m_name = "Lash_Green_Lane_Boss_Needs_Help"
 								m_Requirements = 
 								[
 									"ConceptDefendLane",
-									"OrangeLane",
+									"GreenLane",
 									"IsAggressive",
 								]
 							}
@@ -6831,13 +7834,13 @@
 						},
 						
 						{
-							m_name = "Lash_Heading_Orange"
+							m_name = "Lash_Heading_Green"
 							m_responses = 
 							[
 								
 								{
 									m_type = "SPEAK"
-									m_value = "lash_ping_headed_orange_01_ping_2d"
+									m_value = "lash_ping_headed_green_01_ping_2d"
 									m_params = 
 									{
 										m_bCancelExisting = true
@@ -6846,7 +7849,7 @@
 								
 								{
 									m_type = "SPEAK"
-									m_value = "lash_ping_headed_orange_02_ping_2d"
+									m_value = "lash_ping_headed_green_02_ping_2d"
 									m_params = 
 									{
 										m_bCancelExisting = true
@@ -6855,11 +7858,11 @@
 							]
 							m_pEmbeddedRule = 
 							{
-								m_name = "Lash_Heading_Orange"
+								m_name = "Lash_Heading_Green"
 								m_Requirements = 
 								[
 									"ConceptHeadingLane",
-									"OrangeLane",
+									"GreenLane",
 								]
 							}
 						},
@@ -6967,13 +7970,13 @@
 						},
 						
 						{
-							m_name = "Lash_Lets_Go_Orange"
+							m_name = "Lash_Lets_Go_Green"
 							m_responses = 
 							[
 								
 								{
 									m_type = "SPEAK"
-									m_value = "lash_ping_lets_go_orange_ping_2d"
+									m_value = "lash_ping_lets_go_green_ping_2d"
 									m_params = 
 									{
 										m_bCancelExisting = true
@@ -6982,11 +7985,11 @@
 							]
 							m_pEmbeddedRule = 
 							{
-								m_name = "Lash_Lets_Go_Orange"
+								m_name = "Lash_Lets_Go_Green"
 								m_Requirements = 
 								[
 									"ConceptLetsGoHere",
-									"OrangeLane",
+									"GreenLane",
 								]
 							}
 						},
@@ -16204,7 +17207,7 @@
 									m_value = "lash_be_careful_01_hero_3d"
 									m_params = 
 									{
-										m_respeakdelay.start = 30.000000
+										m_respeakdelay.start = 90.000000
 										m_predelay.start = 0.000000
 									}
 								},
@@ -16214,7 +17217,7 @@
 									m_value = "lash_be_careful_02_hero_3d"
 									m_params = 
 									{
-										m_respeakdelay.start = 30.000000
+										m_respeakdelay.start = 90.000000
 										m_predelay.start = 0.000000
 									}
 								},
@@ -16224,7 +17227,7 @@
 									m_value = "lash_be_careful_03_hero_3d"
 									m_params = 
 									{
-										m_respeakdelay.start = 30.000000
+										m_respeakdelay.start = 90.000000
 										m_predelay.start = 0.000000
 									}
 								},
@@ -16234,9 +17237,9 @@
 								m_name = "Lash_Be_Careful"
 								m_Requirements = 
 								[
-									"InEnemyTerritoryFor2Seconds",
 									"AwayFromAlliesFor2Seconds",
 									"NoNearbyEnemiesFor2Seconds",
+									"InEnemyTerritoryFor20Seconds",
 								]
 							}
 						},

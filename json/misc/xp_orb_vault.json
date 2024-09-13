@@ -23,12 +23,14 @@
         "m_flCollisionRadius": "12.000000",
         "m_flBurstSpeedMultiplier": "2",
         "m_flBurstSpeedDuration": "0.120000",
+        "m_flInvulDuration": "0.120000",
         "m_strOrbClaimed": "Player.ClaimOrb",
         "m_strOrbClaimedTeammate": "Teammate.ClaimOrb",
         "m_strOrbDenied": "Player.Deny",
         "m_strOrbDeniedPlayer": "Player.Denied",
         "m_bUseKillerPlaneOffsets": "false",
         "m_flKillerPlaneOffset": "0",
+        "m_flOrbClaimWindow": "0",
         "_base": "xp_orb"
     }
 }

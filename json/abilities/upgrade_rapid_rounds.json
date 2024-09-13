@@ -1,6 +1,7 @@
 {
     "upgrade_rapid_rounds": {
         "_class": "citadel_item",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
                 "m_strValue": "0",
@@ -110,7 +111,7 @@
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
             },
             "BonusFireRate": {
-                "m_strValue": "12",
+                "m_strValue": "9",
                 "m_eDisplayType": "EFireRate",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_FIRE_RATE",
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
@@ -121,14 +122,6 @@
                 "m_eDisplayType": "ESprintSpeed",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_SPRINT_SPEED_BONUS",
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
-            },
-            "MaxHealth": {
-                "m_strValue": "-50",
-                "m_strCSSClass": "health",
-                "m_eDisplayType": "EMaxHealth",
-                "m_eProvidedPropertyType": "MODIFIER_VALUE_HEALTH_MAX",
-                "m_UsageFlags": "APUsageFlag_ModifierIntrinsic",
-                "m_bIsNegativeAttribute": "true"
             }
         },
         "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
@@ -171,72 +164,6 @@
                 ]
             }
         },
-        "m_strCancelAbilityKey": "+in_cancel_ability",
-        "m_HUDPanel": {
-            "m_vecButtonHints": [
-                {
-                    "m_strContext": "throw",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_Throw"
-                },
-                {
-                    "m_strContext": "deploy",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_Deploy"
-                },
-                {
-                    "m_strContext": "cast_on_target",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_CastOnTarget",
-                    "m_bShowAsUnitTargetActivationHint": "true",
-                    "m_bShowAbilityIcon": "true"
-                },
-                {
-                    "m_strContext": "alt_cast_hold_hint",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_HoldToSelfCast"
-                },
-                {
-                    "m_strContext": "alt_cast_double_tap_hint",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_DoubleTapToSelfCast"
-                },
-                {
-                    "m_strContext": "alt_cast_modifier_key_hint",
-                    "m_strBindingOverride1": "in_alt_cast_modifier",
-                    "m_eButton2": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_eButtonHintType": "EButtonHintType_TwoButtonCombination",
-                    "m_strLocToken": "#AbilityButtonHint_ModifierKeyToSelfCast"
-                },
-                {
-                    "m_strContext": "alt_cast_select_then_alt_cast_key_hint",
-                    "m_strBindingOverride1": "in_alt_cast",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_SelectThenSelfCastButton"
-                },
-                {
-                    "m_strContext": "deselect",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_Deselect",
-                    "m_nPriority": "1"
-                },
-                {
-                    "m_strLocToken": "#AbilityButtonHint_Activate",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_strContext": "unit_target_activate",
-                    "m_bShowAsUnitTargetActivationHint": "true",
-                    "m_bShowAbilityIcon": "true"
-                }
-            ]
-        },
         "_multibase": [
             "weapon_upgrade_t1"
         ],
@@ -261,8 +188,7 @@
                     {
                         "m_vecAbilityProperties": [
                             "BonusFireRate",
-                            "BonusSprintSpeed",
-                            "MaxHealth"
+                            "BonusSprintSpeed"
                         ],
                         "m_bRemoveAttributesBackgroundColor": "true"
                     }
@@ -275,8 +201,7 @@
                 "_my_subclass_name": "modifier_intrinsic_base",
                 "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
                     "BonusFireRate",
-                    "BonusSprintSpeed",
-                    "MaxHealth"
+                    "BonusSprintSpeed"
                 ]
             }
         ],

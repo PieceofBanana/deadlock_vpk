@@ -1,6 +1,7 @@
 {
     "citadel_ability_zip_line": {
         "_class": "citadel_ability_zip_line",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
                 "m_strValue": "0",
@@ -135,7 +136,7 @@
                 "m_strValue": "300"
             },
             "DamageCooldown": {
-                "m_strValue": "3",
+                "m_strValue": "3.250000",
                 "m_strCSSClass": "cooldown",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",
@@ -159,7 +160,7 @@
                 "m_strValue": "150"
             },
             "ZipMasteryDamageCooldown": {
-                "m_strValue": "3",
+                "m_strValue": "3.250000",
                 "m_strCSSClass": "cooldown",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",
@@ -282,7 +283,8 @@
                 },
                 {
                     "m_flMaintainDuration": "-1.000000",
-                    "m_eCameraOperation": "k_ECameraOp_Maintain"
+                    "m_eCameraOperation": "k_ECameraOp_Maintain",
+                    "m_flMaintainFloat": "20.000000"
                 }
             ],
             "m_vecFOVOperations": [
@@ -296,7 +298,9 @@
                 },
                 {
                     "m_flMaintainDuration": "-1.000000",
-                    "m_eCameraOperation": "k_ECameraOp_Maintain"
+                    "m_eCameraOperation": "k_ECameraOp_Maintain",
+                    "m_bValuesAreRelative": "true",
+                    "m_flMaintainFloat": "-10.000000"
                 }
             ]
         },
@@ -348,7 +352,9 @@
                 },
                 {
                     "m_flMaintainDuration": "-1.000000",
-                    "m_eCameraOperation": "k_ECameraOp_Maintain"
+                    "m_eCameraOperation": "k_ECameraOp_Maintain",
+                    "m_flMaintainFloat": "0.000000",
+                    "m_bValuesAreRelative": "true"
                 }
             ],
             "m_vecVertOffsetOperations": []

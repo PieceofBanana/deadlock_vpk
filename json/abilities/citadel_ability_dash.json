@@ -1,6 +1,7 @@
 {
     "citadel_ability_dash": {
         "_class": "citadel_ability_dash",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
                 "m_strValue": "0",

@@ -1,9 +1,10 @@
 {
     "ability_guided_arrow": {
         "_class": "ability_guided_arrow",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "110",
+                "m_strValue": "127.000000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -194,42 +195,6 @@
                 ]
             }
         },
-        "m_strCancelAbilityKey": "+in_cancel_ability",
-        "m_HUDPanel": {
-            "m_vecButtonHints": [
-                {
-                    "m_eButton1": "EButtonHint_Cancel",
-                    "m_strLocToken": "#ability_abort_cast",
-                    "m_eHintSide": "EButtonSide_Right",
-                    "m_strContext": "cast"
-                },
-                {
-                    "m_strLocToken": "#AbilityButtonHint_GuidedArrowSpeed",
-                    "m_eHintSide": "EButtonSide_Right",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_strContext": "hint_speed"
-                },
-                {
-                    "m_eButton1": "EButtonHint_Cancel",
-                    "m_strLocToken": "#AbilityButtonHint_GuidedArrowRelease",
-                    "m_eHintSide": "EButtonSide_Right",
-                    "m_strContext": "channel"
-                }
-            ],
-            "m_vecHUDElements": [
-                {
-                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
-                    "m_strContext": "cast",
-                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_circular_progress.vxml"
-                },
-                {
-                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
-                    "m_strContext": "channel",
-                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_progress_bar.vxml",
-                    "m_bReverseProgress": "true"
-                }
-            ]
-        },
         "_multibase": [
             "ultimate_base"
         ],
@@ -284,7 +249,7 @@
                 "m_vecPropertyUpgrades": [
                     {
                         "m_strPropertyName": "AbilityCooldown",
-                        "m_strBonus": "-50"
+                        "m_strBonus": "-47.000000"
                     }
                 ]
             },
@@ -309,6 +274,35 @@
         "m_flSpeedDeccel": "300.000000",
         "m_flBaseProjectileSpeed": "700",
         "m_flMaxProjectileSpeed": "1400",
+        "m_HUDPanel": {
+            "m_vecHUDElements": [
+                {
+                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
+                    "m_strContext": "cast",
+                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_circular_progress.vxml"
+                },
+                {
+                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
+                    "m_strContext": "channel",
+                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_progress_bar.vxml",
+                    "m_bReverseProgress": "true"
+                }
+            ],
+            "m_vecButtonHints": [
+                {
+                    "m_strLocToken": "#AbilityButtonHint_GuidedArrowSpeed",
+                    "m_eHintSide": "EButtonSide_Right",
+                    "m_eButton1": "EButtonHint_Attack",
+                    "m_strContext": "hint_speed"
+                },
+                {
+                    "m_eButton1": "EButtonHint_AbilityKey",
+                    "m_strLocToken": "#AbilityButtonHint_GuidedArrowRelease",
+                    "m_eHintSide": "EButtonSide_Right",
+                    "m_strContext": "channel"
+                }
+            ]
+        },
         "m_GuidingModifier": {
             "_class": "modifier_guiding_arrow",
             "_my_subclass_name": "modifier_guiding_arrow",
@@ -337,12 +331,10 @@
             "m_strContext": "transition_to_archer",
             "m_vecTargetPosOperations": [
                 {
-                    "m_flMaintainDuration": "0.900000",
-                    "m_eCameraOperation": "k_ECameraOp_Maintain"
-                },
-                {
-                    "m_flLerpDuration": "0.010000",
-                    "m_eCameraOperation": "k_ECameraOp_Lerp"
+                    "m_flMaintainDuration": "0.600000",
+                    "m_eCameraOperation": "k_ECameraOp_Maintain",
+                    "m_bValuesAreRelative": "false",
+                    "m_bMaintainCurrent": "true"
                 }
             ],
             "m_vecDistanceOperations": [
@@ -350,15 +342,19 @@
                     "m_flSpringMaxDuration": "0.600000",
                     "m_bSpringToDefault": "false",
                     "m_flSpringTarget": "500.000000",
-                    "m_eCameraOperation": "k_ECameraOp_Spring"
+                    "m_eCameraOperation": "k_ECameraOp_Spring",
+                    "m_bValuesAreRelative": "true"
                 },
                 {
                     "m_flMaintainDuration": "0.300000",
-                    "m_eCameraOperation": "k_ECameraOp_Maintain"
+                    "m_eCameraOperation": "k_ECameraOp_Maintain",
+                    "m_flMaintainFloat": "500.000000"
                 },
                 {
                     "m_flLerpDuration": "0.010000",
-                    "m_eCameraOperation": "k_ECameraOp_Lerp"
+                    "m_eCameraOperation": "k_ECameraOp_Lerp",
+                    "m_bLerpStartAtCurrent": "false",
+                    "m_flLerpStart": "500.000000"
                 }
             ]
         },
@@ -368,7 +364,8 @@
             "m_vecTargetPosOperations": [
                 {
                     "m_flMaintainDuration": "0.400000",
-                    "m_eCameraOperation": "k_ECameraOp_Maintain"
+                    "m_eCameraOperation": "k_ECameraOp_Maintain",
+                    "m_bValuesAreRelative": "true"
                 },
                 {
                     "m_flLerpDuration": "0.010000",

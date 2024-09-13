@@ -1,9 +1,10 @@
 {
     "citadel_ability_hook": {
         "_class": "citadel_ability_hook",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "22",
+                "m_strValue": "23.000000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -25,7 +26,7 @@
                 }
             },
             "AbilityCastRange": {
-                "m_strValue": "35m",
+                "m_strValue": "30m",
                 "m_eDisplayUnits": "EDisplayUnit_Meters",
                 "m_strCSSClass": "range",
                 "m_bCanSetTokenOverride": "true",
@@ -152,7 +153,7 @@
                 "m_strCSSClass": "cooldown"
             },
             "FriendlyHookIgnoreRange": {
-                "m_strValue": "3m"
+                "m_strValue": "8m"
             },
             "BulletAmp": {
                 "m_strValue": "0",
@@ -227,48 +228,6 @@
                 ]
             }
         },
-        "m_strCancelAbilityKey": "+in_cancel_ability",
-        "m_HUDPanel": {
-            "m_vecButtonHints": [
-                {
-                    "m_eButton1": "EButtonHint_Cancel",
-                    "m_strLocToken": "#ability_abort_cast",
-                    "m_eHintSide": "EButtonSide_Right",
-                    "m_strContext": "abort"
-                }
-            ],
-            "m_vecHUDElements": [
-                {
-                    "m_strContext": "hook_out",
-                    "m_vecPanels": [
-                        {
-                            "m_strPanelName": "circular_progress",
-                            "m_eProgressType": "EProgress_RadialCW",
-                            "m_bReverseProgress": "false",
-                            "m_flStartValue": "0.000000",
-                            "m_flEndValue": "360.000000"
-                        }
-                    ],
-                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
-                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_circular_progress.vxml",
-                    "m_strAdditionalClasses": "medium"
-                },
-                {
-                    "m_strContext": "hook_in",
-                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
-                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_circular_progress.vxml",
-                    "m_vecPanels": [
-                        {
-                            "m_strPanelName": "circular_progress",
-                            "m_eProgressType": "EProgress_RadialCW",
-                            "m_bReverseProgress": "false",
-                            "m_flEndValue": "360.000000"
-                        }
-                    ],
-                    "m_strAdditionalClasses": "medium"
-                }
-            ]
-        },
         "_multibase": [
             "signature_base"
         ],
@@ -286,8 +245,7 @@
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_NONE",
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_SPHERE",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_ALLOW_ALT_CAST | CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_PREVENT_BOT_USAGE",
-        "m_nAbilityTargetFlags": "",
+        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_PREVENT_BOT_USAGE",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_HERO",
         "m_strHookSuccessSound": "Ability.Bebop.Hook.Success.Multi",
         "m_strHookAllySound": "Ability.Bebop.Hook.Success.Multi",
@@ -338,11 +296,52 @@
                 "m_vecPropertyUpgrades": [
                     {
                         "m_strPropertyName": "AbilityCooldown",
-                        "m_strBonus": "-12"
+                        "m_strBonus": "-11.500000"
                     }
                 ]
             }
         ],
+        "m_HUDPanel": {
+            "m_vecHUDElements": [
+                {
+                    "m_strContext": "hook_out",
+                    "m_vecPanels": [
+                        {
+                            "m_strPanelName": "circular_progress",
+                            "m_eProgressType": "EProgress_RadialCW",
+                            "m_bReverseProgress": "false",
+                            "m_flStartValue": "0.000000",
+                            "m_flEndValue": "360.000000"
+                        }
+                    ],
+                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
+                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_circular_progress.vxml",
+                    "m_strAdditionalClasses": "medium"
+                },
+                {
+                    "m_strContext": "hook_in",
+                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
+                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_circular_progress.vxml",
+                    "m_vecPanels": [
+                        {
+                            "m_strPanelName": "circular_progress",
+                            "m_eProgressType": "EProgress_RadialCW",
+                            "m_bReverseProgress": "false",
+                            "m_flEndValue": "360.000000"
+                        }
+                    ],
+                    "m_strAdditionalClasses": "medium"
+                }
+            ],
+            "m_vecButtonHints": [
+                {
+                    "m_eButton1": "EButtonHint_AbilityKey",
+                    "m_strLocToken": "#ability_abort_cast",
+                    "m_eHintSide": "EButtonSide_Right",
+                    "m_strContext": "abort"
+                }
+            ]
+        },
         "m_SelfModifier": {
             "_class": "modifier_citadel_hookself",
             "_my_subclass_name": "modifier_citadel_hookself",
@@ -381,7 +380,8 @@
                     },
                     {
                         "m_flMaintainDuration": "99.000000",
-                        "m_eCameraOperation": "k_ECameraOp_Maintain"
+                        "m_eCameraOperation": "k_ECameraOp_Maintain",
+                        "m_flMaintainFloat": "150.000000"
                     }
                 ]
             },

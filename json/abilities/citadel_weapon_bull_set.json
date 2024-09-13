@@ -1,6 +1,7 @@
 {
     "citadel_weapon_bull_set": {
         "_class": "citadel_ability_primary_weapon",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
                 "m_strValue": "0",
@@ -259,7 +260,9 @@
             "m_strReloadEndSound": "Atlas.Wpn.Reload.Clip.In",
             "m_strZoomInSound": "Default.ZoomIn",
             "m_strZoomOutSound": "Default.ZoomOut",
+            "m_strLowAmmoSound": "Player.WpnLowAmmo.Shared",
             "m_bBulletShouldUseVerlet": "true",
+            "m_nLowAmmoIndicatorThreshold": "4",
             "m_flRecoilRecoveryDelayFactor": "0.600000",
             "m_flReloadSingleBulletsInitialDelay": "0.705000",
             "m_bReloadSingleBullets": "true",

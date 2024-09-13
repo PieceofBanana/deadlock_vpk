@@ -1,6 +1,7 @@
 {
     "citadel_weapon_viscous_set": {
         "_class": "citadel_ability_primary_weapon",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
                 "m_strValue": "0",
@@ -262,7 +263,9 @@
             "m_strReloadEndSound": "Player.WpnReload.Shared.Clip.In",
             "m_strZoomInSound": "default.ZoomIn",
             "m_strZoomOutSound": "default.ZoomOut",
+            "m_strLowAmmoSound": "Player.WpnLowAmmo.Shared",
             "m_bBulletShouldUseVerlet": "true",
+            "m_nLowAmmoIndicatorThreshold": "4",
             "m_AimingShootSpreadPenalty": [
                 "0.000000",
                 "0.500000"
@@ -274,7 +277,7 @@
             "m_strBulletImpactSound": "Viscous.Wpn.Impact",
             "m_vecScatterOffsets": [],
             "m_flPelletScatterSpreadFactor": "1.000000",
-            "m_flBulletDamage": "14.000000",
+            "m_flBulletDamage": "13.000000",
             "m_flPelletScatterFactor": "1.000000",
             "m_flBulletRadiusVsWorld": "4.000000",
             "m_flExplosionDamageScaleAtMaxRadius": "0.300000"

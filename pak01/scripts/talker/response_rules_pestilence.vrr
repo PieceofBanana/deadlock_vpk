@@ -16,6 +16,11 @@
 				{
 					m_type = "SPEAK"
 					m_value = "Pestilence.Cast.Ultimate"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 			]
 			m_pEmbeddedRule = 

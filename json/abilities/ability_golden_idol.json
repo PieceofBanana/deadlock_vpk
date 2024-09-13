@@ -1,6 +1,7 @@
 {
     "ability_golden_idol": {
         "_class": "ability_golden_idol",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
                 "m_strValue": "0",

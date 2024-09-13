@@ -1,9 +1,10 @@
 {
     "upgrade_rocket_booster": {
         "_class": "upgrade_rocket_booster",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "24",
+                "m_strValue": "23.000000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -221,16 +222,6 @@
                 ]
             }
         },
-        "m_strCancelAbilityKey": "+in_cancel_ability",
-        "m_HUDPanel": {
-            "m_vecButtonHints": [
-                {
-                    "m_strLocToken": "#upgrade_rocket_booster_drop_down",
-                    "m_eHintSide": "EButtonSide_Right",
-                    "m_strContext": "trigger"
-                }
-            ]
-        },
         "_multibase": [
             "armor_upgrade_t3"
         ],
@@ -310,6 +301,15 @@
                 ]
             }
         ],
+        "m_HUDPanel": {
+            "m_vecButtonHints": [
+                {
+                    "m_strLocToken": "#upgrade_rocket_booster_drop_down",
+                    "m_eHintSide": "EButtonSide_Right",
+                    "m_strContext": "trigger"
+                }
+            ]
+        },
         "m_eShopFilters": "EShopFilterMovement"
     }
 }

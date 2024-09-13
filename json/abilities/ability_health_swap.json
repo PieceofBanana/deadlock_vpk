@@ -1,9 +1,10 @@
 {
     "ability_health_swap": {
         "_class": "ability_health_swap",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "160",
+                "m_strValue": "170.000000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -202,72 +203,6 @@
                 ]
             }
         },
-        "m_strCancelAbilityKey": "+in_cancel_ability",
-        "m_HUDPanel": {
-            "m_vecButtonHints": [
-                {
-                    "m_strContext": "throw",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_Throw"
-                },
-                {
-                    "m_strContext": "deploy",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_Deploy"
-                },
-                {
-                    "m_strContext": "cast_on_target",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_CastOnTarget",
-                    "m_bShowAsUnitTargetActivationHint": "true",
-                    "m_bShowAbilityIcon": "true"
-                },
-                {
-                    "m_strContext": "alt_cast_hold_hint",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_HoldToSelfCast"
-                },
-                {
-                    "m_strContext": "alt_cast_double_tap_hint",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_DoubleTapToSelfCast"
-                },
-                {
-                    "m_strContext": "alt_cast_modifier_key_hint",
-                    "m_strBindingOverride1": "in_alt_cast_modifier",
-                    "m_eButton2": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_eButtonHintType": "EButtonHintType_TwoButtonCombination",
-                    "m_strLocToken": "#AbilityButtonHint_ModifierKeyToSelfCast"
-                },
-                {
-                    "m_strContext": "alt_cast_select_then_alt_cast_key_hint",
-                    "m_strBindingOverride1": "in_alt_cast",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_SelectThenSelfCastButton"
-                },
-                {
-                    "m_strContext": "deselect",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_Deselect",
-                    "m_nPriority": "1"
-                },
-                {
-                    "m_strLocToken": "#AbilityButtonHint_Activate",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_strContext": "unit_target_activate",
-                    "m_bShowAsUnitTargetActivationHint": "true",
-                    "m_bShowAbilityIcon": "true"
-                }
-            ]
-        },
         "_multibase": [
             "ultimate_base"
         ],
@@ -302,7 +237,7 @@
                 "m_vecPropertyUpgrades": [
                     {
                         "m_strPropertyName": "AbilityCooldown",
-                        "m_strBonus": "-40"
+                        "m_strBonus": "-38.000000"
                     }
                 ]
             },
@@ -332,7 +267,6 @@
             }
         ],
         "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/ghost_blood_exchange.webm",
-        "m_strCastSound": "Ghost.Blood.Exchange.Cast",
         "m_PreCastModifier": {
             "_class": "modifier_healthswap_precast",
             "_my_subclass_name": "modifier_healthswap_precast",
@@ -345,8 +279,9 @@
         "m_SwapModifier": {
             "_class": "modifier_health_swap_debuff",
             "_my_subclass_name": "modifier_health_swap_debuff",
-            "m_sAmbientLoopingSound": "Ghost.BloodExchange.Lp",
-            "m_BloodExchangeParticle": "particles/abilities/ghost/ghost_blood_exchange.vpcf"
+            "m_sAmbientLoopingSound": "",
+            "m_BloodExchangeParticle": "particles/abilities/ghost/ghost_blood_exchange.vpcf",
+            "m_sStartSound": "Ghost.Blood.Exchange.Cast.Victim"
         },
         "m_BuffModifier": {
             "_class": "modifier_base",
@@ -381,7 +316,7 @@
             ]
         },
         "m_SwapParticle": "",
-        "m_strCastDelaySound": "Ghost.Blood.Exchange.Cast.Delay",
+        "m_strCastDelaySound": "Ghost.Blood.Exchange.Cast",
         "m_previewParticle": "particles/abilities/ghost/ghost_blood_exchange_preview.vpcf"
     }
 }

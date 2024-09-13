@@ -18,78 +18,6 @@
 			[
 				
 				{
-					m_name = "Mirage_Start_Match"
-					m_bDisabled = true
-					m_responses = 
-					[
-						
-						{
-							m_type = "SPEAK"
-							m_value = "mirage_start_match_01_hero_3d"
-						},
-						
-						{
-							m_type = "SPEAK"
-							m_value = "mirage_start_match_02_hero_3d"
-						},
-						
-						{
-							m_type = "SPEAK"
-							m_value = "mirage_start_match_02_alt_01_hero_3d"
-						},
-						
-						{
-							m_type = "SPEAK"
-							m_value = "mirage_start_match_03_hero_3d"
-						},
-						
-						{
-							m_type = "SPEAK"
-							m_value = "mirage_start_match_04_hero_3d"
-						},
-						
-						{
-							m_type = "SPEAK"
-							m_value = "mirage_start_match_05_hero_3d"
-						},
-						
-						{
-							m_type = "SPEAK"
-							m_value = "mirage_start_match_06_hero_3d"
-						},
-						
-						{
-							m_type = "SPEAK"
-							m_value = "mirage_start_match_07_hero_3d"
-						},
-						
-						{
-							m_type = "SPEAK"
-							m_value = "mirage_start_match_08_hero_3d"
-						},
-						
-						{
-							m_type = "SPEAK"
-							m_value = "mirage_start_match_09_hero_3d"
-						},
-						
-						{
-							m_type = "SPEAK"
-							m_value = "mirage_start_match_10_hero_3d"
-						},
-					]
-					m_pEmbeddedRule = 
-					{
-						m_name = "Mirage_Start_Match"
-						m_bDisabled = true
-						m_Requirements = 
-						[
-							"ConceptMatchStart",
-						]
-					}
-				},
-				
-				{
 					m_children = 
 					[
 						
@@ -104,6 +32,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -114,6 +43,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -124,6 +54,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -134,6 +65,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -144,6 +76,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -154,6 +87,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -164,6 +98,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -174,6 +109,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -184,6 +120,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -194,6 +131,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -321,6 +259,342 @@
 						m_Requirements = 
 						[
 							"ConceptUltReady",
+						]
+					}
+				},
+				
+				{
+					m_name = "Mirage_Pain"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "mirage_pain_small_01_emote_pain_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 1.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "mirage_pain_small_02_emote_pain_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 1.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "mirage_pain_small_03_emote_pain_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 1.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "mirage_pain_small_04_emote_pain_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 1.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "mirage_pain_small_05_emote_pain_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 1.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "mirage_pain_small_06_emote_pain_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 1.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "mirage_pain_small_07_emote_pain_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 1.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "mirage_pain_small_08_emote_pain_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 1.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "mirage_pain_small_09_emote_pain_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 1.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "mirage_pain_small_10_emote_pain_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 1.500000
+							}
+						},
+					]
+					m_children = 
+					[
+						
+						{
+							m_name = "Mirage_Pain_Big"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "mirage_pain_big_01_emote_pain_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "mirage_pain_big_02_emote_pain_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "mirage_pain_big_03_emote_pain_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "mirage_pain_big_04_emote_pain_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "mirage_pain_big_05_emote_pain_3d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "mirage_pain_big_06_emote_pain_3d"
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Mirage_Pain_Big"
+								m_Requirements = 
+								[
+									"IsDamageHigh",
+								]
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Mirage_Pain"
+						m_Requirements = 
+						[
+							"ConceptPain",
+						]
+					}
+				},
+				
+				{
+					m_name = "Mirage_Air_Dash"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "mirage_effort_dash_01_emote_dash_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 0.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "mirage_effort_dash_02_emote_dash_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 0.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "mirage_effort_dash_03_emote_dash_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 0.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "mirage_effort_dash_04_emote_dash_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 0.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "mirage_effort_dash_05_emote_dash_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 0.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "mirage_effort_dash_06_emote_dash_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 0.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "mirage_effort_dash_07_emote_dash_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 0.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "mirage_effort_dash_08_emote_dash_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 0.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "mirage_effort_dash_09_emote_dash_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 0.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "mirage_effort_dash_10_emote_dash_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 0.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "mirage_effort_dash_11_emote_dash_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 0.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "mirage_effort_dash_12_emote_dash_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 0.500000
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Mirage_Air_Dash"
+						m_Requirements = 
+						[
+							"ConceptAirDash",
+						]
+					}
+				},
+				
+				{
+					m_name = "Mirage_Death"
+					m_responses = 
+					[
+						
+						{
+							m_type = "SPEAK"
+							m_value = "mirage_pain_death_01_emote_death_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 0.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "mirage_pain_death_02_emote_death_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 0.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "mirage_pain_death_03_emote_death_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 0.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "mirage_pain_death_04_emote_death_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 0.500000
+							}
+						},
+						
+						{
+							m_type = "SPEAK"
+							m_value = "mirage_pain_death_05_emote_death_3d"
+							m_params = 
+							{
+								m_respeakdelay.start = 0.500000
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_name = "Mirage_Death"
+						m_Requirements = 
+						[
+							"ConceptDeath",
 						]
 					}
 				},
@@ -863,30 +1137,6 @@
 								},
 								
 								{
-									m_name = "Mirage_GotHealForPlayer_PingedTokamak"
-									m_responses = 
-									[
-										
-										{
-											m_type = "SPEAK"
-											m_value = "mirage_ping_can_heal_tokamak_ping_2d"
-											m_params = 
-											{
-												m_respeakdelay.start = 0.500000
-											}
-										},
-									]
-									m_pEmbeddedRule = 
-									{
-										m_name = "Mirage_GotHealForPlayer_PingedTokamak"
-										m_Requirements = 
-										[
-											"PingedTokamak",
-										]
-									}
-								},
-								
-								{
 									m_name = "Mirage_GotHealForPlayer_PingedWrecker"
 									m_responses = 
 									[
@@ -906,6 +1156,30 @@
 										m_Requirements = 
 										[
 											"PingedWrecker",
+										]
+									}
+								},
+								
+								{
+									m_name = "Mirage_GotHealForPlayer_PingedSynth"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "mirage_ping_can_heal_synth_ping_2d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.500000
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Mirage_GotHealForPlayer_PingedSynth"
+										m_Requirements = 
+										[
+											"PingedSynth",
 										]
 									}
 								},
@@ -1235,13 +1509,13 @@
 						},
 						
 						{
-							m_name = "Mirage_Ping_Help_Orange"
+							m_name = "Mirage_Ping_Help_Green"
 							m_responses = 
 							[
 								
 								{
 									m_type = "SPEAK"
-									m_value = "mirage_ping_need_help_orange_ping_2d"
+									m_value = "mirage_ping_need_help_green_alt_ping_2d"
 									m_params = 
 									{
 										m_bCancelExisting = true
@@ -1250,11 +1524,11 @@
 							]
 							m_pEmbeddedRule = 
 							{
-								m_name = "Mirage_Ping_Help_Orange"
+								m_name = "Mirage_Ping_Help_Green"
 								m_Requirements = 
 								[
 									"ConceptHelp",
-									"PlayerInOrange",
+									"PlayerInGreen",
 								]
 							}
 						},
@@ -1508,13 +1782,22 @@
 						},
 						
 						{
-							m_name = "Mirage_Push_Base"
+							m_name = "Mirage_Push_Boss_Green_Lane"
 							m_responses = 
 							[
 								
 								{
 									m_type = "SPEAK"
-									m_value = "mirage_ping_take_core_ping_2d"
+									m_value = "mirage_ping_push_green_01_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "mirage_ping_push_green_02_ping_2d"
 									m_params = 
 									{
 										m_bCancelExisting = true
@@ -1523,61 +1806,11 @@
 							]
 							m_pEmbeddedRule = 
 							{
-								m_name = "Mirage_Push_Base"
+								m_name = "Mirage_Push_Boss_Green_Lane"
 								m_Requirements = 
 								[
 									"ConceptPushLane",
-									"IsFinalObjective",
-								]
-							}
-						},
-						
-						{
-							m_name = "Mirage_Push_Titan"
-							m_responses = 
-							[
-								
-								{
-									m_type = "SPEAK"
-									m_value = "mirage_ping_attack_enemy_titan_ping_2d"
-									m_params = 
-									{
-										m_bCancelExisting = true
-									}
-								},
-							]
-							m_pEmbeddedRule = 
-							{
-								m_name = "Mirage_Push_Titan"
-								m_Requirements = 
-								[
-									"ConceptPushLane",
-									"TargetIsTier3Boss",
-								]
-							}
-						},
-						
-						{
-							m_name = "Mirage_Push_Boss_Orange_Lane"
-							m_responses = 
-							[
-								
-								{
-									m_type = "SPEAK"
-									m_value = "mirage_ping_push_orange_01_ping_2d"
-									m_params = 
-									{
-										m_bCancelExisting = true
-									}
-								},
-							]
-							m_pEmbeddedRule = 
-							{
-								m_name = "Mirage_Push_Boss_Orange_Lane"
-								m_Requirements = 
-								[
-									"ConceptPushLane",
-									"OrangeLane",
+									"GreenLane",
 								]
 							}
 						},
@@ -1590,6 +1823,15 @@
 								{
 									m_type = "SPEAK"
 									m_value = "mirage_ping_push_yellow_01_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "mirage_ping_push_yellow_02_ping_2d"
 									m_params = 
 									{
 										m_bCancelExisting = true
@@ -1620,6 +1862,15 @@
 										m_bCancelExisting = true
 									}
 								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "mirage_ping_push_purple_02_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
 							]
 							m_pEmbeddedRule = 
 							{
@@ -1640,6 +1891,15 @@
 								{
 									m_type = "SPEAK"
 									m_value = "mirage_ping_push_blue_01_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "mirage_ping_push_blue_02_ping_2d"
 									m_params = 
 									{
 										m_bCancelExisting = true
@@ -1670,6 +1930,15 @@
 										m_bCancelExisting = true
 									}
 								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "mirage_ping_headed_blue_02_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
 							]
 							m_pEmbeddedRule = 
 							{
@@ -1690,6 +1959,15 @@
 								{
 									m_type = "SPEAK"
 									m_value = "mirage_ping_blue_help_01_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "mirage_ping_blue_help_02_ping_2d"
 									m_params = 
 									{
 										m_bCancelExisting = true
@@ -1721,6 +1999,15 @@
 										m_bCancelExisting = true
 									}
 								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "mirage_ping_headed_yellow_02_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
 							]
 							m_pEmbeddedRule = 
 							{
@@ -1741,6 +2028,15 @@
 								{
 									m_type = "SPEAK"
 									m_value = "mirage_ping_yellow_help_01_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "mirage_ping_yellow_help_02_ping_2d"
 									m_params = 
 									{
 										m_bCancelExisting = true
@@ -1772,6 +2068,15 @@
 										m_bCancelExisting = true
 									}
 								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "mirage_ping_headed_purple_02_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
 							]
 							m_pEmbeddedRule = 
 							{
@@ -1797,6 +2102,15 @@
 										m_bCancelExisting = true
 									}
 								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "mirage_ping_purple_help_02_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
 							]
 							m_pEmbeddedRule = 
 							{
@@ -1811,13 +2125,22 @@
 						},
 						
 						{
-							m_name = "Mirage_Defend_Boss_Orange_Lane"
+							m_name = "Mirage_Defend_Boss_Green_Lane"
 							m_responses = 
 							[
 								
 								{
 									m_type = "SPEAK"
-									m_value = "mirage_ping_headed_orange_01_ping_2d"
+									m_value = "mirage_ping_headed_green_01_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "mirage_ping_headed_green_02_ping_2d"
 									m_params = 
 									{
 										m_bCancelExisting = true
@@ -1826,23 +2149,32 @@
 							]
 							m_pEmbeddedRule = 
 							{
-								m_name = "Mirage_Defend_Boss_Orange_Lane"
+								m_name = "Mirage_Defend_Boss_Green_Lane"
 								m_Requirements = 
 								[
 									"ConceptDefendLane",
-									"OrangeLane",
+									"GreenLane",
 								]
 							}
 						},
 						
 						{
-							m_name = "Mirage_Orange_Lane_Boss_Needs_Help"
+							m_name = "Mirage_Green_Lane_Boss_Needs_Help"
 							m_responses = 
 							[
 								
 								{
 									m_type = "SPEAK"
-									m_value = "mirage_ping_orange_help_01_ping_2d"
+									m_value = "mirage_ping_green_help_01_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "mirage_ping_green_help_02_ping_2d"
 									m_params = 
 									{
 										m_bCancelExisting = true
@@ -1851,11 +2183,11 @@
 							]
 							m_pEmbeddedRule = 
 							{
-								m_name = "Mirage_Orange_Lane_Boss_Needs_Help"
+								m_name = "Mirage_Green_Lane_Boss_Needs_Help"
 								m_Requirements = 
 								[
 									"ConceptDefendLane",
-									"OrangeLane",
+									"GreenLane",
 									"IsAggressive",
 								]
 							}
@@ -1898,6 +2230,15 @@
 										m_bCancelExisting = true
 									}
 								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "mirage_ping_headed_blue_02_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
 							]
 							m_pEmbeddedRule = 
 							{
@@ -1923,6 +2264,15 @@
 										m_bCancelExisting = true
 									}
 								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "mirage_ping_headed_yellow_02_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
 							]
 							m_pEmbeddedRule = 
 							{
@@ -1936,13 +2286,22 @@
 						},
 						
 						{
-							m_name = "Mirage_Heading_Orange"
+							m_name = "Mirage_Heading_Green"
 							m_responses = 
 							[
 								
 								{
 									m_type = "SPEAK"
-									m_value = "mirage_ping_headed_orange_01_ping_2d"
+									m_value = "mirage_ping_headed_green_01_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "mirage_ping_headed_green_02_ping_2d"
 									m_params = 
 									{
 										m_bCancelExisting = true
@@ -1951,11 +2310,11 @@
 							]
 							m_pEmbeddedRule = 
 							{
-								m_name = "Mirage_Heading_Orange"
+								m_name = "Mirage_Heading_Green"
 								m_Requirements = 
 								[
 									"ConceptHeadingLane",
-									"OrangeLane",
+									"GreenLane",
 								]
 							}
 						},
@@ -1968,6 +2327,15 @@
 								{
 									m_type = "SPEAK"
 									m_value = "mirage_ping_headed_purple_01_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "mirage_ping_headed_purple_02_ping_2d"
 									m_params = 
 									{
 										m_bCancelExisting = true
@@ -1998,6 +2366,15 @@
 										m_bCancelExisting = true
 									}
 								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "mirage_ping_lets_go_blue_alt_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
 							]
 							m_pEmbeddedRule = 
 							{
@@ -2023,6 +2400,15 @@
 										m_bCancelExisting = true
 									}
 								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "mirage_ping_lets_go_yellow_alt_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
 							]
 							m_pEmbeddedRule = 
 							{
@@ -2036,13 +2422,13 @@
 						},
 						
 						{
-							m_name = "Mirage_Lets_Go_Orange"
+							m_name = "Mirage_Lets_Go_Green"
 							m_responses = 
 							[
 								
 								{
 									m_type = "SPEAK"
-									m_value = "mirage_ping_lets_go_orange_ping_2d"
+									m_value = "mirage_ping_lets_go_green_ping_2d"
 									m_params = 
 									{
 										m_bCancelExisting = true
@@ -2051,11 +2437,11 @@
 							]
 							m_pEmbeddedRule = 
 							{
-								m_name = "Mirage_Lets_Go_Orange"
+								m_name = "Mirage_Lets_Go_Green"
 								m_Requirements = 
 								[
 									"ConceptLetsGoHere",
-									"OrangeLane",
+									"GreenLane",
 								]
 							}
 						},
@@ -2165,6 +2551,31 @@
 								m_Requirements = 
 								[
 									"ConceptCancelLastMessage",
+								]
+							}
+						},
+						
+						{
+							m_name = "Mirage_Idol_Ping"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "mirage_ping_jar_call_01_ping_2d"
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "mirage_ping_jar_call_02_ping_2d"
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Mirage_Idol_Ping"
+								m_Requirements = 
+								[
+									"ConceptIdolPing",
 								]
 							}
 						},
@@ -2928,26 +3339,6 @@
 								},
 								
 								{
-									m_name = "Mirage_Hero_Careful_PingedTokamak"
-									m_responses = 
-									[
-										
-										{
-											m_type = "SPEAK"
-											m_value = "mirage_ping_careful_tokamak_01_ping_2d"
-										},
-									]
-									m_pEmbeddedRule = 
-									{
-										m_name = "Mirage_Hero_Careful_PingedTokamak"
-										m_Requirements = 
-										[
-											"PingedTokamak",
-										]
-									}
-								},
-								
-								{
 									m_name = "Mirage_Hero_Careful_PingedWrecker"
 									m_responses = 
 									[
@@ -2963,6 +3354,26 @@
 										m_Requirements = 
 										[
 											"PingedWrecker",
+										]
+									}
+								},
+								
+								{
+									m_name = "Mirage_Hero_Careful_PingedSynth"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "mirage_ping_careful_synth_01_ping_2d"
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Mirage_Hero_Careful_PingedSynth"
+										m_Requirements = 
+										[
+											"PingedSynth",
 										]
 									}
 								},
@@ -3038,15 +3449,6 @@
 										{
 											m_type = "SPEAK"
 											m_value = "mirage_ping_hornet_missing_01_ping_2d"
-											m_params = 
-											{
-												m_bCancelExisting = true
-											}
-										},
-										
-										{
-											m_type = "SPEAK"
-											m_value = "mirage_ping_hornet_missing_01_alt_01_ping_2d"
 											m_params = 
 											{
 												m_bCancelExisting = true
@@ -3520,30 +3922,6 @@
 								},
 								
 								{
-									m_name = "Mirage_Missing_Enemy_Hero_PingedTokamak"
-									m_responses = 
-									[
-										
-										{
-											m_type = "SPEAK"
-											m_value = "mirage_ping_tokamak_missing_01_ping_2d"
-											m_params = 
-											{
-												m_bCancelExisting = true
-											}
-										},
-									]
-									m_pEmbeddedRule = 
-									{
-										m_name = "Mirage_Missing_Enemy_Hero_PingedTokamak"
-										m_Requirements = 
-										[
-											"PingedTokamak",
-										]
-									}
-								},
-								
-								{
 									m_name = "Mirage_Missing_Enemy_Hero_PingedWrecker"
 									m_responses = 
 									[
@@ -3563,6 +3941,30 @@
 										m_Requirements = 
 										[
 											"PingedWrecker",
+										]
+									}
+								},
+								
+								{
+									m_name = "Mirage_Missing_Enemy_Hero_PingedSynth"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "mirage_ping_synth_missing_01_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Mirage_Missing_Enemy_Hero_PingedSynth"
+										m_Requirements = 
+										[
+											"PingedSynth",
 										]
 									}
 								},
@@ -3601,16 +4003,7 @@
 										
 										{
 											m_type = "SPEAK"
-											m_value = "mirage_ping_see_inferno_01_ping_2d"
-											m_params = 
-											{
-												m_bCancelExisting = true
-											}
-										},
-										
-										{
-											m_type = "SPEAK"
-											m_value = "mirage_ping_see_inferno_02_ping_2d"
+											m_value = "mirage_ping_see_inferno_ping_2d"
 											m_params = 
 											{
 												m_bCancelExisting = true
@@ -3668,15 +4061,6 @@
 										{
 											m_type = "SPEAK"
 											m_value = "mirage_ping_see_hornet_01_ping_2d"
-											m_params = 
-											{
-												m_bCancelExisting = true
-											}
-										},
-										
-										{
-											m_type = "SPEAK"
-											m_value = "mirage_ping_see_hornet_02_ping_2d"
 											m_params = 
 											{
 												m_bCancelExisting = true
@@ -3799,16 +4183,7 @@
 										
 										{
 											m_type = "SPEAK"
-											m_value = "mirage_ping_see_forge_01_ping_2d"
-											m_params = 
-											{
-												m_bCancelExisting = true
-											}
-										},
-										
-										{
-											m_type = "SPEAK"
-											m_value = "mirage_ping_see_forge_02_ping_2d"
+											m_value = "mirage_ping_see_forge_ping_2d"
 											m_params = 
 											{
 												m_bCancelExisting = true
@@ -3832,16 +4207,7 @@
 										
 										{
 											m_type = "SPEAK"
-											m_value = "mirage_ping_see_chrono_01_ping_2d"
-											m_params = 
-											{
-												m_bCancelExisting = true
-											}
-										},
-										
-										{
-											m_type = "SPEAK"
-											m_value = "mirage_ping_see_chrono_02_ping_2d"
+											m_value = "mirage_ping_see_chrono_ping_2d"
 											m_params = 
 											{
 												m_bCancelExisting = true
@@ -3964,16 +4330,7 @@
 										
 										{
 											m_type = "SPEAK"
-											m_value = "mirage_ping_see_astro_01_ping_2d"
-											m_params = 
-											{
-												m_bCancelExisting = true
-											}
-										},
-										
-										{
-											m_type = "SPEAK"
-											m_value = "mirage_ping_see_astro_02_ping_2d"
+											m_value = "mirage_ping_see_astro_ping_2d"
 											m_params = 
 											{
 												m_bCancelExisting = true
@@ -4030,16 +4387,7 @@
 										
 										{
 											m_type = "SPEAK"
-											m_value = "mirage_ping_see_nano_01_ping_2d"
-											m_params = 
-											{
-												m_bCancelExisting = true
-											}
-										},
-										
-										{
-											m_type = "SPEAK"
-											m_value = "mirage_ping_see_nano_02_ping_2d"
+											m_value = "mirage_ping_see_nano_ping_2d"
 											m_params = 
 											{
 												m_bCancelExisting = true
@@ -4064,15 +4412,6 @@
 										{
 											m_type = "SPEAK"
 											m_value = "mirage_ping_see_orion_01_ping_2d"
-											m_params = 
-											{
-												m_bCancelExisting = true
-											}
-										},
-										
-										{
-											m_type = "SPEAK"
-											m_value = "mirage_ping_see_orion_02_ping_2d"
 											m_params = 
 											{
 												m_bCancelExisting = true
@@ -4162,16 +4501,7 @@
 										
 										{
 											m_type = "SPEAK"
-											m_value = "mirage_ping_see_tengu_01_ping_2d"
-											m_params = 
-											{
-												m_bCancelExisting = true
-											}
-										},
-										
-										{
-											m_type = "SPEAK"
-											m_value = "mirage_ping_see_tengu_02_ping_2d"
+											m_value = "mirage_ping_see_tengu_ping_2d"
 											m_params = 
 											{
 												m_bCancelExisting = true
@@ -4205,15 +4535,6 @@
 										{
 											m_type = "SPEAK"
 											m_value = "mirage_ping_see_warden_02_ping_2d"
-											m_params = 
-											{
-												m_bCancelExisting = true
-											}
-										},
-										
-										{
-											m_type = "SPEAK"
-											m_value = "mirage_ping_see_warden_02_alt_01_ping_2d"
 											m_params = 
 											{
 												m_bCancelExisting = true
@@ -4321,39 +4642,6 @@
 								},
 								
 								{
-									m_name = "Mirage_See_Hero_PingedTokamak"
-									m_responses = 
-									[
-										
-										{
-											m_type = "SPEAK"
-											m_value = "mirage_ping_see_tokamak_01_ping_2d"
-											m_params = 
-											{
-												m_bCancelExisting = true
-											}
-										},
-										
-										{
-											m_type = "SPEAK"
-											m_value = "mirage_ping_see_tokamak_02_ping_2d"
-											m_params = 
-											{
-												m_bCancelExisting = true
-											}
-										},
-									]
-									m_pEmbeddedRule = 
-									{
-										m_name = "Mirage_See_Hero_PingedTokamak"
-										m_Requirements = 
-										[
-											"PingedTokamak",
-										]
-									}
-								},
-								
-								{
 									m_name = "Mirage_See_Hero_PingedWrecker"
 									m_responses = 
 									[
@@ -4382,6 +4670,39 @@
 										m_Requirements = 
 										[
 											"PingedWrecker",
+										]
+									}
+								},
+								
+								{
+									m_name = "Mirage_See_Hero_PingedSynth"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "mirage_ping_see_synth_01_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+										
+										{
+											m_type = "SPEAK"
+											m_value = "mirage_ping_see_synth_02_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Mirage_See_Hero_PingedSynth"
+										m_Requirements = 
+										[
+											"PingedSynth",
 										]
 									}
 								},
@@ -4762,30 +5083,6 @@
 								},
 								
 								{
-									m_name = "Mirage_See_Hero_Aggressive_PingedKrill"
-									m_responses = 
-									[
-										
-										{
-											m_type = "SPEAK"
-											m_value = "mirage_ping_attack_krill_ping_2d"
-											m_params = 
-											{
-												m_bCancelExisting = true
-											}
-										},
-									]
-									m_pEmbeddedRule = 
-									{
-										m_name = "Mirage_See_Hero_Aggressive_PingedKrill"
-										m_Requirements = 
-										[
-											"PingedKrill",
-										]
-									}
-								},
-								
-								{
 									m_name = "Mirage_See_Hero_Aggressive_PingedShiv"
 									m_responses = 
 									[
@@ -4930,30 +5227,6 @@
 								},
 								
 								{
-									m_name = "Mirage_See_Hero_Aggressive_PingedTokamak"
-									m_responses = 
-									[
-										
-										{
-											m_type = "SPEAK"
-											m_value = "mirage_ping_attack_tokamak_ping_2d"
-											m_params = 
-											{
-												m_bCancelExisting = true
-											}
-										},
-									]
-									m_pEmbeddedRule = 
-									{
-										m_name = "Mirage_See_Hero_Aggressive_PingedTokamak"
-										m_Requirements = 
-										[
-											"PingedTokamak",
-										]
-									}
-								},
-								
-								{
 									m_name = "Mirage_See_Hero_Aggressive_PingedWrecker"
 									m_responses = 
 									[
@@ -4973,6 +5246,30 @@
 										m_Requirements = 
 										[
 											"PingedWrecker",
+										]
+									}
+								},
+								
+								{
+									m_name = "Mirage_See_Hero_Aggressive_PingedSynth"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "mirage_ping_attack_synth_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Mirage_See_Hero_Aggressive_PingedSynth"
+										m_Requirements = 
+										[
+											"PingedSynth",
 										]
 									}
 								},
@@ -5522,30 +5819,6 @@
 								},
 								
 								{
-									m_name = "Mirage_See_Hero_On_Roof_PingedTokamak"
-									m_responses = 
-									[
-										
-										{
-											m_type = "SPEAK"
-											m_value = "mirage_ping_see_tokamak_on_roof_ping_2d"
-											m_params = 
-											{
-												m_bCancelExisting = true
-											}
-										},
-									]
-									m_pEmbeddedRule = 
-									{
-										m_name = "Mirage_See_Hero_On_Roof_PingedTokamak"
-										m_Requirements = 
-										[
-											"PingedTokamak",
-										]
-									}
-								},
-								
-								{
 									m_name = "Mirage_See_Hero_On_Roof_PingedWrecker"
 									m_responses = 
 									[
@@ -5565,6 +5838,30 @@
 										m_Requirements = 
 										[
 											"PingedWrecker",
+										]
+									}
+								},
+								
+								{
+									m_name = "Mirage_See_Hero_On_Roof_PingedSynth"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "mirage_ping_see_synth_on_roof_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Mirage_See_Hero_On_Roof_PingedSynth"
+										m_Requirements = 
+										[
+											"PingedSynth",
 										]
 									}
 								},
@@ -6114,30 +6411,6 @@
 								},
 								
 								{
-									m_name = "Mirage_See_Hero_On_Bridge_PingedTokamak"
-									m_responses = 
-									[
-										
-										{
-											m_type = "SPEAK"
-											m_value = "mirage_ping_see_tokamak_on_bridge_ping_2d"
-											m_params = 
-											{
-												m_bCancelExisting = true
-											}
-										},
-									]
-									m_pEmbeddedRule = 
-									{
-										m_name = "Mirage_See_Hero_On_Bridge_PingedTokamak"
-										m_Requirements = 
-										[
-											"PingedTokamak",
-										]
-									}
-								},
-								
-								{
 									m_name = "Mirage_See_Hero_On_Bridge_PingedWrecker"
 									m_responses = 
 									[
@@ -6157,6 +6430,30 @@
 										m_Requirements = 
 										[
 											"PingedWrecker",
+										]
+									}
+								},
+								
+								{
+									m_name = "Mirage_See_Hero_On_Bridge_PingedSynth"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "mirage_ping_see_synth_on_bridge_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Mirage_See_Hero_On_Bridge_PingedSynth"
+										m_Requirements = 
+										[
+											"PingedSynth",
 										]
 									}
 								},
@@ -6706,30 +7003,6 @@
 								},
 								
 								{
-									m_name = "Mirage_See_Hero_Top_Of_Garage_PingedTokamak"
-									m_responses = 
-									[
-										
-										{
-											m_type = "SPEAK"
-											m_value = "mirage_ping_tokamak_on_top_of_garage_ping_2d"
-											m_params = 
-											{
-												m_bCancelExisting = true
-											}
-										},
-									]
-									m_pEmbeddedRule = 
-									{
-										m_name = "Mirage_See_Hero_Top_Of_Garage_PingedTokamak"
-										m_Requirements = 
-										[
-											"PingedTokamak",
-										]
-									}
-								},
-								
-								{
 									m_name = "Mirage_See_Hero_Top_Of_Garage_PingedWrecker"
 									m_responses = 
 									[
@@ -6749,6 +7022,30 @@
 										m_Requirements = 
 										[
 											"PingedWrecker",
+										]
+									}
+								},
+								
+								{
+									m_name = "Mirage_See_Hero_Top_Of_Garage_PingedSynth"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "mirage_ping_synth_on_top_of_garage_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Mirage_See_Hero_Top_Of_Garage_PingedSynth"
+										m_Requirements = 
+										[
+											"PingedSynth",
 										]
 									}
 								},
@@ -7298,30 +7595,6 @@
 								},
 								
 								{
-									m_name = "Mirage_See_Hero_Under_Garage_PingedTokamak"
-									m_responses = 
-									[
-										
-										{
-											m_type = "SPEAK"
-											m_value = "mirage_ping_tokamak_under_garage_ping_2d"
-											m_params = 
-											{
-												m_bCancelExisting = true
-											}
-										},
-									]
-									m_pEmbeddedRule = 
-									{
-										m_name = "Mirage_See_Hero_Under_Garage_PingedTokamak"
-										m_Requirements = 
-										[
-											"PingedTokamak",
-										]
-									}
-								},
-								
-								{
 									m_name = "Mirage_See_Hero_Under_Garage_PingedWrecker"
 									m_responses = 
 									[
@@ -7341,6 +7614,30 @@
 										m_Requirements = 
 										[
 											"PingedWrecker",
+										]
+									}
+								},
+								
+								{
+									m_name = "Mirage_See_Hero_Under_Garage_PingedSynth"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "mirage_ping_synth_under_garage_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Mirage_See_Hero_Under_Garage_PingedSynth"
+										m_Requirements = 
+										[
+											"PingedSynth",
 										]
 									}
 								},
@@ -7890,30 +8187,6 @@
 								},
 								
 								{
-									m_name = "Mirage_See_Hero_Inside_Mid_PingedTokamak"
-									m_responses = 
-									[
-										
-										{
-											m_type = "SPEAK"
-											m_value = "mirage_ping_tokamak_in_mid_ping_2d"
-											m_params = 
-											{
-												m_bCancelExisting = true
-											}
-										},
-									]
-									m_pEmbeddedRule = 
-									{
-										m_name = "Mirage_See_Hero_Inside_Mid_PingedTokamak"
-										m_Requirements = 
-										[
-											"PingedTokamak",
-										]
-									}
-								},
-								
-								{
 									m_name = "Mirage_See_Hero_Inside_Mid_PingedWrecker"
 									m_responses = 
 									[
@@ -7933,6 +8206,30 @@
 										m_Requirements = 
 										[
 											"PingedWrecker",
+										]
+									}
+								},
+								
+								{
+									m_name = "Mirage_See_Hero_Inside_Mid_PingedSynth"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "mirage_ping_synth_in_mid_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Mirage_See_Hero_Inside_Mid_PingedSynth"
+										m_Requirements = 
+										[
+											"PingedSynth",
 										]
 									}
 								},
@@ -8482,30 +8779,6 @@
 								},
 								
 								{
-									m_name = "Mirage_See_Hero_Above_Mid_PingedTokamak"
-									m_responses = 
-									[
-										
-										{
-											m_type = "SPEAK"
-											m_value = "mirage_ping_tokamak_on_top_of_mid_ping_2d"
-											m_params = 
-											{
-												m_bCancelExisting = true
-											}
-										},
-									]
-									m_pEmbeddedRule = 
-									{
-										m_name = "Mirage_See_Hero_Above_Mid_PingedTokamak"
-										m_Requirements = 
-										[
-											"PingedTokamak",
-										]
-									}
-								},
-								
-								{
 									m_name = "Mirage_See_Hero_Above_Mid_PingedWrecker"
 									m_responses = 
 									[
@@ -8525,6 +8798,30 @@
 										m_Requirements = 
 										[
 											"PingedWrecker",
+										]
+									}
+								},
+								
+								{
+									m_name = "Mirage_See_Hero_Above_Mid_PingedSynth"
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "mirage_ping_synth_on_top_of_mid_ping_2d"
+											m_params = 
+											{
+												m_bCancelExisting = true
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Mirage_See_Hero_Above_Mid_PingedSynth"
+										m_Requirements = 
+										[
+											"PingedSynth",
 										]
 									}
 								},
@@ -8569,6 +8866,26 @@
 								]
 							}
 						},
+						
+						{
+							m_name = "Mirage_Youre_Welcome"
+							m_responses = 
+							[
+								
+								{
+									m_type = "SPEAK"
+									m_value = "mirage_ping_welcome_ping_2d"
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Mirage_Youre_Welcome"
+								m_Requirements = 
+								[
+									"ConceptYoureWelcome",
+								]
+							}
+						},
 					]
 					m_pEmbeddedRule = 
 					{
@@ -8600,31 +8917,6 @@
 						[
 							"ConceptDefendLane",
 							"IsFinalObjective",
-						]
-					}
-				},
-				
-				{
-					m_name = "Mirage_Defend_Titan"
-					m_responses = 
-					[
-						
-						{
-							m_type = "SPEAK"
-							m_value = "mirage_ping_titan_under_attack_ping_2d"
-							m_params = 
-							{
-								m_bCancelExisting = true
-							}
-						},
-					]
-					m_pEmbeddedRule = 
-					{
-						m_name = "Mirage_Defend_Titan"
-						m_Requirements = 
-						[
-							"ConceptDefendLane",
-							"TargetIsTier3Boss",
 						]
 					}
 				},
@@ -10218,6 +10510,1175 @@
 						m_Requirements = 
 						[
 							"ConceptObserveCastFinish",
+						]
+					}
+				},
+				
+				{
+					m_bDisabled = true
+					m_children = 
+					[
+						
+						{
+							m_name = "Mirage_match_start_convo_Gigawatt_01"
+							m_children = 
+							[
+								
+								{
+									m_children = 
+									[
+										
+										{
+											m_name = "Mirage_match_start_convo_Gigawatt_01_reverse_line_02"
+											m_responses = 
+											[
+												
+												{
+													m_type = "SPEAK"
+													m_value = "mirage_match_start_gigawatt_mirage_convo01_02_hero_3d"
+													m_pConceptFollowup = 
+													{
+														m_target = "from"
+														m_concept = "TLK_CITADEL_CONVERSATION"
+														m_contexts = "ConversationName:1,conversation_line:3"
+													}
+												},
+											]
+											m_pEmbeddedRule = 
+											{
+												m_name = "Mirage_match_start_convo_Gigawatt_01_reverse_line_02"
+												m_Requirements = 
+												[
+													"IsLine02",
+												]
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_Requirements = 
+										[
+											"IsConversation1",
+										]
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Mirage_match_start_convo_Gigawatt_01"
+								m_Requirements = 
+								[
+									"IsFromGigawatt",
+								]
+							}
+						},
+						
+						{
+							m_name = "Mirage_match_start_convo_Ghost_01"
+							m_children = 
+							[
+								
+								{
+									m_name = "Mirage_match_start_convo_Ghost_01_reverse_line_01"
+									m_bDisabled = true
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "mirage_match_start_ghost_mirage_convo01_01_hero_3d"
+											m_pConceptFollowup = 
+											{
+												m_target = "from"
+												m_concept = "TLK_CITADEL_CONVERSATION"
+												m_contexts = "ConversationName:1,conversation_line:2"
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Mirage_match_start_convo_Ghost_01_reverse_line_01"
+										m_bDisabled = true
+										m_Requirements = 
+										[
+											"IsLine01",
+										]
+									}
+								},
+								
+								{
+									m_children = 
+									[
+										
+										{
+											m_name = "Mirage_match_start_convo_Ghost_01_reverse_line_03"
+											m_responses = 
+											[
+												
+												{
+													m_type = "SPEAK"
+													m_value = "mirage_match_start_ghost_mirage_convo01_03_hero_3d"
+													m_pConceptFollowup = 
+													{
+														m_target = "from"
+														m_concept = "TLK_CITADEL_CONVERSATION"
+														m_contexts = "ConversationName:1,conversation_line:4"
+													}
+												},
+											]
+											m_pEmbeddedRule = 
+											{
+												m_name = "Mirage_match_start_convo_Ghost_01_reverse_line_03"
+												m_Requirements = 
+												[
+													"IsLine03",
+												]
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_Requirements = 
+										[
+											"IsConversation1",
+										]
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Mirage_match_start_convo_Ghost_01"
+								m_Requirements = 
+								[
+									"IsFromGhost",
+								]
+							}
+						},
+						
+						{
+							m_name = "Mirage_match_start_convo_Dynamo_01"
+							m_children = 
+							[
+								
+								{
+									m_children = 
+									[
+										
+										{
+											m_name = "Mirage_match_start_convo_Dynamo_01_reverse_line_02"
+											m_responses = 
+											[
+												
+												{
+													m_type = "SPEAK"
+													m_value = "mirage_match_start_dynamo_mirage_convo01_02_hero_3d"
+													m_pConceptFollowup = 
+													{
+														m_target = "from"
+														m_concept = "TLK_CITADEL_CONVERSATION"
+														m_contexts = "ConversationName:1,conversation_line:3"
+													}
+												},
+											]
+											m_pEmbeddedRule = 
+											{
+												m_name = "Mirage_match_start_convo_Dynamo_01_reverse_line_02"
+												m_Requirements = 
+												[
+													"IsLine02",
+												]
+											}
+										},
+										
+										{
+											m_name = "Mirage_match_start_convo_Dynamo_01_reverse_line_04"
+											m_responses = 
+											[
+												
+												{
+													m_type = "SPEAK"
+													m_value = "mirage_match_start_dynamo_mirage_convo01_04_hero_3d"
+													m_pConceptFollowup = 
+													{
+														m_target = "from"
+														m_concept = "TLK_CITADEL_CONVERSATION"
+														m_contexts = "ConversationName:1,conversation_line:5"
+													}
+												},
+											]
+											m_pEmbeddedRule = 
+											{
+												m_name = "Mirage_match_start_convo_Dynamo_01_reverse_line_04"
+												m_Requirements = 
+												[
+													"IsLine04",
+												]
+											}
+										},
+										
+										{
+											m_name = "Mirage_match_start_convo_Dynamo_01_reverse_line_06"
+											m_responses = 
+											[
+												
+												{
+													m_type = "SPEAK"
+													m_value = "mirage_match_start_dynamo_mirage_convo01_06_hero_3d"
+													m_pConceptFollowup = 
+													{
+														m_target = "from"
+														m_concept = "TLK_CITADEL_CONVERSATION"
+														m_contexts = "ConversationName:1,conversation_line:7"
+													}
+												},
+											]
+											m_pEmbeddedRule = 
+											{
+												m_name = "Mirage_match_start_convo_Dynamo_01_reverse_line_06"
+												m_Requirements = 
+												[
+													"IsLine06",
+												]
+											}
+										},
+										
+										{
+											m_name = "Mirage_match_start_convo_Dynamo_01_reverse_line_08"
+											m_responses = 
+											[
+												
+												{
+													m_type = "SPEAK"
+													m_value = "mirage_match_start_dynamo_mirage_convo01_08_hero_3d"
+													m_pConceptFollowup = 
+													{
+														m_target = "from"
+														m_concept = "TLK_CITADEL_CONVERSATION"
+														m_contexts = "ConversationName:1,conversation_line:9"
+													}
+												},
+											]
+											m_pEmbeddedRule = 
+											{
+												m_name = "Mirage_match_start_convo_Dynamo_01_reverse_line_08"
+												m_Requirements = 
+												[
+													"IsLine08",
+												]
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_Requirements = 
+										[
+											"IsConversation1",
+										]
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Mirage_match_start_convo_Dynamo_01"
+								m_Requirements = 
+								[
+									"IsFromDynamo",
+								]
+							}
+						},
+						
+						{
+							m_name = "Mirage_match_start_convo_Kelvin_01"
+							m_children = 
+							[
+								
+								{
+									m_children = 
+									[
+										
+										{
+											m_name = "Mirage_match_start_convo_Kelvin_01_reverse_line_02"
+											m_responses = 
+											[
+												
+												{
+													m_type = "SPEAK"
+													m_value = "mirage_match_start_kelvin_mirage_convo01_02_hero_3d"
+													m_pConceptFollowup = 
+													{
+														m_target = "from"
+														m_concept = "TLK_CITADEL_CONVERSATION"
+														m_contexts = "ConversationName:1,conversation_line:3"
+													}
+												},
+											]
+											m_pEmbeddedRule = 
+											{
+												m_name = "Mirage_match_start_convo_Kelvin_01_reverse_line_02"
+												m_Requirements = 
+												[
+													"IsLine02",
+												]
+											}
+										},
+										
+										{
+											m_name = "Mirage_match_start_convo_Kelvin_01_reverse_line_04"
+											m_responses = 
+											[
+												
+												{
+													m_type = "SPEAK"
+													m_value = "mirage_match_start_kelvin_mirage_convo01_04_hero_3d"
+													m_pConceptFollowup = 
+													{
+														m_target = "from"
+														m_concept = "TLK_CITADEL_CONVERSATION"
+														m_contexts = "ConversationName:1,conversation_line:5"
+													}
+												},
+											]
+											m_pEmbeddedRule = 
+											{
+												m_name = "Mirage_match_start_convo_Kelvin_01_reverse_line_04"
+												m_Requirements = 
+												[
+													"IsLine04",
+												]
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_Requirements = 
+										[
+											"IsConversation1",
+										]
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Mirage_match_start_convo_Kelvin_01"
+								m_Requirements = 
+								[
+									"IsFromKelvin",
+								]
+							}
+						},
+						
+						{
+							m_name = "Mirage_match_start_convo_Astro_01"
+							m_children = 
+							[
+								
+								{
+									m_children = 
+									[
+										
+										{
+											m_name = "Mirage_match_start_convo_Astro_01_reverse_line_02"
+											m_responses = 
+											[
+												
+												{
+													m_type = "SPEAK"
+													m_value = "mirage_match_start_astro_mirage_convo01_02_hero_3d"
+													m_pConceptFollowup = 
+													{
+														m_target = "from"
+														m_concept = "TLK_CITADEL_CONVERSATION"
+														m_contexts = "ConversationName:1,conversation_line:3"
+													}
+												},
+											]
+											m_pEmbeddedRule = 
+											{
+												m_name = "Mirage_match_start_convo_Astro_01_reverse_line_02"
+												m_Requirements = 
+												[
+													"IsLine02",
+												]
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_Requirements = 
+										[
+											"IsConversation1",
+										]
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Mirage_match_start_convo_Astro_01"
+								m_Requirements = 
+								[
+									"IsFromAstro",
+								]
+							}
+						},
+						
+						{
+							m_name = "Mirage_match_start_convo_Gigawatt_02"
+							m_children = 
+							[
+								
+								{
+									m_children = 
+									[
+										
+										{
+											m_name = "Mirage_match_start_convo_Gigawatt_02_reverse_line_02"
+											m_responses = 
+											[
+												
+												{
+													m_type = "SPEAK"
+													m_value = "mirage_match_start_gigawatt_mirage_convo02_02_hero_3d"
+													m_pConceptFollowup = 
+													{
+														m_target = "from"
+														m_concept = "TLK_CITADEL_CONVERSATION"
+														m_contexts = "ConversationName:2,conversation_line:3"
+													}
+												},
+											]
+											m_pEmbeddedRule = 
+											{
+												m_name = "Mirage_match_start_convo_Gigawatt_02_reverse_line_02"
+												m_Requirements = 
+												[
+													"IsLine02",
+												]
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_Requirements = 
+										[
+											"IsConversation2",
+										]
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Mirage_match_start_convo_Gigawatt_02"
+								m_Requirements = 
+								[
+									"IsFromGigawatt",
+								]
+							}
+						},
+						
+						{
+							m_name = "Mirage_match_start_convo_Ghost_02"
+							m_children = 
+							[
+								
+								{
+									m_children = 
+									[
+										
+										{
+											m_name = "Mirage_match_start_convo_Ghost_02_reverse_line_02"
+											m_responses = 
+											[
+												
+												{
+													m_type = "SPEAK"
+													m_value = "mirage_match_start_ghost_mirage_convo02_02_hero_3d"
+													m_pConceptFollowup = 
+													{
+														m_target = "from"
+														m_concept = "TLK_CITADEL_CONVERSATION"
+														m_contexts = "ConversationName:2,conversation_line:3"
+													}
+												},
+											]
+											m_pEmbeddedRule = 
+											{
+												m_name = "Mirage_match_start_convo_Ghost_02_reverse_line_02"
+												m_Requirements = 
+												[
+													"IsLine02",
+												]
+											}
+										},
+										
+										{
+											m_name = "Mirage_match_start_convo_Ghost_02_reverse_line_04"
+											m_responses = 
+											[
+												
+												{
+													m_type = "SPEAK"
+													m_value = "mirage_match_start_ghost_mirage_convo02_04_hero_3d"
+													m_pConceptFollowup = 
+													{
+														m_target = "from"
+														m_concept = "TLK_CITADEL_CONVERSATION"
+														m_contexts = "ConversationName:2,conversation_line:5"
+													}
+												},
+											]
+											m_pEmbeddedRule = 
+											{
+												m_name = "Mirage_match_start_convo_Ghost_02_reverse_line_04"
+												m_Requirements = 
+												[
+													"IsLine04",
+												]
+											}
+										},
+										
+										{
+											m_name = "Mirage_match_start_convo_Ghost_02_reverse_line_06"
+											m_responses = 
+											[
+												
+												{
+													m_type = "SPEAK"
+													m_value = "mirage_match_start_ghost_mirage_convo02_06_hero_3d"
+													m_pConceptFollowup = 
+													{
+														m_target = "from"
+														m_concept = "TLK_CITADEL_CONVERSATION"
+														m_contexts = "ConversationName:2,conversation_line:7"
+													}
+												},
+											]
+											m_pEmbeddedRule = 
+											{
+												m_name = "Mirage_match_start_convo_Ghost_02_reverse_line_06"
+												m_Requirements = 
+												[
+													"IsLine06",
+												]
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_Requirements = 
+										[
+											"IsConversation2",
+										]
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Mirage_match_start_convo_Ghost_02"
+								m_Requirements = 
+								[
+									"IsFromGhost",
+								]
+							}
+						},
+						
+						{
+							m_name = "Mirage_match_start_convo_Dynamo_02"
+							m_children = 
+							[
+								
+								{
+									m_name = "Mirage_match_start_convo_Dynamo_02_reverse_line_01"
+									m_bDisabled = true
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "mirage_match_start_dynamo_mirage_convo02_01_hero_3d"
+											m_pConceptFollowup = 
+											{
+												m_target = "from"
+												m_concept = "TLK_CITADEL_CONVERSATION"
+												m_contexts = "ConversationName:2,conversation_line:2"
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Mirage_match_start_convo_Dynamo_02_reverse_line_01"
+										m_bDisabled = true
+										m_Requirements = 
+										[
+											"IsLine01",
+										]
+									}
+								},
+								
+								{
+									m_children = 
+									[
+										
+										{
+											m_name = "Mirage_match_start_convo_Dynamo_02_reverse_line_03"
+											m_responses = 
+											[
+												
+												{
+													m_type = "SPEAK"
+													m_value = "mirage_match_start_dynamo_mirage_convo02_03_hero_3d"
+													m_pConceptFollowup = 
+													{
+														m_target = "from"
+														m_concept = "TLK_CITADEL_CONVERSATION"
+														m_contexts = "ConversationName:2,conversation_line:4"
+													}
+												},
+											]
+											m_pEmbeddedRule = 
+											{
+												m_name = "Mirage_match_start_convo_Dynamo_02_reverse_line_03"
+												m_Requirements = 
+												[
+													"IsLine03",
+												]
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_Requirements = 
+										[
+											"IsConversation2",
+										]
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Mirage_match_start_convo_Dynamo_02"
+								m_Requirements = 
+								[
+									"IsFromDynamo",
+								]
+							}
+						},
+						
+						{
+							m_name = "Mirage_match_start_convo_Kelvin_02"
+							m_children = 
+							[
+								
+								{
+									m_children = 
+									[
+										
+										{
+											m_name = "Mirage_match_start_convo_Kelvin_02_reverse_line_02"
+											m_responses = 
+											[
+												
+												{
+													m_type = "SPEAK"
+													m_value = "mirage_match_start_kelvin_mirage_convo02_02_hero_3d"
+													m_pConceptFollowup = 
+													{
+														m_target = "from"
+														m_concept = "TLK_CITADEL_CONVERSATION"
+														m_contexts = "ConversationName:2,conversation_line:3"
+													}
+												},
+											]
+											m_pEmbeddedRule = 
+											{
+												m_name = "Mirage_match_start_convo_Kelvin_02_reverse_line_02"
+												m_Requirements = 
+												[
+													"IsLine02",
+												]
+											}
+										},
+										
+										{
+											m_name = "Mirage_match_start_convo_Kelvin_02_reverse_line_04"
+											m_responses = 
+											[
+												
+												{
+													m_type = "SPEAK"
+													m_value = "mirage_match_start_kelvin_mirage_convo02_04_hero_3d"
+													m_pConceptFollowup = 
+													{
+														m_target = "from"
+														m_concept = "TLK_CITADEL_CONVERSATION"
+														m_contexts = "ConversationName:2,conversation_line:5"
+													}
+												},
+											]
+											m_pEmbeddedRule = 
+											{
+												m_name = "Mirage_match_start_convo_Kelvin_02_reverse_line_04"
+												m_Requirements = 
+												[
+													"IsLine04",
+												]
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_Requirements = 
+										[
+											"IsConversation2",
+										]
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Mirage_match_start_convo_Kelvin_02"
+								m_Requirements = 
+								[
+									"IsFromKelvin",
+								]
+							}
+						},
+						
+						{
+							m_name = "Mirage_match_start_convo_Astro_02"
+							m_children = 
+							[
+								
+								{
+									m_name = "Mirage_match_start_convo_Astro_02_reverse_line_01"
+									m_bDisabled = true
+									m_responses = 
+									[
+										
+										{
+											m_type = "SPEAK"
+											m_value = "mirage_match_start_astro_mirage_convo02_01_hero_3d"
+											m_pConceptFollowup = 
+											{
+												m_target = "from"
+												m_concept = "TLK_CITADEL_CONVERSATION"
+												m_contexts = "ConversationName:2,conversation_line:2"
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_name = "Mirage_match_start_convo_Astro_02_reverse_line_01"
+										m_bDisabled = true
+										m_Requirements = 
+										[
+											"IsLine01",
+										]
+									}
+								},
+								
+								{
+									m_children = 
+									[
+										
+										{
+											m_name = "Mirage_match_start_convo_Astro_02_reverse_line_03"
+											m_responses = 
+											[
+												
+												{
+													m_type = "SPEAK"
+													m_value = "mirage_match_start_astro_mirage_convo02_03_hero_3d"
+													m_pConceptFollowup = 
+													{
+														m_target = "from"
+														m_concept = "TLK_CITADEL_CONVERSATION"
+														m_contexts = "ConversationName:2,conversation_line:4"
+													}
+												},
+											]
+											m_pEmbeddedRule = 
+											{
+												m_name = "Mirage_match_start_convo_Astro_02_reverse_line_03"
+												m_Requirements = 
+												[
+													"IsLine03",
+												]
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_Requirements = 
+										[
+											"IsConversation2",
+										]
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Mirage_match_start_convo_Astro_02"
+								m_Requirements = 
+								[
+									"IsFromAstro",
+								]
+							}
+						},
+						
+						{
+							m_name = "Mirage_match_start_convo_Gigawatt_03"
+							m_children = 
+							[
+								
+								{
+									m_children = 
+									[
+										
+										{
+											m_name = "Mirage_match_start_convo_Gigawatt_03_reverse_line_02"
+											m_responses = 
+											[
+												
+												{
+													m_type = "SPEAK"
+													m_value = "mirage_match_start_gigawatt_mirage_convo03_02_hero_3d"
+													m_pConceptFollowup = 
+													{
+														m_target = "from"
+														m_concept = "TLK_CITADEL_CONVERSATION"
+														m_contexts = "ConversationName:3,conversation_line:3"
+													}
+												},
+											]
+											m_pEmbeddedRule = 
+											{
+												m_name = "Mirage_match_start_convo_Gigawatt_03_reverse_line_02"
+												m_Requirements = 
+												[
+													"IsLine02",
+												]
+											}
+										},
+										
+										{
+											m_name = "Mirage_match_start_convo_Gigawatt_03_reverse_line_04"
+											m_responses = 
+											[
+												
+												{
+													m_type = "SPEAK"
+													m_value = "mirage_match_start_gigawatt_mirage_convo03_04_hero_3d"
+													m_pConceptFollowup = 
+													{
+														m_target = "from"
+														m_concept = "TLK_CITADEL_CONVERSATION"
+														m_contexts = "ConversationName:3,conversation_line:5"
+													}
+												},
+											]
+											m_pEmbeddedRule = 
+											{
+												m_name = "Mirage_match_start_convo_Gigawatt_03_reverse_line_04"
+												m_Requirements = 
+												[
+													"IsLine04",
+												]
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_Requirements = 
+										[
+											"IsConversation3",
+										]
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Mirage_match_start_convo_Gigawatt_03"
+								m_Requirements = 
+								[
+									"IsFromGigawatt",
+								]
+							}
+						},
+						
+						{
+							m_name = "Mirage_match_start_convo_Ghost_03"
+							m_children = 
+							[
+								
+								{
+									m_children = 
+									[
+										
+										{
+											m_name = "Mirage_match_start_convo_Ghost_03_reverse_line_02"
+											m_responses = 
+											[
+												
+												{
+													m_type = "SPEAK"
+													m_value = "mirage_match_start_ghost_mirage_convo03_02_hero_3d"
+													m_pConceptFollowup = 
+													{
+														m_target = "from"
+														m_concept = "TLK_CITADEL_CONVERSATION"
+														m_contexts = "ConversationName:3,conversation_line:3"
+													}
+												},
+											]
+											m_pEmbeddedRule = 
+											{
+												m_name = "Mirage_match_start_convo_Ghost_03_reverse_line_02"
+												m_Requirements = 
+												[
+													"IsLine02",
+												]
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_Requirements = 
+										[
+											"IsConversation3",
+										]
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Mirage_match_start_convo_Ghost_03"
+								m_Requirements = 
+								[
+									"IsFromGhost",
+								]
+							}
+						},
+						
+						{
+							m_name = "Mirage_match_start_convo_Dynamo_03"
+							m_children = 
+							[
+								
+								{
+									m_children = 
+									[
+										
+										{
+											m_name = "Mirage_match_start_convo_Dynamo_03_reverse_line_02"
+											m_responses = 
+											[
+												
+												{
+													m_type = "SPEAK"
+													m_value = "mirage_match_start_dynamo_mirage_convo03_02_hero_3d"
+													m_pConceptFollowup = 
+													{
+														m_target = "from"
+														m_concept = "TLK_CITADEL_CONVERSATION"
+														m_contexts = "ConversationName:3,conversation_line:3"
+													}
+												},
+											]
+											m_pEmbeddedRule = 
+											{
+												m_name = "Mirage_match_start_convo_Dynamo_03_reverse_line_02"
+												m_Requirements = 
+												[
+													"IsLine02",
+												]
+											}
+										},
+										
+										{
+											m_name = "Mirage_match_start_convo_Dynamo_03_reverse_line_04"
+											m_responses = 
+											[
+												
+												{
+													m_type = "SPEAK"
+													m_value = "mirage_match_start_dynamo_mirage_convo03_04_hero_3d"
+													m_pConceptFollowup = 
+													{
+														m_target = "from"
+														m_concept = "TLK_CITADEL_CONVERSATION"
+														m_contexts = "ConversationName:3,conversation_line:5"
+													}
+												},
+											]
+											m_pEmbeddedRule = 
+											{
+												m_name = "Mirage_match_start_convo_Dynamo_03_reverse_line_04"
+												m_Requirements = 
+												[
+													"IsLine04",
+												]
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_Requirements = 
+										[
+											"IsConversation3",
+										]
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Mirage_match_start_convo_Dynamo_03"
+								m_Requirements = 
+								[
+									"IsFromDynamo",
+								]
+							}
+						},
+						
+						{
+							m_name = "Mirage_match_start_convo_Kelvin_03"
+							m_children = 
+							[
+								
+								{
+									m_children = 
+									[
+										
+										{
+											m_name = "Mirage_match_start_convo_Kelvin_03_reverse_line_02"
+											m_responses = 
+											[
+												
+												{
+													m_type = "SPEAK"
+													m_value = "mirage_match_start_kelvin_mirage_convo03_02_hero_3d"
+													m_pConceptFollowup = 
+													{
+														m_target = "from"
+														m_concept = "TLK_CITADEL_CONVERSATION"
+														m_contexts = "ConversationName:3,conversation_line:3"
+													}
+												},
+											]
+											m_pEmbeddedRule = 
+											{
+												m_name = "Mirage_match_start_convo_Kelvin_03_reverse_line_02"
+												m_Requirements = 
+												[
+													"IsLine02",
+												]
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_Requirements = 
+										[
+											"IsConversation3",
+										]
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Mirage_match_start_convo_Kelvin_03"
+								m_Requirements = 
+								[
+									"IsFromKelvin",
+								]
+							}
+						},
+						
+						{
+							m_name = "Mirage_match_start_convo_Astro_03"
+							m_children = 
+							[
+								
+								{
+									m_children = 
+									[
+										
+										{
+											m_name = "Mirage_match_start_convo_Astro_03_reverse_line_02"
+											m_responses = 
+											[
+												
+												{
+													m_type = "SPEAK"
+													m_value = "mirage_match_start_astro_mirage_convo03_02_hero_3d"
+													m_pConceptFollowup = 
+													{
+														m_target = "from"
+														m_concept = "TLK_CITADEL_CONVERSATION"
+														m_contexts = "ConversationName:3,conversation_line:3"
+													}
+												},
+											]
+											m_pEmbeddedRule = 
+											{
+												m_name = "Mirage_match_start_convo_Astro_03_reverse_line_02"
+												m_Requirements = 
+												[
+													"IsLine02",
+												]
+											}
+										},
+										
+										{
+											m_name = "Mirage_match_start_convo_Astro_03_reverse_line_04"
+											m_responses = 
+											[
+												
+												{
+													m_type = "SPEAK"
+													m_value = "mirage_match_start_astro_mirage_convo03_04_hero_3d"
+													m_pConceptFollowup = 
+													{
+														m_target = "from"
+														m_concept = "TLK_CITADEL_CONVERSATION"
+														m_contexts = "ConversationName:3,conversation_line:5"
+													}
+												},
+											]
+											m_pEmbeddedRule = 
+											{
+												m_name = "Mirage_match_start_convo_Astro_03_reverse_line_04"
+												m_Requirements = 
+												[
+													"IsLine04",
+												]
+											}
+										},
+									]
+									m_pEmbeddedRule = 
+									{
+										m_Requirements = 
+										[
+											"IsConversation3",
+										]
+									}
+								},
+							]
+							m_pEmbeddedRule = 
+							{
+								m_name = "Mirage_match_start_convo_Astro_03"
+								m_Requirements = 
+								[
+									"IsFromAstro",
+								]
+							}
+						},
+					]
+					m_pEmbeddedRule = 
+					{
+						m_bDisabled = true
+						m_Requirements = 
+						[
+							"ConceptConversation",
 						]
 					}
 				},

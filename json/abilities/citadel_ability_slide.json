@@ -1,9 +1,10 @@
 {
     "citadel_ability_slide": {
         "_class": "citadel_ability_slide",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "0.6",
+                "m_strValue": "0.850000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -207,7 +208,8 @@
                 },
                 {
                     "m_flMaintainDuration": "99.000000",
-                    "m_eCameraOperation": "k_ECameraOp_Maintain"
+                    "m_eCameraOperation": "k_ECameraOp_Maintain",
+                    "m_flMaintainFloat": "85.000000"
                 }
             ]
         },

@@ -324,7 +324,7 @@
 		},
 		
 		{
-			m_name = "PlayerInOrange"
+			m_name = "PlayerInGreen"
 			m_notes = "AI shout at"
 			m_matchKey = "player_lane_color"
 			m_matchExpr = "3"

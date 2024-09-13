@@ -1,6 +1,7 @@
 {
     "citadel_weapon_haze_set": {
         "_class": "citadel_ability_primary_weapon",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
                 "m_strValue": "0",
@@ -270,7 +271,9 @@
             "m_strReloadEndSound": "Player.WpnReload.Shared.Clip.In",
             "m_strZoomInSound": "Haze.ZoomIn",
             "m_strZoomOutSound": "Haze.ZoomOut",
+            "m_strLowAmmoSound": "Player.WpnLowAmmo.Shared",
             "m_bBulletShouldUseVerlet": "true",
+            "m_nLowAmmoIndicatorThreshold": "8",
             "m_nRecoilSeed": "233",
             "m_AimingShootSpreadPenalty": [
                 "0.000000",

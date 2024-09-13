@@ -1,9 +1,10 @@
 {
     "ability_charged_shot": {
         "_class": "ability_charged_shot",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "16",
+                "m_strValue": "17.000000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -347,85 +348,6 @@
             "m_flPelletScatterFactor": "2.000000",
             "m_bHitOnceAcrossAllBullets": "true"
         },
-        "m_strCancelAbilityKey": "+in_cancel_ability",
-        "m_HUDPanel": {
-            "m_vecButtonHints": [
-                {
-                    "m_strContext": "throw",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_Throw"
-                },
-                {
-                    "m_strContext": "deploy",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_Deploy"
-                },
-                {
-                    "m_strContext": "cast_on_target",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_CastOnTarget",
-                    "m_bShowAsUnitTargetActivationHint": "true",
-                    "m_bShowAbilityIcon": "true"
-                },
-                {
-                    "m_strContext": "alt_cast_hold_hint",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_HoldToSelfCast"
-                },
-                {
-                    "m_strContext": "alt_cast_double_tap_hint",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_DoubleTapToSelfCast"
-                },
-                {
-                    "m_strContext": "alt_cast_modifier_key_hint",
-                    "m_strBindingOverride1": "in_alt_cast_modifier",
-                    "m_eButton2": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_eButtonHintType": "EButtonHintType_TwoButtonCombination",
-                    "m_strLocToken": "#AbilityButtonHint_ModifierKeyToSelfCast"
-                },
-                {
-                    "m_strContext": "alt_cast_select_then_alt_cast_key_hint",
-                    "m_strBindingOverride1": "in_alt_cast",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_SelectThenSelfCastButton"
-                },
-                {
-                    "m_strContext": "deselect",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_Deselect",
-                    "m_nPriority": "1"
-                },
-                {
-                    "m_strLocToken": "#AbilityButtonHint_Activate",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_strContext": "unit_target_activate",
-                    "m_bShowAsUnitTargetActivationHint": "true",
-                    "m_bShowAbilityIcon": "true"
-                }
-            ],
-            "m_vecHUDElements": [
-                {
-                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
-                    "m_strContext": "cast",
-                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_converging_semi_circles.vxml"
-                },
-                {
-                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
-                    "m_strContext": "channel",
-                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_circular_progress.vxml",
-                    "m_bReverseProgress": "true"
-                }
-            ]
-        },
         "_multibase": [
             "signature_base",
             "weapon_info_base"
@@ -484,6 +406,21 @@
         "m_strCastSound": "Orion.Charged.Shot.Cast",
         "m_ChannelParticle": "particles/abilities/archer/archer_charged_shot_channel.vpcf",
         "m_ChannelStartParticle": "particles/abilities/archer/archer_charged_shot_channel_start.vpcf",
+        "m_HUDPanel": {
+            "m_vecHUDElements": [
+                {
+                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
+                    "m_strContext": "cast",
+                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_converging_semi_circles.vxml"
+                },
+                {
+                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
+                    "m_strContext": "channel",
+                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_circular_progress.vxml",
+                    "m_bReverseProgress": "true"
+                }
+            ]
+        },
         "m_ShootParticle": "particles/abilities/archer/archer_charged_shot_channel_shock.vpcf",
         "m_AutoChannelModifier": {
             "_my_subclass_name": "modifier_intrinsic_base",
@@ -496,10 +433,6 @@
                     "m_bSpringToDefault": "false",
                     "m_flSpringTarget": "50.000000",
                     "m_eCameraOperation": "k_ECameraOp_Spring"
-                },
-                {
-                    "m_flMaintainDuration": "1.000000",
-                    "m_eCameraOperation": "k_ECameraOp_Maintain"
                 }
             ]
         },
@@ -507,7 +440,9 @@
             "m_vecFOVOperations": [
                 {
                     "m_flMaintainDuration": "999.000000",
-                    "m_eCameraOperation": "k_ECameraOp_Maintain"
+                    "m_eCameraOperation": "k_ECameraOp_Maintain",
+                    "m_bValuesAreRelative": "false",
+                    "m_flMaintainFloat": "50.000000"
                 }
             ]
         },

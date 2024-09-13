@@ -1,9 +1,10 @@
 {
     "citadel_ability_charged_tackle": {
         "_class": "citadel_ability_charged_tackle",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "20",
+                "m_strValue": "21.000000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -222,37 +223,6 @@
                 ]
             }
         },
-        "m_strCancelAbilityKey": "+in_cancel_ability",
-        "m_HUDPanel": {
-            "m_vecButtonHints": [
-                {
-                    "m_eButton1": "EButtonHint_Cancel",
-                    "m_strLocToken": "#ability_abort_cast",
-                    "m_eHintSide": "EButtonSide_Right",
-                    "m_strContext": "preparing"
-                },
-                {
-                    "m_eButton1": "EButtonHint_Cancel",
-                    "m_strLocToken": "#citadel_ability_charged_tackle_cancel_channel",
-                    "m_eHintSide": "EButtonSide_Right",
-                    "m_strContext": "tackling"
-                }
-            ],
-            "m_vecHUDElements": [
-                {
-                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
-                    "m_strContext": "preparing",
-                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_progress_bar.vxml",
-                    "m_bReverseProgress": "false"
-                },
-                {
-                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
-                    "m_strContext": "tackling",
-                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_progress_bar.vxml",
-                    "m_bReverseProgress": "true"
-                }
-            ]
-        },
         "_multibase": [
             "signature_base"
         ],
@@ -301,7 +271,7 @@
                 "m_vecPropertyUpgrades": [
                     {
                         "m_strPropertyName": "AbilityCooldown",
-                        "m_strBonus": "-10"
+                        "m_strBonus": "-9.500000"
                     },
                     {
                         "m_strPropertyName": "PrepareTime",
@@ -340,6 +310,22 @@
             "_my_subclass_name": "modifier_tech_shield",
             "m_strParticleEffect": "particles/abilities/sumo/sumo_nikuman_tech_immune_buff.vpcf",
             "m_strParticleStatusEffect": "particles/upgrades/tech_shield_buff.vpcf"
+        },
+        "m_HUDPanel": {
+            "m_vecHUDElements": [
+                {
+                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
+                    "m_strContext": "preparing",
+                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_progress_bar.vxml",
+                    "m_bReverseProgress": "false"
+                },
+                {
+                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
+                    "m_strContext": "tackling",
+                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_progress_bar.vxml",
+                    "m_bReverseProgress": "true"
+                }
+            ]
         },
         "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/dynamo_charged_tackle.webm"
     }

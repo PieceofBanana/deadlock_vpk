@@ -1,9 +1,10 @@
 {
     "citadel_ability_tier2boss_rocket_barrage": {
         "_class": "citadel_ability_tier2boss_rocket_barrage",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "10",
+                "m_strValue": "10.500000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",

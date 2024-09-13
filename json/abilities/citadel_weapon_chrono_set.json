@@ -1,6 +1,7 @@
 {
     "citadel_weapon_chrono_set": {
         "_class": "citadel_ability_primary_weapon",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
                 "m_strValue": "0",
@@ -262,7 +263,9 @@
             "m_strReloadEndSound": "Player.WpnReload.Shared.Clip.In",
             "m_strZoomInSound": "Chrono.ZoomIn",
             "m_strZoomOutSound": "Chrono.ZoomOut",
+            "m_strLowAmmoSound": "Player.WpnLowAmmo.Shared",
             "m_bBulletShouldUseVerlet": "true",
+            "m_nLowAmmoIndicatorThreshold": "8",
             "m_nRecoilSeed": "534",
             "m_flRecoilRecoveryDelayFactor": "0.400000",
             "m_AimingShootSpreadPenalty": [

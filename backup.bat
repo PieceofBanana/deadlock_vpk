@@ -14,4 +14,3 @@ call test.bat
 set /p clientver=< .\ver\steam.inf
 git commit -a -m %clientver%
 git push origin
-ping -n 11 127.0.0.1 > nul

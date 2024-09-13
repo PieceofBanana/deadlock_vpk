@@ -32,6 +32,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -42,6 +43,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -52,6 +54,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -62,6 +65,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -72,6 +76,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -82,6 +87,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -92,6 +98,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -102,6 +109,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -112,6 +120,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -122,6 +131,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -132,6 +142,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -142,6 +153,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -1569,31 +1581,6 @@
 						},
 						
 						{
-							m_name = "Synth_Ping_Help_Orange"
-							m_responses = 
-							[
-								
-								{
-									m_type = "SPEAK"
-									m_value = "pocket_ping_need_help_orange_ping_2d"
-									m_params = 
-									{
-										m_bCancelExisting = true
-									}
-								},
-							]
-							m_pEmbeddedRule = 
-							{
-								m_name = "Synth_Ping_Help_Orange"
-								m_Requirements = 
-								[
-									"ConceptHelp",
-									"PlayerInOrange",
-								]
-							}
-						},
-						
-						{
 							m_name = "Synth_Ping_Help_Blue"
 							m_responses = 
 							[
@@ -1842,31 +1829,6 @@
 						},
 						
 						{
-							m_name = "Synth_Push_Boss_Orange_Lane"
-							m_responses = 
-							[
-								
-								{
-									m_type = "SPEAK"
-									m_value = "pocket_ping_push_orange_01_ping_2d"
-									m_params = 
-									{
-										m_bCancelExisting = true
-									}
-								},
-							]
-							m_pEmbeddedRule = 
-							{
-								m_name = "Synth_Push_Boss_Orange_Lane"
-								m_Requirements = 
-								[
-									"ConceptPushLane",
-									"OrangeLane",
-								]
-							}
-						},
-						
-						{
 							m_name = "Synth_Push_Boss_Yellow_Lane"
 							m_responses = 
 							[
@@ -2095,57 +2057,6 @@
 						},
 						
 						{
-							m_name = "Synth_Defend_Boss_Orange_Lane"
-							m_responses = 
-							[
-								
-								{
-									m_type = "SPEAK"
-									m_value = "pocket_ping_headed_orange_01_ping_2d"
-									m_params = 
-									{
-										m_bCancelExisting = true
-									}
-								},
-							]
-							m_pEmbeddedRule = 
-							{
-								m_name = "Synth_Defend_Boss_Orange_Lane"
-								m_Requirements = 
-								[
-									"ConceptDefendLane",
-									"OrangeLane",
-								]
-							}
-						},
-						
-						{
-							m_name = "Synth_Orange_Lane_Boss_Needs_Help"
-							m_responses = 
-							[
-								
-								{
-									m_type = "SPEAK"
-									m_value = "pocket_ping_orange_help_01_ping_2d"
-									m_params = 
-									{
-										m_bCancelExisting = true
-									}
-								},
-							]
-							m_pEmbeddedRule = 
-							{
-								m_name = "Synth_Orange_Lane_Boss_Needs_Help"
-								m_Requirements = 
-								[
-									"ConceptDefendLane",
-									"OrangeLane",
-									"IsAggressive",
-								]
-							}
-						},
-						
-						{
 							m_name = "Synth_Heading_Generic"
 							m_responses = 
 							[
@@ -2215,31 +2126,6 @@
 								[
 									"ConceptHeadingLane",
 									"YellowLane",
-								]
-							}
-						},
-						
-						{
-							m_name = "Synth_Heading_Orange"
-							m_responses = 
-							[
-								
-								{
-									m_type = "SPEAK"
-									m_value = "pocket_ping_headed_orange_01_ping_2d"
-									m_params = 
-									{
-										m_bCancelExisting = true
-									}
-								},
-							]
-							m_pEmbeddedRule = 
-							{
-								m_name = "Synth_Heading_Orange"
-								m_Requirements = 
-								[
-									"ConceptHeadingLane",
-									"OrangeLane",
 								]
 							}
 						},
@@ -2315,31 +2201,6 @@
 								[
 									"ConceptLetsGoHere",
 									"YellowLane",
-								]
-							}
-						},
-						
-						{
-							m_name = "Synth_Lets_Go_Orange"
-							m_responses = 
-							[
-								
-								{
-									m_type = "SPEAK"
-									m_value = "pocket_ping_lets_go_orange_ping_2d"
-									m_params = 
-									{
-										m_bCancelExisting = true
-									}
-								},
-							]
-							m_pEmbeddedRule = 
-							{
-								m_name = "Synth_Lets_Go_Orange"
-								m_Requirements = 
-								[
-									"ConceptLetsGoHere",
-									"OrangeLane",
 								]
 							}
 						},

@@ -1,9 +1,10 @@
 {
     "citadel_ability_self_vacuum": {
         "_class": "citadel_ability_self_vacuum",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "180",
+                "m_strValue": "191.000000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -190,79 +191,6 @@
                 ]
             }
         },
-        "m_strCancelAbilityKey": "+in_cancel_ability",
-        "m_HUDPanel": {
-            "m_vecButtonHints": [
-                {
-                    "m_strContext": "throw",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_Throw"
-                },
-                {
-                    "m_strContext": "deploy",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_Deploy"
-                },
-                {
-                    "m_strContext": "cast_on_target",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_CastOnTarget",
-                    "m_bShowAsUnitTargetActivationHint": "true",
-                    "m_bShowAbilityIcon": "true"
-                },
-                {
-                    "m_strContext": "alt_cast_hold_hint",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_HoldToSelfCast"
-                },
-                {
-                    "m_strContext": "alt_cast_double_tap_hint",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_DoubleTapToSelfCast"
-                },
-                {
-                    "m_strContext": "alt_cast_modifier_key_hint",
-                    "m_strBindingOverride1": "in_alt_cast_modifier",
-                    "m_eButton2": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_eButtonHintType": "EButtonHintType_TwoButtonCombination",
-                    "m_strLocToken": "#AbilityButtonHint_ModifierKeyToSelfCast"
-                },
-                {
-                    "m_strContext": "alt_cast_select_then_alt_cast_key_hint",
-                    "m_strBindingOverride1": "in_alt_cast",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_SelectThenSelfCastButton"
-                },
-                {
-                    "m_strContext": "deselect",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_Deselect",
-                    "m_nPriority": "1"
-                },
-                {
-                    "m_strLocToken": "#AbilityButtonHint_Activate",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_strContext": "unit_target_activate",
-                    "m_bShowAsUnitTargetActivationHint": "true",
-                    "m_bShowAbilityIcon": "true"
-                }
-            ],
-            "m_vecHUDElements": [
-                {
-                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
-                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_progress_bar.vxml",
-                    "m_strContext": "channel"
-                }
-            ]
-        },
         "_multibase": [
             "ultimate_base"
         ],
@@ -315,7 +243,7 @@
             "_class": "modifier_vacuumaura",
             "_my_subclass_name": "modifier_vacuumaura",
             "m_bIsHidden": "true",
-            "m_strParticleEffect": "particles/abilities/sumo/sumo_singularity.vpcf",
+            "m_strParticleEffect": "",
             "m_FinishParticle": "particles/abilities/sumo/sumo_singularity_end.vpcf",
             "m_sAmbientLoopingSound": "Dynamo.A4.Singularity.Cast",
             "m_sStartSound": "",
@@ -336,15 +264,32 @@
                         },
                         {
                             "m_flMaintainDuration": "999.000000",
-                            "m_eCameraOperation": "k_ECameraOp_Maintain"
+                            "m_eCameraOperation": "k_ECameraOp_Maintain",
+                            "m_flMaintainFloat": "300.000000"
                         }
                     ]
                 },
                 "m_TargetLoopingSound": "Dynamo.Singularity.LpTarget",
                 "m_eTimeScaleSource": "MODIFIER_TIME_SCALE_USE_CASTER",
-                "m_flOuterSpeedScale": "10.000000"
+                "m_flOuterSpeedScale": "10.000000",
+                "m_strParticleStatusEffect": "particles/status_fx/status_fx_dynamo_singularity_tgt.vpcf",
+                "m_nStatusEffectPriority": "60"
             },
-            "m_bDurationCanBeTimeScaled": "true"
+            "m_bDurationCanBeTimeScaled": "true",
+            "m_strScreenParticleEffect": "",
+            "m_strParticleStatusEffect": "",
+            "m_nStatusEffectPriority": "0",
+            "m_AlliedParticle": "particles/abilities/sumo/sumo_singularity.vpcf",
+            "m_EnemyParticle": "particles/abilities/sumo/sumo_singularity_enemy.vpcf"
+        },
+        "m_HUDPanel": {
+            "m_vecHUDElements": [
+                {
+                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
+                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_progress_bar.vxml",
+                    "m_strContext": "channel"
+                }
+            ]
         },
         "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/dynamo_singularity.webm",
         "m_AbilityTooltipDetails": {

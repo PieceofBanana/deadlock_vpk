@@ -1,6 +1,7 @@
 {
     "citadel_weapon_inferno_set": {
         "_class": "citadel_ability_primary_weapon",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
                 "m_strValue": "0",
@@ -262,7 +263,9 @@
             "m_strReloadEndSound": "Inferno.Reload.ClipIn",
             "m_strZoomInSound": "Inferno.ZoomIn",
             "m_strZoomOutSound": "Inferno.ZoomOut",
+            "m_strLowAmmoSound": "Player.WpnLowAmmo.Shared",
             "m_bBulletShouldUseVerlet": "true",
+            "m_nLowAmmoIndicatorThreshold": "5",
             "m_nRecoilSeed": "755",
             "m_StandingMoveSpreadPenalty": [
                 "0.000000",

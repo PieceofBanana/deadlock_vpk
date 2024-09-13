@@ -1,6 +1,7 @@
 {
     "citadel_ability_melee_parry": {
         "_class": "citadel_ability_melee_parry",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
                 "m_strValue": "5",

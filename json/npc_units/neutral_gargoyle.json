@@ -164,7 +164,7 @@
                         "m_value": "35.000000"
                     }
                 ],
-                "m_strParticleEffect": "particles/npc/neutral_strong_ambient_flame.vpcf"
+                "m_strParticleEffect": ""
             }
         ],
         "m_eTrooperType": "NEUTRAL_TROOPER_STRONG",

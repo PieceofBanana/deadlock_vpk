@@ -2,7 +2,7 @@
     "hero_nano": {
         "_class": "CitadelHeroData_t",
         "m_bPlayerSelectable": "true",
-        "m_bDisabled": "true",
+        "m_bDisabled": "false",
         "m_bInDevelopment": "true",
         "m_bNeedsTesting": "false",
         "m_bAssignedPlayersOnly": "false",
@@ -54,6 +54,7 @@
             "ESlot_Ability_Innate_1": "citadel_ability_dash",
             "ESlot_Ability_Innate_2": "citadel_ability_sprint",
             "ESlot_Ability_Innate_3": "citadel_ability_melee_parry",
+            "ESlot_Weapon_Secondary": "citadel_weapon_nano_alt",
             "ESlot_Signature_1": "ability_perched_predator",
             "ESlot_Signature_2": "ability_nano_pounce",
             "ESlot_Signature_3": "ability_nano_proximity_ritual",
@@ -607,6 +608,7 @@
         ],
         "m_strTopBarVertical": "file://{images}/heroes/nano_vertical.psd",
         "m_strUIShopAnimGraph": "models/heroes_staging/nano/nano_v2/ui_shop_nano.vanmgrph",
-        "m_strUIShoppingMap": "maps/ui/hero_shop/nano_shop.vmap"
+        "m_strUIShoppingMap": "maps/ui/hero_shop/nano_shop.vmap",
+        "m_hGeneratedVOEventScript": "soundevents/vo/generated_vo_hero_nano.vsndevts"
     }
 }

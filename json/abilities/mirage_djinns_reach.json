@@ -1,9 +1,10 @@
 {
     "mirage_djinns_reach": {
         "_class": "mirage_djinns_reach",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "60",
+                "m_strValue": "64.000000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -25,9 +26,9 @@
                 }
             },
             "AbilityCastRange": {
-                "m_strValue": "0",
+                "m_strValue": "25m",
                 "m_eDisplayUnits": "EDisplayUnit_Meters",
-                "m_strCSSClass": "range",
+                "m_strCSSClass": "distance",
                 "m_bCanSetTokenOverride": "true",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",
@@ -40,7 +41,7 @@
                 "m_bCanSetTokenOverride": "true"
             },
             "AbilityCastDelay": {
-                "m_strValue": "1.1",
+                "m_strValue": "0.2",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cast",
                 "m_bCanSetTokenOverride": "true"
@@ -88,7 +89,7 @@
                 }
             },
             "ChannelMoveSpeed": {
-                "m_strValue": "-1",
+                "m_strValue": "20m",
                 "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond",
                 "m_strCSSClass": "move_speed",
                 "m_bCanSetTokenOverride": "true"
@@ -114,32 +115,21 @@
             "MaxTargets": {
                 "m_strValue": "3"
             },
-            "TechCleaveExpireTime": {
-                "m_strValue": "0.2"
-            },
-            "FallSpeedMax": {
-                "m_strValue": "60",
-                "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond"
-            },
-            "AirSpeedMax": {
-                "m_strValue": "150",
-                "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond"
-            },
             "Damage": {
-                "m_strValue": "0",
+                "m_strValue": "70",
                 "m_strCSSClass": "tech_damage",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_tech_damage",
                     "_my_subclass_name": "Damage_scale_function",
                     "m_eSpecificStatScaleType": "ETechPower",
-                    "m_flStatScale": "1.600000"
+                    "m_flStatScale": "0.700000"
                 }
             },
             "BossDamagePercent": {
                 "m_strValue": "50"
             },
             "DebuffDuration": {
-                "m_strValue": "7",
+                "m_strValue": "12",
                 "m_eScaleType": "ETechDuration",
                 "m_strCSSClass": "duration",
                 "m_subclassScaleFunction": {
@@ -149,7 +139,7 @@
                 }
             },
             "Radius": {
-                "m_strValue": "17m",
+                "m_strValue": "20m",
                 "m_strCSSClass": "distance",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",
@@ -158,8 +148,18 @@
                 }
             },
             "ChainSlowPercent": {
-                "m_strValue": "20",
+                "m_strValue": "50",
                 "m_strCSSClass": "slow"
+            },
+            "ChainSlowDuration": {
+                "m_strValue": "4",
+                "m_eScaleType": "ETechDuration",
+                "m_strCSSClass": "duration",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "ChainSlowDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
             },
             "ChainLength": {
                 "m_strValue": "14m",
@@ -188,13 +188,13 @@
                 "m_spline": [
                     {
                         "x": "0.000000",
-                        "y": "8000.000000",
+                        "y": "10000.000000",
                         "m_flSlopeIncoming": "0.000000",
                         "m_flSlopeOutgoing": "0.000000"
                     },
                     {
                         "x": "100.000000",
-                        "y": "8000.000000",
+                        "y": "10000.000000",
                         "m_flSlopeIncoming": "0.000000",
                         "m_flSlopeOutgoing": "0.000000"
                     }
@@ -215,257 +215,12 @@
                 ],
                 "m_vDomainMaxs": [
                     "100.000000",
-                    "8000.000000"
+                    "10000.000000"
                 ]
-            },
-            "m_Spread": "0.500000",
-            "m_StandingSpread": "1.500000",
-            "m_flScatterYawScale": "1",
-            "m_flShootingUpSpreadPenalty": "0",
-            "m_flZoomMoveSpeedPercent": "1.000000",
-            "m_flShootMoveSpeedPercent": "0.700000",
-            "m_flHorizontalPunch": "0",
-            "m_flVerticalPunch": "0",
-            "m_flRecoilRecoverySpeed": "10.000000",
-            "m_VerticallRecoil": {
-                "m_Range": [
-                    "-0.200000",
-                    "0.200000"
-                ],
-                "m_flBurstSlope": "0.000000",
-                "m_flBurstExponent": "0.000000",
-                "m_flBurstConstant": "0.000000"
-            },
-            "m_HorizontalRecoil": {
-                "m_Range": [
-                    "-0.100000",
-                    "0.100000"
-                ],
-                "m_flBurstExponent": "0.000000"
-            },
-            "m_flRecoilSpeed": "1",
-            "m_flZoomFOV": "35.000000",
-            "m_flDamageFalloffStartRange": "-1.000000",
-            "m_flDamageFalloffEndRange": "-1.000000",
-            "m_flRange": "10000",
-            "m_flBulletLifetime": "5",
-            "m_flDamageFalloffStartScale": "1.000000",
-            "m_flDamageFalloffEndScale": "0.100000",
-            "m_flDamageFalloffBias": "0.500000",
-            "m_iBullets": "1",
-            "m_flCycleTime": "0.300000",
-            "m_reloadDuration": "1.500000",
-            "m_iClipSize": "1",
-            "m_iBurstShotCount": "1",
-            "m_flBurstShotCooldown": "0",
-            "m_flBulletGravityScale": "0.300000",
-            "m_flBulletRadius": "29",
-            "m_flBulletReflectScale": "0",
-            "m_flBulletReflectAmount": "1",
-            "m_flBulletInheritShooterVelocityScale": "0",
-            "m_szBulletTravelTracerParticle": "particles/abilities/archer/archer_charged_shot_proj.vpcf",
-            "m_szMuzzleFlashEffectName": "",
-            "m_strShootSound": "Pistol.Fire",
-            "m_strBulletWhizSound": "Orion.Charged.Shot.Whizby",
-            "m_flBulletWhizDistance": "150",
-            "m_mapImpactEffects": {
-                "default": {
-                    "m_strDecal": "Impact.Concrete",
-                    "m_strParticle": "particles/impact_fx/impact_spark_spray_large.vpcf",
-                    "m_strSound": "Orion.Charged.Shot.Proj.Impact"
-                },
-                "flesh": {
-                    "m_strDecal": "",
-                    "m_strParticle": "particles/blood_impact/blood_impact_red_01.vpcf",
-                    "m_strSound": "Flesh.BulletImpact"
-                },
-                "concrete": {
-                    "m_strDecal": "Impact.Concrete",
-                    "m_strParticle": "particles/impact_fx/impact_spark_spray_large.vpcf",
-                    "m_strSound": "Concrete.BulletImpact"
-                },
-                "solidmetal": {
-                    "m_strDecal": "Impact.Concrete",
-                    "m_strParticle": "particles/impact_fx/impact_spark_spray_large.vpcf",
-                    "m_strSound": "SolidMetal.BulletImpact"
-                },
-                "portals": {
-                    "m_strDecal": "Impact.Concrete",
-                    "m_strParticle": "particles/impact_fx/impact_spark_spray_large.vpcf",
-                    "m_strSound": "Player.HitInvuln"
-                }
-            },
-            "m_flCritBonusStart": "1.900000",
-            "m_flCritBonusEnd": "1.900000",
-            "m_flCritBonusStartRange": "500.000000",
-            "m_flCritBonusEndRange": "1500.000000",
-            "m_flCritBonusAgainstNPCs": "0",
-            "m_flShootSpreadPenaltyPerShot": "0.000000",
-            "m_flShootSpreadPenaltyDecayDelay": "0.000000",
-            "m_flShootSpreadPenaltyDecay": "2.000000",
-            "m_flRecoilShotIndexRecoveryTimeFactor": "0.250000",
-            "m_bCanZoom": "true",
-            "m_strWeaponImpactEffect": "",
-            "m_flReloadMoveSpeed": "10000",
-            "m_strLocalPlayerBulletImpactSound": "Player.Bullet.Impact.Default",
-            "m_strLocalPlayerBulletImpactHeavySound": "Player.Bullet.Impact.Default",
-            "m_flBulletRadiusVsWorld": "7",
-            "m_flPenetrationPercent": "0",
-            "m_vecScatterOffsets": [
-                [
-                    "0.000000",
-                    "0.000000"
-                ],
-                [
-                    "1.000000",
-                    "0.000000"
-                ],
-                [
-                    "-1.000000",
-                    "0.000000"
-                ],
-                [
-                    "2.000000",
-                    "0.000000"
-                ],
-                [
-                    "-2.000000",
-                    "0.000000"
-                ],
-                [
-                    "3.000000",
-                    "0.000000"
-                ],
-                [
-                    "-3.000000",
-                    "0.000000"
-                ],
-                [
-                    "4.000000",
-                    "0.000000"
-                ],
-                [
-                    "-4.000000",
-                    "0.000000"
-                ],
-                [
-                    "5.000000",
-                    "0.000000"
-                ],
-                [
-                    "-5.000000",
-                    "0.000000"
-                ],
-                [
-                    "6.000000",
-                    "0.000000"
-                ],
-                [
-                    "-6.000000",
-                    "0.000000"
-                ],
-                [
-                    "7.000000",
-                    "0.000000"
-                ],
-                [
-                    "-7.000000",
-                    "0.000000"
-                ],
-                [
-                    "8.000000",
-                    "0.000000"
-                ],
-                [
-                    "-8.000000",
-                    "0.000000"
-                ]
-            ],
-            "m_flPelletScatterFactor": "2.000000",
-            "m_bHitOnceAcrossAllBullets": "true"
-        },
-        "m_strCancelAbilityKey": "+in_cancel_ability",
-        "m_HUDPanel": {
-            "m_vecButtonHints": [
-                {
-                    "m_strContext": "throw",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_Throw"
-                },
-                {
-                    "m_strContext": "deploy",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_Deploy"
-                },
-                {
-                    "m_strContext": "cast_on_target",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_CastOnTarget",
-                    "m_bShowAsUnitTargetActivationHint": "true",
-                    "m_bShowAbilityIcon": "true"
-                },
-                {
-                    "m_strContext": "alt_cast_hold_hint",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_HoldToSelfCast"
-                },
-                {
-                    "m_strContext": "alt_cast_double_tap_hint",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_DoubleTapToSelfCast"
-                },
-                {
-                    "m_strContext": "alt_cast_modifier_key_hint",
-                    "m_strBindingOverride1": "in_alt_cast_modifier",
-                    "m_eButton2": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_eButtonHintType": "EButtonHintType_TwoButtonCombination",
-                    "m_strLocToken": "#AbilityButtonHint_ModifierKeyToSelfCast"
-                },
-                {
-                    "m_strContext": "alt_cast_select_then_alt_cast_key_hint",
-                    "m_strBindingOverride1": "in_alt_cast",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_SelectThenSelfCastButton"
-                },
-                {
-                    "m_strContext": "deselect",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_Deselect",
-                    "m_nPriority": "1"
-                },
-                {
-                    "m_strLocToken": "#AbilityButtonHint_Activate",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_strContext": "unit_target_activate",
-                    "m_bShowAsUnitTargetActivationHint": "true",
-                    "m_bShowAbilityIcon": "true"
-                }
-            ],
-            "m_vecHUDElements": [
-                {
-                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
-                    "m_strContext": "cast",
-                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_converging_semi_circles.vxml"
-                },
-                {
-                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
-                    "m_strContext": "channel",
-                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_circular_progress.vxml",
-                    "m_bReverseProgress": "true"
-                }
-            ]
+            }
         },
         "_multibase": [
-            "ultimate_base",
-            "weapon_info_base"
+            "ultimate_base"
         ],
         "m_bStartTrained": "false",
         "m_nAbilityPointsCost": "0",
@@ -478,19 +233,16 @@
         "m_strAbilityChargeReadySound": "",
         "m_skillshotMissParticle": "particles/abilities/skillshot_default_miss_owner.vpcf",
         "m_iUpdateTime": "1668635902",
-        "m_ChannelParticle": "particles/abilities/archer/archer_charged_shot_channel.vpcf",
-        "m_ChannelStartParticle": "particles/abilities/archer/archer_charged_shot_channel_start.vpcf",
-        "m_ShootParticle": "particles/abilities/archer/archer_charged_shot_channel_shock.vpcf",
-        "m_SphereParticle": "particles/abilities/mirage/mirage_djinns_reach_aoe.vpcf",
         "m_strCastSound": "Orion.Charged.Shot.Cast",
         "m_strCastDelaySound": "Orion.Charged.Shot.CastDelay",
         "m_strDamageTakenSound": "Orion.Charged.Shot.Target.Damage.Taken",
-        "m_strChannelLoopSound": "Orion.Charged.Shot.Channeling.Lp",
-        "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_SELF",
-        "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DONT_TRIGGER_SPELL_BLOCK | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
-        "m_strCastAnimGraphParam": "e_ChargedShot",
+        "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_UNIT",
+        "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_PRESS",
+        "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_CONE",
+        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_ALWAYS_PREVIEW_RADIUS",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_HERO_ENEMY",
+        "m_flTargetingConeAngle": "20",
+        "m_strCastAnimGraphParam": "e_GenericCast",
         "m_strAbilityImage": "file://{images}/hud/abilities/mirage/mirage_djinns_reach.psd",
         "m_strMoviePreviewPath": "",
         "m_vecAbilityUpgrades": [
@@ -498,7 +250,7 @@
                 "m_vecPropertyUpgrades": [
                     {
                         "m_strPropertyName": "AbilityCooldown",
-                        "m_strBonus": "-20"
+                        "m_strBonus": "-19.000000"
                     }
                 ]
             },
@@ -540,11 +292,26 @@
                 "m_strParticleStatusEffect": "",
                 "m_sStartSound": "Mirage.DjinnsReach.Chain.Target",
                 "m_sExpiredSound": "Mirage.DjinnsReach.Chain.Modifier.End",
-                "m_sAmbientLoopingSound": "Mirage.DjinnsReach.Chain.Modifier.Dur.Lp",
+                "m_sAmbientLoopingSound": "Mirage.A4.DjinnsReach.Lp",
                 "m_strSmallIconCssClass": "chained",
                 "m_strScreenParticleEffect": "particles/abilities/mirage/mirage_djinns_reach_debuff_screen.vpcf",
                 "m_strParticleEffect": "particles/abilities/mirage/mirage_djinns_reach_chain.vpcf"
             }
+        },
+        "m_HUDPanel": {
+            "m_vecHUDElements": [
+                {
+                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
+                    "m_strContext": "cast",
+                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_converging_semi_circles.vxml"
+                },
+                {
+                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
+                    "m_strContext": "channel",
+                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_circular_progress.vxml",
+                    "m_bReverseProgress": "true"
+                }
+            ]
         },
         "m_AbilityTooltipDetails": {
             "m_vecAbilityInfoSections": [
@@ -566,12 +333,14 @@
                         }
                     ],
                     "m_vecBasicProperties": [
+                        "Damage",
                         "ChainSlowPercent",
                         "Radius",
                         "ChainLength"
                     ]
                 }
             ]
-        }
+        },
+        "m_CastParticle": "particles/abilities/mirage/mirage_djinns_reach_instant_cast.vpcf"
     }
 }

@@ -1,6 +1,7 @@
 {
     "yakuza_shakedown": {
         "_class": "yakuza_shakedown",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
                 "m_strValue": "0",

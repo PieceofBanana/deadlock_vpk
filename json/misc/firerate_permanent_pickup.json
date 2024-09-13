@@ -24,7 +24,7 @@
                 }
             ],
             "m_strHudMessageText": "#firerate_permanent_pickup_label",
-            "m_strSmallIconCssClass": "fireRate"
+            "m_strSmallIconCssClass": "fire_rate"
         },
         "m_sDefaultMaterialGroupName": "red",
         "m_Color": [

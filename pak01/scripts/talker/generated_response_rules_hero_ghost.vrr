@@ -99,6 +99,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -109,6 +110,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -119,6 +121,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -129,6 +132,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -139,6 +143,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -149,6 +154,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -159,6 +165,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -169,6 +176,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -179,6 +187,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -189,6 +198,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -206,6 +216,7 @@
 											m_value = "geist_kill_inferno_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -215,6 +226,7 @@
 											m_value = "geist_kill_inferno_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -224,6 +236,7 @@
 											m_value = "geist_kill_inferno_04_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -233,6 +246,7 @@
 											m_value = "geist_kill_inferno_05_alt_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -258,6 +272,7 @@
 											m_value = "geist_kill_gigawatt_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -267,6 +282,7 @@
 											m_value = "geist_kill_gigawatt_04_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -292,6 +308,7 @@
 											m_value = "geist_kill_wraith_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -301,6 +318,7 @@
 											m_value = "geist_kill_wraith_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -310,6 +328,7 @@
 											m_value = "geist_kill_wraith_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -319,6 +338,7 @@
 											m_value = "geist_kill_wraith_04_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -328,6 +348,7 @@
 											m_value = "geist_kill_wraith_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -353,6 +374,7 @@
 											m_value = "geist_kill_dynamo_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -362,6 +384,7 @@
 											m_value = "geist_kill_dynamo_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -371,6 +394,7 @@
 											m_value = "geist_kill_dynamo_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -380,6 +404,7 @@
 											m_value = "geist_kill_dynamo_04_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -389,6 +414,7 @@
 											m_value = "geist_kill_dynamo_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -414,6 +440,7 @@
 											m_value = "geist_kill_wrecker_01_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -423,6 +450,7 @@
 											m_value = "geist_kill_wrecker_02_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -432,6 +460,7 @@
 											m_value = "geist_kill_wrecker_03_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -441,6 +470,7 @@
 											m_value = "geist_kill_wrecker_04_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -450,6 +480,7 @@
 											m_value = "geist_kill_wrecker_05_hero_3d"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 2.000000
 											}
 										},
@@ -487,6 +518,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -497,6 +529,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -507,6 +540,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -517,6 +551,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -527,6 +562,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -542,21 +578,41 @@
 										{
 											m_type = "SPEAK"
 											m_value = "geist_kill_inferno_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "geist_kill_inferno_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "geist_kill_inferno_04_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "geist_kill_inferno_05_alt_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -578,11 +634,21 @@
 										{
 											m_type = "SPEAK"
 											m_value = "geist_kill_gigawatt_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "geist_kill_gigawatt_04_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -604,26 +670,51 @@
 										{
 											m_type = "SPEAK"
 											m_value = "geist_kill_wraith_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "geist_kill_wraith_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "geist_kill_wraith_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "geist_kill_wraith_04_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "geist_kill_wraith_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -645,26 +736,51 @@
 										{
 											m_type = "SPEAK"
 											m_value = "geist_kill_dynamo_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "geist_kill_dynamo_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "geist_kill_dynamo_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "geist_kill_dynamo_04_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "geist_kill_dynamo_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -686,26 +802,51 @@
 										{
 											m_type = "SPEAK"
 											m_value = "geist_kill_wrecker_01_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "geist_kill_wrecker_02_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "geist_kill_wrecker_03_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "geist_kill_wrecker_04_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "geist_kill_wrecker_05_hero_3d"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -742,6 +883,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -769,6 +911,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -796,6 +939,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -820,16 +964,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "geist_enemy_bebop_kill_mid_laser_01_hero_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "geist_enemy_bebop_kill_mid_laser_02_hero_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "geist_enemy_bebop_kill_mid_laser_03_hero_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -850,16 +1009,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "geist_enemy_haze_kill_when_invisible_01_hero_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "geist_enemy_haze_kill_when_invisible_02_hero_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "geist_enemy_haze_kill_when_invisible_03_hero_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -2085,16 +2259,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_metal_skin_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_metal_skin_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_metal_skin_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -2115,16 +2304,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_rocket_boots_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_rocket_boots_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_rocket_boots_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -2145,16 +2349,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_stasis_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_stasis_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_stasis_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -2175,16 +2394,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_tech_defender_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_tech_defender_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_tech_defender_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -2205,16 +2439,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_tech_purge_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_tech_purge_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_tech_purge_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -2235,16 +2484,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_ability_refresher_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_ability_refresher_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_ability_refresher_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -2265,16 +2529,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_area_immobilize_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_area_immobilize_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_area_immobilize_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -2295,16 +2574,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_emp_wave_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_emp_wave_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_emp_wave_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -2325,16 +2619,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_ice_blast_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_ice_blast_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_ice_blast_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -2355,16 +2664,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_knockdown_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_knockdown_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_knockdown_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -2385,16 +2709,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_smoke_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_smoke_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_smoke_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -2415,16 +2754,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_leveler_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_leveler_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_leveler_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -2445,16 +2799,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_surging_power_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_surging_power_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_surging_power_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -2475,21 +2844,41 @@
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_siphon_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_siphon_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_siphon_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_siphon_03_alt_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -2510,16 +2899,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_stasis_bomb_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_stasis_bomb_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_stasis_bomb_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -2540,16 +2944,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_phantom_strike_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_phantom_strike_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_phantom_strike_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -2570,16 +2989,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_combo_breaker_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_combo_breaker_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_combo_breaker_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -2600,16 +3034,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_unstoppable_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_unstoppable_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_unstoppable_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -2630,16 +3079,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_discord_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_discord_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_discord_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -2660,16 +3124,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_discord_on_friendly_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_discord_on_friendly_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_discord_on_friendly_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -2691,16 +3170,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_vaccum_web_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_vaccum_web_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_vaccum_web_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -2721,16 +3215,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_soul_disruptor_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_soul_disruptor_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_soul_disruptor_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -2751,16 +3260,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_echo_shard_01_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_echo_shard_02_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "geist_use_echo_shard_03_ability_3d"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 0.100000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -2793,6 +3317,7 @@
 							m_params = 
 							{
 								m_delay.start = 0.500000
+								m_respeakdelay.start = 0.000000
 								m_predelay.start = 0.500000
 								m_bSpeakOnce = true
 							}
@@ -2804,6 +3329,7 @@
 							m_params = 
 							{
 								m_delay.start = 0.500000
+								m_respeakdelay.start = 0.000000
 								m_predelay.start = 0.500000
 								m_bSpeakOnce = true
 							}
@@ -2815,6 +3341,7 @@
 							m_params = 
 							{
 								m_delay.start = 0.500000
+								m_respeakdelay.start = 0.000000
 								m_predelay.start = 0.500000
 								m_bSpeakOnce = true
 							}
@@ -2834,6 +3361,8 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
 										m_bSpeakOnce = true
 									}
 								},
@@ -2844,6 +3373,8 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
 										m_bSpeakOnce = true
 									}
 								},
@@ -2854,6 +3385,8 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
 										m_bSpeakOnce = true
 									}
 								},
@@ -2894,6 +3427,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -2904,6 +3438,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -2914,6 +3449,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -2941,6 +3477,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -2951,6 +3488,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -2961,6 +3499,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -2988,6 +3527,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -2998,6 +3538,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -3008,6 +3549,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -3034,6 +3576,7 @@
 									m_value = "geist_t4_shop_reminder_01_hero_3d"
 									m_params = 
 									{
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -3043,6 +3586,7 @@
 									m_value = "geist_t4_shop_reminder_02_hero_3d"
 									m_params = 
 									{
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -3052,6 +3596,7 @@
 									m_value = "geist_t4_shop_reminder_03_hero_3d"
 									m_params = 
 									{
+										m_respeakdelay.start = 0.000000
 										m_predelay.start = 1.500000
 									}
 								},
@@ -4923,13 +5468,13 @@
 						},
 						
 						{
-							m_name = "Ghost_Ping_Help_Orange"
+							m_name = "Ghost_Ping_Help_Green"
 							m_responses = 
 							[
 								
 								{
 									m_type = "SPEAK"
-									m_value = "geist_ping_need_help_orange_ping_2d"
+									m_value = "geist_ping_need_help_green_alt_ping_2d"
 									m_params = 
 									{
 										m_bCancelExisting = true
@@ -4938,11 +5483,11 @@
 							]
 							m_pEmbeddedRule = 
 							{
-								m_name = "Ghost_Ping_Help_Orange"
+								m_name = "Ghost_Ping_Help_Green"
 								m_Requirements = 
 								[
 									"ConceptHelp",
-									"PlayerInOrange",
+									"PlayerInGreen",
 								]
 							}
 						},
@@ -5246,13 +5791,22 @@
 						},
 						
 						{
-							m_name = "Ghost_Push_Boss_Orange_Lane"
+							m_name = "Ghost_Push_Boss_Green_Lane"
 							m_responses = 
 							[
 								
 								{
 									m_type = "SPEAK"
-									m_value = "geist_ping_push_orange_01_ping_2d"
+									m_value = "geist_ping_push_green_01_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "geist_ping_push_green_02_ping_2d"
 									m_params = 
 									{
 										m_bCancelExisting = true
@@ -5261,11 +5815,11 @@
 							]
 							m_pEmbeddedRule = 
 							{
-								m_name = "Ghost_Push_Boss_Orange_Lane"
+								m_name = "Ghost_Push_Boss_Green_Lane"
 								m_Requirements = 
 								[
 									"ConceptPushLane",
-									"OrangeLane",
+									"GreenLane",
 								]
 							}
 						},
@@ -5499,13 +6053,22 @@
 						},
 						
 						{
-							m_name = "Ghost_Defend_Boss_Orange_Lane"
+							m_name = "Ghost_Defend_Boss_Green_Lane"
 							m_responses = 
 							[
 								
 								{
 									m_type = "SPEAK"
-									m_value = "geist_ping_headed_orange_01_ping_2d"
+									m_value = "geist_ping_headed_green_01_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "geist_ping_headed_green_02_ping_2d"
 									m_params = 
 									{
 										m_bCancelExisting = true
@@ -5514,23 +6077,32 @@
 							]
 							m_pEmbeddedRule = 
 							{
-								m_name = "Ghost_Defend_Boss_Orange_Lane"
+								m_name = "Ghost_Defend_Boss_Green_Lane"
 								m_Requirements = 
 								[
 									"ConceptDefendLane",
-									"OrangeLane",
+									"GreenLane",
 								]
 							}
 						},
 						
 						{
-							m_name = "Ghost_Orange_Lane_Boss_Needs_Help"
+							m_name = "Ghost_Green_Lane_Boss_Needs_Help"
 							m_responses = 
 							[
 								
 								{
 									m_type = "SPEAK"
-									m_value = "geist_ping_orange_help_01_ping_2d"
+									m_value = "geist_ping_green_help_01_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "geist_ping_green_help_02_ping_2d"
 									m_params = 
 									{
 										m_bCancelExisting = true
@@ -5539,11 +6111,11 @@
 							]
 							m_pEmbeddedRule = 
 							{
-								m_name = "Ghost_Orange_Lane_Boss_Needs_Help"
+								m_name = "Ghost_Green_Lane_Boss_Needs_Help"
 								m_Requirements = 
 								[
 									"ConceptDefendLane",
-									"OrangeLane",
+									"GreenLane",
 									"IsAggressive",
 								]
 							}
@@ -5624,13 +6196,22 @@
 						},
 						
 						{
-							m_name = "Ghost_Heading_Orange"
+							m_name = "Ghost_Heading_Green"
 							m_responses = 
 							[
 								
 								{
 									m_type = "SPEAK"
-									m_value = "geist_ping_headed_orange_01_ping_2d"
+									m_value = "geist_ping_headed_green_01_ping_2d"
+									m_params = 
+									{
+										m_bCancelExisting = true
+									}
+								},
+								
+								{
+									m_type = "SPEAK"
+									m_value = "geist_ping_headed_green_02_ping_2d"
 									m_params = 
 									{
 										m_bCancelExisting = true
@@ -5639,11 +6220,11 @@
 							]
 							m_pEmbeddedRule = 
 							{
-								m_name = "Ghost_Heading_Orange"
+								m_name = "Ghost_Heading_Green"
 								m_Requirements = 
 								[
 									"ConceptHeadingLane",
-									"OrangeLane",
+									"GreenLane",
 								]
 							}
 						},
@@ -5724,13 +6305,13 @@
 						},
 						
 						{
-							m_name = "Ghost_Lets_Go_Orange"
+							m_name = "Ghost_Lets_Go_Green"
 							m_responses = 
 							[
 								
 								{
 									m_type = "SPEAK"
-									m_value = "geist_ping_lets_go_orange_ping_2d"
+									m_value = "geist_ping_lets_go_green_ping_2d"
 									m_params = 
 									{
 										m_bCancelExisting = true
@@ -5739,11 +6320,11 @@
 							]
 							m_pEmbeddedRule = 
 							{
-								m_name = "Ghost_Lets_Go_Orange"
+								m_name = "Ghost_Lets_Go_Green"
 								m_Requirements = 
 								[
 									"ConceptLetsGoHere",
-									"OrangeLane",
+									"GreenLane",
 								]
 							}
 						},
@@ -15218,7 +15799,7 @@
 									m_value = "geist_be_careful_01_hero_3d"
 									m_params = 
 									{
-										m_respeakdelay.start = 30.000000
+										m_respeakdelay.start = 90.000000
 										m_predelay.start = 0.000000
 									}
 								},
@@ -15228,7 +15809,7 @@
 									m_value = "geist_be_careful_02_hero_3d"
 									m_params = 
 									{
-										m_respeakdelay.start = 30.000000
+										m_respeakdelay.start = 90.000000
 										m_predelay.start = 0.000000
 									}
 								},
@@ -15238,7 +15819,7 @@
 									m_value = "geist_be_careful_03_hero_3d"
 									m_params = 
 									{
-										m_respeakdelay.start = 30.000000
+										m_respeakdelay.start = 90.000000
 										m_predelay.start = 0.000000
 									}
 								},
@@ -15248,9 +15829,9 @@
 								m_name = "Ghost_Be_Careful"
 								m_Requirements = 
 								[
-									"InEnemyTerritoryFor2Seconds",
 									"AwayFromAlliesFor2Seconds",
 									"NoNearbyEnemiesFor2Seconds",
+									"InEnemyTerritoryFor20Seconds",
 								]
 							}
 						},

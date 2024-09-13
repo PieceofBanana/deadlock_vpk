@@ -1,6 +1,7 @@
 {
     "citadel_weapon_hornet_set": {
         "_class": "citadel_ability_primary_weapon",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
                 "m_strValue": "0",
@@ -262,7 +263,9 @@
             "m_strReloadEndSound": "Player.WpnReload.Shared.Clip.In",
             "m_strZoomInSound": "Hornet.ZoomIn",
             "m_strZoomOutSound": "Hornet.ZoomOut",
+            "m_strLowAmmoSound": "Player.WpnLowAmmo.Shared",
             "m_bBulletShouldUseVerlet": "true",
+            "m_nLowAmmoIndicatorThreshold": "4",
             "m_nRecoilSeed": "123",
             "m_AimingMoveSpreadPenalty": [
                 "0.000000",
@@ -282,7 +285,7 @@
             ],
             "m_strBulletImpactSound": "Hornet.Wpn.Impact",
             "m_szSelfBulletTravelTracerParticle": "particles/weapon_fx/hornet/hornet_tracer_player.vpcf",
-            "m_flBulletDamage": "14"
+            "m_flBulletDamage": "13"
         },
         "_multibase": [
             "hero_weapon_base"

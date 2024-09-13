@@ -33,6 +33,7 @@
 			m_matchKey = "Concept"
 			m_matchExpr = "TLK_CITADEL_KILL"
 			m_bRequired = true
+			m_predelay.start = 1.000000
 		},
 		
 		{
@@ -41,6 +42,7 @@
 			m_matchKey = "Concept"
 			m_matchExpr = "TLK_CITADEL_KILL_ASSIST"
 			m_bRequired = true
+			m_predelay.start = 1.000000
 		},
 		
 		{
@@ -49,6 +51,7 @@
 			m_matchKey = "Concept"
 			m_matchExpr = "TLK_CITADEL_KILL_STREAK"
 			m_bRequired = true
+			m_predelay.start = 1.000000
 		},
 		
 		{
@@ -89,6 +92,7 @@
 			m_matchKey = "Concept"
 			m_matchExpr = "TLK_CITADEL_CAST_EXECUTE"
 			m_bRequired = true
+			m_predelay.start = 0.100000
 		},
 		
 		{
@@ -216,6 +220,7 @@
 			m_matchExpr = "TLK_CITADEL_AP_GAINED"
 			m_bRequired = true
 			m_recipientFilter = "speaker_and_observers"
+			m_predelay.start = 1.000000
 		},
 		
 		{
@@ -225,6 +230,7 @@
 			m_matchExpr = "TLK_CITADEL_GOLD_GAINED"
 			m_bRequired = true
 			m_recipientFilter = "speaker_and_observers"
+			m_predelay.start = 1.500000
 		},
 		
 		{
@@ -691,7 +697,7 @@
 		},
 		
 		{
-			m_name = "OrangeLane"
+			m_name = "GreenLane"
 			m_notes = "lane"
 			m_matchKey = "lane"
 			m_matchExpr = "3"
@@ -1951,7 +1957,6 @@
 		{
 			m_name = "IsObserverLowHealth"
 			m_matchKey = "observer_health_pct"
-			m_matchExpr = ""
 			m_bRequired = true
 		},
 		
@@ -1972,7 +1977,7 @@
 		{
 			m_name = "CanBuyT4Gear"
 			m_matchKey = "current_gold"
-			m_matchExpr = ">=6300"
+			m_matchExpr = ">=6200"
 			m_bRequired = true
 		},
 		
@@ -2317,6 +2322,7 @@
 			m_matchKey = "concept"
 			m_matchExpr = "TLK_CITADEL_CAST_ULTIMATE"
 			m_bRequired = true
+			m_predelay.start = 0.150000
 		},
 		
 		{
@@ -2621,6 +2627,7 @@
 			m_matchKey = "concept"
 			m_matchExpr = "TLK_CITADEL_LEVEL_GAINED"
 			m_bRequired = true
+			m_predelay.start = 1.000000
 		},
 		
 		{
@@ -2644,7 +2651,7 @@
 			m_matchKey = "concept"
 			m_matchExpr = "TLK_CITADEL_BE_CAREFUL"
 			m_bRequired = true
-			m_respeakDelay.start = 30.000000
+			m_respeakDelay.start = 60.000000
 		},
 		
 		{
@@ -2665,6 +2672,27 @@
 			m_name = "NoNearbyEnemiesFor2Seconds"
 			m_matchKey = "time_since_saw_nearby_enemy"
 			m_matchExpr = ">=2"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "InEnemyTerritoryFor5Seconds"
+			m_matchKey = "time_in_enemy_territory"
+			m_matchExpr = ">=5"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "InEnemyTerritoryFor20Seconds"
+			m_matchKey = "time_in_enemy_territory"
+			m_matchExpr = ">=20"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsHealthLowerThan20Percent"
+			m_matchKey = "playerhealthfrac"
+			m_matchExpr = "<.20"
 			m_bRequired = true
 		},
 		
@@ -4126,12 +4154,14 @@
 		TLK_CITADEL_ABILITY_SELECTED = 1
 		TLK_CITADEL_CAST_FINISH = 395
 		TLK_CITADEL_PROJECTILE_HIT = 395
-		TLK_CITADEL_IDOL = -1
+		TLK_CITADEL_IDOL = 0
 		TLK_CITADEL_ULTIMATE_READY = 375
 		TLK_CITADEL_MOVEMMENT_EFFORT = 0
 		TLK_CITADEL_NEUTRAL_AGGRO = 2
 		TLK_CITADEL_NEUTRAL_IDLE = 1
 		TLK_CITADEL_DROP_ITEM = 1
 		TLK_CITADEL_CAST_ULTIMATE = 485
+		TLK_CITADEL_HUNTING = 0
+		TLK_CITADEL_BE_CAREFUL = 0
 	}
 }

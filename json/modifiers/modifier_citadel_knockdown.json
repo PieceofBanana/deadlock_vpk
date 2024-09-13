@@ -15,7 +15,8 @@
                 },
                 {
                     "m_eCameraOperation": "k_ECameraOp_Maintain",
-                    "m_flMaintainDuration": "5.000000"
+                    "m_flMaintainDuration": "5.000000",
+                    "m_flMaintainFloat": "300.000000"
                 }
             ],
             "m_vecFOVOperations": [
@@ -37,7 +38,9 @@
                 {
                     "m_eCameraOperation": "k_ECameraOp_Lerp",
                     "m_flLerpDuration": "0.250000",
-                    "m_flLerpBias": "0.702000"
+                    "m_flLerpBias": "0.702000",
+                    "m_bLerpStartAtCurrent": "false",
+                    "m_flLerpStart": "300.000000"
                 }
             ]
         },

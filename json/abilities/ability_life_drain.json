@@ -1,9 +1,10 @@
 {
     "ability_life_drain": {
         "_class": "ability_life_drain",
+        "m_strCancelAbilityKey": "in_ability2",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "40",
+                "m_strValue": "42.000000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -189,24 +190,6 @@
                 ]
             }
         },
-        "m_strCancelAbilityKey": "in_ability2",
-        "m_HUDPanel": {
-            "m_vecButtonHints": [
-                {
-                    "m_strLocToken": "#AbilityButtonHint_StopLifeDrain",
-                    "m_eHintSide": "EButtonSide_Right",
-                    "m_strBindingOverride1": "in_ability2",
-                    "m_strContext": "cancel"
-                }
-            ],
-            "m_vecHUDElements": [
-                {
-                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
-                    "m_strContext": "channel",
-                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_progress_bar.vxml"
-                }
-            ]
-        },
         "_multibase": [
             "signature_base"
         ],
@@ -256,7 +239,7 @@
                 ]
             }
         ],
-        "m_strCastSound": "Ghost.LifeDrain.Cast",
+        "m_strCastSound": "",
         "m_LifeDrainTargetModifier": {
             "_class": "modifier_life_drain",
             "_my_subclass_name": "modifier_life_drain",
@@ -266,7 +249,9 @@
                 "_my_subclass_name": "modifier_life_drain_silence",
                 "m_sLocalizationName": "modifier_life_drain_silence"
             },
-            "m_bIsHidden": "true"
+            "m_bIsHidden": "true",
+            "m_sExpiredSound": "Ghost.LifeDrain.End",
+            "m_sAmbientLoopingSound": "Ghost.LifeDrain.Victim.Lp"
         },
         "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/ghost_life_drain.webm",
         "m_previewParticle": "particles/abilities/ghost/ghost_life_drain_cast_preview.vpcf",
@@ -284,11 +269,19 @@
             ],
             "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
                 "MoveSpeedReduction"
+            ],
+            "m_sAmbientLoopingSound": "Ghost.LifeDrain.Caster.Lp",
+            "m_sExpiredSound": ""
+        },
+        "m_HUDPanel": {
+            "m_vecHUDElements": [
+                {
+                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
+                    "m_strContext": "channel",
+                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_progress_bar.vxml"
+                }
             ]
         },
-        "m_vecDependentAbilities": [
-            "ability_life_drain_cancel_trigger"
-        ],
         "m_AbilityTooltipDetails": {
             "m_vecAbilityInfoSections": [
                 {
@@ -313,6 +306,9 @@
                     ]
                 }
             ]
-        }
+        },
+        "m_strCastDelaySound": "Ghost.LifeDrain.Cast",
+        "m_strSelectedLoopSound": "Ghost.LifeDrain.Select.Lp",
+        "m_strChannelLoopSound": "Ability.GhostSoldier.LifeDrain.Lp"
     }
 }

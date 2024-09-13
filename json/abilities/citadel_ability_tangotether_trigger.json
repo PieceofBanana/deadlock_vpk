@@ -1,6 +1,7 @@
 {
     "citadel_ability_tangotether_trigger": {
         "_class": "citadel_ability_tangotether_trigger",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
                 "m_strValue": "0",

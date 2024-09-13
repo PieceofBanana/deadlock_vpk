@@ -1,9 +1,10 @@
 {
     "citadel_ability_fissure_wall_cancel": {
         "_class": "citadel_base_trigger_ability",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "1.0",
+                "m_strValue": "1.250000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",

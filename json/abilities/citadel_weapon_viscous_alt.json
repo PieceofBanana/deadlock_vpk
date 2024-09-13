@@ -1,6 +1,7 @@
 {
     "citadel_weapon_viscous_alt": {
         "_class": "citadel_weapon_viscous_alt",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
                 "m_strValue": "0",

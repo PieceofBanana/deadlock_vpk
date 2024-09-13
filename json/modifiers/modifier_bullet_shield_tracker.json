@@ -5,7 +5,7 @@
         "m_bIsHidden": "true",
         "m_flShieldImpactEffectDuration": "1.500000",
         "_base": "modifier_shield_tracker_base",
-        "flCooldownOnBreak": "60.000000",
+        "flCooldownOnBreak": "50.000000",
         "m_ShieldImpactModifier": {
             "_class": "modifier_bullet_shield_impact",
             "_my_subclass_name": "bullet_shield_impact",

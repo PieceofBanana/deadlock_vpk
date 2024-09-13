@@ -1,9 +1,10 @@
 {
     "citadel_ability_zipline_boost": {
         "_class": "citadel_ability_zipline_boost",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "340",
+                "m_strValue": "360.000000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -185,7 +186,8 @@
                     },
                     {
                         "m_flMaintainDuration": "600.000000",
-                        "m_eCameraOperation": "k_ECameraOp_Maintain"
+                        "m_eCameraOperation": "k_ECameraOp_Maintain",
+                        "m_flMaintainFloat": "110.000000"
                     }
                 ],
                 "m_vecDistanceOperations": [
@@ -200,7 +202,8 @@
                     },
                     {
                         "m_flMaintainDuration": "600.000000",
-                        "m_eCameraOperation": "k_ECameraOp_Maintain"
+                        "m_eCameraOperation": "k_ECameraOp_Maintain",
+                        "m_flMaintainFloat": "200.000000"
                     }
                 ],
                 "m_vecTargetPosOperations": []

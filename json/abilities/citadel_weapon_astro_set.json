@@ -1,6 +1,7 @@
 {
     "citadel_weapon_astro_set": {
         "_class": "citadel_ability_primary_weapon",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
                 "m_strValue": "0",
@@ -262,7 +263,9 @@
             "m_strReloadEndSound": "Player.WpnReload.Shared.Clip.In",
             "m_strZoomInSound": "Astro.ZoomIn",
             "m_strZoomOutSound": "Astro.ZoomOut",
+            "m_strLowAmmoSound": "Player.WpnLowAmmo.Shared",
             "m_bBulletShouldUseVerlet": "true",
+            "m_nLowAmmoIndicatorThreshold": "4",
             "m_flRecoilRecoveryDelayFactor": "0.750000",
             "m_flIronSightsTime": "0.100000",
             "m_StandingMoveSpreadPenalty": [

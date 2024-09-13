@@ -1,9 +1,10 @@
 {
     "trooper_grenade": {
         "_class": "trooper_grenade",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "4",
+                "m_strValue": "4.250000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",

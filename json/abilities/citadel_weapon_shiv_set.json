@@ -1,6 +1,7 @@
 {
     "citadel_weapon_shiv_set": {
         "_class": "citadel_weapon_shiv",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
                 "m_strValue": "0",
@@ -262,7 +263,9 @@
             "m_strReloadEndSound": "Shiv.Wpn.Reload.Clip.Out",
             "m_strZoomInSound": "Shiv.Wpn.Zoom.In",
             "m_strZoomOutSound": "Shiv.Wpn.Zoom.Out",
+            "m_strLowAmmoSound": "Player.WpnLowAmmo.Shared",
             "m_bBulletShouldUseVerlet": "true",
+            "m_nLowAmmoIndicatorThreshold": "4",
             "m_flRecoilRecoveryDelayFactor": "0.900000",
             "m_StandingMoveSpreadPenalty": [
                 "0.000000",

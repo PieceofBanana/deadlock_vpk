@@ -2,6 +2,7 @@
     "common_properties": {
         "_not_pickable": "2",
         "_class": "citadel_base_ability",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
                 "m_strValue": "0",

@@ -1,9 +1,10 @@
 {
     "ability_hat_trick": {
         "_class": "ability_hat_trick",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "20",
+                "m_strValue": "21.000000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -199,36 +200,6 @@
                 }
             }
         },
-        "m_strCancelAbilityKey": "+in_cancel_ability",
-        "m_HUDPanel": {
-            "m_vecButtonHints": [
-                {
-                    "m_strLocToken": "#AbilityButtonHint_HatTrickFire",
-                    "m_eHintSide": "EButtonSide_Right",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_strContext": "hint_speed"
-                },
-                {
-                    "m_eButton1": "EButtonHint_Cancel",
-                    "m_strLocToken": "#AbilityButtonHint_HatTrickCancel",
-                    "m_eHintSide": "EButtonSide_Right",
-                    "m_strContext": "channel"
-                }
-            ],
-            "m_vecHUDElements": [
-                {
-                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
-                    "m_strContext": "cast",
-                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_circular_progress.vxml"
-                },
-                {
-                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
-                    "m_strContext": "channel",
-                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_progress_bar.vxml",
-                    "m_bReverseProgress": "true"
-                }
-            ]
-        },
         "_multibase": [
             "signature_base"
         ],
@@ -262,7 +233,7 @@
                 "m_vecPropertyUpgrades": [
                     {
                         "m_strPropertyName": "AbilityCooldown",
-                        "m_strBonus": "-10"
+                        "m_strBonus": "-9.500000"
                     }
                 ]
             },
@@ -278,6 +249,29 @@
         "m_strCastDelaySound": "Archer.GuidedArrow.Cast",
         "m_strExplodeSound": "Archer.GuidedArrow.Impact",
         "m_ExplosionParticle": "particles/abilities/astro/astro_trick_shot_projectile_impact.vpcf",
+        "m_HUDPanel": {
+            "m_vecHUDElements": [
+                {
+                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
+                    "m_strContext": "cast",
+                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_circular_progress.vxml"
+                },
+                {
+                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
+                    "m_strContext": "channel",
+                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_progress_bar.vxml",
+                    "m_bReverseProgress": "true"
+                }
+            ],
+            "m_vecButtonHints": [
+                {
+                    "m_strLocToken": "#AbilityButtonHint_HatTrickFire",
+                    "m_eHintSide": "EButtonSide_Right",
+                    "m_eButton1": "EButtonHint_Attack",
+                    "m_strContext": "hint_speed"
+                }
+            ]
+        },
         "m_DebuffModifier": {
             "_my_subclass_name": "slow",
             "_class": "modifier_slow_base",

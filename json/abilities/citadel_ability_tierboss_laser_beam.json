@@ -1,6 +1,7 @@
 {
     "citadel_ability_tier3boss_laser_beam": {
         "_class": "citadel_ability_tier3boss_laser_beam",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
                 "m_strValue": "0",

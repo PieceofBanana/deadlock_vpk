@@ -1,6 +1,7 @@
 {
     "citadel_weapon_nano_set": {
         "_class": "citadel_ability_primary_weapon",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
                 "m_strValue": "0",
@@ -149,8 +150,8 @@
                     "12500.000000"
                 ]
             },
-            "m_Spread": "2.300000",
-            "m_StandingSpread": "2.300000",
+            "m_Spread": "0.500000",
+            "m_StandingSpread": "0.500000",
             "m_flScatterYawScale": "1",
             "m_flShootingUpSpreadPenalty": "0",
             "m_flZoomMoveSpeedPercent": "1.000000",
@@ -183,10 +184,10 @@
             "m_flDamageFalloffStartScale": "1.000000",
             "m_flDamageFalloffEndScale": "0.100000",
             "m_flDamageFalloffBias": "0.500000",
-            "m_iBullets": "3",
-            "m_flCycleTime": "0.100000",
+            "m_iBullets": "5",
+            "m_flCycleTime": "0.250000",
             "m_reloadDuration": "3.500000",
-            "m_iClipSize": "30",
+            "m_iClipSize": "16",
             "m_iBurstShotCount": "1",
             "m_flBurstShotCooldown": "0",
             "m_flBulletGravityScale": "0.800000",
@@ -253,7 +254,7 @@
             "m_flShootSpreadPenaltyDecayDelay": "0.000000",
             "m_flShootSpreadPenaltyDecay": "4.000000",
             "m_flRecoilShotIndexRecoveryTimeFactor": "0.250000",
-            "m_bCanZoom": "true",
+            "m_bCanZoom": "false",
             "m_strWeaponImpactEffect": "particles/weapon_fx/nano/nano_tracer_impact.vpcf",
             "m_flReloadMoveSpeed": "10000",
             "m_strLocalPlayerBulletImpactSound": "Player.Bullet.Impact.Hero",
@@ -262,7 +263,10 @@
             "m_strReloadEndSound": "Player.WpnReload.Shared.Clip.In",
             "m_strZoomInSound": "Nano.ZoomIn",
             "m_strZoomOutSound": "Nano.ZoomOut",
+            "m_strLowAmmoSound": "Player.WpnLowAmmo.Shared",
             "m_bBulletShouldUseVerlet": "true",
+            "m_nLowAmmoIndicatorThreshold": "4",
+            "m_flBulletDamage": "3.000000",
             "m_flRecoilRecoveryDelayFactor": "0.100000",
             "m_nRecoilSeed": "232",
             "m_NpcAimingSpread": [
@@ -289,18 +293,25 @@
             "m_vecScatterOffsets": [
                 [
                     "0.000000",
-                    "1.000000"
+                    "0.000000"
                 ],
                 [
-                    "0.500000",
-                    "-0.500000"
+                    "0.750000",
+                    "0.000000"
                 ],
                 [
-                    "-0.500000",
-                    "-0.500000"
+                    "-0.750000",
+                    "0.000000"
+                ],
+                [
+                    "1.500000",
+                    "0.000000"
+                ],
+                [
+                    "-1.500000",
+                    "0.000000"
                 ]
-            ],
-            "m_flBulletDamage": "2.400000"
+            ]
         },
         "_multibase": [
             "hero_weapon_base"

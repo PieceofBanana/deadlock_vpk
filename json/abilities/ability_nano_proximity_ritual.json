@@ -1,9 +1,10 @@
 {
     "ability_nano_proximity_ritual": {
         "_class": "ability_nano_proximity_ritual",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "30",
+                "m_strValue": "64.000000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -64,7 +65,7 @@
                 "m_strDisableValue": "0"
             },
             "AbilityCharges": {
-                "m_strValue": "1",
+                "m_strValue": "0",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cast",
                 "m_bCanSetTokenOverride": "true",
@@ -75,7 +76,7 @@
                 }
             },
             "AbilityCooldownBetweenCharge": {
-                "m_strValue": "8",
+                "m_strValue": "0",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "charge_cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -109,14 +110,56 @@
                 "m_bCanSetTokenOverride": "true",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
             },
+            "RecallCooldown": {
+                "m_strLocTokenOverride": "AvaRecallCooldown",
+                "m_strValue": "10.500000",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "RecallCooldown_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldown"
+                }
+            },
+            "RecallRange": {
+                "m_strValue": "5m",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "RecallRange_scale_function",
+                    "m_eSpecificStatScaleType": "ETechRange"
+                }
+            },
+            "MinResummonCooldown": {
+                "m_strLocTokenOverride": "AvaResummonCooldown",
+                "m_strValue": "0",
+                "m_strCSSClass": "cooldown",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "MinResummonCooldown_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldown"
+                }
+            },
             "StatueHealth": {
-                "m_strValue": "300",
+                "m_strValue": "200",
                 "m_strCSSClass": "health",
-                "m_eDisplayType": "EMaxHealth"
+                "m_eDisplayType": "EMaxHealth",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_tech_damage",
+                    "_my_subclass_name": "StatueHealth_scale_function",
+                    "m_flStatScale": "2",
+                    "m_eSpecificStatScaleType": "ETechPower"
+                }
+            },
+            "StatueHeldRegen": {
+                "m_strValue": "40",
+                "m_strCSSClass": "healing",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "StatueHeldRegen_scale_function",
+                    "m_eSpecificStatScaleType": "EHealingOutput"
+                }
             },
             "InactiveRadius": {
                 "m_strLocTokenOverride": "StatueActivateRange",
-                "m_strValue": "4m",
+                "m_strValue": "20m",
                 "m_strCSSClass": "distance",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",
@@ -125,7 +168,7 @@
                 }
             },
             "ActiveRadius": {
-                "m_strValue": "18m",
+                "m_strValue": "20m",
                 "m_strCSSClass": "distance",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",
@@ -134,19 +177,14 @@
                 }
             },
             "StatueLifetime": {
-                "m_strValue": "40",
-                "m_strCSSClass": "duration",
-                "m_subclassScaleFunction": {
-                    "_class": "scale_function_single_stat",
-                    "_my_subclass_name": "StatueLifetime_scale_function",
-                    "m_eSpecificStatScaleType": "ETechDuration"
-                }
+                "m_strValue": "60",
+                "m_strCSSClass": "duration"
             },
             "StatueArmTime": {
-                "m_strValue": "0.2"
+                "m_strValue": "1.0"
             },
             "CatActivateDuration": {
-                "m_strValue": "1.5f"
+                "m_strValue": "1.5"
             },
             "TickInterval": {
                 "m_strValue": "0.1"
@@ -155,7 +193,7 @@
                 "m_strValue": "0.5"
             },
             "DPS": {
-                "m_strValue": "20",
+                "m_strValue": "30",
                 "m_strCSSClass": "tech_damage",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_tech_damage",
@@ -163,11 +201,6 @@
                     "m_flStatScale": "0.419328",
                     "m_eSpecificStatScaleType": "ETechPower"
                 }
-            },
-            "FireRateSlow": {
-                "m_strValue": "0",
-                "m_eProvidedPropertyType": "MODIFIER_VALUE_FIRE_RATE_SLOW",
-                "m_UsageFlags": "APUsageFlag_ModifierConditional"
             },
             "HealAmpReceivePenaltyPercent": {
                 "m_strValue": "-20",
@@ -179,30 +212,33 @@
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_HEAL_AMP_REGEN_PERCENT",
                 "m_UsageFlags": "APUsageFlag_ModifierConditional"
             },
-            "AbilityLifesteal": {
+            "TargetLifesteal": {
                 "m_strLocTokenOverride": "StatueLifesteal",
-                "m_strValue": "75",
+                "m_strValue": "30",
                 "m_strCSSClass": "healing",
                 "m_eDisplayType": "ETechLifesteal",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",
-                    "_my_subclass_name": "AbilityLifesteal_scale_function",
+                    "_my_subclass_name": "TargetLifesteal_scale_function",
                     "m_eSpecificStatScaleType": "EHealingOutput"
                 }
             },
-            "AbilityLifestealNonHero": {
+            "TargetLifestealNonHero": {
                 "m_strLocTokenOverride": "StatueLifestealNonHero",
-                "m_strValue": "25",
+                "m_strValue": "10",
                 "m_strCSSClass": "healing",
                 "m_eDisplayType": "ETechLifesteal",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",
-                    "_my_subclass_name": "AbilityLifestealNonHero_scale_function",
+                    "_my_subclass_name": "TargetLifestealNonHero_scale_function",
                     "m_eSpecificStatScaleType": "EHealingOutput"
                 }
             },
             "SelfHealScale": {
                 "m_strValue": "0.5"
+            },
+            "DamageAmplification": {
+                "m_strValue": "0"
             }
         },
         "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
@@ -244,7 +280,7 @@
                     "1800.000000"
                 ]
             },
-            "m_szBulletTravelTracerParticle": "particles/abilities/tengu/tengu_stone_squall_projectile.vpcf",
+            "m_szBulletTravelTracerParticle": "particles/abilities/nano/nano_cat_tower_projectile.vpcf",
             "m_flBulletGravityScale": "1.500000",
             "m_flBulletRadius": "1.500000",
             "m_flBulletRadiusVsWorld": "1.500000",
@@ -255,72 +291,6 @@
             "m_eAttachmentSourceType": "EAttachmentSource_Custom",
             "m_strBulletLoopingSound": "Tengu.StoneSquall.Projectile.Lp",
             "m_flVerticalAimBias": "10.000000"
-        },
-        "m_strCancelAbilityKey": "+in_cancel_ability",
-        "m_HUDPanel": {
-            "m_vecButtonHints": [
-                {
-                    "m_strContext": "throw",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_Throw"
-                },
-                {
-                    "m_strContext": "deploy",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_Deploy"
-                },
-                {
-                    "m_strContext": "cast_on_target",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_CastOnTarget",
-                    "m_bShowAsUnitTargetActivationHint": "true",
-                    "m_bShowAbilityIcon": "true"
-                },
-                {
-                    "m_strContext": "alt_cast_hold_hint",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_HoldToSelfCast"
-                },
-                {
-                    "m_strContext": "alt_cast_double_tap_hint",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_DoubleTapToSelfCast"
-                },
-                {
-                    "m_strContext": "alt_cast_modifier_key_hint",
-                    "m_strBindingOverride1": "in_alt_cast_modifier",
-                    "m_eButton2": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_eButtonHintType": "EButtonHintType_TwoButtonCombination",
-                    "m_strLocToken": "#AbilityButtonHint_ModifierKeyToSelfCast"
-                },
-                {
-                    "m_strContext": "alt_cast_select_then_alt_cast_key_hint",
-                    "m_strBindingOverride1": "in_alt_cast",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_SelectThenSelfCastButton"
-                },
-                {
-                    "m_strContext": "deselect",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_Deselect",
-                    "m_nPriority": "1"
-                },
-                {
-                    "m_strLocToken": "#AbilityButtonHint_Activate",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_strContext": "unit_target_activate",
-                    "m_bShowAsUnitTargetActivationHint": "true",
-                    "m_bShowAbilityIcon": "true"
-                }
-            ]
         },
         "_multibase": [
             "signature_base"
@@ -335,7 +305,7 @@
         "m_strAbilityOffCooldownSound": "",
         "m_strAbilityChargeReadySound": "",
         "m_skillshotMissParticle": "particles/abilities/skillshot_default_miss_owner.vpcf",
-        "m_strAbilityImage": "file://{images}/hud/abilities/nano/nano_proximity_ritual.psd",
+        "m_strAbilityImage": "file://{images}/hud/abilities/nano/nano_roller_bomb.psd",
         "m_flTargetingConeAngle": "20",
         "m_strCastAnimGraphParam": "e_GenericThrow",
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_CIRCLE",
@@ -343,37 +313,23 @@
         "mp_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_PRESS",
         "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE_FIRED_AS_BULLET | CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_FRIENDLY",
-        "m_projectileInfo": {
-            "m_customModel": "models/heroes_staging/nano/cat_statue/cat_statue.vmdl",
-            "m_flProjectileModelScale": "1.000000",
-            "m_flSpeed": "1500",
-            "m_bHideWarningParticle": "1",
-            "m_bHideImpactParticle": "1",
-            "m_nBehaviors": "PBF_StickToWorld | PBF_DisableTriggerProjectileImpactBehavior"
-        },
         "m_flHeavyMeleeDmg": "75.000000",
         "m_flLightMeleeDmg": "50.000000",
         "m_flAbilityDamageScale": "0.200000",
         "m_flNormalizedHealthInSeconds": "3",
         "m_flNPCDamageMax": "20",
+        "m_CatReappearParticle": "particles/abilities/nano/nano_cat_shoulder_poof.vpcf",
+        "m_CatDisappearParticle": "particles/abilities/nano/nano_cat_shoulder_poof.vpcf",
+        "m_CatEyesParticle": "particles/abilities/nano/nano_cat_ambient.vpcf",
+        "m_CatSummonParticle": "particles/abilities/nano/nano_tower_throwdown.vpcf",
+        "m_strRecallSound": "Nano.Ritual.Activate",
+        "m_strKilledSound": "Nano.Ritual.Deactivate",
         "m_vecAbilityUpgrades": [
             {
                 "m_vecPropertyUpgrades": [
                     {
-                        "m_strPropertyName": "AbilityCharges",
-                        "m_strBonus": "1"
-                    }
-                ]
-            },
-            {
-                "m_vecPropertyUpgrades": [
-                    {
-                        "m_strPropertyName": "ActiveRadius",
-                        "m_strBonus": "10m"
-                    },
-                    {
-                        "m_strPropertyName": "FireRateSlow",
-                        "m_strBonus": "30"
+                        "m_strPropertyName": "StatueHealth",
+                        "m_strBonus": "200"
                     }
                 ]
             },
@@ -382,6 +338,14 @@
                     {
                         "m_strPropertyName": "DPS",
                         "m_strBonus": "30"
+                    }
+                ]
+            },
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "DamageAmplification",
+                        "m_strBonus": "35"
                     },
                     {
                         "m_strPropertyName": "HealAmpReceivePenaltyPercent",
@@ -396,6 +360,9 @@
         ],
         "m_PredatoryStatueModel": "models/heroes_staging/nano/cat_statue/cat_statue.vmdl",
         "m_UnitTargetParticle": "particles/abilities/yakuza/yakuza_setting_sun_target_preview.vpcf",
+        "m_vecDependentAbilities": [
+            "ability_nano_proximity_ritual_trigger"
+        ],
         "m_PredatoryStatueModifier": {
             "_class": "modifier_nano_predatory_statue",
             "_my_subclass_name": "modifier_nano_predatory_statue",
@@ -403,15 +370,15 @@
             "m_strParticleEffect": "particles/abilities/nano/nano_tower_throwdown.vpcf",
             "m_sExpiredSound": "Nano.Ritual.End",
             "m_TargetModifier": {
-                "_class": "modifier_base",
+                "_class": "modifier_nano_predatory_statue_target",
                 "_my_subclass_name": "modifier_nano_predatory_statue_target",
                 "m_sLocalizationName": "modifier_nano_predatory_statue_target",
                 "m_nEnabledStateMask": "MODIFIER_STATE_PREDATORY_STATUE_TARGET",
-                "m_strParticleEffect": "particles/upgrades/rupture_debuff.vpcf",
+                "m_strParticleEffect": "particles/abilities/nano/nano_tower_drain_glow.vpcf",
+                "m_bIsHidden": "true",
                 "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
                     "HealAmpReceivePenaltyPercent",
-                    "HealAmpRegenPenaltyPercent",
-                    "FireRateSlow"
+                    "HealAmpRegenPenaltyPercent"
                 ]
             },
             "m_strLaserHitSound": "Nano.Ritual.LaserBeam.Hit",
@@ -435,18 +402,18 @@
                                     "m_strImportantProperty": "DPS"
                                 },
                                 {
-                                    "m_strImportantProperty": "HealAmpReceivePenaltyPercent"
+                                    "m_strImportantProperty": "StatueHealth"
                                 }
                             ]
                         }
                     ],
                     "m_vecBasicProperties": [
-                        "AbilityLifesteal",
-                        "AbilityLifestealNonhero",
-                        "InactiveRadius",
+                        "RecallCooldown",
                         "ActiveRadius",
-                        "StatueHealth",
-                        "StatueLifetime"
+                        "TargetLifesteal",
+                        "HealAmpReceivePenaltyPercent",
+                        "StatueLifetime",
+                        "StatueHeldRegen"
                     ]
                 }
             ]

@@ -86,51 +86,101 @@
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_kill_anyhero_01_hero_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 1.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_kill_anyhero_02_hero_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 1.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_kill_anyhero_03_hero_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 1.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_kill_anyhero_04_hero_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 1.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_kill_anyhero_05_hero_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 1.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_kill_anyhero_06_hero_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 1.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_kill_anyhero_07_hero_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 1.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_kill_anyhero_08_hero_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 1.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_kill_anyhero_09_hero_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 1.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_kill_anyhero_10_hero_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 1.000000
+					}
 				},
 			]
 			m_pEmbeddedRule = 
@@ -152,26 +202,51 @@
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_melee_kill_01_hero_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 1.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_melee_kill_02_hero_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 1.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_melee_kill_03_hero_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 1.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_melee_kill_04_hero_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 1.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_melee_kill_05_hero_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 1.000000
+					}
 				},
 			]
 			m_pEmbeddedRule = 
@@ -343,6 +418,11 @@
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_revenge_kill_hero_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 1.000000
+					}
 				},
 			]
 			m_pEmbeddedRule = 
@@ -365,6 +445,11 @@
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_end_streak_hero_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 1.000000
+					}
 				},
 			]
 			m_pEmbeddedRule = 
@@ -387,6 +472,11 @@
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_kill_high_networth_hero_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 1.000000
+					}
 				},
 			]
 			m_pEmbeddedRule = 
@@ -409,26 +499,51 @@
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_congrats_01_hero_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 1.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_congrats_02_hero_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 1.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_congrats_03_hero_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 1.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_congrats_04_hero_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 1.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_congrats_05_hero_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 1.000000
+					}
 				},
 			]
 			m_pEmbeddedRule = 
@@ -641,26 +756,51 @@
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_use_metal_skin_01_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_use_metal_skin_01_alt_01_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_use_metal_skin_01_alt_02_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_use_metal_skin_02_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_use_metal_skin_03_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 			]
 			m_pEmbeddedRule = 
@@ -683,16 +823,31 @@
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_use_rocket_boots_01_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_use_rocket_boots_02_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_use_rocket_boots_03_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 			]
 			m_pEmbeddedRule = 
@@ -715,16 +870,31 @@
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_use_stasis_01_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_use_stasis_02_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_use_stasis_03_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 			]
 			m_pEmbeddedRule = 
@@ -747,16 +917,31 @@
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_use_tech_defender_01_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_use_tech_defender_02_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_use_tech_defender_03_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 			]
 			m_pEmbeddedRule = 
@@ -779,16 +964,31 @@
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_use_tech_purge_01_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_use_tech_purge_02_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_use_tech_purge_03_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 			]
 			m_pEmbeddedRule = 
@@ -811,16 +1011,31 @@
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_use_ability_refresher_01_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_use_ability_refresher_02_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_use_ability_refresher_03_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 			]
 			m_pEmbeddedRule = 
@@ -843,16 +1058,31 @@
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_use_area_immobilize_01_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_use_area_immobilize_02_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_use_area_immobilize_03_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 			]
 			m_pEmbeddedRule = 
@@ -875,16 +1105,31 @@
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_use_emp_wave_01_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_use_emp_wave_02_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_use_emp_wave_03_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 			]
 			m_pEmbeddedRule = 
@@ -907,16 +1152,31 @@
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_use_ice_blast_01_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_use_ice_blast_02_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_use_ice_blast_03_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 			]
 			m_pEmbeddedRule = 
@@ -939,16 +1199,31 @@
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_use_knockdown_01_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_use_knockdown_02_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_use_knockdown_03_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 			]
 			m_pEmbeddedRule = 
@@ -971,16 +1246,31 @@
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_use_rupture_01_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_use_rupture_02_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_use_rupture_03_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 			]
 			m_pEmbeddedRule = 
@@ -1003,16 +1293,31 @@
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_use_glitch_01_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_use_glitch_02_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_use_glitch_03_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 			]
 			m_pEmbeddedRule = 
@@ -1035,16 +1340,31 @@
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_use_smoke_01_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_use_smoke_02_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "rr_test_19_use_smoke_03_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
 				},
 			]
 			m_pEmbeddedRule = 
@@ -1069,6 +1389,8 @@
 					m_value = "rr_test_19_ap_reminder_01_hero_3d"
 					m_params = 
 					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 1.000000
 						m_bSpeakOnce = true
 					}
 				},
@@ -1078,6 +1400,8 @@
 					m_value = "rr_test_19_ap_reminder_02_hero_3d"
 					m_params = 
 					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 1.000000
 						m_bSpeakOnce = true
 					}
 				},
@@ -1087,6 +1411,8 @@
 					m_value = "rr_test_19_ap_reminder_03_hero_3d"
 					m_params = 
 					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 1.000000
 						m_bSpeakOnce = true
 					}
 				},
@@ -1112,6 +1438,8 @@
 					m_value = "rr_test_19_ap_reminder_01_hero_3d"
 					m_params = 
 					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 1.000000
 						m_bSpeakOnce = true
 					}
 				},
@@ -1121,6 +1449,8 @@
 					m_value = "rr_test_19_ap_reminder_02_hero_3d"
 					m_params = 
 					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 1.000000
 						m_bSpeakOnce = true
 					}
 				},
@@ -1130,6 +1460,8 @@
 					m_value = "rr_test_19_ap_reminder_03_hero_3d"
 					m_params = 
 					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 1.000000
 						m_bSpeakOnce = true
 					}
 				},
@@ -1156,6 +1488,8 @@
 					m_value = "rr_test_19_t1_shop_reminder_01_hero_3d"
 					m_params = 
 					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 1.500000
 						m_bSpeakOnce = true
 					}
 				},
@@ -1165,6 +1499,8 @@
 					m_value = "rr_test_19_t1_shop_reminder_02_hero_3d"
 					m_params = 
 					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 1.500000
 						m_bSpeakOnce = true
 					}
 				},
@@ -1174,6 +1510,8 @@
 					m_value = "rr_test_19_t1_shop_reminder_03_hero_3d"
 					m_params = 
 					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 1.500000
 						m_bSpeakOnce = true
 					}
 				},
@@ -1200,6 +1538,8 @@
 					m_value = "rr_test_19_t2_shop_reminder_01_hero_3d"
 					m_params = 
 					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 1.500000
 						m_bSpeakOnce = true
 					}
 				},
@@ -1209,6 +1549,8 @@
 					m_value = "rr_test_19_t2_shop_reminder_02_hero_3d"
 					m_params = 
 					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 1.500000
 						m_bSpeakOnce = true
 					}
 				},
@@ -1218,6 +1560,8 @@
 					m_value = "rr_test_19_t2_shop_reminder_03_hero_3d"
 					m_params = 
 					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 1.500000
 						m_bSpeakOnce = true
 					}
 				},
@@ -1244,6 +1588,8 @@
 					m_value = "rr_test_19_t3_shop_reminder_01_hero_3d"
 					m_params = 
 					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 1.500000
 						m_bSpeakOnce = true
 					}
 				},
@@ -1253,6 +1599,8 @@
 					m_value = "rr_test_19_t3_shop_reminder_02_hero_3d"
 					m_params = 
 					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 1.500000
 						m_bSpeakOnce = true
 					}
 				},
@@ -1262,6 +1610,8 @@
 					m_value = "rr_test_19_t3_shop_reminder_03_hero_3d"
 					m_params = 
 					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 1.500000
 						m_bSpeakOnce = true
 					}
 				},

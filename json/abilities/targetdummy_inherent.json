@@ -1,6 +1,7 @@
 {
     "targetdummy_inherent": {
         "_class": "targetdummy_inherent",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
                 "m_strValue": "0",

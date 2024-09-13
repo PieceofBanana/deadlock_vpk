@@ -1,9 +1,10 @@
 {
     "super_neutral_charge": {
         "_class": "super_neutral_charge",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "10",
+                "m_strValue": "10.500000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",

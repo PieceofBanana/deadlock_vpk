@@ -1,9 +1,10 @@
 {
     "ability_nano_ult_shadow": {
         "_class": "ability_nano_ult_shadow",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "120",
+                "m_strValue": "95.000000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -120,11 +121,21 @@
                 "m_strCSSClass": "duration"
             },
             "InvisMoveSpeedMod": {
-                "m_strValue": "0",
-                "m_strCSSClass": "move_speed"
+                "m_strValue": "1m",
+                "m_strCSSClass": "move_speed",
+                "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond",
+                "m_eDisplayType": "EMaxMoveSpeed",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_tech_damage",
+                    "_my_subclass_name": "InvisMoveSpeedMod_scale_function",
+                    "m_flStatScale": "0.030000",
+                    "m_eSpecificStatScaleType": "ETechPower"
+                }
             },
             "SpottedRadius": {
-                "m_strValue": "20m"
+                "m_strValue": "15m",
+                "m_strCSSClass": "distance",
+                "m_eDisplayType": "ETechRadius"
             },
             "RevealOnDamageDuration": {
                 "m_strValue": "0.25",
@@ -134,29 +145,63 @@
                 "m_strValue": "0.25",
                 "m_strCSSClass": "duration"
             },
-            "StaminaRegen": {
-                "m_strValue": "40"
+            "StaminaCooldownReduction": {
+                "m_strValue": "0",
+                "m_eDisplayType": "EStaminaRegenPerSecond",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_STAMINA_REGEN_PER_SECOND_PERCENTAGE",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
             },
-            "SlowResist": {
-                "m_strValue": "50"
+            "PurgeOnActivate": {
+                "m_strValue": "0"
             },
-            "CooldownReductionOnBullet": {
-                "m_strValue": "0.3"
+            "SilenceOnHeavyDuration": {
+                "m_strValue": "0",
+                "m_strCSSClass": "duration",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "SilenceOnHeavyDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
             },
-            "CooldownReductionOnMeleeLight": {
-                "m_strValue": "1.5"
-            },
-            "CooldownReductionOnMeleeHeavy": {
-                "m_strValue": "4"
-            },
-            "FireRateBonus": {
-                "m_strValue": "30"
+            "BonusFireRate": {
+                "m_strValue": "20",
+                "m_eDisplayType": "EFireRate",
+                "m_strCSSClass": "fire_rate",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_FIRE_RATE",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
             },
             "MeleeAttackSpeedBonus": {
-                "m_strValue": "30"
+                "m_strLocTokenOverride": "NanoShadowMeleeAttackSpeedBonus",
+                "m_strCSSClass": "melee_damage",
+                "m_strValue": "40",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_MELEEATTACK_SPEED",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
             },
-            "LifeSteal": {
-                "m_strValue": "30"
+            "BulletArmorReductionLight": {
+                "m_strLocTokenOverride": "NanoShadowBulletArmorReductionLight",
+                "m_strValue": "5",
+                "m_strCSSClass": "bullet_armor_down",
+                "m_eDisplayType": "EStatsCount",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST_REDUCTION",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
+            },
+            "BulletArmorReductionHeavy": {
+                "m_strLocTokenOverride": "NanoShadowBulletArmorReductionHeavy",
+                "m_strValue": "15",
+                "m_strCSSClass": "bullet_armor_down",
+                "m_eDisplayType": "EStatsCount",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST_REDUCTION",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
+            },
+            "BulletArmorReductionDuration": {
+                "m_strLocTokenOverride": "NanoShadowBulletArmorReductionDuration",
+                "m_strValue": "6",
+                "m_strCSSClass": "duration",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "BulletArmorReductionDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
             }
         },
         "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
@@ -199,72 +244,6 @@
                 ]
             }
         },
-        "m_strCancelAbilityKey": "+in_cancel_ability",
-        "m_HUDPanel": {
-            "m_vecButtonHints": [
-                {
-                    "m_strContext": "throw",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_Throw"
-                },
-                {
-                    "m_strContext": "deploy",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_Deploy"
-                },
-                {
-                    "m_strContext": "cast_on_target",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_CastOnTarget",
-                    "m_bShowAsUnitTargetActivationHint": "true",
-                    "m_bShowAbilityIcon": "true"
-                },
-                {
-                    "m_strContext": "alt_cast_hold_hint",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_HoldToSelfCast"
-                },
-                {
-                    "m_strContext": "alt_cast_double_tap_hint",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_DoubleTapToSelfCast"
-                },
-                {
-                    "m_strContext": "alt_cast_modifier_key_hint",
-                    "m_strBindingOverride1": "in_alt_cast_modifier",
-                    "m_eButton2": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_eButtonHintType": "EButtonHintType_TwoButtonCombination",
-                    "m_strLocToken": "#AbilityButtonHint_ModifierKeyToSelfCast"
-                },
-                {
-                    "m_strContext": "alt_cast_select_then_alt_cast_key_hint",
-                    "m_strBindingOverride1": "in_alt_cast",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_SelectThenSelfCastButton"
-                },
-                {
-                    "m_strContext": "deselect",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_Deselect",
-                    "m_nPriority": "1"
-                },
-                {
-                    "m_strLocToken": "#AbilityButtonHint_Activate",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_strContext": "unit_target_activate",
-                    "m_bShowAsUnitTargetActivationHint": "true",
-                    "m_bShowAbilityIcon": "true"
-                }
-            ]
-        },
         "_multibase": [
             "ultimate_base",
             "invis_base"
@@ -284,20 +263,20 @@
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_HERO_ENEMY | CITADEL_UNIT_TARGET_CREEP_ENEMY | CITADEL_UNIT_TARGET_MINION_ENEMY",
         "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
         "m_strCSSClass": "detentionRounds",
-        "m_strAbilityImage": "file://{images}/hud/abilities/nano/nano_tunnel_vision.psd",
+        "m_strAbilityImage": "file://{images}/hud/abilities/slork/slork_invis.psd",
         "m_vecAbilityUpgrades": [
             {
                 "m_vecPropertyUpgrades": [
                     {
-                        "m_strPropertyName": "AbilityCooldown",
-                        "m_strBonus": "-30"
+                        "m_strPropertyName": "StaminaCooldownReduction",
+                        "m_strBonus": "30"
                     }
                 ]
             },
             {
                 "m_vecPropertyUpgrades": [
                     {
-                        "m_strPropertyName": "AbilityDuration",
+                        "m_strPropertyName": "PurgeOnActivate",
                         "m_strBonus": "1"
                     }
                 ]
@@ -305,12 +284,19 @@
             {
                 "m_vecPropertyUpgrades": [
                     {
-                        "m_strPropertyName": "AbilityDuration",
-                        "m_strBonus": "6"
+                        "m_strPropertyName": "SilenceOnHeavyDuration",
+                        "m_strBonus": "3"
                     }
                 ]
             }
         ],
+        "m_strCastSound": "Mods.Weapon.Thermal.Detonator.Explode",
+        "m_PurgeModifier": {
+            "_class": "modifier_base",
+            "_my_subclass_name": "modifier_purge",
+            "m_strParticleEffect": "particles/upgrades/tech_purge.vpcf",
+            "m_bIsHidden": "true"
+        },
         "m_ShadowModifier": {
             "_class": "modifier_nano_ult_shadow",
             "_my_subclass_name": "modifier_nano_ult_shadow",
@@ -322,7 +308,60 @@
             "m_InvisLoopParticle": "particles/modifiers/invis_loop.vpcf",
             "m_InvisDetectRadiusParticle": "particles/modifiers/invis_delay.vpcf",
             "m_InvisRevealedParticle": "particles/generic/invis_revealed.vpcf",
-            "m_strInvisRevealedSound": "StatusEffects.InvisRevealed"
+            "m_strInvisRevealedSound": "StatusEffects.InvisRevealed",
+            "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
+                "BonusFireRate",
+                "MeleeAttackSpeedBonus",
+                "StaminaCooldownReduction"
+            ],
+            "m_SilenceModifier": {
+                "_class": "modifier_citadel_silenced",
+                "_my_subclass_name": "modifier_citadel_silenced",
+                "m_strSmallIconCssClass": "silence_proc",
+                "m_sLocalizationName": "modifier_citadel_silenced",
+                "m_eDrawOverheadStatus": "OVERHEAD_DRAW_FOR_EVERYONE",
+                "m_bIsHidden": "true"
+            },
+            "m_ArmorDebuff": {
+                "_class": "modifier_nano_shadow_debuff",
+                "_my_subclass_name": "modifier_nano_shadow_debuff",
+                "m_strParticleEffect": "particles/modifiers/armor_suppressor.vpcf",
+                "m_strSmallIconCssClass": "bullet_armor_reduction",
+                "m_bKeepMaximumDurationOnRefresh": "true",
+                "m_sLocalizationName": "modifier_nano_shadow_debuff"
+            }
+        },
+        "m_AbilityTooltipDetails": {
+            "m_vecAbilityInfoSections": [
+                {
+                    "m_strLocString": "#ability_nano_ult_shadow_desc",
+                    "m_vecAbilityPropertiesBlock": [
+                        {
+                            "m_vecAbilityProperties": [
+                                {
+                                    "m_strImportantProperty": "StatusEffectInvisible"
+                                },
+                                {
+                                    "m_strImportantProperty": "InvisMoveSpeedMod"
+                                }
+                            ]
+                        }
+                    ],
+                    "m_vecBasicProperties": [
+                        "BonusFireRate",
+                        "MeleeAttackSpeedBonus",
+                        "BulletArmorReductionLight",
+                        "BulletArmorReductionHeavy",
+                        "BulletArmorReductionDuration",
+                        "SpottedRadius",
+                        "SilenceOnHeavyDuration",
+                        "StaminaCooldownReduction"
+                    ]
+                }
+            ]
+        },
+        "m_mapCastEventParticles": {
+            "CAST_COMPLETED": "particles/abilities/warden/warden_crowd_control_cast.vpcf"
         }
     }
 }

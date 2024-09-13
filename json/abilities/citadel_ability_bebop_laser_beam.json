@@ -1,9 +1,10 @@
 {
     "citadel_ability_bebop_laser_beam": {
         "_class": "citadel_ability_bebop_laser_beam",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "110",
+                "m_strValue": "117.000000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -144,6 +145,15 @@
                     "m_eSpecificStatScaleType": "ETechRange"
                 }
             },
+            "BeamEndRadius": {
+                "m_strValue": "5.0m",
+                "m_eDisplayType": "ETechRadius",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "BeamEndRadius_scale_function",
+                    "m_eSpecificStatScaleType": "ETechRange"
+                }
+            },
             "BeamCloseDamagePercent": {
                 "m_strValue": "75"
             },
@@ -240,30 +250,6 @@
                 ]
             }
         },
-        "m_strCancelAbilityKey": "+in_cancel_ability",
-        "m_HUDPanel": {
-            "m_vecButtonHints": [
-                {
-                    "m_eButton1": "EButtonHint_Cancel",
-                    "m_strLocToken": "#ability_abort_cast",
-                    "m_eHintSide": "EButtonSide_Right",
-                    "m_strContext": "cast"
-                },
-                {
-                    "m_eButton1": "EButtonHint_Cancel",
-                    "m_strLocToken": "#ability_cancel_channel",
-                    "m_eHintSide": "EButtonSide_Right",
-                    "m_strContext": "channel"
-                }
-            ],
-            "m_vecHUDElements": [
-                {
-                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
-                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_progress_bar.vxml",
-                    "m_strContext": "cast"
-                }
-            ]
-        },
         "_multibase": [
             "ultimate_base"
         ],
@@ -293,7 +279,7 @@
                 "m_vecPropertyUpgrades": [
                     {
                         "m_strPropertyName": "AbilityCooldown",
-                        "m_strBonus": "-40"
+                        "m_strBonus": "-38.000000"
                     }
                 ]
             },
@@ -341,6 +327,16 @@
                     "GroundDashReductionPercent"
                 ]
             }
+        },
+        "m_HUDPanel": {
+            "m_vecHUDElements": [
+                {
+                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
+                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_progress_bar.vxml",
+                    "m_strContext": "cast"
+                }
+            ],
+            "m_vecButtonHints": []
         },
         "m_AbilityTooltipDetails": {
             "m_vecAbilityInfoSections": [

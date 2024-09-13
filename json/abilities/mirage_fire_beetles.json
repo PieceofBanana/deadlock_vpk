@@ -1,6 +1,7 @@
 {
     "mirage_fire_beetles": {
         "_class": "mirage_fire_beetles",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
                 "m_strValue": "0",
@@ -75,7 +76,7 @@
                 }
             },
             "AbilityCooldownBetweenCharge": {
-                "m_strValue": "0",
+                "m_strValue": "0.05",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "charge_cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -113,7 +114,7 @@
                 "m_strValue": "35"
             },
             "LaunchWindowDuration": {
-                "m_strValue": "15",
+                "m_strValue": "20",
                 "m_strCSSClass": "duration",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",
@@ -150,7 +151,7 @@
                 "m_strCSSClass": "duration",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",
-                    "_my_subclass_name": "SlowDuration_scale_function",
+                    "_my_subclass_name": "DebuffDuration_scale_function",
                     "m_eSpecificStatScaleType": "ETechDuration"
                 }
             },
@@ -182,13 +183,13 @@
                 "m_spline": [
                     {
                         "x": "0.000000",
-                        "y": "2000.000000",
+                        "y": "3000.000000",
                         "m_flSlopeIncoming": "0.000000",
                         "m_flSlopeOutgoing": "0.000000"
                     },
                     {
                         "x": "100.000000",
-                        "y": "2000.000000",
+                        "y": "3000.000000",
                         "m_flSlopeIncoming": "0.000000",
                         "m_flSlopeOutgoing": "0.000000"
                     }
@@ -209,7 +210,7 @@
                 ],
                 "m_vDomainMaxs": [
                     "100.000000",
-                    "2000.000000"
+                    "3000.000000"
                 ]
             },
             "m_szBulletTravelTracerParticle": "particles/abilities/mirage/mirage_flying_beetle_projectile.vpcf",
@@ -220,74 +221,9 @@
                 "default": {}
             },
             "m_eAttachmentSourceType": "EAttachmentSource_Custom",
-            "m_strBulletLoopingSound": "Kelvin.IceGrenade.Proj.Lp",
+            "m_strCustomAttachmentSource": "palm_R",
+            "m_strBulletLoopingSound": "Mirage.A1.Beetles.Fly.Lp",
             "m_flVerticalAimBias": "2.000000"
-        },
-        "m_strCancelAbilityKey": "+in_cancel_ability",
-        "m_HUDPanel": {
-            "m_vecButtonHints": [
-                {
-                    "m_strContext": "throw",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_Throw"
-                },
-                {
-                    "m_strContext": "deploy",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_Deploy"
-                },
-                {
-                    "m_strContext": "cast_on_target",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_CastOnTarget",
-                    "m_bShowAsUnitTargetActivationHint": "true",
-                    "m_bShowAbilityIcon": "true"
-                },
-                {
-                    "m_strContext": "alt_cast_hold_hint",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_HoldToSelfCast"
-                },
-                {
-                    "m_strContext": "alt_cast_double_tap_hint",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_DoubleTapToSelfCast"
-                },
-                {
-                    "m_strContext": "alt_cast_modifier_key_hint",
-                    "m_strBindingOverride1": "in_alt_cast_modifier",
-                    "m_eButton2": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_eButtonHintType": "EButtonHintType_TwoButtonCombination",
-                    "m_strLocToken": "#AbilityButtonHint_ModifierKeyToSelfCast"
-                },
-                {
-                    "m_strContext": "alt_cast_select_then_alt_cast_key_hint",
-                    "m_strBindingOverride1": "in_alt_cast",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_SelectThenSelfCastButton"
-                },
-                {
-                    "m_strContext": "deselect",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_Deselect",
-                    "m_nPriority": "1"
-                },
-                {
-                    "m_strLocToken": "#AbilityButtonHint_Activate",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_strContext": "unit_target_activate",
-                    "m_bShowAsUnitTargetActivationHint": "true",
-                    "m_bShowAbilityIcon": "true"
-                }
-            ]
         },
         "_multibase": [
             "signature_base"
@@ -312,8 +248,8 @@
         "m_strAbilityImage": "file://{images}/hud/abilities/mirage/mirage_fire_beetles.psd",
         "m_strMoviePreviewPath": "",
         "m_strCastAnimGraphParam": "e_GenericThrow",
-        "m_strCastSound": "Kelvin.IceGrenade.Cast",
-        "m_ExplosionSound": "Ability.Kelvin.IceGrenade.Explode",
+        "m_strCastSound": "Mirage.A1.Beetles.Cast",
+        "m_ExplosionSound": "Mirage.A1.Beetles.Miss",
         "m_previewParticle": "particles/abilities/kelvin/kelvin_ice_grenade_preview.vpcf",
         "m_ExplodeParticle": "particles/abilities/mirage/mirage_fire_beetles_explode_v2.vpcf",
         "m_CasterModifier": {
@@ -334,7 +270,8 @@
             "m_strParticleEffect": "",
             "m_eDrawOverheadStatus": "OVERHEAD_DRAW_FOR_CASTER_ONLY",
             "m_sAmbientLoopingSound": "Synth.Affliction.Debuff_Lp",
-            "m_strScreenParticleEffect": ""
+            "m_strScreenParticleEffect": "",
+            "m_sStartSound": "Mirage.A1.Beetles.Attach"
         },
         "m_vecAbilityUpgrades": [
             {
@@ -392,6 +329,10 @@
                     ]
                 }
             ]
+        },
+        "m_projectileInfo": {
+            "m_HitSound": "Mirage.A1.Beetles.Miss",
+            "m_LoopingSound": "Mirage.A1.Beetles.Fly.Lp"
         }
     }
 }

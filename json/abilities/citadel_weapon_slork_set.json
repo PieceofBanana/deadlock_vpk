@@ -1,6 +1,7 @@
 {
     "citadel_weapon_slork_set": {
         "_class": "ability_primary_weapon_slork",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
                 "m_strValue": "0",
@@ -299,7 +300,9 @@
             "m_strReloadEndSound": "Slork.Wpn.Reload.Clip.In",
             "m_strZoomInSound": "Slork.Wpn.Zoom.In",
             "m_strZoomOutSound": "Slork.Wpn.Zoom.Out",
+            "m_strLowAmmoSound": "Player.WpnLowAmmo.Shared",
             "m_bBulletShouldUseVerlet": "true",
+            "m_nLowAmmoIndicatorThreshold": "4",
             "m_AimingShootSpreadPenalty": [
                 "0.000000",
                 "0.500000"

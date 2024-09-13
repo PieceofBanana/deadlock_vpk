@@ -1,9 +1,10 @@
 {
     "ability_blood_shards": {
         "_class": "ability_blood_shards",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "6",
+                "m_strValue": "6.250000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -198,6 +199,7 @@
             },
             "m_flBulletGravityScale": "0.200000",
             "m_flBulletLifetime": "3.000000",
+            "m_flPenetrationPercent": "100.000000",
             "m_flBulletRadius": "30.000000",
             "m_flBulletRadiusVsWorld": "3.000000",
             "m_szBulletTravelTracerParticle": "particles/abilities/ghost/ghost_blood_shard_dagger.vpcf",
@@ -207,73 +209,9 @@
             "m_mapImpactEffects": {
                 "default": {}
             },
-            "m_strBulletLoopingSound": "Ghost.BloodShards.Proj.Lp"
-        },
-        "m_strCancelAbilityKey": "+in_cancel_ability",
-        "m_HUDPanel": {
-            "m_vecButtonHints": [
-                {
-                    "m_strContext": "throw",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_Throw"
-                },
-                {
-                    "m_strContext": "deploy",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_Deploy"
-                },
-                {
-                    "m_strContext": "cast_on_target",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_CastOnTarget",
-                    "m_bShowAsUnitTargetActivationHint": "true",
-                    "m_bShowAbilityIcon": "true"
-                },
-                {
-                    "m_strContext": "alt_cast_hold_hint",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_HoldToSelfCast"
-                },
-                {
-                    "m_strContext": "alt_cast_double_tap_hint",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_DoubleTapToSelfCast"
-                },
-                {
-                    "m_strContext": "alt_cast_modifier_key_hint",
-                    "m_strBindingOverride1": "in_alt_cast_modifier",
-                    "m_eButton2": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_eButtonHintType": "EButtonHintType_TwoButtonCombination",
-                    "m_strLocToken": "#AbilityButtonHint_ModifierKeyToSelfCast"
-                },
-                {
-                    "m_strContext": "alt_cast_select_then_alt_cast_key_hint",
-                    "m_strBindingOverride1": "in_alt_cast",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_SelectThenSelfCastButton"
-                },
-                {
-                    "m_strContext": "deselect",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_Deselect",
-                    "m_nPriority": "1"
-                },
-                {
-                    "m_strLocToken": "#AbilityButtonHint_Activate",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_strContext": "unit_target_activate",
-                    "m_bShowAsUnitTargetActivationHint": "true",
-                    "m_bShowAbilityIcon": "true"
-                }
-            ]
+            "m_strBulletLoopingSound": "",
+            "m_strBulletWhizSound": "Ghost.Malice.Whizby",
+            "m_strBulletImpactSound": "Ghost.Malice.Impact"
         },
         "_multibase": [
             "signature_base"
@@ -295,8 +233,8 @@
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
         "m_iUpdateTime": "1647547907",
         "m_strChannelLoopSound": "",
-        "m_strCastSound": "Ghost.Malice.Cast",
-        "m_strCastDelaySound": "Ghost.Malice.PreCast",
+        "m_strCastSound": "",
+        "m_strCastDelaySound": "Ghost.Malice.Cast",
         "m_ImpactParticle": "particles/abilities/ghost/ghost_blood_shard_dagger_impact.vpcf",
         "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/ghost_malice.webm",
         "m_strAbilityImage": "file://{images}/hud/abilities/haze/haze_sleep_dagger.psd",
@@ -307,7 +245,7 @@
                 "m_vecPropertyUpgrades": [
                     {
                         "m_strPropertyName": "AbilityCooldown",
-                        "m_strBonus": "-3"
+                        "m_strBonus": "-2.750000"
                     }
                 ]
             },
@@ -339,7 +277,8 @@
             "m_strSmallIconCssClass": "blood_shard",
             "m_bIsHidden": "true",
             "m_eDrawOverheadStatus": "OVERHEAD_DRAW_FOR_CASTER_ONLY",
-            "m_BloodShardDebuffParticle": "particles/abilities/ghost/ghost_blood_shard_dagger_debuff.vpcf"
+            "m_BloodShardDebuffParticle": "particles/abilities/ghost/ghost_blood_shard_dagger_debuff.vpcf",
+            "m_sAmbientLoopingSound": "Ghost.Malice.Modifier.Lp"
         },
         "m_AbilityTooltipDetails": {
             "m_vecAbilityInfoSections": [

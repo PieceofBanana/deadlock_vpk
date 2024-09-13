@@ -1,6 +1,7 @@
 {
     "citadel_weapon_base_defense_turret": {
         "_class": "citadel_ability_primary_weapon",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
                 "m_strValue": "0",
@@ -262,6 +263,7 @@
             "m_strReloadEndSound": "Player.WpnReload.Shared.Clip.In",
             "m_strZoomInSound": "Default.ZoomIn",
             "m_strZoomOutSound": "Default.ZoomOut",
+            "m_strLowAmmoSound": "Player.WpnLowAmmo.Shared",
             "m_NpcAimingSpread": "0.000000",
             "m_flBulletDamage": "120.000000"
         },

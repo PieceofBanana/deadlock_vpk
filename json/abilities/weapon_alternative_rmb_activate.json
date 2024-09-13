@@ -1,6 +1,7 @@
 {
     "weapon_alternative_rmb_activate": {
         "_class": "citadel_base_ability",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
                 "m_strValue": "0",

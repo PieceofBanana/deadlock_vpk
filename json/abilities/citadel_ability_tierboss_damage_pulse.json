@@ -1,6 +1,7 @@
 {
     "citadel_ability_tier3boss_damage_pulse": {
         "_class": "citadel_ability_tier3boss_damage_pulse",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
                 "m_strValue": "0",

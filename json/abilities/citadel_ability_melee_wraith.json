@@ -1,6 +1,7 @@
 {
     "citadel_ability_melee_wraith": {
         "_class": "citadel_ability_hold_melee",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
                 "m_strValue": "0",
@@ -187,14 +188,17 @@
             "m_vecFOVOperations": [
                 {
                     "m_flMaintainDuration": "0.100000",
-                    "m_eCameraOperation": "k_ECameraOp_Maintain"
+                    "m_eCameraOperation": "k_ECameraOp_Maintain",
+                    "m_flMaintainFloat": "0.000000",
+                    "m_bValuesAreRelative": "true"
                 },
                 {
                     "m_flLerpDuration": "0.500000",
                     "m_bLerpEndAtDefault": "false",
                     "m_flLerpEnd": "90.000000",
                     "m_flLerpBias": "0.784000",
-                    "m_eCameraOperation": "k_ECameraOp_Lerp"
+                    "m_eCameraOperation": "k_ECameraOp_Lerp",
+                    "m_flDelay": "0.100000"
                 },
                 {
                     "m_eCameraOperation": "k_ECameraOp_Spring"
@@ -203,7 +207,8 @@
             "m_vecDistanceOperations": [
                 {
                     "m_flMaintainDuration": "0.100000",
-                    "m_eCameraOperation": "k_ECameraOp_Maintain"
+                    "m_eCameraOperation": "k_ECameraOp_Maintain",
+                    "m_bValuesAreRelative": "true"
                 },
                 {
                     "m_bLerpEndAtDefault": "false",
@@ -394,8 +399,7 @@
                             "m_flLagSpringStrength": "5.000000",
                             "m_eCameraOperation": "k_ECameraOp_Lag"
                         }
-                    ],
-                    "m_vecFOVOperations": []
+                    ]
                 },
                 "m_Trigger": "heavy",
                 "m_flCooldownOnHit": "0.900000",
@@ -648,7 +652,9 @@
                         },
                         {
                             "m_eCameraOperation": "k_ECameraOp_Maintain",
-                            "m_flMaintainDuration": "5.000000"
+                            "m_flMaintainDuration": "5.000000",
+                            "m_flMaintainFloat": "-10.000000",
+                            "m_bValuesAreRelative": "true"
                         }
                     ]
                 },

@@ -1,9 +1,10 @@
 {
     "mirage_sand_phantom": {
         "_class": "mirage_sand_phantom",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "45",
+                "m_strValue": "37.000000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -109,54 +110,65 @@
                 "m_bCanSetTokenOverride": "true",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
             },
-            "TimeBeforeTeleport": {
-                "m_strValue": "3.5"
-            },
-            "CameraDistance": {
-                "m_strValue": "250"
-            },
-            "TrailInterval": {
-                "m_strValue": "0.1"
-            },
-            "PreCreationTravelTime": {
-                "m_strValue": "0.5"
-            },
-            "GroundDashReductionPercent": {
-                "m_strValue": "0"
-            },
             "WhirlwindEvasionChance": {
-                "m_strValue": "40"
+                "m_strValue": "50",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_BULLET_EVASION",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
             },
             "WhirlwindDuration": {
-                "m_strValue": "8",
+                "m_strValue": "3.5",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",
                     "_my_subclass_name": "WhirlwindDuration_scale_function",
                     "m_eSpecificStatScaleType": "ETechDuration"
                 }
             },
-            "BonusMoveSpeed": {
-                "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond",
-                "m_strValue": "3m",
-                "m_strCSSClass": "move_speed",
-                "m_eDisplayType": "EMaxMoveSpeed",
-                "m_eProvidedPropertyType": "MODIFIER_VALUE_MOVEMENT_SPEED_MAX",
-                "m_UsageFlags": "APUsageFlag_ModifierConditional"
-            },
-            "MoveSpeedDuration": {
-                "m_strValue": "6",
+            "Radius": {
+                "m_strValue": "10m",
+                "m_strCSSClass": "distance",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",
-                    "_my_subclass_name": "MoveSpeedDuration_scale_function",
+                    "_my_subclass_name": "Radius_scale_function",
+                    "m_eSpecificStatScaleType": "ETechRange"
+                }
+            },
+            "ProcBonusMagicDamage": {
+                "m_strValue": "20",
+                "m_strCSSClass": "tech_damage",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_tech_damage",
+                    "_my_subclass_name": "Damage_scale_function",
+                    "m_eSpecificStatScaleType": "ETechPower",
+                    "m_flStatScale": "0.200000"
+                }
+            },
+            "ProcBonusMagicDamageEscalation": {
+                "m_strValue": "15",
+                "m_strCSSClass": "tech_damage",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_tech_damage",
+                    "_my_subclass_name": "BombBonusDamagePerHero_scale_function",
+                    "m_eSpecificStatScaleType": "ETechPower",
+                    "m_flStatScale": "0.150000"
+                }
+            },
+            "ProcChance": {
+                "m_strValue": "100"
+            },
+            "ProcCooldown": {
+                "m_strValue": "2",
+                "m_strLocTokenOverride": "SandPhantomProcCooldown"
+            },
+            "VictimStackDuration": {
+                "m_strValue": "8.0",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "VictimStackDuration_scale_function",
                     "m_eSpecificStatScaleType": "ETechDuration"
                 }
             },
-            "WeaponDamageBonus": {
-                "m_strValue": "0",
-                "m_strCSSClass": "bullet_damage",
-                "m_eDisplayUnits": "EDisplayUnit_Normal",
-                "m_eProvidedPropertyType": "MODIFIER_VALUE_ATTACK_DAMAGE_ADDITIVE_ONLY",
-                "m_UsageFlags": "APUsageFlag_ModifierConditional"
+            "MaxStacks": {
+                "m_strValue": "5"
             }
         },
         "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
@@ -204,69 +216,6 @@
                 }
             }
         },
-        "m_strCancelAbilityKey": "+in_cancel_ability",
-        "m_HUDPanel": {
-            "m_vecButtonHints": [
-                {
-                    "m_strContext": "throw",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_Throw"
-                },
-                {
-                    "m_strContext": "deploy",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_Teleport"
-                },
-                {
-                    "m_strContext": "cast_on_target",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_CastOnTarget"
-                },
-                {
-                    "m_strContext": "alt_cast_hold_hint",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_HoldToSelfCast"
-                },
-                {
-                    "m_strContext": "alt_cast_double_tap_hint",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_DoubleTapToSelfCast"
-                },
-                {
-                    "m_strContext": "alt_cast_modifier_key_hint",
-                    "m_strBindingOverride1": "in_alt_cast_modifier",
-                    "m_eButton2": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_eButtonHintType": "EButtonHintType_TwoButtonCombination",
-                    "m_strLocToken": "#AbilityButtonHint_ModifierKeyToSelfCast"
-                },
-                {
-                    "m_strContext": "alt_cast_select_then_alt_cast_key_hint",
-                    "m_strBindingOverride1": "in_alt_cast",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_SelectThenSelfCastButton"
-                },
-                {
-                    "m_strContext": "deselect",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_Deselect",
-                    "m_nPriority": "1"
-                }
-            ],
-            "m_vecHUDElements": [
-                {
-                    "m_eType": "CITADEL_ABILITY_HUD_ELEMENT_TYPE_PROGRESS",
-                    "m_strContext": "modifier_mirage_sand_phantom",
-                    "m_Layout": "file://{resources}/layout/ability_hud_elements/element_progress_bar.vxml"
-                }
-            ]
-        },
         "_multibase": [
             "signature_base"
         ],
@@ -287,12 +236,22 @@
         "m_strAbilityImage": "file://{images}/hud/abilities/mirage/mirage_sand_phantom.psd",
         "m_strCastSound": "Mirage.A4.Whirling.Dervish.Cast",
         "m_strCastAnimGraphParam": "e_GenericCast",
+        "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/mirage_whirling_dervish.webm",
+        "m_flCameraPreviewOffset": "100.000000",
         "m_vecAbilityUpgrades": [
             {
                 "m_vecPropertyUpgrades": [
                     {
                         "m_strPropertyName": "WhirlwindEvasionChance",
-                        "m_strBonus": "20"
+                        "m_strBonus": "30"
+                    }
+                ]
+            },
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "ProcBonusMagicDamageEscalation",
+                        "m_strBonus": "10"
                     }
                 ]
             },
@@ -300,20 +259,24 @@
                 "m_vecPropertyUpgrades": [
                     {
                         "m_strPropertyName": "AbilityCooldown",
-                        "m_strBonus": "-18"
-                    }
-                ]
-            },
-            {
-                "m_vecPropertyUpgrades": [
-                    {
-                        "m_strPropertyName": "WeaponDamageBonus",
-                        "m_strBonus": "15"
+                        "m_strBonus": "-19.000000"
                     }
                 ]
             }
         ],
-        "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/mirage_whirling_dervish.webm",
+        "m_SandPhantomModifier": {
+            "_class": "modifier_mirage_sand_phantom",
+            "_my_subclass_name": "modifier_mirage_sand_phantom",
+            "m_sLocalizationName": "modifier_mirage_sand_phantom",
+            "m_bIsHidden": "false",
+            "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER",
+            "m_sExpiredSound": "Mirage.A4.Whirling.Dervish.Mod.End",
+            "m_sStartSound": "",
+            "m_sAmbientLoopingSound": "Mirage.A4.Whirling.Dervish.Mod.Lp",
+            "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
+                "WhirlwindEvasionChance"
+            ]
+        },
         "m_WhirlwindEvasionModifier": {
             "_class": "modifier_mirage_sand_phantom_whirlwind_evasion",
             "_my_subclass_name": "modifier_mirage_sand_phantom_whirlwind_evasion",
@@ -327,31 +290,52 @@
             "m_playerBuffSelf": "particles/abilities/mirage/mirage_sand_phantom_whirlwind_buff.vpcf",
             "m_ReflectedBulletTracerParticle": "particles/weapon_fx/ricochet_tracer.vpcf"
         },
-        "m_SandPhantomModifier": {
-            "_class": "modifier_mirage_sand_phantom",
-            "_my_subclass_name": "modifier_mirage_sand_phantom",
-            "m_sLocalizationName": "modifier_mirage_sand_phantom",
-            "m_bIsHidden": "false",
-            "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER",
-            "m_sExpiredSound": "Mirage.A4.Whirling.Dervish.Mod.End",
-            "m_sStartSound": "",
-            "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
-                "WeaponDamageBonus"
-            ],
-            "m_WhirlwindSpeedModifier": {
-                "_class": "modifier_base",
-                "_my_subclass_name": "modifier_mirage_sand_phantom_whirlwind_movespeed",
+        "m_AutoIntrinsicModifiers": [
+            {
+                "_class": "modifier_mirage_sand_phantom_proc",
+                "_my_subclass_name": "modifier_mirage_sand_phantom_proc",
                 "m_bIsHidden": "true",
-                "m_strParticleEffect": "",
-                "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
-                    "BonusMoveSpeed"
-                ]
-            },
-            "m_sAmbientLoopingSound": "Mirage.A4.Whirling.Dervish.Mod.Lp"
-        },
-        "m_flCameraPreviewOffset": "100.000000",
+                "m_ProcReadyParticle": "particles/abilities/dynamo/dynamo_void_sphere_buff.vpcf",
+                "m_ExplodeParticle": "particles/upgrades/crack_shot_hit.vpcf",
+                "m_ExplodeSound": "Upgrade.ExplosiveBullets.Explode",
+                "m_bRollOnceForAllBulletsInAShot": "false",
+                "m_bCanProcMultipleTimesFromSameShot": "false",
+                "m_bCanProcMultipleTimesOnOneTarget": "false",
+                "m_flMaxBulletsToProcInShot": "1",
+                "m_bShouldApplyAbilityCooldown": "true",
+                "m_TracerAdditionParticle": "particles/items/crackshot_tracer.vpcf",
+                "m_bRequiresTargetFilter": "true",
+                "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
+                "m_PassiveVictimModifier": {
+                    "_class": "modifier_base",
+                    "_my_subclass_name": "modifier_mirage_sand_phantom_passive_victim",
+                    "m_sLocalizationName": "modifier_mirage_sand_phantom_passive_victim",
+                    "m_bIsHidden": "false",
+                    "m_strSmallIconCssClass": "fixated"
+                }
+            }
+        ],
         "m_AbilityTooltipDetails": {
             "m_vecAbilityInfoSections": [
+                {
+                    "m_strLocString": "#mirage_sand_phantom_passive_desc",
+                    "m_vecAbilityPropertiesBlock": [
+                        {
+                            "m_vecAbilityProperties": [
+                                {
+                                    "m_strImportantProperty": "ProcBonusMagicDamage"
+                                },
+                                {
+                                    "m_strImportantProperty": "ProcBonusMagicDamageEscalation"
+                                }
+                            ]
+                        }
+                    ],
+                    "m_vecBasicProperties": [
+                        "ProcCooldown",
+                        "MaxStacks"
+                    ]
+                },
                 {
                     "m_strLocString": "#mirage_sand_phantom_desc",
                     "m_vecAbilityPropertiesBlock": [
@@ -361,13 +345,13 @@
                                     "m_strImportantProperty": "WhirlwindEvasionChance"
                                 },
                                 {
-                                    "m_strImportantProperty": "BonusMoveSpeed"
+                                    "m_strImportantProperty": "WhirlwindDuration"
                                 }
                             ]
                         }
                     ],
                     "m_vecBasicProperties": [
-                        "WhirlwindDuration"
+                        "AbilityCooldown"
                     ]
                 }
             ]

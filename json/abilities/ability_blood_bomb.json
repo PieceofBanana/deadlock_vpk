@@ -1,9 +1,10 @@
 {
     "ability_blood_bomb": {
         "_class": "ability_blood_bomb",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "10",
+                "m_strValue": "10.500000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -126,7 +127,7 @@
                     "_class": "scale_function_tech_damage",
                     "_my_subclass_name": "Damage_scale_function",
                     "m_eSpecificStatScaleType": "ETechPower",
-                    "m_flStatScale": "1.048320"
+                    "m_flStatScale": "1.150000"
                 }
             },
             "BossDamagePercent": {
@@ -206,73 +207,8 @@
                     "100.000000",
                     "10000.000000"
                 ]
-            }
-        },
-        "m_strCancelAbilityKey": "+in_cancel_ability",
-        "m_HUDPanel": {
-            "m_vecButtonHints": [
-                {
-                    "m_strContext": "throw",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_Throw"
-                },
-                {
-                    "m_strContext": "deploy",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_Deploy"
-                },
-                {
-                    "m_strContext": "cast_on_target",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_CastOnTarget",
-                    "m_bShowAsUnitTargetActivationHint": "true",
-                    "m_bShowAbilityIcon": "true"
-                },
-                {
-                    "m_strContext": "alt_cast_hold_hint",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_HoldToSelfCast"
-                },
-                {
-                    "m_strContext": "alt_cast_double_tap_hint",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_DoubleTapToSelfCast"
-                },
-                {
-                    "m_strContext": "alt_cast_modifier_key_hint",
-                    "m_strBindingOverride1": "in_alt_cast_modifier",
-                    "m_eButton2": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_eButtonHintType": "EButtonHintType_TwoButtonCombination",
-                    "m_strLocToken": "#AbilityButtonHint_ModifierKeyToSelfCast"
-                },
-                {
-                    "m_strContext": "alt_cast_select_then_alt_cast_key_hint",
-                    "m_strBindingOverride1": "in_alt_cast",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_SelectThenSelfCastButton"
-                },
-                {
-                    "m_strContext": "deselect",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_strLocToken": "#AbilityButtonHint_Deselect",
-                    "m_nPriority": "1"
-                },
-                {
-                    "m_strLocToken": "#AbilityButtonHint_Activate",
-                    "m_eHintSide": "EButtonSide_Bottom",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_strContext": "unit_target_activate",
-                    "m_bShowAsUnitTargetActivationHint": "true",
-                    "m_bShowAbilityIcon": "true"
-                }
-            ]
+            },
+            "m_strBulletImpactSound": ""
         },
         "_multibase": [
             "signature_base"
@@ -301,7 +237,10 @@
             "m_warningParticle": "particles/abilities/ghost/ghost_blood_bomb_warning.vpcf",
             "m_flVerticalAimBias": "10",
             "m_nBehaviors": "PBF_StickToTarget | PBF_StickToWorld | PBF_StartDetonateTimeOnHitTarget | PBF_StartDetonateTimeOnHitWorld",
-            "m_DetonateSound": "Ability.GhostSoldier.BloodBomb.Explode"
+            "m_DetonateSound": "Ability.GhostSoldier.BloodBomb.Explode",
+            "m_WarningSound": "Ability.GhostSoldier.BloodBomb.Warning",
+            "m_LoopingSound": "Ability.GhostSoldier.BloodBomb.Lp",
+            "m_HitSound": ""
         },
         "m_strCastAnimGraphParam": "b_BloodBomb",
         "m_previewParticle": "particles/abilities/ghost/ghost_blood_bomb_preview.vpcf",
@@ -326,7 +265,7 @@
                 "m_vecPropertyUpgrades": [
                     {
                         "m_strPropertyName": "BloodSpillDPSPercent",
-                        "m_strBonus": "22"
+                        "m_strBonus": "26"
                     },
                     {
                         "m_strPropertyName": "BloodSpillDuration",
@@ -336,7 +275,6 @@
             }
         ],
         "m_strSecondaryStatName": "ability_blood_bomb_bloodspill",
-        "m_strCastSound": "Ghost.BloodBomb.Cast",
         "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/ghost_blood_bomb.webm",
         "m_ExplodeParticle": "particles/abilities/ghost/ghost_blood_bomb_explode.vpcf",
         "m_SpilledBloodModifier": {
@@ -344,7 +282,8 @@
             "_my_subclass_name": "modifier_spilled_blood_thinker",
             "m_SpilledBloodParticle": "particles/abilities/ghost/ghost_blood_bomb_spilled_blood.vpcf",
             "m_flTickRate": "0.500000",
-            "m_flHeight": "80.000000"
+            "m_flHeight": "80.000000",
+            "m_sAmbientLoopingSound": "Ability.GhostSoldier.BloodBomb.AOE.Lp"
         },
         "m_AbilityTooltipDetails": {
             "m_vecAbilityInfoSections": [
@@ -380,6 +319,8 @@
                     "m_strAbilityPropertyUpgradeRequired": "BloodSpillDuration"
                 }
             ]
-        }
+        },
+        "m_strSelectedLoopSound": "Ability.GhostSoldier.BloodBomb.Select.Lp",
+        "m_strCastSound": "Ghost.BloodBomb.Cast"
     }
 }

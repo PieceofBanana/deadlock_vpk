@@ -1,9 +1,10 @@
 {
     "tokamak_crimson_cannon": {
         "_class": "tokamak_crimson_cannon",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "120",
+                "m_strValue": "127.000000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -181,17 +182,6 @@
                 ]
             }
         },
-        "m_strCancelAbilityKey": "+in_cancel_ability",
-        "m_HUDPanel": {
-            "m_vecButtonHints": [
-                {
-                    "m_strContext": "tokamak_crimson_cannnon_aiming",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_eHintSide": "EButtonSide_Right",
-                    "m_strLocToken": "#tokamak_crimson_cannnon_hint"
-                }
-            ]
-        },
         "_multibase": [
             "ultimate_base"
         ],
@@ -242,7 +232,7 @@
                 "m_vecPropertyUpgrades": [
                     {
                         "m_strPropertyName": "AbilityCooldown",
-                        "m_strBonus": "-50"
+                        "m_strBonus": "-47.000000"
                     }
                 ]
             }
@@ -261,6 +251,16 @@
             "_my_subclass_name": "modifier_cast_delay",
             "m_strParticleEffect": "particles/abilities/tokamak/tokamak_crimson_cannon_charge_shot.vpcf",
             "m_bIsHidden": "true"
+        },
+        "m_HUDPanel": {
+            "m_vecButtonHints": [
+                {
+                    "m_strContext": "tokamak_crimson_cannnon_aiming",
+                    "m_eButton1": "EButtonHint_Attack",
+                    "m_eHintSide": "EButtonSide_Right",
+                    "m_strLocToken": "#tokamak_crimson_cannnon_hint"
+                }
+            ]
         }
     }
 }
