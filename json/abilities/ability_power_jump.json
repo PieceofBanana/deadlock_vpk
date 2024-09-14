@@ -311,7 +311,7 @@
             "_class": "modifier_air_raid",
             "_my_subclass_name": "modifier_air_raid",
             "m_bIsHidden": "true",
-            "m_nEnabledStateMask": "MODIFIER_STATE_JUMP_DISABLED | MODIFIER_STATE_DISABLE_AIR_SPREAD_PENALTY | MODIFIER_STATE_UNLIMITED_AIR_DASHES",
+            "m_nEnabledStateMask": "MODIFIER_STATE_ZIPLINE_DISABLED | MODIFIER_STATE_JUMP_DISABLED | MODIFIER_STATE_DISABLE_AIR_SPREAD_PENALTY | MODIFIER_STATE_UNLIMITED_AIR_DASHES",
             "m_SlowModifier": {
                 "_class": "modifier_slow_base",
                 "_my_subclass_name": "modifier_slow_base",

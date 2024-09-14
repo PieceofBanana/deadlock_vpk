@@ -299,12 +299,19 @@
 					<Panel class="SettingsColumnContainer">
 						<Panel id="HeroKeybindsContainer">
 							<Panel class="SettingsDualColumn HotkeySettingsColumn">
-								<ToggleButton class="CheckBox" id="PerUnitHotkeysCheckBox" text="#citadel_settings_per_unit_hotkeys" onactivate="CitadelSetPerUnitHotKeys();" onmouseover="UIShowTextTooltipStyled( #citadel_Hotkeys_Tooltip_PerUnitHotkeys, OptionsTooltip)" onmouseout="UIHideTextTooltip()" />
-								<Panel class="PerUnitHotkeyContainer LeftRightFlow">
-									<DropDown id="PerUnitHotkeyDropDown" />
-									<Button id="ClearHeroAbilityBindings" class="ButtonDark" onactivate="CitadelClearHeroHotkeyBindings();">
-										<Label text="#citadel_ClearHeroHotkeyBindings" />
-									</Button>
+								<Panel class="UnitSpecificHotkeyControls">
+									<Panel class="PerUnitCheckboxContainer">
+										<CitadelSettingsCheckbox class="CheckBox" id="PerUnitHotkeysCheckBox" text="#citadel_settings_per_unit_hotkeys" onactivate="CitadelSetPerUnitHotKeys();" onmouseover="UIShowTextTooltipStyled( #citadel_Hotkeys_Tooltip_PerUnitHotkeys, OptionsTooltip)" onmouseout="UIHideTextTooltip()" convar="citadel_per_unit_hotkeys_checked" />
+										<Button id="ClearHeroAbilityBindings" class="ButtonDark PerUnitNotSelected" onactivate="CitadelClearHeroHotkeyBindings();">
+											<Label text="#citadel_ClearHeroHotkeyBindings" />
+										</Button>
+									</Panel>
+									<Panel class="PerUnitHotkeyContainer LeftRightFlow">
+										<DropDown id="PerUnitHotkeyDropDown" />
+										<Button id="ClearHeroAbilityBindings" class="ButtonDark" onactivate="CitadelClearHeroHotkeyBindings();">
+											<Label text="#citadel_ClearHeroHotkeyBindings" />
+										</Button>
+									</Panel>
 								</Panel>
 								<Panel id="KeybindingsContainer1" class="SettingsSection HotkeySettingsSection">
 									<Label class="SubHeaderText" text="#citadel_settings_movementkeybinds" />
@@ -342,6 +349,7 @@
 									<CitadelSettingsKeyBinder id="Ability2Binder" text="#citadel_keybind_ability2" bind="Ability2" />
 									<CitadelSettingsKeyBinder id="Ability3Binder" text="#citadel_keybind_ability3" bind="Ability3" />
 									<CitadelSettingsKeyBinder id="Ability4Binder" text="#citadel_keybind_ability4" bind="Ability4" />
+									<Label class="AbilityUpgradeDesc" text="#citadel_ability_upgrade_tab_desc" />
 									<CitadelSettingsKeyBinder id="AbilityUpgrade1Binder" text="#citadel_keybind_upgrade_ability1" bind="AbilityUpgrade1" />
 									<CitadelSettingsKeyBinder id="AbilityUpgrade2Binder" text="#citadel_keybind_upgrade_ability2" bind="AbilityUpgrade2" />
 									<CitadelSettingsKeyBinder id="AbilityUpgrade3Binder" text="#citadel_keybind_upgrade_ability3" bind="AbilityUpgrade3" />

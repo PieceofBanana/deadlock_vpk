@@ -219,6 +219,7 @@
             "_class": "modifier_warden_lockdown_debuff",
             "_my_subclass_name": "modifier_warden_lockdown_debuff",
             "m_sLocalizationName": "modifier_warden_lockdown_debuff",
+            "m_nAttributes": "MODIFIER_ATTRIBUTE_MULTIPLE",
             "m_DebuffParticle": "particles/abilities/warden/warden_keep_out_debuff.vpcf",
             "m_strFollowLoop": "Warden.LockDown.Debuff.Lp",
             "m_strExplodeSound": "Warden.LockDown.Explode",

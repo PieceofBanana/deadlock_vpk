@@ -455,8 +455,8 @@
 		"BotMatchWarning_EarlyGame"					"Bots are great to practice fighting against, but struggle with grouping up and pushing objectives."
 		"BotMatchWarning_LateGame"					"These matches tend to last much longer than a typical game - you'll need to take charge to defeat their Patron!"
 
-
-
+		"Citadel_MatchmakingSchedule"							"Update:"
+		"Citadel_MatchmakingSchedule_Desc"							"Matchmaking now open 24/7!"
 
 		// Book
 		//"Citadel_Book_NotEnoughXP"							"This chatper requires {d:unlock_cost} to unlock, but you only have {d:available_unlocks} available. Play more matches to earn more unlocks."
@@ -519,7 +519,10 @@
 		"Citadel_PrivateLobby_Region_Oceania"						"Oceania"
 		"Citadel_PrivateLobby_Ready"								"Ready Up"
 		"Citadel_PrivateLobby_Unready"								"Unready"
-
+		"Citadel_PrivateLobby_Difficulty_None"						"No Bots"
+		"Citadel_PrivateLobby_Difficulty_Easy"						"Easy Bots"
+		"Citadel_PrivateLobby_Difficulty_Medium"					"Medium Bots"
+		"Citadel_PrivateLobby_Difficulty_Hard"						"Hard Bots"
 
 		// Party
 		"Citadel_Party_InviteFriend"								""
@@ -734,8 +737,8 @@
 		"Citadel_HUD_LevelReward_BulletDamage"						"Bullet Damage"
 		"Citadel_HUD_LevelReward_Health"							"Health"
 		"Citadel_HUD_LevelReward_SpiritDamage"						"Spirit Damage"
-		"Citadel_HUD_LevelReward_BulletResist"						"Spirit Damage"
-		"Citadel_HUD_LevelReward_WeaponRange"						"Spirit Damage"
+		//"Citadel_HUD_LevelReward_BulletResist"						"Spirit Damage"
+		//"Citadel_HUD_LevelReward_WeaponRange"						"Spirit Damage"
 		"Citadel_HUD_LevelReward_NextRewardsLabel"					"Next Rewards:"
 		
 		"Citadel_Hud_KillFeedNone"									"<None>"
@@ -1481,7 +1484,7 @@
 		"citadel_ability_melee_parry"			"Parry"
 		"citadel_ability_player_ping"			"Ping"
 		"citadel_ability_melee_parry/parry_cooldown_display" "Parry Cooldown"
-		//"citadel_ability_melee_genericperson"		"GenericPerson Melee"
+		"citadel_ability_melee_genericperson"		"Melee"
 
 
 		"EShopFilterWeaponDamage"				"Weapon Damage"
@@ -1704,8 +1707,9 @@
 		"citadel_settings_audio"						"Audio"
 		"citadel_settings_about"						"About"
 		"citadel_settings_hotkeys"						"Keybinds"
+		"citadel_ability_upgrade_tab_desc"				"{s:show_scoreboard}+[Ability Key] will upgrade your ability. These are additional binds."
 		"citadel_settings_per_unit_hotkeys"				"Unit Specific Hotkeys"
-		"citadel_Hotkeys_Tooltip_PerUnitHotkeys"		"Temporarily disabled due to a bug. Fix coming shortly"
+		"citadel_Hotkeys_Tooltip_PerUnitHotkeys"		"Enable/Disable Unit Specific Keybinds"
 		"citadel_settings_defaultkeybinds"				"Default"
 		"citadel_ClearHeroHotkeyBindings"				"Reset to Default"		
 		"citadel_settings_chatwheel"					"Chat Wheel"

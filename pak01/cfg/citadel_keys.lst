@@ -111,6 +111,7 @@
 				"IsUnique" "1"
 				"IsAlsoSpectatorBind" "1"
 				"IsAlsoReplayBind" "1"
+				"AllowDuplicateBind" "1"
 				"LocString"		"#citadel_keybind_scoreboard"
 			}
 			
@@ -125,22 +126,17 @@
 				"Action"		"+in_extra_info"
 				"IsAlsoSpectatorBind" "1"
 				"IsAlsoReplayBind" "1"
+				"AllowDuplicateBind" "1"
 				"LocString"		"#citadel_keybind_extra_info"
 			}
-			"ToggleFreeCursor"
-			{
-				"Action"		"hud_free_cursor_toggle"
-				"IsUnique" "1"
-				"IsAlsoSpectatorBind" "1"
-				"IsAlsoReplayBind" "1"
-				"LocString"		"#citadel_keybind_toggle_free_cursor"
-			}
+
 			"AltCast"
 			{
 				"Action"		"+in_alt_cast_modifier"
 				"LocString"		"#citadel_keybind_alt_cast"
 				"AllowDuplicateBind" "1"
 			}
+
 			"MoveForward"
 			{
 				"Action"		"+forward"
@@ -364,6 +360,15 @@
 			{
 				"Action"		"spec_fly_down"
 				"LocString"		"#citadel_keybind_spectator_fly_down"
+			}
+
+			"SpectatorToggleFreeCursor"
+			{
+				"Action"		"hud_free_cursor_toggle"
+				"IsUnique" "1"
+				"IsAlsoSpectatorBind" "1"
+				"IsAlsoReplayBind" "1"
+				"LocString"		"#citadel_keybind_toggle_free_cursor"
 			}
 		}
 
@@ -678,7 +683,7 @@
 					"Key"		"C"
 				}
 				
-				"ToggleFreeCursor"
+				"SpectatorToggleFreeCursor"
 				{
 					"Key"		"J"
 				}

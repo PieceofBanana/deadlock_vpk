@@ -309,6 +309,7 @@
             "m_bIsHidden": "true",
             "m_sLocalizationName": "modifier_citadel_archer_guided_arrow",
             "m_strScreenParticleEffect": "particles/abilities/archer/archer_guided_arrow_screen.vpcf",
+            "m_nEnabledStateMask": "MODIFIER_STATE_JUMP_DISABLED | MODIFIER_STATE_ZIPLINE_DISABLED | MODIFIER_STATE_DASH_DISABLED",
             "m_GlowEnemeyModifier": {
                 "_my_subclass_name": "modifier_low_health_glow",
                 "_class": "modifier_low_health_glow",
