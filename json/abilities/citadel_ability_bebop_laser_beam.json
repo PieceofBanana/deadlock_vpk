@@ -4,7 +4,7 @@
         "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "117.000000",
+                "m_strValue": "130.000000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -113,13 +113,13 @@
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
             },
             "DPS": {
-                "m_strValue": "220",
+                "m_strValue": "205",
                 "m_strCSSClass": "tech_damage",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_tech_damage",
                     "_my_subclass_name": "damage_scale",
                     "m_eSpecificStatScaleType": "ETechPower",
-                    "m_flStatScale": "3.000000"
+                    "m_flStatScale": "2.700000"
                 }
             },
             "BeamLength": {
@@ -146,7 +146,7 @@
                 }
             },
             "BeamEndRadius": {
-                "m_strValue": "5.0m",
+                "m_strValue": "4.0m",
                 "m_eDisplayType": "ETechRadius",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",
@@ -199,7 +199,7 @@
                 "m_strCSSClass": "duration"
             },
             "SlowPercent": {
-                "m_strValue": "40",
+                "m_strValue": "30",
                 "m_strCSSClass": "slow",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
                 "m_UsageFlags": "APUsageFlag_ModifierConditional"
@@ -279,7 +279,7 @@
                 "m_vecPropertyUpgrades": [
                     {
                         "m_strPropertyName": "AbilityCooldown",
-                        "m_strBonus": "-38.000000"
+                        "m_strBonus": "-30.000000"
                     }
                 ]
             },

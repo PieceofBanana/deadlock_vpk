@@ -122,7 +122,7 @@
                     "_class": "scale_function_multi_stats",
                     "_my_subclass_name": "HealRadius_scale_function",
                     "m_eSpecificStatScaleType": "ETechPower",
-                    "m_flStatScale": "0.070000",
+                    "m_flStatScale": "0.050000",
                     "m_vecScalingStats": [
                         "ETechPower",
                         "ETechRadius"

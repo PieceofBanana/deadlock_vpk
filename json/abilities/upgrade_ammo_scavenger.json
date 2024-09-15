@@ -15,7 +15,7 @@
                 }
             },
             "AbilityDuration": {
-                "m_strValue": "40",
+                "m_strValue": "35",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "duration",
                 "m_bCanSetTokenOverride": "true",
