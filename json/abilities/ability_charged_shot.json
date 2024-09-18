@@ -434,7 +434,8 @@
                     "m_flSpringTarget": "50.000000",
                     "m_eCameraOperation": "k_ECameraOp_Spring"
                 }
-            ]
+            ],
+            "m_nPriority": "100"
         },
         "m_cameraSequenceChannelStart": {
             "m_vecFOVOperations": [
@@ -444,7 +445,8 @@
                     "m_bValuesAreRelative": "false",
                     "m_flMaintainFloat": "50.000000"
                 }
-            ]
+            ],
+            "m_nPriority": "100"
         },
         "m_strCastDelaySound": "Orion.Charged.Shot.CastDelay",
         "m_strDamageTakenSound": "Orion.Charged.Shot.Target.Damage.Taken",

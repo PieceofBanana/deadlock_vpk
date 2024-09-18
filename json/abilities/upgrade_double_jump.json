@@ -118,7 +118,7 @@
                 "m_strCSSClass": "move_speed"
             },
             "InteruptCooldown": {
-                "m_strValue": "4.250000",
+                "m_strValue": "4",
                 "m_strCSSClass": "cooldown",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",

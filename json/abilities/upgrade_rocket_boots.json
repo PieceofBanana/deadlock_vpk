@@ -117,7 +117,7 @@
                 "m_strValue": "22.5m"
             },
             "InteruptCooldown": {
-                "m_strValue": "4.250000",
+                "m_strValue": "4",
                 "m_strCSSClass": "cooldown",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",

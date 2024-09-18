@@ -277,7 +277,8 @@
                     "_my_subclass_name": "modifier_ice_dome_friendly",
                     "m_strParticleEffect": "particles/generic/generic_health_regen.vpcf",
                     "m_sLocalizationName": "frozen_shelter_modifier_buff",
-                    "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER"
+                    "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER",
+                    "m_flDuration": "0.500000"
                 },
                 "m_bIsHidden": "true"
             },
@@ -295,7 +296,8 @@
                         "FireRateSlow",
                         "SlowPercent"
                     ],
-                    "m_strParticleStatusEffect": "particles/status_fx/status_fx_kelvin_freeze.vpcf"
+                    "m_strParticleStatusEffect": "particles/status_fx/status_fx_kelvin_freeze.vpcf",
+                    "m_flDuration": "0.500000"
                 },
                 "m_bIsHidden": "true"
             },

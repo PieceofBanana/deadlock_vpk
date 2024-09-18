@@ -4,7 +4,7 @@
         "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "1.250000",
+                "m_strValue": "1",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -137,7 +137,7 @@
                 "m_strValue": "300"
             },
             "DamageCooldown": {
-                "m_strValue": "3.250000",
+                "m_strValue": "3",
                 "m_strCSSClass": "cooldown",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",
@@ -161,7 +161,7 @@
                 "m_strValue": "150"
             },
             "ZipMasteryDamageCooldown": {
-                "m_strValue": "3.250000",
+                "m_strValue": "3",
                 "m_strCSSClass": "cooldown",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",
