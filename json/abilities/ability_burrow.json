@@ -299,22 +299,7 @@
             ],
             "m_flDesatAmount": "0.300000",
             "m_BurrowPlayerParticle": "particles/abilities/digger/digger_burrow_channel_player.vpcf",
-            "m_sExpiredSound": "",
-            "m_cameraSequenceCreated": {
-                "m_vecDistanceOperations": [
-                    {
-                        "m_flSpringStrength": "10.000000",
-                        "m_bSpringToDefault": "false",
-                        "m_flSpringTarget": "500.000000",
-                        "m_eCameraOperation": "k_ECameraOp_Spring"
-                    },
-                    {
-                        "m_flMaintainDuration": "99.000000",
-                        "m_eCameraOperation": "k_ECameraOp_Maintain",
-                        "m_flMaintainFloat": "500.000000"
-                    }
-                ]
-            }
+            "m_sExpiredSound": ""
         },
         "m_SpinModifier": {
             "_class": "modifier_spin",
@@ -337,13 +322,26 @@
                     {
                         "m_flSpringStrength": "10.000000",
                         "m_bSpringToDefault": "false",
-                        "m_flSpringTarget": "500.000000",
+                        "m_flSpringTarget": "300.000000",
                         "m_eCameraOperation": "k_ECameraOp_Spring"
                     },
                     {
                         "m_flMaintainDuration": "99.000000",
                         "m_eCameraOperation": "k_ECameraOp_Maintain",
-                        "m_flMaintainFloat": "500.000000"
+                        "m_flMaintainFloat": "300.000000"
+                    }
+                ],
+                "m_vecVertOffsetOperations": [
+                    {
+                        "m_flSpringStrength": "10.000000",
+                        "m_bSpringToDefault": "false",
+                        "m_flSpringTarget": "0.000000",
+                        "m_eCameraOperation": "k_ECameraOp_Spring"
+                    },
+                    {
+                        "m_flMaintainDuration": "99.000000",
+                        "m_eCameraOperation": "k_ECameraOp_Maintain",
+                        "m_flMaintainFloat": "0.000000"
                     }
                 ]
             }
@@ -401,15 +399,71 @@
         "m_cameraSequenceCastStart": {
             "m_vecDistanceOperations": [
                 {
-                    "m_flSpringStrength": "5.000000",
+                    "m_flSpringStrength": "10.000000",
                     "m_bSpringToDefault": "false",
-                    "m_flSpringTarget": "500.000000",
+                    "m_flSpringTarget": "200.000000",
                     "m_eCameraOperation": "k_ECameraOp_Spring"
                 },
                 {
                     "m_flMaintainDuration": "99.000000",
                     "m_eCameraOperation": "k_ECameraOp_Maintain",
-                    "m_flMaintainFloat": "500.000000"
+                    "m_flMaintainFloat": "200.000000"
+                }
+            ]
+        },
+        "m_cameraSequenceChannelStart": {
+            "m_vecDistanceOperations": [
+                {
+                    "m_flSpringStrength": "10.000000",
+                    "m_bSpringToDefault": "false",
+                    "m_flSpringTarget": "200.000000",
+                    "m_eCameraOperation": "k_ECameraOp_Spring"
+                },
+                {
+                    "m_flMaintainDuration": "99.000000",
+                    "m_eCameraOperation": "k_ECameraOp_Maintain",
+                    "m_flMaintainFloat": "200.000000"
+                }
+            ],
+            "m_vecVertOffsetOperations": [
+                {
+                    "m_flSpringStrength": "10.000000",
+                    "m_bSpringToDefault": "false",
+                    "m_flSpringTarget": "-30.000000",
+                    "m_eCameraOperation": "k_ECameraOp_Spring"
+                },
+                {
+                    "m_flMaintainDuration": "99.000000",
+                    "m_eCameraOperation": "k_ECameraOp_Maintain",
+                    "m_flMaintainFloat": "-30.000000"
+                }
+            ]
+        },
+        "m_cameraSpinStart": {
+            "m_vecDistanceOperations": [
+                {
+                    "m_flSpringStrength": "10.000000",
+                    "m_bSpringToDefault": "false",
+                    "m_flSpringTarget": "300.000000",
+                    "m_eCameraOperation": "k_ECameraOp_Spring"
+                },
+                {
+                    "m_flMaintainDuration": "1.000000",
+                    "m_eCameraOperation": "k_ECameraOp_Maintain",
+                    "m_flMaintainFloat": "300.000000"
+                }
+            ],
+            "m_vecVertOffsetOperations": [
+                {
+                    "m_flSpringStrength": "10.000000",
+                    "m_bSpringToDefault": "false",
+                    "m_flSpringTarget": "0.000000",
+                    "m_eCameraOperation": "k_ECameraOp_Spring"
+                },
+                {
+                    "m_flMaintainDuration": "1.000000",
+                    "m_eCameraOperation": "k_ECameraOp_Maintain",
+                    "m_flMaintainFloat": "0.000000"
                 }
             ]
         }

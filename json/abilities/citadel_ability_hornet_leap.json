@@ -222,7 +222,7 @@
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_HERO_FRIENDLY",
         "m_eAbilitySpectatePriority": "CITADELTV_ABILITY_SPECTATE_PRIORITY_MEDIUM",
         "m_strAbilityImage": "file://{images}/hud/abilities/wasp_flight.psd",
-        "m_flVerticalMoveSpeedTarget": "320",
+        "m_flVerticalMoveSpeedPercent": "1.000000",
         "m_vecAbilityUpgrades": [
             {
                 "m_vecPropertyUpgrades": [
