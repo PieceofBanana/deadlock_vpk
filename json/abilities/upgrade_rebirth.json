@@ -113,6 +113,13 @@
                 "m_bCanSetTokenOverride": "true",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
             },
+            "SpawnTimePenalty": {
+                "m_strValue": "15",
+                "m_strCSSClass": "duration",
+                "m_bIsNegativeAttribute": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_RESPAWN_TIME_ADDITIVE",
+                "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
+            },
             "RespawnDelay": {
                 "m_strValue": "4",
                 "m_strCSSClass": "duration"
@@ -188,7 +195,7 @@
         "m_iUpdateTime": "1721272633",
         "m_strCSSClass": "portableRejuv",
         "m_strAbilityImage": "file://{images}/upgrades/mods_tech/rebirth.psd",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_COOLDOWN_PERSISTS_ACROSS_REBUY",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_COOLDOWN_PERSISTS_ACROSS_REBUY",
         "m_bShowInPassiveItemsArea": "true",
         "m_DeployParticle": "particles/upgrades/portable_rejuvinator_deploy.vpcf",
         "m_RespawnParticle": "particles/upgrades/portable_rejuvinator_respawn.vpcf",
@@ -199,6 +206,9 @@
                 "m_eAbilitySectionType": "EArea_Innate",
                 "m_vecSectionAttributes": [
                     {
+                        "m_vecElevatedAbilityProperties": [
+                            "SpawnTimePenalty"
+                        ],
                         "m_vecAbilityProperties": [
                             "CooldownReduction",
                             "TechPower"
@@ -229,7 +239,8 @@
                 "_my_subclass_name": "modifier_intrinsic_base",
                 "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
                     "CooldownReduction",
-                    "TechPower"
+                    "TechPower",
+                    "SpawnTimePenalty"
                 ]
             }
         ]

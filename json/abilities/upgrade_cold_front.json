@@ -214,7 +214,7 @@
         "m_strCSSClass": "iceBlast",
         "m_strAbilityImage": "file://{images}/upgrades/mods_utility/ice_blast.psd",
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_SPHERE",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
         "m_strCastSound": "Mods.Tech.IceBlast.Cast",
         "m_AOEModifier": {

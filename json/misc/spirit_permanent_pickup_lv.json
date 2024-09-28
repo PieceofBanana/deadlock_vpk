@@ -22,8 +22,7 @@
                     "m_eModifierValue": "MODIFIER_VALUE_TECH_POWER",
                     "m_value": "3.000000"
                 }
-            ],
-            "m_strHudMessageText": "#spirit_permanent_pickup_label_lv2"
+            ]
         },
         "m_sDefaultMaterialGroupName": "purple",
         "m_Color": [

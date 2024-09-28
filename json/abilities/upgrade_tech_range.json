@@ -144,11 +144,11 @@
                 "m_eApplyFilter": "EApplyFilter_OnlyIfImbued",
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             },
-            "TechResist": {
+            "BulletResist": {
                 "m_strValue": "12",
-                "m_eDisplayType": "ETechArmorDamageReduction",
-                "m_strCSSClass": "tech_armor_up",
-                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST",
+                "m_eDisplayType": "EBulletArmorDamageReduction",
+                "m_strCSSClass": "bullet_armor_up",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             }
         },
@@ -219,7 +219,7 @@
                         "m_strLocString": "#upgrade_tech_range_desc",
                         "m_vecAbilityProperties": [
                             "NonImbuedTechRangeMultiplier",
-                            "TechResist",
+                            "BulletResist",
                             "TechPower"
                         ],
                         "m_vecElevatedAbilityProperties": [
@@ -238,7 +238,7 @@
                     "ImbuedTechRadiusMultiplier",
                     "NonImbuedTechRangeMultiplier",
                     "NonImbuedTechRadiusMultiplier",
-                    "TechResist",
+                    "BulletResist",
                     "TechPower"
                 ]
             }
@@ -246,6 +246,6 @@
         "m_vecComponentItems": [
             "upgrade_magic_reach"
         ],
-        "m_eShopFilters": "EShopFilterMagicDamage"
+        "m_eShopFilters": "EShopFilterMagicDamage | EShopFilterDurability"
     }
 }

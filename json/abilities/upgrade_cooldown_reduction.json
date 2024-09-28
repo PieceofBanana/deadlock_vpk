@@ -191,7 +191,7 @@
         "m_TargetAbilityEffectsToApply": "CITADEL_TARGET_ABILITY_BEHAVIOR_IMBUE_MODIFIER_VALUE",
         "m_strCSSClass": "spiritualFlow",
         "m_strAbilityImage": "file://{images}/upgrades/mods_tech/spiritual_flow.psd",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
         "m_vecComponentItems": [
             "upgrade_magic_tempo"
         ],

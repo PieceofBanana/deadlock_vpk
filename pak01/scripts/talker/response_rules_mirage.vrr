@@ -469,32 +469,7 @@
 				
 				{
 					m_type = "SPEAK"
-					m_value = "mirage_upgrade_power3_01_hero_3d"
-				},
-				
-				{
-					m_type = "SPEAK"
-					m_value = "mirage_upgrade_power3_02_hero_3d"
-				},
-				
-				{
-					m_type = "SPEAK"
-					m_value = "mirage_upgrade_power3_03_hero_3d"
-				},
-				
-				{
-					m_type = "SPEAK"
 					m_value = "mirage_upgrade_power3_04_hero_3d"
-				},
-				
-				{
-					m_type = "SPEAK"
-					m_value = "mirage_upgrade_power3_05_hero_3d"
-				},
-				
-				{
-					m_type = "SPEAK"
-					m_value = "mirage_upgrade_power3_06_hero_3d"
 				},
 				
 				{
@@ -504,17 +479,17 @@
 				
 				{
 					m_type = "SPEAK"
-					m_value = "mirage_upgrade_power3_08_hero_3d"
+					m_value = "mirage_upgrade_power4_02_hero_3d"
 				},
 				
 				{
 					m_type = "SPEAK"
-					m_value = "mirage_upgrade_power3_09_hero_3d"
+					m_value = "mirage_upgrade_power4_05_hero_3d"
 				},
 				
 				{
 					m_type = "SPEAK"
-					m_value = "mirage_upgrade_power3_10_hero_3d"
+					m_value = "mirage_upgrade_power4_09_hero_3d"
 				},
 			]
 			m_pEmbeddedRule = 
@@ -537,57 +512,7 @@
 				
 				{
 					m_type = "SPEAK"
-					m_value = "mirage_use_power3_01_ability_3d"
-					m_params = 
-					{
-						m_respeakdelay.start = 0.000000
-						m_predelay.start = 0.100000
-					}
-				},
-				
-				{
-					m_type = "SPEAK"
-					m_value = "mirage_use_power3_02_ability_3d"
-					m_params = 
-					{
-						m_respeakdelay.start = 0.000000
-						m_predelay.start = 0.100000
-					}
-				},
-				
-				{
-					m_type = "SPEAK"
-					m_value = "mirage_use_power3_03_ability_3d"
-					m_params = 
-					{
-						m_respeakdelay.start = 0.000000
-						m_predelay.start = 0.100000
-					}
-				},
-				
-				{
-					m_type = "SPEAK"
 					m_value = "mirage_use_power3_04_ability_3d"
-					m_params = 
-					{
-						m_respeakdelay.start = 0.000000
-						m_predelay.start = 0.100000
-					}
-				},
-				
-				{
-					m_type = "SPEAK"
-					m_value = "mirage_use_power3_05_ability_3d"
-					m_params = 
-					{
-						m_respeakdelay.start = 0.000000
-						m_predelay.start = 0.100000
-					}
-				},
-				
-				{
-					m_type = "SPEAK"
-					m_value = "mirage_use_power3_06_ability_3d"
 					m_params = 
 					{
 						m_respeakdelay.start = 0.000000
@@ -628,6 +553,26 @@
 				{
 					m_type = "SPEAK"
 					m_value = "mirage_use_power3_10_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "mirage_use_power4_04_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "mirage_use_power4_08_ability_3d"
 					m_params = 
 					{
 						m_respeakdelay.start = 0.000000
@@ -1506,6 +1451,56 @@
 				{
 					m_type = "SPEAK"
 					m_value = "mirage_desperation_power3_05_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "mirage_desperation_power4_01_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "mirage_desperation_power4_02_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "mirage_desperation_power4_03_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "mirage_desperation_power4_04_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "mirage_desperation_power4_05_ability_3d"
 					m_params = 
 					{
 						m_respeakdelay.start = 0.000000

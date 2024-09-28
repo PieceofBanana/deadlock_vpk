@@ -183,7 +183,7 @@
         "m_iUpdateTime": "0",
         "m_strCSSClass": "techDefender",
         "m_strAbilityImage": "file://{images}/upgrades/mods_armor/tech_defender.psd",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_BUSY",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_BUSY",
         "m_strCastDelaySound": "Mods.Armor.TechDefender.PreCast",
         "m_DebuffImmunityModifier": {
             "_class": "modifier_debuff_immunity",

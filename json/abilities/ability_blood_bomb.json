@@ -228,7 +228,7 @@
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_NONE",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_PRESS",
         "m_strAbilityImage": "file://{images}/hud/abilities/spectre/blood_bomb.psd",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
         "m_projectileInfo": {
             "m_flSpeed": "1600",

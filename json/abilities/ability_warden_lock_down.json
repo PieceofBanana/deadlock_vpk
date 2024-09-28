@@ -130,7 +130,7 @@
                 }
             },
             "EscapeRange": {
-                "m_strValue": "16m",
+                "m_strValue": "18.5m",
                 "m_strCSSClass": "distance",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",
@@ -139,7 +139,7 @@
                 }
             },
             "EscapeTime": {
-                "m_strValue": "2.5",
+                "m_strValue": "2.9",
                 "m_strCSSClass": "duration"
             },
             "BulletArmorReduction": {
@@ -210,9 +210,9 @@
         "m_iUpdateTime": "1692840390",
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_UNIT",
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_CONE",
-        "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
+        "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_PRESS",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_HERO_ENEMY",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_USE_INSTANT_CAST_UNIT_TARGET_UI",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_USE_INSTANT_CAST_UNIT_TARGET_UI | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
         "m_flTargetingConeAngle": "70",
         "m_strAbilityImage": "file://{images}/hud/abilities/warden/warden_lock_down.psd",
         "m_DebuffModifier": {

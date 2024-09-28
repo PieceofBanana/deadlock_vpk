@@ -192,7 +192,7 @@
         "m_skillshotMissParticle": "particles/abilities/skillshot_default_miss_owner.vpcf",
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_CIRCLE",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_PRESS",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
         "m_strAbilityImage": "file://{images}/hud/abilities/tokamak/tokamak_dying_star.psd",
         "m_projectileInfo": {

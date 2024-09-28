@@ -99,7 +99,7 @@
                 "m_strCSSClass": "cast"
             },
             "TechPower": {
-                "m_strValue": "7",
+                "m_strValue": "9",
                 "m_strDisableValue": "0",
                 "m_bCanSetTokenOverride": "true",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_POWER",
@@ -113,14 +113,8 @@
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
             },
             "BulletDamageReflectedPct": {
-                "m_strValue": "70",
+                "m_strValue": "60",
                 "m_strCSSClass": "bullet_damage"
-            },
-            "BonusFireRate": {
-                "m_strValue": "7",
-                "m_eDisplayType": "EFireRate",
-                "m_eProvidedPropertyType": "MODIFIER_VALUE_FIRE_RATE",
-                "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             },
             "BonusHealth": {
                 "m_strValue": "125",
@@ -132,6 +126,13 @@
             "SpiritDamageReflectedPct": {
                 "m_strValue": "30",
                 "m_strCSSClass": "tech_damage"
+            },
+            "ReturnFireBulletResist": {
+                "m_strValue": "25",
+                "m_eDisplayType": "EBulletArmorDamageReduction",
+                "m_strCSSClass": "bullet_armor_up",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
             }
         },
         "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
@@ -282,7 +283,7 @@
         "m_eItemSlotType": "EItemSlotType_Armor",
         "m_iItemTier": "EModTier_2",
         "m_iUpdateTime": "1708739024",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CAN_CAST_ON_ZIPLINE",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CAN_CAST_ON_ZIPLINE",
         "m_strCSSClass": "lastStand",
         "m_strAbilityImage": "file://{images}/upgrades/mods_tech/return_fire.psd",
         "m_ReactiveArmorModifier": {
@@ -295,7 +296,10 @@
             "m_strAttackerHitSound": "Item.ReactiveArmor.HitIndicator",
             "m_strParticleEffect": "particles/upgrades/reactive_armor_buff.vpcf",
             "m_strHudMessageText": "#upgrade_return_fire",
-            "m_SpiritReflectTracerReplacement": "particles/weapon_fx/ricochet_tracer.vpcf"
+            "m_SpiritReflectTracerReplacement": "particles/weapon_fx/ricochet_tracer.vpcf",
+            "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
+                "ReturnFireBulletResist"
+            ]
         },
         "m_vecTooltipSectionInfo": [
             {
@@ -304,8 +308,7 @@
                     {
                         "m_vecAbilityProperties": [
                             "BonusHealth",
-                            "TechPower",
-                            "BonusFireRate"
+                            "TechPower"
                         ]
                     }
                 ]
@@ -321,6 +324,9 @@
                             },
                             {
                                 "m_strImportantProperty": "SpiritDamageReflectedPct"
+                            },
+                            {
+                                "m_strImportantProperty": "ReturnFireBulletResist"
                             }
                         ],
                         "m_vecAbilityProperties": [
@@ -337,8 +343,7 @@
                 "_class": "modifier_intrinsic_base",
                 "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
                     "BonusHealth",
-                    "TechPower",
-                    "BonusFireRate"
+                    "TechPower"
                 ]
             }
         ],

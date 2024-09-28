@@ -23,7 +23,6 @@
                     "m_value": "0.750000"
                 }
             ],
-            "m_strHudMessageText": "#cd_permanent_pickup_label",
             "m_strSmallIconCssClass": "cooldownReduction"
         },
         "m_sDefaultMaterialGroupName": "blue",

@@ -194,7 +194,7 @@
         "m_strCSSClass": "bulletShield",
         "m_strAbilityImage": "file://{images}/upgrades/mods_armor/bullet_shield.psd",
         "m_bShowInPassiveItemsArea": "true",
-        "m_nAbilityBehaviors": "",
+        "m_AbilityBehaviorsBits": "",
         "m_nAbilityTargetTypes": "",
         "m_RestoreEffectModifier": {
             "_class": "modifier_base",

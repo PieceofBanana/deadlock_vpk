@@ -4,7 +4,7 @@
         "m_strCancelAbilityKey": "in_ability2",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "42.000000",
+                "m_strValue": "30.000000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -209,7 +209,7 @@
         "m_eAbilitySpectatePriority": "CITADELTV_ABILITY_SPECTATE_PRIORITY_MEDIUM",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_UNIT",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_ALWAYS_PREVIEW_RADIUS | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_REQUIRE_ABILITY_BUTTON_TO_CANCEL",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_ALWAYS_PREVIEW_RADIUS | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_USE_INSTANT_CAST_UNIT_TARGET_UI | CITADEL_ABILITY_BEHAVIOR_REQUIRE_ABILITY_BUTTON_TO_CANCEL | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_CONE",
         "m_flTargetingConeAngle": "20",
         "m_strCastAnimGraphParam": "b_LifeSteal",

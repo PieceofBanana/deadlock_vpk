@@ -111,7 +111,7 @@
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
             },
             "CooldownBetweenChargeReduction": {
-                "m_strValue": "55",
+                "m_strValue": "65",
                 "m_strCSSClass": "cooldown",
                 "m_eDisplayType": "ETechCooldownBetweenChargeUses",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_COOLDOWN_BETWEEN_CHARGE_REDUCTION_PERCENTAGE",
@@ -125,7 +125,7 @@
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             },
             "CooldownReductionOnChargedAbilities": {
-                "m_strValue": "25",
+                "m_strValue": "30",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_COOLDOWN_REDUCTION_PERCENTAGE",
                 "m_eApplyFilter": "EApplyFilter_OnlyIfHasCharges",
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"

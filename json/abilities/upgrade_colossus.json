@@ -159,7 +159,7 @@
                 "m_UsageFlags": "APUsageFlag_ModifierConditional"
             },
             "Radius": {
-                "m_strValue": "12m",
+                "m_strValue": "14m",
                 "m_strCSSClass": "distance",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",
@@ -228,7 +228,7 @@
         "m_iUpdateTime": "1718823919",
         "m_strCSSClass": "colossus",
         "m_strAbilityImage": "file://{images}/upgrades/mods_armor/colossus.psd",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_BUSY",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_BUSY",
         "m_strCastDelaySound": "Mods.Armor.TechDefender.PreCast",
         "m_BuffModifier": {
             "_class": "modifier_colossus_active",

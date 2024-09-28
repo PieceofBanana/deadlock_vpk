@@ -211,7 +211,7 @@
         "m_strCSSClass": "smoke",
         "m_strAbilityImage": "file://{images}/upgrades/mods_utility/smoke.psd",
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_SPHERE",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_HERO_FRIENDLY",
         "m_CastCompleteParticle": "particles/abilities/warden/warden_crowd_control_cast.vpcf",
         "m_strCastSound": "Warden.CrowdControl.Cast",

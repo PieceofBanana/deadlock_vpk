@@ -205,7 +205,7 @@
         "m_eAbilitySpectatePriority": "CITADELTV_ABILITY_SPECTATE_PRIORITY_MEDIUM",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_HERO_ENEMY",
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_SELF",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_ALWAYS_PREVIEW_RADIUS",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_ALWAYS_PREVIEW_RADIUS",
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_SPHERE",
         "m_vecAbilityUpgrades": [
             {

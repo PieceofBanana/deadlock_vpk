@@ -88,6 +88,7 @@
 			m_matchKey = "Concept"
 			m_matchExpr = "TLK_CITADEL_ANN_KILL"
 			m_bRequired = true
+			m_predelay.start = 1.000000
 		},
 		
 		{
@@ -96,6 +97,7 @@
 			m_matchKey = "Concept"
 			m_matchExpr = "TLK_CITADEL_ANN_KILL_STREAK"
 			m_bRequired = true
+			m_predelay.start = 1.000000
 		},
 		
 		{
@@ -1432,8 +1434,8 @@
 	{
 		TLK_CITADEL_ANN_BOSS_DAMAGED = -1
 		TLK_CITADEL_ANN_BOSS_DESTROYED = 490
-		TLK_CITADEL_ANN_KILL_STREAK = 380
-		TLK_CITADEL_ANN_KILL = 380
+		TLK_CITADEL_ANN_KILL_STREAK = 382
+		TLK_CITADEL_ANN_KILL = 381
 		TLK_CITADEL_ANN_PICKUP_ITEM = 432
 		TLK_CITADEL_ANN_GUIDED_BOT_MATCH = 2147483647
 		TLK_CITADEL_ANN_DEFEAT = 510

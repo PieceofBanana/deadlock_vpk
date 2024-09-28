@@ -252,7 +252,7 @@
             "m_flBulletGravityScale": "0.200000",
             "m_eAttachmentSourceType": "EAttachmentSource_Custom",
             "m_strCustomAttachmentSource": "palm_R",
-            "m_flBulletRadius": "27.000000",
+            "m_flBulletRadius": "24.500000",
             "m_flBulletRadiusVsWorld": "1.500000",
             "m_mapImpactEffects": {
                 "default": {}
@@ -278,7 +278,7 @@
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_NONE",
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_SPHERE",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DAMAGE_DOESNT_WAKE_FROM_SLEEP | CITADEL_ABILITY_BEHAVIOR_DONT_TRIGGER_SPELL_BLOCK | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DAMAGE_DOESNT_WAKE_FROM_SLEEP | CITADEL_ABILITY_BEHAVIOR_DONT_TRIGGER_SPELL_BLOCK | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
         "m_strAbilityImage": "file://{images}/hud/abilities/haze/haze_sleep_dagger.psd",
         "m_strCastAnimGraphParam": "b_SleepDagger",

@@ -162,7 +162,7 @@
                 }
             },
             "FireRateSlow": {
-                "m_strValue": "30",
+                "m_strValue": "20",
                 "m_strCSSClass": "bullet_damage",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_FIRE_RATE_SLOW",
                 "m_UsageFlags": "APUsageFlag_ModifierConditional"
@@ -222,7 +222,7 @@
         "m_strAbilityChargeReadySound": "",
         "m_skillshotMissParticle": "particles/abilities/skillshot_default_miss_owner.vpcf",
         "m_iUpdateTime": "1701290969",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
         "m_strAbilityImage": "file://{images}/hud/abilities/yamato/yamato_crimson_slash.psd",
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_UNIT",

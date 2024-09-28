@@ -167,7 +167,7 @@
         "m_iUpdateTime": "0",
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_SELF",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
         "m_strAbilityImage": "file://{images}/hud/abilities/nano/nano_roller_bomb.psd",
         "m_strCastSound": "",

@@ -20,7 +20,7 @@
         "m_nModelSkin": "0",
         "m_mapStartingStats": {
             "EMaxMoveSpeed": "6",
-            "ESprintSpeed": "1",
+            "ESprintSpeed": "1.500000",
             "ECrouchSpeed": "4.750000",
             "EMoveAcceleration": "4",
             "ELightMeleeDamage": "63",
@@ -278,19 +278,22 @@
                 "m_unRequiredGold": "16000",
                 "m_mapBonusCurrencies": {
                     "EAbilityPoints": "1"
-                }
+                },
+                "m_bUseStandardUpgrade": "true"
             },
             "22": {
                 "m_unRequiredGold": "18000",
                 "m_mapBonusCurrencies": {
                     "EAbilityPoints": "1"
-                }
+                },
+                "m_bUseStandardUpgrade": "true"
             },
             "23": {
                 "m_unRequiredGold": "20000",
                 "m_mapBonusCurrencies": {
                     "EAbilityPoints": "1"
-                }
+                },
+                "m_bUseStandardUpgrade": "true"
             },
             "24": {
                 "m_unRequiredGold": "22000",
@@ -513,8 +516,8 @@
             ]
         },
         "m_mapStandardLevelUpUpgrades": {
-            "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": "2.100000",
-            "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": "3.400000",
+            "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": "1.650000",
+            "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": "2.671429",
             "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": "41.000000",
             "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": "0.000000",
             "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": "0.000000"

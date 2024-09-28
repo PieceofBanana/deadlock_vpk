@@ -182,7 +182,7 @@
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_NONE",
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_CIRCLE",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_PRESS",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
         "m_strAbilityImage": "file://{images}/hud/abilities/astro/decoy.psd",
         "m_projectileInfo": {

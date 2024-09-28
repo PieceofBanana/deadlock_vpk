@@ -199,7 +199,7 @@
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_NONE",
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_LINE",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
         "m_nAbilityTargetFlags": "CITADEL_UNIT_TARGET_FLAG_PENETRATE_INVULNERABLE",
         "m_eAbilitySpectatePriority": "CITADELTV_ABILITY_SPECTATE_PRIORITY_MEDIUM",

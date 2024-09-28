@@ -22,8 +22,7 @@
                     "m_eModifierValue": "MODIFIER_VALUE_HEALTH_MAX",
                     "m_value": "20"
                 }
-            ],
-            "m_strHudMessageText": "#hp_permanent_pickup_label_lv2"
+            ]
         },
         "m_sDefaultMaterialGroupName": "green",
         "m_Color": [

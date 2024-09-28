@@ -150,11 +150,12 @@
                 "m_UsageFlags": "APUsageFlag_ModifierConditional",
                 "m_strConditionalLocTokenOverride": "#BelowHealthThreshold_conditional"
             },
-            "FervorTechResist": {
+            "FervorBulletResist": {
+                "m_strLocTokenOverride": "BulletResist",
                 "m_strValue": "45",
-                "m_eDisplayType": "ETechArmorDamageReduction",
-                "m_strCSSClass": "tech_armor_up",
-                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST",
+                "m_eDisplayType": "EBulletArmorDamageReduction",
+                "m_strCSSClass": "bullet_armor_up",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
                 "m_UsageFlags": "APUsageFlag_ModifierConditional",
                 "m_strConditionalLocTokenOverride": "#BelowHealthThreshold_conditional"
             },
@@ -247,7 +248,7 @@
                                 "m_strImportantProperty": "FervorFireRate"
                             },
                             {
-                                "m_strImportantProperty": "FervorTechResist"
+                                "m_strImportantProperty": "FervorBulletResist"
                             }
                         ]
                     }
@@ -281,7 +282,7 @@
                     "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
                         "FervorMovespeed",
                         "FervorFireRate",
-                        "FervorTechResist"
+                        "FervorBulletResist"
                     ]
                 }
             }

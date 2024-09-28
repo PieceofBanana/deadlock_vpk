@@ -216,7 +216,7 @@
         "m_iUpdateTime": "1723600790",
         "m_strCSSClass": "magicCarpet",
         "m_strAbilityImage": "file://{images}/hud/abilities/kelvin/ice_path.psd",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_MOVEMENT",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_MOVEMENT",
         "m_bitsInterruptingStates": "MODIFIER_STATE_IMMOBILIZED | MODIFIER_STATE_STUNNED",
         "m_flSummonVisualDuration": "2.000000",
         "m_flBurstSpeedBonus": "200.000000",

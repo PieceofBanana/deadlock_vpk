@@ -204,7 +204,7 @@
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_NONE",
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_LINE",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
         "m_strAbilityImage": "file://{images}/hud/abilities/cadence/cadence_ability_4.psd",
         "m_StageModel": "models/heroes_staging/cadence/cadence_grandfinale_stage_piece.vmdl",

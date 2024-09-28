@@ -218,7 +218,7 @@
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_CONE",
         "m_flTargetingConeAngle": "40",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_PREVENT_BOT_USAGE",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_PREVENT_BOT_USAGE",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_HERO_ENEMY | CITADEL_UNIT_TARGET_TROOPER_ENEMY | CITADEL_UNIT_TARGET_NEUTRAL | CITADEL_UNIT_TARGET_MINION_ENEMY",
         "m_strAbilityImage": "file://{images}/hud/abilities/slork/slork_chomp.psd",
         "m_previewParticle": "particles/abilities/slork/slork_chomp_preview.vpcf",

@@ -239,7 +239,7 @@
         "m_bDisabled": "false",
         "m_strCSSClass": "rocketBooster",
         "m_strAbilityImage": "file://{images}/hud/abilities/lash/lash_death_slam.psd",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_REQUIRE_PREDICTION | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_MOVEMENT",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_REQUIRE_PREDICTION | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_MOVEMENT",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
         "m_LaunchParticle": "particles/upgrades/rocket_boots.vpcf",
         "m_AoEPreviewParticle": "",

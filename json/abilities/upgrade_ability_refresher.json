@@ -111,14 +111,14 @@
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
             },
             "TechResist": {
-                "m_strValue": "16",
+                "m_strValue": "8",
                 "m_eDisplayType": "ETechArmorDamageReduction",
                 "m_strCSSClass": "tech_armor_up",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST",
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             },
             "BulletResist": {
-                "m_strValue": "8",
+                "m_strValue": "16",
                 "m_eDisplayType": "EBulletArmorDamageReduction",
                 "m_strCSSClass": "bullet_armor_up",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
@@ -181,7 +181,7 @@
         "m_iItemTier": "EModTier_4",
         "m_strCSSClass": "abilityRefresher",
         "m_strAbilityImage": "file://{images}/upgrades/mods_tech/refresher_module.psd",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_EXCLUSIVE_USE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_COOLDOWN_PERSISTS_ACROSS_REBUY | CITADEL_ABILITY_BEHAVIOR_CAN_CAST_ON_ZIPLINE",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_EXCLUSIVE_USE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_COOLDOWN_PERSISTS_ACROSS_REBUY | CITADEL_ABILITY_BEHAVIOR_CAN_CAST_ON_ZIPLINE",
         "m_strCastSound": "Mods.Tech.Refresher.Cast",
         "m_RefreshParticle": "particles/items/tech_refresher.vpcf",
         "m_AutoIntrinsicModifiers": [

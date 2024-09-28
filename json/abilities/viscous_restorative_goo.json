@@ -242,7 +242,7 @@
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_UNIT",
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_CONE",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_PRESS",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_EQUAL_UNIT_TARGET_PRIORITY|CITADEL_ABILITY_BEHAVIOR_ALLOW_SELF_CAST | CITADEL_ABILITY_BEHAVIOR_CAN_HEAL_PLAYERS | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_EQUAL_UNIT_TARGET_PRIORITY | CITADEL_ABILITY_BEHAVIOR_ALLOW_SELF_CAST | CITADEL_ABILITY_BEHAVIOR_CAN_HEAL_PLAYERS | CITADEL_ABILITY_BEHAVIOR_USE_INSTANT_CAST_UNIT_TARGET_UI | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_HERO_FRIENDLY",
         "m_strAbilityImage": "file://{images}/hud/abilities/viscous/viscous_restorative_goo.psd",
         "m_flTargetingConeAngle": "60.000000",
@@ -269,6 +269,10 @@
                     {
                         "m_strPropertyName": "AbilityCooldown",
                         "m_strBonus": "-21.000000"
+                    },
+                    {
+                        "m_strPropertyName": "PurgeDebuffs",
+                        "m_strBonus": "1"
                     }
                 ]
             },

@@ -153,24 +153,6 @@
             "ZipAcc": {
                 "m_strValue": "1000"
             },
-            "ZipMasteryAccelerationWaitTime": {
-                "m_strValue": "2"
-            },
-            "ZipMasteryExtraAcc": {
-                "m_strValue": "150"
-            },
-            "ZipMasteryDamageCooldown": {
-                "m_strValue": "3",
-                "m_strCSSClass": "cooldown",
-                "m_subclassScaleFunction": {
-                    "_class": "scale_function_single_stat",
-                    "_my_subclass_name": "ZipMasteryDamageCooldown_scale_function",
-                    "m_eSpecificStatScaleType": "ETechCooldown"
-                }
-            },
-            "ZipMasteryExtraSpeedBonus": {
-                "m_strValue": "125"
-            },
             "LatchSpeed": {
                 "m_strValue": "1500"
             },
@@ -241,7 +223,7 @@
         "m_iMaxLevel": "1",
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_SELF",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_ON_BUTTON_IS_DOWN",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_DONT_BREAK_INVISIBILITY | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_NON_COMBAT | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_DONT_BREAK_INVISIBILITY | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_NON_COMBAT | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
         "m_bitsInterruptingStates": "MODIFIER_STATE_IMMOBILIZED | MODIFIER_STATE_STUNNED | MODIFIER_STATE_IS_ASLEEP",
         "m_strZipLineStartSound": "Ability.ZipLine.Start",
         "m_ZipLinePreviewParticle": "particles/environment/zip_line_path_preview.vpcf",

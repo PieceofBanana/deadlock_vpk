@@ -248,7 +248,7 @@
                 "m_eAbilitySectionType": "EArea_Active"
             }
         ],
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_DEPLOY_OBJECT",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_DEPLOY_OBJECT",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
         "m_projectileInfo": {
             "m_nBehaviors": "PBF_DetonateOnHitWorld",

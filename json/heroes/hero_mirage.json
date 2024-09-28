@@ -3,7 +3,7 @@
         "_class": "CitadelHeroData_t",
         "m_bPlayerSelectable": "true",
         "m_bDisabled": "false",
-        "m_bInDevelopment": "true",
+        "m_bInDevelopment": "false",
         "m_bNeedsTesting": "false",
         "m_bAssignedPlayersOnly": "false",
         "m_bBotSelectable": "false",
@@ -57,7 +57,7 @@
             "ESlot_Signature_1": "mirage_tornado",
             "ESlot_Signature_2": "mirage_fire_beetles",
             "ESlot_Signature_3": "mirage_sand_phantom",
-            "ESlot_Signature_4": "mirage_djinn_bomb"
+            "ESlot_Signature_4": "mirage_teleport"
         },
         "m_mapItemSlotInfo": {
             "EItemSlotType_WeaponMod": {
@@ -278,19 +278,22 @@
                 "m_unRequiredGold": "16000",
                 "m_mapBonusCurrencies": {
                     "EAbilityPoints": "1"
-                }
+                },
+                "m_bUseStandardUpgrade": "true"
             },
             "22": {
                 "m_unRequiredGold": "18000",
                 "m_mapBonusCurrencies": {
                     "EAbilityPoints": "1"
-                }
+                },
+                "m_bUseStandardUpgrade": "true"
             },
             "23": {
                 "m_unRequiredGold": "20000",
                 "m_mapBonusCurrencies": {
                     "EAbilityPoints": "1"
-                }
+                },
+                "m_bUseStandardUpgrade": "true"
             },
             "24": {
                 "m_unRequiredGold": "22000",
@@ -354,10 +357,10 @@
             }
         },
         "m_hFootstepSounds": "sweetener_default",
-        "m_strFootstepSoundEventDefault": "Mirage.Footstep",
+        "m_strFootstepSoundEventDefault": "Mirage.Footstep.Multi",
         "m_flStealthSpeedMetersPerSecond": "4",
         "m_flFootstepSoundTravelDistanceMeters": "20",
-        "m_flStepSoundTime": "0.350000",
+        "m_flStepSoundTime": "0.300000",
         "m_vecAnimGraphDefaultValueOverrides": [
             {
                 "m_strParamName": "e_SWITCH_4wayRoll_ON/OFF",
@@ -513,8 +516,8 @@
             ]
         },
         "m_mapStandardLevelUpUpgrades": {
-            "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": "0.400000",
-            "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": "3.400000",
+            "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": "1.000000",
+            "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": "2.671429",
             "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": "41.000000",
             "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": "0.000000",
             "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": "0.000000"
@@ -579,7 +582,7 @@
         "m_strMinimapImage": "file://{images}/heroes/mirage_mm.psd",
         "m_strTopBarImage": "file://{images}/hud/hero_portraits/mirage_hud.psd",
         "m_strUIAnimGraph": "models/heroes_staging/mirage/ui_shop_mirage_gen_man.vanmgrph",
-        "m_strDeathSound": "Player.DeathFemale",
+        "m_strDeathSound": "Mirage.Death",
         "m_hGameSoundEventScript": "soundevents/hero/mirage.vsndevts",
         "m_hGeneratedVOEventScript": "soundevents/vo/generated_vo_hero_mirage.vsndevts",
         "m_strRosterSelectedSound": "Mirage.VO.HeroPick",
@@ -587,19 +590,24 @@
         "m_strUIPortraitMap": "maps/ui/hero_prefabs/mirage.vmap",
         "m_strTopBarVertical": "file://{images}/heroes/mirage_vertical.psd",
         "m_RecommendedUpgrades": [
-            "upgrade_medic_bullets",
-            "upgrade_high_velocity_mag",
+            "upgrade_headshot_booster",
+            "upgrade_hollow_point_rounds",
             "upgrade_endurance",
-            "upgrade_improved_spirit",
-            "upgrade_vampire",
-            "upgrade_fleetfoot_boots",
-            "upgrade_berserker",
-            "upgrade_arcane_extension",
-            "upgrade_magic_tempo",
-            "upgrade_suppressor",
+            "upgrade_resilience",
+            "upgrade_magic_burst",
             "upgrade_magic_shield",
+            "upgrade_improved_spirit",
+            "upgrade_fleetfoot_boots",
+            "upgrade_tech_defense_shredders",
+            "upgrade_tech_armor",
+            "upgrade_arcane_extension",
+            "upgrade_soaring_spirit",
+            "upgrade_tech_purge",
+            "upgrade_magic_shock",
+            "upgrade_suppressor",
             "upgrade_magic_slow",
-            "upgrade_surging_power"
+            "upgrade_tech_overflow",
+            "upgrade_mega_spirit"
         ],
         "m_strUIShopAnimGraph": "models/heroes_staging/mirage/ui_shop_mirage_gen_man.vanmgrph",
         "m_strUIShoppingMap": "maps/ui/hero_shop/mirage_shop.vmap"

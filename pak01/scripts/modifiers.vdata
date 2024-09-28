@@ -24,6 +24,7 @@
 		m_eHudDisplayLocation = "DISPLAY_HUD_CENTER"
 		m_strSmallIconCssClass = "stunned"
 		m_bKeepMaximumDurationOnRefresh = true
+		m_flGravityScale = 2.000000
 		m_cameraSequenceCreated = 
 		{
 			m_vecDistanceOperations = 
@@ -512,5 +513,10 @@
 		m_bIsHidden = true
 		m_nAttributes = "MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED | MODIFIER_ATTRIBUTE_MULTIPLE"
 		m_flEnableStateTime = 0.150000
+	}
+	modifier_citadel_cheater_curse = 
+	{
+		_class = "modifier_citadel_cheater_curse"
+		m_CursedModel = resource_name:"models/abilities/pocket_frog_small.vmdl"
 	}
 }

@@ -155,7 +155,7 @@
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             },
             "BonusHealth": {
-                "m_strValue": "75",
+                "m_strValue": "50",
                 "m_strCSSClass": "health",
                 "m_eDisplayType": "EMaxHealth",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_HEALTH_MAX",
@@ -219,7 +219,7 @@
         "m_iUpdateTime": "1711502928",
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_CONE",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_HERO_FRIENDLY",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_ALLOW_SELF_CAST",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_ALLOW_SELF_CAST | CITADEL_ABILITY_BEHAVIOR_USE_INSTANT_CAST_UNIT_TARGET_UI | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
         "m_flTargetingConeAngle": "45",
         "m_strCSSClass": "savior",
         "m_strAbilityImage": "file://{images}/upgrades/mods_armor/savior.psd",

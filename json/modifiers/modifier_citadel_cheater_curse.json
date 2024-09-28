@@ -1,0 +1,6 @@
+{
+    "modifier_citadel_cheater_curse": {
+        "_class": "modifier_citadel_cheater_curse",
+        "m_CursedModel": "models/abilities/pocket_frog_small.vmdl"
+    }
+}

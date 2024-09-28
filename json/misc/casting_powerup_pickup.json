@@ -28,7 +28,6 @@
                 }
             ],
             "m_sLocalizationName": "casting_powerup_pickup",
-            "m_strHudMessageText": "#casting_powerup_pickup",
             "m_vecAlwaysShowInStatModifierUI": [
                 "MODIFIER_VALUE_TECH_POWER",
                 "MODIFIER_VALUE_COOLDOWN_REDUCTION_PERCENTAGE"

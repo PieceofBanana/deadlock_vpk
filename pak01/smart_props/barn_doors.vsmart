@@ -1,0 +1,340 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vrfunknown:version{4dddb66e-c6ed-4bd0-a4ef-afb45a02acc2} -->
+{
+	generic_data_type = "CSmartPropRoot"
+	_editor = 
+	{
+		next_element_id = 16
+	}
+	m_Variables = 
+	[
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_nElementID = 14
+			m_VariableName = "fOffset"
+			m_bExposeAsParameter = true
+			m_DisplayName = "Door Offset"
+			m_flParamaterMinValue = -100.000000
+			m_flParamaterMaxValue = 100.000000
+			m_DefaultValue = 0.000000
+		},
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_nElementID = 9
+			m_VariableName = "fDoor_a"
+			m_bExposeAsParameter = true
+			m_DisplayName = "Right Door Offset"
+			m_flParamaterMaxValue = 200.000000
+			m_DefaultValue = 0.000000
+		},
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_nElementID = 10
+			m_VariableName = "fDoor_b"
+			m_bExposeAsParameter = true
+			m_DisplayName = "Left Door Offset"
+			m_flParamaterMaxValue = 200.000000
+			m_DefaultValue = 0.000000
+		},
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_nElementID = 15
+			m_VariableName = "fRailLength"
+			m_DefaultValue = 378.000000
+		},
+	]
+	m_Children = 
+	[
+		
+		{
+			_class = "CSmartPropElement_Group"
+			m_nElementID = 13
+			m_Modifiers = 
+			[
+				
+				{
+					_class = "CSmartPropOperation_Translate"
+					m_vPosition = 
+					{
+						m_Components = 
+						[
+							0.000000,
+							{
+								m_SourceName = "fOffset"
+							},
+							-204.500000,
+						]
+					}
+					m_bEnabled = true
+				},
+			]
+			m_Children = 
+			[
+				
+				{
+					_class = "CSmartPropElement_Group"
+					m_nElementID = 11
+					_editor = 
+					{
+						folder_name = ""
+					}
+					m_Modifiers = 
+					[
+						
+						{
+							_class = "CSmartPropOperation_Translate"
+							m_vPosition = 
+							{
+								m_Components = 
+								[
+									0.000000,
+									{
+										m_SourceName = "fOffset"
+									},
+									0.000000,
+								]
+							}
+							m_bEnabled = false
+						},
+					]
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_Group"
+							m_nElementID = 4
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_sLabel = "Right"
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									{
+										m_Components = 
+										[
+											0.000000,
+											{
+												m_Expression = "min( fDoor_a, fRailLength / 2.0 - 89 - fOffset  )"
+											},
+											0.000000,
+										]
+									}
+									m_bEnabled = true
+								},
+							]
+							m_Children = 
+							[
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 1
+									m_sModelName = resource_name:"models/architecture/arch_garage_indus/barn_door_a.vmdl"
+								},
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 2
+									m_sModelName = resource_name:"models/architecture/arch_garage_indus/barn_door_a_wheel.vmdl"
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												-2.000000,
+												5.500000,
+												216.000000,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 3
+									m_sModelName = resource_name:"models/architecture/arch_garage_indus/barn_door_a_wheel.vmdl"
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												-2.000000,
+												91.000000,
+												216.000000,
+											]
+										},
+									]
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Group"
+							m_nElementID = 5
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_sLabel = "Left"
+							m_bEnabled = true
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									{
+										m_Components = 
+										[
+											0.000000,
+											{
+												m_Expression = "min( fDoor_b, fRailLength / 2.0 - 89 + fOffset  ) * -1.0"
+											},
+											0.000000,
+										]
+									}
+									m_bEnabled = true
+								},
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									[
+										0.000000,
+										-98.000000,
+										0.000000,
+									]
+								},
+							]
+							m_Children = 
+							[
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 6
+									m_sModelName = resource_name:"models/architecture/arch_garage_indus/barn_door_a.vmdl"
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Rotate"
+											m_vRotation = 
+											[
+												0.000000,
+												180.000000,
+												0.000000,
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												6.600000,
+												-96.000000,
+												0.000000,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 7
+									m_sModelName = resource_name:"models/architecture/arch_garage_indus/barn_door_a_wheel.vmdl"
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												-2.000000,
+												5.500000,
+												216.000000,
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 8
+									m_sModelName = resource_name:"models/architecture/arch_garage_indus/barn_door_a_wheel.vmdl"
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											[
+												-2.000000,
+												91.000000,
+												216.000000,
+											]
+										},
+									]
+								},
+							]
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			_class = "CSmartPropElement_Model"
+			m_nElementID = 12
+			m_sModelName = resource_name:"models/architecture/arch_garage_indus/barn_door_rail.vmdl"
+			_editor = 
+			{
+				folder_name = ""
+			}
+			m_Modifiers = 
+			[
+				
+				{
+					_class = "CSmartPropOperation_Translate"
+					m_vPosition = 
+					[
+						-9.600000,
+						-7.000000,
+						204.500000,
+					]
+				},
+				
+				{
+					_class = "CSmartPropOperation_Rotate"
+					m_vRotation = 
+					[
+						180.000000,
+						0.000000,
+						0.000000,
+					]
+				},
+				
+				{
+					_class = "CSmartPropOperation_Translate"
+					m_vPosition = 
+					[
+						0.000000,
+						0.000000,
+						204.500000,
+					]
+					m_bEnabled = true
+				},
+			]
+		},
+	]
+}

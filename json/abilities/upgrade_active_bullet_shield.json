@@ -194,7 +194,7 @@
         "m_strCSSClass": "bulletShield",
         "m_strAbilityImage": "file://{images}/upgrades/mods_armor/bullet_shield.psd",
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_SPHERE",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_REQUIRE_PREDICTION",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_REQUIRE_PREDICTION",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_HERO_FRIENDLY | CITADEL_UNIT_TARGET_MINION_FRIENDLY",
         "m_strCastSound": "Mods.ArmorAoEBulletArmorDamageReduction.Cast",
         "m_TempShieldModifier": {

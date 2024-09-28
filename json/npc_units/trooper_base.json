@@ -140,7 +140,7 @@
         "m_flSightRangeNPCs": "1600.000000",
         "m_hFootstepSounds": "trooper",
         "m_flTrooperDamageResistPct": "25.000000",
-        "m_flT1BossDamageResistPct": "35.000000",
+        "m_flT1BossDamageResistPct": "28.000000",
         "m_flT2BossDamageResistPct": "20.000000",
         "m_flShieldDamageResistPct": "80.000000",
         "m_flNearDeathDuration": "1.000000",

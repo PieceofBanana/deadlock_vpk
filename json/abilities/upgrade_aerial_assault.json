@@ -230,7 +230,7 @@
         "m_bDisabled": "true",
         "m_strCSSClass": "springyBoots",
         "m_strAbilityImage": "file://{images}/upgrades/mods_utility/springy_boots.psd",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
         "m_strCastSound": "Mods.Armor.RocketBoots.Cast",
         "m_LaunchParticle": "particles/upgrades/rocket_boots.vpcf",

@@ -213,7 +213,7 @@
         "m_skillshotMissParticle": "particles/abilities/skillshot_default_miss_owner.vpcf",
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_NONE",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
         "m_strAbilityImage": "file://{images}/hud/abilities/astro/shotgun.psd",
         "m_iUpdateTime": "1647302636",
         "m_vecAbilityUpgrades": [

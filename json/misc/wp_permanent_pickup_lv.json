@@ -22,8 +22,7 @@
                     "m_eModifierValue": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
                     "m_value": "4"
                 }
-            ],
-            "m_strHudMessageText": "#wp_permanent_pickup_label_lv2"
+            ]
         },
         "m_sDefaultMaterialGroupName": "orange",
         "m_Color": [

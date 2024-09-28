@@ -158,6 +158,6 @@
         "m_bStartTrained": "true",
         "m_iMaxLevel": "1",
         "_not_pickable": "2",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE"
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE"
     }
 }

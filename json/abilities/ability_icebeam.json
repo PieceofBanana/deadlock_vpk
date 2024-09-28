@@ -148,7 +148,7 @@
                 "m_strValue": "30"
             },
             "MaxSlowPercent": {
-                "m_strValue": "70",
+                "m_strValue": "50",
                 "m_strCSSClass": "slow",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
                 "m_UsageFlags": "APUsageFlag_ModifierConditional"
@@ -252,7 +252,7 @@
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_NONE",
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_LINE",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED|CITADEL_ABILITY_BEHAVIOR_NO_TARGET|CITADEL_ABILITY_BEHAVIOR_DONT_AIM_FACING_ENEMY",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED|CITADEL_ABILITY_BEHAVIOR_NO_TARGET|CITADEL_ABILITY_BEHAVIOR_DONT_AIM_FACING_ENEMY",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY | CITADEL_UNIT_TARGET_GOLD_ORBS",
         "m_strAbilityImage": "file://{images}/hud/abilities/kelvin/ice_beam.psd",
         "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/kelvin_ice_beam.webm",

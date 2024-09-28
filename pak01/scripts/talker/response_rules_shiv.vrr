@@ -140,16 +140,6 @@
 				
 				{
 					m_type = "SPEAK"
-					m_value = "shiv_use_power1_06_ability_3d"
-					m_params = 
-					{
-						m_respeakdelay.start = 0.000000
-						m_predelay.start = 0.100000
-					}
-				},
-				
-				{
-					m_type = "SPEAK"
 					m_value = "shiv_use_power1_07_ability_3d"
 					m_params = 
 					{

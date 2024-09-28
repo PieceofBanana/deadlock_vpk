@@ -279,19 +279,22 @@
                 "m_unRequiredGold": "16000",
                 "m_mapBonusCurrencies": {
                     "EAbilityPoints": "1"
-                }
+                },
+                "m_bUseStandardUpgrade": "true"
             },
             "22": {
                 "m_unRequiredGold": "18000",
                 "m_mapBonusCurrencies": {
                     "EAbilityPoints": "1"
-                }
+                },
+                "m_bUseStandardUpgrade": "true"
             },
             "23": {
                 "m_unRequiredGold": "20000",
                 "m_mapBonusCurrencies": {
                     "EAbilityPoints": "1"
-                }
+                },
+                "m_bUseStandardUpgrade": "true"
             },
             "24": {
                 "m_unRequiredGold": "22000",
@@ -514,8 +517,8 @@
             ]
         },
         "m_mapStandardLevelUpUpgrades": {
-            "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": "1.000000",
-            "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": "3.400000",
+            "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": "0.785714",
+            "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": "2.671429",
             "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": "20.000000",
             "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": "0.000000",
             "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": "0.000000"

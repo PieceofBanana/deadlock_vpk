@@ -266,6 +266,7 @@
             "m_strLowAmmoSound": "Player.WpnLowAmmo.Shared",
             "m_bBulletShouldUseVerlet": "true",
             "m_nLowAmmoIndicatorThreshold": "4",
+            "m_flBulletDamage": "12.000000",
             "m_AimingShootSpreadPenalty": [
                 "0.000000",
                 "0.500000"
@@ -277,7 +278,6 @@
             "m_strBulletImpactSound": "Viscous.Wpn.Impact",
             "m_vecScatterOffsets": [],
             "m_flPelletScatterSpreadFactor": "1.000000",
-            "m_flBulletDamage": "13.000000",
             "m_flPelletScatterFactor": "1.000000",
             "m_flBulletRadiusVsWorld": "4.000000",
             "m_flExplosionDamageScaleAtMaxRadius": "0.300000"
@@ -288,7 +288,7 @@
         "m_bStartTrained": "true",
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_SELF",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_ON_BUTTON_IS_DOWN",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_IS_PRIMARY_WEAPON | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK | CITADEL_ABILITY_BEHAVIOR_DISARMABLE | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_WEAPON_TOGGLE",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_IS_PRIMARY_WEAPON | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK | CITADEL_ABILITY_BEHAVIOR_DISARMABLE | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_WEAPON_TOGGLE",
         "m_bitsInterruptingStates": "MODIFIER_STATE_STUNNED | MODIFIER_STATE_IS_ASLEEP",
         "m_eAbilityType": "EAbilityType_Weapon",
         "m_strAbilityImage": "file://{images}/hud/abilities/weapon_damage.psd",

@@ -208,7 +208,7 @@
         "m_skillshotMissParticle": "particles/abilities/skillshot_default_miss_owner.vpcf",
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_SELF",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_PASSIVE",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
         "m_strAbilityImage": "file://{images}/hud/abilities/tokamak/tokamak_heat_sinks.psd",
         "m_vecAbilityUpgrades": [
             {

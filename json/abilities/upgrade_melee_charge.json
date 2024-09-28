@@ -4,7 +4,7 @@
         "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "8.500000",
+                "m_strValue": "10",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -201,6 +201,7 @@
         "m_iUpdateTime": "1718823919",
         "m_strCSSClass": "meleeCharge",
         "m_strAbilityImage": "file://{images}/upgrades/mods_weapon/melee_charge.psd",
+        "m_bShowInPassiveItemsArea": "true",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_HERO_ENEMY | CITADEL_UNIT_TARGET_TROOPER_ENEMY | CITADEL_UNIT_TARGET_MINION_ENEMY | CITADEL_UNIT_TARGET_NEUTRAL",
         "m_vecTooltipSectionInfo": [
             {
@@ -254,6 +255,12 @@
                     "_class": "modifier_base",
                     "_my_subclass_name": "reload_visual",
                     "m_strHudMessageText": "#Reloaded",
+                    "m_bIsHidden": "true"
+                },
+                "m_AmmoAddedVisualModifier": {
+                    "_class": "modifier_base",
+                    "_my_subclass_name": "ammoadd_visual",
+                    "m_strHudMessageText": "#BonusAmmo",
                     "m_bIsHidden": "true"
                 }
             }

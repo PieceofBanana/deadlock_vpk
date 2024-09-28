@@ -189,7 +189,7 @@
         "m_iItemTier": "EModTier_1",
         "m_strCSSClass": "sprintBooster",
         "m_strAbilityImage": "file://{images}/upgrades/mods_utility/sprint_booster.psd",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_REQUIRE_PREDICTION",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_REQUIRE_PREDICTION",
         "m_vecTooltipSectionInfo": [
             {
                 "m_eAbilitySectionType": "EArea_Innate",

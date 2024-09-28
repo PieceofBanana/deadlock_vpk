@@ -27,7 +27,7 @@
                 "m_strLocTokenOverride": "WitheringWhipDisarmDuration"
             },
             "AbilityCastRange": {
-                "m_strValue": "24m",
+                "m_strValue": "30m",
                 "m_eDisplayUnits": "EDisplayUnit_Meters",
                 "m_strCSSClass": "range",
                 "m_bCanSetTokenOverride": "true",
@@ -112,7 +112,7 @@
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
             },
             "FireRateSlow": {
-                "m_strValue": "40",
+                "m_strValue": "45",
                 "m_strCSSClass": "fireRate",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_FIRE_RATE_SLOW",
                 "m_UsageFlags": "APUsageFlag_ModifierConditional"
@@ -123,16 +123,17 @@
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST_REDUCTION",
                 "m_UsageFlags": "APUsageFlag_ModifierConditional"
             },
-            "BonusFireRate": {
-                "m_strValue": "8",
-                "m_eDisplayType": "EFireRate",
-                "m_eProvidedPropertyType": "MODIFIER_VALUE_FIRE_RATE",
-                "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
-            },
             "SpiritPower": {
-                "m_strValue": "4",
+                "m_strValue": "6",
                 "m_eDisplayType": "ETechPower",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_POWER",
+                "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
+            },
+            "BonusSprintSpeed": {
+                "m_strValue": "1m",
+                "m_strCSSClass": "move_speed",
+                "m_eDisplayType": "ESprintSpeed",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_SPRINT_SPEED_BONUS",
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             },
             "BonusHealth": {
@@ -198,7 +199,7 @@
         "m_eItemSlotType": "EItemSlotType_Tech",
         "m_iItemTier": "EModTier_2",
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_CONE",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE_PASS_THROUGH_WORLD",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE_PASS_THROUGH_WORLD | CITADEL_ABILITY_BEHAVIOR_USE_INSTANT_CAST_UNIT_TARGET_UI | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_HERO_ENEMY",
         "m_strCSSClass": "slowingTech",
         "m_strAbilityImage": "file://{images}/upgrades/mods_tech/disarm.psd",
@@ -220,9 +221,9 @@
                 "m_vecSectionAttributes": [
                     {
                         "m_vecAbilityProperties": [
-                            "BonusFireRate",
                             "SpiritPower",
-                            "BonusHealth"
+                            "BonusHealth",
+                            "BonusSprintSpeed"
                         ]
                     }
                 ]
@@ -270,9 +271,9 @@
                 "_my_subclass_name": "modifier_intrinsic_base",
                 "_class": "modifier_intrinsic_base",
                 "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
-                    "BonusFireRate",
                     "SpiritPower",
-                    "BonusHealth"
+                    "BonusHealth",
+                    "BonusSprintSpeed"
                 ]
             }
         ],

@@ -5119,26 +5119,51 @@
 								{
 									m_type = "SPEAK"
 									m_value = "patron_male_enemy_team_wipe_01_announcer"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "patron_male_enemy_team_wipe_02_announcer"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "patron_male_enemy_team_wipe_03_announcer"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "patron_male_enemy_team_wipe_04_announcer"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "patron_male_enemy_team_wipe_05_announcer"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -5160,26 +5185,51 @@
 								{
 									m_type = "SPEAK"
 									m_value = "patron_female_enemy_team_wipe_01_announcer"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "patron_female_enemy_team_wipe_02_announcer"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "patron_female_enemy_team_wipe_03_announcer"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "patron_female_enemy_team_wipe_04_announcer"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "patron_female_enemy_team_wipe_05_announcer"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -5222,26 +5272,51 @@
 												{
 													m_type = "SPEAK"
 													m_value = "patron_male_killing_streak_generic_low_01_announcer"
+													m_params = 
+													{
+														m_respeakdelay.start = 0.000000
+														m_predelay.start = 1.000000
+													}
 												},
 												
 												{
 													m_type = "SPEAK"
 													m_value = "patron_male_killing_streak_generic_low_02_announcer"
+													m_params = 
+													{
+														m_respeakdelay.start = 0.000000
+														m_predelay.start = 1.000000
+													}
 												},
 												
 												{
 													m_type = "SPEAK"
 													m_value = "patron_male_killing_streak_generic_low_03_announcer"
+													m_params = 
+													{
+														m_respeakdelay.start = 0.000000
+														m_predelay.start = 1.000000
+													}
 												},
 												
 												{
 													m_type = "SPEAK"
 													m_value = "patron_male_killing_streak_generic_low_04_announcer"
+													m_params = 
+													{
+														m_respeakdelay.start = 0.000000
+														m_predelay.start = 1.000000
+													}
 												},
 												
 												{
 													m_type = "SPEAK"
 													m_value = "patron_male_killing_streak_generic_low_05_announcer"
+													m_params = 
+													{
+														m_respeakdelay.start = 0.000000
+														m_predelay.start = 1.000000
+													}
 												},
 											]
 											m_children = 
@@ -5255,6 +5330,11 @@
 														{
 															m_type = "SPEAK"
 															m_value = "patron_male_praise_infernus_announcer"
+															m_params = 
+															{
+																m_respeakdelay.start = 0.000000
+																m_predelay.start = 1.000000
+															}
 														},
 													]
 													m_pEmbeddedRule = 
@@ -5275,6 +5355,11 @@
 														{
 															m_type = "SPEAK"
 															m_value = "patron_male_praise_seven_announcer"
+															m_params = 
+															{
+																m_respeakdelay.start = 0.000000
+																m_predelay.start = 1.000000
+															}
 														},
 													]
 													m_pEmbeddedRule = 
@@ -5295,6 +5380,11 @@
 														{
 															m_type = "SPEAK"
 															m_value = "patron_male_praise_vindicta_announcer"
+															m_params = 
+															{
+																m_respeakdelay.start = 0.000000
+																m_predelay.start = 1.000000
+															}
 														},
 													]
 													m_pEmbeddedRule = 
@@ -5315,6 +5405,11 @@
 														{
 															m_type = "SPEAK"
 															m_value = "patron_male_praise_geist_announcer"
+															m_params = 
+															{
+																m_respeakdelay.start = 0.000000
+																m_predelay.start = 1.000000
+															}
 														},
 													]
 													m_pEmbeddedRule = 
@@ -5335,6 +5430,11 @@
 														{
 															m_type = "SPEAK"
 															m_value = "patron_male_praise_abrams_announcer"
+															m_params = 
+															{
+																m_respeakdelay.start = 0.000000
+																m_predelay.start = 1.000000
+															}
 														},
 													]
 													m_pEmbeddedRule = 
@@ -5355,6 +5455,11 @@
 														{
 															m_type = "SPEAK"
 															m_value = "patron_male_praise_wraith_announcer"
+															m_params = 
+															{
+																m_respeakdelay.start = 0.000000
+																m_predelay.start = 1.000000
+															}
 														},
 													]
 													m_pEmbeddedRule = 
@@ -5375,6 +5480,11 @@
 														{
 															m_type = "SPEAK"
 															m_value = "patron_male_praise_mcginnis_announcer"
+															m_params = 
+															{
+																m_respeakdelay.start = 0.000000
+																m_predelay.start = 1.000000
+															}
 														},
 													]
 													m_pEmbeddedRule = 
@@ -5395,6 +5505,11 @@
 														{
 															m_type = "SPEAK"
 															m_value = "patron_male_praise_paradox_announcer"
+															m_params = 
+															{
+																m_respeakdelay.start = 0.000000
+																m_predelay.start = 1.000000
+															}
 														},
 													]
 													m_pEmbeddedRule = 
@@ -5415,6 +5530,11 @@
 														{
 															m_type = "SPEAK"
 															m_value = "patron_male_praise_dynamo_announcer"
+															m_params = 
+															{
+																m_respeakdelay.start = 0.000000
+																m_predelay.start = 1.000000
+															}
 														},
 													]
 													m_pEmbeddedRule = 
@@ -5435,6 +5555,11 @@
 														{
 															m_type = "SPEAK"
 															m_value = "patron_male_praise_kelvin_announcer"
+															m_params = 
+															{
+																m_respeakdelay.start = 0.000000
+																m_predelay.start = 1.000000
+															}
 														},
 													]
 													m_pEmbeddedRule = 
@@ -5455,6 +5580,11 @@
 														{
 															m_type = "SPEAK"
 															m_value = "patron_male_praise_haze_announcer"
+															m_params = 
+															{
+																m_respeakdelay.start = 0.000000
+																m_predelay.start = 1.000000
+															}
 														},
 													]
 													m_pEmbeddedRule = 
@@ -5475,6 +5605,11 @@
 														{
 															m_type = "SPEAK"
 															m_value = "patron_male_praise_holliday_announcer"
+															m_params = 
+															{
+																m_respeakdelay.start = 0.000000
+																m_predelay.start = 1.000000
+															}
 														},
 													]
 													m_pEmbeddedRule = 
@@ -5495,6 +5630,11 @@
 														{
 															m_type = "SPEAK"
 															m_value = "patron_male_praise_bebop_announcer"
+															m_params = 
+															{
+																m_respeakdelay.start = 0.000000
+																m_predelay.start = 1.000000
+															}
 														},
 													]
 													m_pEmbeddedRule = 
@@ -5515,6 +5655,11 @@
 														{
 															m_type = "SPEAK"
 															m_value = "patron_male_praise_calico_announcer"
+															m_params = 
+															{
+																m_respeakdelay.start = 0.000000
+																m_predelay.start = 1.000000
+															}
 														},
 													]
 													m_pEmbeddedRule = 
@@ -5535,6 +5680,11 @@
 														{
 															m_type = "SPEAK"
 															m_value = "patron_male_praise_orion_announcer"
+															m_params = 
+															{
+																m_respeakdelay.start = 0.000000
+																m_predelay.start = 1.000000
+															}
 														},
 													]
 													m_pEmbeddedRule = 
@@ -5555,6 +5705,11 @@
 														{
 															m_type = "SPEAK"
 															m_value = "patron_male_praise_krill_announcer"
+															m_params = 
+															{
+																m_respeakdelay.start = 0.000000
+																m_predelay.start = 1.000000
+															}
 														},
 													]
 													m_pEmbeddedRule = 
@@ -5575,6 +5730,11 @@
 														{
 															m_type = "SPEAK"
 															m_value = "patron_male_praise_shiv_announcer"
+															m_params = 
+															{
+																m_respeakdelay.start = 0.000000
+																m_predelay.start = 1.000000
+															}
 														},
 													]
 													m_pEmbeddedRule = 
@@ -5595,6 +5755,11 @@
 														{
 															m_type = "SPEAK"
 															m_value = "patron_male_praise_tengu_announcer"
+															m_params = 
+															{
+																m_respeakdelay.start = 0.000000
+																m_predelay.start = 1.000000
+															}
 														},
 													]
 													m_pEmbeddedRule = 
@@ -5615,6 +5780,11 @@
 														{
 															m_type = "SPEAK"
 															m_value = "patron_male_praise_warden_announcer"
+															m_params = 
+															{
+																m_respeakdelay.start = 0.000000
+																m_predelay.start = 1.000000
+															}
 														},
 													]
 													m_pEmbeddedRule = 
@@ -5635,6 +5805,11 @@
 														{
 															m_type = "SPEAK"
 															m_value = "patron_male_praise_yamato_announcer"
+															m_params = 
+															{
+																m_respeakdelay.start = 0.000000
+																m_predelay.start = 1.000000
+															}
 														},
 													]
 													m_pEmbeddedRule = 
@@ -5655,6 +5830,11 @@
 														{
 															m_type = "SPEAK"
 															m_value = "patron_male_praise_lash_announcer"
+															m_params = 
+															{
+																m_respeakdelay.start = 0.000000
+																m_predelay.start = 1.000000
+															}
 														},
 													]
 													m_pEmbeddedRule = 
@@ -5675,6 +5855,11 @@
 														{
 															m_type = "SPEAK"
 															m_value = "patron_male_praise_viscous_announcer"
+															m_params = 
+															{
+																m_respeakdelay.start = 0.000000
+																m_predelay.start = 1.000000
+															}
 														},
 													]
 													m_pEmbeddedRule = 
@@ -5695,6 +5880,11 @@
 														{
 															m_type = "SPEAK"
 															m_value = "patron_male_praise_tokamak_announcer"
+															m_params = 
+															{
+																m_respeakdelay.start = 0.000000
+																m_predelay.start = 1.000000
+															}
 														},
 													]
 													m_pEmbeddedRule = 
@@ -5715,6 +5905,11 @@
 														{
 															m_type = "SPEAK"
 															m_value = "patron_male_praise_wrecker_announcer"
+															m_params = 
+															{
+																m_respeakdelay.start = 0.000000
+																m_predelay.start = 1.000000
+															}
 														},
 													]
 													m_pEmbeddedRule = 
@@ -5735,6 +5930,11 @@
 														{
 															m_type = "SPEAK"
 															m_value = "patron_male_praise_pocket_announcer"
+															m_params = 
+															{
+																m_respeakdelay.start = 0.000000
+																m_predelay.start = 1.000000
+															}
 														},
 													]
 													m_pEmbeddedRule = 
@@ -5755,6 +5955,11 @@
 														{
 															m_type = "SPEAK"
 															m_value = "patron_male_praise_mirage_announcer"
+															m_params = 
+															{
+																m_respeakdelay.start = 0.000000
+																m_predelay.start = 1.000000
+															}
 														},
 													]
 													m_pEmbeddedRule = 
@@ -5786,26 +5991,51 @@
 												{
 													m_type = "SPEAK"
 													m_value = "patron_female_killing_streak_generic_low_01_announcer"
+													m_params = 
+													{
+														m_respeakdelay.start = 0.000000
+														m_predelay.start = 1.000000
+													}
 												},
 												
 												{
 													m_type = "SPEAK"
 													m_value = "patron_female_killing_streak_generic_low_02_announcer"
+													m_params = 
+													{
+														m_respeakdelay.start = 0.000000
+														m_predelay.start = 1.000000
+													}
 												},
 												
 												{
 													m_type = "SPEAK"
 													m_value = "patron_female_killing_streak_generic_low_03_announcer"
+													m_params = 
+													{
+														m_respeakdelay.start = 0.000000
+														m_predelay.start = 1.000000
+													}
 												},
 												
 												{
 													m_type = "SPEAK"
 													m_value = "patron_female_killing_streak_generic_low_04_announcer"
+													m_params = 
+													{
+														m_respeakdelay.start = 0.000000
+														m_predelay.start = 1.000000
+													}
 												},
 												
 												{
 													m_type = "SPEAK"
 													m_value = "patron_female_killing_streak_generic_low_05_announcer"
+													m_params = 
+													{
+														m_respeakdelay.start = 0.000000
+														m_predelay.start = 1.000000
+													}
 												},
 											]
 											m_children = 
@@ -5819,6 +6049,11 @@
 														{
 															m_type = "SPEAK"
 															m_value = "patron_female_praise_infernus_announcer"
+															m_params = 
+															{
+																m_respeakdelay.start = 0.000000
+																m_predelay.start = 1.000000
+															}
 														},
 													]
 													m_pEmbeddedRule = 
@@ -5839,6 +6074,11 @@
 														{
 															m_type = "SPEAK"
 															m_value = "patron_female_praise_seven_announcer"
+															m_params = 
+															{
+																m_respeakdelay.start = 0.000000
+																m_predelay.start = 1.000000
+															}
 														},
 													]
 													m_pEmbeddedRule = 
@@ -5859,6 +6099,11 @@
 														{
 															m_type = "SPEAK"
 															m_value = "patron_female_praise_vindicta_announcer"
+															m_params = 
+															{
+																m_respeakdelay.start = 0.000000
+																m_predelay.start = 1.000000
+															}
 														},
 													]
 													m_pEmbeddedRule = 
@@ -5879,6 +6124,11 @@
 														{
 															m_type = "SPEAK"
 															m_value = "patron_female_praise_geist_announcer"
+															m_params = 
+															{
+																m_respeakdelay.start = 0.000000
+																m_predelay.start = 1.000000
+															}
 														},
 													]
 													m_pEmbeddedRule = 
@@ -5899,6 +6149,11 @@
 														{
 															m_type = "SPEAK"
 															m_value = "patron_female_praise_abrams_announcer"
+															m_params = 
+															{
+																m_respeakdelay.start = 0.000000
+																m_predelay.start = 1.000000
+															}
 														},
 													]
 													m_pEmbeddedRule = 
@@ -5919,6 +6174,11 @@
 														{
 															m_type = "SPEAK"
 															m_value = "patron_female_praise_wraith_announcer"
+															m_params = 
+															{
+																m_respeakdelay.start = 0.000000
+																m_predelay.start = 1.000000
+															}
 														},
 													]
 													m_pEmbeddedRule = 
@@ -5939,6 +6199,11 @@
 														{
 															m_type = "SPEAK"
 															m_value = "patron_female_praise_mcginnis_announcer"
+															m_params = 
+															{
+																m_respeakdelay.start = 0.000000
+																m_predelay.start = 1.000000
+															}
 														},
 													]
 													m_pEmbeddedRule = 
@@ -5959,6 +6224,11 @@
 														{
 															m_type = "SPEAK"
 															m_value = "patron_female_praise_paradox_announcer"
+															m_params = 
+															{
+																m_respeakdelay.start = 0.000000
+																m_predelay.start = 1.000000
+															}
 														},
 													]
 													m_pEmbeddedRule = 
@@ -5979,6 +6249,11 @@
 														{
 															m_type = "SPEAK"
 															m_value = "patron_female_praise_dynamo_announcer"
+															m_params = 
+															{
+																m_respeakdelay.start = 0.000000
+																m_predelay.start = 1.000000
+															}
 														},
 													]
 													m_pEmbeddedRule = 
@@ -5999,6 +6274,11 @@
 														{
 															m_type = "SPEAK"
 															m_value = "patron_female_praise_kelvin_announcer"
+															m_params = 
+															{
+																m_respeakdelay.start = 0.000000
+																m_predelay.start = 1.000000
+															}
 														},
 													]
 													m_pEmbeddedRule = 
@@ -6019,6 +6299,11 @@
 														{
 															m_type = "SPEAK"
 															m_value = "patron_female_praise_haze_announcer"
+															m_params = 
+															{
+																m_respeakdelay.start = 0.000000
+																m_predelay.start = 1.000000
+															}
 														},
 													]
 													m_pEmbeddedRule = 
@@ -6039,6 +6324,11 @@
 														{
 															m_type = "SPEAK"
 															m_value = "patron_female_praise_holliday_announcer"
+															m_params = 
+															{
+																m_respeakdelay.start = 0.000000
+																m_predelay.start = 1.000000
+															}
 														},
 													]
 													m_pEmbeddedRule = 
@@ -6059,6 +6349,11 @@
 														{
 															m_type = "SPEAK"
 															m_value = "patron_female_praise_bebop_announcer"
+															m_params = 
+															{
+																m_respeakdelay.start = 0.000000
+																m_predelay.start = 1.000000
+															}
 														},
 													]
 													m_pEmbeddedRule = 
@@ -6079,6 +6374,11 @@
 														{
 															m_type = "SPEAK"
 															m_value = "patron_female_praise_calico_announcer"
+															m_params = 
+															{
+																m_respeakdelay.start = 0.000000
+																m_predelay.start = 1.000000
+															}
 														},
 													]
 													m_pEmbeddedRule = 
@@ -6099,6 +6399,11 @@
 														{
 															m_type = "SPEAK"
 															m_value = "patron_female_praise_orion_announcer"
+															m_params = 
+															{
+																m_respeakdelay.start = 0.000000
+																m_predelay.start = 1.000000
+															}
 														},
 													]
 													m_pEmbeddedRule = 
@@ -6119,6 +6424,11 @@
 														{
 															m_type = "SPEAK"
 															m_value = "patron_female_praise_krill_announcer"
+															m_params = 
+															{
+																m_respeakdelay.start = 0.000000
+																m_predelay.start = 1.000000
+															}
 														},
 													]
 													m_pEmbeddedRule = 
@@ -6139,6 +6449,11 @@
 														{
 															m_type = "SPEAK"
 															m_value = "patron_female_praise_shiv_announcer"
+															m_params = 
+															{
+																m_respeakdelay.start = 0.000000
+																m_predelay.start = 1.000000
+															}
 														},
 													]
 													m_pEmbeddedRule = 
@@ -6159,6 +6474,11 @@
 														{
 															m_type = "SPEAK"
 															m_value = "patron_female_praise_tengu_announcer"
+															m_params = 
+															{
+																m_respeakdelay.start = 0.000000
+																m_predelay.start = 1.000000
+															}
 														},
 													]
 													m_pEmbeddedRule = 
@@ -6179,6 +6499,11 @@
 														{
 															m_type = "SPEAK"
 															m_value = "patron_female_praise_warden_announcer"
+															m_params = 
+															{
+																m_respeakdelay.start = 0.000000
+																m_predelay.start = 1.000000
+															}
 														},
 													]
 													m_pEmbeddedRule = 
@@ -6199,6 +6524,11 @@
 														{
 															m_type = "SPEAK"
 															m_value = "patron_female_praise_yamato_announcer"
+															m_params = 
+															{
+																m_respeakdelay.start = 0.000000
+																m_predelay.start = 1.000000
+															}
 														},
 													]
 													m_pEmbeddedRule = 
@@ -6219,6 +6549,11 @@
 														{
 															m_type = "SPEAK"
 															m_value = "patron_female_praise_lash_announcer"
+															m_params = 
+															{
+																m_respeakdelay.start = 0.000000
+																m_predelay.start = 1.000000
+															}
 														},
 													]
 													m_pEmbeddedRule = 
@@ -6239,6 +6574,11 @@
 														{
 															m_type = "SPEAK"
 															m_value = "patron_female_praise_viscous_announcer"
+															m_params = 
+															{
+																m_respeakdelay.start = 0.000000
+																m_predelay.start = 1.000000
+															}
 														},
 													]
 													m_pEmbeddedRule = 
@@ -6259,6 +6599,11 @@
 														{
 															m_type = "SPEAK"
 															m_value = "patron_female_praise_tokamak_announcer"
+															m_params = 
+															{
+																m_respeakdelay.start = 0.000000
+																m_predelay.start = 1.000000
+															}
 														},
 													]
 													m_pEmbeddedRule = 
@@ -6279,6 +6624,11 @@
 														{
 															m_type = "SPEAK"
 															m_value = "patron_female_praise_wrecker_announcer"
+															m_params = 
+															{
+																m_respeakdelay.start = 0.000000
+																m_predelay.start = 1.000000
+															}
 														},
 													]
 													m_pEmbeddedRule = 
@@ -6299,6 +6649,11 @@
 														{
 															m_type = "SPEAK"
 															m_value = "patron_female_praise_pocket_announcer"
+															m_params = 
+															{
+																m_respeakdelay.start = 0.000000
+																m_predelay.start = 1.000000
+															}
 														},
 													]
 													m_pEmbeddedRule = 
@@ -6319,6 +6674,11 @@
 														{
 															m_type = "SPEAK"
 															m_value = "patron_female_praise_mirage_announcer"
+															m_params = 
+															{
+																m_respeakdelay.start = 0.000000
+																m_predelay.start = 1.000000
+															}
 														},
 													]
 													m_pEmbeddedRule = 
@@ -6367,6 +6727,7 @@
 													m_value = "patron_male_ally_infernus_killing_streak_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -6391,6 +6752,7 @@
 													m_value = "patron_male_ally_seven_killing_streak_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -6415,6 +6777,7 @@
 													m_value = "patron_male_ally_vindicta_killing_streak_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -6439,6 +6802,7 @@
 													m_value = "patron_male_ally_geist_killing_streak_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -6463,6 +6827,7 @@
 													m_value = "patron_male_ally_abrams_killing_streak_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -6487,6 +6852,7 @@
 													m_value = "patron_male_ally_wraith_killing_streak_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -6511,6 +6877,7 @@
 													m_value = "patron_male_ally_mcginnis_killing_streak_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -6535,6 +6902,7 @@
 													m_value = "patron_male_ally_paradox_killing_streak_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -6559,6 +6927,7 @@
 													m_value = "patron_male_ally_dynamo_killing_streak_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -6583,6 +6952,7 @@
 													m_value = "patron_male_ally_kelvin_killing_streak_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -6607,6 +6977,7 @@
 													m_value = "patron_male_ally_haze_killing_streak_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -6631,6 +7002,7 @@
 													m_value = "patron_male_ally_holliday_killing_streak_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -6655,6 +7027,7 @@
 													m_value = "patron_male_ally_bebop_killing_streak_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -6679,6 +7052,7 @@
 													m_value = "patron_male_ally_calico_killing_streak_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -6703,6 +7077,7 @@
 													m_value = "patron_male_ally_orion_killing_streak_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -6727,6 +7102,7 @@
 													m_value = "patron_male_ally_krill_killing_streak_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -6751,6 +7127,7 @@
 													m_value = "patron_male_ally_shiv_killing_streak_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -6775,6 +7152,7 @@
 													m_value = "patron_male_ally_tengu_killing_streak_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -6799,6 +7177,7 @@
 													m_value = "patron_male_ally_warden_killing_streak_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -6823,6 +7202,7 @@
 													m_value = "patron_male_ally_yamato_killing_streak_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -6847,6 +7227,7 @@
 													m_value = "patron_male_ally_lash_killing_streak_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -6871,6 +7252,7 @@
 													m_value = "patron_male_ally_viscous_killing_streak_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -6895,6 +7277,7 @@
 													m_value = "patron_male_ally_wrecker_killing_streak_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -6919,6 +7302,7 @@
 													m_value = "patron_male_ally_pocket_killing_streak_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -6943,6 +7327,7 @@
 													m_value = "patron_male_ally_mirage_killing_streak_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -6984,6 +7369,7 @@
 													m_value = "patron_male_ally_infernus_killing_streak_02_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -7008,6 +7394,7 @@
 													m_value = "patron_male_ally_seven_killing_streak_02_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -7032,6 +7419,7 @@
 													m_value = "patron_male_ally_vindicta_killing_streak_02_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -7056,6 +7444,7 @@
 													m_value = "patron_male_ally_geist_killing_streak_02_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -7080,6 +7469,7 @@
 													m_value = "patron_male_ally_abrams_killing_streak_02_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -7104,6 +7494,7 @@
 													m_value = "patron_male_ally_wraith_killing_streak_02_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -7128,6 +7519,7 @@
 													m_value = "patron_male_ally_mcginnis_killing_streak_02_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -7152,6 +7544,7 @@
 													m_value = "patron_male_ally_paradox_killing_streak_02_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -7176,6 +7569,7 @@
 													m_value = "patron_male_ally_dynamo_killing_streak_02_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -7200,6 +7594,7 @@
 													m_value = "patron_male_ally_kelvin_killing_streak_02_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -7224,6 +7619,7 @@
 													m_value = "patron_male_ally_haze_killing_streak_02_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -7248,6 +7644,7 @@
 													m_value = "patron_male_ally_holliday_killing_streak_02_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -7272,6 +7669,7 @@
 													m_value = "patron_male_ally_bebop_killing_streak_02_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -7296,6 +7694,7 @@
 													m_value = "patron_male_ally_calico_killing_streak_02_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -7320,6 +7719,7 @@
 													m_value = "patron_male_ally_orion_killing_streak_02_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -7344,6 +7744,7 @@
 													m_value = "patron_male_ally_krill_killing_streak_02_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -7368,6 +7769,7 @@
 													m_value = "patron_male_ally_shiv_killing_streak_02_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -7392,6 +7794,7 @@
 													m_value = "patron_male_ally_tengu_killing_streak_02_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -7416,6 +7819,7 @@
 													m_value = "patron_male_ally_warden_killing_streak_02_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -7440,6 +7844,7 @@
 													m_value = "patron_male_ally_yamato_killing_streak_02_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -7464,6 +7869,7 @@
 													m_value = "patron_male_ally_lash_killing_streak_02_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -7488,6 +7894,7 @@
 													m_value = "patron_male_ally_viscous_killing_streak_02_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -7512,6 +7919,7 @@
 													m_value = "patron_male_ally_wrecker_killing_streak_02_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -7536,6 +7944,7 @@
 													m_value = "patron_male_ally_pocket_killing_streak_02_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -7560,6 +7969,7 @@
 													m_value = "patron_male_ally_mirage_killing_streak_02_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -7601,6 +8011,7 @@
 													m_value = "patron_male_ally_infernus_killing_streak_03_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -7625,6 +8036,7 @@
 													m_value = "patron_male_ally_seven_killing_streak_03_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -7649,6 +8061,7 @@
 													m_value = "patron_male_ally_vindicta_killing_streak_03_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -7673,6 +8086,7 @@
 													m_value = "patron_male_ally_geist_killing_streak_03_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -7697,6 +8111,7 @@
 													m_value = "patron_male_ally_abrams_killing_streak_03_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -7721,6 +8136,7 @@
 													m_value = "patron_male_ally_wraith_killing_streak_03_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -7745,6 +8161,7 @@
 													m_value = "patron_male_ally_mcginnis_killing_streak_03_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -7769,6 +8186,7 @@
 													m_value = "patron_male_ally_paradox_killing_streak_03_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -7793,6 +8211,7 @@
 													m_value = "patron_male_ally_dynamo_killing_streak_03_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -7817,6 +8236,7 @@
 													m_value = "patron_male_ally_kelvin_killing_streak_03_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -7841,6 +8261,7 @@
 													m_value = "patron_male_ally_haze_killing_streak_03_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -7865,6 +8286,7 @@
 													m_value = "patron_male_ally_holliday_killing_streak_03_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -7889,6 +8311,7 @@
 													m_value = "patron_male_ally_bebop_killing_streak_03_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -7913,6 +8336,7 @@
 													m_value = "patron_male_ally_calico_killing_streak_03_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -7937,6 +8361,7 @@
 													m_value = "patron_male_ally_orion_killing_streak_03_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -7961,6 +8386,7 @@
 													m_value = "patron_male_ally_krill_killing_streak_03_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -7985,6 +8411,7 @@
 													m_value = "patron_male_ally_shiv_killing_streak_03_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -8009,6 +8436,7 @@
 													m_value = "patron_male_ally_tengu_killing_streak_03_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -8033,6 +8461,7 @@
 													m_value = "patron_male_ally_warden_killing_streak_03_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -8057,6 +8486,7 @@
 													m_value = "patron_male_ally_yamato_killing_streak_03_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -8081,6 +8511,7 @@
 													m_value = "patron_male_ally_lash_killing_streak_03_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -8105,6 +8536,7 @@
 													m_value = "patron_male_ally_viscous_killing_streak_03_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -8129,6 +8561,7 @@
 													m_value = "patron_male_ally_wrecker_killing_streak_03_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -8153,6 +8586,7 @@
 													m_value = "patron_male_ally_pocket_killing_streak_03_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -8177,6 +8611,7 @@
 													m_value = "patron_male_ally_mirage_killing_streak_03_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -8218,6 +8653,7 @@
 													m_value = "patron_female_ally_infernus_killing_streak_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -8242,6 +8678,7 @@
 													m_value = "patron_female_ally_seven_killing_streak_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -8266,6 +8703,7 @@
 													m_value = "patron_female_ally_vindicta_killing_streak_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -8290,6 +8728,7 @@
 													m_value = "patron_female_ally_geist_killing_streak_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -8314,6 +8753,7 @@
 													m_value = "patron_female_ally_abrams_killing_streak_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -8338,6 +8778,7 @@
 													m_value = "patron_female_ally_wraith_killing_streak_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -8362,6 +8803,7 @@
 													m_value = "patron_female_ally_mcginnis_killing_streak_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -8386,6 +8828,7 @@
 													m_value = "patron_female_ally_paradox_killing_streak_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -8410,6 +8853,7 @@
 													m_value = "patron_female_ally_dynamo_killing_streak_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -8434,6 +8878,7 @@
 													m_value = "patron_female_ally_kelvin_killing_streak_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -8458,6 +8903,7 @@
 													m_value = "patron_female_ally_haze_killing_streak_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -8482,6 +8928,7 @@
 													m_value = "patron_female_ally_holliday_killing_streak_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -8506,6 +8953,7 @@
 													m_value = "patron_female_ally_bebop_killing_streak_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -8530,6 +8978,7 @@
 													m_value = "patron_female_ally_calico_killing_streak_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -8554,6 +9003,7 @@
 													m_value = "patron_female_ally_orion_killing_streak_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -8578,6 +9028,7 @@
 													m_value = "patron_female_ally_krill_killing_streak_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -8602,6 +9053,7 @@
 													m_value = "patron_female_ally_shiv_killing_streak_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -8626,6 +9078,7 @@
 													m_value = "patron_female_ally_warden_killing_streak_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -8650,6 +9103,7 @@
 													m_value = "patron_female_ally_yamato_killing_streak_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -8674,6 +9128,7 @@
 													m_value = "patron_female_ally_lash_killing_streak_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -8698,6 +9153,7 @@
 													m_value = "patron_female_ally_viscous_killing_streak_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -8722,6 +9178,7 @@
 													m_value = "patron_female_ally_wrecker_killing_streak_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -8746,6 +9203,7 @@
 													m_value = "patron_female_ally_pocket_killing_streak_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -8770,6 +9228,7 @@
 													m_value = "patron_female_ally_mirage_killing_streak_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -8811,6 +9270,7 @@
 													m_value = "patron_female_ally_infernus_killing_streak_02_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -8835,6 +9295,7 @@
 													m_value = "patron_female_ally_seven_killing_streak_02_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -8859,6 +9320,7 @@
 													m_value = "patron_female_ally_vindicta_killing_streak_02_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -8883,6 +9345,7 @@
 													m_value = "patron_female_ally_geist_killing_streak_02_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -8907,6 +9370,7 @@
 													m_value = "patron_female_ally_abrams_killing_streak_02_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -8931,6 +9395,7 @@
 													m_value = "patron_female_ally_wraith_killing_streak_02_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -8955,6 +9420,7 @@
 													m_value = "patron_female_ally_mcginnis_killing_streak_02_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -8979,6 +9445,7 @@
 													m_value = "patron_female_ally_paradox_killing_streak_02_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -9003,6 +9470,7 @@
 													m_value = "patron_female_ally_dynamo_killing_streak_02_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -9027,6 +9495,7 @@
 													m_value = "patron_female_ally_kelvin_killing_streak_02_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -9051,6 +9520,7 @@
 													m_value = "patron_female_ally_haze_killing_streak_02_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -9075,6 +9545,7 @@
 													m_value = "patron_female_ally_holliday_killing_streak_02_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -9099,6 +9570,7 @@
 													m_value = "patron_female_ally_bebop_killing_streak_02_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -9123,6 +9595,7 @@
 													m_value = "patron_female_ally_calico_killing_streak_02_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -9147,6 +9620,7 @@
 													m_value = "patron_female_ally_orion_killing_streak_02_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -9171,6 +9645,7 @@
 													m_value = "patron_female_ally_krill_killing_streak_02_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -9195,6 +9670,7 @@
 													m_value = "patron_female_ally_shiv_killing_streak_02_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -9219,6 +9695,7 @@
 													m_value = "patron_female_ally_tengu_killing_streak_02_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -9243,6 +9720,7 @@
 													m_value = "patron_female_ally_warden_killing_streak_02_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -9267,6 +9745,7 @@
 													m_value = "patron_female_ally_yamato_killing_streak_02_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -9291,6 +9770,7 @@
 													m_value = "patron_female_ally_lash_killing_streak_02_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -9315,6 +9795,7 @@
 													m_value = "patron_female_ally_viscous_killing_streak_02_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -9339,6 +9820,7 @@
 													m_value = "patron_female_ally_wrecker_killing_streak_02_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -9363,6 +9845,7 @@
 													m_value = "patron_female_ally_pocket_killing_streak_02_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -9387,6 +9870,7 @@
 													m_value = "patron_female_ally_mirage_killing_streak_02_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -9428,6 +9912,7 @@
 													m_value = "patron_female_ally_infernus_killing_streak_03_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -9452,6 +9937,7 @@
 													m_value = "patron_female_ally_seven_killing_streak_03_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -9476,6 +9962,7 @@
 													m_value = "patron_female_ally_vindicta_killing_streak_03_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -9500,6 +9987,7 @@
 													m_value = "patron_female_ally_geist_killing_streak_03_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -9524,6 +10012,7 @@
 													m_value = "patron_female_ally_abrams_killing_streak_03_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -9548,6 +10037,7 @@
 													m_value = "patron_female_ally_wraith_killing_streak_03_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -9572,6 +10062,7 @@
 													m_value = "patron_female_ally_mcginnis_killing_streak_03_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -9596,6 +10087,7 @@
 													m_value = "patron_female_ally_paradox_killing_streak_03_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -9620,6 +10112,7 @@
 													m_value = "patron_female_ally_dynamo_killing_streak_03_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -9644,6 +10137,7 @@
 													m_value = "patron_female_ally_kelvin_killing_streak_03_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -9668,6 +10162,7 @@
 													m_value = "patron_female_ally_haze_killing_streak_03_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -9692,6 +10187,7 @@
 													m_value = "patron_female_ally_holliday_killing_streak_03_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -9716,6 +10212,7 @@
 													m_value = "patron_female_ally_bebop_killing_streak_03_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -9740,6 +10237,7 @@
 													m_value = "patron_female_ally_calico_killing_streak_03_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -9764,6 +10262,7 @@
 													m_value = "patron_female_ally_orion_killing_streak_03_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -9788,6 +10287,7 @@
 													m_value = "patron_female_ally_krill_killing_streak_03_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -9812,6 +10312,7 @@
 													m_value = "patron_female_ally_shiv_killing_streak_03_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -9836,6 +10337,7 @@
 													m_value = "patron_female_ally_tengu_killing_streak_03_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -9860,6 +10362,7 @@
 													m_value = "patron_female_ally_warden_killing_streak_03_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -9884,6 +10387,7 @@
 													m_value = "patron_female_ally_yamato_killing_streak_03_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -9908,6 +10412,7 @@
 													m_value = "patron_female_ally_lash_killing_streak_03_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -9932,6 +10437,7 @@
 													m_value = "patron_female_ally_viscous_killing_streak_03_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -9956,6 +10462,7 @@
 													m_value = "patron_female_ally_wrecker_killing_streak_03_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -9980,6 +10487,7 @@
 													m_value = "patron_female_ally_pocket_killing_streak_03_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -10004,6 +10512,7 @@
 													m_value = "patron_female_ally_mirage_killing_streak_03_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -10058,6 +10567,7 @@
 													m_value = "patron_male_enemy_infernus_killing_streak_medium_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -10082,6 +10592,7 @@
 													m_value = "patron_male_enemy_seven_killing_streak_medium_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -10106,6 +10617,7 @@
 													m_value = "patron_male_enemy_vindicta_killing_streak_medium_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -10130,6 +10642,7 @@
 													m_value = "patron_male_enemy_geist_killing_streak_medium_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -10154,6 +10667,7 @@
 													m_value = "patron_male_enemy_abrams_killing_streak_medium_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -10178,6 +10692,7 @@
 													m_value = "patron_male_enemy_wraith_killing_streak_medium_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -10202,6 +10717,7 @@
 													m_value = "patron_male_enemy_mcginnis_killing_streak_medium_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -10226,6 +10742,7 @@
 													m_value = "patron_male_enemy_paradox_killing_streak_medium_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -10250,6 +10767,7 @@
 													m_value = "patron_male_enemy_dynamo_killing_streak_medium_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -10274,6 +10792,7 @@
 													m_value = "patron_male_enemy_kelvin_killing_streak_medium_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -10298,6 +10817,7 @@
 													m_value = "patron_male_enemy_haze_killing_streak_medium_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -10322,6 +10842,7 @@
 													m_value = "patron_male_enemy_holliday_killing_streak_medium_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -10346,6 +10867,7 @@
 													m_value = "patron_male_enemy_bebop_killing_streak_medium_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -10370,6 +10892,7 @@
 													m_value = "patron_male_enemy_calico_killing_streak_medium_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -10394,6 +10917,7 @@
 													m_value = "patron_male_enemy_orion_killing_streak_medium_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -10418,6 +10942,7 @@
 													m_value = "patron_male_enemy_krill_killing_streak_medium_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -10442,6 +10967,7 @@
 													m_value = "patron_male_enemy_shiv_killing_streak_medium_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -10466,6 +10992,7 @@
 													m_value = "patron_male_enemy_tengu_killing_streak_medium_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -10490,6 +11017,7 @@
 													m_value = "patron_male_enemy_warden_killing_streak_medium_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -10514,6 +11042,7 @@
 													m_value = "patron_male_enemy_yamato_killing_streak_medium_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -10538,6 +11067,7 @@
 													m_value = "patron_male_enemy_lash_killing_streak_medium_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -10562,6 +11092,7 @@
 													m_value = "patron_male_enemy_viscous_killing_streak_medium_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -10586,6 +11117,7 @@
 													m_value = "patron_male_enemy_wrecker_killing_streak_medium_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -10610,6 +11142,7 @@
 													m_value = "patron_male_enemy_pocket_killing_streak_medium_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -10634,6 +11167,7 @@
 													m_value = "patron_male_enemy_mirage_killing_streak_medium_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -10675,6 +11209,7 @@
 													m_value = "patron_male_enemy_infernus_killing_streak_high_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -10699,6 +11234,7 @@
 													m_value = "patron_male_enemy_seven_killing_streak_high_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -10723,6 +11259,7 @@
 													m_value = "patron_male_enemy_vindicta_killing_streak_high_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -10747,6 +11284,7 @@
 													m_value = "patron_male_enemy_geist_killing_streak_high_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -10771,6 +11309,7 @@
 													m_value = "patron_male_enemy_abrams_killing_streak_high_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -10795,6 +11334,7 @@
 													m_value = "patron_male_enemy_wraith_killing_streak_high_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -10819,6 +11359,7 @@
 													m_value = "patron_male_enemy_mcginnis_killing_streak_high_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -10843,6 +11384,7 @@
 													m_value = "patron_male_enemy_paradox_killing_streak_high_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -10867,6 +11409,7 @@
 													m_value = "patron_male_enemy_dynamo_killing_streak_high_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -10891,6 +11434,7 @@
 													m_value = "patron_male_enemy_kelvin_killing_streak_high_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -10915,6 +11459,7 @@
 													m_value = "patron_male_enemy_haze_killing_streak_high_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -10939,6 +11484,7 @@
 													m_value = "patron_male_enemy_holliday_killing_streak_high_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -10963,6 +11509,7 @@
 													m_value = "patron_male_enemy_bebop_killing_streak_high_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -10987,6 +11534,7 @@
 													m_value = "patron_male_enemy_calico_killing_streak_high_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -11011,6 +11559,7 @@
 													m_value = "patron_male_enemy_orion_killing_streak_high_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -11035,6 +11584,7 @@
 													m_value = "patron_male_enemy_krill_killing_streak_high_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -11059,6 +11609,7 @@
 													m_value = "patron_male_enemy_shiv_killing_streak_high_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -11083,6 +11634,7 @@
 													m_value = "patron_male_enemy_tengu_killing_streak_high_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -11107,6 +11659,7 @@
 													m_value = "patron_male_enemy_warden_killing_streak_high_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -11131,6 +11684,7 @@
 													m_value = "patron_male_enemy_yamato_killing_streak_high_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -11155,6 +11709,7 @@
 													m_value = "patron_male_enemy_lash_killing_streak_high_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -11179,6 +11734,7 @@
 													m_value = "patron_male_enemy_viscous_killing_streak_high_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -11203,6 +11759,7 @@
 													m_value = "patron_male_enemy_wrecker_killing_streak_high_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -11227,6 +11784,7 @@
 													m_value = "patron_male_enemy_pocket_killing_streak_high_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -11251,6 +11809,7 @@
 													m_value = "patron_male_enemy_mirage_killing_streak_high_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -11292,6 +11851,7 @@
 													m_value = "patron_female_enemy_infernus_killing_streak_medium_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -11316,6 +11876,7 @@
 													m_value = "patron_female_enemy_seven_killing_streak_medium_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -11340,6 +11901,7 @@
 													m_value = "patron_female_enemy_vindicta_killing_streak_medium_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -11364,6 +11926,7 @@
 													m_value = "patron_female_enemy_geist_killing_streak_medium_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -11388,6 +11951,7 @@
 													m_value = "patron_female_enemy_abrams_killing_streak_medium_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -11412,6 +11976,7 @@
 													m_value = "patron_female_enemy_wraith_killing_streak_medium_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -11436,6 +12001,7 @@
 													m_value = "patron_female_enemy_mcginnis_killing_streak_medium_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -11460,6 +12026,7 @@
 													m_value = "patron_female_enemy_paradox_killing_streak_medium_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -11484,6 +12051,7 @@
 													m_value = "patron_female_enemy_dynamo_killing_streak_medium_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -11508,6 +12076,7 @@
 													m_value = "patron_female_enemy_kelvin_killing_streak_medium_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -11532,6 +12101,7 @@
 													m_value = "patron_female_enemy_haze_killing_streak_medium_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -11556,6 +12126,7 @@
 													m_value = "patron_female_enemy_holliday_killing_streak_medium_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -11580,6 +12151,7 @@
 													m_value = "patron_female_enemy_bebop_killing_streak_medium_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -11604,6 +12176,7 @@
 													m_value = "patron_female_enemy_calico_killing_streak_medium_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -11628,6 +12201,7 @@
 													m_value = "patron_female_enemy_orion_killing_streak_medium_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -11652,6 +12226,7 @@
 													m_value = "patron_female_enemy_krill_killing_streak_medium_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -11676,6 +12251,7 @@
 													m_value = "patron_female_enemy_shiv_killing_streak_medium_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -11700,6 +12276,7 @@
 													m_value = "patron_female_enemy_tengu_killing_streak_medium_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -11724,6 +12301,7 @@
 													m_value = "patron_female_enemy_warden_killing_streak_medium_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -11748,6 +12326,7 @@
 													m_value = "patron_female_enemy_yamato_killing_streak_medium_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -11772,6 +12351,7 @@
 													m_value = "patron_female_enemy_lash_killing_streak_medium_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -11796,6 +12376,7 @@
 													m_value = "patron_female_enemy_viscous_killing_streak_medium_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -11820,6 +12401,7 @@
 													m_value = "patron_female_enemy_wrecker_killing_streak_medium_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -11844,6 +12426,7 @@
 													m_value = "patron_female_enemy_pocket_killing_streak_medium_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -11868,6 +12451,7 @@
 													m_value = "patron_female_enemy_mirage_killing_streak_medium_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -11909,6 +12493,7 @@
 													m_value = "patron_female_enemy_infernus_killing_streak_high_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -11933,6 +12518,7 @@
 													m_value = "patron_female_enemy_seven_killing_streak_high_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -11957,6 +12543,7 @@
 													m_value = "patron_female_enemy_vindicta_killing_streak_high_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -11981,6 +12568,7 @@
 													m_value = "patron_female_enemy_geist_killing_streak_high_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -12005,6 +12593,7 @@
 													m_value = "patron_female_enemy_abrams_killing_streak_high_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -12029,6 +12618,7 @@
 													m_value = "patron_female_enemy_wraith_killing_streak_high_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -12053,6 +12643,7 @@
 													m_value = "patron_female_enemy_mcginnis_killing_streak_high_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -12077,6 +12668,7 @@
 													m_value = "patron_female_enemy_paradox_killing_streak_high_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -12101,6 +12693,7 @@
 													m_value = "patron_female_enemy_dynamo_killing_streak_high_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -12125,6 +12718,7 @@
 													m_value = "patron_female_enemy_kelvin_killing_streak_high_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -12149,6 +12743,7 @@
 													m_value = "patron_female_enemy_haze_killing_streak_high_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -12173,6 +12768,7 @@
 													m_value = "patron_female_enemy_holliday_killing_streak_high_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -12197,6 +12793,7 @@
 													m_value = "patron_female_enemy_bebop_killing_streak_high_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -12221,6 +12818,7 @@
 													m_value = "patron_female_enemy_calico_killing_streak_high_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -12245,6 +12843,7 @@
 													m_value = "patron_female_enemy_orion_killing_streak_high_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -12269,6 +12868,7 @@
 													m_value = "patron_female_enemy_krill_killing_streak_high_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -12293,6 +12893,7 @@
 													m_value = "patron_female_enemy_shiv_killing_streak_high_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -12317,6 +12918,7 @@
 													m_value = "patron_female_enemy_tengu_killing_streak_high_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -12341,6 +12943,7 @@
 													m_value = "patron_female_enemy_warden_killing_streak_high_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -12365,6 +12968,7 @@
 													m_value = "patron_female_enemy_yamato_killing_streak_high_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -12389,6 +12993,7 @@
 													m_value = "patron_female_enemy_lash_killing_streak_high_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -12413,6 +13018,7 @@
 													m_value = "patron_female_enemy_viscous_killing_streak_high_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -12437,6 +13043,7 @@
 													m_value = "patron_female_enemy_wrecker_killing_streak_high_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -12461,6 +13068,7 @@
 													m_value = "patron_female_enemy_pocket_killing_streak_high_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},
@@ -12485,6 +13093,7 @@
 													m_value = "patron_female_enemy_mirage_killing_streak_high_01_announcer"
 													m_params = 
 													{
+														m_respeakdelay.start = 0.000000
 														m_predelay.start = 3.000000
 													}
 												},

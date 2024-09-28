@@ -204,7 +204,7 @@
             "m_strScreenParticleEffect": ""
         },
         "m_bitsInterruptingStates": "MODIFIER_STATE_STUNNED",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
         "m_vecTooltipSectionInfo": [
             {
                 "m_eAbilitySectionType": "EArea_Active",

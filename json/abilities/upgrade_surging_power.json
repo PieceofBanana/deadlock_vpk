@@ -210,7 +210,7 @@
         "m_strCSSClass": "surgingPower",
         "m_strAbilityImage": "file://{images}/upgrades/mods_weapon/vampiric_burst.psd",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_HERO_FRIENDLY",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_BUSY",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_BUSY",
         "m_flTargetingConeAngle": "45",
         "m_strCastSound": "Mods.Weapon.Surging.Power.Cast",
         "m_ModifierSurgingPower": {

@@ -217,7 +217,8 @@
             {
                 "_class": "modifier_regenerating_tech_shield",
                 "_my_subclass_name": "modifier_regenerating_tech_shield",
-                "m_bIsHidden": "true"
+                "m_bIsHidden": "true",
+                "m_strParticleStatusEffect": ""
             },
             {
                 "_class": "modifier_citadel_magic_shield_spirit_buff",

@@ -196,7 +196,7 @@
         "m_iUpdateTime": "1635460735",
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_SELF",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
-        "m_nAbilityBehaviors": "",
+        "m_AbilityBehaviorsBits": "",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_FRIENDLY",
         "m_strCastSound": "Synth.A3.Blitz",
         "m_strMoviePreviewPath": "",

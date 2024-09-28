@@ -203,7 +203,7 @@
         "m_eItemSlotType": "EItemSlotType_Armor",
         "m_iItemTier": "EModTier_3",
         "m_iUpdateTime": "1709687280",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CAN_CAST_ON_ZIPLINE",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CAN_CAST_ON_ZIPLINE",
         "m_strCSSClass": "debuffRemover",
         "m_strAbilityImage": "file://{images}/upgrades/mods_armor/debuff_remover.psd",
         "m_DebuffReducedParticle": "particles/upgrades/debuff_reducer.vpcf",

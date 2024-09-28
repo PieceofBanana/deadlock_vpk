@@ -26,7 +26,7 @@
                 }
             },
             "AbilityCastRange": {
-                "m_strValue": "30m",
+                "m_strValue": "35m",
                 "m_eDisplayUnits": "EDisplayUnit_Meters",
                 "m_strCSSClass": "range",
                 "m_bCanSetTokenOverride": "true",
@@ -190,7 +190,7 @@
         "m_iUpdateTime": "1692665750",
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_NONE",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_SHOW_CAST_RANGE_AS_SAT_SPHERE_WHILE_CASTING",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_SHOW_CAST_RANGE_AS_SAT_SPHERE_WHILE_CASTING",
         "m_strAbilityImage": "file://{images}/hud/abilities/grappler/grappler_throw_sand.psd",
         "m_projectileInfo": {
             "m_flSpeed": "3500",
@@ -216,7 +216,7 @@
                 "m_vecPropertyUpgrades": [
                     {
                         "m_strPropertyName": "AbilityDuration",
-                        "m_strBonus": "1.5"
+                        "m_strBonus": "1"
                     }
                 ]
             },

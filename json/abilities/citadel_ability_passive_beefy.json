@@ -111,7 +111,7 @@
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
             },
             "RegenIncomingDamagePercent": {
-                "m_strValue": "16",
+                "m_strValue": "15",
                 "m_strCSSClass": "healing",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",
@@ -220,7 +220,7 @@
                 "m_vecPropertyUpgrades": [
                     {
                         "m_strPropertyName": "RegenIncomingDamagePercent",
-                        "m_strBonus": "9"
+                        "m_strBonus": "8"
                     }
                 ]
             }

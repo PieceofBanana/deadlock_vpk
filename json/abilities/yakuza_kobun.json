@@ -201,7 +201,7 @@
             "120.000000",
             "0.000000"
         ],
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_ALLOW_SELF_CAST",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_ALLOW_SELF_CAST",
         "m_vecAbilityUpgrades": [
             {
                 "m_vecPropertyUpgrades": [

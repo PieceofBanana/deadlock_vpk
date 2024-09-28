@@ -214,7 +214,7 @@
         "m_iUpdateTime": "1670465867",
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_NONE",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_HERO_ENEMY",
         "m_strAbilityImage": "file://{images}/upgrades/mods_weapon/longshot.psd",
         "m_strCastAnimGraphParam": "b_SleepDagger",

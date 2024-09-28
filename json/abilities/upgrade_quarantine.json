@@ -176,7 +176,7 @@
         "m_strAbilityImage": "file://{images}/upgrades/mods_utility/stasis.psd",
         "m_iUpdateTime": "1681755021",
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_CONE",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE_PASS_THROUGH_WORLD | CITADEL_ABILITY_BEHAVIOR_CHANNELLED",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE_PASS_THROUGH_WORLD | CITADEL_ABILITY_BEHAVIOR_CHANNELLED",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_HERO_ENEMY",
         "m_flTargetingConeAngle": "45",
         "m_strCastSound": "Mods.Armor.Stasis.Cast",

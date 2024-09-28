@@ -4,7 +4,7 @@
         "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "64.000000",
+                "m_strValue": "60.000000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -112,7 +112,7 @@
             },
             "RecallCooldown": {
                 "m_strLocTokenOverride": "AvaRecallCooldown",
-                "m_strValue": "10.500000",
+                "m_strValue": "8",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",
                     "_my_subclass_name": "RecallCooldown_scale_function",
@@ -129,7 +129,7 @@
             },
             "MinResummonCooldown": {
                 "m_strLocTokenOverride": "AvaResummonCooldown",
-                "m_strValue": "0",
+                "m_strValue": "5",
                 "m_strCSSClass": "cooldown",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",
@@ -234,9 +234,6 @@
                     "m_eSpecificStatScaleType": "EHealingOutput"
                 }
             },
-            "SelfHealScale": {
-                "m_strValue": "0.5"
-            },
             "DamageAmplification": {
                 "m_strValue": "0"
             }
@@ -311,13 +308,12 @@
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_CIRCLE",
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_NONE",
         "mp_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_PRESS",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE_FIRED_AS_BULLET | CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE_FIRED_AS_BULLET | CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_FRIENDLY",
         "m_flHeavyMeleeDmg": "75.000000",
         "m_flLightMeleeDmg": "50.000000",
-        "m_flAbilityDamageScale": "0.200000",
-        "m_flNormalizedHealthInSeconds": "3",
-        "m_flNPCDamageMax": "20",
+        "m_flAbilityDamageScale": "0.500000",
+        "m_flNPCDamageScale": "0.500000",
         "m_CatReappearParticle": "particles/abilities/nano/nano_cat_shoulder_poof.vpcf",
         "m_CatDisappearParticle": "particles/abilities/nano/nano_cat_shoulder_poof.vpcf",
         "m_CatEyesParticle": "particles/abilities/nano/nano_cat_ambient.vpcf",
@@ -359,7 +355,6 @@
             }
         ],
         "m_PredatoryStatueModel": "models/heroes_staging/nano/cat_statue/cat_statue.vmdl",
-        "m_UnitTargetParticle": "particles/abilities/yakuza/yakuza_setting_sun_target_preview.vpcf",
         "m_vecDependentAbilities": [
             "ability_nano_proximity_ritual_trigger"
         ],
@@ -367,7 +362,7 @@
             "_class": "modifier_nano_predatory_statue",
             "_my_subclass_name": "modifier_nano_predatory_statue",
             "m_bIsHidden": "true",
-            "m_strParticleEffect": "particles/abilities/nano/nano_tower_throwdown.vpcf",
+            "m_strParticleEffect": "",
             "m_sExpiredSound": "Nano.Ritual.End",
             "m_TargetModifier": {
                 "_class": "modifier_nano_predatory_statue_target",
@@ -419,6 +414,8 @@
             ]
         },
         "m_strCastSound": "Nano.Ritual.Cast_Start",
-        "m_CastParticle": "particles/abilities/nano/nano_predatory_statue_cast.vpcf"
+        "m_CastParticle": "particles/abilities/nano/nano_predatory_statue_cast.vpcf",
+        "m_RecallLineParticle": "particles/abilities/nano/nano_recall.vpcf",
+        "m_CatRecallParticle": "particles/abilities/nano/nano_recall_dissolve.vpcf"
     }
 }

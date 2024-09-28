@@ -207,7 +207,7 @@
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_NONE",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_PRESS",
         "m_bShowTargetingPreviewWhileCasting": "true",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL",
         "m_strAbilityImage": "file://{images}/hud/abilities/theboss/the_boss_shakedown.psd",
         "m_projectileInfo": {

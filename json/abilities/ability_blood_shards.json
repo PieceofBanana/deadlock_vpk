@@ -4,7 +4,7 @@
         "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "6.250000",
+                "m_strValue": "6",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -229,7 +229,7 @@
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_NONE",
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_SPHERE",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DONT_TRIGGER_SPELL_BLOCK | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DONT_TRIGGER_SPELL_BLOCK | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
         "m_iUpdateTime": "1647547907",
         "m_strChannelLoopSound": "",
@@ -245,7 +245,7 @@
                 "m_vecPropertyUpgrades": [
                     {
                         "m_strPropertyName": "AbilityCooldown",
-                        "m_strBonus": "-2.750000"
+                        "m_strBonus": "-3"
                     }
                 ]
             },

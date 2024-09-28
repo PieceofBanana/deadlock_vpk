@@ -127,7 +127,7 @@
                 "m_strCSSClass": "radius"
             },
             "BonusFireRate": {
-                "m_strValue": "25",
+                "m_strValue": "15",
                 "m_strCSSClass": "fire_rate",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_FIRE_RATE",
                 "m_UsageFlags": "APUsageFlag_ModifierConditional"
@@ -141,7 +141,10 @@
                 "m_UsageFlags": "APUsageFlag_ModifierConditional"
             },
             "EvasionPercent": {
-                "m_strValue": "50"
+                "m_strValue": "25"
+            },
+            "OverrideBulletRadius": {
+                "m_strValue": "10"
             }
         },
         "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
@@ -200,7 +203,7 @@
         "m_iUpdateTime": "1646772729",
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_SELF",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED|CITADEL_ABILITY_BEHAVIOR_EXCLUSIVE_USE|CITADEL_ABILITY_BEHAVIOR_NO_TARGET|CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CLEAVE_DISABLED | CITADEL_ABILITY_BEHAVIOR_CAN_CANCEL_DURING_CAST_DELAY",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED|CITADEL_ABILITY_BEHAVIOR_EXCLUSIVE_USE|CITADEL_ABILITY_BEHAVIOR_NO_TARGET|CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CLEAVE_DISABLED | CITADEL_ABILITY_BEHAVIOR_CAN_CANCEL_DURING_CAST_DELAY",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
         "m_nAbilityTargetFlags": "CITADEL_UNIT_TARGET_FLAG_PENETRATE_INVULNERABLE",
         "m_strAbilityImage": "file://{images}/hud/abilities/haze/haze_bullet_flurry.psd",
@@ -243,8 +246,7 @@
             "m_nEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION | MODIFIER_STATE_INFINITE_CLIP",
             "m_eHudDisplayLocation": "DISPLAY_HUD_LEFT",
             "m_ImpactParticle": "particles/abilities/mirage/mirage_sand_phantom_whirlwind_evasion.vpcf",
-            "m_strAttackerHitSound": "Mirage.A2.Sand.Phantom.ReturnBullet.Attacker",
-            "m_strVictimHitSound": "Mirage.A2.Sand.Phantom.ReturnBullet.Victim",
+            "m_strAttackerHitSound": "Ability.BulletEvade",
             "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
                 "WeaponDamageBonus",
                 "BonusFireRate"
@@ -272,7 +274,8 @@
                     "m_eCameraOperation": "k_ECameraOp_Maintain",
                     "m_flMaintainFloat": "350.000000"
                 }
-            ]
+            ],
+            "m_nPriority": "99"
         },
         "m_cameraSequenceCastStart": {
             "m_vecDistanceOperations": [
@@ -292,7 +295,8 @@
                     "m_flLerpEnd": "60.000000",
                     "m_eCameraOperation": "k_ECameraOp_Lerp"
                 }
-            ]
+            ],
+            "m_nPriority": "99"
         },
         "m_AbilityTooltipDetails": {
             "m_vecAbilityInfoSections": [
@@ -317,6 +321,9 @@
                 }
             ]
         },
-        "m_HUDPanel": {}
+        "m_HUDPanel": {},
+        "m_cameraSequenceCastComplete": {
+            "m_nPriority": "99"
+        }
     }
 }

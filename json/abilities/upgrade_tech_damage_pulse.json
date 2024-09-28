@@ -114,7 +114,7 @@
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
             },
             "BonusHealth": {
-                "m_strValue": "140",
+                "m_strValue": "160",
                 "m_strCSSClass": "health",
                 "m_eDisplayType": "EMaxHealth",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_HEALTH_MAX",
@@ -127,7 +127,7 @@
                     "_class": "scale_function_tech_damage",
                     "_my_subclass_name": "DamagePulseAmount_scale_function",
                     "m_eSpecificStatScaleType": "ETechPower",
-                    "m_flStatScale": "0.240000"
+                    "m_flStatScale": "0.330000"
                 }
             },
             "DamagePulseRadius": {

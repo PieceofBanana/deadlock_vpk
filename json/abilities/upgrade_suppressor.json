@@ -192,7 +192,7 @@
         "m_strCSSClass": "weaponJammer",
         "m_strAbilityImage": "file://{images}/upgrades/mods_armor/weapon_jammer.psd",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
         "m_vecTooltipSectionInfo": [
             {
                 "m_eAbilitySectionType": "EArea_Innate",

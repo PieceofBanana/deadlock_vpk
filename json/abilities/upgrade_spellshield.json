@@ -1,0 +1,250 @@
+{
+    "upgrade_spellshield": {
+        "_class": "upgrade_spellshield",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
+        "m_mapAbilityProperties": {
+            "AbilityCooldown": {
+                "m_strValue": "12",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldown_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldown",
+                    "m_bFunctionDisabled": "true"
+                }
+            },
+            "AbilityDuration": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "duration",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            },
+            "AbilityCastRange": {
+                "m_strValue": "0",
+                "m_eDisplayUnits": "EDisplayUnit_Meters",
+                "m_strCSSClass": "range",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCastRange_scale_function",
+                    "m_eSpecificStatScaleType": "ETechRange"
+                }
+            },
+            "AbilityUnitTargetLimit": {
+                "m_strValue": "1",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityCastDelay": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityChannelTime": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_multi_stats",
+                    "_my_subclass_name": "scale_duration",
+                    "m_vecScalingStats": [
+                        "EChannelDuration",
+                        "ETechDuration"
+                    ]
+                }
+            },
+            "AbilityPostCastDuration": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0"
+            },
+            "AbilityCharges": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCharges_scale_function",
+                    "m_eSpecificStatScaleType": "EMaxChargesIncrease"
+                }
+            },
+            "AbilityCooldownBetweenCharge": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "charge_cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldownBetweenCharge_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldownBetweenChargeUses"
+                }
+            },
+            "ChannelMoveSpeed": {
+                "m_strValue": "50",
+                "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond",
+                "m_strCSSClass": "move_speed",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityResourceCost": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_strCSSClass": "cast"
+            },
+            "TechPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_POWER"
+            },
+            "WeaponPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
+            },
+            "TechResist": {
+                "m_strValue": "15",
+                "m_strCSSClass": "tech_armor_up",
+                "m_eDisplayType": "ETechArmorDamageReduction",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST",
+                "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
+            },
+            "BonusHealth": {
+                "m_strValue": "25",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_HEALTH_MAX",
+                "m_UsageFlags": "APUsageFlag_ModifierIntrinsic",
+                "m_eDisplayType": "EMaxHealth"
+            },
+            "SpellShieldLingerDuration": {
+                "m_strValue": ".3"
+            },
+            "SpellShieldFlavorText": {
+                "m_strValue": "asdasd",
+                "m_strCSSClass": "time",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_DAMAGE_PERCENT"
+            }
+        },
+        "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
+        "_editor": {
+            "folder_name": "Armor"
+        },
+        "m_WeaponInfo": {
+            "m_BulletSpeedCurve": {
+                "m_spline": [
+                    {
+                        "x": "0.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    },
+                    {
+                        "x": "100.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    }
+                ],
+                "m_tangents": [
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    },
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    }
+                ],
+                "m_vDomainMins": [
+                    "0.000000",
+                    "0.000000"
+                ],
+                "m_vDomainMaxs": [
+                    "100.000000",
+                    "10000.000000"
+                ]
+            }
+        },
+        "_multibase": [
+            "armor_upgrade_t3"
+        ],
+        "m_bStartTrained": "true",
+        "m_eAbilityType": "EAbilityType_Item",
+        "m_nUpgradeSlotCost": "1",
+        "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_SELF",
+        "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_PASSIVE",
+        "m_strCastAnimGraphParam": "e_GenericCast",
+        "m_strCastAnimSequenceName": "ability_generic_cast",
+        "m_strSelectionNameOverride": "item",
+        "m_PreviewPathParticle": "particles/generic/generic_arc.vpcf",
+        "m_eItemSlotType": "EItemSlotType_Armor",
+        "m_iItemTier": "EModTier_3",
+        "m_strCSSClass": "debuffRemover",
+        "m_strAbilityImage": "file://{images}/upgrades/mods_armor/restorative_locket.psd",
+        "m_vecTooltipSectionInfo": [
+            {
+                "m_eAbilitySectionType": "EArea_Innate",
+                "m_vecSectionAttributes": [
+                    {
+                        "m_vecAbilityProperties": [
+                            "BonusHealth"
+                        ],
+                        "m_vecElevatedAbilityProperties": [
+                            "SpellShieldFlavorText"
+                        ]
+                    }
+                ]
+            },
+            {
+                "m_eAbilitySectionType": "EArea_Passive",
+                "m_vecSectionAttributes": [
+                    {
+                        "m_strLocString": "#upgrade_spellshield_desc",
+                        "m_vecAbilityProperties": [
+                            "AbilityCooldown"
+                        ],
+                        "m_vecImportantAbilityProperties": [
+                            {
+                                "m_strImportantProperty": "TechResist"
+                            }
+                        ],
+                        "m_vecElevatedAbilityProperties": []
+                    }
+                ]
+            }
+        ],
+        "m_AutoIntrinsicModifiers": [
+            {
+                "_class": "modifier_base",
+                "_my_subclass_name": "modifier_spellshield_intrinsic",
+                "m_bIsHidden": "true",
+                "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
+                    "BonusHealth",
+                    "TechResist"
+                ]
+            }
+        ],
+        "m_eShopFilters": "EShopFilterDurability",
+        "m_bShowInPassiveItemsArea": "true",
+        "m_iUpdateTime": "1726683821",
+        "m_SpellShieldBuffModifier": {
+            "_class": "modifier_spellshield_buff",
+            "m_strParticleEffect": "particles/upgrades/spell_shield_buff.vpcf",
+            "_my_subclass_name": "modifier_spellshield_buff",
+            "m_nEnabledStateMask": "MODIFIER_STATE_HAS_SPELLSHIELD",
+            "m_strParticleStatusEffect": "",
+            "m_sStartSound": "Mods.Armor.SpellShield.Regenerate",
+            "m_sExpiredSound": "Mods.Armor.SpellShield.Break"
+        },
+        "m_bInDevelopment": "true",
+        "m_bDisabled": "true"
+    }
+}

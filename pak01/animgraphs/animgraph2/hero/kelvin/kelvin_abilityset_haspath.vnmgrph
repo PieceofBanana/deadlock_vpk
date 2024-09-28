@@ -1,0 +1,4669 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	m_persistentNodeIndices = 
+	[
+		0,
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		8,
+		9,
+		10,
+		11,
+		12,
+		13,
+		14,
+	]
+	m_nRootNodeIdx = 15
+	m_controlParameterIDs = 
+	[
+		"e_MovementType",
+		"b_Aiming",
+		"e_SprintState",
+		"b_Crouching",
+		"fl_StrafeSpeed",
+		"fl_ForwardSpeed",
+		"fl_MoveSpeed",
+		"e_SelectedAbility",
+		"b_IcePath",
+		"b_Shoot",
+		"b_Shooting",
+		"b_Reloading",
+		"b_StartGroundDash",
+		"b_InAir",
+		"b_IceBeam",
+	]
+	m_virtualParameterIDs = 
+	[
+	]
+	m_virtualParameterNodeIndices = 
+	[
+	]
+	m_childGraphSlots = 
+	[
+	]
+	m_externalGraphSlots = 
+	[
+	]
+	m_nodePaths = 
+	[
+		"e_MovementType",
+		"b_Aiming",
+		"e_SprintState",
+		"b_Crouching",
+		"fl_StrafeSpeed",
+		"fl_ForwardSpeed",
+		"fl_MoveSpeed",
+		"e_SelectedAbility",
+		"b_IcePath",
+		"b_Shoot",
+		"b_Shooting",
+		"b_Reloading",
+		"b_StartGroundDash",
+		"b_InAir",
+		"b_IceBeam",
+		"HERO_MotionSet",
+		"HERO_MotionSet/PRIMARY_HasPath",
+		"HERO_MotionSet/PRIMARY_HasPath/SM",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run/Blend 1D",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run/Float Ease",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run/Float Switch",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run/Const Float",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run/Const Float",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run/Speed Scale",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run/Blend 2D",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run/RunCenter",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run/RunN",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run/RunNE",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run/RunE",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run/RunSE",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run/RunS",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run/RunSW",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run/RunW",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run/RunNW",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run/Float Curve",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run/Speed Scale",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run/Blend 2D",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run/Crouch_RunCenter",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run/Crouch_RunN",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run/Crouch_RunNE",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run/Crouch_RunE",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run/Crouch_RunSE",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run/Crouch_RunS",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run/Crouch_RunSW",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run/Crouch_RunW",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run/Crouch_RunNW",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run/Float Curve",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Entry Overrides/And",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Entry Overrides/ID Comparison",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Entry Overrides/Not",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Sprint",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Sprint/Speed Scale",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Sprint/Blend 2D",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Sprint/SprintCenter",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Sprint/SprintN",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Sprint/SprintNE",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Sprint/SprintE",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Sprint/SprintSE",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Sprint/SprintS",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Sprint/SprintSW",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Sprint/SprintW",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Sprint/SprintNW",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Sprint/Float Curve",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Entry Overrides/ID Comparison",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS/Blend 1D",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS/Float Ease",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS/Float Switch",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS/Const Float",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS/Const Float",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS/Layer Blend",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS/Speed Scale",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS/Blend 2D",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS/ADS_RunCenter",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS/ADS_RunN",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS/ADS_RunNE",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS/ADS_RunE",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS/ADS_RunSE",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS/ADS_RunS",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS/ADS_RunSW",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS/ADS_RunW",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS/ADS_RunNW",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS/Float Curve",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS/Leans",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS/Leans/Off",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS/Leans/Entry Overrides/ID Event Condition",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS/Leans/LocoLeans",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS/Leans/LocoLeans/SM",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS/Leans/LocoLeans/SM/LocoLean",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS/Leans/LocoLeans/SM/LocoLean/Blend 2D",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS/Leans/LocoLeans/SM/LocoLean/LocoLean_N",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS/Leans/LocoLeans/SM/LocoLean/LocoLean_E",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS/Leans/LocoLeans/SM/LocoLean/LocoLean_S",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS/Leans/LocoLeans/SM/LocoLean/LocoLean_W",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS/Leans/LocoLeans/SM/LocoLean/OFF",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS/Leans/LocoLeans/SM/LocoLean/OFF/Off",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS/Leans/LocoLeans/SM/Off",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS/Leans/LocoLeans/SM/Transition Conduit/Transition",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS/Leans/LocoLeans/SM/Transition Conduit/State Completed",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS/Leans/Global Transitions/LocoLeans",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS/Leans/Global Transitions/And",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS/Leans/Global Transitions/ID Comparison",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS/Leans/Global Transitions/Not",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS/Leans/Global Transitions/ID Event Condition",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS/Leans/Global Transitions/Off",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS/Speed Scale",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS/Blend 2D",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS/ADS_RunCenter_Crouch",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS/ADS_RunN_Crouch",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS/ADS_RunNE_Crouch",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS/ADS_RunE_Crouch",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS/ADS_RunSE_Crouch",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS/ADS_RunS_Crouch",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS/ADS_RunSW_Crouch",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS/ADS_RunW_Crouch",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS/ADS_RunNW_Crouch",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Run_ADS/Float Curve",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Entry Overrides/And",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Global Transitions/Sprint",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Global Transitions/ID Comparison",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Global Transitions/Run_ADS",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Global Transitions/And",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Global Transitions/ID Comparison",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Global Transitions/Run",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Global Transitions/And",
+		"HERO_MotionSet/PRIMARY_HasPath/SM/Global Transitions/Not",
+		"HERO_MotionSet/Entry Overrides/And",
+		"HERO_MotionSet/Entry Overrides/ID Comparison",
+		"HERO_MotionSet/Entry Overrides/Not",
+		"HERO_MotionSet/ITEM_HasPath",
+		"HERO_MotionSet/ITEM_HasPath/Blend 1D",
+		"HERO_MotionSet/ITEM_HasPath/Float Switch",
+		"HERO_MotionSet/ITEM_HasPath/Const Float",
+		"HERO_MotionSet/ITEM_HasPath/Const Float",
+		"HERO_MotionSet/ITEM_HasPath/Speed Scale",
+		"HERO_MotionSet/ITEM_HasPath/Blend 2D",
+		"HERO_MotionSet/ITEM_HasPath/Item_RunCenter",
+		"HERO_MotionSet/ITEM_HasPath/Item_RunN",
+		"HERO_MotionSet/ITEM_HasPath/Item_RunNE",
+		"HERO_MotionSet/ITEM_HasPath/Item_RunE",
+		"HERO_MotionSet/ITEM_HasPath/Item_RunSE",
+		"HERO_MotionSet/ITEM_HasPath/Item_RunS",
+		"HERO_MotionSet/ITEM_HasPath/Item_RunSW",
+		"HERO_MotionSet/ITEM_HasPath/Item_RunW",
+		"HERO_MotionSet/ITEM_HasPath/Item_RunNW",
+		"HERO_MotionSet/ITEM_HasPath/Float Curve",
+		"HERO_MotionSet/ITEM_HasPath/Speed Scale",
+		"HERO_MotionSet/ITEM_HasPath/Blend 2D",
+		"HERO_MotionSet/ITEM_HasPath/Item_Crouch_RunCenter",
+		"HERO_MotionSet/ITEM_HasPath/Item_Crouch_RunN",
+		"HERO_MotionSet/ITEM_HasPath/Item_Crouch_RunNE",
+		"HERO_MotionSet/ITEM_HasPath/Item_Crouch_RunE",
+		"HERO_MotionSet/ITEM_HasPath/Item_Crouch_RunSE",
+		"HERO_MotionSet/ITEM_HasPath/Item_Crouch_RunS",
+		"HERO_MotionSet/ITEM_HasPath/Item_Crouch_RunSW",
+		"HERO_MotionSet/ITEM_HasPath/Item_Crouch_RunW",
+		"HERO_MotionSet/ITEM_HasPath/Item_Crouch_RunNW",
+		"HERO_MotionSet/ITEM_HasPath/Float Curve",
+		"HERO_MotionSet/Entry Overrides/And",
+		"HERO_MotionSet/Entry Overrides/ID Comparison",
+		"HERO_MotionSet/IcePath",
+		"HERO_MotionSet/IcePath/SM",
+		"HERO_MotionSet/IcePath/SM/IcePath_OutOfCombat",
+		"HERO_MotionSet/IcePath/SM/IcePath_OutOfCombat/Speed Scale",
+		"HERO_MotionSet/IcePath/SM/IcePath_OutOfCombat/Blend 2D",
+		"HERO_MotionSet/IcePath/SM/IcePath_OutOfCombat/IcePath_OutOfCombat_Center",
+		"HERO_MotionSet/IcePath/SM/IcePath_OutOfCombat/IcePath_OutOfCombat_N",
+		"HERO_MotionSet/IcePath/SM/IcePath_OutOfCombat/IcePath_OutOfCombat_NE",
+		"HERO_MotionSet/IcePath/SM/IcePath_OutOfCombat/IcePath_OutOfCombat_E",
+		"HERO_MotionSet/IcePath/SM/IcePath_OutOfCombat/SprintSE",
+		"HERO_MotionSet/IcePath/SM/IcePath_OutOfCombat/SprintS",
+		"HERO_MotionSet/IcePath/SM/IcePath_OutOfCombat/SprintSW",
+		"HERO_MotionSet/IcePath/SM/IcePath_OutOfCombat/IcePath_OutOfCombat_W",
+		"HERO_MotionSet/IcePath/SM/IcePath_OutOfCombat/IcePath_OutOfCombat_NW",
+		"HERO_MotionSet/IcePath/SM/IcePath_OutOfCombat/Float Curve",
+		"HERO_MotionSet/IcePath/SM/Entry Overrides/And",
+		"HERO_MotionSet/IcePath/SM/Entry Overrides/ID Comparison",
+		"HERO_MotionSet/IcePath/SM/Entry Overrides/ID Comparison",
+		"HERO_MotionSet/IcePath/SM/IcePath_InCombat",
+		"HERO_MotionSet/IcePath/SM/IcePath_InCombat/Speed Scale",
+		"HERO_MotionSet/IcePath/SM/IcePath_InCombat/Blend 2D",
+		"HERO_MotionSet/IcePath/SM/IcePath_InCombat/IcePath_InCombat_Center",
+		"HERO_MotionSet/IcePath/SM/IcePath_InCombat/IcePath_InCombat_N",
+		"HERO_MotionSet/IcePath/SM/IcePath_InCombat/IcePath_InCombat_NE",
+		"HERO_MotionSet/IcePath/SM/IcePath_InCombat/IcePath_InCombat_E",
+		"HERO_MotionSet/IcePath/SM/IcePath_InCombat/SprintSE",
+		"HERO_MotionSet/IcePath/SM/IcePath_InCombat/SprintS",
+		"HERO_MotionSet/IcePath/SM/IcePath_InCombat/SprintSW",
+		"HERO_MotionSet/IcePath/SM/IcePath_InCombat/IcePath_InCombat_W",
+		"HERO_MotionSet/IcePath/SM/IcePath_InCombat/IcePath_InCombat_NW",
+		"HERO_MotionSet/IcePath/SM/IcePath_InCombat/Float Curve",
+		"HERO_MotionSet/IcePath/SM/Entry Overrides/And",
+		"HERO_MotionSet/IcePath/SM/Entry Overrides/ID Comparison",
+		"HERO_MotionSet/IcePath/SM/IcePath_Item",
+		"HERO_MotionSet/IcePath/SM/IcePath_Item/Speed Scale",
+		"HERO_MotionSet/IcePath/SM/IcePath_Item/Blend 2D",
+		"HERO_MotionSet/IcePath/SM/IcePath_Item/IcePath_Item_Center",
+		"HERO_MotionSet/IcePath/SM/IcePath_Item/IcePath_Item_N",
+		"HERO_MotionSet/IcePath/SM/IcePath_Item/IcePath_Item_NE",
+		"HERO_MotionSet/IcePath/SM/IcePath_Item/IcePath_Item_E",
+		"HERO_MotionSet/IcePath/SM/IcePath_Item/SprintSE",
+		"HERO_MotionSet/IcePath/SM/IcePath_Item/SprintS",
+		"HERO_MotionSet/IcePath/SM/IcePath_Item/SprintSW",
+		"HERO_MotionSet/IcePath/SM/IcePath_Item/IcePath_Item_W",
+		"HERO_MotionSet/IcePath/SM/IcePath_Item/IcePath_Item_NW",
+		"HERO_MotionSet/IcePath/SM/IcePath_Item/Float Curve",
+		"HERO_MotionSet/IcePath/SM/Entry Overrides/And",
+		"HERO_MotionSet/IcePath/SM/Entry Overrides/ID Comparison",
+		"HERO_MotionSet/IcePath/SM/Entry Overrides/ID Comparison",
+		"HERO_MotionSet/IcePath/SM/Global Transitions/IcePath_InCombat",
+		"HERO_MotionSet/IcePath/SM/Global Transitions/And",
+		"HERO_MotionSet/IcePath/SM/Global Transitions/ID Comparison",
+		"HERO_MotionSet/IcePath/SM/Global Transitions/ID Comparison",
+		"HERO_MotionSet/IcePath/SM/Global Transitions/IcePath_Item",
+		"HERO_MotionSet/IcePath/SM/Global Transitions/And",
+		"HERO_MotionSet/IcePath/SM/Global Transitions/ID Comparison",
+		"HERO_MotionSet/IcePath/SM/Global Transitions/ID Comparison",
+		"HERO_MotionSet/IcePath/SM/Global Transitions/IcePath_OutOfCombat",
+		"HERO_MotionSet/IcePath/SM/Global Transitions/And",
+		"HERO_MotionSet/IcePath/SM/Global Transitions/ID Comparison",
+		"HERO_MotionSet/IcePath/SM/Global Transitions/ID Comparison",
+		"HERO_MotionSet/Global Transitions/ITEM_HasPath",
+		"HERO_MotionSet/Global Transitions/And",
+		"HERO_MotionSet/Global Transitions/ID Comparison",
+		"HERO_MotionSet/Global Transitions/Not",
+		"HERO_MotionSet/Global Transitions/IcePath",
+		"HERO_MotionSet/Global Transitions/PRIMARY_HasPath",
+		"HERO_MotionSet/Global Transitions/And",
+		"HERO_MotionSet/Global Transitions/ID Comparison",
+	]
+	m_runtimeVersionID = "a05b5faf-8adf-421b-8646-ff3e35cea9f2"
+	m_nodes = 
+	[
+		
+		{
+			_class = "CNmControlParameterIDNode::CDefinition"
+			m_nNodeIdx = 0
+		},
+		
+		{
+			_class = "CNmControlParameterBoolNode::CDefinition"
+			m_nNodeIdx = 1
+		},
+		
+		{
+			_class = "CNmControlParameterIDNode::CDefinition"
+			m_nNodeIdx = 2
+		},
+		
+		{
+			_class = "CNmControlParameterBoolNode::CDefinition"
+			m_nNodeIdx = 3
+		},
+		
+		{
+			_class = "CNmControlParameterFloatNode::CDefinition"
+			m_nNodeIdx = 4
+		},
+		
+		{
+			_class = "CNmControlParameterFloatNode::CDefinition"
+			m_nNodeIdx = 5
+		},
+		
+		{
+			_class = "CNmControlParameterFloatNode::CDefinition"
+			m_nNodeIdx = 6
+		},
+		
+		{
+			_class = "CNmControlParameterIDNode::CDefinition"
+			m_nNodeIdx = 7
+		},
+		
+		{
+			_class = "CNmControlParameterBoolNode::CDefinition"
+			m_nNodeIdx = 8
+		},
+		
+		{
+			_class = "CNmControlParameterBoolNode::CDefinition"
+			m_nNodeIdx = 9
+		},
+		
+		{
+			_class = "CNmControlParameterBoolNode::CDefinition"
+			m_nNodeIdx = 10
+		},
+		
+		{
+			_class = "CNmControlParameterBoolNode::CDefinition"
+			m_nNodeIdx = 11
+		},
+		
+		{
+			_class = "CNmControlParameterBoolNode::CDefinition"
+			m_nNodeIdx = 12
+		},
+		
+		{
+			_class = "CNmControlParameterBoolNode::CDefinition"
+			m_nNodeIdx = 13
+		},
+		
+		{
+			_class = "CNmControlParameterBoolNode::CDefinition"
+			m_nNodeIdx = 14
+		},
+		
+		{
+			_class = "CNmStateMachineNode::CDefinition"
+			m_nNodeIdx = 15
+			m_stateDefinitions = 
+			[
+				
+				{
+					m_nStateNodeIdx = 16
+					m_nEntryConditionNodeIdx = 127
+					m_transitionDefinitions = 
+					[
+						
+						{
+							m_nTargetStateIdx = 1
+							m_nConditionNodeIdx = 223
+							m_nTransitionNodeIdx = 222
+							m_bCanBeForced = false
+						},
+						
+						{
+							m_nTargetStateIdx = 2
+							m_nConditionNodeIdx = 8
+							m_nTransitionNodeIdx = 226
+							m_bCanBeForced = false
+						},
+					]
+				},
+				
+				{
+					m_nStateNodeIdx = 130
+					m_nEntryConditionNodeIdx = 159
+					m_transitionDefinitions = 
+					[
+						
+						{
+							m_nTargetStateIdx = 0
+							m_nConditionNodeIdx = 228
+							m_nTransitionNodeIdx = 227
+							m_bCanBeForced = false
+						},
+						
+						{
+							m_nTargetStateIdx = 2
+							m_nConditionNodeIdx = 8
+							m_nTransitionNodeIdx = 226
+							m_bCanBeForced = false
+						},
+					]
+				},
+				
+				{
+					m_nStateNodeIdx = 161
+					m_nEntryConditionNodeIdx = 8
+					m_transitionDefinitions = 
+					[
+						
+						{
+							m_nTargetStateIdx = 0
+							m_nConditionNodeIdx = 228
+							m_nTransitionNodeIdx = 227
+							m_bCanBeForced = false
+						},
+						
+						{
+							m_nTargetStateIdx = 1
+							m_nConditionNodeIdx = 223
+							m_nTransitionNodeIdx = 222
+							m_bCanBeForced = false
+						},
+					]
+				},
+			]
+			m_nDefaultStateIndex = 0
+		},
+		
+		{
+			_class = "CNmStateNode::CDefinition"
+			m_nNodeIdx = 16
+			m_nChildNodeIdx = 17
+			m_entryEvents = 
+			[
+			]
+			m_executeEvents = 
+			[
+			]
+			m_exitEvents = 
+			[
+				"TAG_PLAY_RunStop",
+			]
+			m_timedRemainingEvents = 
+			[
+			]
+			m_timedElapsedEvents = 
+			[
+			]
+			m_nLayerWeightNodeIdx = -1
+			m_nLayerRootMotionWeightNodeIdx = -1
+			m_nLayerBoneMaskNodeIdx = -1
+			m_bIsOffState = false
+		},
+		
+		{
+			_class = "CNmStateMachineNode::CDefinition"
+			m_nNodeIdx = 17
+			m_stateDefinitions = 
+			[
+				
+				{
+					m_nStateNodeIdx = 18
+					m_nEntryConditionNodeIdx = 48
+					m_transitionDefinitions = 
+					[
+						
+						{
+							m_nTargetStateIdx = 1
+							m_nConditionNodeIdx = 120
+							m_nTransitionNodeIdx = 119
+							m_bCanBeForced = false
+						},
+						
+						{
+							m_nTargetStateIdx = 2
+							m_nConditionNodeIdx = 122
+							m_nTransitionNodeIdx = 121
+							m_bCanBeForced = false
+						},
+					]
+				},
+				
+				{
+					m_nStateNodeIdx = 51
+					m_nEntryConditionNodeIdx = 64
+					m_transitionDefinitions = 
+					[
+						
+						{
+							m_nTargetStateIdx = 0
+							m_nConditionNodeIdx = 125
+							m_nTransitionNodeIdx = 124
+							m_bCanBeForced = false
+						},
+						
+						{
+							m_nTargetStateIdx = 2
+							m_nConditionNodeIdx = 122
+							m_nTransitionNodeIdx = 121
+							m_bCanBeForced = false
+						},
+					]
+				},
+				
+				{
+					m_nStateNodeIdx = 65
+					m_nEntryConditionNodeIdx = 118
+					m_transitionDefinitions = 
+					[
+						
+						{
+							m_nTargetStateIdx = 0
+							m_nConditionNodeIdx = 125
+							m_nTransitionNodeIdx = 124
+							m_bCanBeForced = false
+						},
+						
+						{
+							m_nTargetStateIdx = 1
+							m_nConditionNodeIdx = 120
+							m_nTransitionNodeIdx = 119
+							m_bCanBeForced = false
+						},
+					]
+				},
+			]
+			m_nDefaultStateIndex = 0
+		},
+		
+		{
+			_class = "CNmStateNode::CDefinition"
+			m_nNodeIdx = 18
+			m_nChildNodeIdx = 19
+			m_entryEvents = 
+			[
+			]
+			m_executeEvents = 
+			[
+			]
+			m_exitEvents = 
+			[
+			]
+			m_timedRemainingEvents = 
+			[
+			]
+			m_timedElapsedEvents = 
+			[
+			]
+			m_nLayerWeightNodeIdx = -1
+			m_nLayerRootMotionWeightNodeIdx = -1
+			m_nLayerBoneMaskNodeIdx = -1
+			m_bIsOffState = false
+		},
+		
+		{
+			_class = "CNmBlend1DNode::CDefinition"
+			m_nNodeIdx = 19
+			m_sourceNodeIndices = 
+			[
+				24,
+				36,
+			]
+			m_nInputParameterValueNodeIdx = 20
+			m_bAllowLooping = true
+			m_parameterization = 
+			{
+				m_blendRanges = 
+				[
+					
+					{
+						m_nInputIdx0 = 0
+						m_nInputIdx1 = 1
+						m_parameterValueRange = 
+						{
+							m_flMin = 0.000000
+							m_flMax = 1.000000
+						}
+					},
+				]
+				m_parameterRange = 
+				{
+					m_flMin = 0.000000
+					m_flMax = 1.000000
+				}
+			}
+		},
+		
+		{
+			_class = "CNmFloatEaseNode::CDefinition"
+			m_nNodeIdx = 20
+			m_flEaseTime = 0.220000
+			m_flStartValue = 0.000000
+			m_nInputValueNodeIdx = 21
+			m_easingOp = "Linear"
+			m_bUseStartValue = false
+		},
+		
+		{
+			_class = "CNmFloatSwitchNode::CDefinition"
+			m_nNodeIdx = 21
+			m_nSwitchValueNodeIdx = 3
+			m_nTrueValueNodeIdx = 22
+			m_nFalseValueNodeIdx = 23
+		},
+		
+		{
+			_class = "CNmConstFloatNode::CDefinition"
+			m_nNodeIdx = 22
+			m_flValue = 1.000000
+		},
+		
+		{
+			_class = "CNmConstFloatNode::CDefinition"
+			m_nNodeIdx = 23
+			m_flValue = 0.000000
+		},
+		
+		{
+			_class = "CNmSpeedScaleNode::CDefinition"
+			m_nNodeIdx = 24
+			m_nChildNodeIdx = 25
+			m_nInputValueNodeIdx = 35
+			m_flDefaultInputValue = 1.000000
+		},
+		
+		{
+			_class = "CNmBlend2DNode::CDefinition"
+			m_nNodeIdx = 25
+			m_sourceNodeIndices = 
+			[
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+			]
+			m_nInputParameterNodeIdx0 = 4
+			m_nInputParameterNodeIdx1 = 5
+			m_values = 
+			[
+				
+				[
+					0.000000,
+					0.000000,
+				],
+				
+				[
+					0.000000,
+					275.579987,
+				],
+				
+				[
+					194.860001,
+					194.860001,
+				],
+				
+				[
+					275.579987,
+					0.000000,
+				],
+				
+				[
+					194.860001,
+					-194.860001,
+				],
+				
+				[
+					0.000000,
+					-275.579987,
+				],
+				
+				[
+					-194.860001,
+					-194.860001,
+				],
+				
+				[
+					-275.579987,
+					0.000000,
+				],
+				
+				[
+					-194.860001,
+					194.860001,
+				],
+			]
+			m_indices = 
+			[
+				0,
+				5,
+				6,
+				0,
+				7,
+				8,
+				0,
+				6,
+				7,
+				1,
+				0,
+				8,
+				5,
+				0,
+				4,
+				4,
+				0,
+				3,
+				3,
+				0,
+				2,
+				0,
+				1,
+				2,
+			]
+			m_hullIndices = 
+			[
+				6,
+				7,
+				8,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+			]
+			m_bAllowLooping = true
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 26
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 0
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 27
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 1
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 28
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 2
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 29
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 3
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 30
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 4
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 31
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 5
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 32
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 6
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 33
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 7
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 34
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 8
+		},
+		
+		{
+			_class = "CNmFloatCurveNode::CDefinition"
+			m_nNodeIdx = 35
+			m_nInputValueNodeIdx = 6
+			m_curve = 
+			{
+				m_spline = 
+				[
+					
+					{
+						x = 0.000000
+						y = 0.500000
+						m_flSlopeIncoming = 0.001820
+						m_flSlopeOutgoing = 0.001820
+					},
+					
+					{
+						x = 275.493164
+						y = 1.001327
+						m_flSlopeIncoming = 0.001972
+						m_flSlopeOutgoing = 0.001972
+					},
+					
+					{
+						x = 355.000000
+						y = 1.200000
+						m_flSlopeIncoming = 0.002499
+						m_flSlopeOutgoing = 0.002499
+					},
+				]
+				m_tangents = 
+				[
+					
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_SPLINE"
+						m_nOutgoingTangent = "CURVE_TANGENT_SPLINE"
+					},
+					
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_SPLINE"
+						m_nOutgoingTangent = "CURVE_TANGENT_SPLINE"
+					},
+					
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_SPLINE"
+						m_nOutgoingTangent = "CURVE_TANGENT_SPLINE"
+					},
+				]
+				m_vDomainMins = 
+				[
+					0.000000,
+					0.500000,
+				]
+				m_vDomainMaxs = 
+				[
+					355.000000,
+					1.200000,
+				]
+			}
+		},
+		
+		{
+			_class = "CNmSpeedScaleNode::CDefinition"
+			m_nNodeIdx = 36
+			m_nChildNodeIdx = 37
+			m_nInputValueNodeIdx = 47
+			m_flDefaultInputValue = 1.000000
+		},
+		
+		{
+			_class = "CNmBlend2DNode::CDefinition"
+			m_nNodeIdx = 37
+			m_sourceNodeIndices = 
+			[
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+			]
+			m_nInputParameterNodeIdx0 = 4
+			m_nInputParameterNodeIdx1 = 5
+			m_values = 
+			[
+				
+				[
+					0.000000,
+					0.000000,
+				],
+				
+				[
+					0.000000,
+					157.399994,
+				],
+				
+				[
+					111.300003,
+					111.300003,
+				],
+				
+				[
+					157.399994,
+					0.000000,
+				],
+				
+				[
+					111.300003,
+					-111.300003,
+				],
+				
+				[
+					0.000000,
+					-157.399994,
+				],
+				
+				[
+					-111.300003,
+					-111.300003,
+				],
+				
+				[
+					-157.399994,
+					0.000000,
+				],
+				
+				[
+					-111.300003,
+					111.300003,
+				],
+			]
+			m_indices = 
+			[
+				0,
+				5,
+				6,
+				5,
+				0,
+				4,
+				0,
+				7,
+				8,
+				0,
+				6,
+				7,
+				1,
+				0,
+				8,
+				4,
+				0,
+				3,
+				3,
+				0,
+				2,
+				0,
+				1,
+				2,
+			]
+			m_hullIndices = 
+			[
+				6,
+				7,
+				8,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+			]
+			m_bAllowLooping = true
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 38
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 9
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 39
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 10
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 40
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 11
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 41
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 12
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 42
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 13
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 43
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 14
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 44
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 15
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 45
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 16
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 46
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 17
+		},
+		
+		{
+			_class = "CNmFloatCurveNode::CDefinition"
+			m_nNodeIdx = 47
+			m_nInputValueNodeIdx = 6
+			m_curve = 
+			{
+				m_spline = 
+				[
+					
+					{
+						x = 0.000000
+						y = 0.500000
+						m_flSlopeIncoming = 0.000000
+						m_flSlopeOutgoing = 0.005759
+					},
+					
+					{
+						x = 158.000000
+						y = 1.410000
+						m_flSlopeIncoming = 0.005759
+						m_flSlopeOutgoing = 0.000000
+					},
+				]
+				m_tangents = 
+				[
+					
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+				]
+				m_vDomainMins = 
+				[
+					0.000000,
+					0.500000,
+				]
+				m_vDomainMaxs = 
+				[
+					158.000000,
+					1.410000,
+				]
+			}
+		},
+		
+		{
+			_class = "CNmAndNode::CDefinition"
+			m_nNodeIdx = 48
+			m_conditionNodeIndices = 
+			[
+				49,
+				50,
+			]
+		},
+		
+		{
+			_class = "CNmIDComparisonNode::CDefinition"
+			m_nNodeIdx = 49
+			m_nInputValueNodeIdx = 2
+			m_comparison = "Matches"
+			m_comparisionIDs = 
+			[
+				"SprintState_in_combat_run",
+				"SprintState_out_of_combat_run",
+			]
+		},
+		
+		{
+			_class = "CNmNotNode::CDefinition"
+			m_nNodeIdx = 50
+			m_nInputValueNodeIdx = 1
+		},
+		
+		{
+			_class = "CNmStateNode::CDefinition"
+			m_nNodeIdx = 51
+			m_nChildNodeIdx = 52
+			m_entryEvents = 
+			[
+			]
+			m_executeEvents = 
+			[
+			]
+			m_exitEvents = 
+			[
+			]
+			m_timedRemainingEvents = 
+			[
+			]
+			m_timedElapsedEvents = 
+			[
+			]
+			m_nLayerWeightNodeIdx = -1
+			m_nLayerRootMotionWeightNodeIdx = -1
+			m_nLayerBoneMaskNodeIdx = -1
+			m_bIsOffState = false
+		},
+		
+		{
+			_class = "CNmSpeedScaleNode::CDefinition"
+			m_nNodeIdx = 52
+			m_nChildNodeIdx = 53
+			m_nInputValueNodeIdx = 63
+			m_flDefaultInputValue = 1.000000
+		},
+		
+		{
+			_class = "CNmBlend2DNode::CDefinition"
+			m_nNodeIdx = 53
+			m_sourceNodeIndices = 
+			[
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+			]
+			m_nInputParameterNodeIdx0 = 4
+			m_nInputParameterNodeIdx1 = 5
+			m_values = 
+			[
+				
+				[
+					0.000000,
+					0.000000,
+				],
+				
+				[
+					0.000000,
+					275.579987,
+				],
+				
+				[
+					194.860001,
+					194.860001,
+				],
+				
+				[
+					275.579987,
+					0.000000,
+				],
+				
+				[
+					194.860001,
+					-194.860001,
+				],
+				
+				[
+					0.000000,
+					-275.579987,
+				],
+				
+				[
+					-194.860001,
+					-194.860001,
+				],
+				
+				[
+					-275.579987,
+					0.000000,
+				],
+				
+				[
+					-194.860001,
+					194.860001,
+				],
+			]
+			m_indices = 
+			[
+				0,
+				5,
+				6,
+				0,
+				7,
+				8,
+				0,
+				6,
+				7,
+				1,
+				0,
+				8,
+				5,
+				0,
+				4,
+				4,
+				0,
+				3,
+				3,
+				0,
+				2,
+				0,
+				1,
+				2,
+			]
+			m_hullIndices = 
+			[
+				6,
+				7,
+				8,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+			]
+			m_bAllowLooping = true
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 54
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 18
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 55
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 19
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 56
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 20
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 57
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 21
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 58
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 22
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 59
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 23
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 60
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 24
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 61
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 25
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 62
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 26
+		},
+		
+		{
+			_class = "CNmFloatCurveNode::CDefinition"
+			m_nNodeIdx = 63
+			m_nInputValueNodeIdx = 6
+			m_curve = 
+			{
+				m_spline = 
+				[
+					
+					{
+						x = 0.000000
+						y = 0.500000
+						m_flSlopeIncoming = 0.001820
+						m_flSlopeOutgoing = 0.001820
+					},
+					
+					{
+						x = 275.493164
+						y = 1.001327
+						m_flSlopeIncoming = 0.001972
+						m_flSlopeOutgoing = 0.001972
+					},
+					
+					{
+						x = 355.000000
+						y = 1.200000
+						m_flSlopeIncoming = 0.002499
+						m_flSlopeOutgoing = 0.002499
+					},
+				]
+				m_tangents = 
+				[
+					
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_SPLINE"
+						m_nOutgoingTangent = "CURVE_TANGENT_SPLINE"
+					},
+					
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_SPLINE"
+						m_nOutgoingTangent = "CURVE_TANGENT_SPLINE"
+					},
+					
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_SPLINE"
+						m_nOutgoingTangent = "CURVE_TANGENT_SPLINE"
+					},
+				]
+				m_vDomainMins = 
+				[
+					0.000000,
+					0.500000,
+				]
+				m_vDomainMaxs = 
+				[
+					355.000000,
+					1.200000,
+				]
+			}
+		},
+		
+		{
+			_class = "CNmIDComparisonNode::CDefinition"
+			m_nNodeIdx = 64
+			m_nInputValueNodeIdx = 2
+			m_comparison = "Matches"
+			m_comparisionIDs = 
+			[
+				"SprintState_out_of_combat_sprint",
+			]
+		},
+		
+		{
+			_class = "CNmStateNode::CDefinition"
+			m_nNodeIdx = 65
+			m_nChildNodeIdx = 66
+			m_entryEvents = 
+			[
+			]
+			m_executeEvents = 
+			[
+			]
+			m_exitEvents = 
+			[
+			]
+			m_timedRemainingEvents = 
+			[
+			]
+			m_timedElapsedEvents = 
+			[
+			]
+			m_nLayerWeightNodeIdx = -1
+			m_nLayerRootMotionWeightNodeIdx = -1
+			m_nLayerBoneMaskNodeIdx = -1
+			m_bIsOffState = false
+		},
+		
+		{
+			_class = "CNmBlend1DNode::CDefinition"
+			m_nNodeIdx = 66
+			m_sourceNodeIndices = 
+			[
+				71,
+				106,
+			]
+			m_nInputParameterValueNodeIdx = 67
+			m_bAllowLooping = true
+			m_parameterization = 
+			{
+				m_blendRanges = 
+				[
+					
+					{
+						m_nInputIdx0 = 0
+						m_nInputIdx1 = 1
+						m_parameterValueRange = 
+						{
+							m_flMin = 0.000000
+							m_flMax = 1.000000
+						}
+					},
+				]
+				m_parameterRange = 
+				{
+					m_flMin = 0.000000
+					m_flMax = 1.000000
+				}
+			}
+		},
+		
+		{
+			_class = "CNmFloatEaseNode::CDefinition"
+			m_nNodeIdx = 67
+			m_flEaseTime = 0.220000
+			m_flStartValue = 0.000000
+			m_nInputValueNodeIdx = 68
+			m_easingOp = "Linear"
+			m_bUseStartValue = false
+		},
+		
+		{
+			_class = "CNmFloatSwitchNode::CDefinition"
+			m_nNodeIdx = 68
+			m_nSwitchValueNodeIdx = 3
+			m_nTrueValueNodeIdx = 69
+			m_nFalseValueNodeIdx = 70
+		},
+		
+		{
+			_class = "CNmConstFloatNode::CDefinition"
+			m_nNodeIdx = 69
+			m_flValue = 1.000000
+		},
+		
+		{
+			_class = "CNmConstFloatNode::CDefinition"
+			m_nNodeIdx = 70
+			m_flValue = 0.000000
+		},
+		
+		{
+			_class = "CNmLayerBlendNode::CDefinition"
+			m_nNodeIdx = 71
+			m_nBaseNodeIdx = 72
+			m_bOnlySampleBaseRootMotion = true
+			m_layerDefinition = 
+			[
+				
+				{
+					m_nInputNodeIdx = 84
+					m_nWeightValueNodeIdx = -1
+					m_nBoneMaskValueNodeIdx = -1
+					m_nRootMotionWeightValueNodeIdx = -1
+					m_bIsSynchronized = false
+					m_bIgnoreEvents = false
+					m_bIsStateMachineLayer = true
+					m_blendMode = "Additive"
+				},
+			]
+		},
+		
+		{
+			_class = "CNmSpeedScaleNode::CDefinition"
+			m_nNodeIdx = 72
+			m_nChildNodeIdx = 73
+			m_nInputValueNodeIdx = 83
+			m_flDefaultInputValue = 1.000000
+		},
+		
+		{
+			_class = "CNmBlend2DNode::CDefinition"
+			m_nNodeIdx = 73
+			m_sourceNodeIndices = 
+			[
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+			]
+			m_nInputParameterNodeIdx0 = 4
+			m_nInputParameterNodeIdx1 = 5
+			m_values = 
+			[
+				
+				[
+					0.000000,
+					0.000000,
+				],
+				
+				[
+					0.000000,
+					275.579987,
+				],
+				
+				[
+					194.860001,
+					194.860001,
+				],
+				
+				[
+					275.579987,
+					0.000000,
+				],
+				
+				[
+					194.860001,
+					-194.860001,
+				],
+				
+				[
+					0.000000,
+					-275.579987,
+				],
+				
+				[
+					-194.860001,
+					-194.860001,
+				],
+				
+				[
+					-275.579987,
+					0.000000,
+				],
+				
+				[
+					-194.860001,
+					194.860001,
+				],
+			]
+			m_indices = 
+			[
+				0,
+				5,
+				6,
+				0,
+				7,
+				8,
+				0,
+				6,
+				7,
+				1,
+				0,
+				8,
+				5,
+				0,
+				4,
+				4,
+				0,
+				3,
+				3,
+				0,
+				2,
+				0,
+				1,
+				2,
+			]
+			m_hullIndices = 
+			[
+				6,
+				7,
+				8,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+			]
+			m_bAllowLooping = true
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 74
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 27
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 75
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 28
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 76
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 29
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 77
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 30
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 78
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 31
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 79
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 32
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 80
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 33
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 81
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 34
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 82
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 35
+		},
+		
+		{
+			_class = "CNmFloatCurveNode::CDefinition"
+			m_nNodeIdx = 83
+			m_nInputValueNodeIdx = 6
+			m_curve = 
+			{
+				m_spline = 
+				[
+					
+					{
+						x = 0.000000
+						y = 0.500000
+						m_flSlopeIncoming = 0.001820
+						m_flSlopeOutgoing = 0.001820
+					},
+					
+					{
+						x = 275.493164
+						y = 1.001327
+						m_flSlopeIncoming = 0.001972
+						m_flSlopeOutgoing = 0.001972
+					},
+					
+					{
+						x = 355.000000
+						y = 1.200000
+						m_flSlopeIncoming = 0.002499
+						m_flSlopeOutgoing = 0.002499
+					},
+				]
+				m_tangents = 
+				[
+					
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_SPLINE"
+						m_nOutgoingTangent = "CURVE_TANGENT_SPLINE"
+					},
+					
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_SPLINE"
+						m_nOutgoingTangent = "CURVE_TANGENT_SPLINE"
+					},
+					
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_SPLINE"
+						m_nOutgoingTangent = "CURVE_TANGENT_SPLINE"
+					},
+				]
+				m_vDomainMins = 
+				[
+					0.000000,
+					0.500000,
+				]
+				m_vDomainMaxs = 
+				[
+					355.000000,
+					1.200000,
+				]
+			}
+		},
+		
+		{
+			_class = "CNmStateMachineNode::CDefinition"
+			m_nNodeIdx = 84
+			m_stateDefinitions = 
+			[
+				
+				{
+					m_nStateNodeIdx = 85
+					m_nEntryConditionNodeIdx = 86
+					m_transitionDefinitions = 
+					[
+						
+						{
+							m_nTargetStateIdx = 1
+							m_nConditionNodeIdx = 101
+							m_nTransitionNodeIdx = 100
+							m_bCanBeForced = false
+						},
+					]
+				},
+				
+				{
+					m_nStateNodeIdx = 87
+					m_nEntryConditionNodeIdx = -1
+					m_transitionDefinitions = 
+					[
+						
+						{
+							m_nTargetStateIdx = 0
+							m_nConditionNodeIdx = 104
+							m_nTransitionNodeIdx = 105
+							m_bCanBeForced = false
+						},
+					]
+				},
+			]
+			m_nDefaultStateIndex = 1
+		},
+		
+		{
+			_class = "CNmStateNode::CDefinition"
+			m_nNodeIdx = 85
+			m_nChildNodeIdx = -1
+			m_entryEvents = 
+			[
+			]
+			m_executeEvents = 
+			[
+			]
+			m_exitEvents = 
+			[
+			]
+			m_timedRemainingEvents = 
+			[
+			]
+			m_timedElapsedEvents = 
+			[
+			]
+			m_nLayerWeightNodeIdx = -1
+			m_nLayerRootMotionWeightNodeIdx = -1
+			m_nLayerBoneMaskNodeIdx = -1
+			m_bIsOffState = true
+		},
+		
+		{
+			_class = "CNmIDEventConditionNode::CDefinition"
+			m_nNodeIdx = 86
+			m_nSourceStateNodeIdx = -1
+			m_eventConditionRules = 
+			{
+				m_flags = 272
+			}
+			m_eventIDs = 
+			[
+				"TAG_LocoLean_OFF",
+			]
+		},
+		
+		{
+			_class = "CNmStateNode::CDefinition"
+			m_nNodeIdx = 87
+			m_nChildNodeIdx = 88
+			m_entryEvents = 
+			[
+			]
+			m_executeEvents = 
+			[
+			]
+			m_exitEvents = 
+			[
+			]
+			m_timedRemainingEvents = 
+			[
+			]
+			m_timedElapsedEvents = 
+			[
+			]
+			m_nLayerWeightNodeIdx = -1
+			m_nLayerRootMotionWeightNodeIdx = -1
+			m_nLayerBoneMaskNodeIdx = -1
+			m_bIsOffState = false
+		},
+		
+		{
+			_class = "CNmStateMachineNode::CDefinition"
+			m_nNodeIdx = 88
+			m_stateDefinitions = 
+			[
+				
+				{
+					m_nStateNodeIdx = 89
+					m_nEntryConditionNodeIdx = -1
+					m_transitionDefinitions = 
+					[
+						
+						{
+							m_nTargetStateIdx = 1
+							m_nConditionNodeIdx = 99
+							m_nTransitionNodeIdx = 98
+							m_bCanBeForced = false
+						},
+					]
+				},
+				
+				{
+					m_nStateNodeIdx = 97
+					m_nEntryConditionNodeIdx = -1
+					m_transitionDefinitions = 
+					[
+					]
+				},
+			]
+			m_nDefaultStateIndex = 0
+		},
+		
+		{
+			_class = "CNmStateNode::CDefinition"
+			m_nNodeIdx = 89
+			m_nChildNodeIdx = 90
+			m_entryEvents = 
+			[
+			]
+			m_executeEvents = 
+			[
+			]
+			m_exitEvents = 
+			[
+			]
+			m_timedRemainingEvents = 
+			[
+			]
+			m_timedElapsedEvents = 
+			[
+			]
+			m_nLayerWeightNodeIdx = -1
+			m_nLayerRootMotionWeightNodeIdx = -1
+			m_nLayerBoneMaskNodeIdx = -1
+			m_bIsOffState = false
+		},
+		
+		{
+			_class = "CNmBlend2DNode::CDefinition"
+			m_nNodeIdx = 90
+			m_sourceNodeIndices = 
+			[
+				91,
+				92,
+				93,
+				94,
+				95,
+			]
+			m_nInputParameterNodeIdx0 = 4
+			m_nInputParameterNodeIdx1 = 5
+			m_values = 
+			[
+				
+				[
+					0.000000,
+					150.000000,
+				],
+				
+				[
+					150.000000,
+					0.000000,
+				],
+				
+				[
+					1.000000,
+					-150.000000,
+				],
+				
+				[
+					-150.000000,
+					0.000000,
+				],
+				
+				[
+					0.000000,
+					0.000000,
+				],
+			]
+			m_indices = 
+			[
+				1,
+				2,
+				4,
+				3,
+				4,
+				2,
+				1,
+				4,
+				0,
+				4,
+				3,
+				0,
+			]
+			m_hullIndices = 
+			[
+				2,
+				3,
+				0,
+				1,
+				2,
+			]
+			m_bAllowLooping = true
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 91
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 36
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 92
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 37
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 93
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 38
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 94
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 39
+		},
+		
+		{
+			_class = "CNmStateMachineNode::CDefinition"
+			m_nNodeIdx = 95
+			m_stateDefinitions = 
+			[
+				
+				{
+					m_nStateNodeIdx = 96
+					m_nEntryConditionNodeIdx = -1
+					m_transitionDefinitions = 
+					[
+					]
+				},
+			]
+			m_nDefaultStateIndex = 0
+		},
+		
+		{
+			_class = "CNmStateNode::CDefinition"
+			m_nNodeIdx = 96
+			m_nChildNodeIdx = -1
+			m_entryEvents = 
+			[
+			]
+			m_executeEvents = 
+			[
+			]
+			m_exitEvents = 
+			[
+			]
+			m_timedRemainingEvents = 
+			[
+			]
+			m_timedElapsedEvents = 
+			[
+			]
+			m_nLayerWeightNodeIdx = -1
+			m_nLayerRootMotionWeightNodeIdx = -1
+			m_nLayerBoneMaskNodeIdx = -1
+			m_bIsOffState = true
+		},
+		
+		{
+			_class = "CNmStateNode::CDefinition"
+			m_nNodeIdx = 97
+			m_nChildNodeIdx = -1
+			m_entryEvents = 
+			[
+			]
+			m_executeEvents = 
+			[
+			]
+			m_exitEvents = 
+			[
+			]
+			m_timedRemainingEvents = 
+			[
+			]
+			m_timedElapsedEvents = 
+			[
+			]
+			m_nLayerWeightNodeIdx = -1
+			m_nLayerRootMotionWeightNodeIdx = -1
+			m_nLayerBoneMaskNodeIdx = -1
+			m_bIsOffState = true
+		},
+		
+		{
+			_class = "CNmTransitionNode::CDefinition"
+			m_nNodeIdx = 98
+			m_nTargetStateNodeIdx = 97
+			m_nDurationOverrideNodeIdx = -1
+			m_syncEventOffsetOverrideNodeIdx = -1
+			m_startBoneMaskNodeIdx = -1
+			m_flDuration = 0.200000
+			m_boneMaskBlendInTimePercentage = 
+			{
+				m_flValue = 0.330000
+			}
+			m_syncEventOffset = 0.000000
+			m_transitionOptions = 
+			{
+				m_flags = 0
+			}
+			m_targetSyncIDNodeIdx = -1
+			m_blendWeightEasing = "Linear"
+			m_rootMotionBlend = "Blend"
+		},
+		
+		{
+			_class = "CNmStateCompletedConditionNode::CDefinition"
+			m_nNodeIdx = 99
+			m_nSourceStateNodeIdx = 89
+			m_nTransitionDurationOverrideNodeIdx = -1
+			m_flTransitionDurationSeconds = 0.200000
+		},
+		
+		{
+			_class = "CNmTransitionNode::CDefinition"
+			m_nNodeIdx = 100
+			m_nTargetStateNodeIdx = 87
+			m_nDurationOverrideNodeIdx = -1
+			m_syncEventOffsetOverrideNodeIdx = -1
+			m_startBoneMaskNodeIdx = -1
+			m_flDuration = 0.200000
+			m_boneMaskBlendInTimePercentage = 
+			{
+				m_flValue = 0.330000
+			}
+			m_syncEventOffset = 0.000000
+			m_transitionOptions = 
+			{
+				m_flags = 0
+			}
+			m_targetSyncIDNodeIdx = -1
+			m_blendWeightEasing = "Linear"
+			m_rootMotionBlend = "Blend"
+		},
+		
+		{
+			_class = "CNmAndNode::CDefinition"
+			m_nNodeIdx = 101
+			m_conditionNodeIndices = 
+			[
+				102,
+				103,
+			]
+		},
+		
+		{
+			_class = "CNmIDComparisonNode::CDefinition"
+			m_nNodeIdx = 102
+			m_nInputValueNodeIdx = 0
+			m_comparison = "Matches"
+			m_comparisionIDs = 
+			[
+				"e_MovementType_player_input",
+			]
+		},
+		
+		{
+			_class = "CNmNotNode::CDefinition"
+			m_nNodeIdx = 103
+			m_nInputValueNodeIdx = 104
+		},
+		
+		{
+			_class = "CNmIDEventConditionNode::CDefinition"
+			m_nNodeIdx = 104
+			m_nSourceStateNodeIdx = -1
+			m_eventConditionRules = 
+			{
+				m_flags = 272
+			}
+			m_eventIDs = 
+			[
+				"TAG_LocoLean_OFF",
+			]
+		},
+		
+		{
+			_class = "CNmTransitionNode::CDefinition"
+			m_nNodeIdx = 105
+			m_nTargetStateNodeIdx = 85
+			m_nDurationOverrideNodeIdx = -1
+			m_syncEventOffsetOverrideNodeIdx = -1
+			m_startBoneMaskNodeIdx = -1
+			m_flDuration = 0.200000
+			m_boneMaskBlendInTimePercentage = 
+			{
+				m_flValue = 0.330000
+			}
+			m_syncEventOffset = 0.000000
+			m_transitionOptions = 
+			{
+				m_flags = 0
+			}
+			m_targetSyncIDNodeIdx = -1
+			m_blendWeightEasing = "Linear"
+			m_rootMotionBlend = "Blend"
+		},
+		
+		{
+			_class = "CNmSpeedScaleNode::CDefinition"
+			m_nNodeIdx = 106
+			m_nChildNodeIdx = 107
+			m_nInputValueNodeIdx = 117
+			m_flDefaultInputValue = 1.000000
+		},
+		
+		{
+			_class = "CNmBlend2DNode::CDefinition"
+			m_nNodeIdx = 107
+			m_sourceNodeIndices = 
+			[
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+			]
+			m_nInputParameterNodeIdx0 = 4
+			m_nInputParameterNodeIdx1 = 5
+			m_values = 
+			[
+				
+				[
+					0.000000,
+					0.000000,
+				],
+				
+				[
+					0.000000,
+					157.399994,
+				],
+				
+				[
+					111.300003,
+					111.300003,
+				],
+				
+				[
+					157.399994,
+					0.000000,
+				],
+				
+				[
+					111.300003,
+					-111.300003,
+				],
+				
+				[
+					0.000000,
+					-157.399994,
+				],
+				
+				[
+					-111.300003,
+					-111.300003,
+				],
+				
+				[
+					-157.399994,
+					0.000000,
+				],
+				
+				[
+					-111.300003,
+					111.300003,
+				],
+			]
+			m_indices = 
+			[
+				0,
+				5,
+				6,
+				5,
+				0,
+				4,
+				0,
+				7,
+				8,
+				0,
+				6,
+				7,
+				1,
+				0,
+				8,
+				4,
+				0,
+				3,
+				3,
+				0,
+				2,
+				0,
+				1,
+				2,
+			]
+			m_hullIndices = 
+			[
+				6,
+				7,
+				8,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+			]
+			m_bAllowLooping = true
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 108
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 40
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 109
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 41
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 110
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 42
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 111
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 43
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 112
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 44
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 113
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 45
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 114
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 46
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 115
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 47
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 116
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 48
+		},
+		
+		{
+			_class = "CNmFloatCurveNode::CDefinition"
+			m_nNodeIdx = 117
+			m_nInputValueNodeIdx = 6
+			m_curve = 
+			{
+				m_spline = 
+				[
+					
+					{
+						x = 0.000000
+						y = 0.500000
+						m_flSlopeIncoming = 0.000000
+						m_flSlopeOutgoing = 0.005759
+					},
+					
+					{
+						x = 158.000000
+						y = 1.410000
+						m_flSlopeIncoming = 0.005759
+						m_flSlopeOutgoing = 0.000000
+					},
+				]
+				m_tangents = 
+				[
+					
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+				]
+				m_vDomainMins = 
+				[
+					0.000000,
+					0.500000,
+				]
+				m_vDomainMaxs = 
+				[
+					158.000000,
+					1.410000,
+				]
+			}
+		},
+		
+		{
+			_class = "CNmAndNode::CDefinition"
+			m_nNodeIdx = 118
+			m_conditionNodeIndices = 
+			[
+				49,
+				1,
+			]
+		},
+		
+		{
+			_class = "CNmTransitionNode::CDefinition"
+			m_nNodeIdx = 119
+			m_nTargetStateNodeIdx = 51
+			m_nDurationOverrideNodeIdx = -1
+			m_syncEventOffsetOverrideNodeIdx = -1
+			m_startBoneMaskNodeIdx = -1
+			m_flDuration = 0.200000
+			m_boneMaskBlendInTimePercentage = 
+			{
+				m_flValue = 0.330000
+			}
+			m_syncEventOffset = 0.000000
+			m_transitionOptions = 
+			{
+				m_flags = 0
+			}
+			m_targetSyncIDNodeIdx = -1
+			m_blendWeightEasing = "Linear"
+			m_rootMotionBlend = "Blend"
+		},
+		
+		{
+			_class = "CNmIDComparisonNode::CDefinition"
+			m_nNodeIdx = 120
+			m_nInputValueNodeIdx = 2
+			m_comparison = "Matches"
+			m_comparisionIDs = 
+			[
+				"SprintState_out_of_combat_sprint",
+			]
+		},
+		
+		{
+			_class = "CNmTransitionNode::CDefinition"
+			m_nNodeIdx = 121
+			m_nTargetStateNodeIdx = 65
+			m_nDurationOverrideNodeIdx = -1
+			m_syncEventOffsetOverrideNodeIdx = -1
+			m_startBoneMaskNodeIdx = -1
+			m_flDuration = 0.200000
+			m_boneMaskBlendInTimePercentage = 
+			{
+				m_flValue = 0.330000
+			}
+			m_syncEventOffset = 0.000000
+			m_transitionOptions = 
+			{
+				m_flags = 0
+			}
+			m_targetSyncIDNodeIdx = -1
+			m_blendWeightEasing = "Linear"
+			m_rootMotionBlend = "Blend"
+		},
+		
+		{
+			_class = "CNmAndNode::CDefinition"
+			m_nNodeIdx = 122
+			m_conditionNodeIndices = 
+			[
+				123,
+				1,
+			]
+		},
+		
+		{
+			_class = "CNmIDComparisonNode::CDefinition"
+			m_nNodeIdx = 123
+			m_nInputValueNodeIdx = 2
+			m_comparison = "Matches"
+			m_comparisionIDs = 
+			[
+				"SprintState_in_combat_run",
+				"SprintState_out_of_combat_run",
+			]
+		},
+		
+		{
+			_class = "CNmTransitionNode::CDefinition"
+			m_nNodeIdx = 124
+			m_nTargetStateNodeIdx = 18
+			m_nDurationOverrideNodeIdx = -1
+			m_syncEventOffsetOverrideNodeIdx = -1
+			m_startBoneMaskNodeIdx = -1
+			m_flDuration = 0.200000
+			m_boneMaskBlendInTimePercentage = 
+			{
+				m_flValue = 0.330000
+			}
+			m_syncEventOffset = 0.000000
+			m_transitionOptions = 
+			{
+				m_flags = 0
+			}
+			m_targetSyncIDNodeIdx = -1
+			m_blendWeightEasing = "Linear"
+			m_rootMotionBlend = "Blend"
+		},
+		
+		{
+			_class = "CNmAndNode::CDefinition"
+			m_nNodeIdx = 125
+			m_conditionNodeIndices = 
+			[
+				123,
+				126,
+			]
+		},
+		
+		{
+			_class = "CNmNotNode::CDefinition"
+			m_nNodeIdx = 126
+			m_nInputValueNodeIdx = 1
+		},
+		
+		{
+			_class = "CNmAndNode::CDefinition"
+			m_nNodeIdx = 127
+			m_conditionNodeIndices = 
+			[
+				128,
+				129,
+			]
+		},
+		
+		{
+			_class = "CNmIDComparisonNode::CDefinition"
+			m_nNodeIdx = 128
+			m_nInputValueNodeIdx = 7
+			m_comparison = "Matches"
+			m_comparisionIDs = 
+			[
+				"e_SelectedAbility_citadel_weapon_set",
+				"e_SelectedAbility_ability_icebeam",
+			]
+		},
+		
+		{
+			_class = "CNmNotNode::CDefinition"
+			m_nNodeIdx = 129
+			m_nInputValueNodeIdx = 8
+		},
+		
+		{
+			_class = "CNmStateNode::CDefinition"
+			m_nNodeIdx = 130
+			m_nChildNodeIdx = 131
+			m_entryEvents = 
+			[
+			]
+			m_executeEvents = 
+			[
+			]
+			m_exitEvents = 
+			[
+			]
+			m_timedRemainingEvents = 
+			[
+			]
+			m_timedElapsedEvents = 
+			[
+			]
+			m_nLayerWeightNodeIdx = -1
+			m_nLayerRootMotionWeightNodeIdx = -1
+			m_nLayerBoneMaskNodeIdx = -1
+			m_bIsOffState = false
+		},
+		
+		{
+			_class = "CNmBlend1DNode::CDefinition"
+			m_nNodeIdx = 131
+			m_sourceNodeIndices = 
+			[
+				135,
+				147,
+			]
+			m_nInputParameterValueNodeIdx = 132
+			m_bAllowLooping = true
+			m_parameterization = 
+			{
+				m_blendRanges = 
+				[
+					
+					{
+						m_nInputIdx0 = 0
+						m_nInputIdx1 = 1
+						m_parameterValueRange = 
+						{
+							m_flMin = 0.000000
+							m_flMax = 1.000000
+						}
+					},
+				]
+				m_parameterRange = 
+				{
+					m_flMin = 0.000000
+					m_flMax = 1.000000
+				}
+			}
+		},
+		
+		{
+			_class = "CNmFloatSwitchNode::CDefinition"
+			m_nNodeIdx = 132
+			m_nSwitchValueNodeIdx = 3
+			m_nTrueValueNodeIdx = 133
+			m_nFalseValueNodeIdx = 134
+		},
+		
+		{
+			_class = "CNmConstFloatNode::CDefinition"
+			m_nNodeIdx = 133
+			m_flValue = 1.000000
+		},
+		
+		{
+			_class = "CNmConstFloatNode::CDefinition"
+			m_nNodeIdx = 134
+			m_flValue = 0.000000
+		},
+		
+		{
+			_class = "CNmSpeedScaleNode::CDefinition"
+			m_nNodeIdx = 135
+			m_nChildNodeIdx = 136
+			m_nInputValueNodeIdx = 146
+			m_flDefaultInputValue = 1.000000
+		},
+		
+		{
+			_class = "CNmBlend2DNode::CDefinition"
+			m_nNodeIdx = 136
+			m_sourceNodeIndices = 
+			[
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+			]
+			m_nInputParameterNodeIdx0 = 4
+			m_nInputParameterNodeIdx1 = 5
+			m_values = 
+			[
+				
+				[
+					0.000000,
+					0.000000,
+				],
+				
+				[
+					0.000000,
+					275.579987,
+				],
+				
+				[
+					194.860001,
+					194.860001,
+				],
+				
+				[
+					275.579987,
+					0.000000,
+				],
+				
+				[
+					194.860001,
+					-194.860001,
+				],
+				
+				[
+					0.000000,
+					-275.579987,
+				],
+				
+				[
+					-194.860001,
+					-194.860001,
+				],
+				
+				[
+					-275.579987,
+					0.000000,
+				],
+				
+				[
+					-194.860001,
+					194.860001,
+				],
+			]
+			m_indices = 
+			[
+				0,
+				5,
+				6,
+				0,
+				7,
+				8,
+				0,
+				6,
+				7,
+				1,
+				0,
+				8,
+				5,
+				0,
+				4,
+				4,
+				0,
+				3,
+				3,
+				0,
+				2,
+				0,
+				1,
+				2,
+			]
+			m_hullIndices = 
+			[
+				6,
+				7,
+				8,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+			]
+			m_bAllowLooping = true
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 137
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 49
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 138
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 50
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 139
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 51
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 140
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 52
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 141
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 53
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 142
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 54
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 143
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 55
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 144
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 56
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 145
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 57
+		},
+		
+		{
+			_class = "CNmFloatCurveNode::CDefinition"
+			m_nNodeIdx = 146
+			m_nInputValueNodeIdx = 6
+			m_curve = 
+			{
+				m_spline = 
+				[
+					
+					{
+						x = 0.000000
+						y = 0.500000
+						m_flSlopeIncoming = 0.001820
+						m_flSlopeOutgoing = 0.001820
+					},
+					
+					{
+						x = 275.493164
+						y = 1.001327
+						m_flSlopeIncoming = 0.001972
+						m_flSlopeOutgoing = 0.001972
+					},
+					
+					{
+						x = 355.000000
+						y = 1.200000
+						m_flSlopeIncoming = 0.002499
+						m_flSlopeOutgoing = 0.002499
+					},
+				]
+				m_tangents = 
+				[
+					
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_SPLINE"
+						m_nOutgoingTangent = "CURVE_TANGENT_SPLINE"
+					},
+					
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_SPLINE"
+						m_nOutgoingTangent = "CURVE_TANGENT_SPLINE"
+					},
+					
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_SPLINE"
+						m_nOutgoingTangent = "CURVE_TANGENT_SPLINE"
+					},
+				]
+				m_vDomainMins = 
+				[
+					0.000000,
+					0.500000,
+				]
+				m_vDomainMaxs = 
+				[
+					355.000000,
+					1.200000,
+				]
+			}
+		},
+		
+		{
+			_class = "CNmSpeedScaleNode::CDefinition"
+			m_nNodeIdx = 147
+			m_nChildNodeIdx = 148
+			m_nInputValueNodeIdx = 158
+			m_flDefaultInputValue = 1.000000
+		},
+		
+		{
+			_class = "CNmBlend2DNode::CDefinition"
+			m_nNodeIdx = 148
+			m_sourceNodeIndices = 
+			[
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+			]
+			m_nInputParameterNodeIdx0 = 4
+			m_nInputParameterNodeIdx1 = 5
+			m_values = 
+			[
+				
+				[
+					0.000000,
+					0.000000,
+				],
+				
+				[
+					0.000000,
+					157.399994,
+				],
+				
+				[
+					111.300003,
+					111.300003,
+				],
+				
+				[
+					157.399994,
+					0.000000,
+				],
+				
+				[
+					111.300003,
+					-111.300003,
+				],
+				
+				[
+					0.000000,
+					-157.399994,
+				],
+				
+				[
+					-111.300003,
+					-111.300003,
+				],
+				
+				[
+					-157.399994,
+					0.000000,
+				],
+				
+				[
+					-111.300003,
+					111.300003,
+				],
+			]
+			m_indices = 
+			[
+				0,
+				5,
+				6,
+				5,
+				0,
+				4,
+				0,
+				7,
+				8,
+				0,
+				6,
+				7,
+				1,
+				0,
+				8,
+				4,
+				0,
+				3,
+				3,
+				0,
+				2,
+				0,
+				1,
+				2,
+			]
+			m_hullIndices = 
+			[
+				6,
+				7,
+				8,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+			]
+			m_bAllowLooping = true
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 149
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 58
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 150
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 59
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 151
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 60
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 152
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 61
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 153
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 62
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 154
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 63
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 155
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 64
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 156
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 65
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 157
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 66
+		},
+		
+		{
+			_class = "CNmFloatCurveNode::CDefinition"
+			m_nNodeIdx = 158
+			m_nInputValueNodeIdx = 6
+			m_curve = 
+			{
+				m_spline = 
+				[
+					
+					{
+						x = 0.000000
+						y = 0.500000
+						m_flSlopeIncoming = 0.000000
+						m_flSlopeOutgoing = 0.005759
+					},
+					
+					{
+						x = 158.000000
+						y = 1.410000
+						m_flSlopeIncoming = 0.005759
+						m_flSlopeOutgoing = 0.000000
+					},
+				]
+				m_tangents = 
+				[
+					
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+					
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_LINEAR"
+						m_nOutgoingTangent = "CURVE_TANGENT_LINEAR"
+					},
+				]
+				m_vDomainMins = 
+				[
+					0.000000,
+					0.500000,
+				]
+				m_vDomainMaxs = 
+				[
+					158.000000,
+					1.410000,
+				]
+			}
+		},
+		
+		{
+			_class = "CNmAndNode::CDefinition"
+			m_nNodeIdx = 159
+			m_conditionNodeIndices = 
+			[
+				160,
+				129,
+			]
+		},
+		
+		{
+			_class = "CNmIDComparisonNode::CDefinition"
+			m_nNodeIdx = 160
+			m_nInputValueNodeIdx = 7
+			m_comparison = "Matches"
+			m_comparisionIDs = 
+			[
+				"e_SelectedAbility_item",
+				"e_SelectedAbility_ability_ice_grenade",
+			]
+		},
+		
+		{
+			_class = "CNmStateNode::CDefinition"
+			m_nNodeIdx = 161
+			m_nChildNodeIdx = 162
+			m_entryEvents = 
+			[
+			]
+			m_executeEvents = 
+			[
+			]
+			m_exitEvents = 
+			[
+			]
+			m_timedRemainingEvents = 
+			[
+			]
+			m_timedElapsedEvents = 
+			[
+			]
+			m_nLayerWeightNodeIdx = -1
+			m_nLayerRootMotionWeightNodeIdx = -1
+			m_nLayerBoneMaskNodeIdx = -1
+			m_bIsOffState = false
+		},
+		
+		{
+			_class = "CNmStateMachineNode::CDefinition"
+			m_nNodeIdx = 162
+			m_stateDefinitions = 
+			[
+				
+				{
+					m_nStateNodeIdx = 163
+					m_nEntryConditionNodeIdx = 176
+					m_transitionDefinitions = 
+					[
+						
+						{
+							m_nTargetStateIdx = 1
+							m_nConditionNodeIdx = 211
+							m_nTransitionNodeIdx = 210
+							m_bCanBeForced = false
+						},
+						
+						{
+							m_nTargetStateIdx = 2
+							m_nConditionNodeIdx = 215
+							m_nTransitionNodeIdx = 214
+							m_bCanBeForced = false
+						},
+					]
+				},
+				
+				{
+					m_nStateNodeIdx = 179
+					m_nEntryConditionNodeIdx = 192
+					m_transitionDefinitions = 
+					[
+						
+						{
+							m_nTargetStateIdx = 0
+							m_nConditionNodeIdx = 219
+							m_nTransitionNodeIdx = 218
+							m_bCanBeForced = false
+						},
+						
+						{
+							m_nTargetStateIdx = 2
+							m_nConditionNodeIdx = 215
+							m_nTransitionNodeIdx = 214
+							m_bCanBeForced = false
+						},
+					]
+				},
+				
+				{
+					m_nStateNodeIdx = 194
+					m_nEntryConditionNodeIdx = 207
+					m_transitionDefinitions = 
+					[
+						
+						{
+							m_nTargetStateIdx = 0
+							m_nConditionNodeIdx = 219
+							m_nTransitionNodeIdx = 218
+							m_bCanBeForced = false
+						},
+						
+						{
+							m_nTargetStateIdx = 1
+							m_nConditionNodeIdx = 211
+							m_nTransitionNodeIdx = 210
+							m_bCanBeForced = false
+						},
+					]
+				},
+			]
+			m_nDefaultStateIndex = 0
+		},
+		
+		{
+			_class = "CNmStateNode::CDefinition"
+			m_nNodeIdx = 163
+			m_nChildNodeIdx = 164
+			m_entryEvents = 
+			[
+			]
+			m_executeEvents = 
+			[
+			]
+			m_exitEvents = 
+			[
+			]
+			m_timedRemainingEvents = 
+			[
+			]
+			m_timedElapsedEvents = 
+			[
+			]
+			m_nLayerWeightNodeIdx = -1
+			m_nLayerRootMotionWeightNodeIdx = -1
+			m_nLayerBoneMaskNodeIdx = -1
+			m_bIsOffState = false
+		},
+		
+		{
+			_class = "CNmSpeedScaleNode::CDefinition"
+			m_nNodeIdx = 164
+			m_nChildNodeIdx = 165
+			m_nInputValueNodeIdx = 175
+			m_flDefaultInputValue = 1.000000
+		},
+		
+		{
+			_class = "CNmBlend2DNode::CDefinition"
+			m_nNodeIdx = 165
+			m_sourceNodeIndices = 
+			[
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+			]
+			m_nInputParameterNodeIdx0 = 4
+			m_nInputParameterNodeIdx1 = 5
+			m_values = 
+			[
+				
+				[
+					0.000000,
+					0.000000,
+				],
+				
+				[
+					0.000000,
+					275.579987,
+				],
+				
+				[
+					194.860001,
+					194.860001,
+				],
+				
+				[
+					275.579987,
+					0.000000,
+				],
+				
+				[
+					194.860001,
+					-194.860001,
+				],
+				
+				[
+					0.000000,
+					-275.579987,
+				],
+				
+				[
+					-194.860001,
+					-194.860001,
+				],
+				
+				[
+					-275.579987,
+					0.000000,
+				],
+				
+				[
+					-194.860001,
+					194.860001,
+				],
+			]
+			m_indices = 
+			[
+				0,
+				5,
+				6,
+				0,
+				7,
+				8,
+				0,
+				6,
+				7,
+				1,
+				0,
+				8,
+				5,
+				0,
+				4,
+				4,
+				0,
+				3,
+				3,
+				0,
+				2,
+				0,
+				1,
+				2,
+			]
+			m_hullIndices = 
+			[
+				6,
+				7,
+				8,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+			]
+			m_bAllowLooping = true
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 166
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = true
+			m_nDataSlotIdx = 67
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 167
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = true
+			m_nDataSlotIdx = 68
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 168
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = true
+			m_nDataSlotIdx = 69
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 169
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = true
+			m_nDataSlotIdx = 70
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 170
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = true
+			m_nDataSlotIdx = 71
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 171
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = true
+			m_nDataSlotIdx = 72
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 172
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = true
+			m_nDataSlotIdx = 73
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 173
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = true
+			m_nDataSlotIdx = 74
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 174
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = true
+			m_nDataSlotIdx = 75
+		},
+		
+		{
+			_class = "CNmFloatCurveNode::CDefinition"
+			m_nNodeIdx = 175
+			m_nInputValueNodeIdx = 6
+			m_curve = 
+			{
+				m_spline = 
+				[
+					
+					{
+						x = 0.000000
+						y = 0.500000
+						m_flSlopeIncoming = 0.001820
+						m_flSlopeOutgoing = 0.001820
+					},
+					
+					{
+						x = 275.493164
+						y = 1.001327
+						m_flSlopeIncoming = 0.001972
+						m_flSlopeOutgoing = 0.001972
+					},
+					
+					{
+						x = 355.000000
+						y = 1.200000
+						m_flSlopeIncoming = 0.002499
+						m_flSlopeOutgoing = 0.002499
+					},
+				]
+				m_tangents = 
+				[
+					
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_SPLINE"
+						m_nOutgoingTangent = "CURVE_TANGENT_SPLINE"
+					},
+					
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_SPLINE"
+						m_nOutgoingTangent = "CURVE_TANGENT_SPLINE"
+					},
+					
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_SPLINE"
+						m_nOutgoingTangent = "CURVE_TANGENT_SPLINE"
+					},
+				]
+				m_vDomainMins = 
+				[
+					0.000000,
+					0.500000,
+				]
+				m_vDomainMaxs = 
+				[
+					355.000000,
+					1.200000,
+				]
+			}
+		},
+		
+		{
+			_class = "CNmAndNode::CDefinition"
+			m_nNodeIdx = 176
+			m_conditionNodeIndices = 
+			[
+				177,
+				178,
+			]
+		},
+		
+		{
+			_class = "CNmIDComparisonNode::CDefinition"
+			m_nNodeIdx = 177
+			m_nInputValueNodeIdx = 7
+			m_comparison = "Matches"
+			m_comparisionIDs = 
+			[
+				"e_SelectedAbility_ability_icebeam",
+				"e_SelectedAbility_citadel_weapon_set",
+			]
+		},
+		
+		{
+			_class = "CNmIDComparisonNode::CDefinition"
+			m_nNodeIdx = 178
+			m_nInputValueNodeIdx = 2
+			m_comparison = "Matches"
+			m_comparisionIDs = 
+			[
+				"e_SprintState_out_of_combat_sprint",
+			]
+		},
+		
+		{
+			_class = "CNmStateNode::CDefinition"
+			m_nNodeIdx = 179
+			m_nChildNodeIdx = 180
+			m_entryEvents = 
+			[
+			]
+			m_executeEvents = 
+			[
+			]
+			m_exitEvents = 
+			[
+			]
+			m_timedRemainingEvents = 
+			[
+			]
+			m_timedElapsedEvents = 
+			[
+			]
+			m_nLayerWeightNodeIdx = -1
+			m_nLayerRootMotionWeightNodeIdx = -1
+			m_nLayerBoneMaskNodeIdx = -1
+			m_bIsOffState = false
+		},
+		
+		{
+			_class = "CNmSpeedScaleNode::CDefinition"
+			m_nNodeIdx = 180
+			m_nChildNodeIdx = 181
+			m_nInputValueNodeIdx = 191
+			m_flDefaultInputValue = 1.000000
+		},
+		
+		{
+			_class = "CNmBlend2DNode::CDefinition"
+			m_nNodeIdx = 181
+			m_sourceNodeIndices = 
+			[
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+			]
+			m_nInputParameterNodeIdx0 = 4
+			m_nInputParameterNodeIdx1 = 5
+			m_values = 
+			[
+				
+				[
+					0.000000,
+					0.000000,
+				],
+				
+				[
+					0.000000,
+					275.579987,
+				],
+				
+				[
+					194.860001,
+					194.860001,
+				],
+				
+				[
+					275.579987,
+					0.000000,
+				],
+				
+				[
+					194.860001,
+					-194.860001,
+				],
+				
+				[
+					0.000000,
+					-275.579987,
+				],
+				
+				[
+					-194.860001,
+					-194.860001,
+				],
+				
+				[
+					-275.579987,
+					0.000000,
+				],
+				
+				[
+					-194.860001,
+					194.860001,
+				],
+			]
+			m_indices = 
+			[
+				0,
+				5,
+				6,
+				0,
+				7,
+				8,
+				0,
+				6,
+				7,
+				1,
+				0,
+				8,
+				5,
+				0,
+				4,
+				4,
+				0,
+				3,
+				3,
+				0,
+				2,
+				0,
+				1,
+				2,
+			]
+			m_hullIndices = 
+			[
+				6,
+				7,
+				8,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+			]
+			m_bAllowLooping = true
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 182
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = true
+			m_nDataSlotIdx = 76
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 183
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = true
+			m_nDataSlotIdx = 77
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 184
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = true
+			m_nDataSlotIdx = 78
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 185
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = true
+			m_nDataSlotIdx = 79
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 186
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = true
+			m_nDataSlotIdx = 80
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 187
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = true
+			m_nDataSlotIdx = 81
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 188
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = true
+			m_nDataSlotIdx = 82
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 189
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = true
+			m_nDataSlotIdx = 83
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 190
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = true
+			m_nDataSlotIdx = 84
+		},
+		
+		{
+			_class = "CNmFloatCurveNode::CDefinition"
+			m_nNodeIdx = 191
+			m_nInputValueNodeIdx = 6
+			m_curve = 
+			{
+				m_spline = 
+				[
+					
+					{
+						x = 0.000000
+						y = 0.500000
+						m_flSlopeIncoming = 0.001820
+						m_flSlopeOutgoing = 0.001820
+					},
+					
+					{
+						x = 275.493164
+						y = 1.001327
+						m_flSlopeIncoming = 0.001972
+						m_flSlopeOutgoing = 0.001972
+					},
+					
+					{
+						x = 355.000000
+						y = 1.200000
+						m_flSlopeIncoming = 0.002499
+						m_flSlopeOutgoing = 0.002499
+					},
+				]
+				m_tangents = 
+				[
+					
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_SPLINE"
+						m_nOutgoingTangent = "CURVE_TANGENT_SPLINE"
+					},
+					
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_SPLINE"
+						m_nOutgoingTangent = "CURVE_TANGENT_SPLINE"
+					},
+					
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_SPLINE"
+						m_nOutgoingTangent = "CURVE_TANGENT_SPLINE"
+					},
+				]
+				m_vDomainMins = 
+				[
+					0.000000,
+					0.500000,
+				]
+				m_vDomainMaxs = 
+				[
+					355.000000,
+					1.200000,
+				]
+			}
+		},
+		
+		{
+			_class = "CNmAndNode::CDefinition"
+			m_nNodeIdx = 192
+			m_conditionNodeIndices = 
+			[
+				178,
+				193,
+			]
+		},
+		
+		{
+			_class = "CNmIDComparisonNode::CDefinition"
+			m_nNodeIdx = 193
+			m_nInputValueNodeIdx = 2
+			m_comparison = "DoesntMatch"
+			m_comparisionIDs = 
+			[
+				"e_SprintState_out_of_combat_sprint",
+			]
+		},
+		
+		{
+			_class = "CNmStateNode::CDefinition"
+			m_nNodeIdx = 194
+			m_nChildNodeIdx = 195
+			m_entryEvents = 
+			[
+			]
+			m_executeEvents = 
+			[
+			]
+			m_exitEvents = 
+			[
+			]
+			m_timedRemainingEvents = 
+			[
+			]
+			m_timedElapsedEvents = 
+			[
+			]
+			m_nLayerWeightNodeIdx = -1
+			m_nLayerRootMotionWeightNodeIdx = -1
+			m_nLayerBoneMaskNodeIdx = -1
+			m_bIsOffState = false
+		},
+		
+		{
+			_class = "CNmSpeedScaleNode::CDefinition"
+			m_nNodeIdx = 195
+			m_nChildNodeIdx = 196
+			m_nInputValueNodeIdx = 206
+			m_flDefaultInputValue = 1.000000
+		},
+		
+		{
+			_class = "CNmBlend2DNode::CDefinition"
+			m_nNodeIdx = 196
+			m_sourceNodeIndices = 
+			[
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+			]
+			m_nInputParameterNodeIdx0 = 4
+			m_nInputParameterNodeIdx1 = 5
+			m_values = 
+			[
+				
+				[
+					0.000000,
+					0.000000,
+				],
+				
+				[
+					0.000000,
+					275.579987,
+				],
+				
+				[
+					194.860001,
+					194.860001,
+				],
+				
+				[
+					275.579987,
+					0.000000,
+				],
+				
+				[
+					194.860001,
+					-194.860001,
+				],
+				
+				[
+					0.000000,
+					-275.579987,
+				],
+				
+				[
+					-194.860001,
+					-194.860001,
+				],
+				
+				[
+					-275.579987,
+					0.000000,
+				],
+				
+				[
+					-194.860001,
+					194.860001,
+				],
+			]
+			m_indices = 
+			[
+				0,
+				5,
+				6,
+				0,
+				7,
+				8,
+				0,
+				6,
+				7,
+				1,
+				0,
+				8,
+				5,
+				0,
+				4,
+				4,
+				0,
+				3,
+				3,
+				0,
+				2,
+				0,
+				1,
+				2,
+			]
+			m_hullIndices = 
+			[
+				6,
+				7,
+				8,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+			]
+			m_bAllowLooping = true
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 197
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = true
+			m_nDataSlotIdx = 85
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 198
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = true
+			m_nDataSlotIdx = 86
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 199
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = true
+			m_nDataSlotIdx = 87
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 200
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = true
+			m_nDataSlotIdx = 88
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 201
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = true
+			m_nDataSlotIdx = 89
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 202
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = true
+			m_nDataSlotIdx = 90
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 203
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = true
+			m_nDataSlotIdx = 91
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 204
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = true
+			m_nDataSlotIdx = 92
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 205
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = true
+			m_nDataSlotIdx = 93
+		},
+		
+		{
+			_class = "CNmFloatCurveNode::CDefinition"
+			m_nNodeIdx = 206
+			m_nInputValueNodeIdx = 6
+			m_curve = 
+			{
+				m_spline = 
+				[
+					
+					{
+						x = 0.000000
+						y = 0.500000
+						m_flSlopeIncoming = 0.001820
+						m_flSlopeOutgoing = 0.001820
+					},
+					
+					{
+						x = 275.493164
+						y = 1.001327
+						m_flSlopeIncoming = 0.001972
+						m_flSlopeOutgoing = 0.001972
+					},
+					
+					{
+						x = 355.000000
+						y = 1.200000
+						m_flSlopeIncoming = 0.002499
+						m_flSlopeOutgoing = 0.002499
+					},
+				]
+				m_tangents = 
+				[
+					
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_SPLINE"
+						m_nOutgoingTangent = "CURVE_TANGENT_SPLINE"
+					},
+					
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_SPLINE"
+						m_nOutgoingTangent = "CURVE_TANGENT_SPLINE"
+					},
+					
+					{
+						m_nIncomingTangent = "CURVE_TANGENT_SPLINE"
+						m_nOutgoingTangent = "CURVE_TANGENT_SPLINE"
+					},
+				]
+				m_vDomainMins = 
+				[
+					0.000000,
+					0.500000,
+				]
+				m_vDomainMaxs = 
+				[
+					355.000000,
+					1.200000,
+				]
+			}
+		},
+		
+		{
+			_class = "CNmAndNode::CDefinition"
+			m_nNodeIdx = 207
+			m_conditionNodeIndices = 
+			[
+				208,
+				209,
+			]
+		},
+		
+		{
+			_class = "CNmIDComparisonNode::CDefinition"
+			m_nNodeIdx = 208
+			m_nInputValueNodeIdx = 7
+			m_comparison = "Matches"
+			m_comparisionIDs = 
+			[
+				"e_SelectedAbility_item",
+				"e_SelectedAbility_ability_ice_grenade",
+			]
+		},
+		
+		{
+			_class = "CNmIDComparisonNode::CDefinition"
+			m_nNodeIdx = 209
+			m_nInputValueNodeIdx = 2
+			m_comparison = "DoesntMatch"
+			m_comparisionIDs = 
+			[
+				"e_SprintState_out_of_combat_sprint",
+			]
+		},
+		
+		{
+			_class = "CNmTransitionNode::CDefinition"
+			m_nNodeIdx = 210
+			m_nTargetStateNodeIdx = 179
+			m_nDurationOverrideNodeIdx = -1
+			m_syncEventOffsetOverrideNodeIdx = -1
+			m_startBoneMaskNodeIdx = -1
+			m_flDuration = 0.200000
+			m_boneMaskBlendInTimePercentage = 
+			{
+				m_flValue = 0.330000
+			}
+			m_syncEventOffset = 0.000000
+			m_transitionOptions = 
+			{
+				m_flags = 0
+			}
+			m_targetSyncIDNodeIdx = -1
+			m_blendWeightEasing = "Linear"
+			m_rootMotionBlend = "Blend"
+		},
+		
+		{
+			_class = "CNmAndNode::CDefinition"
+			m_nNodeIdx = 211
+			m_conditionNodeIndices = 
+			[
+				212,
+				213,
+			]
+		},
+		
+		{
+			_class = "CNmIDComparisonNode::CDefinition"
+			m_nNodeIdx = 212
+			m_nInputValueNodeIdx = 2
+			m_comparison = "DoesntMatch"
+			m_comparisionIDs = 
+			[
+				"e_SprintState_out_of_combat_sprint",
+			]
+		},
+		
+		{
+			_class = "CNmIDComparisonNode::CDefinition"
+			m_nNodeIdx = 213
+			m_nInputValueNodeIdx = 2
+			m_comparison = "DoesntMatch"
+			m_comparisionIDs = 
+			[
+				"e_SprintState_out_of_combat_sprint",
+			]
+		},
+		
+		{
+			_class = "CNmTransitionNode::CDefinition"
+			m_nNodeIdx = 214
+			m_nTargetStateNodeIdx = 194
+			m_nDurationOverrideNodeIdx = -1
+			m_syncEventOffsetOverrideNodeIdx = -1
+			m_startBoneMaskNodeIdx = -1
+			m_flDuration = 0.200000
+			m_boneMaskBlendInTimePercentage = 
+			{
+				m_flValue = 0.330000
+			}
+			m_syncEventOffset = 0.000000
+			m_transitionOptions = 
+			{
+				m_flags = 0
+			}
+			m_targetSyncIDNodeIdx = -1
+			m_blendWeightEasing = "Linear"
+			m_rootMotionBlend = "Blend"
+		},
+		
+		{
+			_class = "CNmAndNode::CDefinition"
+			m_nNodeIdx = 215
+			m_conditionNodeIndices = 
+			[
+				216,
+				217,
+			]
+		},
+		
+		{
+			_class = "CNmIDComparisonNode::CDefinition"
+			m_nNodeIdx = 216
+			m_nInputValueNodeIdx = 7
+			m_comparison = "Matches"
+			m_comparisionIDs = 
+			[
+				"e_SelectedAbility_item",
+				"e_SelectedAbility_ability_ice_grenade",
+			]
+		},
+		
+		{
+			_class = "CNmIDComparisonNode::CDefinition"
+			m_nNodeIdx = 217
+			m_nInputValueNodeIdx = 2
+			m_comparison = "DoesntMatch"
+			m_comparisionIDs = 
+			[
+				"e_SprintState_out_of_combat_sprint",
+			]
+		},
+		
+		{
+			_class = "CNmTransitionNode::CDefinition"
+			m_nNodeIdx = 218
+			m_nTargetStateNodeIdx = 163
+			m_nDurationOverrideNodeIdx = -1
+			m_syncEventOffsetOverrideNodeIdx = -1
+			m_startBoneMaskNodeIdx = -1
+			m_flDuration = 0.200000
+			m_boneMaskBlendInTimePercentage = 
+			{
+				m_flValue = 0.330000
+			}
+			m_syncEventOffset = 0.000000
+			m_transitionOptions = 
+			{
+				m_flags = 0
+			}
+			m_targetSyncIDNodeIdx = -1
+			m_blendWeightEasing = "Linear"
+			m_rootMotionBlend = "Blend"
+		},
+		
+		{
+			_class = "CNmAndNode::CDefinition"
+			m_nNodeIdx = 219
+			m_conditionNodeIndices = 
+			[
+				220,
+				221,
+			]
+		},
+		
+		{
+			_class = "CNmIDComparisonNode::CDefinition"
+			m_nNodeIdx = 220
+			m_nInputValueNodeIdx = 7
+			m_comparison = "Matches"
+			m_comparisionIDs = 
+			[
+				"e_SelectedAbility_ability_icebeam",
+				"e_SelectedAbility_citadel_weapon_set",
+			]
+		},
+		
+		{
+			_class = "CNmIDComparisonNode::CDefinition"
+			m_nNodeIdx = 221
+			m_nInputValueNodeIdx = 2
+			m_comparison = "Matches"
+			m_comparisionIDs = 
+			[
+				"e_SprintState_out_of_combat_sprint",
+			]
+		},
+		
+		{
+			_class = "CNmTransitionNode::CDefinition"
+			m_nNodeIdx = 222
+			m_nTargetStateNodeIdx = 130
+			m_nDurationOverrideNodeIdx = -1
+			m_syncEventOffsetOverrideNodeIdx = -1
+			m_startBoneMaskNodeIdx = -1
+			m_flDuration = 0.200000
+			m_boneMaskBlendInTimePercentage = 
+			{
+				m_flValue = 0.330000
+			}
+			m_syncEventOffset = 0.000000
+			m_transitionOptions = 
+			{
+				m_flags = 4
+			}
+			m_targetSyncIDNodeIdx = -1
+			m_blendWeightEasing = "Linear"
+			m_rootMotionBlend = "Blend"
+		},
+		
+		{
+			_class = "CNmAndNode::CDefinition"
+			m_nNodeIdx = 223
+			m_conditionNodeIndices = 
+			[
+				224,
+				225,
+			]
+		},
+		
+		{
+			_class = "CNmIDComparisonNode::CDefinition"
+			m_nNodeIdx = 224
+			m_nInputValueNodeIdx = 7
+			m_comparison = "Matches"
+			m_comparisionIDs = 
+			[
+				"e_SelectedAbility_item",
+				"e_SelectedAbility_ability_ice_grenade",
+			]
+		},
+		
+		{
+			_class = "CNmNotNode::CDefinition"
+			m_nNodeIdx = 225
+			m_nInputValueNodeIdx = 8
+		},
+		
+		{
+			_class = "CNmTransitionNode::CDefinition"
+			m_nNodeIdx = 226
+			m_nTargetStateNodeIdx = 161
+			m_nDurationOverrideNodeIdx = -1
+			m_syncEventOffsetOverrideNodeIdx = -1
+			m_startBoneMaskNodeIdx = -1
+			m_flDuration = 0.200000
+			m_boneMaskBlendInTimePercentage = 
+			{
+				m_flValue = 0.330000
+			}
+			m_syncEventOffset = 0.000000
+			m_transitionOptions = 
+			{
+				m_flags = 4
+			}
+			m_targetSyncIDNodeIdx = -1
+			m_blendWeightEasing = "Linear"
+			m_rootMotionBlend = "Blend"
+		},
+		
+		{
+			_class = "CNmTransitionNode::CDefinition"
+			m_nNodeIdx = 227
+			m_nTargetStateNodeIdx = 16
+			m_nDurationOverrideNodeIdx = -1
+			m_syncEventOffsetOverrideNodeIdx = -1
+			m_startBoneMaskNodeIdx = -1
+			m_flDuration = 0.200000
+			m_boneMaskBlendInTimePercentage = 
+			{
+				m_flValue = 0.330000
+			}
+			m_syncEventOffset = 0.000000
+			m_transitionOptions = 
+			{
+				m_flags = 4
+			}
+			m_targetSyncIDNodeIdx = -1
+			m_blendWeightEasing = "Linear"
+			m_rootMotionBlend = "Blend"
+		},
+		
+		{
+			_class = "CNmAndNode::CDefinition"
+			m_nNodeIdx = 228
+			m_conditionNodeIndices = 
+			[
+				229,
+				225,
+			]
+		},
+		
+		{
+			_class = "CNmIDComparisonNode::CDefinition"
+			m_nNodeIdx = 229
+			m_nInputValueNodeIdx = 7
+			m_comparison = "Matches"
+			m_comparisionIDs = 
+			[
+				"e_SelectedAbility_citadel_weapon_set",
+				"e_SelectedAbility_ability_icebeam",
+			]
+		},
+	]
+}

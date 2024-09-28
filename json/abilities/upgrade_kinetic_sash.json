@@ -15,7 +15,7 @@
                 }
             },
             "AbilityDuration": {
-                "m_strValue": "8",
+                "m_strValue": "7",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "duration",
                 "m_bCanSetTokenOverride": "true",
@@ -111,7 +111,7 @@
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
             },
             "BonusFireRate": {
-                "m_strValue": "25",
+                "m_strValue": "20",
                 "m_strCSSClass": "fireRate",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_FIRE_RATE",
                 "m_UsageFlags": "APUsageFlag_ModifierConditional",
@@ -197,6 +197,7 @@
         "m_bDisabled": "false",
         "m_strCSSClass": "kineticSash",
         "m_strAbilityImage": "file://{images}/upgrades/mods_weapon/kinetic_sash.psd",
+        "m_bShowInPassiveItemsArea": "true",
         "m_vecTooltipSectionInfo": [
             {
                 "m_eAbilitySectionType": "EArea_Innate",

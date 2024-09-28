@@ -26,7 +26,7 @@
                 }
             },
             "AbilityCastRange": {
-                "m_strValue": "30m",
+                "m_strValue": "25m",
                 "m_eDisplayUnits": "EDisplayUnit_Meters",
                 "m_strCSSClass": "range",
                 "m_bCanSetTokenOverride": "true",
@@ -245,7 +245,7 @@
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_NONE",
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_SPHERE",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_PREVENT_BOT_USAGE",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_PREVENT_BOT_USAGE",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_HERO",
         "m_strHookSuccessSound": "Ability.Bebop.Hook.Success.Multi",
         "m_strHookAllySound": "Ability.Bebop.Hook.Success.Multi",

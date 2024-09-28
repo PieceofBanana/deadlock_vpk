@@ -124,20 +124,6 @@
 		},
 		
 		{
-			_class = "CSmartPropVariable_Color"
-			m_nElementID = 141
-			m_DefaultValue = 
-			[
-				115,
-				181,
-				116,
-			]
-			m_VariableName = "cPanelFrameColor"
-			m_bExposeAsParameter = true
-			m_DisplayName = "PanelFrameColor"
-		},
-		
-		{
 			_class = "CSmartPropVariable_Bool"
 			m_nElementID = 142
 			m_VariableName = "bHideFrame"
@@ -1802,6 +1788,24 @@
 					{
 						folder_name = ""
 					}
+					m_Modifiers = 
+					[
+						
+						{
+							_class = "CSmartPropOperation_SetTintColor"
+							m_SelectionMode = "FIRST"
+							m_ColorChoices = 
+							[
+								
+								{
+									m_Color = 
+									{
+										m_SourceName = "cRootFrameColor"
+									}
+								},
+							]
+						},
+					]
 					m_Children = 
 					[
 						

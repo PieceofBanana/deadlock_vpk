@@ -197,7 +197,7 @@
         "m_iItemTier": "EModTier_2",
         "m_iUpdateTime": "1711477520",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_HERO_FRIENDLY",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_ALLOW_SELF_CAST | CITADEL_ABILITY_BEHAVIOR_CAN_CAST_ON_ZIPLINE",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_ALLOW_SELF_CAST | CITADEL_ABILITY_BEHAVIOR_CAN_CAST_ON_ZIPLINE | CITADEL_ABILITY_BEHAVIOR_USE_INSTANT_CAST_UNIT_TARGET_UI | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_CONE",
         "m_flTargetingConeAngle": "45",
         "m_strCSSClass": "restorativeLocket",

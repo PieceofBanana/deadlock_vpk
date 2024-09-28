@@ -1,0 +1,209 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	m_persistentNodeIndices = 
+	[
+		0,
+		1,
+	]
+	m_nRootNodeIdx = 2
+	m_controlParameterIDs = 
+	[
+		"fl_RandomMelee",
+		"fl_TimeScale",
+	]
+	m_virtualParameterIDs = 
+	[
+	]
+	m_virtualParameterNodeIndices = 
+	[
+	]
+	m_childGraphSlots = 
+	[
+	]
+	m_externalGraphSlots = 
+	[
+	]
+	m_nodePaths = 
+	[
+		"fl_RandomMelee",
+		"fl_TimeScale",
+		"Selector",
+		"Melee01",
+		"Selector/Float Comparison",
+		"Melee02",
+		"Melee03",
+		"Selector/Float Range Check",
+		"Melee04",
+		"Melee05",
+		"Selector/Float Range Check",
+		"Melee06",
+		"Melee07",
+		"Selector/Float Comparison",
+		"Melee08",
+	]
+	m_runtimeVersionID = "3cec5fc5-9caa-49e7-918f-4cfe5e23fede"
+	m_nodes = 
+	[
+		
+		{
+			_class = "CNmControlParameterFloatNode::CDefinition"
+			m_nNodeIdx = 0
+		},
+		
+		{
+			_class = "CNmControlParameterFloatNode::CDefinition"
+			m_nNodeIdx = 1
+		},
+		
+		{
+			_class = "CNmSelectorNode::CDefinition"
+			m_nNodeIdx = 2
+			m_optionNodeIndices = 
+			[
+				3,
+				5,
+				6,
+				8,
+				9,
+				11,
+				12,
+				14,
+			]
+			m_conditionNodeIndices = 
+			[
+				4,
+				4,
+				7,
+				7,
+				10,
+				10,
+				13,
+				13,
+			]
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 3
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 0
+		},
+		
+		{
+			_class = "CNmFloatComparisonNode::CDefinition"
+			m_nNodeIdx = 4
+			m_nInputValueNodeIdx = 0
+			m_nComparandValueNodeIdx = -1
+			m_comparison = "LessThan"
+			m_flEpsilon = 0.000000
+			m_flComparisonValue = 25.000000
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 5
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 1
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 6
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 2
+		},
+		
+		{
+			_class = "CNmFloatRangeComparisonNode::CDefinition"
+			m_nNodeIdx = 7
+			m_range = 
+			{
+				m_flMin = 25.000000
+				m_flMax = 50.000000
+			}
+			m_nInputValueNodeIdx = 0
+			m_bIsInclusiveCheck = true
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 8
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 3
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 9
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 4
+		},
+		
+		{
+			_class = "CNmFloatRangeComparisonNode::CDefinition"
+			m_nNodeIdx = 10
+			m_range = 
+			{
+				m_flMin = 51.000000
+				m_flMax = 75.000000
+			}
+			m_nInputValueNodeIdx = 0
+			m_bIsInclusiveCheck = true
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 11
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 5
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 12
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 6
+		},
+		
+		{
+			_class = "CNmFloatComparisonNode::CDefinition"
+			m_nNodeIdx = 13
+			m_nInputValueNodeIdx = 0
+			m_nComparandValueNodeIdx = -1
+			m_comparison = "GreaterThan"
+			m_flEpsilon = 0.000000
+			m_flComparisonValue = 75.000000
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 14
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 7
+		},
+	]
+}

@@ -200,6 +200,6 @@
         "m_bDisabled": "1",
         "m_strCSSClass": "camouflageSuit",
         "m_strAbilityImage": "file://{images}/upgrades/mods_armor/camouflage_suit.psd",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT"
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT"
     }
 }

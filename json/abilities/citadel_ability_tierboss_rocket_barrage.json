@@ -195,7 +195,7 @@
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_UNIT",
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_CIRCLE",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_TARGET_THROUGH_WALLS",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_TARGET_THROUGH_WALLS",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
         "m_strAbilityImage": "file://{images}/hud/abilities/engineer_rockets.psd",
         "m_projectileInfo": {

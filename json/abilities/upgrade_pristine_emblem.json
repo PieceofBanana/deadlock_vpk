@@ -138,6 +138,13 @@
                 "m_strCSSClass": "tech_armor_up",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST",
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
+            },
+            "BonusBulletSpeedPercent": {
+                "m_strValue": "35",
+                "m_eDisplayUnits": "EDisplayUnit_Normal",
+                "m_strCSSClass": "bullet_damage",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_BONUS_BULLET_SPEED_PERCENT",
+                "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             }
         },
         "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
@@ -206,6 +213,7 @@
                         "m_strLocString": "",
                         "m_vecImportantAbilityProperties": [],
                         "m_vecAbilityProperties": [
+                            "BonusBulletSpeedPercent",
                             "BaseAttackDamagePercent",
                             "TechPower",
                             "TechResist"
@@ -232,6 +240,7 @@
                 "_class": "modifier_intrinsic_base",
                 "_my_subclass_name": "modifier_intrinsic_base",
                 "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
+                    "BonusBulletSpeedPercent",
                     "BaseAttackDamagePercent",
                     "TechPower",
                     "TechResist"
@@ -242,6 +251,9 @@
                 "_my_subclass_name": "modifier_pristine_emblem",
                 "m_bIsHidden": "true"
             }
+        ],
+        "m_vecComponentItems": [
+            "upgrade_high_velocity_mag"
         ],
         "m_eShopFilters": "EShopFilterMagicDamage | EShopFilterDurability"
     }

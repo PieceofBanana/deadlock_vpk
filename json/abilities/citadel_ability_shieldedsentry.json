@@ -372,7 +372,7 @@
         "m_iUpdateTime": "1676844248",
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_GROUND",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_PRESS",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_DEPLOY_OBJECT | CITADEL_ABILITY_BEHAVIOR_PREVENT_TRAINING_BOT_USAGE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_DEPLOY_OBJECT | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_PREVENT_TRAINING_BOT_USAGE | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
         "m_strAbilityImage": "file://{images}/hud/abilities/engineer_turret.psd",
         "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/ability_forge_turret.webm",

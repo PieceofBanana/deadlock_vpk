@@ -189,7 +189,7 @@
         "m_strAbilityImage": "file://{images}/upgrades/mods_tech/quantum_chimaera.psd",
         "m_bWarnIfNoAffectedAbilities": "1",
         "m_IncompatibleFilter": {
-            "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_IS_PRIMARY_WEAPON | CITADEL_ABILITY_BEHAVIOR_CLEAVE_DISABLED",
+            "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_IS_PRIMARY_WEAPON | CITADEL_ABILITY_BEHAVIOR_CLEAVE_DISABLED",
             "m_eAbilityType": "EAbilityType_Weapon"
         },
         "m_TechCleaveModifier": {

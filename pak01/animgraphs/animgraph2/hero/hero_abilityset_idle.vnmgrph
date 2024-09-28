@@ -1,0 +1,701 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	m_persistentNodeIndices = 
+	[
+		0,
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+	]
+	m_nRootNodeIdx = 8
+	m_controlParameterIDs = 
+	[
+		"e_MovementType",
+		"b_Aiming",
+		"e_SprintState",
+		"b_Crouching",
+		"fl_StrafeSpeed",
+		"fl_ForwardSpeed",
+		"fl_MoveSpeed",
+		"e_SelectedAbility",
+	]
+	m_virtualParameterIDs = 
+	[
+	]
+	m_virtualParameterNodeIndices = 
+	[
+	]
+	m_childGraphSlots = 
+	[
+	]
+	m_externalGraphSlots = 
+	[
+	]
+	m_nodePaths = 
+	[
+		"e_MovementType",
+		"b_Aiming",
+		"e_SprintState",
+		"b_Crouching",
+		"fl_StrafeSpeed",
+		"fl_ForwardSpeed",
+		"fl_MoveSpeed",
+		"e_SelectedAbility",
+		"HERO_MotionSet",
+		"HERO_MotionSet/PRIMARY_Idle",
+		"HERO_MotionSet/PRIMARY_Idle/SM",
+		"HERO_MotionSet/PRIMARY_Idle/SM/Primary_Idle_ADS",
+		"HERO_MotionSet/PRIMARY_Idle/SM/Primary_Idle_ADS/Blend 1D",
+		"HERO_MotionSet/PRIMARY_Idle/SM/Primary_Idle_ADS/Float Ease",
+		"HERO_MotionSet/PRIMARY_Idle/SM/Primary_Idle_ADS/Float Switch",
+		"HERO_MotionSet/PRIMARY_Idle/SM/Primary_Idle_ADS/Const Float",
+		"HERO_MotionSet/PRIMARY_Idle/SM/Primary_Idle_ADS/Const Float",
+		"HERO_MotionSet/PRIMARY_Idle/SM/Primary_Idle_ADS/ADS_Idle",
+		"HERO_MotionSet/PRIMARY_Idle/SM/Primary_Idle_ADS/ADS_Idle_Crouch",
+		"HERO_MotionSet/PRIMARY_Idle/SM/PRIMARY_Idle",
+		"HERO_MotionSet/PRIMARY_Idle/SM/PRIMARY_Idle/Blend 1D",
+		"HERO_MotionSet/PRIMARY_Idle/SM/PRIMARY_Idle/Float Ease",
+		"HERO_MotionSet/PRIMARY_Idle/SM/PRIMARY_Idle/Float Switch",
+		"HERO_MotionSet/PRIMARY_Idle/SM/PRIMARY_Idle/Const Float",
+		"HERO_MotionSet/PRIMARY_Idle/SM/PRIMARY_Idle/Const Float",
+		"HERO_MotionSet/PRIMARY_Idle/SM/PRIMARY_Idle/Primary_Idle",
+		"HERO_MotionSet/PRIMARY_Idle/SM/PRIMARY_Idle/Primary_Idle_Crouch",
+		"HERO_MotionSet/PRIMARY_Idle/SM/Entry Overrides/Not",
+		"HERO_MotionSet/PRIMARY_Idle/SM/Global Transitions/PRIMARY_Idle",
+		"HERO_MotionSet/PRIMARY_Idle/SM/Global Transitions/Not",
+		"HERO_MotionSet/PRIMARY_Idle/SM/Global Transitions/Primary_Idle_ADS",
+		"HERO_MotionSet/Entry Overrides/ID Comparison",
+		"HERO_MotionSet/ITEM_Idle",
+		"HERO_MotionSet/ITEM_Idle/Blend 1D",
+		"HERO_MotionSet/ITEM_Idle/Float Ease",
+		"HERO_MotionSet/ITEM_Idle/Float Switch",
+		"HERO_MotionSet/ITEM_Idle/Const Float",
+		"HERO_MotionSet/ITEM_Idle/Const Float",
+		"HERO_MotionSet/ITEM_Idle/Item_Idle",
+		"HERO_MotionSet/ITEM_Idle/Primary_Idle_Crouch",
+		"HERO_MotionSet/Entry Overrides/ID Comparison",
+		"HERO_MotionSet/Global Transitions/ITEM_Idle",
+		"HERO_MotionSet/Global Transitions/ID Comparison",
+		"HERO_MotionSet/Global Transitions/PRIMARY_Idle",
+		"HERO_MotionSet/Global Transitions/ID Comparison",
+	]
+	m_runtimeVersionID = "53f220b5-72e6-4737-a05d-5454bdde7c66"
+	m_nodes = 
+	[
+		
+		{
+			_class = "CNmControlParameterIDNode::CDefinition"
+			m_nNodeIdx = 0
+		},
+		
+		{
+			_class = "CNmControlParameterBoolNode::CDefinition"
+			m_nNodeIdx = 1
+		},
+		
+		{
+			_class = "CNmControlParameterIDNode::CDefinition"
+			m_nNodeIdx = 2
+		},
+		
+		{
+			_class = "CNmControlParameterBoolNode::CDefinition"
+			m_nNodeIdx = 3
+		},
+		
+		{
+			_class = "CNmControlParameterFloatNode::CDefinition"
+			m_nNodeIdx = 4
+		},
+		
+		{
+			_class = "CNmControlParameterFloatNode::CDefinition"
+			m_nNodeIdx = 5
+		},
+		
+		{
+			_class = "CNmControlParameterFloatNode::CDefinition"
+			m_nNodeIdx = 6
+		},
+		
+		{
+			_class = "CNmControlParameterIDNode::CDefinition"
+			m_nNodeIdx = 7
+		},
+		
+		{
+			_class = "CNmStateMachineNode::CDefinition"
+			m_nNodeIdx = 8
+			m_stateDefinitions = 
+			[
+				
+				{
+					m_nStateNodeIdx = 9
+					m_nEntryConditionNodeIdx = 31
+					m_transitionDefinitions = 
+					[
+						
+						{
+							m_nTargetStateIdx = 1
+							m_nConditionNodeIdx = 42
+							m_nTransitionNodeIdx = 41
+							m_bCanBeForced = false
+						},
+					]
+				},
+				
+				{
+					m_nStateNodeIdx = 32
+					m_nEntryConditionNodeIdx = 40
+					m_transitionDefinitions = 
+					[
+						
+						{
+							m_nTargetStateIdx = 0
+							m_nConditionNodeIdx = 44
+							m_nTransitionNodeIdx = 43
+							m_bCanBeForced = false
+						},
+					]
+				},
+			]
+			m_nDefaultStateIndex = 0
+		},
+		
+		{
+			_class = "CNmStateNode::CDefinition"
+			m_nNodeIdx = 9
+			m_nChildNodeIdx = 10
+			m_entryEvents = 
+			[
+			]
+			m_executeEvents = 
+			[
+			]
+			m_exitEvents = 
+			[
+			]
+			m_timedRemainingEvents = 
+			[
+			]
+			m_timedElapsedEvents = 
+			[
+			]
+			m_nLayerWeightNodeIdx = -1
+			m_nLayerRootMotionWeightNodeIdx = -1
+			m_nLayerBoneMaskNodeIdx = -1
+			m_bIsOffState = false
+		},
+		
+		{
+			_class = "CNmStateMachineNode::CDefinition"
+			m_nNodeIdx = 10
+			m_stateDefinitions = 
+			[
+				
+				{
+					m_nStateNodeIdx = 11
+					m_nEntryConditionNodeIdx = 1
+					m_transitionDefinitions = 
+					[
+						
+						{
+							m_nTargetStateIdx = 1
+							m_nConditionNodeIdx = 29
+							m_nTransitionNodeIdx = 28
+							m_bCanBeForced = false
+						},
+					]
+				},
+				
+				{
+					m_nStateNodeIdx = 19
+					m_nEntryConditionNodeIdx = 27
+					m_transitionDefinitions = 
+					[
+						
+						{
+							m_nTargetStateIdx = 0
+							m_nConditionNodeIdx = 1
+							m_nTransitionNodeIdx = 30
+							m_bCanBeForced = false
+						},
+					]
+				},
+			]
+			m_nDefaultStateIndex = 1
+		},
+		
+		{
+			_class = "CNmStateNode::CDefinition"
+			m_nNodeIdx = 11
+			m_nChildNodeIdx = 12
+			m_entryEvents = 
+			[
+			]
+			m_executeEvents = 
+			[
+			]
+			m_exitEvents = 
+			[
+			]
+			m_timedRemainingEvents = 
+			[
+			]
+			m_timedElapsedEvents = 
+			[
+			]
+			m_nLayerWeightNodeIdx = -1
+			m_nLayerRootMotionWeightNodeIdx = -1
+			m_nLayerBoneMaskNodeIdx = -1
+			m_bIsOffState = false
+		},
+		
+		{
+			_class = "CNmBlend1DNode::CDefinition"
+			m_nNodeIdx = 12
+			m_sourceNodeIndices = 
+			[
+				17,
+				18,
+			]
+			m_nInputParameterValueNodeIdx = 13
+			m_bAllowLooping = true
+			m_parameterization = 
+			{
+				m_blendRanges = 
+				[
+					
+					{
+						m_nInputIdx0 = 0
+						m_nInputIdx1 = 1
+						m_parameterValueRange = 
+						{
+							m_flMin = 0.000000
+							m_flMax = 1.000000
+						}
+					},
+				]
+				m_parameterRange = 
+				{
+					m_flMin = 0.000000
+					m_flMax = 1.000000
+				}
+			}
+		},
+		
+		{
+			_class = "CNmFloatEaseNode::CDefinition"
+			m_nNodeIdx = 13
+			m_flEaseTime = 0.200000
+			m_flStartValue = 0.000000
+			m_nInputValueNodeIdx = 14
+			m_easingOp = "InOutCirc"
+			m_bUseStartValue = false
+		},
+		
+		{
+			_class = "CNmFloatSwitchNode::CDefinition"
+			m_nNodeIdx = 14
+			m_nSwitchValueNodeIdx = 3
+			m_nTrueValueNodeIdx = 15
+			m_nFalseValueNodeIdx = 16
+		},
+		
+		{
+			_class = "CNmConstFloatNode::CDefinition"
+			m_nNodeIdx = 15
+			m_flValue = 1.000000
+		},
+		
+		{
+			_class = "CNmConstFloatNode::CDefinition"
+			m_nNodeIdx = 16
+			m_flValue = 0.000000
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 17
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = true
+			m_nDataSlotIdx = 0
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 18
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = true
+			m_nDataSlotIdx = 1
+		},
+		
+		{
+			_class = "CNmStateNode::CDefinition"
+			m_nNodeIdx = 19
+			m_nChildNodeIdx = 20
+			m_entryEvents = 
+			[
+			]
+			m_executeEvents = 
+			[
+			]
+			m_exitEvents = 
+			[
+			]
+			m_timedRemainingEvents = 
+			[
+			]
+			m_timedElapsedEvents = 
+			[
+			]
+			m_nLayerWeightNodeIdx = -1
+			m_nLayerRootMotionWeightNodeIdx = -1
+			m_nLayerBoneMaskNodeIdx = -1
+			m_bIsOffState = false
+		},
+		
+		{
+			_class = "CNmBlend1DNode::CDefinition"
+			m_nNodeIdx = 20
+			m_sourceNodeIndices = 
+			[
+				25,
+				26,
+			]
+			m_nInputParameterValueNodeIdx = 21
+			m_bAllowLooping = true
+			m_parameterization = 
+			{
+				m_blendRanges = 
+				[
+					
+					{
+						m_nInputIdx0 = 0
+						m_nInputIdx1 = 1
+						m_parameterValueRange = 
+						{
+							m_flMin = 0.000000
+							m_flMax = 1.000000
+						}
+					},
+				]
+				m_parameterRange = 
+				{
+					m_flMin = 0.000000
+					m_flMax = 1.000000
+				}
+			}
+		},
+		
+		{
+			_class = "CNmFloatEaseNode::CDefinition"
+			m_nNodeIdx = 21
+			m_flEaseTime = 0.200000
+			m_flStartValue = 0.000000
+			m_nInputValueNodeIdx = 22
+			m_easingOp = "InOutCirc"
+			m_bUseStartValue = false
+		},
+		
+		{
+			_class = "CNmFloatSwitchNode::CDefinition"
+			m_nNodeIdx = 22
+			m_nSwitchValueNodeIdx = 3
+			m_nTrueValueNodeIdx = 23
+			m_nFalseValueNodeIdx = 24
+		},
+		
+		{
+			_class = "CNmConstFloatNode::CDefinition"
+			m_nNodeIdx = 23
+			m_flValue = 1.000000
+		},
+		
+		{
+			_class = "CNmConstFloatNode::CDefinition"
+			m_nNodeIdx = 24
+			m_flValue = 0.000000
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 25
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = true
+			m_nDataSlotIdx = 2
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 26
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = true
+			m_nDataSlotIdx = 3
+		},
+		
+		{
+			_class = "CNmNotNode::CDefinition"
+			m_nNodeIdx = 27
+			m_nInputValueNodeIdx = 1
+		},
+		
+		{
+			_class = "CNmTransitionNode::CDefinition"
+			m_nNodeIdx = 28
+			m_nTargetStateNodeIdx = 19
+			m_nDurationOverrideNodeIdx = -1
+			m_syncEventOffsetOverrideNodeIdx = -1
+			m_startBoneMaskNodeIdx = -1
+			m_flDuration = 0.200000
+			m_boneMaskBlendInTimePercentage = 
+			{
+				m_flValue = 0.330000
+			}
+			m_syncEventOffset = 0.000000
+			m_transitionOptions = 
+			{
+				m_flags = 0
+			}
+			m_targetSyncIDNodeIdx = -1
+			m_blendWeightEasing = "Linear"
+			m_rootMotionBlend = "Blend"
+		},
+		
+		{
+			_class = "CNmNotNode::CDefinition"
+			m_nNodeIdx = 29
+			m_nInputValueNodeIdx = 1
+		},
+		
+		{
+			_class = "CNmTransitionNode::CDefinition"
+			m_nNodeIdx = 30
+			m_nTargetStateNodeIdx = 11
+			m_nDurationOverrideNodeIdx = -1
+			m_syncEventOffsetOverrideNodeIdx = -1
+			m_startBoneMaskNodeIdx = -1
+			m_flDuration = 0.200000
+			m_boneMaskBlendInTimePercentage = 
+			{
+				m_flValue = 0.330000
+			}
+			m_syncEventOffset = 0.000000
+			m_transitionOptions = 
+			{
+				m_flags = 0
+			}
+			m_targetSyncIDNodeIdx = -1
+			m_blendWeightEasing = "Linear"
+			m_rootMotionBlend = "Blend"
+		},
+		
+		{
+			_class = "CNmIDComparisonNode::CDefinition"
+			m_nNodeIdx = 31
+			m_nInputValueNodeIdx = 7
+			m_comparison = "Matches"
+			m_comparisionIDs = 
+			[
+				"e_SelectedAbility_citadel_weapon_set",
+			]
+		},
+		
+		{
+			_class = "CNmStateNode::CDefinition"
+			m_nNodeIdx = 32
+			m_nChildNodeIdx = 33
+			m_entryEvents = 
+			[
+			]
+			m_executeEvents = 
+			[
+			]
+			m_exitEvents = 
+			[
+			]
+			m_timedRemainingEvents = 
+			[
+			]
+			m_timedElapsedEvents = 
+			[
+			]
+			m_nLayerWeightNodeIdx = -1
+			m_nLayerRootMotionWeightNodeIdx = -1
+			m_nLayerBoneMaskNodeIdx = -1
+			m_bIsOffState = false
+		},
+		
+		{
+			_class = "CNmBlend1DNode::CDefinition"
+			m_nNodeIdx = 33
+			m_sourceNodeIndices = 
+			[
+				38,
+				39,
+			]
+			m_nInputParameterValueNodeIdx = 34
+			m_bAllowLooping = true
+			m_parameterization = 
+			{
+				m_blendRanges = 
+				[
+					
+					{
+						m_nInputIdx0 = 0
+						m_nInputIdx1 = 1
+						m_parameterValueRange = 
+						{
+							m_flMin = 0.000000
+							m_flMax = 1.000000
+						}
+					},
+				]
+				m_parameterRange = 
+				{
+					m_flMin = 0.000000
+					m_flMax = 1.000000
+				}
+			}
+		},
+		
+		{
+			_class = "CNmFloatEaseNode::CDefinition"
+			m_nNodeIdx = 34
+			m_flEaseTime = 0.200000
+			m_flStartValue = 0.000000
+			m_nInputValueNodeIdx = 35
+			m_easingOp = "InOutCirc"
+			m_bUseStartValue = false
+		},
+		
+		{
+			_class = "CNmFloatSwitchNode::CDefinition"
+			m_nNodeIdx = 35
+			m_nSwitchValueNodeIdx = 3
+			m_nTrueValueNodeIdx = 36
+			m_nFalseValueNodeIdx = 37
+		},
+		
+		{
+			_class = "CNmConstFloatNode::CDefinition"
+			m_nNodeIdx = 36
+			m_flValue = 1.000000
+		},
+		
+		{
+			_class = "CNmConstFloatNode::CDefinition"
+			m_nNodeIdx = 37
+			m_flValue = 0.000000
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 38
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = true
+			m_nDataSlotIdx = 4
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 39
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = true
+			m_nDataSlotIdx = 5
+		},
+		
+		{
+			_class = "CNmIDComparisonNode::CDefinition"
+			m_nNodeIdx = 40
+			m_nInputValueNodeIdx = 7
+			m_comparison = "Matches"
+			m_comparisionIDs = 
+			[
+				"e_SelectedAbility_item",
+			]
+		},
+		
+		{
+			_class = "CNmTransitionNode::CDefinition"
+			m_nNodeIdx = 41
+			m_nTargetStateNodeIdx = 32
+			m_nDurationOverrideNodeIdx = -1
+			m_syncEventOffsetOverrideNodeIdx = -1
+			m_startBoneMaskNodeIdx = -1
+			m_flDuration = 0.200000
+			m_boneMaskBlendInTimePercentage = 
+			{
+				m_flValue = 0.330000
+			}
+			m_syncEventOffset = 0.000000
+			m_transitionOptions = 
+			{
+				m_flags = 0
+			}
+			m_targetSyncIDNodeIdx = -1
+			m_blendWeightEasing = "Linear"
+			m_rootMotionBlend = "Blend"
+		},
+		
+		{
+			_class = "CNmIDComparisonNode::CDefinition"
+			m_nNodeIdx = 42
+			m_nInputValueNodeIdx = 7
+			m_comparison = "Matches"
+			m_comparisionIDs = 
+			[
+				"e_SelectedAbility_item",
+			]
+		},
+		
+		{
+			_class = "CNmTransitionNode::CDefinition"
+			m_nNodeIdx = 43
+			m_nTargetStateNodeIdx = 9
+			m_nDurationOverrideNodeIdx = -1
+			m_syncEventOffsetOverrideNodeIdx = -1
+			m_startBoneMaskNodeIdx = -1
+			m_flDuration = 0.200000
+			m_boneMaskBlendInTimePercentage = 
+			{
+				m_flValue = 0.330000
+			}
+			m_syncEventOffset = 0.000000
+			m_transitionOptions = 
+			{
+				m_flags = 0
+			}
+			m_targetSyncIDNodeIdx = -1
+			m_blendWeightEasing = "Linear"
+			m_rootMotionBlend = "Blend"
+		},
+		
+		{
+			_class = "CNmIDComparisonNode::CDefinition"
+			m_nNodeIdx = 44
+			m_nInputValueNodeIdx = 7
+			m_comparison = "Matches"
+			m_comparisionIDs = 
+			[
+				"e_SelectedAbility_citadel_weapon_set",
+			]
+		},
+	]
+}

@@ -128,7 +128,7 @@
                 "m_strValue": "3.0"
             },
             "BaseAttackDamagePercentAtMaxDuration": {
-                "m_strValue": "75",
+                "m_strValue": "60",
                 "m_strCSSClass": "bullet_damage",
                 "m_eDisplayUnits": "EDisplayUnit_Normal",
                 "m_eDisplayType": "EBaseWeaponDamageIncrease",

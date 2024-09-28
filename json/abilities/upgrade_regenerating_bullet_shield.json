@@ -111,19 +111,19 @@
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
             },
             "BulletShieldMaxHealth": {
-                "m_strValue": "300",
+                "m_strValue": "325",
                 "m_strCSSClass": "bullet_armor_up",
                 "m_eDisplayType": "EBulletShieldHealth",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_BULLET_SHIELD_HEALTH_MAX"
             },
             "AttackDamageWhenShielded": {
-                "m_strValue": "28",
+                "m_strValue": "25",
                 "m_strCSSClass": "bullet_damage",
                 "m_eDisplayUnits": "EDisplayUnit_Normal",
                 "m_strLocTokenOverride": "BonusBaseWeaponDamageWithShield"
             },
             "FireRateWhenShielded": {
-                "m_strValue": "8",
+                "m_strValue": "6",
                 "m_strCSSClass": "fireRate",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_FIRE_RATE",
                 "m_strConditionalLocTokenOverride": "#CombatBarrierFireRateConditional"
@@ -217,7 +217,8 @@
             {
                 "_class": "modifier_regenerating_bullet_shield",
                 "_my_subclass_name": "modifier_regenerating_bullet_shield",
-                "m_bIsHidden": "true"
+                "m_bIsHidden": "true",
+                "m_strParticleStatusEffect": ""
             }
         ],
         "m_eShopFilters": "EShopFilterWeaponDamage | EShopFilterDurability"

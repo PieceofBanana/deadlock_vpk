@@ -178,14 +178,14 @@
             "m_flRecoilSpeed": "1.200000",
             "m_flZoomFOV": "35.000000",
             "m_flDamageFalloffStartRange": "866.000000",
-            "m_flDamageFalloffEndRange": "2264.000000",
+            "m_flDamageFalloffEndRange": "1771.650000",
             "m_flRange": "7000.000000",
             "m_flBulletLifetime": "2",
             "m_flDamageFalloffStartScale": "1.000000",
             "m_flDamageFalloffEndScale": "0.100000",
             "m_flDamageFalloffBias": "0.500000",
             "m_iBullets": "1",
-            "m_flCycleTime": "0.190000",
+            "m_flCycleTime": "0.220000",
             "m_reloadDuration": "2.914000",
             "m_iClipSize": "22",
             "m_iBurstShotCount": "1",
@@ -266,6 +266,7 @@
             "m_strLowAmmoSound": "Player.WpnLowAmmo.Shared",
             "m_bBulletShouldUseVerlet": "true",
             "m_nLowAmmoIndicatorThreshold": "4",
+            "m_flBulletDamage": "15",
             "m_nRecoilSeed": "123",
             "m_AimingMoveSpreadPenalty": [
                 "0.000000",
@@ -284,8 +285,7 @@
                 "0.200000"
             ],
             "m_strBulletImpactSound": "Hornet.Wpn.Impact",
-            "m_szSelfBulletTravelTracerParticle": "particles/weapon_fx/hornet/hornet_tracer_player.vpcf",
-            "m_flBulletDamage": "13"
+            "m_szSelfBulletTravelTracerParticle": "particles/weapon_fx/hornet/hornet_tracer_player.vpcf"
         },
         "_multibase": [
             "hero_weapon_base"
@@ -293,7 +293,7 @@
         "m_bStartTrained": "true",
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_SELF",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_ON_BUTTON_IS_DOWN",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_IS_PRIMARY_WEAPON | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK | CITADEL_ABILITY_BEHAVIOR_DISARMABLE | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_WEAPON_TOGGLE",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_IS_PRIMARY_WEAPON | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK | CITADEL_ABILITY_BEHAVIOR_DISARMABLE | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_WEAPON_TOGGLE",
         "m_bitsInterruptingStates": "MODIFIER_STATE_STUNNED | MODIFIER_STATE_IS_ASLEEP",
         "m_eAbilityType": "EAbilityType_Weapon",
         "m_strAbilityImage": "file://{images}/hud/abilities/weapon_damage.psd",

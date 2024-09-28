@@ -99,10 +99,13 @@
                 "m_strCSSClass": "cast"
             },
             "TechPower": {
-                "m_strValue": "0",
+                "m_strValue": "12",
                 "m_strDisableValue": "0",
                 "m_bCanSetTokenOverride": "true",
-                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_POWER"
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_POWER",
+                "m_strCSSClass": "tech_damage",
+                "m_eDisplayType": "ETechPower",
+                "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             },
             "WeaponPower": {
                 "m_strValue": "0",
@@ -200,7 +203,7 @@
         "m_strCSSClass": "empBullets",
         "m_strAbilityImage": "file://{images}/upgrades/mods_weapon/emp_bullets.psd",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_HERO_ENEMY",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CAN_CAST_ON_ZIPLINE",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CAN_CAST_ON_ZIPLINE",
         "m_strCastSound": "Mods.Weapon.Silencer.Cast",
         "m_strSelectedLoopSound": "Mods.Weapon.TargetedSilence.Target.Lp",
         "m_strSelectedSound": "Mods.Weapon.TargetedSilence.Target.Start",
@@ -230,7 +233,8 @@
                         "m_strLocString": "",
                         "m_vecAbilityProperties": [
                             "SlowPercent",
-                            "BaseAttackDamagePercent"
+                            "BaseAttackDamagePercent",
+                            "TechPower"
                         ],
                         "m_vecImportantAbilityProperties": []
                     }
@@ -260,6 +264,7 @@
                 "_my_subclass_name": "modifier_intrinsic_base",
                 "m_bIsHidden": "true",
                 "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
+                    "TechPower",
                     "BaseAttackDamagePercent"
                 ]
             },

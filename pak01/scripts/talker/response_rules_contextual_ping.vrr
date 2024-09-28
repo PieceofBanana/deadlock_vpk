@@ -9,6 +9,7 @@
 			m_matchKey = "Concept"
 			m_matchExpr = "TLK_CITADEL_PING"
 			m_bRequired = true
+			m_respeakDelay.start = 3.000000
 		},
 		
 		{

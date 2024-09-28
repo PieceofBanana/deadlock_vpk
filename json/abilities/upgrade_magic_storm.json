@@ -208,7 +208,7 @@
         "m_TargetAbilityEffectsToApply": "CITADEL_TARGET_ABILITY_BEHAVIOR_IMBUE_ACTIVE",
         "m_strCSSClass": "magicStorm",
         "m_strAbilityImage": "file://{images}/upgrades/mods_tech/magic_storm.psd",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
         "m_bShowInPassiveItemsArea": "true",
         "m_vecTooltipSectionInfo": [
             {

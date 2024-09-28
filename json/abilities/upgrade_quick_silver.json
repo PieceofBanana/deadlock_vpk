@@ -188,7 +188,7 @@
         "m_strCSSClass": "fireRatePlus",
         "m_strAbilityImage": "file://{images}/upgrades/mods_weapon/fire_rate_plus.psd",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
         "m_bShowInPassiveItemsArea": "true",
         "m_vecTooltipSectionInfo": [
             {

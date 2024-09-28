@@ -1,0 +1,4282 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vrfunknown:version{4dddb66e-c6ed-4bd0-a4ef-afb45a02acc2} -->
+{
+	generic_data_type = "CSmartPropRoot"
+	m_nMaxDepth = 32
+	_editor = 
+	{
+		next_element_id = 436
+	}
+	m_Variables = 
+	[
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_VariableName = "length"
+			m_nElementID = 171
+		},
+		
+		{
+			_class = "CSmartPropVariable_MaterialGroup"
+			m_sModelName = resource_name:"models/pipes/pipe01_med_90_a.vmdl"
+			m_bExposeAsParameter = true
+			m_DisplayName = ""
+			m_VariableName = "material"
+			m_DefaultValue = "default"
+			m_nElementID = 172
+		},
+		
+		{
+			_class = "CSmartPropVariable_Bool"
+			m_VariableName = "start_cap"
+			m_bExposeAsParameter = true
+			m_DefaultValue = true
+			m_nElementID = 175
+		},
+		
+		{
+			_class = "CSmartPropVariable_Bool"
+			m_VariableName = "end_cap"
+			m_DefaultValue = true
+			m_bExposeAsParameter = true
+			m_nElementID = 176
+		},
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_nElementID = 179
+			m_VariableName = "radius_scl"
+			m_DefaultValue = 1.000000
+			m_bExposeAsParameter = true
+			m_flParamaterMinValue = 0.000000
+			m_flParamaterMaxValue = 8.000000
+		},
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_nElementID = 180
+			m_VariableName = "str_len"
+			m_DefaultValue = 64.000000
+		},
+		
+		{
+			_class = "CSmartPropVariable_Model"
+			m_nElementID = 181
+			m_VariableName = "flange_model"
+			m_DefaultValue = resource_name:"models/industrial/pipe/pipe01_16_flange01_a.vmdl"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_nElementID = 186
+			m_VariableName = "flange_scl"
+			m_DefaultValue = 1.000000
+		},
+		
+		{
+			_class = "CSmartPropVariable_Bool"
+			m_nElementID = 191
+			m_VariableName = "first"
+			m_DefaultValue = true
+		},
+		
+		{
+			_class = "CSmartPropVariable_Color"
+			m_nElementID = 200
+			m_VariableName = "primary_color"
+			m_DefaultValue = 
+			[
+				255,
+				255,
+				255,
+			]
+			m_bExposeAsParameter = true
+			m_DisplayName = "Primary"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Color"
+			m_nElementID = 201
+			m_VariableName = "secondary_color"
+			m_DefaultValue = 
+			[
+				255,
+				255,
+				255,
+			]
+			m_bExposeAsParameter = true
+			m_DisplayName = "Secondary"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Int"
+			m_nElementID = 216
+			m_DefaultValue = 3
+			m_VariableName = "count"
+			m_bExposeAsParameter = true
+			m_nParamaterMaxValue = 8
+			m_nParamaterMinValue = 1
+		},
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_nElementID = 217
+			m_VariableName = "offset"
+			m_DefaultValue = 10.000000
+			m_bExposeAsParameter = true
+			m_flParamaterMaxValue = 100.000000
+		},
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_nElementID = 218
+			m_VariableName = "instance_offset"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Int"
+			m_nElementID = 220
+			m_VariableName = "model_index"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Vector3D"
+			m_nElementID = 228
+			m_VariableName = "plane_nml"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Vector3D"
+			m_nElementID = 229
+			m_VariableName = "plane_tan"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Vector3D"
+			m_nElementID = 234
+			m_VariableName = "plane_pos"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Vector3D"
+			m_nElementID = 281
+			m_VariableName = "inst_pos"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_nElementID = 246
+			m_VariableName = "sampleOffset"
+			m_DefaultValue = 0.234000
+			m_bExposeAsParameter = true
+			m_flParamaterMaxValue = 1.000000
+			m_flParamaterMinValue = 0.000000
+		},
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_nElementID = 247
+			m_VariableName = "sampleScale"
+			m_DefaultValue = 0.000000
+			m_bExposeAsParameter = true
+			m_flParamaterMaxValue = 32.000000
+		},
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_nElementID = 253
+			m_VariableName = "vertical_offset"
+			m_DefaultValue = 0.000000
+		},
+		
+		{
+			_class = "CSmartPropVariable_Int"
+			m_nElementID = 272
+			m_VariableName = "prev_index"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Vector3D"
+			m_nElementID = 273
+			m_VariableName = "prev_pos"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Vector3D"
+			m_nElementID = 279
+			m_VariableName = "prev_tan"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Vector3D"
+			m_nElementID = 280
+			m_VariableName = "prev_inst_pos"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_nElementID = 283
+			m_VariableName = "str_end_xOffset"
+			m_DefaultValue = 8.000000
+		},
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_nElementID = 290
+			m_VariableName = "prev_str_end_xOffset"
+			m_DefaultValue = 8.000000
+		},
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_nElementID = 345
+			m_VariableName = "rot_angle"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_nElementID = 347
+			m_VariableName = "costheta"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_nElementID = 348
+			m_VariableName = "prev_costheta"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_nElementID = 353
+			m_VariableName = "prev_rot_angle"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Vector3D"
+			m_nElementID = 394
+			m_VariableName = "left"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Model"
+			m_nElementID = 265
+			m_VariableName = "model_str"
+			m_DefaultValue = resource_name:"models/pipes/pipe01_small_str.vmdl"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Model"
+			m_nElementID = 251
+			m_DefaultValue = resource_name:"models/pipes/pipe01_small_cap.vmdl"
+			m_VariableName = "model_cap"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Model"
+			m_nElementID = 250
+			m_VariableName = "model_scl"
+			m_DefaultValue = resource_name:"models/pipes/pipe01_small_scl.vmdl"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Model"
+			m_nElementID = 249
+			m_VariableName = "model_t_b"
+			m_DefaultValue = resource_name:"models/pipes/pipe01_small_t_b.vmdl"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Model"
+			m_nElementID = 248
+			m_DefaultValue = resource_name:"models/pipes/pipe01_small_t_a.vmdl"
+			m_VariableName = "model_t_a"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Model"
+			m_nElementID = 425
+			m_VariableName = "model_90_d"
+			m_DefaultValue = resource_name:"models/pipes/pipe01_small_90_d.vmdl"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Model"
+			m_nElementID = 426
+			m_VariableName = "model_90_c"
+			m_DefaultValue = resource_name:"models/pipes/pipe01_small_90_c.vmdl"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Model"
+			m_nElementID = 245
+			m_VariableName = "model_90_b"
+			m_DefaultValue = resource_name:"models/pipes/pipe01_small_90_b.vmdl"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Model"
+			m_nElementID = 244
+			m_DefaultValue = resource_name:"models/pipes/pipe01_small_90_a.vmdl"
+			m_VariableName = "model_90_a"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Model"
+			m_nElementID = 243
+			m_VariableName = "model_45"
+			m_DefaultValue = resource_name:"models/pipes/pipe01_small_45.vmdl"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Int"
+			m_nElementID = 267
+			m_bExposeAsParameter = true
+			m_VariableName = "style"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_nElementID = 271
+			m_VariableName = "circ"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Int"
+			m_nElementID = 277
+			m_VariableName = "bolt_count"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Bool"
+			m_nElementID = 286
+			m_VariableName = "rivets"
+			m_DefaultValue = true
+			m_bExposeAsParameter = true
+		},
+	]
+	m_Children = 
+	[
+		
+		{
+			_class = "CSmartPropElement_ModifyState"
+			m_nElementID = 352
+			_editor = 
+			{
+				folder_name = ""
+			}
+			m_Modifiers = 
+			[
+				
+				{
+					_class = "CSmartPropOperation_SetVariable"
+					m_VariableValue = 
+					{
+						m_TargetName = "circ"
+						m_DataType = "FLOAT"
+						m_Value = 
+						{
+							m_Expression = "2.0 * pi * radius_scl * 14.5"
+						}
+					}
+				},
+				
+				{
+					_class = "CSmartPropOperation_SetVariable"
+					m_VariableValue = 
+					{
+						m_TargetName = "bolt_count"
+						m_DataType = "INTEGER"
+						m_Value = 
+						{
+							m_Expression = "min( circ / 12, 24 )"
+						}
+					}
+				},
+			]
+		},
+		
+		{
+			_class = "CSmartPropElement_Group"
+			m_nElementID = 183
+			_editor = 
+			{
+				folder_name = ""
+			}
+			m_sLabel = ""
+			m_Children = 
+			[
+				
+				{
+					_class = "CSmartPropElement_ModifyState"
+					m_nElementID = 182
+					_editor = 
+					{
+						folder_name = ""
+					}
+					m_sLabel = "style == 0"
+					m_Modifiers = 
+					[
+						
+						{
+							_class = "CSmartPropFilter_Expression"
+							m_Expression = "style == 0"
+							m_bEnabled = true
+						},
+						
+						{
+							_class = "CSmartPropOperation_SetVariable"
+							m_VariableValue = 
+							{
+								m_TargetName = "flange_model"
+								m_DataType = "STRING"
+								m_Value = resource_name:"models/industrial/pipe/pipe01_8_flange01_a.vmdl"
+							}
+						},
+						
+						{
+							_class = "CSmartPropOperation_SetVariable"
+							m_VariableValue = 
+							{
+								m_TargetName = "model_45"
+								m_DataType = "STRING"
+								m_Value = resource_name:"models/pipes/pipe01_small_45.vmdl"
+							}
+						},
+						
+						{
+							_class = "CSmartPropOperation_SetVariable"
+							m_VariableValue = 
+							{
+								m_TargetName = "model_90_a"
+								m_DataType = "STRING"
+								m_Value = resource_name:"models/pipes/pipe01_small_90_a.vmdl"
+							}
+						},
+						
+						{
+							_class = "CSmartPropOperation_SetVariable"
+							m_VariableValue = 
+							{
+								m_TargetName = "model_90_b"
+								m_DataType = "STRING"
+								m_Value = resource_name:"models/pipes/pipe01_small_90_b.vmdl"
+							}
+						},
+						
+						{
+							_class = "CSmartPropOperation_SetVariable"
+							m_VariableValue = 
+							{
+								m_TargetName = "model_90_c"
+								m_DataType = "STRING"
+								m_Value = resource_name:"models/pipes/pipe01_small_90_c.vmdl"
+							}
+						},
+						
+						{
+							_class = "CSmartPropOperation_SetVariable"
+							m_VariableValue = 
+							{
+								m_TargetName = "model_90_d"
+								m_DataType = "STRING"
+								m_Value = resource_name:"models/pipes/pipe01_small_90_d.vmdl"
+							}
+						},
+						
+						{
+							_class = "CSmartPropOperation_SetVariable"
+							m_VariableValue = 
+							{
+								m_TargetName = "model_cap"
+								m_DataType = "STRING"
+								m_Value = resource_name:"models/pipes/pipe01_small_cap.vmdl"
+							}
+						},
+						
+						{
+							_class = "CSmartPropOperation_SetVariable"
+							m_VariableValue = 
+							{
+								m_TargetName = "model_scl"
+								m_DataType = "STRING"
+								m_Value = resource_name:"models/pipes/pipe01_med_scl.vmdl"
+							}
+						},
+						
+						{
+							_class = "CSmartPropOperation_SetVariable"
+							m_VariableValue = 
+							{
+								m_TargetName = "model_t_a"
+								m_DataType = "STRING"
+								m_Value = resource_name:"models/pipes/pipe01_small_t_a.vmdl"
+							}
+						},
+						
+						{
+							_class = "CSmartPropOperation_SetVariable"
+							m_VariableValue = 
+							{
+								m_TargetName = "model_t_b"
+								m_DataType = "STRING"
+								m_Value = resource_name:"models/pipes/pipe01_small_t_b.vmdl"
+							}
+						},
+						
+						{
+							_class = "CSmartPropOperation_SetVariable"
+							m_VariableValue = 
+							{
+								m_TargetName = "model_str"
+								m_DataType = "STRING"
+								m_Value = resource_name:"models/pipes/pipe01_small_str.vmdl"
+							}
+						},
+					]
+				},
+				
+				{
+					_class = "CSmartPropElement_ModifyState"
+					m_nElementID = 185
+					m_sLabel = "style == 1"
+					m_bEnabled = true
+					_editor = 
+					{
+						folder_name = ""
+					}
+					m_Modifiers = 
+					[
+						
+						{
+							_class = "CSmartPropFilter_Expression"
+							m_Expression = "style == 1"
+						},
+						
+						{
+							_class = "CSmartPropOperation_SetVariable"
+							m_VariableValue = 
+							{
+								m_TargetName = "flange_model"
+								m_DataType = "STRING"
+								m_Value = resource_name:"models/industrial/pipe/pipe01_16_flange01_a.vmdl"
+							}
+						},
+						
+						{
+							_class = "CSmartPropOperation_SetVariable"
+							m_VariableValue = 
+							{
+								m_TargetName = "model_45"
+								m_DataType = "STRING"
+								m_Value = resource_name:"models/pipes/pipe01_med_45.vmdl"
+							}
+						},
+						
+						{
+							_class = "CSmartPropOperation_SetVariable"
+							m_VariableValue = 
+							{
+								m_TargetName = "model_90_a"
+								m_DataType = "STRING"
+								m_Value = resource_name:"models/pipes/pipe01_med_90_a.vmdl"
+							}
+						},
+						
+						{
+							_class = "CSmartPropOperation_SetVariable"
+							m_VariableValue = 
+							{
+								m_TargetName = "model_90_b"
+								m_DataType = "STRING"
+								m_Value = resource_name:"models/pipes/pipe01_med_90_b.vmdl"
+							}
+						},
+						
+						{
+							_class = "CSmartPropOperation_SetVariable"
+							m_VariableValue = 
+							{
+								m_TargetName = "model_90_c"
+								m_DataType = "STRING"
+								m_Value = resource_name:"models/pipes/pipe01_med_90_c.vmdl"
+							}
+						},
+						
+						{
+							_class = "CSmartPropOperation_SetVariable"
+							m_VariableValue = 
+							{
+								m_TargetName = "model_90_d"
+								m_DataType = "STRING"
+								m_Value = resource_name:"models/pipes/pipe01_med_90_d.vmdl"
+							}
+						},
+						
+						{
+							_class = "CSmartPropOperation_SetVariable"
+							m_VariableValue = 
+							{
+								m_TargetName = "model_cap"
+								m_DataType = "STRING"
+								m_Value = resource_name:"models/pipes/pipe01_med_cap.vmdl"
+							}
+						},
+						
+						{
+							_class = "CSmartPropOperation_SetVariable"
+							m_VariableValue = 
+							{
+								m_TargetName = "model_scl"
+								m_DataType = "STRING"
+								m_Value = resource_name:"models/pipes/pipe01_med_scl.vmdl"
+							}
+						},
+						
+						{
+							_class = "CSmartPropOperation_SetVariable"
+							m_VariableValue = 
+							{
+								m_TargetName = "model_t_a"
+								m_DataType = "STRING"
+								m_Value = resource_name:"models/pipes/pipe01_med_t_a.vmdl"
+							}
+						},
+						
+						{
+							_class = "CSmartPropOperation_SetVariable"
+							m_VariableValue = 
+							{
+								m_TargetName = "model_t_b"
+								m_DataType = "STRING"
+								m_Value = resource_name:"models/pipes/pipe01_med_t_b.vmdl"
+							}
+						},
+						
+						{
+							_class = "CSmartPropOperation_SetVariable"
+							m_VariableValue = 
+							{
+								m_TargetName = "model_str"
+								m_DataType = "STRING"
+								m_Value = resource_name:"models/pipes/pipe01_med_str.vmdl"
+							}
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			_class = "CSmartPropElement_Group"
+			m_nElementID = 194
+			_editor = 
+			{
+				folder_name = ""
+			}
+			m_sLabel = "setup sizer"
+			m_Modifiers = 
+			[
+				
+				{
+					_class = "CSmartPropOperation_CreateSizer"
+					m_flInitialMaxX = 32.000000
+					m_OutputVariableMaxX = "length"
+					m_flInitialMinX = 0.000000
+					m_OutputVariableMinX = ""
+				},
+			]
+		},
+		
+		{
+			_class = "CSmartPropElement_PickOne"
+			m_nElementID = 12
+			_editor = 
+			{
+				folder_name = ""
+			}
+			m_bEnabled = true
+			m_SelectionMode = "FIRST"
+			m_vHandleOffset = 
+			{
+				m_Components = 
+				[
+					null,
+					0.000000,
+					0.000000,
+				]
+			}
+			m_Modifiers = 
+			[
+				
+				{
+					_class = "CSmartPropOperation_SetVariable"
+					m_VariableValue = 
+					{
+						m_TargetName = "model_index"
+						m_DataType = "INTEGER"
+						m_Value = 0
+					}
+				},
+				
+				{
+					_class = "CSmartPropOperation_Translate"
+					m_vPosition = 
+					{
+						m_Components = 
+						[
+							{
+								m_SourceName = "length"
+							},
+							0.000000,
+							0.000000,
+						]
+					}
+					m_bEnabled = true
+				},
+				
+				{
+					_class = "CSmartPropOperation_CreateRotator"
+					m_flSnappingIncrement = 45.000000
+					m_OutputVariable = "rot_angle"
+					m_vRotationAxis = 
+					[
+						1.000000,
+						0.000000,
+						0.000000,
+					]
+					m_bApplyToCurrentTransform = false
+					m_CoordinateSpace = "ELEMENT"
+				},
+				
+				{
+					_class = "CSmartPropOperation_SetVariable"
+					m_VariableValue = 
+					{
+						m_TargetName = "rot_angle"
+						m_DataType = "FLOAT"
+						m_Value = 
+						{
+							m_Expression = "( rot_angle % 360 ) + 360 * ( rot_angle < 0.0 )"
+						}
+					}
+					m_bEnabled = true
+				},
+			]
+			m_Children = 
+			[
+				
+				{
+					_class = "CSmartPropElement_Group"
+					m_nElementID = 134
+					_editor = 
+					{
+						folder_name = ""
+					}
+					m_bEnabled = true
+					m_sLabel = "cap"
+					m_Modifiers = 
+					[
+						
+						{
+							_class = "CSmartPropOperation_SetVariable"
+							m_VariableValue = 
+							{
+								m_TargetName = "model_index"
+								m_DataType = "INTEGER"
+								m_Value = 0
+							}
+						},
+					]
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_Group"
+							m_nElementID = 268
+							m_sLabel = "save state and pos"
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_SaveState"
+									m_StateName = "loc1"
+								},
+								
+								{
+									_class = "CSmartPropOperation_SavePosition"
+									m_CoordinateSpace = "OBJECT"
+									m_VariableName = "plane_pos"
+								},
+							]
+						},
+					]
+				},
+				
+				{
+					_class = "CSmartPropElement_Group"
+					m_nElementID = 240
+					_editor = 
+					{
+						folder_name = ""
+					}
+					m_bEnabled = true
+					m_sLabel = "corner 8"
+					m_Modifiers = 
+					[
+						
+						{
+							_class = "CSmartPropOperation_SetVariable"
+							m_VariableValue = 
+							{
+								m_TargetName = "model_index"
+								m_DataType = "INTEGER"
+								m_Value = 1
+							}
+						},
+						
+						{
+							_class = "CSmartPropOperation_SetVariable"
+							m_VariableValue = 
+							{
+								m_TargetName = "str_end_xOffset"
+								m_DataType = "FLOAT"
+								m_Value = 
+								{
+									m_Expression = "radius_scl * 8.0"
+								}
+							}
+						},
+					]
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_Group"
+							m_nElementID = 367
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_sLabel = "save state and pos"
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_Rotate"
+									m_vRotation = 
+									{
+										m_Components = 
+										[
+											0.000000,
+											{
+												m_Expression = "90"
+											},
+											0.000000,
+										]
+									}
+									m_bEnabled = true
+								},
+								
+								{
+									_class = "CSmartPropOperation_SaveState"
+									m_StateName = "loc1"
+								},
+								
+								{
+									_class = "CSmartPropOperation_SavePosition"
+									m_CoordinateSpace = "OBJECT"
+									m_VariableName = "plane_pos"
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Group"
+							m_nElementID = 393
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_sLabel = "rotator and compute plane_tan"
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_Rotate"
+									m_vRotation = 
+									{
+										m_Components = 
+										[
+											0.000000,
+											{
+												m_Expression = "rot_angle > 90 && rot_angle < 270 ? ( 180 - rot_angle ) / 2 : rot_angle / 2"
+											},
+											{
+												m_Expression = "0"
+											},
+										]
+									}
+									m_bEnabled = true
+								},
+								
+								{
+									_class = "CSmartPropOperation_SaveDirection"
+									m_CoordinateSpace = "OBJECT"
+									m_VariableName = "plane_tan"
+									m_DirectionVector = "LEFT"
+									m_bEnabled = true
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Group"
+							m_nElementID = 395
+							m_sLabel = "hack adjustmet"
+							m_bEnabled = true
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_SaveDirection"
+									m_CoordinateSpace = "OBJECT"
+									m_VariableName = "left"
+									m_DirectionVector = "FORWARD"
+									m_bEnabled = true
+								},
+								
+								{
+									_class = "CSmartPropOperation_SetVariable"
+									m_VariableValue = 
+									{
+										m_TargetName = "left"
+										m_DataType = "VECTOR3"
+										m_Value = 
+										{
+											m_Components = 
+											[
+												
+												{
+													m_Expression = "left.x * ( sin( deg2rad( rot_angle ) * 4 - pi/2 ) + 1 ) / 2"
+												},
+												
+												{
+													m_Expression = "left.y * ( sin(  deg2rad( rot_angle ) * 4 - pi/2 ) + 1 ) / 2"
+												},
+												
+												{
+													m_Expression = "left.z * ( sin( deg2rad( rot_angle ) * 4 - pi/2 ) + 1 ) / 2"
+												},
+											]
+										}
+									}
+									m_bEnabled = true
+								},
+								
+								{
+									_class = "CSmartPropOperation_SetVariable"
+									m_VariableValue = 
+									{
+										m_TargetName = "plane_tan"
+										m_DataType = "VECTOR3"
+										m_Value = 
+										{
+											m_Components = 
+											[
+												
+												{
+													m_Expression = "plane_tan.x + left.x * -0.269"
+												},
+												
+												{
+													m_Expression = "plane_tan.y + left.y * -0.269"
+												},
+												
+												{
+													m_Expression = "plane_tan.z + left.z * -0.269"
+												},
+											]
+										}
+									}
+									m_bEnabled = true
+								},
+							]
+						},
+					]
+				},
+				
+				{
+					_class = "CSmartPropElement_Group"
+					m_nElementID = 403
+					_editor = 
+					{
+						folder_name = ""
+					}
+					m_bEnabled = true
+					m_sLabel = "corner 16"
+					m_Modifiers = 
+					[
+						
+						{
+							_class = "CSmartPropOperation_SetVariable"
+							m_VariableValue = 
+							{
+								m_TargetName = "model_index"
+								m_DataType = "INTEGER"
+								m_Value = 2
+							}
+						},
+						
+						{
+							_class = "CSmartPropOperation_SetVariable"
+							m_VariableValue = 
+							{
+								m_TargetName = "str_end_xOffset"
+								m_DataType = "FLOAT"
+								m_Value = 
+								{
+									m_Expression = "radius_scl * 16.0"
+								}
+							}
+						},
+					]
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_Group"
+							m_nElementID = 404
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_sLabel = "save state and pos"
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_Rotate"
+									m_vRotation = 
+									{
+										m_Components = 
+										[
+											0.000000,
+											{
+												m_Expression = "90"
+											},
+											0.000000,
+										]
+									}
+									m_bEnabled = true
+								},
+								
+								{
+									_class = "CSmartPropOperation_SaveState"
+									m_StateName = "loc1"
+								},
+								
+								{
+									_class = "CSmartPropOperation_SavePosition"
+									m_CoordinateSpace = "OBJECT"
+									m_VariableName = "plane_pos"
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Group"
+							m_nElementID = 405
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_sLabel = "rotator and compute plane_tan"
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_Rotate"
+									m_vRotation = 
+									{
+										m_Components = 
+										[
+											0.000000,
+											{
+												m_Expression = "rot_angle > 90 && rot_angle < 270 ? ( 180 - rot_angle ) / 2 : rot_angle / 2"
+											},
+											{
+												m_Expression = "0"
+											},
+										]
+									}
+									m_bEnabled = true
+								},
+								
+								{
+									_class = "CSmartPropOperation_SaveDirection"
+									m_CoordinateSpace = "OBJECT"
+									m_VariableName = "plane_tan"
+									m_DirectionVector = "LEFT"
+									m_bEnabled = true
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Group"
+							m_nElementID = 406
+							m_sLabel = "hack adjustmet"
+							m_bEnabled = true
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_SaveDirection"
+									m_CoordinateSpace = "OBJECT"
+									m_VariableName = "left"
+									m_DirectionVector = "FORWARD"
+									m_bEnabled = true
+								},
+								
+								{
+									_class = "CSmartPropOperation_SetVariable"
+									m_VariableValue = 
+									{
+										m_TargetName = "left"
+										m_DataType = "VECTOR3"
+										m_Value = 
+										{
+											m_Components = 
+											[
+												
+												{
+													m_Expression = "left.x * ( sin( deg2rad( rot_angle ) * 4 - pi/2 ) + 1 ) / 2"
+												},
+												
+												{
+													m_Expression = "left.y * ( sin(  deg2rad( rot_angle ) * 4 - pi/2 ) + 1 ) / 2"
+												},
+												
+												{
+													m_Expression = "left.z * ( sin( deg2rad( rot_angle ) * 4 - pi/2 ) + 1 ) / 2"
+												},
+											]
+										}
+									}
+									m_bEnabled = true
+								},
+								
+								{
+									_class = "CSmartPropOperation_SetVariable"
+									m_VariableValue = 
+									{
+										m_TargetName = "plane_tan"
+										m_DataType = "VECTOR3"
+										m_Value = 
+										{
+											m_Components = 
+											[
+												
+												{
+													m_Expression = "plane_tan.x + left.x * -0.269"
+												},
+												
+												{
+													m_Expression = "plane_tan.y + left.y * -0.269"
+												},
+												
+												{
+													m_Expression = "plane_tan.z + left.z * -0.269"
+												},
+											]
+										}
+									}
+									m_bEnabled = true
+								},
+							]
+						},
+					]
+				},
+				
+				{
+					_class = "CSmartPropElement_Group"
+					m_nElementID = 409
+					_editor = 
+					{
+						folder_name = ""
+					}
+					m_bEnabled = true
+					m_sLabel = "corner 24"
+					m_Modifiers = 
+					[
+						
+						{
+							_class = "CSmartPropOperation_SetVariable"
+							m_VariableValue = 
+							{
+								m_TargetName = "model_index"
+								m_DataType = "INTEGER"
+								m_Value = 3
+							}
+						},
+						
+						{
+							_class = "CSmartPropOperation_SetVariable"
+							m_VariableValue = 
+							{
+								m_TargetName = "str_end_xOffset"
+								m_DataType = "FLOAT"
+								m_Value = 
+								{
+									m_Expression = "radius_scl * 24.0"
+								}
+							}
+						},
+					]
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_Group"
+							m_nElementID = 410
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_sLabel = "save state and pos"
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_Rotate"
+									m_vRotation = 
+									{
+										m_Components = 
+										[
+											0.000000,
+											{
+												m_Expression = "90"
+											},
+											0.000000,
+										]
+									}
+									m_bEnabled = true
+								},
+								
+								{
+									_class = "CSmartPropOperation_SaveState"
+									m_StateName = "loc1"
+								},
+								
+								{
+									_class = "CSmartPropOperation_SavePosition"
+									m_CoordinateSpace = "OBJECT"
+									m_VariableName = "plane_pos"
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Group"
+							m_nElementID = 411
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_sLabel = "rotator and compute plane_tan"
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_Rotate"
+									m_vRotation = 
+									{
+										m_Components = 
+										[
+											0.000000,
+											{
+												m_Expression = "rot_angle > 90 && rot_angle < 270 ? ( 180 - rot_angle ) / 2 : rot_angle / 2"
+											},
+											{
+												m_Expression = "0"
+											},
+										]
+									}
+									m_bEnabled = true
+								},
+								
+								{
+									_class = "CSmartPropOperation_SaveDirection"
+									m_CoordinateSpace = "OBJECT"
+									m_VariableName = "plane_tan"
+									m_DirectionVector = "LEFT"
+									m_bEnabled = true
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Group"
+							m_nElementID = 412
+							m_sLabel = "hack adjustmet"
+							m_bEnabled = true
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_SaveDirection"
+									m_CoordinateSpace = "OBJECT"
+									m_VariableName = "left"
+									m_DirectionVector = "FORWARD"
+									m_bEnabled = true
+								},
+								
+								{
+									_class = "CSmartPropOperation_SetVariable"
+									m_VariableValue = 
+									{
+										m_TargetName = "left"
+										m_DataType = "VECTOR3"
+										m_Value = 
+										{
+											m_Components = 
+											[
+												
+												{
+													m_Expression = "left.x * ( sin( deg2rad( rot_angle ) * 4 - pi/2 ) + 1 ) / 2"
+												},
+												
+												{
+													m_Expression = "left.y * ( sin(  deg2rad( rot_angle ) * 4 - pi/2 ) + 1 ) / 2"
+												},
+												
+												{
+													m_Expression = "left.z * ( sin( deg2rad( rot_angle ) * 4 - pi/2 ) + 1 ) / 2"
+												},
+											]
+										}
+									}
+									m_bEnabled = true
+								},
+								
+								{
+									_class = "CSmartPropOperation_SetVariable"
+									m_VariableValue = 
+									{
+										m_TargetName = "plane_tan"
+										m_DataType = "VECTOR3"
+										m_Value = 
+										{
+											m_Components = 
+											[
+												
+												{
+													m_Expression = "plane_tan.x + left.x * -0.269"
+												},
+												
+												{
+													m_Expression = "plane_tan.y + left.y * -0.269"
+												},
+												
+												{
+													m_Expression = "plane_tan.z + left.z * -0.269"
+												},
+											]
+										}
+									}
+									m_bEnabled = true
+								},
+							]
+						},
+					]
+				},
+				
+				{
+					_class = "CSmartPropElement_Group"
+					m_nElementID = 417
+					_editor = 
+					{
+						folder_name = ""
+					}
+					m_bEnabled = true
+					m_sLabel = "corner 32"
+					m_Modifiers = 
+					[
+						
+						{
+							_class = "CSmartPropOperation_SetVariable"
+							m_VariableValue = 
+							{
+								m_TargetName = "model_index"
+								m_DataType = "INTEGER"
+								m_Value = 4
+							}
+						},
+						
+						{
+							_class = "CSmartPropOperation_SetVariable"
+							m_VariableValue = 
+							{
+								m_TargetName = "str_end_xOffset"
+								m_DataType = "FLOAT"
+								m_Value = 
+								{
+									m_Expression = "radius_scl * 32.0"
+								}
+							}
+						},
+					]
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_Group"
+							m_nElementID = 418
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_sLabel = "save state and pos"
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_Rotate"
+									m_vRotation = 
+									{
+										m_Components = 
+										[
+											0.000000,
+											{
+												m_Expression = "90"
+											},
+											0.000000,
+										]
+									}
+									m_bEnabled = true
+								},
+								
+								{
+									_class = "CSmartPropOperation_SaveState"
+									m_StateName = "loc1"
+								},
+								
+								{
+									_class = "CSmartPropOperation_SavePosition"
+									m_CoordinateSpace = "OBJECT"
+									m_VariableName = "plane_pos"
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Group"
+							m_nElementID = 419
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_sLabel = "rotator and compute plane_tan"
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_Rotate"
+									m_vRotation = 
+									{
+										m_Components = 
+										[
+											0.000000,
+											{
+												m_Expression = "rot_angle > 90 && rot_angle < 270 ? ( 180 - rot_angle ) / 2 : rot_angle / 2"
+											},
+											{
+												m_Expression = "0"
+											},
+										]
+									}
+									m_bEnabled = true
+								},
+								
+								{
+									_class = "CSmartPropOperation_SaveDirection"
+									m_CoordinateSpace = "OBJECT"
+									m_VariableName = "plane_tan"
+									m_DirectionVector = "LEFT"
+									m_bEnabled = true
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Group"
+							m_nElementID = 420
+							m_sLabel = "hack adjustmet"
+							m_bEnabled = true
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_SaveDirection"
+									m_CoordinateSpace = "OBJECT"
+									m_VariableName = "left"
+									m_DirectionVector = "FORWARD"
+									m_bEnabled = true
+								},
+								
+								{
+									_class = "CSmartPropOperation_SetVariable"
+									m_VariableValue = 
+									{
+										m_TargetName = "left"
+										m_DataType = "VECTOR3"
+										m_Value = 
+										{
+											m_Components = 
+											[
+												
+												{
+													m_Expression = "left.x * ( sin( deg2rad( rot_angle ) * 4 - pi/2 ) + 1 ) / 2"
+												},
+												
+												{
+													m_Expression = "left.y * ( sin(  deg2rad( rot_angle ) * 4 - pi/2 ) + 1 ) / 2"
+												},
+												
+												{
+													m_Expression = "left.z * ( sin( deg2rad( rot_angle ) * 4 - pi/2 ) + 1 ) / 2"
+												},
+											]
+										}
+									}
+									m_bEnabled = true
+								},
+								
+								{
+									_class = "CSmartPropOperation_SetVariable"
+									m_VariableValue = 
+									{
+										m_TargetName = "plane_tan"
+										m_DataType = "VECTOR3"
+										m_Value = 
+										{
+											m_Components = 
+											[
+												
+												{
+													m_Expression = "plane_tan.x + left.x * -0.269"
+												},
+												
+												{
+													m_Expression = "plane_tan.y + left.y * -0.269"
+												},
+												
+												{
+													m_Expression = "plane_tan.z + left.z * -0.269"
+												},
+											]
+										}
+									}
+									m_bEnabled = true
+								},
+							]
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			_class = "CSmartPropElement_Group"
+			m_nElementID = 226
+			m_sLabel = "controls if next smartprop is spawned"
+			_editor = 
+			{
+				folder_name = ""
+			}
+			m_bEnabled = true
+			m_Modifiers = 
+			[
+				
+				{
+					_class = "CSmartPropOperation_RestoreState"
+					m_StateName = "loc1"
+					m_bEnabled = true
+				},
+				
+				{
+					_class = "CSmartPropFilter_Expression"
+					m_Expression = "model_index != 0"
+					m_bEnabled = true
+				},
+				
+				{
+					_class = "CSmartPropOperation_SaveState"
+					m_StateName = "AdditionalSection"
+					m_bEnabled = true
+				},
+			]
+		},
+		
+		{
+			_class = "CSmartPropElement_PlaceMultiple"
+			m_nElementID = 215
+			_editor = 
+			{
+				folder_name = ""
+			}
+			m_nCount = 
+			{
+				m_SourceName = "count"
+			}
+			m_Children = 
+			[
+				
+				{
+					_class = "CSmartPropElement_ModifyState"
+					m_nElementID = 227
+					_editor = 
+					{
+						folder_name = ""
+					}
+					m_Modifiers = 
+					[
+						
+						{
+							_class = "CSmartPropOperation_SetVariable"
+							m_VariableValue = 
+							{
+								m_TargetName = "vertical_offset"
+								m_DataType = "FLOAT"
+								m_Value = 
+								{
+									m_Expression = "cos( InstanceIndex() * sampleOffset * pi * 2 + sampleOffset * pi * 2 ) * sampleScale"
+								}
+							}
+						},
+						
+						{
+							_class = "CSmartPropFilter_Expression"
+							m_Expression = "count > 1"
+						},
+						
+						{
+							_class = "CSmartPropOperation_SetVariable"
+							m_VariableValue = 
+							{
+								m_TargetName = "instance_offset"
+								m_DataType = "FLOAT"
+								m_Value = 
+								{
+									m_Expression = "( InstanceIndex() / ( count - 1 ) * 2.0 - 1.0 ) * offset"
+								}
+							}
+						},
+					]
+				},
+				
+				{
+					_class = "CSmartPropElement_Group"
+					m_nElementID = 221
+					m_sLabel = "start_cap"
+					_editor = 
+					{
+						folder_name = ""
+					}
+					m_Modifiers = 
+					[
+						
+						{
+							_class = "CSmartPropFilter_Expression"
+							m_Expression = "first && start_cap"
+						},
+						
+						{
+							_class = "CSmartPropOperation_Translate"
+							m_vPosition = 
+							{
+								m_Components = 
+								[
+									null,
+									{
+										m_SourceName = "instance_offset"
+									},
+									{
+										m_SourceName = "vertical_offset"
+									},
+								]
+							}
+						},
+						
+						{
+							_class = "CSmartPropOperation_Rotate"
+							m_vRotation = 
+							[
+								0.000000,
+								180.000000,
+								0.000000,
+							]
+						},
+						
+						{
+							_class = "CSmartPropOperation_SavePosition"
+							m_CoordinateSpace = "OBJECT"
+							m_VariableName = "inst_pos"
+						},
+						
+						{
+							_class = "CSmartPropOperation_SetTintColor"
+							m_ColorChoices = 
+							[
+								
+								{
+									m_Color = 
+									{
+										m_SourceName = "secondary_color"
+									}
+								},
+							]
+						},
+					]
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_Model"
+							m_sModelName = 
+							{
+								m_SourceName = "model_cap"
+							}
+							m_nElementID = 108
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_bEnabled = true
+							m_MaterialGroupName = 
+							{
+								m_SourceName = "material"
+							}
+							m_vModelScale = 
+							{
+								m_Components = 
+								[
+									
+									{
+										m_SourceName = "radius_scl"
+									},
+									
+									{
+										m_SourceName = "radius_scl"
+									},
+									
+									{
+										m_SourceName = "radius_scl"
+									},
+								]
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_Rotate"
+									m_vRotation = 
+									[
+										0.000000,
+										180.000000,
+										0.000000,
+									]
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_PlaceMultiple"
+							m_nElementID = 430
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_nCount = 
+							{
+								m_SourceName = "bolt_count"
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropFilter_Expression"
+									m_Expression = "style == 1 && rivets"
+								},
+							]
+							m_Children = 
+							[
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 431
+									m_sModelName = resource_name:"models/pipes/pipe01_bolt_e.vmdl"
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_vModelScale = 
+									{
+										m_Components = 
+										[
+											
+											{
+												m_Expression = "radius_scl > 2.2 ? radius_scl / 1.6 : radius_scl"
+											},
+											
+											{
+												m_Expression = "radius_scl > 2.2 ? radius_scl / 1.6 : radius_scl"
+											},
+											
+											{
+												m_Expression = "radius_scl > 2.2 ? radius_scl / 1.6 : radius_scl"
+											},
+										]
+									}
+									m_MaterialGroupName = 
+									{
+										m_SourceName = "material"
+									}
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Rotate"
+											m_vRotation = 
+											{
+												m_Components = 
+												[
+													180.000000,
+													0.000000,
+													{
+														m_Expression = "InstanceIndex() * ( 360 / bolt_count )"
+													},
+												]
+											}
+										},
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											{
+												m_Components = 
+												[
+													{
+														m_Expression = "-1.35 * radius_scl"
+													},
+													0.000000,
+													{
+														m_Expression = "radius_scl * 7.25"
+													},
+												]
+											}
+											m_bEnabled = true
+										},
+										
+										{
+											_class = "CSmartPropOperation_Rotate"
+											m_vRotation = 
+											{
+												m_Components = 
+												[
+													-90.000000,
+													0.000000,
+													0.000000,
+												]
+											}
+										},
+									]
+								},
+							]
+						},
+					]
+				},
+				
+				{
+					_class = "CSmartPropElement_PickOne"
+					m_nElementID = 219
+					_editor = 
+					{
+						folder_name = ""
+					}
+					m_SelectionMode = "FIRST"
+					m_bConfigurable = false
+					m_bEnabled = true
+					m_Modifiers = 
+					[
+						
+						{
+							_class = "CSmartPropOperation_SetTintColor"
+							m_ColorChoices = 
+							[
+								
+								{
+									m_Color = 
+									{
+										m_SourceName = "secondary_color"
+									}
+								},
+							]
+						},
+					]
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_Group"
+							m_nElementID = 223
+							m_sLabel = "cap"
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_SelectionCriteria = 
+							[
+								
+								{
+									_class = "CSmartPropSelectionCriteria_IsValid"
+									m_Expression = "model_index == 0"
+								},
+							]
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									{
+										m_Components = 
+										[
+											
+											{
+												m_SourceName = "length"
+											},
+											
+											{
+												m_SourceName = "instance_offset"
+											},
+											
+											{
+												m_Expression = "vertical_offset"
+											},
+										]
+									}
+									m_bEnabled = true
+								},
+								
+								{
+									_class = "CSmartPropOperation_SavePosition"
+									m_CoordinateSpace = "OBJECT"
+									m_VariableName = "inst_pos"
+								},
+								
+								{
+									_class = "CSmartPropFilter_Expression"
+									m_Expression = "end_cap"
+								},
+							]
+							m_Children = 
+							[
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_sModelName = 
+									{
+										m_SourceName = "model_cap"
+									}
+									m_nElementID = 224
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_bEnabled = true
+									m_MaterialGroupName = 
+									{
+										m_SourceName = "material"
+									}
+									m_vModelScale = 
+									{
+										m_Components = 
+										[
+											
+											{
+												m_SourceName = "radius_scl"
+											},
+											
+											{
+												m_SourceName = "radius_scl"
+											},
+											
+											{
+												m_SourceName = "radius_scl"
+											},
+										]
+									}
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Rotate"
+											m_vRotation = 
+											[
+												0.000000,
+												180.000000,
+												0.000000,
+											]
+										},
+									]
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Group"
+							m_nElementID = 238
+							m_sLabel = "corner"
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_SelectionCriteria = 
+							[
+								
+								{
+									_class = "CSmartPropSelectionCriteria_IsValid"
+									m_Expression = "model_index > 0"
+								},
+							]
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_SaveDirection"
+									m_CoordinateSpace = "OBJECT"
+									m_VariableName = "left"
+									m_DirectionVector = "LEFT"
+									m_bEnabled = true
+								},
+								
+								{
+									_class = "CSmartPropOperation_SetVariable"
+									m_VariableValue = 
+									{
+										m_TargetName = "costheta"
+										m_DataType = "FLOAT"
+										m_Value = 
+										{
+											m_Expression = "left.x*plane_tan.x + left.y*plane_tan.y + left.z*plane_tan.z"
+										}
+									}
+									m_bEnabled = true
+								},
+								
+								{
+									_class = "CSmartPropOperation_SetPosition"
+									m_CoordinateSpace = "OBJECT"
+									m_vPosition = 
+									{
+										m_Components = 
+										[
+											
+											{
+												m_Expression = "plane_pos.x + plane_tan.x * instance_offset / costheta"
+											},
+											
+											{
+												m_Expression = "plane_pos.y + plane_tan.y * instance_offset / costheta"
+											},
+											
+											{
+												m_Expression = "plane_pos.z + plane_tan.z * instance_offset / costheta"
+											},
+										]
+									}
+									m_bEnabled = true
+								},
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									{
+										m_Components = 
+										[
+											
+											{
+												m_Expression = "-( str_end_xOffset - vertical_offset * cos( deg2rad( rot_angle ) ) )"
+											},
+											
+											{
+												m_Expression = "0"
+											},
+											
+											{
+												m_Expression = "vertical_offset"
+											},
+										]
+									}
+									m_bEnabled = true
+								},
+								
+								{
+									_class = "CSmartPropOperation_SavePosition"
+									m_CoordinateSpace = "OBJECT"
+									m_VariableName = "inst_pos"
+								},
+							]
+							m_Children = 
+							[
+								
+								{
+									_class = "CSmartPropElement_PickOne"
+									m_nElementID = 316
+									m_bConfigurable = false
+									m_SelectionMode = "FIRST"
+									m_Children = 
+									[
+										
+										{
+											_class = "CSmartPropElement_Group"
+											m_nElementID = 317
+											m_sLabel = "8"
+											m_SelectionCriteria = 
+											[
+												
+												{
+													_class = "CSmartPropSelectionCriteria_IsValid"
+													m_Expression = "model_index == 1"
+												},
+											]
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Rotate"
+													m_vRotation = 
+													{
+														m_Components = 
+														[
+															0.000000,
+															0.000000,
+															{
+																m_Expression = "rot_angle - 90"
+															},
+														]
+													}
+												},
+											]
+											m_Children = 
+											[
+												
+												{
+													_class = "CSmartPropElement_Model"
+													m_nElementID = 239
+													m_sModelName = 
+													{
+														m_SourceName = "model_90_a"
+													}
+													m_vModelScale = 
+													{
+														m_Components = 
+														[
+															
+															{
+																m_Expression = "radius_scl"
+															},
+															
+															{
+																m_Expression = "radius_scl"
+															},
+															
+															{
+																m_Expression = "radius_scl"
+															},
+														]
+													}
+													_editor = 
+													{
+														folder_name = ""
+													}
+													m_bEnabled = true
+													m_MaterialGroupName = 
+													{
+														m_SourceName = "material"
+													}
+												},
+												
+												{
+													_class = "CSmartPropElement_Group"
+													m_nElementID = 289
+													_editor = 
+													{
+														folder_name = ""
+													}
+													m_sLabel = "rivets"
+													m_Children = 
+													[
+														
+														{
+															_class = "CSmartPropElement_PlaceMultiple"
+															m_nElementID = 284
+															_editor = 
+															{
+																folder_name = ""
+															}
+															m_nCount = 
+															{
+																m_SourceName = "bolt_count"
+															}
+															m_Modifiers = 
+															[
+																
+																{
+																	_class = "CSmartPropFilter_Expression"
+																	m_Expression = "style == 1 && rivets"
+																},
+															]
+															m_Children = 
+															[
+																
+																{
+																	_class = "CSmartPropElement_Model"
+																	m_nElementID = 285
+																	m_sModelName = resource_name:"models/pipes/pipe01_bolt_e.vmdl"
+																	_editor = 
+																	{
+																		folder_name = ""
+																	}
+																	m_vModelScale = 
+																	{
+																		m_Components = 
+																		[
+																			
+																			{
+																				m_Expression = "radius_scl > 2.2 ? radius_scl / 1.6 : radius_scl"
+																			},
+																			
+																			{
+																				m_Expression = "radius_scl > 2.2 ? radius_scl / 1.6 : radius_scl"
+																			},
+																			
+																			{
+																				m_Expression = "radius_scl > 2.2 ? radius_scl / 1.6 : radius_scl"
+																			},
+																		]
+																	}
+																	m_MaterialGroupName = 
+																	{
+																		m_SourceName = "material"
+																	}
+																	m_Modifiers = 
+																	[
+																		
+																		{
+																			_class = "CSmartPropOperation_Rotate"
+																			m_vRotation = 
+																			{
+																				m_Components = 
+																				[
+																					180.000000,
+																					0.000000,
+																					{
+																						m_Expression = "InstanceIndex() * ( 360 / bolt_count )"
+																					},
+																				]
+																			}
+																		},
+																		
+																		{
+																			_class = "CSmartPropOperation_Translate"
+																			m_vPosition = 
+																			{
+																				m_Components = 
+																				[
+																					{
+																						m_Expression = "-2.2 * radius_scl"
+																					},
+																					0.000000,
+																					{
+																						m_Expression = "radius_scl * 7.25"
+																					},
+																				]
+																			}
+																			m_bEnabled = true
+																		},
+																		
+																		{
+																			_class = "CSmartPropOperation_Rotate"
+																			m_vRotation = 
+																			{
+																				m_Components = 
+																				[
+																					-85.000000,
+																					0.000000,
+																					0.000000,
+																				]
+																			}
+																		},
+																	]
+																},
+															]
+														},
+														
+														{
+															_class = "CSmartPropElement_PlaceMultiple"
+															m_nElementID = 282
+															_editor = 
+															{
+																folder_name = ""
+															}
+															m_nCount = 
+															{
+																m_SourceName = "bolt_count"
+															}
+															m_Modifiers = 
+															[
+																
+																{
+																	_class = "CSmartPropFilter_Expression"
+																	m_Expression = "style == 1 && rivets"
+																},
+															]
+															m_Children = 
+															[
+																
+																{
+																	_class = "CSmartPropElement_Model"
+																	m_nElementID = 432
+																	m_sModelName = resource_name:"models/pipes/pipe01_bolt_a.vmdl"
+																	_editor = 
+																	{
+																		folder_name = ""
+																	}
+																	m_vModelScale = 
+																	{
+																		m_Components = 
+																		[
+																			
+																			{
+																				m_Expression = "radius_scl > 2.2 ? radius_scl / 1.6 : radius_scl"
+																			},
+																			
+																			{
+																				m_Expression = "radius_scl > 2.2 ? radius_scl / 1.6 : radius_scl"
+																			},
+																			
+																			{
+																				m_Expression = "radius_scl > 2.2 ? radius_scl / 1.6 : radius_scl"
+																			},
+																		]
+																	}
+																	m_MaterialGroupName = 
+																	{
+																		m_SourceName = "material"
+																	}
+																	m_Modifiers = 
+																	[
+																		
+																		{
+																			_class = "CSmartPropOperation_Translate"
+																			m_vPosition = 
+																			{
+																				m_Components = 
+																				[
+																					{
+																						m_Expression = "8.0 * radius_scl"
+																					},
+																					{
+																						m_Expression = "8.0 * radius_scl"
+																					},
+																					null,
+																				]
+																			}
+																		},
+																		
+																		{
+																			_class = "CSmartPropOperation_Rotate"
+																			m_vRotation = 
+																			{
+																				m_Components = 
+																				[
+																					0.000000,
+																					90.000000,
+																					{
+																						m_Expression = "InstanceIndex() * ( 360 / bolt_count )"
+																					},
+																				]
+																			}
+																		},
+																		
+																		{
+																			_class = "CSmartPropOperation_Translate"
+																			m_vPosition = 
+																			{
+																				m_Components = 
+																				[
+																					{
+																						m_Expression = "-2.2 * radius_scl"
+																					},
+																					0.000000,
+																					{
+																						m_Expression = "radius_scl * 7.25"
+																					},
+																				]
+																			}
+																			m_bEnabled = true
+																		},
+																		
+																		{
+																			_class = "CSmartPropOperation_Rotate"
+																			m_vRotation = 
+																			{
+																				m_Components = 
+																				[
+																					-90.000000,
+																					0.000000,
+																					0.000000,
+																				]
+																			}
+																		},
+																	]
+																},
+															]
+														},
+													]
+												},
+											]
+										},
+										
+										{
+											_class = "CSmartPropElement_Group"
+											m_nElementID = 407
+											m_sLabel = "16"
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_SelectionCriteria = 
+											[
+												
+												{
+													_class = "CSmartPropSelectionCriteria_IsValid"
+													m_Expression = "model_index == 2"
+												},
+											]
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Rotate"
+													m_vRotation = 
+													{
+														m_Components = 
+														[
+															0.000000,
+															0.000000,
+															{
+																m_Expression = "rot_angle - 90"
+															},
+														]
+													}
+												},
+											]
+											m_Children = 
+											[
+												
+												{
+													_class = "CSmartPropElement_Model"
+													m_sModelName = 
+													{
+														m_SourceName = "model_90_b"
+													}
+													m_nElementID = 7
+													m_MaterialGroupName = 
+													{
+														m_SourceName = "material"
+													}
+													m_vModelScale = 
+													{
+														m_Components = 
+														[
+															
+															{
+																m_SourceName = "radius_scl"
+															},
+															
+															{
+																m_SourceName = "radius_scl"
+															},
+															
+															{
+																m_SourceName = "radius_scl"
+															},
+														]
+													}
+													_editor = 
+													{
+														folder_name = ""
+													}
+												},
+												
+												{
+													_class = "CSmartPropElement_Group"
+													m_nElementID = 433
+													_editor = 
+													{
+														folder_name = ""
+													}
+													m_sLabel = "rivets"
+													m_Children = 
+													[
+														
+														{
+															_class = "CSmartPropElement_PlaceMultiple"
+															m_nElementID = 291
+															_editor = 
+															{
+																folder_name = ""
+															}
+															m_nCount = 
+															{
+																m_SourceName = "bolt_count"
+															}
+															m_Modifiers = 
+															[
+																
+																{
+																	_class = "CSmartPropFilter_Expression"
+																	m_Expression = "style == 1 && rivets"
+																},
+															]
+															m_Children = 
+															[
+																
+																{
+																	_class = "CSmartPropElement_Model"
+																	m_nElementID = 292
+																	m_sModelName = resource_name:"models/pipes/pipe01_bolt_e.vmdl"
+																	_editor = 
+																	{
+																		folder_name = ""
+																	}
+																	m_vModelScale = 
+																	{
+																		m_Components = 
+																		[
+																			
+																			{
+																				m_Expression = "radius_scl > 2.2 ? radius_scl / 1.6 : radius_scl"
+																			},
+																			
+																			{
+																				m_Expression = "radius_scl > 2.2 ? radius_scl / 1.6 : radius_scl"
+																			},
+																			
+																			{
+																				m_Expression = "radius_scl > 2.2 ? radius_scl / 1.6 : radius_scl"
+																			},
+																		]
+																	}
+																	m_MaterialGroupName = 
+																	{
+																		m_SourceName = "material"
+																	}
+																	m_Modifiers = 
+																	[
+																		
+																		{
+																			_class = "CSmartPropOperation_Rotate"
+																			m_vRotation = 
+																			{
+																				m_Components = 
+																				[
+																					180.000000,
+																					0.000000,
+																					{
+																						m_Expression = "InstanceIndex() * ( 360 / bolt_count )"
+																					},
+																				]
+																			}
+																		},
+																		
+																		{
+																			_class = "CSmartPropOperation_Translate"
+																			m_vPosition = 
+																			{
+																				m_Components = 
+																				[
+																					{
+																						m_Expression = "-2.5 * radius_scl"
+																					},
+																					0.000000,
+																					{
+																						m_Expression = "radius_scl * 7.25"
+																					},
+																				]
+																			}
+																			m_bEnabled = true
+																		},
+																		
+																		{
+																			_class = "CSmartPropOperation_Rotate"
+																			m_vRotation = 
+																			{
+																				m_Components = 
+																				[
+																					-85.000000,
+																					0.000000,
+																					0.000000,
+																				]
+																			}
+																		},
+																	]
+																},
+															]
+														},
+														
+														{
+															_class = "CSmartPropElement_PlaceMultiple"
+															m_nElementID = 293
+															_editor = 
+															{
+																folder_name = ""
+															}
+															m_nCount = 
+															{
+																m_SourceName = "bolt_count"
+															}
+															m_Modifiers = 
+															[
+																
+																{
+																	_class = "CSmartPropFilter_Expression"
+																	m_Expression = "style == 1 && rivets"
+																},
+															]
+															m_Children = 
+															[
+																
+																{
+																	_class = "CSmartPropElement_Model"
+																	m_nElementID = 294
+																	m_sModelName = resource_name:"models/pipes/pipe01_bolt_a.vmdl"
+																	_editor = 
+																	{
+																		folder_name = ""
+																	}
+																	m_vModelScale = 
+																	{
+																		m_Components = 
+																		[
+																			
+																			{
+																				m_Expression = "radius_scl > 2.2 ? radius_scl / 1.6 : radius_scl"
+																			},
+																			
+																			{
+																				m_Expression = "radius_scl > 2.2 ? radius_scl / 1.6 : radius_scl"
+																			},
+																			
+																			{
+																				m_Expression = "radius_scl > 2.2 ? radius_scl / 1.6 : radius_scl"
+																			},
+																		]
+																	}
+																	m_MaterialGroupName = 
+																	{
+																		m_SourceName = "material"
+																	}
+																	m_Modifiers = 
+																	[
+																		
+																		{
+																			_class = "CSmartPropOperation_Translate"
+																			m_vPosition = 
+																			{
+																				m_Components = 
+																				[
+																					{
+																						m_Expression = "16.0 * radius_scl"
+																					},
+																					{
+																						m_Expression = "16.0 * radius_scl"
+																					},
+																					null,
+																				]
+																			}
+																		},
+																		
+																		{
+																			_class = "CSmartPropOperation_Rotate"
+																			m_vRotation = 
+																			{
+																				m_Components = 
+																				[
+																					0.000000,
+																					90.000000,
+																					{
+																						m_Expression = "InstanceIndex() * ( 360 / bolt_count )"
+																					},
+																				]
+																			}
+																		},
+																		
+																		{
+																			_class = "CSmartPropOperation_Translate"
+																			m_vPosition = 
+																			{
+																				m_Components = 
+																				[
+																					{
+																						m_Expression = "-2.5 * radius_scl"
+																					},
+																					0.000000,
+																					{
+																						m_Expression = "radius_scl * 7.25"
+																					},
+																				]
+																			}
+																			m_bEnabled = true
+																		},
+																		
+																		{
+																			_class = "CSmartPropOperation_Rotate"
+																			m_vRotation = 
+																			{
+																				m_Components = 
+																				[
+																					-90.000000,
+																					0.000000,
+																					0.000000,
+																				]
+																			}
+																		},
+																	]
+																},
+															]
+														},
+													]
+												},
+											]
+										},
+										
+										{
+											_class = "CSmartPropElement_Group"
+											m_nElementID = 413
+											m_sLabel = "24"
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_SelectionCriteria = 
+											[
+												
+												{
+													_class = "CSmartPropSelectionCriteria_IsValid"
+													m_Expression = "model_index == 3"
+												},
+											]
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Rotate"
+													m_vRotation = 
+													{
+														m_Components = 
+														[
+															0.000000,
+															0.000000,
+															{
+																m_Expression = "rot_angle - 90"
+															},
+														]
+													}
+												},
+											]
+											m_Children = 
+											[
+												
+												{
+													_class = "CSmartPropElement_Model"
+													m_sModelName = 
+													{
+														m_SourceName = "model_90_c"
+													}
+													m_nElementID = 414
+													m_MaterialGroupName = 
+													{
+														m_SourceName = "material"
+													}
+													m_vModelScale = 
+													{
+														m_Components = 
+														[
+															
+															{
+																m_SourceName = "radius_scl"
+															},
+															
+															{
+																m_SourceName = "radius_scl"
+															},
+															
+															{
+																m_SourceName = "radius_scl"
+															},
+														]
+													}
+													_editor = 
+													{
+														folder_name = ""
+													}
+												},
+												
+												{
+													_class = "CSmartPropElement_Group"
+													m_nElementID = 295
+													_editor = 
+													{
+														folder_name = ""
+													}
+													m_sLabel = "rivets"
+													m_Children = 
+													[
+														
+														{
+															_class = "CSmartPropElement_PlaceMultiple"
+															m_nElementID = 296
+															_editor = 
+															{
+																folder_name = ""
+															}
+															m_nCount = 
+															{
+																m_SourceName = "bolt_count"
+															}
+															m_Modifiers = 
+															[
+																
+																{
+																	_class = "CSmartPropFilter_Expression"
+																	m_Expression = "style == 1 && rivets"
+																},
+															]
+															m_Children = 
+															[
+																
+																{
+																	_class = "CSmartPropElement_Model"
+																	m_nElementID = 297
+																	m_sModelName = resource_name:"models/pipes/pipe01_bolt_e.vmdl"
+																	_editor = 
+																	{
+																		folder_name = ""
+																	}
+																	m_vModelScale = 
+																	{
+																		m_Components = 
+																		[
+																			
+																			{
+																				m_Expression = "radius_scl > 2.2 ? radius_scl / 1.6 : radius_scl"
+																			},
+																			
+																			{
+																				m_Expression = "radius_scl > 2.2 ? radius_scl / 1.6 : radius_scl"
+																			},
+																			
+																			{
+																				m_Expression = "radius_scl > 2.2 ? radius_scl / 1.6 : radius_scl"
+																			},
+																		]
+																	}
+																	m_MaterialGroupName = 
+																	{
+																		m_SourceName = "material"
+																	}
+																	m_Modifiers = 
+																	[
+																		
+																		{
+																			_class = "CSmartPropOperation_Rotate"
+																			m_vRotation = 
+																			{
+																				m_Components = 
+																				[
+																					180.000000,
+																					0.000000,
+																					{
+																						m_Expression = "InstanceIndex() * ( 360 / bolt_count )"
+																					},
+																				]
+																			}
+																		},
+																		
+																		{
+																			_class = "CSmartPropOperation_Translate"
+																			m_vPosition = 
+																			{
+																				m_Components = 
+																				[
+																					{
+																						m_Expression = "-2.2 * radius_scl"
+																					},
+																					0.000000,
+																					{
+																						m_Expression = "radius_scl * 7.25"
+																					},
+																				]
+																			}
+																			m_bEnabled = true
+																		},
+																		
+																		{
+																			_class = "CSmartPropOperation_Rotate"
+																			m_vRotation = 
+																			{
+																				m_Components = 
+																				[
+																					-85.000000,
+																					0.000000,
+																					0.000000,
+																				]
+																			}
+																		},
+																	]
+																},
+															]
+														},
+														
+														{
+															_class = "CSmartPropElement_PlaceMultiple"
+															m_nElementID = 298
+															_editor = 
+															{
+																folder_name = ""
+															}
+															m_nCount = 
+															{
+																m_SourceName = "bolt_count"
+															}
+															m_Modifiers = 
+															[
+																
+																{
+																	_class = "CSmartPropFilter_Expression"
+																	m_Expression = "style == 1 && rivets"
+																},
+															]
+															m_Children = 
+															[
+																
+																{
+																	_class = "CSmartPropElement_Model"
+																	m_nElementID = 299
+																	m_sModelName = resource_name:"models/pipes/pipe01_bolt_a.vmdl"
+																	_editor = 
+																	{
+																		folder_name = ""
+																	}
+																	m_vModelScale = 
+																	{
+																		m_Components = 
+																		[
+																			
+																			{
+																				m_Expression = "radius_scl > 2.2 ? radius_scl / 1.6 : radius_scl"
+																			},
+																			
+																			{
+																				m_Expression = "radius_scl > 2.2 ? radius_scl / 1.6 : radius_scl"
+																			},
+																			
+																			{
+																				m_Expression = "radius_scl > 2.2 ? radius_scl / 1.6 : radius_scl"
+																			},
+																		]
+																	}
+																	m_MaterialGroupName = 
+																	{
+																		m_SourceName = "material"
+																	}
+																	m_Modifiers = 
+																	[
+																		
+																		{
+																			_class = "CSmartPropOperation_Translate"
+																			m_vPosition = 
+																			{
+																				m_Components = 
+																				[
+																					{
+																						m_Expression = "24.0 * radius_scl"
+																					},
+																					{
+																						m_Expression = "24.0 * radius_scl"
+																					},
+																					null,
+																				]
+																			}
+																		},
+																		
+																		{
+																			_class = "CSmartPropOperation_Rotate"
+																			m_vRotation = 
+																			{
+																				m_Components = 
+																				[
+																					0.000000,
+																					90.000000,
+																					{
+																						m_Expression = "InstanceIndex() * ( 360 / bolt_count )"
+																					},
+																				]
+																			}
+																		},
+																		
+																		{
+																			_class = "CSmartPropOperation_Translate"
+																			m_vPosition = 
+																			{
+																				m_Components = 
+																				[
+																					{
+																						m_Expression = "-2.6 * radius_scl"
+																					},
+																					0.000000,
+																					{
+																						m_Expression = "radius_scl * 7.25"
+																					},
+																				]
+																			}
+																			m_bEnabled = true
+																		},
+																		
+																		{
+																			_class = "CSmartPropOperation_Rotate"
+																			m_vRotation = 
+																			{
+																				m_Components = 
+																				[
+																					-80.000000,
+																					0.000000,
+																					0.000000,
+																				]
+																			}
+																		},
+																	]
+																},
+															]
+														},
+													]
+												},
+											]
+										},
+										
+										{
+											_class = "CSmartPropElement_Group"
+											m_nElementID = 421
+											m_sLabel = "32"
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_SelectionCriteria = 
+											[
+												
+												{
+													_class = "CSmartPropSelectionCriteria_IsValid"
+													m_Expression = "model_index == 4"
+												},
+											]
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Rotate"
+													m_vRotation = 
+													{
+														m_Components = 
+														[
+															0.000000,
+															0.000000,
+															{
+																m_Expression = "rot_angle - 90"
+															},
+														]
+													}
+												},
+											]
+											m_Children = 
+											[
+												
+												{
+													_class = "CSmartPropElement_Model"
+													m_sModelName = 
+													{
+														m_SourceName = "model_90_d"
+													}
+													m_nElementID = 422
+													m_MaterialGroupName = 
+													{
+														m_SourceName = "material"
+													}
+													m_vModelScale = 
+													{
+														m_Components = 
+														[
+															
+															{
+																m_SourceName = "radius_scl"
+															},
+															
+															{
+																m_SourceName = "radius_scl"
+															},
+															
+															{
+																m_SourceName = "radius_scl"
+															},
+														]
+													}
+													_editor = 
+													{
+														folder_name = ""
+													}
+												},
+												
+												{
+													_class = "CSmartPropElement_Group"
+													m_nElementID = 300
+													_editor = 
+													{
+														folder_name = ""
+													}
+													m_sLabel = "rivets"
+													m_Children = 
+													[
+														
+														{
+															_class = "CSmartPropElement_PlaceMultiple"
+															m_nElementID = 301
+															_editor = 
+															{
+																folder_name = ""
+															}
+															m_nCount = 
+															{
+																m_SourceName = "bolt_count"
+															}
+															m_Modifiers = 
+															[
+																
+																{
+																	_class = "CSmartPropFilter_Expression"
+																	m_Expression = "style == 1 && rivets"
+																},
+															]
+															m_Children = 
+															[
+																
+																{
+																	_class = "CSmartPropElement_Model"
+																	m_nElementID = 302
+																	m_sModelName = resource_name:"models/pipes/pipe01_bolt_e.vmdl"
+																	_editor = 
+																	{
+																		folder_name = ""
+																	}
+																	m_vModelScale = 
+																	{
+																		m_Components = 
+																		[
+																			
+																			{
+																				m_Expression = "radius_scl > 2.2 ? radius_scl / 1.6 : radius_scl"
+																			},
+																			
+																			{
+																				m_Expression = "radius_scl > 2.2 ? radius_scl / 1.6 : radius_scl"
+																			},
+																			
+																			{
+																				m_Expression = "radius_scl > 2.2 ? radius_scl / 1.6 : radius_scl"
+																			},
+																		]
+																	}
+																	m_MaterialGroupName = 
+																	{
+																		m_SourceName = "material"
+																	}
+																	m_Modifiers = 
+																	[
+																		
+																		{
+																			_class = "CSmartPropOperation_Rotate"
+																			m_vRotation = 
+																			{
+																				m_Components = 
+																				[
+																					180.000000,
+																					0.000000,
+																					{
+																						m_Expression = "InstanceIndex() * ( 360 / bolt_count )"
+																					},
+																				]
+																			}
+																		},
+																		
+																		{
+																			_class = "CSmartPropOperation_Translate"
+																			m_vPosition = 
+																			{
+																				m_Components = 
+																				[
+																					{
+																						m_Expression = "-2.2 * radius_scl"
+																					},
+																					0.000000,
+																					{
+																						m_Expression = "radius_scl * 7.25"
+																					},
+																				]
+																			}
+																			m_bEnabled = true
+																		},
+																		
+																		{
+																			_class = "CSmartPropOperation_Rotate"
+																			m_vRotation = 
+																			{
+																				m_Components = 
+																				[
+																					-85.000000,
+																					0.000000,
+																					0.000000,
+																				]
+																			}
+																		},
+																	]
+																},
+															]
+														},
+														
+														{
+															_class = "CSmartPropElement_PlaceMultiple"
+															m_nElementID = 303
+															_editor = 
+															{
+																folder_name = ""
+															}
+															m_nCount = 
+															{
+																m_SourceName = "bolt_count"
+															}
+															m_Modifiers = 
+															[
+																
+																{
+																	_class = "CSmartPropFilter_Expression"
+																	m_Expression = "style == 1 && rivets"
+																},
+															]
+															m_Children = 
+															[
+																
+																{
+																	_class = "CSmartPropElement_Model"
+																	m_nElementID = 304
+																	m_sModelName = resource_name:"models/pipes/pipe01_bolt_a.vmdl"
+																	_editor = 
+																	{
+																		folder_name = ""
+																	}
+																	m_vModelScale = 
+																	{
+																		m_Components = 
+																		[
+																			
+																			{
+																				m_Expression = "radius_scl > 2.2 ? radius_scl / 1.6 : radius_scl"
+																			},
+																			
+																			{
+																				m_Expression = "radius_scl > 2.2 ? radius_scl / 1.6 : radius_scl"
+																			},
+																			
+																			{
+																				m_Expression = "radius_scl > 2.2 ? radius_scl / 1.6 : radius_scl"
+																			},
+																		]
+																	}
+																	m_MaterialGroupName = 
+																	{
+																		m_SourceName = "material"
+																	}
+																	m_Modifiers = 
+																	[
+																		
+																		{
+																			_class = "CSmartPropOperation_Translate"
+																			m_vPosition = 
+																			{
+																				m_Components = 
+																				[
+																					{
+																						m_Expression = "32.0 * radius_scl"
+																					},
+																					{
+																						m_Expression = "32.0 * radius_scl"
+																					},
+																					null,
+																				]
+																			}
+																		},
+																		
+																		{
+																			_class = "CSmartPropOperation_Rotate"
+																			m_vRotation = 
+																			{
+																				m_Components = 
+																				[
+																					0.000000,
+																					90.000000,
+																					{
+																						m_Expression = "InstanceIndex() * ( 360 / bolt_count )"
+																					},
+																				]
+																			}
+																		},
+																		
+																		{
+																			_class = "CSmartPropOperation_Translate"
+																			m_vPosition = 
+																			{
+																				m_Components = 
+																				[
+																					{
+																						m_Expression = "-2.6 * radius_scl"
+																					},
+																					0.000000,
+																					{
+																						m_Expression = "radius_scl * 7.25"
+																					},
+																				]
+																			}
+																			m_bEnabled = true
+																		},
+																		
+																		{
+																			_class = "CSmartPropOperation_Rotate"
+																			m_vRotation = 
+																			{
+																				m_Components = 
+																				[
+																					-80.000000,
+																					0.000000,
+																					0.000000,
+																				]
+																			}
+																		},
+																	]
+																},
+															]
+														},
+													]
+												},
+											]
+										},
+									]
+								},
+							]
+						},
+					]
+				},
+				
+				{
+					_class = "CSmartPropElement_Group"
+					m_nElementID = 270
+					m_sLabel = "straight"
+					m_bEnabled = true
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_PickOne"
+							m_nElementID = 275
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_bConfigurable = false
+							m_SelectionMode = "FIRST"
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_SetPosition"
+									m_vPosition = 
+									{
+										m_SourceName = "prev_pos"
+									}
+									m_CoordinateSpace = "OBJECT"
+								},
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									{
+										m_Components = 
+										[
+											null,
+											0.000000,
+											{
+												m_SourceName = "vertical_offset"
+											},
+										]
+									}
+								},
+							]
+							m_Children = 
+							[
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 276
+									m_sLabel = "prev is cap"
+									m_SelectionCriteria = 
+									[
+										
+										{
+											_class = "CSmartPropSelectionCriteria_IsValid"
+											m_Expression = "prev_index == 0"
+										},
+									]
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											{
+												m_Components = 
+												[
+													0.000000,
+													{
+														m_SourceName = "instance_offset"
+													},
+													null,
+												]
+											}
+										},
+										
+										{
+											_class = "CSmartPropOperation_SaveState"
+											m_StateName = "str"
+										},
+										
+										{
+											_class = "CSmartPropOperation_SavePosition"
+											m_CoordinateSpace = "OBJECT"
+											m_VariableName = "prev_inst_pos"
+										},
+										
+										{
+											_class = "CSmartPropOperation_ComputeDistance3D"
+											m_CoordinateSpaceA = "OBJECT"
+											m_CoordinateSpaceB = "OBJECT"
+											m_InputPositionA = 
+											{
+												m_SourceName = "inst_pos"
+											}
+											m_InputPositionB = 
+											{
+												m_SourceName = "prev_inst_pos"
+											}
+											m_OutputCoordinateSpace = "OBJECT"
+											m_OutputVariableName = "str_len"
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 278
+									m_sLabel = "prev is corner"
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_bEnabled = true
+									m_SelectionCriteria = 
+									[
+										
+										{
+											_class = "CSmartPropSelectionCriteria_IsValid"
+											m_Expression = "prev_index > 0"
+										},
+									]
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_SetPosition"
+											m_CoordinateSpace = "OBJECT"
+											m_vPosition = 
+											{
+												m_Components = 
+												[
+													
+													{
+														m_Expression = "prev_pos.x + prev_tan.x * instance_offset / prev_costheta"
+													},
+													
+													{
+														m_Expression = "prev_pos.y + prev_tan.y * instance_offset / prev_costheta"
+													},
+													
+													{
+														m_Expression = "prev_pos.z + prev_tan.z * instance_offset / prev_costheta"
+													},
+												]
+											}
+											m_bEnabled = true
+										},
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											{
+												m_Components = 
+												[
+													
+													{
+														m_Expression = "prev_str_end_xOffset - str_end_xOffset - vertical_offset *cos( deg2rad( prev_rot_angle ) )"
+													},
+													
+													{
+														m_Expression = "0"
+													},
+													
+													{
+														m_Expression = "vertical_offset"
+													},
+												]
+											}
+											m_bEnabled = true
+										},
+										
+										{
+											_class = "CSmartPropOperation_SavePosition"
+											m_CoordinateSpace = "OBJECT"
+											m_VariableName = "prev_inst_pos"
+										},
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											{
+												m_Components = 
+												[
+													{
+														m_Expression = "str_end_xOffset"
+													},
+													0.000000,
+													0.000000,
+												]
+											}
+											m_bEnabled = true
+										},
+										
+										{
+											_class = "CSmartPropOperation_SaveState"
+											m_StateName = "str"
+										},
+										
+										{
+											_class = "CSmartPropOperation_ComputeDistance3D"
+											m_CoordinateSpaceA = "OBJECT"
+											m_CoordinateSpaceB = "OBJECT"
+											m_InputPositionA = 
+											{
+												m_SourceName = "inst_pos"
+											}
+											m_InputPositionB = 
+											{
+												m_SourceName = "prev_inst_pos"
+											}
+											m_OutputCoordinateSpace = "OBJECT"
+											m_OutputVariableName = "str_len"
+										},
+										
+										{
+											_class = "CSmartPropOperation_SetVariable"
+											m_VariableValue = 
+											{
+												m_TargetName = "str_len"
+												m_DataType = "FLOAT"
+												m_Value = 
+												{
+													m_Expression = "str_len - str_end_xOffset"
+												}
+											}
+											m_bEnabled = true
+										},
+									]
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Group"
+							m_nElementID = 429
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_RestoreState"
+									m_StateName = "str"
+								},
+								
+								{
+									_class = "CSmartPropOperation_Rotate"
+									m_vRotation = 
+									[
+										0.000000,
+										180.000000,
+										0.000000,
+									]
+								},
+							]
+							m_Children = 
+							[
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_sModelName = 
+									{
+										m_SourceName = "model_str"
+									}
+									m_nElementID = 260
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_bEnabled = true
+									m_MaterialGroupName = 
+									{
+										m_SourceName = "material"
+									}
+									m_vModelScale = 
+									{
+										m_Components = 
+										[
+											
+											{
+												m_Expression = "str_len >= ( 12.0 * radius_scl ) ? radius_scl : str_len  / 12"
+											},
+											
+											{
+												m_Expression = "radius_scl"
+											},
+											
+											{
+												m_Expression = "radius_scl"
+											},
+										]
+									}
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_SetTintColor"
+											m_ColorChoices = 
+											[
+												
+												{
+													m_Color = 
+													{
+														m_SourceName = "primary_color"
+													}
+												},
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_PlaceMultiple"
+									m_nElementID = 258
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_nCount = 
+									{
+										m_SourceName = "bolt_count"
+									}
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropFilter_Expression"
+											m_Expression = "style == 1 && rivets && ( str_len - 12 * radius_scl ) > 0.0"
+											m_bEnabled = true
+										},
+									]
+									m_Children = 
+									[
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 434
+											m_sModelName = resource_name:"models/pipes/pipe01_bolt_e.vmdl"
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_vModelScale = 
+											{
+												m_Components = 
+												[
+													
+													{
+														m_Expression = "radius_scl > 2.2 ? radius_scl / 1.6 : radius_scl"
+													},
+													
+													{
+														m_Expression = "radius_scl > 2.2 ? radius_scl / 1.6 : radius_scl"
+													},
+													
+													{
+														m_Expression = "radius_scl > 2.2 ? radius_scl / 1.6 : radius_scl"
+													},
+												]
+											}
+											m_MaterialGroupName = 
+											{
+												m_SourceName = "material"
+											}
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Rotate"
+													m_vRotation = 
+													{
+														m_Components = 
+														[
+															0.000000,
+															0.000000,
+															{
+																m_Expression = "InstanceIndex() * ( 360 / bolt_count )"
+															},
+														]
+													}
+												},
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													{
+														m_Components = 
+														[
+															{
+																m_Expression = "-1.5 * radius_scl"
+															},
+															0.000000,
+															{
+																m_Expression = "radius_scl * 7.25"
+															},
+														]
+													}
+													m_bEnabled = true
+												},
+												
+												{
+													_class = "CSmartPropOperation_Rotate"
+													m_vRotation = 
+													{
+														m_Components = 
+														[
+															-85.000000,
+															0.000000,
+															0.000000,
+														]
+													}
+												},
+											]
+										},
+									]
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Group"
+							m_nElementID = 428
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_RestoreState"
+									m_StateName = "str"
+								},
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									{
+										m_Components = 
+										[
+											{
+												m_Expression = "str_len >= ( 12.0 * radius_scl ) ? str_len :str_len"
+											},
+											0.000000,
+											0.000000,
+										]
+									}
+								},
+							]
+							m_Children = 
+							[
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_sModelName = 
+									{
+										m_SourceName = "model_str"
+									}
+									m_nElementID = 427
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_bEnabled = true
+									m_MaterialGroupName = 
+									{
+										m_SourceName = "material"
+									}
+									m_vModelScale = 
+									{
+										m_Components = 
+										[
+											
+											{
+												m_Expression = "str_len >= ( 12.0 * radius_scl ) ? radius_scl : str_len  / 12.0"
+											},
+											
+											{
+												m_Expression = "radius_scl"
+											},
+											
+											{
+												m_Expression = "radius_scl"
+											},
+										]
+									}
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_SetTintColor"
+											m_ColorChoices = 
+											[
+												
+												{
+													m_Color = 
+													{
+														m_SourceName = "primary_color"
+													}
+												},
+											]
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_PlaceMultiple"
+									m_nElementID = 262
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_nCount = 
+									{
+										m_SourceName = "bolt_count"
+									}
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropFilter_Expression"
+											m_Expression = "style == 1 && rivets && ( str_len - 12 * radius_scl ) > 0.0"
+										},
+									]
+									m_Children = 
+									[
+										
+										{
+											_class = "CSmartPropElement_Model"
+											m_nElementID = 435
+											m_sModelName = resource_name:"models/pipes/pipe01_bolt_a.vmdl"
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_vModelScale = 
+											{
+												m_Components = 
+												[
+													
+													{
+														m_Expression = "radius_scl > 2.2 ? radius_scl / 1.6 : radius_scl"
+													},
+													
+													{
+														m_Expression = "radius_scl > 2.2 ? radius_scl / 1.6 : radius_scl"
+													},
+													
+													{
+														m_Expression = "radius_scl > 2.2 ? radius_scl / 1.6 : radius_scl"
+													},
+												]
+											}
+											m_MaterialGroupName = 
+											{
+												m_SourceName = "material"
+											}
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Rotate"
+													m_vRotation = 
+													{
+														m_Components = 
+														[
+															0.000000,
+															0.000000,
+															{
+																m_Expression = "InstanceIndex() * ( 360 / bolt_count )"
+															},
+														]
+													}
+												},
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													{
+														m_Components = 
+														[
+															{
+																m_Expression = "-1.3 * radius_scl"
+															},
+															0.000000,
+															{
+																m_Expression = "radius_scl * 7.25"
+															},
+														]
+													}
+													m_bEnabled = true
+												},
+												
+												{
+													_class = "CSmartPropOperation_Rotate"
+													m_vRotation = 
+													{
+														m_Components = 
+														[
+															-90.000000,
+															0.000000,
+															0.000000,
+														]
+													}
+												},
+											]
+										},
+									]
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Group"
+							m_nElementID = 206
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_bEnabled = true
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_RestoreState"
+									m_StateName = "str"
+								},
+								
+								{
+									_class = "CSmartPropFilter_Expression"
+									m_Expression = "( str_len - 12 * radius_scl ) > 0.0"
+								},
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									{
+										m_Components = 
+										[
+											{
+												m_Expression = "radius_scl"
+											},
+											0.000000,
+											0.000000,
+										]
+									}
+									m_bEnabled = true
+								},
+							]
+							m_Children = 
+							[
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_sModelName = resource_name:"models/pipes/pipe01_str_8.vmdl"
+									m_nElementID = 111
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_bEnabled = true
+									m_MaterialGroupName = 
+									{
+										m_SourceName = "material"
+									}
+									m_vModelScale = 
+									{
+										m_Components = 
+										[
+											
+											{
+												m_Expression = "( str_len - radius_scl ) / 96"
+											},
+											
+											{
+												m_Expression = "radius_scl"
+											},
+											
+											{
+												m_Expression = "radius_scl"
+											},
+										]
+									}
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_SetTintColor"
+											m_ColorChoices = 
+											[
+												
+												{
+													m_Color = 
+													{
+														m_SourceName = "primary_color"
+													}
+												},
+											]
+										},
+										
+										{
+											_class = "CSmartPropOperation_Rotate"
+											m_vRotation = 
+											{
+												m_Components = 
+												[
+													0.000000,
+													0.000000,
+													{
+														m_Expression = "RandomFloat( 0, 360 )"
+													},
+												]
+											}
+										},
+									]
+								},
+							]
+						},
+					]
+				},
+			]
+		},
+		
+		{
+			_class = "CSmartPropElement_ModifyState"
+			m_nElementID = 192
+			_editor = 
+			{
+				folder_name = ""
+			}
+			m_sLabel = "init first"
+			m_Modifiers = 
+			[
+				
+				{
+					_class = "CSmartPropOperation_SetVariable"
+					m_VariableValue = 
+					{
+						m_TargetName = "first"
+						m_DataType = "BOOL"
+						m_Value = false
+					}
+				},
+			]
+		},
+		
+		{
+			_class = "CSmartPropElement_SmartProp"
+			m_nElementID = 16
+			_editor = 
+			{
+				folder_name = ""
+			}
+			m_sSmartProp = resource_name:"smart_props/pipe01_array.vsmart"
+			m_bLocalEvaluationState = true
+			m_bEnabled = true
+			m_Modifiers = 
+			[
+				
+				{
+					_class = "CSmartPropOperation_SetVariable"
+					m_VariableValue = 
+					{
+						m_TargetName = "prev_index"
+						m_DataType = "INTEGER"
+						m_Value = 
+						{
+							m_SourceName = "model_index"
+						}
+					}
+				},
+				
+				{
+					_class = "CSmartPropOperation_SetVariable"
+					m_VariableValue = 
+					{
+						m_TargetName = "prev_pos"
+						m_DataType = "VECTOR3"
+						m_Value = 
+						{
+							m_SourceName = "plane_pos"
+						}
+					}
+				},
+				
+				{
+					_class = "CSmartPropOperation_SetVariable"
+					m_VariableValue = 
+					{
+						m_TargetName = "prev_tan"
+						m_DataType = "VECTOR3"
+						m_Value = 
+						{
+							m_SourceName = "plane_tan"
+						}
+					}
+				},
+				
+				{
+					_class = "CSmartPropOperation_SetVariable"
+					m_VariableValue = 
+					{
+						m_TargetName = "prev_str_end_xOffset"
+						m_DataType = "FLOAT"
+						m_Value = 
+						{
+							m_SourceName = "str_end_xOffset"
+						}
+					}
+				},
+				
+				{
+					_class = "CSmartPropOperation_SetVariable"
+					m_VariableValue = 
+					{
+						m_TargetName = "prev_costheta"
+						m_DataType = "FLOAT"
+						m_Value = 
+						{
+							m_SourceName = "costheta"
+						}
+					}
+					m_bEnabled = true
+				},
+				
+				{
+					_class = "CSmartPropOperation_SetVariable"
+					m_VariableValue = 
+					{
+						m_TargetName = "prev_rot_angle"
+						m_DataType = "FLOAT"
+						m_Value = 
+						{
+							m_SourceName = "rot_angle"
+						}
+					}
+				},
+				
+				{
+					_class = "CSmartPropOperation_SetVariable"
+					m_VariableValue = 
+					{
+						m_TargetName = "prev_offset_vec"
+						m_DataType = "VECTOR3"
+						m_Value = 
+						{
+							m_SourceName = "offset_vec"
+						}
+					}
+				},
+				
+				{
+					_class = "CSmartPropOperation_RestoreState"
+					m_StateName = "AdditionalSection"
+					m_bDiscardIfUknown = true
+				},
+				
+				{
+					_class = "CSmartPropOperation_Rotate"
+					m_vRotation = 
+					{
+						m_Components = 
+						[
+							
+							{
+								m_Expression = "90 - rot_angle"
+							},
+							
+							{
+								m_Expression = "0"
+							},
+							
+							{
+								m_Expression = "90 - rot_angle"
+							},
+						]
+					}
+					m_bEnabled = true
+				},
+			]
+		},
+	]
+}

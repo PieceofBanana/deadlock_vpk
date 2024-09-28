@@ -244,7 +244,7 @@
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_PRESS",
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_CONE",
         "m_flTargetingConeAngle": "20",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_CLEAVE_DISABLED | CITADEL_ABILITY_BEHAVIOR_EQUAL_UNIT_TARGET_PRIORITY",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_CLEAVE_DISABLED | CITADEL_ABILITY_BEHAVIOR_EQUAL_UNIT_TARGET_PRIORITY",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
         "m_previewParticle": "particles/abilities/slow_projectile_preview.vpcf",
         "m_strAbilityImage": "file://{images}/hud/abilities/slork/slork_invis.psd",

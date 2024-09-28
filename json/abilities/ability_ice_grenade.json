@@ -226,7 +226,7 @@
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_NONE",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_PRESS",
         "m_bShowTargetingPreviewWhileCasting": "true",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CAN_HEAL_PLAYERS | CITADEL_ABILITY_BEHAVIOR_PROJECTILE_FIRED_AS_BULLET",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CAN_HEAL_PLAYERS | CITADEL_ABILITY_BEHAVIOR_PROJECTILE_FIRED_AS_BULLET | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL",
         "m_strAbilityImage": "file://{images}/hud/abilities/kelvin/freezing_grenade.psd",
         "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/kelvin_freezing_grenade.webm",

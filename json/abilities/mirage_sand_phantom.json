@@ -4,15 +4,17 @@
         "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "37.000000",
+                "m_strValue": "2.500000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",
                     "_my_subclass_name": "AbilityCooldown_scale_function",
-                    "m_eSpecificStatScaleType": "ETechCooldown"
-                }
+                    "m_eSpecificStatScaleType": "ETechCooldown",
+                    "m_bFunctionDisabled": "true"
+                },
+                "m_bIsHidden": "true"
             },
             "AbilityDuration": {
                 "m_strValue": "0",
@@ -111,64 +113,69 @@
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
             },
             "WhirlwindEvasionChance": {
-                "m_strValue": "50",
+                "m_strValue": "0",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_BULLET_EVASION",
                 "m_UsageFlags": "APUsageFlag_ModifierConditional"
             },
             "WhirlwindDuration": {
-                "m_strValue": "3.5",
+                "m_strValue": "0",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",
                     "_my_subclass_name": "WhirlwindDuration_scale_function",
                     "m_eSpecificStatScaleType": "ETechDuration"
                 }
             },
-            "Radius": {
-                "m_strValue": "10m",
-                "m_strCSSClass": "distance",
-                "m_subclassScaleFunction": {
-                    "_class": "scale_function_single_stat",
-                    "_my_subclass_name": "Radius_scale_function",
-                    "m_eSpecificStatScaleType": "ETechRange"
-                }
-            },
-            "ProcBonusMagicDamage": {
-                "m_strValue": "20",
+            "ProcDamageBase": {
+                "m_strValue": "16",
                 "m_strCSSClass": "tech_damage",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_tech_damage",
                     "_my_subclass_name": "Damage_scale_function",
                     "m_eSpecificStatScaleType": "ETechPower",
-                    "m_flStatScale": "0.200000"
-                }
-            },
-            "ProcBonusMagicDamageEscalation": {
-                "m_strValue": "15",
-                "m_strCSSClass": "tech_damage",
-                "m_subclassScaleFunction": {
-                    "_class": "scale_function_tech_damage",
-                    "_my_subclass_name": "BombBonusDamagePerHero_scale_function",
-                    "m_eSpecificStatScaleType": "ETechPower",
-                    "m_flStatScale": "0.150000"
+                    "m_flStatScale": "0.400000"
                 }
             },
             "ProcChance": {
                 "m_strValue": "100"
             },
             "ProcCooldown": {
-                "m_strValue": "2",
+                "m_strValue": "2.5",
                 "m_strLocTokenOverride": "SandPhantomProcCooldown"
             },
             "VictimStackDuration": {
-                "m_strValue": "8.0",
+                "m_strValue": "4.5",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",
                     "_my_subclass_name": "VictimStackDuration_scale_function",
                     "m_eSpecificStatScaleType": "ETechDuration"
                 }
             },
+            "RevealDuration": {
+                "m_strValue": "2.0",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "RevealDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            },
             "MaxStacks": {
-                "m_strValue": "5"
+                "m_strValue": "8",
+                "m_strLocTokenOverride": "MirageDjinnsMarkMaxStacks"
+            },
+            "MovementSpeedSlow": {
+                "m_strValue": "0",
+                "m_strCSSClass": "slow",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
+            },
+            "SlowDuration": {
+                "m_strValue": "0",
+                "m_strCSSClass": "duration",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "SlowDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
             }
         },
         "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
@@ -231,26 +238,34 @@
         "m_skillshotMissParticle": "particles/abilities/skillshot_default_miss_owner.vpcf",
         "m_iUpdateTime": "1679347214",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_BUSY | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CAN_CAST_ON_ZIPLINE",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CAN_CAST_ON_ZIPLINE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
         "m_strAbilityImage": "file://{images}/hud/abilities/mirage/mirage_sand_phantom.psd",
         "m_strCastSound": "Mirage.A4.Whirling.Dervish.Cast",
         "m_strCastAnimGraphParam": "e_GenericCast",
-        "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/mirage_whirling_dervish.webm",
+        "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/mirage_sand_phantom.webm",
         "m_flCameraPreviewOffset": "100.000000",
         "m_vecAbilityUpgrades": [
             {
                 "m_vecPropertyUpgrades": [
                     {
-                        "m_strPropertyName": "WhirlwindEvasionChance",
-                        "m_strBonus": "30"
+                        "m_strPropertyName": "MovementSpeedSlow",
+                        "m_strBonus": "80"
+                    },
+                    {
+                        "m_strPropertyName": "SlowDuration",
+                        "m_strBonus": "0.5"
                     }
                 ]
             },
             {
                 "m_vecPropertyUpgrades": [
                     {
-                        "m_strPropertyName": "ProcBonusMagicDamageEscalation",
+                        "m_strPropertyName": "VictimStackDuration",
+                        "m_strBonus": "4.0"
+                    },
+                    {
+                        "m_strPropertyName": "ProcDamageBase",
                         "m_strBonus": "10"
                     }
                 ]
@@ -258,8 +273,12 @@
             {
                 "m_vecPropertyUpgrades": [
                     {
-                        "m_strPropertyName": "AbilityCooldown",
-                        "m_strBonus": "-19.000000"
+                        "m_strPropertyName": "ProcCooldown",
+                        "m_strBonus": "-0.5"
+                    },
+                    {
+                        "m_strPropertyName": "MaxStacks",
+                        "m_strBonus": "4"
                     }
                 ]
             }
@@ -283,8 +302,7 @@
             "m_bIsHidden": "true",
             "m_AttackerHitFx": "particles/abilities/mirage/mirage_dust_devil_attacker_hit.vpcf",
             "m_ImpactParticle": "particles/abilities/mirage/mirage_sand_phantom_whirlwind_evasion.vpcf",
-            "m_strAttackerHitSound": "Mirage.A2.Sand.Phantom.ReturnBullet.Attacker",
-            "m_strVictimHitSound": "Mirage.A2.Sand.Phantom.ReturnBullet.Victim",
+            "m_strAttackerHitSound": "Ability.BulletEvade",
             "m_strParticleEffect": "",
             "m_playerBuffEnemy": "particles/abilities/mirage/mirage_sand_phantom_whirlwind_buff_enemy.vpcf",
             "m_playerBuffSelf": "particles/abilities/mirage/mirage_sand_phantom_whirlwind_buff.vpcf",
@@ -295,8 +313,8 @@
                 "_class": "modifier_mirage_sand_phantom_proc",
                 "_my_subclass_name": "modifier_mirage_sand_phantom_proc",
                 "m_bIsHidden": "true",
-                "m_ProcReadyParticle": "particles/abilities/dynamo/dynamo_void_sphere_buff.vpcf",
                 "m_ExplodeParticle": "particles/upgrades/crack_shot_hit.vpcf",
+                "m_ProcSound": "Mirage.A3.TempestWard.Proc",
                 "m_ExplodeSound": "Upgrade.ExplosiveBullets.Explode",
                 "m_bRollOnceForAllBulletsInAShot": "false",
                 "m_bCanProcMultipleTimesFromSameShot": "false",
@@ -306,12 +324,35 @@
                 "m_TracerAdditionParticle": "particles/items/crackshot_tracer.vpcf",
                 "m_bRequiresTargetFilter": "true",
                 "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
+                "m_ProcReadyModifier": {
+                    "_class": "modifier_mirage_sand_phantom_proc_ready",
+                    "_my_subclass_name": "modifier_mirage_sand_phantom_proc_ready",
+                    "m_sLocalizationName": "modifier_mirage_sand_phantom_proc_ready",
+                    "m_bIsHidden": "true",
+                    "m_ProcReadyParticle": "particles/abilities/gigawatt/gigawatt_voltage_drain_buff.vpcf",
+                    "m_strProcReadySound": "Mirage.A3.DjinnsMark.ProcReady"
+                },
                 "m_PassiveVictimModifier": {
-                    "_class": "modifier_base",
+                    "_class": "modifier_mirage_sand_phantom_passive_victim",
                     "_my_subclass_name": "modifier_mirage_sand_phantom_passive_victim",
                     "m_sLocalizationName": "modifier_mirage_sand_phantom_passive_victim",
                     "m_bIsHidden": "false",
-                    "m_strSmallIconCssClass": "fixated"
+                    "m_OverheadParticle": "",
+                    "m_BuffStatusParticle": "particles/abilities/mirage/mirage_djinns_mark_stacks_buff.vpcf",
+                    "m_ConsumeMaxStacksSound": "Mirage.A3.TempestWard.ConsumeMaxStacks",
+                    "m_ApplyStackSound": "Mirage.A3.DjinnsMark.ApplyStack",
+                    "m_ConsumeMaxStacksNonHeroSound": "Mirage.A3.TempestWard.ConsumeMaxStacks.NonHero",
+                    "m_SlowModifier": {
+                        "_class": "modifier_slow_base",
+                        "_my_subclass_name": "mirage_djinns_mark_slow",
+                        "m_bIsHidden": "true",
+                        "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
+                            "MovementSpeedSlow"
+                        ]
+                    },
+                    "m_BuffStatusVictimParticle": "particles/abilities/mirage/mirage_djinns_mark_stacks_victim_buff.vpcf",
+                    "m_StackDamageParticle": "particles/abilities/mirage/mirage_djinns_mark_damage.vpcf",
+                    "m_StackReadyParticle": "particles/abilities/mirage/mirage_djinns_mark_debuff_ready.vpcf"
                 }
             }
         ],
@@ -323,36 +364,30 @@
                         {
                             "m_vecAbilityProperties": [
                                 {
-                                    "m_strImportantProperty": "ProcBonusMagicDamage"
+                                    "m_strImportantProperty": "ProcDamageBase"
                                 },
                                 {
-                                    "m_strImportantProperty": "ProcBonusMagicDamageEscalation"
+                                    "m_strImportantProperty": "MaxStacks"
+                                },
+                                {
+                                    "m_strImportantProperty": "ProcCooldown"
                                 }
                             ]
                         }
                     ],
                     "m_vecBasicProperties": [
-                        "ProcCooldown",
-                        "MaxStacks"
+                        "VictimStackDuration",
+                        "RevealDuration"
                     ]
                 },
                 {
                     "m_strLocString": "#mirage_sand_phantom_desc",
                     "m_vecAbilityPropertiesBlock": [
                         {
-                            "m_vecAbilityProperties": [
-                                {
-                                    "m_strImportantProperty": "WhirlwindEvasionChance"
-                                },
-                                {
-                                    "m_strImportantProperty": "WhirlwindDuration"
-                                }
-                            ]
+                            "m_vecAbilityProperties": []
                         }
                     ],
-                    "m_vecBasicProperties": [
-                        "AbilityCooldown"
-                    ]
+                    "m_vecBasicProperties": []
                 }
             ]
         }

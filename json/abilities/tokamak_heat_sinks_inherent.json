@@ -174,7 +174,7 @@
         "m_iMaxLevel": "1",
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_SELF",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_PASSIVE",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
         "m_eAbilitySpectatePriority": "CITADELTV_ABILITY_SPECTATE_PRIORITY_HIGH",
         "m_strAbilityImage": "file://{images}/hud/abilities/ability_activate.psd",
         "m_HotTracerParticle": "particles/weapon_fx/ricochet_tracer.vpcf",

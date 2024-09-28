@@ -213,7 +213,7 @@
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_CONE",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_PRESS",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_TROOPER_ENEMY | CITADEL_UNIT_TARGET_NEUTRAL | CITADEL_UNIT_TARGET_MINION_ENEMY",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED",
         "m_flTargetingConeAngle": "100",
         "m_strAbilityImage": "file://{images}/hud/abilities/wrecker/salvage.psd",
         "m_vecAbilityUpgrades": [

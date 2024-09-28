@@ -177,7 +177,7 @@
         "m_iMaxLevel": "1",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_SELF",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_HIDDEN | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK  | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY | CITADEL_UNIT_TARGET_TROPHY_ENEMY",
         "m_nAbilityTargetFlags": "CITADEL_UNIT_TARGET_FLAG_PENETRATE_INVULNERABLE",
         "m_bitsInterruptingStates": "MODIFIER_STATE_STUNNED | MODIFIER_STATE_IS_ASLEEP",
@@ -513,7 +513,6 @@
                         "800.000000"
                     ]
                 },
-                "m_flAttackEventTime": "0.950000",
                 "bIsHeavyAttack": "true",
                 "m_strActivateSound": "",
                 "m_flMovementAcc": "200000.000000",
@@ -661,6 +660,70 @@
                 "m_flAttackStateTime": "0.300000",
                 "m_strHitHeroSound": "Ability.Melee.Impact.Player",
                 "m_MeleeAttackParticle": "particles/abilities/melee/melee_heavy_activate.vpcf"
+            },
+            "EAttackType_Slide": {
+                "m_Trigger": "heavy",
+                "m_SpeedBonusCurve": "",
+                "m_bApplyScreenShake": "true",
+                "bIsHeavyAttack": "true",
+                "m_MovementSpeedCurve": {
+                    "m_spline": [
+                        {
+                            "x": "0.000000",
+                            "y": "367.272705",
+                            "m_flSlopeIncoming": "191.498413",
+                            "m_flSlopeOutgoing": "191.498413"
+                        },
+                        {
+                            "x": "0.191789",
+                            "y": "404.000000",
+                            "m_flSlopeIncoming": "1802.960327",
+                            "m_flSlopeOutgoing": "1802.960327"
+                        },
+                        {
+                            "x": "0.350938",
+                            "y": "1000.000000",
+                            "m_flSlopeIncoming": "-2519.410400",
+                            "m_flSlopeOutgoing": "-2519.410400"
+                        },
+                        {
+                            "x": "0.352144",
+                            "y": "0.000000",
+                            "m_flSlopeIncoming": "-829180.125000",
+                            "m_flSlopeOutgoing": "-829180.125000"
+                        }
+                    ],
+                    "m_tangents": [
+                        {
+                            "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                            "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                        },
+                        {
+                            "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                            "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                        },
+                        {
+                            "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                            "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                        },
+                        {
+                            "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                            "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                        }
+                    ],
+                    "m_vDomainMins": [
+                        "0.000000",
+                        "0.000000"
+                    ],
+                    "m_vDomainMaxs": [
+                        "0.400000",
+                        "1000.000000"
+                    ]
+                },
+                "m_flCooldownOnMiss": "1.000000",
+                "m_flCooldownOnHit": "1.000000",
+                "m_flMovementAcc": "3000.000000",
+                "m_flKnockUpStrength": "200.000000"
             }
         },
         "m_HUDPanel": {

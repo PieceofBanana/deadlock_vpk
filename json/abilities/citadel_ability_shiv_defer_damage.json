@@ -262,7 +262,7 @@
                 }
             ]
         },
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_DAMAGE_DOESNT_WAKE_FROM_SLEEP | CITADEL_ABILITY_BEHAVIOR_DONT_CONSUME_ABILITY_RESOURCE_ON_CAST",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_DAMAGE_DOESNT_WAKE_FROM_SLEEP | CITADEL_ABILITY_BEHAVIOR_DONT_CONSUME_ABILITY_RESOURCE_ON_CAST",
         "m_nAbilityTargetFlags": "CITADEL_UNIT_TARGET_FLAG_NO_DORMANT_NEUTRALS",
         "m_AutoChannelModifier": {},
         "m_AutoCastDelayModifier": {

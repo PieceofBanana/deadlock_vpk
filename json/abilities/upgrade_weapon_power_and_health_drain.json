@@ -177,7 +177,7 @@
         "m_iItemTier": "EModTier_2",
         "m_strCSSClass": "overdrive",
         "m_strAbilityImage": "file://{images}/upgrades/mods_armor/overdrive.psd",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CAN_CAST_ON_ZIPLINE",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CAN_CAST_ON_ZIPLINE",
         "m_BuffModifier": {
             "_class": "modifier_item_weapon_power_for_health",
             "_my_subclass_name": "modifier_item_weapon_power_for_health",

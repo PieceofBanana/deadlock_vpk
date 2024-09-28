@@ -182,7 +182,7 @@
         "m_strCSSClass": "techArmorPulse",
         "m_strAbilityImage": "file://{images}/upgrades/mods_tech/tech_shield_pulse.psd",
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_SPHERE",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_FRIENDLY",
         "m_strCastSound": "Mods.Tech.Shield.Pulse.Cast",
         "m_DurationModifier": {

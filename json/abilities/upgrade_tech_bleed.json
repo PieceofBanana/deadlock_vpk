@@ -227,7 +227,7 @@
         "m_iItemTier": "EModTier_4",
         "m_iUpdateTime": "1710448256",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_CLEAVE_DISABLED",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_CLEAVE_DISABLED",
         "m_strCSSClass": "magicReverb",
         "m_strAbilityImage": "file://{images}/upgrades/mods_tech/magic_reverb.psd",
         "m_TargetAbilityEffectsToApply": "CITADEL_TARGET_ABILITY_BEHAVIOR_IMBUE_ACTIVE",

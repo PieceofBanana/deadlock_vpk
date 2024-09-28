@@ -225,7 +225,7 @@
             }
         },
         "_multibase": [
-            "armor_upgrade_t4",
+            "weapon_upgrade_t4",
             "invis_base"
         ],
         "m_bStartTrained": "true",
@@ -237,11 +237,11 @@
         "m_strCastAnimSequenceName": "ability_generic_cast",
         "m_strSelectionNameOverride": "item",
         "m_PreviewPathParticle": "particles/generic/generic_arc.vpcf",
-        "m_eItemSlotType": "EItemSlotType_Armor",
+        "m_eItemSlotType": "EItemSlotType_WeaponMod",
         "m_iItemTier": "EModTier_4",
         "m_strCSSClass": "cloakingDevice",
         "m_strAbilityImage": "file://{images}/upgrades/mods_utility/cloaking_device.psd",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CAN_CAST_ON_ZIPLINE",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CAN_CAST_ON_ZIPLINE",
         "m_strCastSound": "Mods.Armor.Cloak.Cast",
         "m_AmbushModifier": {
             "_class": "modifier_cloaking_device_active_ambush",
@@ -292,9 +292,6 @@
                             },
                             {
                                 "m_strImportantProperty": "AbilityDuration"
-                            },
-                            {
-                                "m_strImportantProperty": "InvisMoveSpeedMod"
                             }
                         ],
                         "m_vecAbilityProperties": [

@@ -23,7 +23,6 @@
                     "m_value": "1.500000"
                 }
             ],
-            "m_strHudMessageText": "#firerate_permanent_pickup_label",
             "m_strSmallIconCssClass": "fire_rate"
         },
         "m_sDefaultMaterialGroupName": "red",

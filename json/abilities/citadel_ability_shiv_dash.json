@@ -225,7 +225,7 @@
         "m_iUpdateTime": "1676665273",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_SELF",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_DONT_TRIGGER_POST_CAST_ON_CAST_COMPLETE | CITADEL_ABILITY_BEHAVIOR_MOVEMENT | CITADEL_ABILITY_BEHAVIOR_TRIGGER_CANCEL_MASH_PROTECTION_ON_CAST",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_DONT_TRIGGER_POST_CAST_ON_CAST_COMPLETE | CITADEL_ABILITY_BEHAVIOR_MOVEMENT | CITADEL_ABILITY_BEHAVIOR_TRIGGER_CANCEL_MASH_PROTECTION_ON_CAST",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_TROPHY_FRIENDLY | CITADEL_UNIT_TARGET_ALL_ENEMY",
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_LINE",
         "m_strAbilityImage": "file://{images}/hud/abilities/shiv/shiv_flash.psd",
@@ -242,7 +242,7 @@
                 "m_vecPropertyUpgrades": [
                     {
                         "m_strPropertyName": "ImpactDamage",
-                        "m_strBonus": "85"
+                        "m_strBonus": "75"
                     }
                 ]
             },

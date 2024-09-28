@@ -5473,6 +5473,7 @@
 											m_params = 
 											{
 												m_respeakdelay.start = 0.500000
+												m_predelay.start = 0.000000
 											}
 										},
 									]
@@ -5497,6 +5498,7 @@
 											m_params = 
 											{
 												m_respeakdelay.start = 0.500000
+												m_predelay.start = 0.000000
 											}
 										},
 									]
@@ -5521,6 +5523,7 @@
 											m_params = 
 											{
 												m_respeakdelay.start = 0.500000
+												m_predelay.start = 0.000000
 											}
 										},
 									]
@@ -5545,6 +5548,7 @@
 											m_params = 
 											{
 												m_respeakdelay.start = 0.500000
+												m_predelay.start = 0.000000
 											}
 										},
 									]
@@ -5569,6 +5573,7 @@
 											m_params = 
 											{
 												m_respeakdelay.start = 0.500000
+												m_predelay.start = 0.000000
 											}
 										},
 									]
@@ -5593,6 +5598,7 @@
 											m_params = 
 											{
 												m_respeakdelay.start = 0.500000
+												m_predelay.start = 0.000000
 											}
 										},
 									]
@@ -5617,6 +5623,7 @@
 											m_params = 
 											{
 												m_respeakdelay.start = 0.500000
+												m_predelay.start = 0.000000
 											}
 										},
 									]
@@ -5641,6 +5648,7 @@
 											m_params = 
 											{
 												m_respeakdelay.start = 0.500000
+												m_predelay.start = 0.000000
 											}
 										},
 									]
@@ -5665,6 +5673,7 @@
 											m_params = 
 											{
 												m_respeakdelay.start = 0.500000
+												m_predelay.start = 0.000000
 											}
 										},
 									]
@@ -5689,6 +5698,7 @@
 											m_params = 
 											{
 												m_respeakdelay.start = 0.500000
+												m_predelay.start = 0.000000
 											}
 										},
 									]
@@ -5713,6 +5723,7 @@
 											m_params = 
 											{
 												m_respeakdelay.start = 0.500000
+												m_predelay.start = 0.000000
 											}
 										},
 									]
@@ -5737,6 +5748,7 @@
 											m_params = 
 											{
 												m_respeakdelay.start = 0.500000
+												m_predelay.start = 0.000000
 											}
 										},
 									]
@@ -5761,6 +5773,7 @@
 											m_params = 
 											{
 												m_respeakdelay.start = 0.500000
+												m_predelay.start = 0.000000
 											}
 										},
 									]
@@ -5785,6 +5798,7 @@
 											m_params = 
 											{
 												m_respeakdelay.start = 0.500000
+												m_predelay.start = 0.000000
 											}
 										},
 									]
@@ -5809,6 +5823,7 @@
 											m_params = 
 											{
 												m_respeakdelay.start = 0.500000
+												m_predelay.start = 0.000000
 											}
 										},
 									]
@@ -5833,6 +5848,7 @@
 											m_params = 
 											{
 												m_respeakdelay.start = 0.500000
+												m_predelay.start = 0.000000
 											}
 										},
 									]
@@ -5857,6 +5873,7 @@
 											m_params = 
 											{
 												m_respeakdelay.start = 0.500000
+												m_predelay.start = 0.000000
 											}
 										},
 									]
@@ -5881,6 +5898,7 @@
 											m_params = 
 											{
 												m_respeakdelay.start = 0.500000
+												m_predelay.start = 0.000000
 											}
 										},
 									]
@@ -5905,6 +5923,7 @@
 											m_params = 
 											{
 												m_respeakdelay.start = 0.500000
+												m_predelay.start = 0.000000
 											}
 										},
 									]
@@ -5929,6 +5948,7 @@
 											m_params = 
 											{
 												m_respeakdelay.start = 0.500000
+												m_predelay.start = 0.000000
 											}
 										},
 									]
@@ -5953,6 +5973,7 @@
 											m_params = 
 											{
 												m_respeakdelay.start = 0.500000
+												m_predelay.start = 0.000000
 											}
 										},
 									]
@@ -5987,6 +6008,7 @@
 									m_params = 
 									{
 										m_respeakdelay.start = 0.500000
+										m_predelay.start = 0.000000
 									}
 								},
 							]
@@ -6010,6 +6032,8 @@
 									m_value = "krill_ping_take_mid_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -6035,6 +6059,8 @@
 									m_value = "krill_ping_theyre_in_mid_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -6060,6 +6086,8 @@
 									m_value = "krill_ping_going_in_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -6069,6 +6097,8 @@
 									m_value = "krill_ping_going_in_01_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -6093,6 +6123,8 @@
 									m_value = "krill_ping_good_job_01_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -6117,6 +6149,8 @@
 									m_value = "krill_ping_good_job_01_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -6141,6 +6175,8 @@
 									m_value = "krill_ping_good_game_01_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -6150,6 +6186,8 @@
 									m_value = "krill_ping_good_game_02_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -6159,6 +6197,8 @@
 									m_value = "krill_ping_good_game_03_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -6183,6 +6223,8 @@
 									m_value = "krill_ping_well_played_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -6207,6 +6249,8 @@
 									m_value = "krill_ping_retreat_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -6231,6 +6275,8 @@
 									m_value = "krill_ping_right_back_01_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -6255,6 +6301,8 @@
 									m_value = "krill_ping_stay_together_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -6279,6 +6327,8 @@
 									m_value = "krill_ping_need_help_yellow_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -6304,6 +6354,8 @@
 									m_value = "krill_ping_need_help_blue_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -6329,6 +6381,8 @@
 									m_value = "krill_ping_need_help_purple_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -6354,6 +6408,8 @@
 									m_value = "krill_ping_help_with_idol_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -6378,6 +6434,8 @@
 									m_value = "krill_ping_thank_you_01_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -6387,6 +6445,8 @@
 									m_value = "krill_ping_thank_you_02_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -6411,6 +6471,8 @@
 									m_value = "krill_ping_thank_you_01_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -6420,6 +6482,8 @@
 									m_value = "krill_ping_thank_you_02_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -6444,6 +6508,8 @@
 									m_value = "krill_ping_on_way_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -6468,6 +6534,8 @@
 									m_value = "krill_ping_affermative_01_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -6477,6 +6545,8 @@
 									m_value = "krill_ping_affermative_02_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -6486,6 +6556,8 @@
 									m_value = "krill_ping_affermative_03_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -6510,6 +6582,8 @@
 									m_value = "krill_ping_negative_01_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -6519,6 +6593,8 @@
 									m_value = "krill_ping_negative_02_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -6528,6 +6604,8 @@
 									m_value = "krill_ping_negative_03_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -6552,6 +6630,8 @@
 									m_value = "krill_ping_take_core_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -6577,6 +6657,8 @@
 									m_value = "krill_ping_attack_enemy_titan_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -6602,6 +6684,8 @@
 									m_value = "krill_ping_push_yellow_01_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -6627,6 +6711,8 @@
 									m_value = "krill_ping_push_purple_01_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -6652,6 +6738,8 @@
 									m_value = "krill_ping_push_blue_01_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -6677,6 +6765,8 @@
 									m_value = "krill_ping_headed_blue_01_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -6702,6 +6792,8 @@
 									m_value = "krill_ping_blue_help_01_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -6728,6 +6820,8 @@
 									m_value = "krill_ping_headed_yellow_01_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -6753,6 +6847,8 @@
 									m_value = "krill_ping_yellow_help_01_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -6779,6 +6875,8 @@
 									m_value = "krill_ping_headed_purple_01_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -6804,6 +6902,8 @@
 									m_value = "krill_ping_purple_help_01_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -6830,6 +6930,8 @@
 									m_value = "krill_ping_headed_this_way_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -6854,6 +6956,8 @@
 									m_value = "krill_ping_headed_blue_01_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -6879,6 +6983,8 @@
 									m_value = "krill_ping_headed_yellow_01_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -6904,6 +7010,8 @@
 									m_value = "krill_ping_headed_purple_01_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -6929,6 +7037,8 @@
 									m_value = "krill_ping_lets_go_blue_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -6954,6 +7064,8 @@
 									m_value = "krill_ping_lets_go_yellow_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -6979,6 +7091,8 @@
 									m_value = "krill_ping_lets_go_purple_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -7004,6 +7118,8 @@
 									m_value = "krill_ping_right_back_01_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -7013,6 +7129,8 @@
 									m_value = "krill_ping_going_shop_01_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -7022,6 +7140,8 @@
 									m_value = "krill_ping_be_back_soon_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -7046,6 +7166,8 @@
 									m_value = "krill_ping_nevermind_01_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -7055,6 +7177,8 @@
 									m_value = "krill_ping_nevermind_02_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -7064,6 +7188,8 @@
 									m_value = "krill_ping_nevermind_03_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -7086,6 +7212,11 @@
 								{
 									m_type = "SPEAK"
 									m_value = "krill_ping_jar_call_01_ping_2d"
+									m_params = 
+									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -7108,6 +7239,8 @@
 									m_value = "krill_ping_need_plan_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -7132,6 +7265,8 @@
 									m_value = "krill_ping_use_ability1_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -7158,6 +7293,8 @@
 									m_value = "krill_ping_use_ability2_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -7184,6 +7321,8 @@
 									m_value = "krill_ping_use_ability3_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -7210,6 +7349,8 @@
 									m_value = "krill_ping_use_ability4_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -7219,6 +7360,8 @@
 									m_value = "krill_ping_use_ability4_02_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -7228,6 +7371,8 @@
 									m_value = "krill_ping_use_ability4_03_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -7237,6 +7382,8 @@
 									m_value = "krill_ping_use_ability4_04_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -7246,6 +7393,8 @@
 									m_value = "krill_ping_use_ability4_05_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -7255,6 +7404,8 @@
 									m_value = "krill_ping_use_ability4_06_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -7264,6 +7415,8 @@
 									m_value = "krill_ping_use_ability4_07_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -7273,6 +7426,8 @@
 									m_value = "krill_ping_use_ability4_08_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -7282,6 +7437,8 @@
 									m_value = "krill_ping_use_ability4_09_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -7291,6 +7448,8 @@
 									m_value = "krill_ping_use_ability4_10_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -7317,6 +7476,8 @@
 									m_value = "krill_ping_ability1_not_ready_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -7343,6 +7504,8 @@
 									m_value = "krill_ping_ability2_not_ready_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -7369,6 +7532,8 @@
 									m_value = "krill_ping_ability3_not_ready_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -7395,6 +7560,8 @@
 									m_value = "krill_ping_ability4_not_ready_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -7424,6 +7591,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "krill_ping_careful_inferno_01_ping_2d"
+											m_params = 
+											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -7444,6 +7616,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "krill_ping_careful_gigawatt_01_ping_2d"
+											m_params = 
+											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -7464,6 +7641,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "krill_ping_careful_hornet_01_ping_2d"
+											m_params = 
+											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -7484,6 +7666,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "krill_ping_careful_ghost_01_ping_2d"
+											m_params = 
+											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -7504,6 +7691,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "krill_ping_careful_atlas_01_ping_2d"
+											m_params = 
+											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -7524,6 +7716,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "krill_ping_careful_wraith_01_ping_2d"
+											m_params = 
+											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -7544,6 +7741,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "krill_ping_careful_forge_01_ping_2d"
+											m_params = 
+											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -7564,6 +7766,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "krill_ping_careful_chrono_01_ping_2d"
+											m_params = 
+											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -7584,6 +7791,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "krill_ping_careful_dynamo_01_ping_2d"
+											m_params = 
+											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -7604,6 +7816,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "krill_ping_careful_kelvin_01_ping_2d"
+											m_params = 
+											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -7624,6 +7841,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "krill_ping_careful_haze_01_ping_2d"
+											m_params = 
+											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -7644,6 +7866,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "krill_ping_careful_astro_01_ping_2d"
+											m_params = 
+											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -7664,6 +7891,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "krill_ping_careful_bebop_01_ping_2d"
+											m_params = 
+											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -7684,6 +7916,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "krill_ping_careful_nano_01_ping_2d"
+											m_params = 
+											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -7704,6 +7941,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "krill_ping_careful_shiv_01_ping_2d"
+											m_params = 
+											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -7724,6 +7966,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "krill_ping_careful_tengu_01_ping_2d"
+											m_params = 
+											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -7744,6 +7991,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "krill_ping_careful_warden_01_ping_2d"
+											m_params = 
+											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -7764,6 +8016,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "krill_ping_careful_yamato_01_ping_2d"
+											m_params = 
+											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -7784,6 +8041,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "krill_ping_careful_lash_01_ping_2d"
+											m_params = 
+											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -7804,6 +8066,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "krill_ping_careful_viscous_01_ping_2d"
+											m_params = 
+											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -7824,6 +8091,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "krill_ping_careful_wrecker_01_ping_2d"
+											m_params = 
+											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -7844,6 +8116,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "krill_ping_careful_mirage_01_ping_2d"
+											m_params = 
+											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -7881,6 +8158,8 @@
 											m_value = "krill_ping_inferno_missing_01_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -7905,6 +8184,8 @@
 											m_value = "krill_ping_gigawatt_missing_01_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -7929,6 +8210,8 @@
 											m_value = "krill_ping_hornet_missing_01_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -7953,6 +8236,8 @@
 											m_value = "krill_ping_ghost_missing_01_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -7977,6 +8262,8 @@
 											m_value = "krill_ping_atlas_missing_01_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -8001,6 +8288,8 @@
 											m_value = "krill_ping_wraith_missing_01_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -8025,6 +8314,8 @@
 											m_value = "krill_ping_forge_missing_01_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -8049,6 +8340,8 @@
 											m_value = "krill_ping_chrono_missing_01_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -8073,6 +8366,8 @@
 											m_value = "krill_ping_dynamo_missing_01_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -8097,6 +8392,8 @@
 											m_value = "krill_ping_kelvin_missing_01_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -8121,6 +8418,8 @@
 											m_value = "krill_ping_haze_missing_01_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -8145,6 +8444,8 @@
 											m_value = "krill_ping_astro_missing_01_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -8169,6 +8470,8 @@
 											m_value = "krill_ping_bebop_missing_01_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -8193,6 +8496,8 @@
 											m_value = "krill_ping_nano_missing_01_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -8217,6 +8522,8 @@
 											m_value = "krill_ping_shiv_missing_01_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -8241,6 +8548,8 @@
 											m_value = "krill_ping_tengu_missing_01_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -8265,6 +8574,8 @@
 											m_value = "krill_ping_warden_missing_01_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -8289,6 +8600,8 @@
 											m_value = "krill_ping_yamato_missing_01_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -8313,6 +8626,8 @@
 											m_value = "krill_ping_lash_missing_01_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -8337,6 +8652,8 @@
 											m_value = "krill_ping_viscous_missing_01_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -8361,6 +8678,8 @@
 											m_value = "krill_ping_wrecker_missing_01_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -8385,6 +8704,8 @@
 											m_value = "krill_ping_mirage_missing_01_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -8419,6 +8740,8 @@
 									m_value = "krill_ping_see_enemy_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -8436,6 +8759,8 @@
 											m_value = "krill_ping_see_inferno_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -8460,6 +8785,8 @@
 											m_value = "krill_ping_see_gigawatt_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -8469,6 +8796,8 @@
 											m_value = "krill_ping_see_gigawatt_01_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -8493,6 +8822,8 @@
 											m_value = "krill_ping_see_hornet_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -8502,6 +8833,8 @@
 											m_value = "krill_ping_see_hornet_01_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -8511,6 +8844,8 @@
 											m_value = "krill_ping_see_hornet_02_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -8535,6 +8870,8 @@
 											m_value = "krill_ping_see_ghost_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -8544,6 +8881,8 @@
 											m_value = "krill_ping_see_ghost_01_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -8568,6 +8907,8 @@
 											m_value = "krill_ping_see_atlas_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -8577,6 +8918,8 @@
 											m_value = "krill_ping_see_atlas_01_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -8586,6 +8929,8 @@
 											m_value = "krill_ping_see_atlas_02_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -8610,6 +8955,8 @@
 											m_value = "krill_ping_see_wraith_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -8634,6 +8981,8 @@
 											m_value = "krill_ping_see_forge_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -8643,6 +8992,8 @@
 											m_value = "krill_ping_see_forge_01_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -8652,6 +9003,8 @@
 											m_value = "krill_ping_see_forge_02_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -8676,6 +9029,8 @@
 											m_value = "krill_ping_see_chrono_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -8700,6 +9055,8 @@
 											m_value = "krill_ping_see_dynamo_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -8709,6 +9066,8 @@
 											m_value = "krill_ping_see_dynamo_02_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -8733,6 +9092,8 @@
 											m_value = "krill_ping_see_kelvin_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -8757,6 +9118,8 @@
 											m_value = "krill_ping_see_haze_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -8766,6 +9129,8 @@
 											m_value = "krill_ping_see_haze_02_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -8790,6 +9155,8 @@
 											m_value = "krill_ping_see_astro_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -8814,6 +9181,8 @@
 											m_value = "krill_ping_see_bebop_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -8823,6 +9192,8 @@
 											m_value = "krill_ping_see_bebop_02_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -8847,6 +9218,8 @@
 											m_value = "krill_ping_see_nano_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -8871,6 +9244,8 @@
 											m_value = "krill_ping_see_shiv_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -8895,6 +9270,8 @@
 											m_value = "krill_ping_see_tengu_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -8919,6 +9296,8 @@
 											m_value = "krill_ping_see_warden_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -8928,6 +9307,8 @@
 											m_value = "krill_ping_see_warden_01_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -8952,6 +9333,8 @@
 											m_value = "krill_ping_see_yamato_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -8976,6 +9359,8 @@
 											m_value = "krill_ping_see_lash_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -8985,6 +9370,8 @@
 											m_value = "krill_ping_see_lash_02_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -9009,6 +9396,8 @@
 											m_value = "krill_ping_see_viscous_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -9018,6 +9407,8 @@
 											m_value = "krill_ping_see_viscous_02_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -9042,6 +9433,8 @@
 											m_value = "krill_ping_see_wrecker_01_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -9051,6 +9444,8 @@
 											m_value = "krill_ping_see_wrecker_02_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -9075,6 +9470,8 @@
 											m_value = "krill_ping_see_synth_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -9099,6 +9496,8 @@
 											m_value = "krill_ping_see_mirage_01_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -9138,6 +9537,8 @@
 											m_value = "krill_ping_attack_inferno_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -9162,6 +9563,8 @@
 											m_value = "krill_ping_attack_gigawatt_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -9186,6 +9589,8 @@
 											m_value = "krill_ping_attack_hornet_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -9210,6 +9615,8 @@
 											m_value = "krill_ping_attack_ghost_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -9234,6 +9641,8 @@
 											m_value = "krill_ping_attack_atlas_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -9258,6 +9667,8 @@
 											m_value = "krill_ping_attack_wraith_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -9282,6 +9693,8 @@
 											m_value = "krill_ping_attack_forge_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -9306,6 +9719,8 @@
 											m_value = "krill_ping_attack_chrono_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -9330,6 +9745,8 @@
 											m_value = "krill_ping_attack_dynamo_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -9354,6 +9771,8 @@
 											m_value = "krill_ping_attack_kelvin_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -9378,6 +9797,8 @@
 											m_value = "krill_ping_attack_haze_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -9402,6 +9823,8 @@
 											m_value = "krill_ping_attack_astro_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -9426,6 +9849,8 @@
 											m_value = "krill_ping_attack_bebop_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -9450,6 +9875,8 @@
 											m_value = "krill_ping_attack_shiv_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -9474,6 +9901,8 @@
 											m_value = "krill_ping_attack_tengu_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -9498,6 +9927,8 @@
 											m_value = "krill_ping_attack_warden_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -9522,6 +9953,8 @@
 											m_value = "krill_ping_attack_yamato_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -9546,6 +9979,8 @@
 											m_value = "krill_ping_attack_lash_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -9570,6 +10005,8 @@
 											m_value = "krill_ping_attack_viscous_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -9594,6 +10031,8 @@
 											m_value = "krill_ping_attack_wrecker_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -9618,6 +10057,8 @@
 											m_value = "krill_ping_attack_mirage_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -9658,6 +10099,8 @@
 											m_value = "krill_ping_see_inferno_on_roof_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -9682,6 +10125,8 @@
 											m_value = "krill_ping_see_gigawatt_on_roof_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -9706,6 +10151,8 @@
 											m_value = "krill_ping_see_hornet_on_roof_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -9730,6 +10177,8 @@
 											m_value = "krill_ping_see_ghost_on_roof_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -9754,6 +10203,8 @@
 											m_value = "krill_ping_see_atlas_on_roof_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -9778,6 +10229,8 @@
 											m_value = "krill_ping_see_wraith_on_roof_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -9802,6 +10255,8 @@
 											m_value = "krill_ping_see_forge_on_roof_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -9826,6 +10281,8 @@
 											m_value = "krill_ping_see_chrono_on_roof_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -9850,6 +10307,8 @@
 											m_value = "krill_ping_see_dynamo_on_roof_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -9874,6 +10333,8 @@
 											m_value = "krill_ping_see_kelvin_on_roof_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -9898,6 +10359,8 @@
 											m_value = "krill_ping_see_haze_on_roof_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -9922,6 +10385,8 @@
 											m_value = "krill_ping_see_astro_on_roof_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -9946,6 +10411,8 @@
 											m_value = "krill_ping_see_bebop_on_roof_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -9970,6 +10437,8 @@
 											m_value = "krill_ping_see_nano_on_roof_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -9994,6 +10463,8 @@
 											m_value = "krill_ping_see_shiv_on_roof_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -10018,6 +10489,8 @@
 											m_value = "krill_ping_see_tengu_on_roof_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -10042,6 +10515,8 @@
 											m_value = "krill_ping_see_warden_on_roof_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -10066,6 +10541,8 @@
 											m_value = "krill_ping_see_yamato_on_roof_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -10090,6 +10567,8 @@
 											m_value = "krill_ping_see_lash_on_roof_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -10114,6 +10593,8 @@
 											m_value = "krill_ping_see_viscous_on_roof_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -10138,6 +10619,8 @@
 											m_value = "krill_ping_see_wrecker_on_roof_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -10162,6 +10645,8 @@
 											m_value = "krill_ping_see_mirage_on_roof_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -10202,6 +10687,8 @@
 											m_value = "krill_ping_see_inferno_on_bridge_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -10226,6 +10713,8 @@
 											m_value = "krill_ping_see_gigawatt_on_bridge_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -10250,6 +10739,8 @@
 											m_value = "krill_ping_see_hornet_on_bridge_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -10274,6 +10765,8 @@
 											m_value = "krill_ping_see_ghost_on_bridge_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -10298,6 +10791,8 @@
 											m_value = "krill_ping_see_atlas_on_bridge_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -10322,6 +10817,8 @@
 											m_value = "krill_ping_see_wraith_on_bridge_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -10346,6 +10843,8 @@
 											m_value = "krill_ping_see_forge_on_bridge_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -10370,6 +10869,8 @@
 											m_value = "krill_ping_see_chrono_on_bridge_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -10394,6 +10895,8 @@
 											m_value = "krill_ping_see_dynamo_on_bridge_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -10418,6 +10921,8 @@
 											m_value = "krill_ping_see_kelvin_on_bridge_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -10442,6 +10947,8 @@
 											m_value = "krill_ping_see_haze_on_bridge_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -10466,6 +10973,8 @@
 											m_value = "krill_ping_see_astro_on_bridge_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -10490,6 +10999,8 @@
 											m_value = "krill_ping_see_bebop_on_bridge_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -10514,6 +11025,8 @@
 											m_value = "krill_ping_see_nano_on_bridge_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -10538,6 +11051,8 @@
 											m_value = "krill_ping_see_shiv_on_bridge_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -10562,6 +11077,8 @@
 											m_value = "krill_ping_see_tengu_on_bridge_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -10586,6 +11103,8 @@
 											m_value = "krill_ping_see_warden_on_bridge_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -10610,6 +11129,8 @@
 											m_value = "krill_ping_see_yamato_on_bridge_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -10634,6 +11155,8 @@
 											m_value = "krill_ping_see_lash_on_bridge_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -10658,6 +11181,8 @@
 											m_value = "krill_ping_see_viscous_on_bridge_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -10682,6 +11207,8 @@
 											m_value = "krill_ping_see_wrecker_on_bridge_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -10706,6 +11233,8 @@
 											m_value = "krill_ping_see_mirage_on_bridge_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -10746,6 +11275,8 @@
 											m_value = "krill_ping_inferno_on_top_of_garage_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -10770,6 +11301,8 @@
 											m_value = "krill_ping_gigawatt_on_top_of_garage_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -10794,6 +11327,8 @@
 											m_value = "krill_ping_hornet_on_top_of_garage_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -10818,6 +11353,8 @@
 											m_value = "krill_ping_ghost_on_top_of_garage_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -10842,6 +11379,8 @@
 											m_value = "krill_ping_atlas_on_top_of_garage_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -10866,6 +11405,8 @@
 											m_value = "krill_ping_wraith_on_top_of_garage_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -10890,6 +11431,8 @@
 											m_value = "krill_ping_forge_on_top_of_garage_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -10914,6 +11457,8 @@
 											m_value = "krill_ping_chrono_on_top_of_garage_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -10938,6 +11483,8 @@
 											m_value = "krill_ping_dynamo_on_top_of_garage_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -10962,6 +11509,8 @@
 											m_value = "krill_ping_kelvin_on_top_of_garage_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -10986,6 +11535,8 @@
 											m_value = "krill_ping_haze_on_top_of_garage_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -11010,6 +11561,8 @@
 											m_value = "krill_ping_astro_on_top_of_garage_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -11034,6 +11587,8 @@
 											m_value = "krill_ping_bebop_on_top_of_garage_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -11058,6 +11613,8 @@
 											m_value = "krill_ping_shiv_on_top_of_garage_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -11082,6 +11639,8 @@
 											m_value = "krill_ping_tengu_on_top_of_garage_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -11106,6 +11665,8 @@
 											m_value = "krill_ping_warden_on_top_of_garage_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -11130,6 +11691,8 @@
 											m_value = "krill_ping_yamato_on_top_of_garage_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -11154,6 +11717,8 @@
 											m_value = "krill_ping_lash_on_top_of_garage_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -11178,6 +11743,8 @@
 											m_value = "krill_ping_viscous_on_top_of_garage_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -11202,6 +11769,8 @@
 											m_value = "krill_ping_wrecker_on_top_of_garage_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -11226,6 +11795,8 @@
 											m_value = "krill_ping_mirage_on_top_of_garage_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -11266,6 +11837,8 @@
 											m_value = "krill_ping_inferno_under_garage_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -11290,6 +11863,8 @@
 											m_value = "krill_ping_gigawatt_under_garage_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -11314,6 +11889,8 @@
 											m_value = "krill_ping_hornet_under_garage_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -11338,6 +11915,8 @@
 											m_value = "krill_ping_ghost_under_garage_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -11362,6 +11941,8 @@
 											m_value = "krill_ping_atlas_under_garage_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -11386,6 +11967,8 @@
 											m_value = "krill_ping_wraith_under_garage_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -11410,6 +11993,8 @@
 											m_value = "krill_ping_forge_under_garage_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -11434,6 +12019,8 @@
 											m_value = "krill_ping_chrono_under_garage_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -11458,6 +12045,8 @@
 											m_value = "krill_ping_dynamo_under_garage_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -11482,6 +12071,8 @@
 											m_value = "krill_ping_kelvin_under_garage_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -11506,6 +12097,8 @@
 											m_value = "krill_ping_haze_under_garage_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -11530,6 +12123,8 @@
 											m_value = "krill_ping_astro_under_garage_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -11554,6 +12149,8 @@
 											m_value = "krill_ping_bebop_under_garage_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -11578,6 +12175,8 @@
 											m_value = "krill_ping_shiv_under_garage_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -11602,6 +12201,8 @@
 											m_value = "krill_ping_tengu_under_garage_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -11626,6 +12227,8 @@
 											m_value = "krill_ping_warden_under_garage_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -11650,6 +12253,8 @@
 											m_value = "krill_ping_yamato_under_garage_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -11674,6 +12279,8 @@
 											m_value = "krill_ping_lash_under_garage_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -11698,6 +12305,8 @@
 											m_value = "krill_ping_viscous_under_garage_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -11722,6 +12331,8 @@
 											m_value = "krill_ping_wrecker_under_garage_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -11746,6 +12357,8 @@
 											m_value = "krill_ping_mirage_under_garage_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -11786,6 +12399,8 @@
 											m_value = "krill_ping_inferno_in_mid_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -11810,6 +12425,8 @@
 											m_value = "krill_ping_gigawatt_in_mid_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -11834,6 +12451,8 @@
 											m_value = "krill_ping_hornet_in_mid_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -11858,6 +12477,8 @@
 											m_value = "krill_ping_ghost_in_mid_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -11882,6 +12503,8 @@
 											m_value = "krill_ping_atlas_in_mid_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -11906,6 +12529,8 @@
 											m_value = "krill_ping_wraith_in_mid_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -11930,6 +12555,8 @@
 											m_value = "krill_ping_forge_in_mid_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -11954,6 +12581,8 @@
 											m_value = "krill_ping_chrono_in_mid_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -11978,6 +12607,8 @@
 											m_value = "krill_ping_dynamo_in_mid_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -12002,6 +12633,8 @@
 											m_value = "krill_ping_kelvin_in_mid_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -12026,6 +12659,8 @@
 											m_value = "krill_ping_haze_in_mid_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -12050,6 +12685,8 @@
 											m_value = "krill_ping_astro_in_mid_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -12074,6 +12711,8 @@
 											m_value = "krill_ping_bebop_in_mid_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -12098,6 +12737,8 @@
 											m_value = "krill_ping_shiv_in_mid_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -12122,6 +12763,8 @@
 											m_value = "krill_ping_tengu_in_mid_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -12146,6 +12789,8 @@
 											m_value = "krill_ping_warden_in_mid_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -12170,6 +12815,8 @@
 											m_value = "krill_ping_yamato_in_mid_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -12194,6 +12841,8 @@
 											m_value = "krill_ping_lash_in_mid_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -12218,6 +12867,8 @@
 											m_value = "krill_ping_viscous_in_mid_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -12242,6 +12893,8 @@
 											m_value = "krill_ping_wrecker_in_mid_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -12266,6 +12919,8 @@
 											m_value = "krill_ping_mirage_in_mid_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -12306,6 +12961,8 @@
 											m_value = "krill_ping_inferno_on_top_of_mid_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -12330,6 +12987,8 @@
 											m_value = "krill_ping_gigawatt_on_top_of_mid_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -12354,6 +13013,8 @@
 											m_value = "krill_ping_hornet_on_top_of_mid_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -12378,6 +13039,8 @@
 											m_value = "krill_ping_ghost_on_top_of_mid_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -12402,6 +13065,8 @@
 											m_value = "krill_ping_atlas_on_top_of_mid_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -12426,6 +13091,8 @@
 											m_value = "krill_ping_wraith_on_top_of_mid_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -12450,6 +13117,8 @@
 											m_value = "krill_ping_forge_on_top_of_mid_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -12474,6 +13143,8 @@
 											m_value = "krill_ping_chrono_on_top_of_mid_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -12498,6 +13169,8 @@
 											m_value = "krill_ping_dynamo_on_top_of_mid_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -12522,6 +13195,8 @@
 											m_value = "krill_ping_kelvin_on_top_of_mid_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -12546,6 +13221,8 @@
 											m_value = "krill_ping_haze_on_top_of_mid_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -12570,6 +13247,8 @@
 											m_value = "krill_ping_astro_on_top_of_mid_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -12594,6 +13273,8 @@
 											m_value = "krill_ping_bebop_on_top_of_mid_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -12618,6 +13299,8 @@
 											m_value = "krill_ping_shiv_on_top_of_mid_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -12642,6 +13325,8 @@
 											m_value = "krill_ping_tengu_on_top_of_mid_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -12666,6 +13351,8 @@
 											m_value = "krill_ping_warden_on_top_of_mid_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -12690,6 +13377,8 @@
 											m_value = "krill_ping_yamato_on_top_of_mid_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -12714,6 +13403,8 @@
 											m_value = "krill_ping_lash_on_top_of_mid_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -12738,6 +13429,8 @@
 											m_value = "krill_ping_viscous_on_top_of_mid_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -12762,6 +13455,8 @@
 											m_value = "krill_ping_wrecker_on_top_of_mid_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -12786,6 +13481,8 @@
 											m_value = "krill_ping_mirage_on_top_of_mid_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -12819,16 +13516,31 @@
 								{
 									m_type = "SPEAK"
 									m_value = "krill_ping_sorry_01_ping_2d"
+									m_params = 
+									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "krill_ping_sorry_02_ping_2d"
+									m_params = 
+									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "krill_ping_sorry_03_ping_2d"
+									m_params = 
+									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -14016,9 +14728,9 @@
 								m_name = "Krill_Buy_Upgrade_Shadow_Weave"
 								m_Requirements = 
 								[
-									"UpgradeArmor",
 									"IsShadowWeave",
 									"IsItemTier4",
+									"UpgradeWeapon",
 								]
 							}
 						},
@@ -14456,9 +15168,9 @@
 								m_name = "Krill_Buy_Upgrade_Siphon_Bullets"
 								m_Requirements = 
 								[
-									"UpgradeWeapon",
 									"IsItemTier4",
 									"IsSiphonBullets",
+									"UpgradeArmor",
 								]
 							}
 						},

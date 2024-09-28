@@ -1,0 +1,262 @@
+{
+    "upgrade_superacolytes_glove": {
+        "_class": "upgrade_superacolytegloves",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
+        "m_mapAbilityProperties": {
+            "AbilityCooldown": {
+                "m_strValue": "3",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldown_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldown"
+                }
+            },
+            "AbilityDuration": {
+                "m_strValue": "13",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "duration",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            },
+            "AbilityCastRange": {
+                "m_strValue": "0",
+                "m_eDisplayUnits": "EDisplayUnit_Meters",
+                "m_strCSSClass": "range",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCastRange_scale_function",
+                    "m_eSpecificStatScaleType": "ETechRange"
+                }
+            },
+            "AbilityUnitTargetLimit": {
+                "m_strValue": "1",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityCastDelay": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityChannelTime": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_multi_stats",
+                    "_my_subclass_name": "scale_duration",
+                    "m_vecScalingStats": [
+                        "EChannelDuration",
+                        "ETechDuration"
+                    ]
+                }
+            },
+            "AbilityPostCastDuration": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0"
+            },
+            "AbilityCharges": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCharges_scale_function",
+                    "m_eSpecificStatScaleType": "EMaxChargesIncrease"
+                }
+            },
+            "AbilityCooldownBetweenCharge": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "charge_cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldownBetweenCharge_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldownBetweenChargeUses"
+                }
+            },
+            "ChannelMoveSpeed": {
+                "m_strValue": "50",
+                "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond",
+                "m_strCSSClass": "move_speed",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityResourceCost": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_strCSSClass": "cast"
+            },
+            "TechPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_POWER"
+            },
+            "WeaponPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
+            },
+            "StoredSpiritDamage": {
+                "m_strValue": "200",
+                "m_strCSSClass": "tech_damage",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_tech_damage",
+                    "_my_subclass_name": "SpiritDamage_scale_function",
+                    "m_eSpecificStatScaleType": "ETechPower",
+                    "m_flStatScale": "1.000000"
+                }
+            },
+            "TechShieldMaxHealth": {
+                "m_strValue": "100",
+                "m_strCSSClass": "tech_armor_up",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_SHIELD_HEALTH_MAX",
+                "m_eDisplayType": "ETechShieldHealth"
+            },
+            "BonusHealthRegen": {
+                "m_strValue": "1",
+                "m_strCSSClass": "healing",
+                "m_eDisplayType": "EBaseHealthRegen",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_HEALTH_REGEN_PER_SECOND",
+                "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
+            },
+            "BonusMeleeDamagePercent": {
+                "m_strValue": "30",
+                "m_eDisplayType": "EBaseMeleeDamageIncrease",
+                "m_strCSSClass": "melee_damage",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_BASE_MELEE_DAMAGE_PERCENT",
+                "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
+            }
+        },
+        "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
+        "_editor": {
+            "folder_name": "Tech"
+        },
+        "m_WeaponInfo": {
+            "m_BulletSpeedCurve": {
+                "m_spline": [
+                    {
+                        "x": "0.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    },
+                    {
+                        "x": "100.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    }
+                ],
+                "m_tangents": [
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    },
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    }
+                ],
+                "m_vDomainMins": [
+                    "0.000000",
+                    "0.000000"
+                ],
+                "m_vDomainMaxs": [
+                    "100.000000",
+                    "10000.000000"
+                ]
+            }
+        },
+        "_multibase": [
+            "tech_upgrade_t3"
+        ],
+        "m_bStartTrained": "true",
+        "m_eAbilityType": "EAbilityType_Item",
+        "m_nUpgradeSlotCost": "1",
+        "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_SELF",
+        "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_PASSIVE",
+        "m_strCastAnimGraphParam": "e_GenericCast",
+        "m_strCastAnimSequenceName": "ability_generic_cast",
+        "m_strSelectionNameOverride": "item",
+        "m_PreviewPathParticle": "particles/generic/generic_arc.vpcf",
+        "m_eItemSlotType": "EItemSlotType_Tech",
+        "m_iItemTier": "EModTier_3",
+        "m_strCSSClass": "acolytesGlove",
+        "m_strAbilityImage": "file://{images}/upgrades/mods_tech/acolytes_glove.psd",
+        "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_HERO_ENEMY",
+        "m_vecTooltipSectionInfo": [
+            {
+                "m_eAbilitySectionType": "EArea_Innate",
+                "m_vecSectionAttributes": [
+                    {
+                        "m_vecAbilityProperties": [
+                            "TechShieldMaxHealth",
+                            "BonusHealthRegen",
+                            "BonusMeleeDamagePercent"
+                        ]
+                    }
+                ]
+            },
+            {
+                "m_eAbilitySectionType": "EArea_Passive",
+                "m_vecSectionAttributes": [
+                    {
+                        "m_strLocString": "#upgrade_superacolytes_glove_desc",
+                        "m_vecImportantAbilityProperties": [
+                            {
+                                "m_strImportantProperty": "StoredSpiritDamage"
+                            },
+                            {}
+                        ],
+                        "m_vecAbilityProperties": [
+                            "AbilityCooldown"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "m_eShopFilters": "EShopFilterMagicDamage | EShopFilterMelee",
+        "m_vecComponentItems": [
+            "upgrade_acolytes_glove"
+        ],
+        "m_SpiritMeleeProcModifier": {
+            "_class": "modifier_superacolytes_glove",
+            "_my_subclass_name": "modifier_superacoloytes_glove",
+            "m_SwingParticle": "particles/upgrades/acolytes_glove_proc.vpcf",
+            "m_HitParticle": "particles/upgrades/acolytes_glove_hit.vpcf",
+            "m_strParticleEffect": "particles/upgrades/acolytes_glove.vpcf",
+            "m_vecProcDamageTypes": [
+                "CITADEL_DAMAGETYPE_MELEE"
+            ],
+            "m_nRequiredDamageFlags": "DFLAG_HEAVY_MELEE",
+            "m_FistReadyEffect": "particles/abilities/wraith/wraith_rapid_fire_buff_spiral.vpcf"
+        },
+        "m_AutoIntrinsicModifiers": [
+            {
+                "_class": "modifier_intrinsic_base",
+                "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
+                    "BonusHealthRegen",
+                    "BonusMeleeDamagePercent"
+                ],
+                "_my_subclass_name": "modifier_superacolyte_gloves_intrinsic"
+            }
+        ],
+        "m_iUpdateTime": "1726683821",
+        "m_bInDevelopment": "true",
+        "m_bDisabled": "true"
+    }
+}

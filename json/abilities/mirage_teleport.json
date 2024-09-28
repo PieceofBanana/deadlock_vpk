@@ -1,0 +1,313 @@
+{
+    "mirage_teleport": {
+        "_class": "mirage_teleport",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
+        "m_mapAbilityProperties": {
+            "AbilityCooldown": {
+                "m_strValue": "130.000000",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldown_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldown"
+                }
+            },
+            "AbilityDuration": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "duration",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            },
+            "AbilityCastRange": {
+                "m_strValue": "0",
+                "m_eDisplayUnits": "EDisplayUnit_Meters",
+                "m_strCSSClass": "range",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCastRange_scale_function",
+                    "m_eSpecificStatScaleType": "ETechRange"
+                }
+            },
+            "AbilityUnitTargetLimit": {
+                "m_strValue": "1",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityCastDelay": {
+                "m_strValue": "0.01",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityChannelTime": {
+                "m_strValue": "2.5",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_base",
+                    "_my_subclass_name": "scale_duration",
+                    "m_vecScalingStats": [
+                        "EChannelDuration",
+                        "ETechDuration"
+                    ],
+                    "m_bFunctionDisabled": "true"
+                }
+            },
+            "AbilityPostCastDuration": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0"
+            },
+            "AbilityCharges": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCharges_scale_function",
+                    "m_eSpecificStatScaleType": "EMaxChargesIncrease"
+                }
+            },
+            "AbilityCooldownBetweenCharge": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "charge_cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldownBetweenCharge_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldownBetweenChargeUses"
+                }
+            },
+            "ChannelMoveSpeed": {
+                "m_strValue": "0",
+                "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond",
+                "m_strCSSClass": "move_speed",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityResourceCost": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_strCSSClass": "cast"
+            },
+            "TechPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_POWER"
+            },
+            "WeaponPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
+            },
+            "SearchRadius": {
+                "m_strValue": "30m",
+                "m_strCSSClass": "distance",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "SearchRadius_scale_function",
+                    "m_bFunctionDisabled": "true"
+                }
+            },
+            "BonusMoveSpeed": {
+                "m_strValue": "2m",
+                "m_strCSSClass": "move_speed",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_MOVEMENT_SPEED_MAX",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional",
+                "m_strConditionalLocTokenOverride": "#MirageTeleportMoveSpeed_conditional"
+            },
+            "MovementSpeedBonusDuration": {
+                "m_strValue": "4",
+                "m_strCSSClass": "duration",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "BonusDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            },
+            "BonusFireRate": {
+                "m_strValue": "20",
+                "m_strCSSClass": "fireRate",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_FIRE_RATE",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
+            },
+            "FireRateMaxDuration": {
+                "m_strValue": "10",
+                "m_strCSSClass": "duration",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "FireRateMaxDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            }
+        },
+        "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
+        "_editor": {
+            "folder_name": "Base"
+        },
+        "m_WeaponInfo": {
+            "m_BulletSpeedCurve": {
+                "m_spline": [
+                    {
+                        "x": "0.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    },
+                    {
+                        "x": "100.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    }
+                ],
+                "m_tangents": [
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    },
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    }
+                ],
+                "m_vDomainMins": [
+                    "0.000000",
+                    "0.000000"
+                ],
+                "m_vDomainMaxs": [
+                    "100.000000",
+                    "10000.000000"
+                ]
+            }
+        },
+        "_multibase": [
+            "ultimate_base"
+        ],
+        "m_bStartTrained": "false",
+        "m_nAbilityPointsCost": "0",
+        "m_nAbillityUnlocksCost": "1",
+        "m_eAbilityType": "EAbilityType_Ultimate",
+        "m_iMaxLevel": "1",
+        "m_bitsInterruptingStates": "MODIFIER_STATE_STUNNED",
+        "m_PreviewPathParticle": "particles/generic/generic_arc.vpcf",
+        "m_strAbilityOffCooldownSound": "",
+        "m_strAbilityChargeReadySound": "",
+        "m_skillshotMissParticle": "particles/abilities/skillshot_default_miss_owner.vpcf",
+        "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_MINIMAP_UNIT",
+        "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_PRESS",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED",
+        "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_HERO",
+        "m_strAbilityImage": "file://{images}/hud/teleport_icon.png",
+        "m_strArriveSound": "Mirage.A4.Teleport.Arrive",
+        "m_strDepartSound": "Mirage.A4.Teleport.Depart",
+        "m_strChannelDestinationSound": "Mirage.A4.Teleport.Channel.Destination",
+        "m_vecAbilityUpgrades": [
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "AbilityCooldown",
+                        "m_strBonus": "-20.000000"
+                    }
+                ]
+            },
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "BonusMoveSpeed",
+                        "m_strBonus": "2m"
+                    }
+                ]
+            },
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "BonusFireRate",
+                        "m_strBonus": "20"
+                    }
+                ]
+            }
+        ],
+        "m_TeleportModifier": {
+            "_class": "modifier_teleport_to_objective",
+            "_my_subclass_name": "test",
+            "m_TeleportOriginParticle": "particles/abilities/teleport_start.vpcf",
+            "m_TeleportDestinationParticle": "particles/abilities/teleport_end.vpcf",
+            "m_TeleportStartSound": "Teleport.Buildup",
+            "m_TeleportCompleteSound": "Teleport.Enter",
+            "m_TeleportArriveSound": "Teleport.Appear"
+        },
+        "m_BuffModifier": {
+            "_class": "modifier_mirage_traveler_movement_speed",
+            "_my_subclass_name": "modifier_mirage_teleport_movement_speed",
+            "m_sLocalizationName": "modifier_mirage_teleport_movement_speed",
+            "m_strParticleStatusEffect": "",
+            "m_bIsHidden": "true",
+            "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
+                "BonusMoveSpeed"
+            ],
+            "m_strHudMessageText": "#mirage_teleport_movespeed",
+            "m_strParticleEffect": "particles/abilities/mirage/mirage_teleport_buff.vpcf"
+        },
+        "m_FireRateModifier": {
+            "_class": "modifier_mirage_traveler_fire_rate",
+            "_my_subclass_name": "modifier_mirage_traveler_fire_rate",
+            "m_sLocalizationName": "modifier_mirage_traveler_fire_rate",
+            "m_bIsHidden": "true",
+            "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
+                "BonusFireRate"
+            ],
+            "m_strParticleEffect": "particles/abilities/mirage/mirage_djinns_mark_ready_buff.vpcf",
+            "m_strParticleEffectConfig": "preview"
+        },
+        "m_AbilityTooltipDetails": {
+            "m_vecAbilityInfoSections": [
+                {
+                    "m_strLocString": "#mirage_teleport_desc",
+                    "m_vecAbilityPropertiesBlock": [
+                        {
+                            "m_vecAbilityProperties": [
+                                {
+                                    "m_strImportantProperty": "AbilityChannelTime"
+                                },
+                                {
+                                    "m_strImportantProperty": "BonusMoveSpeed"
+                                },
+                                {
+                                    "m_strImportantProperty": "BonusFireRate"
+                                }
+                            ]
+                        }
+                    ],
+                    "m_vecBasicProperties": [
+                        "MovementSpeedBonusDuration"
+                    ]
+                }
+            ]
+        },
+        "m_HUDPanel": {
+            "m_vecHUDElements": []
+        },
+        "m_strChannelLoopSound": "Mirage.A4.Teleport.Channel",
+        "m_previewParticle": "particles/abilities/mirage/mirage_teleport_ability_preview.vpcf",
+        "m_TeleportStartParticle": "particles/abilities/mirage/mirage_teleport_start.vpcf",
+        "m_TeleportEndParticle": "particles/abilities/mirage/mirage_teleport_end.vpcf",
+        "m_strCastDelaySound": "",
+        "m_strChannelSound": "Mirage.A4.Teleport.Cast",
+        "m_strSelectedSound": "Mirage.A4.Teleport.Select",
+        "m_strUnselectedSound": "Mirage.A4.Teleport.Deselect",
+        "m_strSelectedLoopSound": "Mirage.A4.Teleport.Select_Lp",
+        "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/mirage_teleport.webm"
+    }
+}

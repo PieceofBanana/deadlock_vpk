@@ -109,6 +109,12 @@
                 "m_strDisableValue": "0",
                 "m_bCanSetTokenOverride": "true",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
+            },
+            "CritScalePercent": {
+                "m_strValue": "-20",
+                "m_strCSSClass": "bullet_damage",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_BONUS_CRIT_DAMAGE_PERCENT",
+                "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             }
         },
         "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
@@ -291,7 +297,7 @@
         "m_bStartTrained": "true",
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_SELF",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_ON_BUTTON_IS_DOWN",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_IS_PRIMARY_WEAPON | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK | CITADEL_ABILITY_BEHAVIOR_DISARMABLE | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_WEAPON_TOGGLE",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_IS_PRIMARY_WEAPON | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK | CITADEL_ABILITY_BEHAVIOR_DISARMABLE | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_WEAPON_TOGGLE",
         "m_bitsInterruptingStates": "MODIFIER_STATE_STUNNED | MODIFIER_STATE_IS_ASLEEP",
         "m_eAbilityType": "EAbilityType_Weapon",
         "m_strAbilityImage": "file://{images}/hud/abilities/weapon_damage.psd",
@@ -311,6 +317,15 @@
             "m_flDofFarBlurry": "7000.000000"
         },
         "m_sDisarmedSound": "Player.Weapon.Jammed",
-        "m_flMinDisarmedSoundInterval": "0.100000"
+        "m_flMinDisarmedSoundInterval": "0.100000",
+        "m_AutoIntrinsicModifiers": [
+            {
+                "_class": "modifier_intrinsic_base",
+                "_my_subclass_name": "modifier_intrinsic_base",
+                "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
+                    "CritScalePercent"
+                ]
+            }
+        ]
     }
 }

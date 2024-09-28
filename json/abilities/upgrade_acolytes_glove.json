@@ -132,13 +132,6 @@
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_SHIELD_HEALTH_MAX",
                 "m_eDisplayType": "ETechShieldHealth"
             },
-            "BonusHealthRegen": {
-                "m_strValue": "0.8",
-                "m_strCSSClass": "healing",
-                "m_eDisplayType": "EBaseHealthRegen",
-                "m_eProvidedPropertyType": "MODIFIER_VALUE_HEALTH_REGEN_PER_SECOND",
-                "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
-            },
             "BonusMeleeDamagePercent": {
                 "m_strValue": "12",
                 "m_eDisplayType": "EBaseMeleeDamageIncrease",
@@ -205,6 +198,7 @@
         "m_strCSSClass": "acolytesGlove",
         "m_strAbilityImage": "file://{images}/upgrades/mods_tech/acolytes_glove.psd",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_HERO_ENEMY",
+        "m_bShowInPassiveItemsArea": "true",
         "m_vecTooltipSectionInfo": [
             {
                 "m_eAbilitySectionType": "EArea_Innate",
@@ -212,8 +206,7 @@
                     {
                         "m_vecAbilityProperties": [
                             "BonusMeleeDamagePercent",
-                            "TechShieldMaxHealth",
-                            "BonusHealthRegen"
+                            "TechShieldMaxHealth"
                         ]
                     }
                 ]
@@ -260,7 +253,6 @@
                     "CITADEL_DAMAGETYPE_MELEE"
                 ],
                 "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
-                    "BonusHealthRegen",
                     "BonusMeleeDamagePercent"
                 ]
             },

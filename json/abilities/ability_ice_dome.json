@@ -223,7 +223,7 @@
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_SELF",
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_CIRCLE",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_BUSY | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_REQUIRE_ABILITY_BUTTON_TO_CANCEL",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_BUSY | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_REQUIRE_ABILITY_BUTTON_TO_CANCEL | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_HERO",
         "m_strAbilityImage": "file://{images}/hud/abilities/kelvin/frozen_shelter.psd",
         "m_strCastAnimGraphParam": "b_IceDome",
@@ -330,6 +330,7 @@
                 }
             ]
         },
-        "m_strCastDelaySound": "Kelvin.IceDome.Cast"
+        "m_strCastDelaySound": "Kelvin.IceDome.Cast",
+        "m_strCastButtonLocToken": "#AbilityButtonHint_CastIceDome"
     }
 }

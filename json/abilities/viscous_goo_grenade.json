@@ -61,7 +61,7 @@
                 }
             },
             "AbilityPostCastDuration": {
-                "m_strValue": "0.5",
+                "m_strValue": "0.2",
                 "m_strDisableValue": "0"
             },
             "AbilityCharges": {
@@ -226,7 +226,7 @@
         "m_iUpdateTime": "1669930587",
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_NONE",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
         "m_strCastAnimGraphParam": "e_GenericCast",
         "m_strAbilityImage": "file://{images}/hud/abilities/viscous/viscous_goo_ball.psd",

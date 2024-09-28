@@ -1847,6 +1847,8 @@
 									m_value = "rr_test_26_ping_take_mid_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -1872,6 +1874,8 @@
 									m_value = "rr_test_26_ping_going_in_01_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -1896,6 +1900,8 @@
 									m_value = "rr_test_26_ping_good_job_01_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -1920,6 +1926,8 @@
 									m_value = "rr_test_26_ping_good_job_01_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -1944,6 +1952,8 @@
 									m_value = "rr_test_26_ping_retreat_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -1968,6 +1978,8 @@
 									m_value = "rr_test_26_ping_right_back_01_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -1992,6 +2004,8 @@
 									m_value = "rr_test_26_ping_stay_together_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -2016,6 +2030,8 @@
 									m_value = "rr_test_26_ping_need_help_yellow_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -2041,6 +2057,8 @@
 									m_value = "rr_test_26_ping_need_help_blue_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -2066,6 +2084,8 @@
 									m_value = "rr_test_26_ping_need_help_purple_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -2091,6 +2111,8 @@
 									m_value = "rr_test_26_ping_thank_you_01_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -2100,6 +2122,8 @@
 									m_value = "rr_test_26_ping_thank_you_02_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -2124,6 +2148,8 @@
 									m_value = "rr_test_26_ping_thank_you_01_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -2133,6 +2159,8 @@
 									m_value = "rr_test_26_ping_thank_you_02_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -2157,6 +2185,8 @@
 									m_value = "rr_test_26_ping_on_way_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -2181,6 +2211,8 @@
 									m_value = "rr_test_26_ping_take_core_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -2206,6 +2238,8 @@
 									m_value = "rr_test_26_ping_attack_enemy_titan_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -2231,6 +2265,8 @@
 									m_value = "rr_test_26_ping_push_yellow_01_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -2256,6 +2292,8 @@
 									m_value = "rr_test_26_ping_push_purple_01_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -2281,6 +2319,8 @@
 									m_value = "rr_test_26_ping_push_blue_01_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -2306,6 +2346,8 @@
 									m_value = "rr_test_26_ping_headed_blue_01_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -2331,6 +2373,8 @@
 									m_value = "rr_test_26_ping_blue_help_01_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -2357,6 +2401,8 @@
 									m_value = "rr_test_26_ping_headed_yellow_01_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -2382,6 +2428,8 @@
 									m_value = "rr_test_26_ping_yellow_help_01_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -2408,6 +2456,8 @@
 									m_value = "rr_test_26_ping_headed_purple_01_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -2433,6 +2483,8 @@
 									m_value = "rr_test_26_ping_purple_help_01_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -2459,6 +2511,8 @@
 									m_value = "rr_test_26_ping_headed_this_way_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -2483,6 +2537,8 @@
 									m_value = "rr_test_26_ping_headed_blue_01_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -2508,6 +2564,8 @@
 									m_value = "rr_test_26_ping_headed_yellow_01_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -2533,6 +2591,8 @@
 									m_value = "rr_test_26_ping_headed_purple_01_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -2558,6 +2618,8 @@
 									m_value = "rr_test_26_ping_lets_go_blue_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -2583,6 +2645,8 @@
 									m_value = "rr_test_26_ping_lets_go_yellow_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -2608,6 +2672,8 @@
 									m_value = "rr_test_26_ping_lets_go_purple_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -2633,6 +2699,8 @@
 									m_value = "rr_test_26_ping_right_back_01_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -2642,6 +2710,8 @@
 									m_value = "rr_test_26_ping_going_shop_01_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -2651,6 +2721,8 @@
 									m_value = "rr_test_26_ping_be_back_soon_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -2675,6 +2747,8 @@
 									m_value = "rr_test_26_ping_nevermind_01_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -2684,6 +2758,8 @@
 									m_value = "rr_test_26_ping_nevermind_02_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -2693,6 +2769,8 @@
 									m_value = "rr_test_26_ping_nevermind_03_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -2717,6 +2795,8 @@
 									m_value = "rr_test_26_ping_use_ability1_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -2743,6 +2823,8 @@
 									m_value = "rr_test_26_ping_use_ability2_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -2769,6 +2851,8 @@
 									m_value = "rr_test_26_ping_use_ability3_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -2795,6 +2879,8 @@
 									m_value = "rr_test_26_ping_use_ability4_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -2821,6 +2907,8 @@
 									m_value = "rr_test_26_ping_ability1_not_ready_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -2847,6 +2935,8 @@
 									m_value = "rr_test_26_ping_ability2_not_ready_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -2873,6 +2963,8 @@
 									m_value = "rr_test_26_ping_ability3_not_ready_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -2899,6 +2991,8 @@
 									m_value = "rr_test_26_ping_ability4_not_ready_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -2928,6 +3022,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "rr_test_26_ping_careful_inferno_01_ping_2d"
+											m_params = 
+											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -2948,6 +3047,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "rr_test_26_ping_careful_gigawatt_01_ping_2d"
+											m_params = 
+											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -2968,6 +3072,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "rr_test_26_ping_careful_hornet_01_ping_2d"
+											m_params = 
+											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -2988,6 +3097,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "rr_test_26_ping_careful_ghost_01_ping_2d"
+											m_params = 
+											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -3008,6 +3122,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "rr_test_26_ping_careful_atlas_01_ping_2d"
+											m_params = 
+											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -3028,6 +3147,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "rr_test_26_ping_careful_wraith_01_ping_2d"
+											m_params = 
+											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -3048,6 +3172,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "rr_test_26_ping_careful_forge_01_ping_2d"
+											m_params = 
+											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -3068,6 +3197,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "rr_test_26_ping_careful_chrono_01_ping_2d"
+											m_params = 
+											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -3088,6 +3222,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "rr_test_26_ping_careful_dynamo_01_ping_2d"
+											m_params = 
+											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -3108,6 +3247,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "rr_test_26_ping_careful_kelvin_01_ping_2d"
+											m_params = 
+											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -3128,6 +3272,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "rr_test_26_ping_careful_haze_01_ping_2d"
+											m_params = 
+											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -3148,6 +3297,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "rr_test_26_ping_careful_astro_01_ping_2d"
+											m_params = 
+											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -3168,6 +3322,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "rr_test_26_ping_careful_bebop_01_ping_2d"
+											m_params = 
+											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -3188,6 +3347,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "rr_test_26_ping_careful_nano_01_ping_2d"
+											m_params = 
+											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -3208,6 +3372,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "rr_test_26_ping_careful_orion_01_ping_2d"
+											m_params = 
+											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -3228,6 +3397,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "rr_test_26_ping_careful_krill_01_ping_2d"
+											m_params = 
+											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -3248,6 +3422,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "rr_test_26_ping_careful_shiv_01_ping_2d"
+											m_params = 
+											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -3268,6 +3447,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "rr_test_26_ping_careful_warden_01_ping_2d"
+											m_params = 
+											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -3288,6 +3472,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "rr_test_26_ping_careful_yamato_01_ping_2d"
+											m_params = 
+											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -3308,6 +3497,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "rr_test_26_ping_careful_lash_01_ping_2d"
+											m_params = 
+											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -3328,6 +3522,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "rr_test_26_ping_careful_viscous_01_ping_2d"
+											m_params = 
+											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -3365,6 +3564,8 @@
 											m_value = "rr_test_26_ping_inferno_missing_01_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -3389,6 +3590,8 @@
 											m_value = "rr_test_26_ping_gigawatt_missing_01_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -3413,6 +3616,8 @@
 											m_value = "rr_test_26_ping_hornet_missing_01_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -3437,6 +3642,8 @@
 											m_value = "rr_test_26_ping_ghost_missing_01_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -3461,6 +3668,8 @@
 											m_value = "rr_test_26_ping_atlas_missing_01_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -3485,6 +3694,8 @@
 											m_value = "rr_test_26_ping_wraith_missing_01_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -3509,6 +3720,8 @@
 											m_value = "rr_test_26_ping_forge_missing_01_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -3533,6 +3746,8 @@
 											m_value = "rr_test_26_ping_chrono_missing_01_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -3557,6 +3772,8 @@
 											m_value = "rr_test_26_ping_dynamo_missing_01_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -3581,6 +3798,8 @@
 											m_value = "rr_test_26_ping_kelvin_missing_01_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -3605,6 +3824,8 @@
 											m_value = "rr_test_26_ping_haze_missing_01_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -3629,6 +3850,8 @@
 											m_value = "rr_test_26_ping_astro_missing_01_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -3653,6 +3876,8 @@
 											m_value = "rr_test_26_ping_bebop_missing_01_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -3677,6 +3902,8 @@
 											m_value = "rr_test_26_ping_nano_missing_01_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -3701,6 +3928,8 @@
 											m_value = "rr_test_26_ping_orion_missing_01_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -3725,6 +3954,8 @@
 											m_value = "rr_test_26_ping_krill_missing_01_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -3749,6 +3980,8 @@
 											m_value = "rr_test_26_ping_shiv_missing_01_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -3773,6 +4006,8 @@
 											m_value = "rr_test_26_ping_warden_missing_01_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -3797,6 +4032,8 @@
 											m_value = "rr_test_26_ping_yamato_missing_01_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -3821,6 +4058,8 @@
 											m_value = "rr_test_26_ping_lash_missing_01_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -3845,6 +4084,8 @@
 											m_value = "rr_test_26_ping_viscous_missing_01_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -3879,6 +4120,8 @@
 									m_value = "rr_test_26_ping_see_enemy_ping_2d"
 									m_params = 
 									{
+										m_respeakdelay.start = 3.000000
+										m_predelay.start = 0.000000
 										m_bCancelExisting = true
 									}
 								},
@@ -3896,6 +4139,8 @@
 											m_value = "rr_test_26_ping_see_inferno_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -3920,6 +4165,8 @@
 											m_value = "rr_test_26_ping_see_gigawatt_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -3944,6 +4191,8 @@
 											m_value = "rr_test_26_ping_see_hornet_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -3968,6 +4217,8 @@
 											m_value = "rr_test_26_ping_see_ghost_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -3992,6 +4243,8 @@
 											m_value = "rr_test_26_ping_see_atlas_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -4016,6 +4269,8 @@
 											m_value = "rr_test_26_ping_see_wraith_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -4040,6 +4295,8 @@
 											m_value = "rr_test_26_ping_see_forge_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -4064,6 +4321,8 @@
 											m_value = "rr_test_26_ping_see_chrono_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -4088,6 +4347,8 @@
 											m_value = "rr_test_26_ping_see_dynamo_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -4112,6 +4373,8 @@
 											m_value = "rr_test_26_ping_see_kelvin_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -4136,6 +4399,8 @@
 											m_value = "rr_test_26_ping_see_haze_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -4160,6 +4425,8 @@
 											m_value = "rr_test_26_ping_see_astro_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -4184,6 +4451,8 @@
 											m_value = "rr_test_26_ping_see_bebop_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -4208,6 +4477,8 @@
 											m_value = "rr_test_26_ping_see_nano_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -4232,6 +4503,8 @@
 											m_value = "rr_test_26_ping_see_orion_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -4256,6 +4529,8 @@
 											m_value = "rr_test_26_ping_see_krill_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -4280,6 +4555,8 @@
 											m_value = "rr_test_26_ping_see_shiv_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -4304,6 +4581,8 @@
 											m_value = "rr_test_26_ping_see_warden_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -4328,6 +4607,8 @@
 											m_value = "rr_test_26_ping_see_yamato_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -4352,6 +4633,8 @@
 											m_value = "rr_test_26_ping_see_lash_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -4376,6 +4659,8 @@
 											m_value = "rr_test_26_ping_see_viscous_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -4415,6 +4700,8 @@
 											m_value = "rr_test_26_ping_see_inferno_on_roof_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -4439,6 +4726,8 @@
 											m_value = "rr_test_26_ping_see_gigawatt_on_roof_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -4463,6 +4752,8 @@
 											m_value = "rr_test_26_ping_see_hornet_on_roof_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -4487,6 +4778,8 @@
 											m_value = "rr_test_26_ping_see_ghost_on_roof_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -4511,6 +4804,8 @@
 											m_value = "rr_test_26_ping_see_atlas_on_roof_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -4535,6 +4830,8 @@
 											m_value = "rr_test_26_ping_see_wraith_on_roof_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -4559,6 +4856,8 @@
 											m_value = "rr_test_26_ping_see_forge_on_roof_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -4583,6 +4882,8 @@
 											m_value = "rr_test_26_ping_see_chrono_on_roof_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -4607,6 +4908,8 @@
 											m_value = "rr_test_26_ping_see_dynamo_on_roof_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -4631,6 +4934,8 @@
 											m_value = "rr_test_26_ping_see_kelvin_on_roof_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -4655,6 +4960,8 @@
 											m_value = "rr_test_26_ping_see_haze_on_roof_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -4679,6 +4986,8 @@
 											m_value = "rr_test_26_ping_see_astro_on_roof_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -4703,6 +5012,8 @@
 											m_value = "rr_test_26_ping_see_bebop_on_roof_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -4727,6 +5038,8 @@
 											m_value = "rr_test_26_ping_see_nano_on_roof_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -4751,6 +5064,8 @@
 											m_value = "rr_test_26_ping_see_orion_on_roof_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -4775,6 +5090,8 @@
 											m_value = "rr_test_26_ping_see_krill_on_roof_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -4799,6 +5116,8 @@
 											m_value = "rr_test_26_ping_see_shiv_on_roof_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -4823,6 +5142,8 @@
 											m_value = "rr_test_26_ping_see_warden_on_roof_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -4847,6 +5168,8 @@
 											m_value = "rr_test_26_ping_see_yamato_on_roof_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -4871,6 +5194,8 @@
 											m_value = "rr_test_26_ping_see_lash_on_roof_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -4895,6 +5220,8 @@
 											m_value = "rr_test_26_ping_see_viscous_on_roof_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -4935,6 +5262,8 @@
 											m_value = "rr_test_26_ping_see_inferno_on_bridge_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -4959,6 +5288,8 @@
 											m_value = "rr_test_26_ping_see_gigawatt_on_bridge_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -4983,6 +5314,8 @@
 											m_value = "rr_test_26_ping_see_hornet_on_bridge_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -5007,6 +5340,8 @@
 											m_value = "rr_test_26_ping_see_ghost_on_bridge_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -5031,6 +5366,8 @@
 											m_value = "rr_test_26_ping_see_atlas_on_bridge_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -5055,6 +5392,8 @@
 											m_value = "rr_test_26_ping_see_wraith_on_bridge_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -5079,6 +5418,8 @@
 											m_value = "rr_test_26_ping_see_forge_on_bridge_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -5103,6 +5444,8 @@
 											m_value = "rr_test_26_ping_see_chrono_on_bridge_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -5127,6 +5470,8 @@
 											m_value = "rr_test_26_ping_see_dynamo_on_bridge_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -5151,6 +5496,8 @@
 											m_value = "rr_test_26_ping_see_kelvin_on_bridge_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -5175,6 +5522,8 @@
 											m_value = "rr_test_26_ping_see_haze_on_bridge_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -5199,6 +5548,8 @@
 											m_value = "rr_test_26_ping_see_astro_on_bridge_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -5223,6 +5574,8 @@
 											m_value = "rr_test_26_ping_see_bebop_on_bridge_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -5247,6 +5600,8 @@
 											m_value = "rr_test_26_ping_see_nano_on_bridge_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -5271,6 +5626,8 @@
 											m_value = "rr_test_26_ping_see_orion_on_bridge_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -5295,6 +5652,8 @@
 											m_value = "rr_test_26_ping_see_krill_on_bridge_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -5319,6 +5678,8 @@
 											m_value = "rr_test_26_ping_see_shiv_on_bridge_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -5343,6 +5704,8 @@
 											m_value = "rr_test_26_ping_see_warden_on_bridge_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -5367,6 +5730,8 @@
 											m_value = "rr_test_26_ping_see_yamato_on_bridge_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -5391,6 +5756,8 @@
 											m_value = "rr_test_26_ping_see_lash_on_bridge_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},
@@ -5415,6 +5782,8 @@
 											m_value = "rr_test_26_ping_see_viscous_on_bridge_ping_2d"
 											m_params = 
 											{
+												m_respeakdelay.start = 3.000000
+												m_predelay.start = 0.000000
 												m_bCancelExisting = true
 											}
 										},

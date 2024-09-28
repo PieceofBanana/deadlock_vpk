@@ -15,7 +15,7 @@
                 }
             },
             "AbilityDuration": {
-                "m_strValue": "35",
+                "m_strValue": "30",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "duration",
                 "m_bCanSetTokenOverride": "true",
@@ -118,7 +118,7 @@
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             },
             "BonusHealth": {
-                "m_strValue": "60",
+                "m_strValue": "40",
                 "m_strCSSClass": "health",
                 "m_eDisplayType": "EMaxHealth",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_HEALTH_MAX",
@@ -134,7 +134,7 @@
                 "m_UsageFlags": "APUsageFlag_ModifierConditional"
             },
             "MaxStacks": {
-                "m_strValue": "12"
+                "m_strValue": "10"
             }
         },
         "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",

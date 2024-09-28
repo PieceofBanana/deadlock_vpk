@@ -111,14 +111,14 @@
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
             },
             "RageDrainRate": {
-                "m_strValue": "0.3",
+                "m_strValue": "0.35",
                 "m_strCSSClass": "duration"
             },
             "RagePerWeaponDamage": {
                 "m_strValue": "0.015"
             },
             "RagePerSpiritDamage": {
-                "m_strValue": "0.02"
+                "m_strValue": "0.013"
             },
             "RagePerLightMelee": {
                 "m_strValue": "1.5"
@@ -140,7 +140,7 @@
                 "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond"
             },
             "BuffDamage": {
-                "m_strValue": "20",
+                "m_strValue": "15",
                 "m_strCSSClass": "damage",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_DAMAGE_PERCENT",
                 "m_UsageFlags": "APUsageFlag_ModifierConditional"
@@ -247,7 +247,7 @@
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_HERO_ENEMY",
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_UNIT",
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_CONE",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_DONT_TRIGGER_POST_CAST_ON_CAST_COMPLETE | CITADEL_ABILITY_BEHAVIOR_USE_INSTANT_CAST_UNIT_TARGET_UI | CITADEL_ABILITY_BEHAVIOR_MOVEMENT",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_DONT_TRIGGER_POST_CAST_ON_CAST_COMPLETE | CITADEL_ABILITY_BEHAVIOR_USE_INSTANT_CAST_UNIT_TARGET_UI | CITADEL_ABILITY_BEHAVIOR_MOVEMENT | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
         "m_flTargetingConeAngle": "60",
         "m_strAbilityImage": "file://{images}/hud/abilities/shiv/shiv_killing_blow.psd",
         "m_vecAbilityUpgrades": [
@@ -267,7 +267,7 @@
                     },
                     {
                         "m_strPropertyName": "BuffDamage",
-                        "m_strBonus": "5"
+                        "m_strBonus": "10"
                     }
                 ]
             },
@@ -311,7 +311,8 @@
             "m_strShivOnlyLoopSound": "Shiv.Ability.BloodVision.Target.Lp",
             "m_strShivOnlyActivateSound": "",
             "m_bIsHidden": "true",
-            "m_ShivOnlyDeathTrail": "particles/abilities/shiv/shiv_killing_blow_indicator.vpcf"
+            "m_ShivOnlyDeathTrail": "particles/abilities/shiv/shiv_killing_blow_indicator.vpcf",
+            "m_bCasterCountsAsAssister": "false"
         },
         "m_ImpactParticle": "particles/abilities/shiv/shiv_killing_blow_impact.vpcf",
         "m_AttackParticle": "particles/abilities/shiv/shiv_killing_blow_swing.vpcf",

@@ -110,12 +110,10 @@
                 "m_bCanSetTokenOverride": "true",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
             },
-            "BaseAttackDamagePercent": {
-                "m_strValue": "28",
-                "m_eDisplayType": "EBaseWeaponDamageIncrease",
-                "m_eDisplayUnits": "EDisplayUnit_Normal",
-                "m_strCSSClass": "bullet_damage",
-                "m_eProvidedPropertyType": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
+            "BulletResist": {
+                "m_strValue": "18",
+                "m_eDisplayType": "EBulletArmorDamageReduction",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             },
             "StealPerHit": {
@@ -195,7 +193,7 @@
             }
         },
         "_multibase": [
-            "weapon_upgrade_t4"
+            "armor_upgrade_t4"
         ],
         "m_bStartTrained": "true",
         "m_eAbilityType": "EAbilityType_Item",
@@ -206,7 +204,7 @@
         "m_strCastAnimSequenceName": "ability_generic_cast",
         "m_strSelectionNameOverride": "item",
         "m_PreviewPathParticle": "particles/generic/generic_arc.vpcf",
-        "m_eItemSlotType": "EItemSlotType_WeaponMod",
+        "m_eItemSlotType": "EItemSlotType_Armor",
         "m_iItemTier": "EModTier_4",
         "m_iUpdateTime": "1699386097",
         "m_strCSSClass": "siphon_bullets",
@@ -218,7 +216,7 @@
                 "m_vecSectionAttributes": [
                     {
                         "m_vecAbilityProperties": [
-                            "BaseAttackDamagePercent"
+                            "BulletResist"
                         ]
                     }
                 ]
@@ -295,7 +293,7 @@
                     }
                 },
                 "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
-                    "BaseAttackDamagePercent"
+                    "BulletResist"
                 ]
             }
         ],

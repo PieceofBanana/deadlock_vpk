@@ -280,14 +280,14 @@
                 "m_BuffParticle": "particles/abilities/chrono/chrono_time_wall_buff.vpcf",
                 "m_DebuffParticle": "particles/abilities/chrono/chrono_time_wall_debuff.vpcf",
                 "m_sLocalizationName": "modifier_citadel_chrono_time_wall_effect",
-                "m_bIsHidden": "true",
-                "m_DebuffModifier": {
-                    "_class": "modifier_citadel_silenced",
-                    "_my_subclass_name": "modifier_citadel_silenced",
-                    "m_strSmallIconCssClass": "silence_proc",
-                    "m_sLocalizationName": "modifier_citadel_silenced",
-                    "m_eDrawOverheadStatus": "OVERHEAD_DRAW_FOR_EVERYONE"
-                }
+                "m_bIsHidden": "true"
+            },
+            "m_DebuffModifier": {
+                "_class": "modifier_citadel_silenced",
+                "_my_subclass_name": "modifier_citadel_silenced",
+                "m_strSmallIconCssClass": "silence_proc",
+                "m_sLocalizationName": "modifier_citadel_silenced",
+                "m_eDrawOverheadStatus": "OVERHEAD_DRAW_FOR_EVERYONE"
             },
             "m_flAuraRadius": "0.001000"
         },
@@ -321,7 +321,7 @@
         },
         "m_strWallCreated": "Chrono.TimeWall.Create",
         "m_strChargeUpSound": "",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_DEPLOY_OBJECT | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CAN_CANCEL_DURING_CAST_DELAY",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_DEPLOY_OBJECT | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CAN_CANCEL_DURING_CAST_DELAY | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
         "m_deploymentInfo": {
             "m_flPreviewModelScale": "3.000000",
             "m_bPlaceFlat": "false",

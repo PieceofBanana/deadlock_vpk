@@ -238,7 +238,7 @@
         "m_strAbilityImage": "file://{images}/upgrades/mods_weapon/thermal_detonator.psd",
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_CIRCLE",
         "m_bShowTargetingPreviewWhileCasting": "true",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
         "m_projectileInfo": {
             "m_flSpeed": "1600.000000",

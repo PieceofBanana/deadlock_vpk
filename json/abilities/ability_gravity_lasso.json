@@ -211,7 +211,7 @@
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_PRESS",
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_CONE",
         "m_flTargetingConeAngle": "40",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_PREVENT_BOT_USAGE",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_PREVENT_BOT_USAGE",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_HERO_ENEMY",
         "m_strAbilityImage": "file://{images}/hud/abilities/astro/gravity_lasso.psd",
         "m_previewParticle": "particles/abilities/astro/astro_lasso_preview.vpcf",

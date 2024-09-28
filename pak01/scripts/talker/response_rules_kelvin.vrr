@@ -1420,7 +1420,7 @@
 						[
 							"ConceptAbilityCast",
 							"IsHealthLowerThan20Percent",
-							"IsIceBeam",
+							"IsIcePath",
 						]
 					}
 				},
@@ -1488,7 +1488,7 @@
 						[
 							"ConceptAbilityCast",
 							"IsHealthLowerThan20Percent",
-							"IsIcePath",
+							"IsIceBeam",
 						]
 					}
 				},

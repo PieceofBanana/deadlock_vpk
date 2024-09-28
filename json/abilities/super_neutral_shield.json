@@ -166,6 +166,6 @@
         "m_bitsInterruptingStates": "MODIFIER_STATE_STUNNED | MODIFIER_STATE_IS_ASLEEP",
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_SELF",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_PRESS_TOGGLE",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET"
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET"
     }
 }

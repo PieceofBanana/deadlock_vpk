@@ -117,6 +117,12 @@
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_COOLDOWN_REDUCTION_PERCENTAGE",
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             },
+            "BulletShieldMaxHealth": {
+                "m_strValue": "225",
+                "m_strCSSClass": "bullet_armor_up",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_BULLET_SHIELD_HEALTH_MAX",
+                "m_eDisplayType": "EBulletShieldHealth"
+            },
             "AbilityLifestealPercentHero": {
                 "m_strValue": "10",
                 "m_strCSSClass": "healing",
@@ -229,7 +235,8 @@
                         "m_vecAbilityProperties": [
                             "BonusFireRate",
                             "CooldownReduction",
-                            "AbilityLifestealPercentHero"
+                            "AbilityLifestealPercentHero",
+                            "BulletShieldMaxHealth"
                         ]
                     }
                 ]
@@ -279,6 +286,11 @@
                     "m_bIsHidden": "true"
                 },
                 "m_BuildupSuccessEffect": "particles/upgrades/magic_overflow_success_tgt.vpcf"
+            },
+            {
+                "_class": "modifier_regenerating_bullet_shield",
+                "_my_subclass_name": "modifier_regenerating_bullet_shield",
+                "m_bIsHidden": "true"
             },
             {
                 "_my_subclass_name": "modifier_intrinsic_base",

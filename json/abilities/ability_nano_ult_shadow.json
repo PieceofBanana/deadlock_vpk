@@ -142,7 +142,7 @@
                 "m_strCSSClass": "duration"
             },
             "RevealOnSpottedDuration": {
-                "m_strValue": "0.25",
+                "m_strValue": "1.0",
                 "m_strCSSClass": "duration"
             },
             "StaminaCooldownReduction": {
@@ -261,7 +261,7 @@
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_SELF",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_HERO_ENEMY | CITADEL_UNIT_TARGET_CREEP_ENEMY | CITADEL_UNIT_TARGET_MINION_ENEMY",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
         "m_strCSSClass": "detentionRounds",
         "m_strAbilityImage": "file://{images}/hud/abilities/slork/slork_invis.psd",
         "m_vecAbilityUpgrades": [
@@ -307,8 +307,9 @@
             "m_bFadeToVisibleAtEndOfDuration": "true",
             "m_InvisLoopParticle": "particles/modifiers/invis_loop.vpcf",
             "m_InvisDetectRadiusParticle": "particles/modifiers/invis_delay.vpcf",
-            "m_InvisRevealedParticle": "particles/generic/invis_revealed.vpcf",
+            "m_InvisRevealedParticle": "particles/abilities/nano/nano_ult_shadow_revealed.vpcf",
             "m_strInvisRevealedSound": "StatusEffects.InvisRevealed",
+            "m_RevealedEffect": "particles/abilities/nano/nano_ult_shadow_revealed.vpcf",
             "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
                 "BonusFireRate",
                 "MeleeAttackSpeedBonus",
@@ -329,7 +330,8 @@
                 "m_strSmallIconCssClass": "bullet_armor_reduction",
                 "m_bKeepMaximumDurationOnRefresh": "true",
                 "m_sLocalizationName": "modifier_nano_shadow_debuff"
-            }
+            },
+            "m_strParticleEffect": ""
         },
         "m_AbilityTooltipDetails": {
             "m_vecAbilityInfoSections": [

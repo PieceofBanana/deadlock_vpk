@@ -216,6 +216,6 @@
         },
         "m_ExplosionParticle": "particles/abilities/archer/archer_guided_arrow_explosion_gas.vpcf",
         "m_strCastSound": "Ability.RocketBlast.Fire",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE"
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE"
     }
 }

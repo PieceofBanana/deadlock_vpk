@@ -161,13 +161,6 @@
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             },
-            "BonusFireRate": {
-                "m_strValue": "20",
-                "m_eDisplayType": "EFireRate",
-                "m_eProvidedPropertyType": "MODIFIER_VALUE_FIRE_RATE",
-                "m_UsageFlags": "APUsageFlag_ModifierConditional",
-                "m_strConditionalLocTokenOverride": "#VeilCross_conditional"
-            },
             "BonusClipSize": {
                 "m_strValue": "0"
             },
@@ -247,6 +240,7 @@
         "m_iUpdateTime": "1718840457",
         "m_strCSSClass": "veilWalker",
         "m_strAbilityImage": "file://{images}/upgrades/mods_utility/veil_walker.psd",
+        "m_bShowInPassiveItemsArea": "true",
         "m_vecTooltipSectionInfo": [
             {
                 "m_eAbilitySectionType": "EArea_Innate",
@@ -274,9 +268,6 @@
                             },
                             {
                                 "m_strImportantProperty": "BonusMoveSpeed"
-                            },
-                            {
-                                "m_strImportantProperty": "BonusFireRate"
                             }
                         ],
                         "m_vecAbilityProperties": [
@@ -323,15 +314,11 @@
                     "m_bIsHidden": "true"
                 },
                 "m_VeilWalkerTriggeredModifier": {
-                    "_class": "modifier_kinetic_sash_triggered",
-                    "_my_subclass_name": "modifier_kinetic_sash_triggered",
-                    "m_sLocalizationName": "modifier_veil_walker_triggered",
+                    "_class": "modifier_base",
+                    "_my_subclass_name": "vielwalker_triggered",
                     "m_bIsHidden": "true",
                     "m_TriggeredSound": "Mods.Weapon.KineticSash.Triggered",
-                    "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
-                        "BonusFireRate"
-                    ],
-                    "m_strParticleEffect": "particles/upgrades/kinetic_sash_triggered.vpcf"
+                    "m_strHudMessageText": "#upgrade_veil_walker"
                 }
             }
         ],

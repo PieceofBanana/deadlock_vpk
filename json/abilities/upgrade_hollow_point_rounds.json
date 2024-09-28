@@ -125,7 +125,7 @@
                 "m_strConditionalLocTokenOverride": "#AboveHealthThreshold_conditional"
             },
             "TechShieldMaxHealth": {
-                "m_strValue": "85",
+                "m_strValue": "95",
                 "m_strCSSClass": "tech_armor_up",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_SHIELD_HEALTH_MAX",
                 "m_eDisplayType": "ETechShieldHealth"
@@ -230,7 +230,7 @@
                 "_class": "modifier_hollow_point_proc",
                 "_my_subclass_name": "modifier_hollow_point_proc",
                 "m_bIsHidden": "true",
-                "m_TracerParticle": "particles/weapon_fx/hollow_point_tracer.vpcf",
+                "m_TracerParticle": "",
                 "m_nEnabledStateMask": "MODIFIER_STATE_HAS_HOLLOW_POINT_BULLETS",
                 "m_vecAlwaysShowInStatModifierUI": [
                     "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT"
@@ -238,7 +238,7 @@
                 "m_ParticleModifier": {
                     "_my_subclass_name": "hollow_particle",
                     "_class": "modifier_base",
-                    "m_strParticleStatusEffect": "particles/items/hollow_point_buff.vpcf",
+                    "m_strParticleStatusEffect": "",
                     "m_bIsHidden": "true",
                     "m_strHudMessageText": "#modifier_hollow_point_stack"
                 }

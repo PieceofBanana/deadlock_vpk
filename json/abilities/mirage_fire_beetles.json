@@ -65,7 +65,7 @@
                 "m_strDisableValue": "0"
             },
             "AbilityCharges": {
-                "m_strValue": "3",
+                "m_strValue": "4",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cast",
                 "m_bCanSetTokenOverride": "true",
@@ -111,10 +111,16 @@
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
             },
             "LaunchWindowCooldown": {
-                "m_strValue": "35"
+                "m_strValue": "32",
+                "m_strCSSClass": "cooldown",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "LaunchWindowCooldown_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldown"
+                }
             },
             "LaunchWindowDuration": {
-                "m_strValue": "20",
+                "m_strValue": "5",
                 "m_strCSSClass": "duration",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",
@@ -126,8 +132,9 @@
                 "m_strValue": "1"
             },
             "Radius": {
-                "m_strValue": "4m",
+                "m_strValue": "1m",
                 "m_strCSSClass": "distance",
+                "m_bIsHidden": "true",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",
                     "_my_subclass_name": "Radius_scale_function",
@@ -135,19 +142,19 @@
                 }
             },
             "DPS": {
-                "m_strValue": "20",
+                "m_strValue": "0",
                 "m_strCSSClass": "tech_damage",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_tech_damage",
                     "_my_subclass_name": "Damage_scale_function",
-                    "m_flStatScale": "0.300000"
+                    "m_flStatScale": "0.350000"
                 }
             },
             "DamageInterval": {
                 "m_strValue": "0.5"
             },
             "DebuffDuration": {
-                "m_strValue": "4",
+                "m_strValue": "14",
                 "m_strCSSClass": "duration",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",
@@ -156,7 +163,7 @@
                 }
             },
             "HealingFactor": {
-                "m_strValue": "40",
+                "m_strValue": "0",
                 "m_strCSSClass": "healing",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",
@@ -165,13 +172,49 @@
                 }
             },
             "NonHeroHealingFactor": {
-                "m_strValue": "15",
+                "m_strValue": "25",
                 "m_strCSSClass": "healing",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",
                     "_my_subclass_name": "NonHeroHealingFactor_scale_function",
                     "m_eSpecificStatScaleType": "EHealingOutput"
                 }
+            },
+            "BulletArmorReduction": {
+                "m_strValue": "-10",
+                "m_eDisplayType": "EBulletArmorDamageReduction",
+                "m_strCSSClass": "bullet_armor_down",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST_REDUCTION",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
+            },
+            "HealthSteal": {
+                "m_strValue": "90",
+                "m_strCSSClass": "healing",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "HealthSteal_scale_function",
+                    "m_eSpecificStatScaleType": "ETechPower",
+                    "m_flStatScale": "0.900000"
+                },
+                "m_strLocTokenOverride": "MirageFireScarabsHealthSteal"
+            },
+            "StealDuration": {
+                "m_strValue": "14",
+                "m_strCSSClass": "duration",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "StealDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            },
+            "MaxStacks": {
+                "m_strValue": "1"
+            },
+            "HeroStack": {
+                "m_strValue": "3"
+            },
+            "NonHeroStack": {
+                "m_strValue": "1"
             }
         },
         "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
@@ -215,7 +258,7 @@
             },
             "m_szBulletTravelTracerParticle": "particles/abilities/mirage/mirage_flying_beetle_projectile.vpcf",
             "m_flBulletGravityScale": "0.400000",
-            "m_flBulletRadius": "26",
+            "m_flBulletRadius": "35",
             "m_flBulletRadiusVsWorld": "1.500000",
             "m_mapImpactEffects": {
                 "default": {}
@@ -239,19 +282,19 @@
         "m_strAbilityChargeReadySound": "",
         "m_skillshotMissParticle": "particles/abilities/skillshot_default_miss_owner.vpcf",
         "m_iUpdateTime": "1664215031",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_BUSY | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_PROJECTILE_FIRED_AS_BULLET",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_PROJECTILE_FIRED_AS_BULLET",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_CIRCLE",
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_NONE",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
         "m_bShowTargetingPreviewWhileCasting": "true",
         "m_strAbilityImage": "file://{images}/hud/abilities/mirage/mirage_fire_beetles.psd",
-        "m_strMoviePreviewPath": "",
+        "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/mirage_fire_beetles.webm",
         "m_strCastAnimGraphParam": "e_GenericThrow",
         "m_strCastSound": "Mirage.A1.Beetles.Cast",
         "m_ExplosionSound": "Mirage.A1.Beetles.Miss",
-        "m_previewParticle": "particles/abilities/kelvin/kelvin_ice_grenade_preview.vpcf",
-        "m_ExplodeParticle": "particles/abilities/mirage/mirage_fire_beetles_explode_v2.vpcf",
+        "m_previewParticle": "",
+        "m_ExplodeParticle": "",
         "m_CasterModifier": {
             "_class": "modifier_mirage_fire_beetles_buff",
             "_my_subclass_name": "modifier_mirage_fire_beetles_launch_window",
@@ -265,40 +308,74 @@
             "_my_subclass_name": "modifier_mirage_fire_beetles_debuff",
             "m_sLocalizationName": "modifier_mirage_fire_beetles_debuff",
             "m_bIsHidden": "true",
-            "m_strSmallIconCssClass": "afterburn_dot",
+            "m_strSmallIconCssClass": "bullet_armor_reduction",
             "m_DebuffParticle": "particles/abilities/mirage/mirage_fire_beetles_debuff.vpcf",
             "m_strParticleEffect": "",
-            "m_eDrawOverheadStatus": "OVERHEAD_DRAW_FOR_CASTER_ONLY",
             "m_sAmbientLoopingSound": "Synth.Affliction.Debuff_Lp",
             "m_strScreenParticleEffect": "",
-            "m_sStartSound": "Mirage.A1.Beetles.Attach"
+            "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
+                "BulletArmorReduction"
+            ]
+        },
+        "m_StealWatcherModifier": {
+            "_class": "modifier_mirage_fire_scarabs_watcher",
+            "_my_subclass_name": "modifier_mirage_fire_scarabs_watcher",
+            "m_bIsHidden": "true",
+            "m_StatStolenBuffModifier": {
+                "_class": "modifier_base",
+                "_my_subclass_name": "modifier_siphon_bullets_health_gain",
+                "m_sLocalizationName": "modifier_mirage_fire_scarabs_health_gain",
+                "m_strParticleEffect": "particles/abilities/mirage/mirage_fire_beetles_stack_buff.vpcf",
+                "m_bIsHidden": "true"
+            },
+            "m_StatStolenDebuffModifier": {
+                "_class": "modifier_mirage_fire_scarabs_health_loss",
+                "_my_subclass_name": "modifier_mirage_fire_scarabs_health_loss",
+                "m_sLocalizationName": "modifier_mirage_fire_scarabs_health_loss",
+                "m_SiphonParticle": "",
+                "m_strParticleEffect": "",
+                "m_nEnabledStateMask": "MODIFIER_STATE_SIPHON_BULLET_LOSS",
+                "m_nAttributes": "MODIFIER_ATTRIBUTE_MULTIPLE",
+                "m_HealModifier": {
+                    "_class": "modifier_siphon_bullets_restore_health",
+                    "_my_subclass_name": "modifier_siphon_bullets_restore_health",
+                    "m_bIsHidden": "true"
+                }
+            },
+            "m_HealModifier": {
+                "_class": "modifier_siphon_bullets_restore_health",
+                "_my_subclass_name": "modifier_siphon_bullets_restore_health",
+                "m_bIsHidden": "true"
+            }
+        },
+        "m_RecentlyDebuffedModifier": {
+            "_class": "modifier_base",
+            "_my_subclass_name": "modifier_mirage_fire_beetles_recently_debuffed",
+            "m_sLocalizationName": "modifier_mirage_fire_beetles_recently_debuffed",
+            "m_bIsHidden": "true"
         },
         "m_vecAbilityUpgrades": [
             {
                 "m_vecPropertyUpgrades": [
                     {
-                        "m_strPropertyName": "AbilityCharges",
-                        "m_strBonus": "2"
+                        "m_strPropertyName": "LaunchWindowCooldown",
+                        "m_strBonus": "-15"
                     }
                 ]
             },
             {
                 "m_vecPropertyUpgrades": [
                     {
-                        "m_strPropertyName": "HealingFactor",
-                        "m_strBonus": "40"
-                    },
-                    {
-                        "m_strPropertyName": "NonHeroHealingFactor",
-                        "m_strBonus": "15"
+                        "m_strPropertyName": "BulletArmorReduction",
+                        "m_strBonus": "-15"
                     }
                 ]
             },
             {
                 "m_vecPropertyUpgrades": [
                     {
-                        "m_strPropertyName": "DPS",
-                        "m_strBonus": "40"
+                        "m_strPropertyName": "HealthSteal",
+                        "m_strBonus": "70"
                     }
                 ]
             }
@@ -311,19 +388,17 @@
                         {
                             "m_vecAbilityProperties": [
                                 {
-                                    "m_strImportantProperty": "DPS"
+                                    "m_strImportantProperty": "HealthSteal"
                                 },
                                 {
-                                    "m_strImportantProperty": "HealingFactor"
-                                },
-                                {
-                                    "m_strImportantProperty": "DebuffDuration"
+                                    "m_strImportantProperty": "BulletArmorReduction"
                                 }
                             ]
                         }
                     ],
                     "m_vecBasicProperties": [
                         "LaunchWindowDuration",
+                        "DebuffDuration",
                         "LaunchWindowCooldown",
                         "NonHeroHealingFactor"
                     ]
@@ -333,6 +408,7 @@
         "m_projectileInfo": {
             "m_HitSound": "Mirage.A1.Beetles.Miss",
             "m_LoopingSound": "Mirage.A1.Beetles.Fly.Lp"
-        }
+        },
+        "m_strHitConfirm": "Mirage.A1.Beetles.Attach"
     }
 }

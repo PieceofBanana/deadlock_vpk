@@ -236,13 +236,11 @@
         "m_strAbilityOffCooldownSound": "",
         "m_strAbilityChargeReadySound": "",
         "m_skillshotMissParticle": "particles/abilities/skillshot_default_miss_owner.vpcf",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_ALWAYS_PREVIEW_RADIUS | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_MOVEMENT",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_ALWAYS_PREVIEW_RADIUS | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_USE_INSTANT_CAST_UNIT_TARGET_UI | CITADEL_ABILITY_BEHAVIOR_MOVEMENT | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_PRESS",
         "m_strAbilityImage": "file://{images}/hud/abilities/yamato/yamato_flying_strike.psd",
         "m_iUpdateTime": "1643091758",
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_UNIT",
-        "m_flJumpPitch": "-35.000000",
-        "m_flJumpSpeed": "1500.000000",
         "m_flJumpAirDrag": "4.000000",
         "m_flDashSpeed": "1200.000000",
         "m_flJumpAirSpeedMax": "20.000000",
@@ -283,7 +281,7 @@
         "m_bShowTargetingPreviewWhileCasting": "true",
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_CONE",
         "m_SlashParticle": "particles/abilities/yamato/yamato_flying_strike_hit.vpcf",
-        "m_flDashCloseEnoughToTarget": "100.000000",
+        "m_flFlyingCloseEnoughToTarget": "100.000000",
         "m_SlowModifier": {
             "_class": "modifier_slow_base",
             "_my_subclass_name": "slow",
@@ -293,7 +291,6 @@
                 "SlowPercent"
             ]
         },
-        "m_flBackswingDuration": "0.000000",
         "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/yamato_flying_strike.webm",
         "m_strCastAnimGraphParam": "e_FlyingStrike",
         "m_flAnimToStrikePointTime": "0.500000",
@@ -322,7 +319,7 @@
         "m_flTargetingConeAngle": "20.000000",
         "m_flJumpFallSpeedMax": "1.000000",
         "m_strStartAttack": "Yamato.Decimate.Cast",
-        "m_strStartDash": "Yamato.Decimate.Jump",
+        "m_strStartFlyingToTarget": "Yamato.Decimate.Jump",
         "m_strGrappleHitTarget": "Ability.Bebop.Hook.Success",
         "m_GrappleTargetModifier": {
             "_class": "modifier_citadel_flying_strike",
@@ -346,6 +343,7 @@
         "m_WeaponBuffModifier": {
             "_class": "modifier_base",
             "_my_subclass_name": "weapon_buff",
+            "m_bIsHidden": "true",
             "m_strParticleEffect": "particles/items/berserker_buff.vpcf",
             "m_vecScriptValues": [],
             "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
@@ -390,6 +388,51 @@
                     ],
                     "m_strAbilityPropertyUpgradeRequired": "WeaponDamageBonus"
                 }
+            ]
+        },
+        "m_flGrappleSpeed": "2000.000000",
+        "m_curveSpeedScale": {
+            "m_spline": [
+                {
+                    "x": "0.000000",
+                    "y": "0.000000",
+                    "m_flSlopeIncoming": "5079.069824",
+                    "m_flSlopeOutgoing": "5079.069824"
+                },
+                {
+                    "x": "0.190901",
+                    "y": "969.599976",
+                    "m_flSlopeIncoming": "2400.000000",
+                    "m_flSlopeOutgoing": "2400.000000"
+                },
+                {
+                    "x": "0.500000",
+                    "y": "1200.000000",
+                    "m_flSlopeIncoming": "745.392578",
+                    "m_flSlopeOutgoing": "745.392578"
+                }
+            ],
+            "m_tangents": [
+                {
+                    "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                    "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                },
+                {
+                    "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                    "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                },
+                {
+                    "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                    "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                }
+            ],
+            "m_vDomainMins": [
+                "0.000000",
+                "0.000000"
+            ],
+            "m_vDomainMaxs": [
+                "0.500000",
+                "1200.000000"
             ]
         }
     }

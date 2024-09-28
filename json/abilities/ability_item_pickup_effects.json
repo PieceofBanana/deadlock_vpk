@@ -174,7 +174,7 @@
             "m_particle": "particles/environment/rejuv_projectile.vpcf"
         },
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_CONE",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE_PASS_THROUGH_WORLD",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE_PASS_THROUGH_WORLD",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_HERO",
         "m_TargetModifier": {
             "_class": "modifier_base",

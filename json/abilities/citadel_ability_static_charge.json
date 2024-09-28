@@ -116,7 +116,7 @@
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
             },
             "ShockRadius": {
-                "m_strValue": "6m",
+                "m_strValue": "5m",
                 "m_strCSSClass": "distance",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",
@@ -139,7 +139,7 @@
                 "m_strCSSClass": "cast"
             },
             "StunDuration": {
-                "m_strValue": "1.1",
+                "m_strValue": "0.9",
                 "m_strCSSClass": "duration",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",
@@ -206,9 +206,9 @@
         "m_skillshotMissParticle": "particles/abilities/skillshot_default_miss_owner.vpcf",
         "m_iUpdateTime": "1664482286",
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_UNIT",
-        "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
+        "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_PRESS",
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_CONE",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_ALWAYS_PREVIEW_RADIUS | CITADEL_ABILITY_BEHAVIOR_USE_INSTANT_CAST_UNIT_TARGET_UI",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_ALWAYS_PREVIEW_RADIUS | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_USE_INSTANT_CAST_UNIT_TARGET_UI | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST | CITADEL_ABILITY_BEHAVIOR_ALLOW_SELF_CAST",
         "m_flTargetingConeAngle": "20",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_HERO_ENEMY",
         "m_strAbilityImage": "file://{images}/hud/abilities/giga_static.psd",
@@ -235,7 +235,7 @@
                 "m_vecPropertyUpgrades": [
                     {
                         "m_strPropertyName": "StunDuration",
-                        "m_strBonus": "1.1"
+                        "m_strBonus": "0.9"
                     }
                 ]
             }

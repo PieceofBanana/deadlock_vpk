@@ -185,7 +185,7 @@
         "m_strCSSClass": "metalSkin",
         "m_strAbilityImage": "file://{images}/upgrades/mods_armor/metal_skin.psd",
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_SPHERE",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CAN_CAST_ON_ZIPLINE | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_DODGING | CITADEL_ABILITY_BEHAVIOR_NON_COMBAT",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CAN_CAST_ON_ZIPLINE | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_DODGING | CITADEL_ABILITY_BEHAVIOR_NON_COMBAT",
         "m_strCastSound": "Mods.Armor.MetalSkin.Cast",
         "m_vecTooltipSectionInfo": [
             {

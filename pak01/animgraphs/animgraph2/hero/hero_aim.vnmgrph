@@ -1,0 +1,2327 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	m_persistentNodeIndices = 
+	[
+		0,
+		1,
+		2,
+		3,
+		4,
+		5,
+	]
+	m_nRootNodeIdx = 6
+	m_controlParameterIDs = 
+	[
+		"fl_LookHeading",
+		"fl_LookPitch",
+		"b_InAir",
+		"b_Sliding",
+		"b_Crouching",
+		"e_MovementType",
+	]
+	m_virtualParameterIDs = 
+	[
+	]
+	m_virtualParameterNodeIndices = 
+	[
+	]
+	m_childGraphSlots = 
+	[
+	]
+	m_externalGraphSlots = 
+	[
+	]
+	m_nodePaths = 
+	[
+		"fl_LookHeading",
+		"fl_LookPitch",
+		"b_InAir",
+		"b_Sliding",
+		"b_Crouching",
+		"e_MovementType",
+		"AIM_MotionSet",
+		"AIM_MotionSet/AIM_InAir",
+		"AIM_MotionSet/AIM_InAir/Blend 2D",
+		"AIM_MotionSet/AIM_InAir/AIM_InAir_UL",
+		"AIM_MotionSet/AIM_InAir/AIM_InAir_UC",
+		"AIM_MotionSet/AIM_InAir/AIM_InAir_UR",
+		"AIM_MotionSet/AIM_InAir/AIM_InAir_CL",
+		"AIM_MotionSet/AIM_InAir/AIM_InAir_C",
+		"AIM_MotionSet/AIM_InAir/AIM_InAir_CR",
+		"AIM_MotionSet/AIM_InAir/AIM_InAir_DL",
+		"AIM_MotionSet/AIM_InAir/AIM_InAir_DC",
+		"AIM_MotionSet/AIM_InAir/AIM_InAir_DR",
+		"AIM_MotionSet/AIM_Slide",
+		"AIM_MotionSet/AIM_Slide/Blend 2D",
+		"AIM_MotionSet/AIM_Slide/AIM_Slide_UL",
+		"AIM_MotionSet/AIM_Slide/AIM_Slide_UC",
+		"AIM_MotionSet/AIM_Slide/AIM_Slide_UR",
+		"AIM_MotionSet/AIM_Slide/AIM_Slide_CL",
+		"AIM_MotionSet/AIM_Slide/AIM_Slide_C",
+		"AIM_MotionSet/AIM_Slide/AIM_Slide_CR",
+		"AIM_MotionSet/AIM_Slide/AIM_Slide_DL",
+		"AIM_MotionSet/AIM_Slide/AIM_Slide_DC",
+		"AIM_MotionSet/AIM_Slide/AIM_Slide_DR",
+		"AIM_MotionSet/AIM_CrouchRun",
+		"AIM_MotionSet/AIM_CrouchRun/Blend 2D",
+		"AIM_MotionSet/AIM_CrouchRun/AIM_CrouchRun_UL",
+		"AIM_MotionSet/AIM_CrouchRun/AIM_CrouchRun_UC",
+		"AIM_MotionSet/AIM_CrouchRun/AIM_CrouchRun_UR",
+		"AIM_MotionSet/AIM_CrouchRun/AIM_CrouchRun_CL",
+		"AIM_MotionSet/AIM_CrouchRun/AIM_CrouchRun_C",
+		"AIM_MotionSet/AIM_CrouchRun/AIM_CrouchRun_CR",
+		"AIM_MotionSet/AIM_CrouchRun/AIM_CrouchRun_DL",
+		"AIM_MotionSet/AIM_CrouchRun/AIM_CrouchRun_DC",
+		"AIM_MotionSet/AIM_CrouchRun/AIM_CrouchRun_DR",
+		"AIM_MotionSet/Entry Overrides/And",
+		"AIM_MotionSet/Entry Overrides/ID Comparison",
+		"AIM_MotionSet/AIM_Idle",
+		"AIM_MotionSet/AIM_Idle/Blend 2D",
+		"AIM_MotionSet/AIM_Idle/AIM_Idle_UL",
+		"AIM_MotionSet/AIM_Idle/AIM_Idle_UC",
+		"AIM_MotionSet/AIM_Idle/AIM_Idle_UR",
+		"AIM_MotionSet/AIM_Idle/AIM_Idle_CL",
+		"AIM_MotionSet/AIM_Idle/AIM_Idle_C",
+		"AIM_MotionSet/AIM_Idle/AIM_Idle_CR",
+		"AIM_MotionSet/AIM_Idle/AIM_Idle_DL",
+		"AIM_MotionSet/AIM_Idle/AIM_Idle_DC",
+		"AIM_MotionSet/AIM_Idle/AIM_Idle_DR",
+		"AIM_MotionSet/AIM_Crouch",
+		"AIM_MotionSet/AIM_Crouch/Blend 2D",
+		"AIM_MotionSet/AIM_Crouch/AIM_Crouch_UL",
+		"AIM_MotionSet/AIM_Crouch/AIM_Crouch_UC",
+		"AIM_MotionSet/AIM_Crouch/AIM_Crouch_UR",
+		"AIM_MotionSet/AIM_Crouch/AIM_Crouch_CL",
+		"AIM_MotionSet/AIM_Crouch/AIM_Crouch_C",
+		"AIM_MotionSet/AIM_Crouch/AIM_Crouch_CR",
+		"AIM_MotionSet/AIM_Crouch/AIM_Crouch_DL",
+		"AIM_MotionSet/AIM_Crouch/AIM_Crouch_DC",
+		"AIM_MotionSet/AIM_Crouch/AIM_Crouch_DR",
+		"AIM_MotionSet/Entry Overrides/And",
+		"AIM_MotionSet/Entry Overrides/ID Comparison",
+		"AIM_MotionSet/AIM_Run",
+		"AIM_MotionSet/AIM_Run/Blend 2D",
+		"AIM_MotionSet/AIM_Run/AIM_Run_UL",
+		"AIM_MotionSet/AIM_Run/AIM_Run_UC",
+		"AIM_MotionSet/AIM_Run/AIM_Run_UR",
+		"AIM_MotionSet/AIM_Run/AIM_Run_CL",
+		"AIM_MotionSet/AIM_Run/AIM_Run_C",
+		"AIM_MotionSet/AIM_Run/AIM_Run_CR",
+		"AIM_MotionSet/AIM_Run/AIM_Run_DL",
+		"AIM_MotionSet/AIM_Run/AIM_Run_DC",
+		"AIM_MotionSet/AIM_Run/AIM_Run_DR",
+		"AIM_MotionSet/Entry Overrides/And",
+		"AIM_MotionSet/Entry Overrides/ID Comparison",
+		"AIM_MotionSet/Entry Overrides/Not",
+		"AIM_MotionSet/Entry Overrides/Not",
+		"AIM_MotionSet/Entry Overrides/Not",
+		"AIM_MotionSet/Global Transitions/AIM_Slide",
+		"AIM_MotionSet/Global Transitions/AIM_CrouchRun",
+		"AIM_MotionSet/Global Transitions/And",
+		"AIM_MotionSet/Global Transitions/ID Comparison",
+		"AIM_MotionSet/Global Transitions/AIM_Idle",
+		"AIM_MotionSet/Global Transitions/And",
+		"AIM_MotionSet/Global Transitions/ID Comparison",
+		"AIM_MotionSet/Global Transitions/Not",
+		"AIM_MotionSet/Global Transitions/Not",
+		"AIM_MotionSet/Global Transitions/Not",
+		"AIM_MotionSet/Global Transitions/AIM_Crouch",
+		"AIM_MotionSet/Global Transitions/And",
+		"AIM_MotionSet/Global Transitions/ID Comparison",
+		"AIM_MotionSet/Global Transitions/AIM_Run",
+		"AIM_MotionSet/Global Transitions/And",
+		"AIM_MotionSet/Global Transitions/ID Comparison",
+		"AIM_MotionSet/Global Transitions/Not",
+		"AIM_MotionSet/Global Transitions/Not",
+		"AIM_MotionSet/Global Transitions/Not",
+		"AIM_MotionSet/Global Transitions/AIM_InAir",
+	]
+	m_runtimeVersionID = "8562510f-333f-4a63-ab55-9db6d3ddf9d8"
+	m_nodes = 
+	[
+		
+		{
+			_class = "CNmControlParameterFloatNode::CDefinition"
+			m_nNodeIdx = 0
+		},
+		
+		{
+			_class = "CNmControlParameterFloatNode::CDefinition"
+			m_nNodeIdx = 1
+		},
+		
+		{
+			_class = "CNmControlParameterBoolNode::CDefinition"
+			m_nNodeIdx = 2
+		},
+		
+		{
+			_class = "CNmControlParameterBoolNode::CDefinition"
+			m_nNodeIdx = 3
+		},
+		
+		{
+			_class = "CNmControlParameterBoolNode::CDefinition"
+			m_nNodeIdx = 4
+		},
+		
+		{
+			_class = "CNmControlParameterIDNode::CDefinition"
+			m_nNodeIdx = 5
+		},
+		
+		{
+			_class = "CNmStateMachineNode::CDefinition"
+			m_nNodeIdx = 6
+			m_stateDefinitions = 
+			[
+				
+				{
+					m_nStateNodeIdx = 7
+					m_nEntryConditionNodeIdx = 2
+					m_transitionDefinitions = 
+					[
+						
+						{
+							m_nTargetStateIdx = 1
+							m_nConditionNodeIdx = 3
+							m_nTransitionNodeIdx = 82
+							m_bCanBeForced = false
+						},
+						
+						{
+							m_nTargetStateIdx = 2
+							m_nConditionNodeIdx = 84
+							m_nTransitionNodeIdx = 83
+							m_bCanBeForced = false
+						},
+						
+						{
+							m_nTargetStateIdx = 3
+							m_nConditionNodeIdx = 87
+							m_nTransitionNodeIdx = 86
+							m_bCanBeForced = false
+						},
+						
+						{
+							m_nTargetStateIdx = 4
+							m_nConditionNodeIdx = 93
+							m_nTransitionNodeIdx = 92
+							m_bCanBeForced = false
+						},
+						
+						{
+							m_nTargetStateIdx = 5
+							m_nConditionNodeIdx = 96
+							m_nTransitionNodeIdx = 95
+							m_bCanBeForced = false
+						},
+					]
+				},
+				
+				{
+					m_nStateNodeIdx = 18
+					m_nEntryConditionNodeIdx = 3
+					m_transitionDefinitions = 
+					[
+						
+						{
+							m_nTargetStateIdx = 0
+							m_nConditionNodeIdx = 2
+							m_nTransitionNodeIdx = 101
+							m_bCanBeForced = false
+						},
+						
+						{
+							m_nTargetStateIdx = 2
+							m_nConditionNodeIdx = 84
+							m_nTransitionNodeIdx = 83
+							m_bCanBeForced = false
+						},
+						
+						{
+							m_nTargetStateIdx = 3
+							m_nConditionNodeIdx = 87
+							m_nTransitionNodeIdx = 86
+							m_bCanBeForced = false
+						},
+						
+						{
+							m_nTargetStateIdx = 4
+							m_nConditionNodeIdx = 93
+							m_nTransitionNodeIdx = 92
+							m_bCanBeForced = false
+						},
+						
+						{
+							m_nTargetStateIdx = 5
+							m_nConditionNodeIdx = 96
+							m_nTransitionNodeIdx = 95
+							m_bCanBeForced = false
+						},
+					]
+				},
+				
+				{
+					m_nStateNodeIdx = 29
+					m_nEntryConditionNodeIdx = 40
+					m_transitionDefinitions = 
+					[
+						
+						{
+							m_nTargetStateIdx = 0
+							m_nConditionNodeIdx = 2
+							m_nTransitionNodeIdx = 101
+							m_bCanBeForced = false
+						},
+						
+						{
+							m_nTargetStateIdx = 1
+							m_nConditionNodeIdx = 3
+							m_nTransitionNodeIdx = 82
+							m_bCanBeForced = false
+						},
+						
+						{
+							m_nTargetStateIdx = 3
+							m_nConditionNodeIdx = 87
+							m_nTransitionNodeIdx = 86
+							m_bCanBeForced = false
+						},
+						
+						{
+							m_nTargetStateIdx = 4
+							m_nConditionNodeIdx = 93
+							m_nTransitionNodeIdx = 92
+							m_bCanBeForced = false
+						},
+						
+						{
+							m_nTargetStateIdx = 5
+							m_nConditionNodeIdx = 96
+							m_nTransitionNodeIdx = 95
+							m_bCanBeForced = false
+						},
+					]
+				},
+				
+				{
+					m_nStateNodeIdx = 42
+					m_nEntryConditionNodeIdx = -1
+					m_transitionDefinitions = 
+					[
+						
+						{
+							m_nTargetStateIdx = 0
+							m_nConditionNodeIdx = 2
+							m_nTransitionNodeIdx = 101
+							m_bCanBeForced = false
+						},
+						
+						{
+							m_nTargetStateIdx = 1
+							m_nConditionNodeIdx = 3
+							m_nTransitionNodeIdx = 82
+							m_bCanBeForced = false
+						},
+						
+						{
+							m_nTargetStateIdx = 2
+							m_nConditionNodeIdx = 84
+							m_nTransitionNodeIdx = 83
+							m_bCanBeForced = false
+						},
+						
+						{
+							m_nTargetStateIdx = 4
+							m_nConditionNodeIdx = 93
+							m_nTransitionNodeIdx = 92
+							m_bCanBeForced = false
+						},
+						
+						{
+							m_nTargetStateIdx = 5
+							m_nConditionNodeIdx = 96
+							m_nTransitionNodeIdx = 95
+							m_bCanBeForced = false
+						},
+					]
+				},
+				
+				{
+					m_nStateNodeIdx = 53
+					m_nEntryConditionNodeIdx = 64
+					m_transitionDefinitions = 
+					[
+						
+						{
+							m_nTargetStateIdx = 0
+							m_nConditionNodeIdx = 2
+							m_nTransitionNodeIdx = 101
+							m_bCanBeForced = false
+						},
+						
+						{
+							m_nTargetStateIdx = 1
+							m_nConditionNodeIdx = 3
+							m_nTransitionNodeIdx = 82
+							m_bCanBeForced = false
+						},
+						
+						{
+							m_nTargetStateIdx = 2
+							m_nConditionNodeIdx = 84
+							m_nTransitionNodeIdx = 83
+							m_bCanBeForced = false
+						},
+						
+						{
+							m_nTargetStateIdx = 3
+							m_nConditionNodeIdx = 87
+							m_nTransitionNodeIdx = 86
+							m_bCanBeForced = false
+						},
+						
+						{
+							m_nTargetStateIdx = 5
+							m_nConditionNodeIdx = 96
+							m_nTransitionNodeIdx = 95
+							m_bCanBeForced = false
+						},
+					]
+				},
+				
+				{
+					m_nStateNodeIdx = 66
+					m_nEntryConditionNodeIdx = 77
+					m_transitionDefinitions = 
+					[
+						
+						{
+							m_nTargetStateIdx = 0
+							m_nConditionNodeIdx = 2
+							m_nTransitionNodeIdx = 101
+							m_bCanBeForced = false
+						},
+						
+						{
+							m_nTargetStateIdx = 1
+							m_nConditionNodeIdx = 3
+							m_nTransitionNodeIdx = 82
+							m_bCanBeForced = false
+						},
+						
+						{
+							m_nTargetStateIdx = 2
+							m_nConditionNodeIdx = 84
+							m_nTransitionNodeIdx = 83
+							m_bCanBeForced = false
+						},
+						
+						{
+							m_nTargetStateIdx = 3
+							m_nConditionNodeIdx = 87
+							m_nTransitionNodeIdx = 86
+							m_bCanBeForced = false
+						},
+						
+						{
+							m_nTargetStateIdx = 4
+							m_nConditionNodeIdx = 93
+							m_nTransitionNodeIdx = 92
+							m_bCanBeForced = false
+						},
+					]
+				},
+			]
+			m_nDefaultStateIndex = 3
+		},
+		
+		{
+			_class = "CNmStateNode::CDefinition"
+			m_nNodeIdx = 7
+			m_nChildNodeIdx = 8
+			m_entryEvents = 
+			[
+			]
+			m_executeEvents = 
+			[
+			]
+			m_exitEvents = 
+			[
+			]
+			m_timedRemainingEvents = 
+			[
+			]
+			m_timedElapsedEvents = 
+			[
+			]
+			m_nLayerWeightNodeIdx = -1
+			m_nLayerRootMotionWeightNodeIdx = -1
+			m_nLayerBoneMaskNodeIdx = -1
+			m_bIsOffState = false
+		},
+		
+		{
+			_class = "CNmBlend2DNode::CDefinition"
+			m_nNodeIdx = 8
+			m_sourceNodeIndices = 
+			[
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+			]
+			m_nInputParameterNodeIdx0 = 0
+			m_nInputParameterNodeIdx1 = 1
+			m_values = 
+			[
+				
+				[
+					90.000000,
+					90.000000,
+				],
+				
+				[
+					0.000000,
+					90.000000,
+				],
+				
+				[
+					-90.000000,
+					90.000000,
+				],
+				
+				[
+					90.000000,
+					0.000000,
+				],
+				
+				[
+					0.000000,
+					0.000000,
+				],
+				
+				[
+					-90.000000,
+					0.000000,
+				],
+				
+				[
+					90.000000,
+					-90.000000,
+				],
+				
+				[
+					0.000000,
+					-90.000000,
+				],
+				
+				[
+					-90.000000,
+					-90.000000,
+				],
+			]
+			m_indices = 
+			[
+				4,
+				2,
+				1,
+				7,
+				8,
+				4,
+				2,
+				4,
+				5,
+				4,
+				8,
+				5,
+				0,
+				4,
+				1,
+				7,
+				4,
+				6,
+				6,
+				4,
+				3,
+				4,
+				0,
+				3,
+			]
+			m_hullIndices = 
+			[
+				0,
+				3,
+				6,
+				7,
+				8,
+				5,
+				2,
+				1,
+				0,
+			]
+			m_bAllowLooping = false
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 9
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 0
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 6.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 10
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 1
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 7.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 11
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 2
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 8.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 12
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 3
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 3.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 13
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 4
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 4.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 14
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 5
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 5.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 15
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 6
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 0.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 16
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 7
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 1.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 17
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 8
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 2.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmStateNode::CDefinition"
+			m_nNodeIdx = 18
+			m_nChildNodeIdx = 19
+			m_entryEvents = 
+			[
+			]
+			m_executeEvents = 
+			[
+			]
+			m_exitEvents = 
+			[
+			]
+			m_timedRemainingEvents = 
+			[
+			]
+			m_timedElapsedEvents = 
+			[
+			]
+			m_nLayerWeightNodeIdx = -1
+			m_nLayerRootMotionWeightNodeIdx = -1
+			m_nLayerBoneMaskNodeIdx = -1
+			m_bIsOffState = false
+		},
+		
+		{
+			_class = "CNmBlend2DNode::CDefinition"
+			m_nNodeIdx = 19
+			m_sourceNodeIndices = 
+			[
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+			]
+			m_nInputParameterNodeIdx0 = 0
+			m_nInputParameterNodeIdx1 = 1
+			m_values = 
+			[
+				
+				[
+					90.000000,
+					90.000000,
+				],
+				
+				[
+					0.000000,
+					90.000000,
+				],
+				
+				[
+					-90.000000,
+					90.000000,
+				],
+				
+				[
+					90.000000,
+					0.000000,
+				],
+				
+				[
+					0.000000,
+					0.000000,
+				],
+				
+				[
+					-90.000000,
+					0.000000,
+				],
+				
+				[
+					90.000000,
+					-90.000000,
+				],
+				
+				[
+					0.000000,
+					-90.000000,
+				],
+				
+				[
+					-90.000000,
+					-90.000000,
+				],
+			]
+			m_indices = 
+			[
+				4,
+				2,
+				1,
+				7,
+				8,
+				4,
+				2,
+				4,
+				5,
+				4,
+				8,
+				5,
+				0,
+				4,
+				1,
+				7,
+				4,
+				6,
+				6,
+				4,
+				3,
+				4,
+				0,
+				3,
+			]
+			m_hullIndices = 
+			[
+				0,
+				3,
+				6,
+				7,
+				8,
+				5,
+				2,
+				1,
+				0,
+			]
+			m_bAllowLooping = false
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 20
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 9
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 6.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 21
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 10
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 7.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 22
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 11
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 8.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 23
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 12
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 3.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 24
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 13
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 4.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 25
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 14
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 5.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 26
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 15
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 0.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 27
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 16
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 1.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 28
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 17
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 2.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmStateNode::CDefinition"
+			m_nNodeIdx = 29
+			m_nChildNodeIdx = 30
+			m_entryEvents = 
+			[
+			]
+			m_executeEvents = 
+			[
+			]
+			m_exitEvents = 
+			[
+			]
+			m_timedRemainingEvents = 
+			[
+			]
+			m_timedElapsedEvents = 
+			[
+			]
+			m_nLayerWeightNodeIdx = -1
+			m_nLayerRootMotionWeightNodeIdx = -1
+			m_nLayerBoneMaskNodeIdx = -1
+			m_bIsOffState = false
+		},
+		
+		{
+			_class = "CNmBlend2DNode::CDefinition"
+			m_nNodeIdx = 30
+			m_sourceNodeIndices = 
+			[
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+			]
+			m_nInputParameterNodeIdx0 = 0
+			m_nInputParameterNodeIdx1 = 1
+			m_values = 
+			[
+				
+				[
+					90.000000,
+					90.000000,
+				],
+				
+				[
+					0.000000,
+					90.000000,
+				],
+				
+				[
+					-90.000000,
+					90.000000,
+				],
+				
+				[
+					90.000000,
+					0.000000,
+				],
+				
+				[
+					0.000000,
+					0.000000,
+				],
+				
+				[
+					-90.000000,
+					0.000000,
+				],
+				
+				[
+					90.000000,
+					-90.000000,
+				],
+				
+				[
+					0.000000,
+					-90.000000,
+				],
+				
+				[
+					-90.000000,
+					-90.000000,
+				],
+			]
+			m_indices = 
+			[
+				4,
+				2,
+				1,
+				7,
+				8,
+				4,
+				2,
+				4,
+				5,
+				4,
+				8,
+				5,
+				0,
+				4,
+				1,
+				7,
+				4,
+				6,
+				6,
+				4,
+				3,
+				4,
+				0,
+				3,
+			]
+			m_hullIndices = 
+			[
+				0,
+				3,
+				6,
+				7,
+				8,
+				5,
+				2,
+				1,
+				0,
+			]
+			m_bAllowLooping = false
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 31
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 18
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 6.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 32
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 19
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 7.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 33
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 20
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 8.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 34
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 21
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 3.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 35
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 22
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 4.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 36
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 23
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 5.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 37
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 24
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 0.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 38
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 25
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 1.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 39
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 26
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 2.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmAndNode::CDefinition"
+			m_nNodeIdx = 40
+			m_conditionNodeIndices = 
+			[
+				4,
+				41,
+			]
+		},
+		
+		{
+			_class = "CNmIDComparisonNode::CDefinition"
+			m_nNodeIdx = 41
+			m_nInputValueNodeIdx = 5
+			m_comparison = "DoesntMatch"
+			m_comparisionIDs = 
+			[
+				"e_MovementType_none",
+			]
+		},
+		
+		{
+			_class = "CNmStateNode::CDefinition"
+			m_nNodeIdx = 42
+			m_nChildNodeIdx = 43
+			m_entryEvents = 
+			[
+			]
+			m_executeEvents = 
+			[
+			]
+			m_exitEvents = 
+			[
+			]
+			m_timedRemainingEvents = 
+			[
+			]
+			m_timedElapsedEvents = 
+			[
+			]
+			m_nLayerWeightNodeIdx = -1
+			m_nLayerRootMotionWeightNodeIdx = -1
+			m_nLayerBoneMaskNodeIdx = -1
+			m_bIsOffState = false
+		},
+		
+		{
+			_class = "CNmBlend2DNode::CDefinition"
+			m_nNodeIdx = 43
+			m_sourceNodeIndices = 
+			[
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+			]
+			m_nInputParameterNodeIdx0 = 0
+			m_nInputParameterNodeIdx1 = 1
+			m_values = 
+			[
+				
+				[
+					90.000000,
+					90.000000,
+				],
+				
+				[
+					0.000000,
+					90.000000,
+				],
+				
+				[
+					-90.000000,
+					90.000000,
+				],
+				
+				[
+					90.000000,
+					0.000000,
+				],
+				
+				[
+					0.000000,
+					0.000000,
+				],
+				
+				[
+					-90.000000,
+					0.000000,
+				],
+				
+				[
+					90.000000,
+					-90.000000,
+				],
+				
+				[
+					0.000000,
+					-90.000000,
+				],
+				
+				[
+					-90.000000,
+					-90.000000,
+				],
+			]
+			m_indices = 
+			[
+				4,
+				2,
+				1,
+				7,
+				8,
+				4,
+				2,
+				4,
+				5,
+				4,
+				8,
+				5,
+				0,
+				4,
+				1,
+				7,
+				4,
+				6,
+				6,
+				4,
+				3,
+				4,
+				0,
+				3,
+			]
+			m_hullIndices = 
+			[
+				0,
+				3,
+				6,
+				7,
+				8,
+				5,
+				2,
+				1,
+				0,
+			]
+			m_bAllowLooping = false
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 44
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 27
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 6.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 45
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 28
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 7.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 46
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 29
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 8.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 47
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 30
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 3.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 48
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 31
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 4.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 49
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 32
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 5.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 50
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 33
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 0.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 51
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 34
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 1.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 52
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 35
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 2.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmStateNode::CDefinition"
+			m_nNodeIdx = 53
+			m_nChildNodeIdx = 54
+			m_entryEvents = 
+			[
+			]
+			m_executeEvents = 
+			[
+			]
+			m_exitEvents = 
+			[
+			]
+			m_timedRemainingEvents = 
+			[
+			]
+			m_timedElapsedEvents = 
+			[
+			]
+			m_nLayerWeightNodeIdx = -1
+			m_nLayerRootMotionWeightNodeIdx = -1
+			m_nLayerBoneMaskNodeIdx = -1
+			m_bIsOffState = false
+		},
+		
+		{
+			_class = "CNmBlend2DNode::CDefinition"
+			m_nNodeIdx = 54
+			m_sourceNodeIndices = 
+			[
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+			]
+			m_nInputParameterNodeIdx0 = 0
+			m_nInputParameterNodeIdx1 = 1
+			m_values = 
+			[
+				
+				[
+					90.000000,
+					90.000000,
+				],
+				
+				[
+					0.000000,
+					90.000000,
+				],
+				
+				[
+					-90.000000,
+					90.000000,
+				],
+				
+				[
+					90.000000,
+					0.000000,
+				],
+				
+				[
+					0.000000,
+					0.000000,
+				],
+				
+				[
+					-90.000000,
+					0.000000,
+				],
+				
+				[
+					90.000000,
+					-90.000000,
+				],
+				
+				[
+					0.000000,
+					-90.000000,
+				],
+				
+				[
+					-90.000000,
+					-90.000000,
+				],
+			]
+			m_indices = 
+			[
+				4,
+				2,
+				1,
+				7,
+				8,
+				4,
+				2,
+				4,
+				5,
+				4,
+				8,
+				5,
+				0,
+				4,
+				1,
+				7,
+				4,
+				6,
+				6,
+				4,
+				3,
+				4,
+				0,
+				3,
+			]
+			m_hullIndices = 
+			[
+				0,
+				3,
+				6,
+				7,
+				8,
+				5,
+				2,
+				1,
+				0,
+			]
+			m_bAllowLooping = false
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 55
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 36
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 6.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 56
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 37
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 7.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 57
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 38
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 8.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 58
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 39
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 3.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 59
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 40
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 4.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 60
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 41
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 5.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 61
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 42
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 0.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 62
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 43
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 1.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 63
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 44
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 2.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmAndNode::CDefinition"
+			m_nNodeIdx = 64
+			m_conditionNodeIndices = 
+			[
+				4,
+				65,
+			]
+		},
+		
+		{
+			_class = "CNmIDComparisonNode::CDefinition"
+			m_nNodeIdx = 65
+			m_nInputValueNodeIdx = 5
+			m_comparison = "Matches"
+			m_comparisionIDs = 
+			[
+				"e_MovementType_none",
+			]
+		},
+		
+		{
+			_class = "CNmStateNode::CDefinition"
+			m_nNodeIdx = 66
+			m_nChildNodeIdx = 67
+			m_entryEvents = 
+			[
+			]
+			m_executeEvents = 
+			[
+			]
+			m_exitEvents = 
+			[
+			]
+			m_timedRemainingEvents = 
+			[
+			]
+			m_timedElapsedEvents = 
+			[
+			]
+			m_nLayerWeightNodeIdx = -1
+			m_nLayerRootMotionWeightNodeIdx = -1
+			m_nLayerBoneMaskNodeIdx = -1
+			m_bIsOffState = false
+		},
+		
+		{
+			_class = "CNmBlend2DNode::CDefinition"
+			m_nNodeIdx = 67
+			m_sourceNodeIndices = 
+			[
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+			]
+			m_nInputParameterNodeIdx0 = 0
+			m_nInputParameterNodeIdx1 = 1
+			m_values = 
+			[
+				
+				[
+					90.000000,
+					90.000000,
+				],
+				
+				[
+					0.000000,
+					90.000000,
+				],
+				
+				[
+					-90.000000,
+					90.000000,
+				],
+				
+				[
+					90.000000,
+					0.000000,
+				],
+				
+				[
+					0.000000,
+					0.000000,
+				],
+				
+				[
+					-90.000000,
+					0.000000,
+				],
+				
+				[
+					90.000000,
+					-90.000000,
+				],
+				
+				[
+					0.000000,
+					-90.000000,
+				],
+				
+				[
+					-90.000000,
+					-90.000000,
+				],
+			]
+			m_indices = 
+			[
+				4,
+				2,
+				1,
+				7,
+				8,
+				4,
+				2,
+				4,
+				5,
+				4,
+				8,
+				5,
+				0,
+				4,
+				1,
+				7,
+				4,
+				6,
+				6,
+				4,
+				3,
+				4,
+				0,
+				3,
+			]
+			m_hullIndices = 
+			[
+				0,
+				3,
+				6,
+				7,
+				8,
+				5,
+				2,
+				1,
+				0,
+			]
+			m_bAllowLooping = false
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 68
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 45
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 6.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 69
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 46
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 7.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 70
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 47
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 8.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 71
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 48
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 3.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 72
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 49
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 4.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 73
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 50
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 5.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 74
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 51
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 0.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 75
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 52
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 1.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmAnimationPoseNode::CDefinition"
+			m_nNodeIdx = 76
+			m_nPoseTimeValueNodeIdx = -1
+			m_nDataSlotIdx = 53
+			m_inputTimeRemapRange = 
+			{
+				m_flMin = 340282346638529000000000000000000000000.000000
+				m_flMax = -340282346638529000000000000000000000000.000000
+			}
+			m_flUserSpecifiedTime = 2.000000
+			m_bUseFramesAsInput = true
+		},
+		
+		{
+			_class = "CNmAndNode::CDefinition"
+			m_nNodeIdx = 77
+			m_conditionNodeIndices = 
+			[
+				78,
+				79,
+				80,
+				81,
+			]
+		},
+		
+		{
+			_class = "CNmIDComparisonNode::CDefinition"
+			m_nNodeIdx = 78
+			m_nInputValueNodeIdx = 5
+			m_comparison = "DoesntMatch"
+			m_comparisionIDs = 
+			[
+				"e_MovementType_none",
+			]
+		},
+		
+		{
+			_class = "CNmNotNode::CDefinition"
+			m_nNodeIdx = 79
+			m_nInputValueNodeIdx = 4
+		},
+		
+		{
+			_class = "CNmNotNode::CDefinition"
+			m_nNodeIdx = 80
+			m_nInputValueNodeIdx = 3
+		},
+		
+		{
+			_class = "CNmNotNode::CDefinition"
+			m_nNodeIdx = 81
+			m_nInputValueNodeIdx = 2
+		},
+		
+		{
+			_class = "CNmTransitionNode::CDefinition"
+			m_nNodeIdx = 82
+			m_nTargetStateNodeIdx = 18
+			m_nDurationOverrideNodeIdx = -1
+			m_syncEventOffsetOverrideNodeIdx = -1
+			m_startBoneMaskNodeIdx = -1
+			m_flDuration = 0.200000
+			m_boneMaskBlendInTimePercentage = 
+			{
+				m_flValue = 0.330000
+			}
+			m_syncEventOffset = 0.000000
+			m_transitionOptions = 
+			{
+				m_flags = 0
+			}
+			m_targetSyncIDNodeIdx = -1
+			m_blendWeightEasing = "Linear"
+			m_rootMotionBlend = "Blend"
+		},
+		
+		{
+			_class = "CNmTransitionNode::CDefinition"
+			m_nNodeIdx = 83
+			m_nTargetStateNodeIdx = 29
+			m_nDurationOverrideNodeIdx = -1
+			m_syncEventOffsetOverrideNodeIdx = -1
+			m_startBoneMaskNodeIdx = -1
+			m_flDuration = 0.200000
+			m_boneMaskBlendInTimePercentage = 
+			{
+				m_flValue = 0.330000
+			}
+			m_syncEventOffset = 0.000000
+			m_transitionOptions = 
+			{
+				m_flags = 0
+			}
+			m_targetSyncIDNodeIdx = -1
+			m_blendWeightEasing = "Linear"
+			m_rootMotionBlend = "Blend"
+		},
+		
+		{
+			_class = "CNmAndNode::CDefinition"
+			m_nNodeIdx = 84
+			m_conditionNodeIndices = 
+			[
+				4,
+				85,
+			]
+		},
+		
+		{
+			_class = "CNmIDComparisonNode::CDefinition"
+			m_nNodeIdx = 85
+			m_nInputValueNodeIdx = 5
+			m_comparison = "DoesntMatch"
+			m_comparisionIDs = 
+			[
+				"e_MovementType_none",
+			]
+		},
+		
+		{
+			_class = "CNmTransitionNode::CDefinition"
+			m_nNodeIdx = 86
+			m_nTargetStateNodeIdx = 42
+			m_nDurationOverrideNodeIdx = -1
+			m_syncEventOffsetOverrideNodeIdx = -1
+			m_startBoneMaskNodeIdx = -1
+			m_flDuration = 0.200000
+			m_boneMaskBlendInTimePercentage = 
+			{
+				m_flValue = 0.330000
+			}
+			m_syncEventOffset = 0.000000
+			m_transitionOptions = 
+			{
+				m_flags = 0
+			}
+			m_targetSyncIDNodeIdx = -1
+			m_blendWeightEasing = "Linear"
+			m_rootMotionBlend = "Blend"
+		},
+		
+		{
+			_class = "CNmAndNode::CDefinition"
+			m_nNodeIdx = 87
+			m_conditionNodeIndices = 
+			[
+				88,
+				89,
+				90,
+				91,
+			]
+		},
+		
+		{
+			_class = "CNmIDComparisonNode::CDefinition"
+			m_nNodeIdx = 88
+			m_nInputValueNodeIdx = 5
+			m_comparison = "Matches"
+			m_comparisionIDs = 
+			[
+				"e_MovementType_none",
+			]
+		},
+		
+		{
+			_class = "CNmNotNode::CDefinition"
+			m_nNodeIdx = 89
+			m_nInputValueNodeIdx = 4
+		},
+		
+		{
+			_class = "CNmNotNode::CDefinition"
+			m_nNodeIdx = 90
+			m_nInputValueNodeIdx = 3
+		},
+		
+		{
+			_class = "CNmNotNode::CDefinition"
+			m_nNodeIdx = 91
+			m_nInputValueNodeIdx = 2
+		},
+		
+		{
+			_class = "CNmTransitionNode::CDefinition"
+			m_nNodeIdx = 92
+			m_nTargetStateNodeIdx = 53
+			m_nDurationOverrideNodeIdx = -1
+			m_syncEventOffsetOverrideNodeIdx = -1
+			m_startBoneMaskNodeIdx = -1
+			m_flDuration = 0.200000
+			m_boneMaskBlendInTimePercentage = 
+			{
+				m_flValue = 0.330000
+			}
+			m_syncEventOffset = 0.000000
+			m_transitionOptions = 
+			{
+				m_flags = 0
+			}
+			m_targetSyncIDNodeIdx = -1
+			m_blendWeightEasing = "Linear"
+			m_rootMotionBlend = "Blend"
+		},
+		
+		{
+			_class = "CNmAndNode::CDefinition"
+			m_nNodeIdx = 93
+			m_conditionNodeIndices = 
+			[
+				4,
+				94,
+			]
+		},
+		
+		{
+			_class = "CNmIDComparisonNode::CDefinition"
+			m_nNodeIdx = 94
+			m_nInputValueNodeIdx = 5
+			m_comparison = "Matches"
+			m_comparisionIDs = 
+			[
+				"e_MovementType_none",
+			]
+		},
+		
+		{
+			_class = "CNmTransitionNode::CDefinition"
+			m_nNodeIdx = 95
+			m_nTargetStateNodeIdx = 66
+			m_nDurationOverrideNodeIdx = -1
+			m_syncEventOffsetOverrideNodeIdx = -1
+			m_startBoneMaskNodeIdx = -1
+			m_flDuration = 0.200000
+			m_boneMaskBlendInTimePercentage = 
+			{
+				m_flValue = 0.330000
+			}
+			m_syncEventOffset = 0.000000
+			m_transitionOptions = 
+			{
+				m_flags = 0
+			}
+			m_targetSyncIDNodeIdx = -1
+			m_blendWeightEasing = "Linear"
+			m_rootMotionBlend = "Blend"
+		},
+		
+		{
+			_class = "CNmAndNode::CDefinition"
+			m_nNodeIdx = 96
+			m_conditionNodeIndices = 
+			[
+				97,
+				98,
+				99,
+				100,
+			]
+		},
+		
+		{
+			_class = "CNmIDComparisonNode::CDefinition"
+			m_nNodeIdx = 97
+			m_nInputValueNodeIdx = 5
+			m_comparison = "DoesntMatch"
+			m_comparisionIDs = 
+			[
+				"e_MovementType_none",
+			]
+		},
+		
+		{
+			_class = "CNmNotNode::CDefinition"
+			m_nNodeIdx = 98
+			m_nInputValueNodeIdx = 4
+		},
+		
+		{
+			_class = "CNmNotNode::CDefinition"
+			m_nNodeIdx = 99
+			m_nInputValueNodeIdx = 3
+		},
+		
+		{
+			_class = "CNmNotNode::CDefinition"
+			m_nNodeIdx = 100
+			m_nInputValueNodeIdx = 2
+		},
+		
+		{
+			_class = "CNmTransitionNode::CDefinition"
+			m_nNodeIdx = 101
+			m_nTargetStateNodeIdx = 7
+			m_nDurationOverrideNodeIdx = -1
+			m_syncEventOffsetOverrideNodeIdx = -1
+			m_startBoneMaskNodeIdx = -1
+			m_flDuration = 0.200000
+			m_boneMaskBlendInTimePercentage = 
+			{
+				m_flValue = 0.330000
+			}
+			m_syncEventOffset = 0.000000
+			m_transitionOptions = 
+			{
+				m_flags = 0
+			}
+			m_targetSyncIDNodeIdx = -1
+			m_blendWeightEasing = "Linear"
+			m_rootMotionBlend = "Blend"
+		},
+	]
+}

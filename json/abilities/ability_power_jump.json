@@ -117,6 +117,10 @@
                 "m_strValue": "27.5m",
                 "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond"
             },
+            "AltJumpSpeed": {
+                "m_strValue": "10m",
+                "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond"
+            },
             "SlowPercent": {
                 "m_strValue": "0",
                 "m_strCSSClass": "slow",
@@ -240,7 +244,7 @@
         "m_iUpdateTime": "1664993821",
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_NONE",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_INPUT_DIRECTIONAL_2D | CITADEL_ABILITY_BEHAVIOR_MOVEMENT",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_INPUT_DIRECTIONAL_2D | CITADEL_ABILITY_BEHAVIOR_MOVEMENT | CITADEL_ABILITY_BEHAVIOR_ALLOW_SELF_CAST",
         "m_strCastAnimGraphParam": "e_AirRaid",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
         "m_strAbilityImage": "file://{images}/hud/abilities/archer/archer_power_jump.psd",

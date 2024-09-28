@@ -211,7 +211,7 @@
         "m_iUpdateTime": "1692734621",
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_SELF",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
-        "m_nAbilityBehaviors": "",
+        "m_AbilityBehaviorsBits": "",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_FRIENDLY",
         "m_strAbilityImage": "file://{images}/hud/abilities/wraith_aura.psd",
         "m_vecAbilityUpgrades": [

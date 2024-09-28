@@ -41,7 +41,7 @@
                 "m_bCanSetTokenOverride": "true"
             },
             "AbilityCastDelay": {
-                "m_strValue": "0",
+                "m_strValue": "0.3",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cast",
                 "m_bCanSetTokenOverride": "true"
@@ -183,7 +183,7 @@
         "m_iItemTier": "EModTier_4",
         "m_strCSSClass": "powerShard",
         "m_strAbilityImage": "file://{images}/upgrades/mods_tech/echo_shard.psd",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CAN_CAST_ON_ZIPLINE",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CAN_CAST_ON_ZIPLINE",
         "m_strCastSound": "Mods.Tech.Refresher.Cast",
         "m_RefreshParticle": "particles/items/tech_power_shard.vpcf",
         "m_vecTooltipSectionInfo": [

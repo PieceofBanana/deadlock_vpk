@@ -290,7 +290,7 @@
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_CONE",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_PRESS",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_HERO_FRIENDLY",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_ALLOW_SELF_CAST | CITADEL_ABILITY_BEHAVIOR_MOVEMENT",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_ALLOW_SELF_CAST | CITADEL_ABILITY_BEHAVIOR_USE_INSTANT_CAST_UNIT_TARGET_UI | CITADEL_ABILITY_BEHAVIOR_MOVEMENT | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
         "m_flTargetingConeAngle": "60",
         "m_strAbilityImage": "file://{images}/hud/abilities/tengu/tengu_lightning_crash.psd",
         "m_flTargetAirSpeedFast": "708.661000",
@@ -543,6 +543,8 @@
             ]
         },
         "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/tengu_airlift.webm",
-        "m_strCastSound": "Ability.Hornet.Leap.Cast"
+        "m_strCastSound": "Ability.Hornet.Leap.Cast",
+        "m_strCastButtonLocToken": "#AbilityButtonHint_CastOnTarget",
+        "m_strAltCastButtonLocToken": "#AbilityButtonHint_CastOnSelf"
     }
 }

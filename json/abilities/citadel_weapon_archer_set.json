@@ -185,7 +185,7 @@
             "m_flDamageFalloffEndScale": "0.100000",
             "m_flDamageFalloffBias": "0.500000",
             "m_iBullets": "1",
-            "m_flCycleTime": "0.400000",
+            "m_flCycleTime": "0.450000",
             "m_reloadDuration": "2.350000",
             "m_iClipSize": "17",
             "m_iBurstShotCount": "1",
@@ -356,7 +356,7 @@
             ],
             "m_flPelletScatterSpreadFactor": "0.000000",
             "m_strBulletImpactSound": "Orion.Wpn.Impact",
-            "m_flBulletDamage": "22.000000"
+            "m_flBulletDamage": "24.750000"
         },
         "_multibase": [
             "hero_weapon_base"
@@ -364,7 +364,7 @@
         "m_bStartTrained": "true",
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_SELF",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_ON_BUTTON_IS_DOWN",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_IS_PRIMARY_WEAPON | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK | CITADEL_ABILITY_BEHAVIOR_DISARMABLE | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_WEAPON_TOGGLE",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_IS_PRIMARY_WEAPON | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK | CITADEL_ABILITY_BEHAVIOR_DISARMABLE | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_WEAPON_TOGGLE",
         "m_bitsInterruptingStates": "MODIFIER_STATE_STUNNED | MODIFIER_STATE_IS_ASLEEP",
         "m_eAbilityType": "EAbilityType_Weapon",
         "m_strAbilityImage": "file://{images}/hud/abilities/weapon_damage.psd",

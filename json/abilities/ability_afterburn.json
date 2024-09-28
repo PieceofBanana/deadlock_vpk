@@ -220,7 +220,7 @@
         "m_iUpdateTime": "1678311042",
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_SELF",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_PASSIVE",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_CLEAVE_DISABLED | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_CLEAVE_DISABLED | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
         "m_strSecondaryStatName": "ability_afterburn_SpiritSteal_AMP",
         "m_strAbilityImage": "file://{images}/hud/abilities/inferno_deflect.psd",

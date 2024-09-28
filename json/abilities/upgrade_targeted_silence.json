@@ -266,6 +266,7 @@
                 "m_bIsHidden": "true"
             }
         ],
-        "m_eShopFilters": "EShopFilterWeaponDamage | EShopFilterDisruption"
+        "m_eShopFilters": "EShopFilterWeaponDamage | EShopFilterDisruption",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_USE_INSTANT_CAST_UNIT_TARGET_UI | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST"
     }
 }

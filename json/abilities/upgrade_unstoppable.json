@@ -195,7 +195,7 @@
         "m_iUpdateTime": "1711137653",
         "m_strCSSClass": "unstoppable",
         "m_strAbilityImage": "file://{images}/upgrades/mods_armor/unstoppable.psd",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_BUSY | CITADEL_ABILITY_BEHAVIOR_CAST_EVEN_IF_BUSY_AND_EXCLUSIVE",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_BUSY",
         "m_strCastDelaySound": "Mods.Armor.TechDefender.PreCast",
         "m_BuffModifier": {
             "_class": "modifier_unstoppable",

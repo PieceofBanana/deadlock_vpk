@@ -235,7 +235,8 @@
         "m_strAbilityImage": "file://{images}/hud/abilities/tengu/tengu_stone_form.psd",
         "m_iUpdateTime": "1641857927",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_BUSY",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED",
+        "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
         "m_flTargetingConeAngle": "45",
         "m_vecAbilityUpgrades": [
             {
@@ -269,6 +270,15 @@
                 ]
             }
         ],
+        "m_flCollideRadius": "80.000000",
+        "m_DragModifier": {
+            "_class": "modifier_charge_drag_enemy",
+            "_my_subclass_name": "modifier_charge_drag_enemy",
+            "m_bIsHidden": "true",
+            "m_flForwardOffset": "0",
+            "m_flVerticalOffset": "-200",
+            "m_flForceDistScale": "10"
+        },
         "m_strCastSound": "Ability.Tengu.Stone_Form.Cast",
         "m_CastParticle": "",
         "m_AbilityTooltipDetails": {
@@ -312,6 +322,7 @@
         },
         "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/tengu_stone_form.webm",
         "m_strImpactSound": "Ability.Tengu.Stone_Form.Impact",
+        "m_strFallCollideImpactSound": "Ability.Bull.Charge.HitEnemy",
         "m_ImpactParticle": "particles/abilities/tengu/tengu_stone_form_stomp.vpcf",
         "m_flLandHoldTime": "0.600000",
         "m_StoneFormParticle": "particles/abilities/tengu/tengu_stone_form_model.vpcf",

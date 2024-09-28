@@ -1,0 +1,392 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vrfunknown:version{4dddb66e-c6ed-4bd0-a4ef-afb45a02acc2} -->
+{
+	generic_data_type = "CSmartPropRoot"
+	_editor = 
+	{
+		next_element_id = 394
+	}
+	m_Variables = 
+	[
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_nElementID = 2
+			m_VariableName = "fTowerHeight"
+			m_DefaultValue = 128.000000
+		},
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_nElementID = 7
+			m_VariableName = "fFrameWidth"
+			m_DefaultValue = 96.000000
+		},
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_nElementID = 3
+			m_VariableName = "fTaperWidth"
+			m_DefaultValue = 96.000000
+		},
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_nElementID = 4
+			m_VariableName = "fTankRadius"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_nElementID = 5
+			m_VariableName = "fTankHeight"
+			m_DefaultValue = 96.000000
+		},
+		
+		{
+			_class = "CSmartPropVariable_Vector3D"
+			m_nElementID = 25
+			m_VariableName = "vBaseCorner"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Vector3D"
+			m_nElementID = 26
+			m_VariableName = "vTopCorner"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Vector3D"
+			m_nElementID = 27
+			m_VariableName = "vFrameEdge"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Bool"
+			m_nElementID = 68
+			m_DefaultValue = true
+			m_VariableName = "bUseCrossBeams"
+			m_bExposeAsParameter = false
+		},
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_nElementID = 69
+			m_VariableName = "fTaperAmt"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Int"
+			m_nElementID = 70
+			m_VariableName = "iDividerCount"
+			m_DefaultValue = 0
+			m_bExposeAsParameter = false
+			m_nParamaterMaxValue = 3
+			m_DisplayName = "Divider Count"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Vector3D"
+			m_nElementID = 73
+			m_VariableName = "vPosA"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Vector3D"
+			m_nElementID = 74
+			m_VariableName = "vPosB"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Vector3D"
+			m_nElementID = 75
+			m_VariableName = "vNextBaseCorner"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Vector3D"
+			m_nElementID = 76
+			m_VariableName = "vNextTopCorner"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_nElementID = 127
+			m_VariableName = "fBaseParam"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_nElementID = 128
+			m_VariableName = "fTopParam"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_nElementID = 132
+			m_VariableName = "fMidParam"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Vector3D"
+			m_nElementID = 133
+			m_VariableName = "vHorizontalFrameEdge"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Vector3D"
+			m_nElementID = 134
+			m_VariableName = "vTemp"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_nElementID = 302
+			m_VariableName = "fTemp"
+			m_DefaultValue = 1.000000
+		},
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_nElementID = 303
+			m_VariableName = "fTankDiameter"
+			m_DefaultValue = 48.000000
+		},
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_nElementID = 305
+			m_VariableName = "fRingEaseOut"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Color"
+			m_nElementID = 307
+			m_VariableName = "vTankTint"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Bool"
+			m_nElementID = 308
+			m_VariableName = "bWood"
+			m_DefaultValue = true
+			m_bExposeAsParameter = false
+			m_DisplayName = "Use Wood"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Model"
+			m_nElementID = 309
+			m_DefaultValue = resource_name:"models/props/ibeam_a_148.vmdl"
+			m_VariableName = "mMainBeam"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Model"
+			m_nElementID = 311
+			m_DefaultValue = resource_name:"models/props/lbeam_b_148_diag.vmdl"
+			m_VariableName = "mMinorBeam"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Model"
+			m_nElementID = 312
+			m_DefaultValue = resource_name:"models/props/lbeam_b_148.vmdl"
+			m_VariableName = "mCrossBeam"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Bool"
+			m_nElementID = 353
+			m_VariableName = "bSpikes"
+			m_DefaultValue = false
+			m_bExposeAsParameter = false
+			m_DisplayName = "Use Spikes"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Bool"
+			m_nElementID = 368
+			m_VariableName = "bUsingTallTank"
+		},
+		
+		{
+			_class = "CSmartPropVariable_Bool"
+			m_nElementID = 393
+			m_VariableName = "bMetalRings"
+			m_DefaultValue = true
+			m_bExposeAsParameter = false
+			m_DisplayName = "Metal Rings"
+		},
+	]
+	m_Children = 
+	[
+		
+		{
+			_class = "CSmartPropElement_Group"
+			m_nElementID = 310
+			_editor = 
+			{
+				folder_name = ""
+			}
+			m_sLabel = "Randomize Members"
+			m_Modifiers = 
+			[
+				
+				{
+					_class = "CSmartPropOperation_SetVariable"
+					m_VariableValue = 
+					{
+						m_TargetName = "fTowerHeight"
+						m_DataType = "FLOAT"
+						m_Value = 
+						{
+							m_Expression = "RandomFloat( 96, 256 )"
+						}
+					}
+				},
+				
+				{
+					_class = "CSmartPropOperation_SetVariable"
+					m_VariableValue = 
+					{
+						m_TargetName = "fFrameWidth"
+						m_DataType = "FLOAT"
+						m_Value = 
+						{
+							m_Expression = "RandomFloat( 64, 128 )"
+						}
+					}
+				},
+				
+				{
+					_class = "CSmartPropOperation_SetVariable"
+					m_VariableValue = 
+					{
+						m_TargetName = "fTaperWidth"
+						m_DataType = "FLOAT"
+						m_Value = 
+						{
+							m_Expression = "RandomFloat( 0, fFrameWidth * 0.25 ) * -1.0"
+						}
+					}
+					m_bEnabled = true
+				},
+				
+				{
+					_class = "CSmartPropOperation_SetVariable"
+					m_VariableValue = 
+					{
+						m_TargetName = "bWood"
+						m_DataType = "BOOL"
+						m_Value = 
+						{
+							m_Expression = "RandomInt( 0, 1 )"
+						}
+					}
+				},
+				
+				{
+					_class = "CSmartPropOperation_SetVariable"
+					m_VariableValue = 
+					{
+						m_TargetName = "bSpikes"
+						m_DataType = "BOOL"
+						m_Value = 
+						{
+							m_Expression = "RandomInt( 0, 1 )"
+						}
+					}
+				},
+				
+				{
+					_class = "CSmartPropOperation_SetVariable"
+					m_VariableValue = 
+					{
+						m_TargetName = "bUseCrossBeams"
+						m_DataType = "BOOL"
+						m_Value = 
+						{
+							m_Expression = "RandomInt( 0, 1 )"
+						}
+					}
+				},
+				
+				{
+					_class = "CSmartPropOperation_SetVariable"
+					m_VariableValue = 
+					{
+						m_TargetName = "iDividerCount"
+						m_DataType = "INTEGER"
+						m_Value = 
+						{
+							m_Expression = "RandomInt( 0, floor( fTowerHeight / 128 ) )"
+						}
+					}
+				},
+				
+				{
+					_class = "CSmartPropFilter_VariableValue"
+					m_VariableComparison = 
+					{
+						m_Name = "bWood"
+						m_Value = true
+						m_Comparison = "EQUAL"
+					}
+				},
+				
+				{
+					_class = "CSmartPropOperation_SetVariable"
+					m_VariableValue = 
+					{
+						m_TargetName = "mMainBeam"
+						m_DataType = "STRING"
+						m_Value = resource_name:"models/props/ibeam_a_148_wood.vmdl"
+					}
+				},
+				
+				{
+					_class = "CSmartPropOperation_SetVariable"
+					m_VariableValue = 
+					{
+						m_TargetName = "mMinorBeam"
+						m_DataType = "STRING"
+						m_Value = resource_name:"models/props/lbeam_b_148_diag_wood.vmdl"
+					}
+				},
+				
+				{
+					_class = "CSmartPropOperation_SetVariable"
+					m_VariableValue = 
+					{
+						m_TargetName = "mCrossBeam"
+						m_DataType = "STRING"
+						m_Value = resource_name:"models/props/lbeam_b_148_cable.vmdl"
+					}
+				},
+				
+				{
+					_class = "CSmartPropOperation_SetVariable"
+					m_VariableValue = 
+					{
+						m_TargetName = "bMetalRings"
+						m_DataType = "BOOL"
+						m_Value = 
+						{
+							m_Expression = "RandomInt( 0, 1 )"
+						}
+					}
+				},
+			]
+		},
+		
+		{
+			_class = "CSmartPropElement_SmartProp"
+			m_nElementID = 391
+			m_sSmartProp = resource_name:"smart_props/watertower.vsmart"
+			_editor = 
+			{
+				folder_name = ""
+			}
+		},
+	]
+}

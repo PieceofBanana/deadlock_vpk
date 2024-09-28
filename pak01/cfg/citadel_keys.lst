@@ -135,6 +135,7 @@
 				"Action"		"+in_alt_cast_modifier"
 				"LocString"		"#citadel_keybind_alt_cast"
 				"AllowDuplicateBind" "1"
+				"SingleKeybindOnly" "1"
 			}
 
 			"MoveForward"
@@ -277,6 +278,12 @@
 				"IsAlsoDeadBind" "1"
 				"LocString"		"#citadel_keybind_upgrade_ability4"
 			}
+
+			"ItemQuickCastMode"
+			{
+			}
+
+			
 			
 			"DevConsole"
 			{
@@ -290,6 +297,14 @@
 				"Action"		"citadel_pause"
 				"LocString"		"#citadel_keybind_pause"
 			}
+
+			"Zipline"
+			{
+				"Action"		"+in_zipline"
+				"LocString"		"#citadel_keybind_zipline"
+				"AllowDuplicateBind" "1"
+			}
+			
 
 			"Casting"
 			{
@@ -369,6 +384,42 @@
 				"IsAlsoSpectatorBind" "1"
 				"IsAlsoReplayBind" "1"
 				"LocString"		"#citadel_keybind_toggle_free_cursor"
+			}
+
+			"SpectatorFOWTeamSapphire"
+			{
+				"Action"		"hud_minimap_spectator_fow_team_view_sapphire"
+				"IsAlsoSpectatorBind" "1"
+				"IsAlsoReplayBind" "1"
+				"LocString"		"#citadel_keybind_minimap_view_sapphire_team"
+				"AllowDuplicateBind" "1"
+			}
+
+			"SpectatorFOWTeamAmber"
+			{
+				"Action"		"hud_minimap_spectator_fow_team_view_amber"
+				"IsAlsoSpectatorBind" "1"
+				"IsAlsoReplayBind" "1"
+				"LocString"		"#citadel_keybind_minimap_view_amber_team"
+				"AllowDuplicateBind" "1"
+			}
+
+			"SpectatorFOWTeamBoth"
+			{
+				"Action"		"hud_minimap_spectator_fow_team_view_both_teams"
+				"IsAlsoSpectatorBind" "1"
+				"IsAlsoReplayBind" "1"
+				"LocString"		"#citadel_keybind_minimap_view_spectator_team"
+				"AllowDuplicateBind" "1"
+			}
+
+			"SpectatorFOWTeamTarget"
+			{
+				"Action"		"hud_minimap_spectator_fow_team_view_target_team"
+				"IsAlsoSpectatorBind" "1"
+				"IsAlsoReplayBind" "1"
+				"LocString"		"#citadel_keybind_minimap_view_targets_team"
+				"AllowDuplicateBind" "1"
 			}
 		}
 
@@ -677,6 +728,11 @@
 					"Key"		"4"
 					"Modifier"		"ALT"
 				}
+
+				"ItemQuickCastMode"
+				{
+					"Key"		"0"
+				}
 				
 				"ToggleSpectatorCamera"
 				{
@@ -721,6 +777,27 @@
 				"SpectatorFlyDown"
 				{
 					"Key"		"CTRL"
+				}
+
+
+				"SpectatorFOWTeamBoth"
+				{
+					"Key"		"F1"
+				}
+
+				"SpectatorFOWTeamTarget"
+				{
+					"Key"		"F2"
+				}
+
+				"SpectatorFOWTeamAmber"
+				{
+					"Key"		"F3"
+				}
+
+				"SpectatorFOWTeamSapphire"
+				{
+					"Key"		"F4"
 				}
 
 				"ToggleReplayCamera"
@@ -786,6 +863,11 @@
 				"Pause"
 				{
 					"Key"		"P"
+				}
+
+				"Zipline"
+				{
+					"Key"		"NONE"
 				}
 
 				"Teleport"

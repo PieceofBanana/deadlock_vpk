@@ -15,7 +15,7 @@
                 }
             },
             "AbilityDuration": {
-                "m_strValue": "2.0",
+                "m_strValue": "0.75",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "duration",
                 "m_bCanSetTokenOverride": "true",
@@ -24,8 +24,7 @@
                     "_my_subclass_name": "AbilityDuration_scale_function",
                     "m_eSpecificStatScaleType": "ETechDuration"
                 },
-                "m_eScaleType": "ETechDuration",
-                "m_bIsHidden": "true"
+                "m_eScaleType": "ETechDuration"
             },
             "AbilityCastRange": {
                 "m_strValue": "0",
@@ -43,7 +42,7 @@
                 "m_bCanSetTokenOverride": "true"
             },
             "AbilityCastDelay": {
-                "m_strValue": "0.3",
+                "m_strValue": "0.0",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cast",
                 "m_bCanSetTokenOverride": "true"
@@ -126,17 +125,20 @@
                 "m_strCSSClass": "distance"
             },
             "Damage": {
-                "m_strValue": "60",
+                "m_strValue": "70",
                 "m_strCSSClass": "tech_damage",
                 "m_subclassScaleFunction": {
                     "_my_subclass_name": "Damage_scale_function",
                     "_class": "scale_function_tech_damage",
                     "m_eSpecificStatScaleType": "ETechPower",
-                    "m_flStatScale": "0.982800"
+                    "m_flStatScale": "0.700000"
                 }
             },
             "TickRate": {
                 "m_strValue": "0.25"
+            },
+            "ProjectileThinkInterval": {
+                "m_strValue": "0.01"
             },
             "DistanceAboveGround": {
                 "m_strValue": "2m"
@@ -148,17 +150,11 @@
                 "m_strValue": "10"
             },
             "TornadoSpeed": {
-                "m_strValue": "1200"
+                "m_strValue": "1050"
             },
             "EnemyLiftDuration": {
-                "m_strValue": "0.6",
-                "m_eScaleType": "ETechDuration",
-                "m_strCSSClass": "duration",
-                "m_subclassScaleFunction": {
-                    "_class": "scale_function_single_stat",
-                    "_my_subclass_name": "EnemyLiftDuration_scale_function",
-                    "m_eSpecificStatScaleType": "ETechDuration"
-                }
+                "m_strValue": "0.3",
+                "m_strCSSClass": "duration"
             },
             "SplitAngle": {
                 "m_strValue": "0"
@@ -176,7 +172,7 @@
                 "m_strValue": "2m"
             },
             "HoldInPlaceDuration": {
-                "m_strValue": "1.25",
+                "m_strValue": "1.2",
                 "m_strCSSClass": "duration",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",
@@ -188,7 +184,7 @@
                 "m_strValue": "50"
             },
             "TargetBulletEvasionChance": {
-                "m_strValue": "100",
+                "m_strValue": "0",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_BULLET_EVASION",
                 "m_UsageFlags": "APUsageFlag_ModifierConditional"
             },
@@ -197,6 +193,19 @@
                 "m_strCSSClass": "tech_armor_down",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST_REDUCTION",
                 "m_UsageFlags": "APUsageFlag_ModifierConditional"
+            },
+            "WhirlwindEvasionChance": {
+                "m_strValue": "25",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_BULLET_EVASION",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
+            },
+            "WhirlwindDuration": {
+                "m_strValue": "3.5",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "WhirlwindDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
             }
         },
         "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
@@ -256,7 +265,7 @@
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_NONE",
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_SPHERE",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_BUSY | CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DONT_TRIGGER_SPELL_BLOCK | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_BUSY | CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DONT_TRIGGER_SPELL_BLOCK | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_MOVEMENT",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
         "m_projectileInfo": {
             "m_flUpSpeed": "0",
@@ -277,7 +286,7 @@
                 "m_vecPropertyUpgrades": [
                     {
                         "m_strPropertyName": "HoldInPlaceDuration",
-                        "m_strBonus": "0.75"
+                        "m_strBonus": "0.4"
                     }
                 ]
             },
@@ -292,12 +301,103 @@
             {
                 "m_vecPropertyUpgrades": [
                     {
-                        "m_strPropertyName": "TechArmorDamageReduction",
-                        "m_strBonus": "-15"
+                        "m_strPropertyName": "WhirlwindEvasionChance",
+                        "m_strBonus": "20"
                     }
                 ]
             }
         ],
+        "m_CasterModifier": {
+            "_class": "modifier_mirage_tornado_caster",
+            "_my_subclass_name": "modifier_mirage_tornado_caster",
+            "m_sLocalizationName": "modifier_mirage_tornado_caster",
+            "m_bIsHidden": "true",
+            "m_cameraSequenceCreated": {
+                "m_vecDistanceOperations": [
+                    {
+                        "m_flApproachTarget": "150.000000",
+                        "m_flApproachSpeed": "1200.000000",
+                        "m_eCameraOperation": "k_ECameraOp_Lerp",
+                        "m_bLerpEndAtDefault": "false",
+                        "m_flLerpEnd": "50.000000",
+                        "m_flLerpBias": "0.750000",
+                        "m_flLerpDuration": "0.500000",
+                        "m_bValuesAreRelative": "true"
+                    },
+                    {
+                        "m_flMaintainDuration": "0.500000",
+                        "m_eCameraOperation": "k_ECameraOp_Maintain",
+                        "m_flMaintainFloat": "50.000000",
+                        "m_bValuesAreRelative": "true"
+                    },
+                    {
+                        "m_eCameraOperation": "k_ECameraOp_Lerp",
+                        "m_flLerpDuration": "0.500000"
+                    }
+                ],
+                "m_vecVertOffsetOperations": [
+                    {
+                        "m_flApproachSpeed": "200.000000",
+                        "m_flApproachTarget": "30.000000",
+                        "m_eCameraOperation": "k_ECameraOp_Lerp",
+                        "m_bLerpEndAtDefault": "false",
+                        "m_flLerpEnd": "15.000000",
+                        "m_flLerpBias": "0.750000",
+                        "m_flLerpDuration": "0.500000",
+                        "m_bValuesAreRelative": "true"
+                    },
+                    {
+                        "m_flMaintainDuration": "0.500000",
+                        "m_eCameraOperation": "k_ECameraOp_Maintain",
+                        "m_flMaintainFloat": "15.000000",
+                        "m_bValuesAreRelative": "true"
+                    },
+                    {
+                        "m_eCameraOperation": "k_ECameraOp_Lerp",
+                        "m_flLerpDuration": "0.400000"
+                    }
+                ],
+                "m_vecTargetPosOperations": [
+                    {
+                        "m_eCameraOperation": "k_ECameraOp_Lag",
+                        "m_flMaintainDuration": "0.600000",
+                        "m_bValuesAreRelative": "true",
+                        "m_bMaintainCurrent": "true",
+                        "m_flLagMinDuration": "0.600000",
+                        "m_flLagSpringStrength": "5.000000",
+                        "m_flLagTime": "0.400000",
+                        "m_flLagMaxSpeed": "200.000000",
+                        "m_bIncreaseSpringStrengthToKeepTargetOnScreen": "false"
+                    }
+                ]
+            },
+            "m_cameraSequenceRemoved": {
+                "m_vecDistanceOperations": [],
+                "m_vecTargetPosOperations": [
+                    {
+                        "m_eCameraOperation": "k_ECameraOp_Spring"
+                    }
+                ]
+            },
+            "m_bEndCreatedSequenceOnRemove": "true"
+        },
+        "m_WhirlwindEvasionModifier": {
+            "_class": "modifier_mirage_sand_phantom_whirlwind_evasion",
+            "_my_subclass_name": "modifier_mirage_sand_phantom_whirlwind_evasion",
+            "m_bIsHidden": "true",
+            "m_AttackerHitFx": "particles/abilities/mirage/mirage_dust_devil_attacker_hit.vpcf",
+            "m_ImpactParticle": "particles/abilities/mirage/mirage_sand_phantom_whirlwind_evasion.vpcf",
+            "m_strAttackerHitSound": "Ability.BulletEvade",
+            "m_strParticleEffect": "",
+            "m_playerBuffEnemy": "particles/abilities/mirage/mirage_sand_phantom_whirlwind_buff_enemy.vpcf",
+            "m_playerBuffSelf": "particles/abilities/mirage/mirage_sand_phantom_whirlwind_buff.vpcf",
+            "m_ReflectedBulletTracerParticle": "particles/weapon_fx/ricochet_tracer.vpcf",
+            "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
+                "WhirlwindEvasionChance"
+            ],
+            "m_sStartSound": "",
+            "m_sAmbientLoopingSound": ""
+        },
         "m_TornadoAura": {
             "_class": "modifier_mirage_tornado_aura",
             "_my_subclass_name": "modifier_mirage_tornado_aura",
@@ -310,6 +410,7 @@
                 "_class": "modifier_mirage_tornado_aura_apply",
                 "_my_subclass_name": "modifier_mirage_tornado_aura_apply",
                 "m_bIsHidden": "true",
+                "m_strHitConfirmSound": "Mirage.A1.Tornado.Impact",
                 "m_LiftModifier": {
                     "_class": "modifier_mirage_tornado_lift",
                     "_my_subclass_name": "modifier_mirage_tornado_lift",
@@ -330,9 +431,13 @@
                         "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
                             "TargetBulletEvasionChance",
                             "TechArmorDamageReduction"
-                        ]
+                        ],
+                        "m_strScreenParticleEffect": "particles/abilities/mirage/mirage_tornado_debuff_screen.vpcf",
+                        "m_sStartSound": ""
                     },
-                    "m_sStartSound": "Wraith.PsychicLift.Impact"
+                    "m_sStartSound": "",
+                    "m_strScreenParticleEffect": "",
+                    "m_sAmbientLoopingSound": ""
                 }
             },
             "m_sStartSound": "Mirage.A1.Tornado.Cast"
@@ -350,16 +455,22 @@
                                 },
                                 {
                                     "m_strImportantProperty": "HoldInPlaceDuration"
+                                },
+                                {
+                                    "m_strImportantProperty": "WhirlwindEvasionChance"
                                 }
                             ]
                         }
                     ],
                     "m_vecBasicProperties": [
+                        "WhirlwindDuration",
                         "Radius"
                     ]
                 }
             ]
         },
-        "m_strCastSound": "Mirage.A1.Tornado.Start"
+        "m_strCastSound": "Mirage.A1.Tornado.Start",
+        "m_strChannelSound": "",
+        "m_strCastDelaySound": "Mirage.A1.Tornado.Start"
     }
 }

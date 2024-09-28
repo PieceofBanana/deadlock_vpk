@@ -42,7 +42,6 @@
                 "MODIFIER_VALUE_ZIP_LINE_SPEED_PERCENTAGE"
             ],
             "m_sLocalizationName": "movement_powerup_pickup",
-            "m_strHudMessageText": "#movement_powerup_pickup",
             "m_eDebuffType": "MODIFIER_DEBUFF_NO",
             "m_strHudIcon": "file://{images}/hud/modifiers/icon_powerup.svg"
         },

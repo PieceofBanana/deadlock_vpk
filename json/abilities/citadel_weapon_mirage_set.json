@@ -120,13 +120,13 @@
                 "m_spline": [
                     {
                         "x": "0.000000",
-                        "y": "12600.000000",
+                        "y": "32600.000000",
                         "m_flSlopeIncoming": "0.000000",
                         "m_flSlopeOutgoing": "0.000000"
                     },
                     {
                         "x": "100.000000",
-                        "y": "12600.000000",
+                        "y": "32600.000000",
                         "m_flSlopeIncoming": "0.000000",
                         "m_flSlopeOutgoing": "0.000000"
                     }
@@ -147,18 +147,18 @@
                 ],
                 "m_vDomainMaxs": [
                     "100.000000",
-                    "12600.000000"
+                    "26600.000000"
                 ]
             },
-            "m_Spread": "0",
-            "m_StandingSpread": "1.500000",
+            "m_Spread": "0.000000",
+            "m_StandingSpread": "1.200000",
             "m_flScatterYawScale": "1",
             "m_flShootingUpSpreadPenalty": "0",
             "m_flZoomMoveSpeedPercent": "1.000000",
             "m_flShootMoveSpeedPercent": "0.700000",
             "m_flHorizontalPunch": "0",
-            "m_flVerticalPunch": "0",
-            "m_flRecoilRecoverySpeed": "10.000000",
+            "m_flVerticalPunch": "0.200000",
+            "m_flRecoilRecoverySpeed": "5.000000",
             "m_VerticallRecoil": {
                 "m_Range": [
                     "0.000000",
@@ -170,12 +170,12 @@
             },
             "m_HorizontalRecoil": {
                 "m_Range": [
-                    "0.000000",
-                    "0.000000"
+                    "0",
+                    "0"
                 ],
                 "m_flBurstExponent": "0.000000"
             },
-            "m_flRecoilSpeed": "1",
+            "m_flRecoilSpeed": "6.000000",
             "m_flZoomFOV": "35.000000",
             "m_flDamageFalloffStartRange": "866.000000",
             "m_flDamageFalloffEndRange": "2264.000000",
@@ -184,21 +184,21 @@
             "m_flDamageFalloffStartScale": "1.000000",
             "m_flDamageFalloffEndScale": "0.100000",
             "m_flDamageFalloffBias": "0.500000",
-            "m_iBullets": "4",
-            "m_flCycleTime": "0.270000",
-            "m_reloadDuration": "2.350000",
-            "m_iClipSize": "14",
+            "m_iBullets": "1",
+            "m_flCycleTime": "0.350000",
+            "m_reloadDuration": "2.600000",
+            "m_iClipSize": "16",
             "m_iBurstShotCount": "1",
             "m_flBurstShotCooldown": "0",
             "m_flBulletGravityScale": "0.800000",
-            "m_flBulletRadius": "3.000000",
+            "m_flBulletRadius": "8",
             "m_flBulletReflectScale": "0",
             "m_flBulletReflectAmount": "1",
             "m_flBulletInheritShooterVelocityScale": "0",
-            "m_szBulletTravelTracerParticle": "particles/weapon_fx/digger/digger_tracer.vpcf",
-            "m_szMuzzleFlashEffectName": "particles/weapon_fx/default_muzzle_flash.vpcf",
+            "m_szBulletTravelTracerParticle": "particles/weapon_fx/mirage/mirage_tracer.vpcf",
+            "m_szMuzzleFlashEffectName": "particles/weapon_fx/mirage/mirage_muzzle_flash.vpcf",
             "m_strShootSound": "Mirage.Wpn.Fire",
-            "m_strBulletWhizSound": "Base.Bullet.Whizby",
+            "m_strBulletWhizSound": "Mirage.Wpn.Whizby",
             "m_flBulletWhizDistance": "150",
             "m_mapImpactEffects": {
                 "default": {
@@ -252,7 +252,7 @@
             "m_flCritBonusAgainstNPCs": "0",
             "m_flShootSpreadPenaltyPerShot": "0.500000",
             "m_flShootSpreadPenaltyDecayDelay": "0.000000",
-            "m_flShootSpreadPenaltyDecay": "5.000000",
+            "m_flShootSpreadPenaltyDecay": "2.500000",
             "m_flRecoilShotIndexRecoveryTimeFactor": "0.250000",
             "m_bCanZoom": "true",
             "m_strWeaponImpactEffect": "particles/weapon_fx/default_tracer_impact.vpcf",
@@ -261,48 +261,30 @@
             "m_strLocalPlayerBulletImpactHeavySound": "Player.Bullet.Impact.Hero.Large",
             "m_strReloadSound": "Player.WpnReload.Shared.Clip.Out",
             "m_strReloadEndSound": "Player.WpnReload.Shared.Clip.In",
-            "m_strZoomInSound": "Default.ZoomIn",
-            "m_strZoomOutSound": "Default.ZoomOut",
+            "m_strZoomInSound": "Mirage.Wpn.Zoom.In",
+            "m_strZoomOutSound": "Mirage.Wpn.Zoom.Out",
             "m_strLowAmmoSound": "Player.WpnLowAmmo.Shared",
             "m_bBulletShouldUseVerlet": "true",
             "m_nLowAmmoIndicatorThreshold": "4",
-            "m_strBulletImpactSound": "",
-            "m_AimingShootSpreadPenalty": [
-                "0.000000",
-                "0.900000"
-            ],
-            "m_StandingShootSpreadPenalty": [
-                "0.000000",
-                "0.900000"
-            ],
-            "m_StandingMoveSpreadPenalty": [
-                "0.000000",
-                "0.200000"
-            ],
+            "m_flRecoilRecoveryDelayFactor": "0.800000",
             "m_AimingMoveSpreadPenalty": [
                 "0.000000",
                 "0.150000"
             ],
-            "m_nRecoilSeed": "14235",
-            "m_vecScatterOffsets": [
-                [
-                    "0.000000",
-                    "0.000000"
-                ],
-                [
-                    "0.000000",
-                    "-1.000000"
-                ],
-                [
-                    "-0.750000",
-                    "0.750000"
-                ],
-                [
-                    "0.600000",
-                    "0.600000"
-                ]
+            "m_StandingMoveSpreadPenalty": [
+                "0.000000",
+                "1.200000"
             ],
-            "m_flBulletDamage": "4.700000"
+            "m_AimingShootSpreadPenalty": [
+                "0.000000",
+                "0.500000"
+            ],
+            "m_StandingShootSpreadPenalty": [
+                "0.000000",
+                "0.500000"
+            ],
+            "m_strBulletImpactSound": "Mirage.Wpn.Impact",
+            "m_flBulletDamage": "18"
         },
         "_multibase": [
             "hero_weapon_base"
@@ -310,7 +292,7 @@
         "m_bStartTrained": "true",
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_SELF",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_ON_BUTTON_IS_DOWN",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_IS_PRIMARY_WEAPON | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK | CITADEL_ABILITY_BEHAVIOR_DISARMABLE | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_WEAPON_TOGGLE",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_IS_PRIMARY_WEAPON | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK | CITADEL_ABILITY_BEHAVIOR_DISARMABLE | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_WEAPON_TOGGLE",
         "m_bitsInterruptingStates": "MODIFIER_STATE_STUNNED | MODIFIER_STATE_IS_ASLEEP",
         "m_eAbilityType": "EAbilityType_Weapon",
         "m_strAbilityImage": "file://{images}/hud/abilities/weapon_damage.psd",

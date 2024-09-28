@@ -201,6 +201,7 @@
         "m_iUpdateTime": "1718840457",
         "m_strCSSClass": "activeReload",
         "m_flGraceTime": "0.300000",
+        "m_bShowInPassiveItemsArea": "true",
         "m_vecTooltipSectionInfo": [
             {
                 "m_eAbilitySectionType": "EArea_Innate",

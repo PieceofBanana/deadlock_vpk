@@ -166,7 +166,7 @@
         "m_eItemSlotType": "EItemSlotType_Armor",
         "m_iItemTier": "EModTier_2",
         "m_bDisabled": "1",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
         "m_strCSSClass": "sprintBooster",
         "m_strAbilityImage": "file://{images}/upgrades/mods_utility/sprint_booster.psd",
         "m_strCastSound": "Mods.Unstop.Cast",

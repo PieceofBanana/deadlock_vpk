@@ -181,7 +181,7 @@
         "m_PreviewPathParticle": "particles/generic/generic_arc.vpcf",
         "m_eItemSlotType": "EItemSlotType_Armor",
         "m_iItemTier": "EModTier_1",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_REQUIRE_PREDICTION",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_REQUIRE_PREDICTION",
         "m_strCSSClass": "doubleJump",
         "m_strAbilityImage": "file://{images}/upgrades/mods_armor/double_jump.psd",
         "m_bDisabled": "true"

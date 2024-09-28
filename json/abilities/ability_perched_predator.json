@@ -141,7 +141,7 @@
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_tech_damage",
                     "_my_subclass_name": "ExplosionDamage_scale_function",
-                    "m_flStatScale": "1.146600",
+                    "m_flStatScale": "1.300000",
                     "m_eSpecificStatScaleType": "ETechPower"
                 }
             },
@@ -220,7 +220,7 @@
         "m_iUpdateTime": "1676569120",
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_SELF",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_PROJECTILE_PASS_THROUGH_WORLD",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
         "m_strCastAnimGraphParam": "e_RollerMine",
         "m_strAbilityImage": "file://{images}/upgrades/mods_weapon/high_velocity_mag.psd",
@@ -260,7 +260,7 @@
                 "m_vecPropertyUpgrades": [
                     {
                         "m_strPropertyName": "ExplosionDamage",
-                        "m_strBonus": "100"
+                        "m_strBonus": "120"
                     }
                 ]
             }

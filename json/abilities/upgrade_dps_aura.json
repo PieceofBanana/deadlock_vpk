@@ -229,7 +229,7 @@
         "m_strCSSClass": "bulletDamageAura",
         "m_strAbilityImage": "file://{images}/upgrades/mods_weapon/bullet_damage_aura.psd",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_FRIENDLY",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_DONT_BREAK_INVISIBILITY",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_DONT_BREAK_INVISIBILITY",
         "m_vecTooltipSectionInfo": [
             {
                 "m_eAbilitySectionType": "EArea_Innate",

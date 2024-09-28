@@ -174,7 +174,7 @@
         "m_iItemTier": "EModTier_3",
         "m_strCSSClass": "portableRejuv",
         "m_strAbilityImage": "file://{images}/upgrades/mods_tech/rebirth.psd",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_COOLDOWN_PERSISTS_ACROSS_REBUY",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_COOLDOWN_PERSISTS_ACROSS_REBUY",
         "m_bShowInPassiveItemsArea": "true",
         "m_bDisabled": "true",
         "m_DeployParticle": "particles/upgrades/portable_rejuvinator_deploy.vpcf",

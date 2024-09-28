@@ -132,7 +132,7 @@
                 "m_UsageFlags": "APUsageFlag_ModifierConditional"
             },
             "BonusHealth": {
-                "m_strValue": "275",
+                "m_strValue": "300",
                 "m_strCSSClass": "health",
                 "m_eDisplayType": "EMaxHealth",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_HEALTH_MAX",

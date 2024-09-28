@@ -20,6 +20,7 @@
             "m_nEnabledStateMask": "MODIFIER_STATE_IS_MELEE_TARGET",
             "m_IsDroppingParticle": "particles/environment/rejuv_ambient.vpcf",
             "m_IsPunchableParticle": "particles/environment/rejuv_attackable.vpcf",
+            "m_IsFrozenParticle": "particles/environment/rejuv_frozen_model.vpcf",
             "m_bIsHidden": "true",
             "m_NearRejuvAuraModifier": {
                 "_class": "modifier_base_aura",

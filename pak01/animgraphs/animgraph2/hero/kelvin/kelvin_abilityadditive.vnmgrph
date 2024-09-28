@@ -1,0 +1,328 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	m_persistentNodeIndices = 
+	[
+		0,
+	]
+	m_nRootNodeIdx = 1
+	m_controlParameterIDs = 
+	[
+		"b_IceBeam",
+	]
+	m_virtualParameterIDs = 
+	[
+	]
+	m_virtualParameterNodeIndices = 
+	[
+	]
+	m_childGraphSlots = 
+	[
+	]
+	m_externalGraphSlots = 
+	[
+	]
+	m_nodePaths = 
+	[
+		"b_IceBeam",
+		"Kelvin_AbilityAdditive",
+		"Kelvin_AbilityAdditive/Off",
+		"Kelvin_AbilityAdditive/Entry Overrides/Not",
+		"Kelvin_AbilityAdditive/Icebeam",
+		"Kelvin_AbilityAdditive/Icebeam/SM",
+		"Kelvin_AbilityAdditive/Icebeam/SM/Icebeam_intro",
+		"Kelvin_AbilityAdditive/Icebeam/SM/Icebeam_intro/ability_icebeam_intro",
+		"Kelvin_AbilityAdditive/Icebeam/SM/Icebeam_loop",
+		"Kelvin_AbilityAdditive/Icebeam/SM/Icebeam_loop/ability_icebeam_loop",
+		"Kelvin_AbilityAdditive/Icebeam/SM/Transition Conduit/Transition",
+		"Kelvin_AbilityAdditive/Icebeam/SM/Transition Conduit/State Completed",
+		"Kelvin_AbilityAdditive/Global Transitions/Icebeam",
+		"Kelvin_AbilityAdditive/Global Transitions/Off",
+		"Kelvin_AbilityAdditive/Global Transitions/Not",
+	]
+	m_runtimeVersionID = "42cdef34-53aa-4662-8219-0f8a4ac1ac4d"
+	m_nodes = 
+	[
+		
+		{
+			_class = "CNmControlParameterBoolNode::CDefinition"
+			m_nNodeIdx = 0
+		},
+		
+		{
+			_class = "CNmStateMachineNode::CDefinition"
+			m_nNodeIdx = 1
+			m_stateDefinitions = 
+			[
+				
+				{
+					m_nStateNodeIdx = 2
+					m_nEntryConditionNodeIdx = 3
+					m_transitionDefinitions = 
+					[
+						
+						{
+							m_nTargetStateIdx = 1
+							m_nConditionNodeIdx = 0
+							m_nTransitionNodeIdx = 12
+							m_bCanBeForced = false
+						},
+					]
+				},
+				
+				{
+					m_nStateNodeIdx = 4
+					m_nEntryConditionNodeIdx = 0
+					m_transitionDefinitions = 
+					[
+						
+						{
+							m_nTargetStateIdx = 0
+							m_nConditionNodeIdx = 14
+							m_nTransitionNodeIdx = 13
+							m_bCanBeForced = false
+						},
+					]
+				},
+			]
+			m_nDefaultStateIndex = 0
+		},
+		
+		{
+			_class = "CNmStateNode::CDefinition"
+			m_nNodeIdx = 2
+			m_nChildNodeIdx = -1
+			m_entryEvents = 
+			[
+			]
+			m_executeEvents = 
+			[
+			]
+			m_exitEvents = 
+			[
+			]
+			m_timedRemainingEvents = 
+			[
+			]
+			m_timedElapsedEvents = 
+			[
+			]
+			m_nLayerWeightNodeIdx = -1
+			m_nLayerRootMotionWeightNodeIdx = -1
+			m_nLayerBoneMaskNodeIdx = -1
+			m_bIsOffState = true
+		},
+		
+		{
+			_class = "CNmNotNode::CDefinition"
+			m_nNodeIdx = 3
+			m_nInputValueNodeIdx = 0
+		},
+		
+		{
+			_class = "CNmStateNode::CDefinition"
+			m_nNodeIdx = 4
+			m_nChildNodeIdx = 5
+			m_entryEvents = 
+			[
+			]
+			m_executeEvents = 
+			[
+			]
+			m_exitEvents = 
+			[
+			]
+			m_timedRemainingEvents = 
+			[
+			]
+			m_timedElapsedEvents = 
+			[
+			]
+			m_nLayerWeightNodeIdx = -1
+			m_nLayerRootMotionWeightNodeIdx = -1
+			m_nLayerBoneMaskNodeIdx = -1
+			m_bIsOffState = false
+		},
+		
+		{
+			_class = "CNmStateMachineNode::CDefinition"
+			m_nNodeIdx = 5
+			m_stateDefinitions = 
+			[
+				
+				{
+					m_nStateNodeIdx = 6
+					m_nEntryConditionNodeIdx = -1
+					m_transitionDefinitions = 
+					[
+						
+						{
+							m_nTargetStateIdx = 1
+							m_nConditionNodeIdx = 11
+							m_nTransitionNodeIdx = 10
+							m_bCanBeForced = false
+						},
+					]
+				},
+				
+				{
+					m_nStateNodeIdx = 8
+					m_nEntryConditionNodeIdx = -1
+					m_transitionDefinitions = 
+					[
+					]
+				},
+			]
+			m_nDefaultStateIndex = 0
+		},
+		
+		{
+			_class = "CNmStateNode::CDefinition"
+			m_nNodeIdx = 6
+			m_nChildNodeIdx = 7
+			m_entryEvents = 
+			[
+			]
+			m_executeEvents = 
+			[
+			]
+			m_exitEvents = 
+			[
+			]
+			m_timedRemainingEvents = 
+			[
+			]
+			m_timedElapsedEvents = 
+			[
+			]
+			m_nLayerWeightNodeIdx = -1
+			m_nLayerRootMotionWeightNodeIdx = -1
+			m_nLayerBoneMaskNodeIdx = -1
+			m_bIsOffState = false
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 7
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = false
+			m_nDataSlotIdx = 0
+		},
+		
+		{
+			_class = "CNmStateNode::CDefinition"
+			m_nNodeIdx = 8
+			m_nChildNodeIdx = 9
+			m_entryEvents = 
+			[
+			]
+			m_executeEvents = 
+			[
+			]
+			m_exitEvents = 
+			[
+			]
+			m_timedRemainingEvents = 
+			[
+			]
+			m_timedElapsedEvents = 
+			[
+			]
+			m_nLayerWeightNodeIdx = -1
+			m_nLayerRootMotionWeightNodeIdx = -1
+			m_nLayerBoneMaskNodeIdx = -1
+			m_bIsOffState = false
+		},
+		
+		{
+			_class = "CNmClipNode::CDefinition"
+			m_nNodeIdx = 9
+			m_nPlayInReverseValueNodeIdx = -1
+			m_nResetTimeValueNodeIdx = -1
+			m_bSampleRootMotion = true
+			m_bAllowLooping = true
+			m_nDataSlotIdx = 1
+		},
+		
+		{
+			_class = "CNmTransitionNode::CDefinition"
+			m_nNodeIdx = 10
+			m_nTargetStateNodeIdx = 8
+			m_nDurationOverrideNodeIdx = -1
+			m_syncEventOffsetOverrideNodeIdx = -1
+			m_startBoneMaskNodeIdx = -1
+			m_flDuration = 0.200000
+			m_boneMaskBlendInTimePercentage = 
+			{
+				m_flValue = 0.330000
+			}
+			m_syncEventOffset = 0.000000
+			m_transitionOptions = 
+			{
+				m_flags = 0
+			}
+			m_targetSyncIDNodeIdx = -1
+			m_blendWeightEasing = "Linear"
+			m_rootMotionBlend = "Blend"
+		},
+		
+		{
+			_class = "CNmStateCompletedConditionNode::CDefinition"
+			m_nNodeIdx = 11
+			m_nSourceStateNodeIdx = 6
+			m_nTransitionDurationOverrideNodeIdx = -1
+			m_flTransitionDurationSeconds = 0.200000
+		},
+		
+		{
+			_class = "CNmTransitionNode::CDefinition"
+			m_nNodeIdx = 12
+			m_nTargetStateNodeIdx = 4
+			m_nDurationOverrideNodeIdx = -1
+			m_syncEventOffsetOverrideNodeIdx = -1
+			m_startBoneMaskNodeIdx = -1
+			m_flDuration = 0.200000
+			m_boneMaskBlendInTimePercentage = 
+			{
+				m_flValue = 0.330000
+			}
+			m_syncEventOffset = 0.000000
+			m_transitionOptions = 
+			{
+				m_flags = 0
+			}
+			m_targetSyncIDNodeIdx = -1
+			m_blendWeightEasing = "Linear"
+			m_rootMotionBlend = "Blend"
+		},
+		
+		{
+			_class = "CNmTransitionNode::CDefinition"
+			m_nNodeIdx = 13
+			m_nTargetStateNodeIdx = 2
+			m_nDurationOverrideNodeIdx = -1
+			m_syncEventOffsetOverrideNodeIdx = -1
+			m_startBoneMaskNodeIdx = -1
+			m_flDuration = 0.100000
+			m_boneMaskBlendInTimePercentage = 
+			{
+				m_flValue = 0.330000
+			}
+			m_syncEventOffset = 0.000000
+			m_transitionOptions = 
+			{
+				m_flags = 0
+			}
+			m_targetSyncIDNodeIdx = -1
+			m_blendWeightEasing = "Linear"
+			m_rootMotionBlend = "Blend"
+		},
+		
+		{
+			_class = "CNmNotNode::CDefinition"
+			m_nNodeIdx = 14
+			m_nInputValueNodeIdx = 0
+		},
+	]
+}

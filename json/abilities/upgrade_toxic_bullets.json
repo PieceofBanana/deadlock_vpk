@@ -222,7 +222,7 @@
         "m_strCSSClass": "toxicBullets",
         "m_strAbilityImage": "file://{images}/upgrades/mods_weapon/serrated_bullets.psd",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_HERO_ENEMY | CITADEL_UNIT_TARGET_CREEP_ENEMY | CITADEL_UNIT_TARGET_MINION_ENEMY",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_CLEAVE_DISABLED",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_CLEAVE_DISABLED",
         "m_vecTooltipSectionInfo": [
             {
                 "m_eAbilitySectionType": "EArea_Innate",

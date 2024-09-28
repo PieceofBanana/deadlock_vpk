@@ -361,7 +361,7 @@
         "m_iUpdateTime": "1709844990",
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_SELF",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
         "m_strAbilityImage": "file://{images}/hud/abilities/synth/synth_barrage.psd",
         "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/pocket_barrage.webm",
@@ -395,7 +395,7 @@
                 "m_vecPropertyUpgrades": [
                     {
                         "m_strPropertyName": "AmpPercentPerStack",
-                        "m_strBonus": "5"
+                        "m_strBonus": "4"
                     }
                 ]
             }

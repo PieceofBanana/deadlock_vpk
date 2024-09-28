@@ -120,7 +120,7 @@
                 }
             },
             "DamageToStack": {
-                "m_strValue": "110",
+                "m_strValue": "100",
                 "m_strCSSClass": "bullet_armor_up"
             },
             "WeaponPowerPerStack": {

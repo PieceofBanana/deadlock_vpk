@@ -111,7 +111,7 @@
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
             },
             "VacuumRadius": {
-                "m_strValue": "8m",
+                "m_strValue": "7m",
                 "m_strCSSClass": "distance",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",
@@ -208,7 +208,7 @@
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_SELF",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_SPHERE",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED|CITADEL_ABILITY_BEHAVIOR_EXCLUSIVE_USE|CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_BUSY|CITADEL_ABILITY_BEHAVIOR_NO_TARGET|CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED|CITADEL_ABILITY_BEHAVIOR_EXCLUSIVE_USE|CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_BUSY|CITADEL_ABILITY_BEHAVIOR_NO_TARGET|CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_HERO_ENEMY | CITADEL_UNIT_TARGET_MINION_ENEMY | CITADEL_UNIT_TARGET_CREEP_ENEMY",
         "m_strAbilityImage": "file://{images}/hud/abilities/sumo/sumo_vacuum.psd",
         "m_strCastAnimGraphParam": "e_Vacuum",

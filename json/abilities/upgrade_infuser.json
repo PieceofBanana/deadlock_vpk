@@ -198,7 +198,7 @@
         "m_eItemSlotType": "EItemSlotType_Tech",
         "m_iItemTier": "EModTier_1",
         "m_iUpdateTime": "1718823919",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CAN_CAST_ON_ZIPLINE",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CAN_CAST_ON_ZIPLINE",
         "m_strCSSClass": "infuser",
         "m_strAbilityImage": "file://{images}/upgrades/mods_tech/infuser.psd",
         "m_CastParticle": "particles/upgrades/infuser_cast.vpcf",

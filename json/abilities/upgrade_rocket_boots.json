@@ -195,7 +195,7 @@
         "m_bDisabled": "true",
         "m_strCSSClass": "springyBoots",
         "m_strAbilityImage": "file://{images}/upgrades/mods_utility/springy_boots.psd",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_MOVEMENT",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_MOVEMENT",
         "m_LaunchParticle": "particles/upgrades/rocket_boots.vpcf",
         "m_InAirWatcherModifier": {
             "_class": "modifier_base",

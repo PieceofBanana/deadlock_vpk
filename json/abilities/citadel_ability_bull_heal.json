@@ -143,7 +143,7 @@
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_tech_damage",
                     "_my_subclass_name": "LifeDrainPerSecond_scale_function",
-                    "m_flStatScale": "0.235872",
+                    "m_flStatScale": "0.300000",
                     "m_eSpecificStatScaleType": "ETechPower"
                 }
             },
@@ -208,7 +208,7 @@
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_SELF",
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_SPHERE",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_BUSY",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_BUSY",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
         "m_strAbilityImage": "file://{images}/hud/abilities/bull_drain.psd",
         "m_vecAbilityUpgrades": [

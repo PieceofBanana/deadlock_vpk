@@ -194,7 +194,7 @@
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_CONE",
         "m_nAbilityTargetFlags": "CITADEL_UNIT_TARGET_FLAG_NO_INVIS",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED",
         "m_strAbilityImage": "file://{images}/hud/abilities/sumo/sumo_stomp.psd",
         "m_vecAbilityUpgrades": [],
         "m_flTargetingConeAngle": "50.000000",

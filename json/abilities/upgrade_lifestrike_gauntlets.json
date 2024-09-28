@@ -111,7 +111,7 @@
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
             },
             "BonusMeleeDamagePercent": {
-                "m_strValue": "13",
+                "m_strValue": "12",
                 "m_eDisplayType": "EBaseMeleeDamageIncrease",
                 "m_strCSSClass": "melee_damage",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_BASE_MELEE_DAMAGE_PERCENT",
@@ -145,7 +145,7 @@
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             },
             "NonHeroHealPct": {
-                "m_strValue": "40"
+                "m_strValue": "30"
             }
         },
         "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",

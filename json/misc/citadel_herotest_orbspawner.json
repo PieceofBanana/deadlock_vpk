@@ -3,6 +3,9 @@
         "m_hModel": "models/npc/sewer_beast/sewer.vmdl",
         "m_flModelScale": "1.500000",
         "m_AmbientParticle": "particles/environment/powerup_spawner_inactive_ambient.vpcf",
-        "m_SpawnParticle": "particles/trooper/trooper_death_sn.vpcf"
+        "m_SpawnParticle": "particles/trooper/trooper_death_sn.vpcf",
+        "m_iGoldValue": "10",
+        "m_flSpawnRate": "2.000000",
+        "m_flFirstSpawnTime": "180.000000"
     }
 }

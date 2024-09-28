@@ -193,7 +193,7 @@
         "m_iItemTier": "EModTier_3",
         "m_iUpdateTime": "1710448256",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_CLEAVE_DISABLED",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_CLEAVE_DISABLED",
         "m_strCSSClass": "magicShock",
         "m_strAbilityImage": "file://{images}/upgrades/mods_tech/magic_shock.psd",
         "m_vecComponentItems": [
@@ -247,6 +247,7 @@
                 "m_hDamageTrackModifier": {
                     "_class": "modifier_base",
                     "_my_subclass_name": "modifier_magic_shock_proc_tracker",
+                    "m_nEnabledStateMask": "MODIFIER_STATE_IS_MAGIC_SHOCK_IMMUNE",
                     "m_bIsHidden": "true"
                 }
             },

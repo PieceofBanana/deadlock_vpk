@@ -196,7 +196,7 @@
         "m_iItemTier": "EModTier_3",
         "m_iUpdateTime": "1715793373",
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_CONE",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_CAN_CAST_ON_ZIPLINE | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_DODGING",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_CAN_CAST_ON_ZIPLINE | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_DODGING",
         "m_strCSSClass": "shiftingShroud",
         "m_strAbilityImage": "file://{images}/upgrades/mods_tech/shifting_shroud.psd",
         "m_strCastSound": "Mods.Tech.Stasis.Cast",

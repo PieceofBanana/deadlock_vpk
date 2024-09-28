@@ -111,7 +111,7 @@
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
             },
             "BonusFireRate": {
-                "m_strValue": "5",
+                "m_strValue": "4",
                 "m_eDisplayType": "EFireRate",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_FIRE_RATE",
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"

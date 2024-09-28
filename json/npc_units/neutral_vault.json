@@ -155,6 +155,7 @@
                 "_class": "modifier_intrinsic_base",
                 "m_nEnabledStateMask": "MODIFIER_STATE_TECH_UNTARGETABLE | MODIFIER_STATE_TECH_INVULNERABLE"
             }
-        ]
+        ],
+        "m_eTrooperType": "NEUTRAL_VAULT"
     }
 }

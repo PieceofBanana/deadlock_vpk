@@ -196,6 +196,6 @@
         "m_skillshotMissParticle": "particles/abilities/skillshot_default_miss_owner.vpcf",
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_SELF",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_DAMAGE_DOESNT_WAKE_FROM_SLEEP"
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_DAMAGE_DOESNT_WAKE_FROM_SLEEP"
     }
 }

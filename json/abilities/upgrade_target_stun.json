@@ -207,7 +207,7 @@
         "m_eItemSlotType": "EItemSlotType_Tech",
         "m_iItemTier": "EModTier_3",
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_CONE",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE_PASS_THROUGH_WORLD",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE_PASS_THROUGH_WORLD | CITADEL_ABILITY_BEHAVIOR_USE_INSTANT_CAST_UNIT_TARGET_UI | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
         "m_strCSSClass": "knockdown",
         "m_strAbilityImage": "file://{images}/upgrades/mods_tech/knockdown.psd",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_HERO_ENEMY",

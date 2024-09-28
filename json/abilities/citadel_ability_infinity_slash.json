@@ -15,7 +15,7 @@
                 }
             },
             "AbilityDuration": {
-                "m_strValue": "5",
+                "m_strValue": "4.5",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "duration",
                 "m_bCanSetTokenOverride": "true",
@@ -114,18 +114,6 @@
                 "m_bCanSetTokenOverride": "true",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
             },
-            "Radius": {
-                "m_subclassScaleFunction": {}
-            },
-            "BuffDuration": {
-                "m_strValue": "20",
-                "m_subclassScaleFunction": {
-                    "_my_subclass_name": "scale",
-                    "_class": "scale_function_single_stat",
-                    "m_eSpecificStatScaleType": "ETechDuration"
-                },
-                "m_strCSSClass": "duration"
-            },
             "BonusMoveSpeed": {
                 "m_strValue": "0m",
                 "m_strCSSClass": "move_speed",
@@ -205,7 +193,7 @@
         "m_iUpdateTime": "1666719520",
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_SELF",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CLEAVE_DISABLED | CITADEL_ABILITY_BEHAVIOR_CANNOT_CANCEL_DURING_CHANNEL | CITADEL_ABILITY_BEHAVIOR_CAN_CANCEL_DURING_CAST_DELAY",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CLEAVE_DISABLED | CITADEL_ABILITY_BEHAVIOR_CANNOT_CANCEL_DURING_CHANNEL | CITADEL_ABILITY_BEHAVIOR_CAN_CANCEL_DURING_CAST_DELAY",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
         "m_nAbilityTargetFlags": "CITADEL_UNIT_TARGET_FLAG_NO_INVIS",
         "m_strAbilityImage": "file://{images}/hud/abilities/yamato/yamato_blinding_steel.psd",
@@ -230,7 +218,7 @@
                 "m_vecPropertyUpgrades": [
                     {
                         "m_strPropertyName": "AbilityDuration",
-                        "m_strBonus": "1.5"
+                        "m_strBonus": "2.0"
                     }
                 ]
             }
@@ -365,7 +353,7 @@
             "_my_subclass_name": "buff",
             "_class": "modifier_base",
             "m_strParticleEffect": "",
-            "m_nEnabledStateMask": "MODIFIER_STATE_YAMATO_SHADOW_FORM | MODIFIER_STATE_INFINITE_CLIP | MODIFIER_STATE_UNKILLABLE | MODIFIER_STATE_STATUS_IMMUNE | MODIFIER_STATE_SLOW_IMMUNE | MODIFIER_STATE_KNOCKDOWN_IMMUNE | MODIFIER_STATE_UNSTOPPABLE",
+            "m_nEnabledStateMask": "MODIFIER_STATE_YAMATO_SHADOW_FORM | MODIFIER_STATE_UNKILLABLE | MODIFIER_STATE_STATUS_IMMUNE | MODIFIER_STATE_SLOW_IMMUNE | MODIFIER_STATE_KNOCKDOWN_IMMUNE | MODIFIER_STATE_UNSTOPPABLE",
             "m_nDisabledStateMask": "MODIFIER_STATE_DISARMED | MODIFIER_STATE_MUTED | MODIFIER_STATE_SILENCED | MODIFIER_STATE_SILENCE_MOVEMENT_ABILITES | MODIFIER_STATE_SLOWED | MODIFIER_STATE_GLITCHED | MODIFIER_STATE_MELEE_DISABLED_DEBUFF | MODIFIER_STATE_DASH_DISABLED_DEBUFF",
             "m_strParticleStatusEffect": "particles/status_fx/status_fx_yamato_shadow_form.vpcf",
             "m_eHudDisplayLocation": "DISPLAY_HUD_LEFT",

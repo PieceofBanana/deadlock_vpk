@@ -138,12 +138,6 @@
                     "m_eSpecificStatScaleType": "ETechDuration"
                 }
             },
-            "SlowPercent": {
-                "m_strValue": "0",
-                "m_strCSSClass": "slow",
-                "m_eProvidedPropertyType": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
-                "m_UsageFlags": "APUsageFlag_ModifierConditional"
-            },
             "LowHealthEnemyThresholdPct": {
                 "m_strValue": "0"
             },
@@ -211,7 +205,7 @@
         "m_iUpdateTime": "1686678287",
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_SELF",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
-        "m_nAbilityBehaviors": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CAN_CANCEL_DURING_CAST_DELAY",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CAN_CANCEL_DURING_CAST_DELAY",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
         "m_strAbilityImage": "file://{images}/hud/abilities/archer/archer_guided_arrow.psd",
         "m_strCastAnimGraphParam": "e_GuidedArrow",
@@ -317,14 +311,11 @@
                 "m_GlowParticle": "particles/status_fx/status_fx_last_hit.vpcf"
             }
         },
-        "m_DebuffModifier": {
-            "_my_subclass_name": "slow",
-            "_class": "modifier_slow_base",
-            "m_sLocalizationName": "movement_slow",
-            "m_bIsHidden": "true",
-            "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
-                "SlowPercent"
-            ]
+        "m_flKillCheckWindow": "3.000000",
+        "m_KillCheckModifier": {
+            "_class": "modifier_base",
+            "_my_subclass_name": "killcheck_modifier",
+            "m_bIsHidden": "true"
         },
         "m_GuidedArrowChannelParticle": "particles/abilities/archer/archer_guided_arrow_channel.vpcf",
         "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/ability_orion_guided_arrow.webm",
@@ -404,6 +395,6 @@
             ]
         },
         "m_ProjectileModel": "models/heroes_staging/grey_talon/grey_talon_owl.vmdl",
-        "m_flArrowModelTurnSpringStrength": "10.000000"
+        "m_flArrowModelTurnSpringStrength": "18.000000"
     }
 }

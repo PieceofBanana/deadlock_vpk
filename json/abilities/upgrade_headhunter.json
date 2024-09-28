@@ -4,7 +4,7 @@
         "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "0",
+                "m_strValue": "6",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -110,19 +110,9 @@
                 "m_bCanSetTokenOverride": "true",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
             },
-            "BonusBulletSpeedPercent": {
-                "m_strValue": "50",
-                "m_eDisplayUnits": "EDisplayUnit_Normal",
-                "m_strCSSClass": "bullet_damage",
-                "m_eProvidedPropertyType": "MODIFIER_VALUE_BONUS_BULLET_SPEED_PERCENT",
-                "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
-            },
             "HeadShotBonusDamage": {
                 "m_strValue": "140",
                 "m_strCSSClass": "bullet_damage"
-            },
-            "HeadShotCooldown": {
-                "m_strValue": "6"
             },
             "BaseAttackDamagePercent": {
                 "m_strValue": "15",
@@ -160,6 +150,12 @@
                     "_my_subclass_name": "BonusDuration_scale_function",
                     "m_eSpecificStatScaleType": "ETechDuration"
                 }
+            },
+            "BonusFireRate": {
+                "m_strValue": "5",
+                "m_eDisplayType": "EFireRate",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_FIRE_RATE",
+                "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             }
         },
         "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
@@ -228,9 +224,9 @@
                 "m_vecSectionAttributes": [
                     {
                         "m_vecAbilityProperties": [
-                            "BonusBulletSpeedPercent",
                             "BaseAttackDamagePercent",
-                            "BulletShieldMaxHealth"
+                            "BulletShieldMaxHealth",
+                            "BonusFireRate"
                         ]
                     }
                 ]
@@ -252,8 +248,8 @@
                             }
                         ],
                         "m_vecAbilityProperties": [
-                            "MovementSpeedBonusDuration",
-                            "HeadShotCooldown"
+                            "AbilityCooldown",
+                            "MovementSpeedBonusDuration"
                         ]
                     }
                 ]
@@ -276,8 +272,8 @@
                 "_class": "modifier_intrinsic_base",
                 "_my_subclass_name": "modifier_intrinsic_base",
                 "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
-                    "BonusBulletSpeedPercent",
-                    "BaseAttackDamagePercent"
+                    "BaseAttackDamagePercent",
+                    "BonusFireRate"
                 ]
             },
             {
@@ -288,7 +284,7 @@
         ],
         "m_eShopFilters": "EShopFilterWeaponDamage",
         "m_vecComponentItems": [
-            "upgrade_high_velocity_mag"
+            "upgrade_headshot_booster"
         ]
     }
 }
