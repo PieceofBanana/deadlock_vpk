@@ -111,7 +111,7 @@
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
             },
             "NonPlayerBonusWeaponPower": {
-                "m_strValue": "35",
+                "m_strValue": "30",
                 "m_strCSSClass": "bullet_damage",
                 "m_eProvidedPropertyType": "MODIFIER_NON_PLAYER_BONUS_BASE_DAMAGE_PERCENT",
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic | APUsageFlag_ModifierConditional"

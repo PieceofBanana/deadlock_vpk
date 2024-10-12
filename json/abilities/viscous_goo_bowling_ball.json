@@ -168,7 +168,7 @@
                 "m_strValue": "0.25"
             },
             "StunDuration": {
-                "m_strValue": "1",
+                "m_strValue": "0.7",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",
                     "m_eSpecificStatScaleType": "ETechDuration",
@@ -251,7 +251,7 @@
         "m_iUpdateTime": "1669930587",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
-        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CANNOT_CANCEL_DURING_CHANNEL | CITADEL_ABILITY_BEHAVIOR_REQUIRE_ABILITY_BUTTON_TO_CANCEL",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CANNOT_CANCEL_DURING_CHANNEL | CITADEL_ABILITY_BEHAVIOR_TRIGGER_CANCEL_MASH_PROTECTION_ON_CAST | CITADEL_ABILITY_BEHAVIOR_REQUIRE_ABILITY_BUTTON_TO_CANCEL",
         "m_strCastAnimGraphParam": "b_RollingGoo",
         "m_vecAbilityUpgrades": [
             {

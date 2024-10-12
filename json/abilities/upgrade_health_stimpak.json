@@ -122,7 +122,7 @@
                 }
             },
             "RegenDuration": {
-                "m_strValue": "17",
+                "m_strValue": "19",
                 "m_strCSSClass": "duration",
                 "m_bIsAffectedByBonusCounter": "false"
             },
@@ -211,10 +211,14 @@
             "m_sExpiredSound": "Mods.Armor.Stimpack.End",
             "m_strHudMessageText": "",
             "m_bIsHidden": "false",
-            "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER",
+            "m_eHudDisplayLocation": "DISPLAY_HUD_LEFT",
             "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
                 "BonusSprintSpeed"
-            ]
+            ],
+            "m_sLocalizationName": "modifier_stimpak_regen",
+            "m_eDrawOverheadStatus": "OVERHEAD_DRAW_FOR_EVERYONE",
+            "m_strSmallIconCssClass": "stimpak",
+            "m_strHudIcon": "file://{images}/upgrades/mods_armor/stimpak.psd"
         },
         "m_vecTooltipSectionInfo": [
             {

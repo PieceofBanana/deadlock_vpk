@@ -136,14 +136,14 @@
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             },
             "BonusFireRate": {
-                "m_strValue": "20",
+                "m_strValue": "35",
                 "m_strCSSClass": "fireRate",
                 "m_eDisplayType": "EFireRate",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_FIRE_RATE",
-                "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
             },
             "BonusSpirit": {
-                "m_strValue": "45",
+                "m_strValue": "50",
                 "m_eDisplayType": "ETechPower",
                 "m_strCSSClass": "tech_damage",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_POWER",
@@ -233,7 +233,6 @@
                 "m_vecSectionAttributes": [
                     {
                         "m_vecAbilityProperties": [
-                            "BonusFireRate",
                             "CooldownReduction",
                             "AbilityLifestealPercentHero",
                             "BulletShieldMaxHealth"
@@ -246,6 +245,9 @@
                 "m_vecSectionAttributes": [
                     {
                         "m_vecImportantAbilityProperties": [
+                            {
+                                "m_strImportantProperty": "BonusFireRate"
+                            },
                             {
                                 "m_strImportantProperty": "BonusSpirit"
                             }
@@ -281,6 +283,7 @@
                     "m_sAmbientLoopingSound": "Mods.Weapon.Tech.Overflow.Mod.Lp",
                     "m_sExpiredSound": "Mods.Weapon.Tech.Overflow.Mod.End",
                     "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
+                        "BonusFireRate",
                         "BonusSpirit"
                     ],
                     "m_bIsHidden": "true"
@@ -296,7 +299,6 @@
                 "_my_subclass_name": "modifier_intrinsic_base",
                 "_class": "modifier_intrinsic_base",
                 "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
-                    "BonusFireRate",
                     "CooldownReduction",
                     "AbilityLifestealPercentHero"
                 ]

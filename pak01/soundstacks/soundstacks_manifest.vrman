@@ -35,5 +35,7 @@ soundstacks/soundstack_citadel_dialog.vsndstck
 soundstacks/soundstack_citadel_dialog_volumes.vsndstck
 soundstacks/soundstack_citadel_ambient_3d.vsndstck
 
+soundstacks/soundstack_citadel_voip.vsndstck
+
 soundstacks/soundstacks_containers_test.vsndstck
 

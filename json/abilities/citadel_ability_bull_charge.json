@@ -141,8 +141,8 @@
             "TurnRateMax": {
                 "m_strValue": "140"
             },
-            "CameraDistance": {
-                "m_strValue": "450"
+            "CameraTurnRateMax": {
+                "m_strValue": "200"
             },
             "ChargeRadius": {
                 "m_strValue": "2.2m"

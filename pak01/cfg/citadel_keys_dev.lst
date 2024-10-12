@@ -1,0 +1,881 @@
+"CitadelKeys"
+{
+	"Commands"
+	{
+		//=============================================================
+		//
+		// Default
+		//
+		//=============================================================
+		"Default"
+		{
+			"AbilityMelee"
+			{
+				"Action"		"+in_weapon1"
+				"LocString"		"#citadel_keybind_melee"
+			}
+
+			"Ability1"
+			{
+				"Action"		"+in_ability1"
+				"IsAlsoDeadBind" "1"
+				"LocString"		"#citadel_keybind_ability1"
+			}
+
+			"Ability2"
+			{
+				"Action"		"+in_ability2"
+				"IsAlsoDeadBind" "1"
+				"LocString"		"#citadel_keybind_ability2"
+			}
+			"Ability3"
+			{
+				"Action"		"+in_ability3"
+				"IsAlsoDeadBind" "1"
+				"LocString"		"#citadel_keybind_ability3"
+			}
+			"Ability4"
+			{
+				"Action"		"+in_ability4"
+				"IsAlsoDeadBind" "1"
+				"LocString"		"#citadel_keybind_ability4"
+			}
+			"Item1"
+			{
+				"Action"		"+in_item1"
+				"LocString"		"#citadel_keybind_item1"
+			}
+			"Item2"
+			{
+				"Action"		"+in_item2"
+				"LocString"		"#citadel_keybind_item2"
+			}
+			"Item3"
+			{
+				"Action"		"+in_item3"
+				"LocString"		"#citadel_keybind_item3"
+			}
+			"Item4"
+			{
+				"Action"		"+in_item4"
+				"LocString"		"#citadel_keybind_item4"
+			}
+			"Mantle"
+			{
+				"Action"		"+in_mantle"
+				"LocString"		"#citadel_keybind_mantle"
+			}
+						
+			"Roll"
+			{
+				"Action"		"+in_innate1"
+				"LocString"		"#citadel_keybind_roll"
+			}
+			
+			"Crouch"
+			{
+				"Action"		"+duck"
+				"LocString"		"#citadel_keybind_crouch"
+			}
+						
+			"Teleport"
+			{
+				"Action"		"+in_teleport"
+				"LocString"		"#citadel_keybind_teleport_to_objective"
+			}
+
+			"OpenHeroSheet"
+			{
+				"Action"		"citadel_open_hero_sheet"
+				"IsUnique" "1"
+				"IsAlsoSpectatorBind" "1"
+				"IsAlsoReplayBind" "1"
+				"LocString"		"#citadel_keybind_open_hero_sheet"
+			}
+			
+			"PushToTalk"
+			{
+				"Action"		"+voicerecord"
+				"IsAlsoSpectatorBind" "1"
+				"LocString"		"#citadel_keybind_push_to_talk"
+			}
+			"PushToTalkParty"
+			{
+				"Action"		"+voicerecord_party"
+				"LocString"		"#citadel_keybind_push_to_talk_party"
+			}
+			
+			"Scoreboard"
+			{
+				"Action"		"+show_scoreboard"
+				"IsAlsoSpectatorBind" "1"
+				"IsAlsoReplayBind" "1"
+				"AllowDuplicateBind" "1"
+				"LocString"		"#citadel_keybind_scoreboard"
+			}
+			
+			"Reload"
+			{
+				"Action"		"+reload"
+				"LocString"		"#citadel_keybind_reload"
+			}
+			
+			"ExtraInfo"
+			{
+				"Action"		"+in_extra_info"
+				"IsAlsoSpectatorBind" "1"
+				"IsAlsoReplayBind" "1"
+				"AllowDuplicateBind" "1"
+				"LocString"		"#citadel_keybind_extra_info"
+			}
+
+			"AltCast"
+			{
+				"Action"		"+in_alt_cast_modifier"
+				"LocString"		"#citadel_keybind_alt_cast"
+				"AllowDuplicateBind" "1"
+				"SingleKeybindOnly" "1"
+			}
+
+			"MoveForward"
+			{
+				"Action"		"+forward"
+				"IsAlsoSpectatorBind" "1"
+				"IsAlsoReplayBind" "1"
+				"LocString"		"#citadel_keybind_forward"
+			}
+			
+			"MoveBackwards"
+			{
+				"Action"		"+back"
+				"IsAlsoSpectatorBind" "1"
+				"IsAlsoReplayBind" "1"
+				"LocString"		"#citadel_keybind_backwards"
+			}
+			
+			"MoveLeft"
+			{
+				"Action"		"+left"
+				"IsAlsoSpectatorBind" "1"
+				"IsAlsoReplayBind" "1"
+				"LocString"		"#citadel_keybind_left"
+			}
+			
+			"MoveRight"
+			{
+				"Action"		"+right"
+				"IsAlsoSpectatorBind" "1"
+				"IsAlsoReplayBind" "1"
+				"LocString"		"#citadel_keybind_right"
+			}
+			
+			"Attack"
+			{
+				"Action"		"+attack"
+				"LocString"		"#citadel_keybind_attack"
+			}
+			
+			"ADS"
+			{
+				"Action"		"+attack2"
+				"LocString"		"#citadel_keybind_ads"
+			}
+			
+			"Chat"
+			{
+				"Action"		"say_chat"
+				"IsAlsoSpectatorBind" "1"
+				"LocString"		"#citadel_keybind_chat_all"
+			}
+			
+			"ChatTeam"
+			{
+				"Action"		"say_chat_team"
+				"IsAlsoSpectatorBind" "1"
+				"LocString"		"#citadel_keybind_chat_team"
+			}
+			
+			"Ping"
+			{
+				"Action"		"+in_ability_ping"
+				"IsAlsoSpectatorBind" "1"
+				"AllowDuplicateBind" "1"
+				"LocString"		"#citadel_keybind_ping"
+			}
+						
+			"MouseWheel"
+			{
+				"Action"		"+chatwheel"
+				"LocString"		"#citadel_keybind_mouse_wheel"
+			}
+			
+			"HeldItem"
+			{
+				"Action"		"+in_ability_held"
+				"LocString"		"#citadel_keybind_held_item"
+			}	
+			
+			"SwitchPlayerCam1"
+			{
+				"Action"		"+citadel_swtich_player_cam 1"
+				"IsAlsoDeadBind" "1"
+				"LocString"		"#citadel_switch_camera_teammate_1"
+			}
+
+			"SwitchPlayerCam2"
+			{
+				"Action"		"+citadel_swtich_player_cam 2"
+				"IsAlsoDeadBind" "1"
+				"LocString"		"#citadel_switch_camera_teammate_2"
+			}	
+
+			"SwitchPlayerCam3"
+			{
+				"Action"		"+citadel_swtich_player_cam 3"
+				"IsAlsoDeadBind" "1"
+				"LocString"		"#citadel_switch_camera_teammate_3"
+			}
+
+			"SwitchPlayerCam4"
+			{
+				"Action"		"+citadel_swtich_player_cam 4"
+				"IsAlsoDeadBind" "1"
+				"LocString"		"#citadel_switch_camera_teammate_4"
+			}	
+
+			"SwitchPlayerCam5"
+			{
+				"Action"		"+citadel_swtich_player_cam 5"
+				"IsAlsoDeadBind" "1"
+				"LocString"		"#citadel_switch_camera_teammate_5"
+			}	
+
+			"AbilityUpgrade1"
+			{
+				"Action"		"trainorupgradeability 1"
+				"IsAlsoDeadBind" "1"
+				"LocString"		"#citadel_keybind_upgrade_ability1"
+			}
+
+			"AbilityUpgrade2"
+			{
+				"Action"		"trainorupgradeability 2"
+				"IsAlsoDeadBind" "1"
+				"LocString"		"#citadel_keybind_upgrade_ability2"
+			}
+
+			"AbilityUpgrade3"
+			{
+				"Action"		"trainorupgradeability 3"
+				"IsAlsoDeadBind" "1"
+				"LocString"		"#citadel_keybind_upgrade_ability3"
+			}
+
+			"AbilityUpgrade4"
+			{
+				"Action"		"trainorupgradeability 4"
+				"IsAlsoDeadBind" "1"
+				"LocString"		"#citadel_keybind_upgrade_ability4"
+			}
+
+			"ItemQuickCastMode"
+			{
+			}
+
+			
+			
+			"DevConsole"
+			{
+				"Action"		"toggleconsole"
+				"PreGameBind"		"1"
+				"LocString"		"#citadel_keybind_dev_console"
+			}
+
+			"Pause"
+			{
+				"Action"		"citadel_pause"
+				"LocString"		"#citadel_keybind_pause"
+			}
+
+			"ToggleMute"
+			{
+				"Action"		"citadel_toggle_mute"
+				"LocString"		"#citadel_keybind_toggle_mute"
+			}
+
+			"Zipline"
+			{
+				"Action"		"+in_zipline"
+				"LocString"		"#citadel_keybind_zipline"
+				"AllowDuplicateBind" "1"
+			}
+			
+
+			"Casting"
+			{
+				"CancelAbility"
+				{
+					"Action"		"+in_cancel_ability"
+					"AllowDuplicateBind" "1"
+					"LocString"		"#citadel_keybind_cancel_ability"
+				}
+			}
+
+			"Dead"
+			{
+				"ReplayDeath"
+				{
+					"Action"		"+in_replay_death"
+					"AllowDuplicateBind" "1"
+					"LocString"		"#citadel_keybind_replay_death"
+				}
+			}
+		}
+
+		"Spectator"
+		{
+			"ToggleSpectatorCamera"
+			{
+				"Action"		"+in_spec_mode"
+				"LocString"		"#citadel_keybind_toggle_spec_camera"
+			}
+
+			"ToggleSpectatorTeam"
+			{
+				"Action"		"+in_spec_toggle_team"
+				"LocString"		"#citadel_keybind_spec_change_Team"
+			}
+
+			"SpectatorNextTarget"
+			{
+				"Action"		"spec_next"
+				"LocString"		"#citadel_keybind_spec_next_target"
+			}
+
+			"SpectatorPrevTarget"
+			{
+				"Action"		"spec_prev"
+				"LocString"		"#citadel_keybind_spec_prev_target"
+			}
+
+			"SpectatorChase"
+			{
+				"Action"		"spec_chase"
+				"LocString"		"#citadel_keybind_spec_chase"
+			}
+
+			"SpectatorInEye"
+			{
+				"Action"		"spec_in_eye"
+				"LocString"		"#citadel_keybind_spec_in_eye"
+			}
+
+			"SpectatorFlyUp"
+			{
+				"Action"		"spec_fly_up"
+				"LocString"		"#citadel_keybind_spectator_fly_up"
+			}
+
+			"SpectatorFlyDown"
+			{
+				"Action"		"spec_fly_down"
+				"LocString"		"#citadel_keybind_spectator_fly_down"
+			}
+
+			"SpectatorToggleFreeCursor"
+			{
+				"Action"		"hud_free_cursor_toggle"
+				"IsUnique" "1"
+				"IsAlsoSpectatorBind" "1"
+				"IsAlsoReplayBind" "1"
+				"LocString"		"#citadel_keybind_toggle_free_cursor"
+			}
+
+			"SpectatorFOWTeamSapphire"
+			{
+				"Action"		"hud_minimap_spectator_fow_team_view_sapphire"
+				"IsAlsoSpectatorBind" "1"
+				"IsAlsoReplayBind" "1"
+				"LocString"		"#citadel_keybind_minimap_view_sapphire_team"
+				"AllowDuplicateBind" "1"
+			}
+
+			"SpectatorFOWTeamAmber"
+			{
+				"Action"		"hud_minimap_spectator_fow_team_view_amber"
+				"IsAlsoSpectatorBind" "1"
+				"IsAlsoReplayBind" "1"
+				"LocString"		"#citadel_keybind_minimap_view_amber_team"
+				"AllowDuplicateBind" "1"
+			}
+
+			"SpectatorFOWTeamBoth"
+			{
+				"Action"		"hud_minimap_spectator_fow_team_view_both_teams"
+				"IsAlsoSpectatorBind" "1"
+				"IsAlsoReplayBind" "1"
+				"LocString"		"#citadel_keybind_minimap_view_spectator_team"
+				"AllowDuplicateBind" "1"
+			}
+
+			"SpectatorFOWTeamTarget"
+			{
+				"Action"		"hud_minimap_spectator_fow_team_view_target_team"
+				"IsAlsoSpectatorBind" "1"
+				"IsAlsoReplayBind" "1"
+				"LocString"		"#citadel_keybind_minimap_view_targets_team"
+				"AllowDuplicateBind" "1"
+			}
+		}
+
+		"Replays"
+		{
+			"ToggleReplayCamera"
+			{
+				"Action"		"+in_spec_mode"
+				"LocString"		"#citadel_keybind_toggle_replay_camera"
+			}
+			
+			"ToggleReplayTeam"
+			{
+				"Action"		"+in_spec_toggle_team"
+				"LocString"		"#citadel_keybind_replay_change_Team"
+			}
+
+			"ReplayNextTarget"
+			{
+				"Action"		"spec_next"
+				"LocString"		"#citadel_keybind_replay_next_target"
+			}
+
+			"ReplayPrevTarget"
+			{
+				"Action"		"spec_prev"
+				"LocString"		"#citadel_keybind_replay_prev_target"
+			}
+
+			"ReplayChase"
+			{
+				"Action"		"spec_chase"
+				"LocString"		"#citadel_keybind_spec_chase"
+			}
+
+			"ReplayInEye"
+			{
+				"Action"		"spec_in_eye"
+				"LocString"		"#citadel_keybind_spec_in_eye"
+			}
+
+			"ReplayFlyUp"
+			{
+				"Action"		"spec_fly_up"
+				"LocString"		"#citadel_keybind_replay_fly_up"
+			}
+
+			"ReplayFlyDown"
+			{
+				"Action"		"spec_fly_down"
+				"LocString"		"#citadel_keybind_replay_fly_down"
+			}
+
+			"ReplayIncreaseSpeed"
+			{
+				"Action"		"citadel_increase_replay_speed"
+				"LocString"		"#citadel_keybind_increase_replay_speed"
+			}
+
+			"ReplayDecreaseSpeed"
+			{
+				"Action"		"citadel_decrease_replay_speed"
+				"LocString"		"#citadel_keybind_decrease_replay_speed"
+			}
+
+			"ReplayTogglePause"
+			{
+				"Action"		"citadel_replay_toggle_pause"
+				"LocString"		"#citadel_keybind_toggle_replay_pause"
+			}
+		}
+		"Dead"
+		{
+			"ReplayDeath"
+			{
+				"Action"		"+in_replay_death"
+				"AllowDuplicateBind" "1"
+				"LocString"		"#citadel_keybind_replay_death"
+			}
+		}
+		"Casting"
+		{
+			"CancelAbility"
+			{
+				"Action"		"+in_cancel_ability"
+				"AllowDuplicateBind" "1"
+				"LocString"		"#citadel_keybind_cancel_ability"
+			}
+		}
+	}
+
+	"Templates"
+	{
+
+		"DEFAULT"
+		{
+			"Name"		"DEFAULT"
+			"Version"		"1"
+			"AlgorithmicUpdateVersion"		"2"
+		
+			"Keys"
+			{
+				"AbilityMelee"
+				{
+					"Key"		"Q"
+				}
+				"Ability1"
+				{
+					"Key"		"1"
+				}
+
+				"Ability2"
+				{
+					"Key"		"2"
+				}
+				"Ability3"
+				{
+					"Key"		"3"
+				}
+				"Ability4"
+				{
+					"Key"		"4"
+				}
+				"Item1"
+				{
+					"Key"		"Z"
+				}
+
+				"Item2"
+				{
+					"Key"		"X"
+				}
+				"Item3"
+				{
+					"Key"		"C"
+				}
+				"Item4"
+				{
+					"Key"		"V"
+				}
+				"Mantle"
+				{
+					"Key"		"SPACE"
+				}				
+				"OpenHeroSheet"
+				{
+					"Key"		"B"
+				}
+				
+				"Roll"
+				{
+					"Key"		"SHIFT"
+				}
+				
+				"Crouch"
+				{
+					"Key"		"CTRL"
+				}
+				
+				"PushToTalk"
+				{
+					"Key"		"T"
+				}
+				
+				"Scoreboard"
+				{
+					"Key"		"TAB"
+				}
+				
+				"Reload"
+				{
+					"Key"		"R"
+				}
+							
+				"ExtraInfo"
+				{
+					"Key"		"ALT"
+				}
+
+				"AltCast"
+				{
+					"Key"		"MOUSE3"
+				}
+
+				"ReplayDeath"
+				{
+					"Key"		"R"
+				}
+																				
+				"MoveForward"
+				{
+					"Key"		"W"
+				}
+				
+				"MoveBackwards"
+				{
+					"Key"		"S"
+				}
+				
+				"MoveLeft"
+				{
+					"Key"		"A"
+				}
+				
+				"MoveRight"
+				{
+					"Key"		"D"
+				}
+				
+				"Attack"
+				{
+					"Key"		"MOUSE1"
+				}
+				
+				"ADS"
+				{
+					"Key"		"MOUSE2"
+				}
+				
+				"Chat"
+				{
+					"Key"		"ENTER"
+					"Modifier"		"SHIFT"
+				}
+				
+				"ChatTeam"
+				{
+					"Key"		"ENTER"
+				}
+				
+				"Ping"
+				{
+					"Key"		"MOUSE3"
+				}
+								
+				"MouseWheel"
+				{
+					"Key"		"Y"
+				}
+				
+				"HeldItem"
+				{
+					"Key"		"F"
+				}
+
+				"SwitchPlayerCam1"
+				{
+					"Key"		"F1"
+				}
+
+				"SwitchPlayerCam2"
+				{
+					"Key"		"F2"
+				}	
+
+				"SwitchPlayerCam3"
+				{
+					"Key"		"F3"
+				}
+
+				"SwitchPlayerCam4"
+				{
+					"Key"		"F4"
+				}	
+
+				"SwitchPlayerCam5"
+				{
+					"Key"		"F5"
+				}	
+
+				"AbilityUpgrade1"
+				{
+					"Key"		"1"
+					"Modifier"		"ALT"
+				}
+
+				"AbilityUpgrade2"
+				{
+					"Key"		"2"
+					"Modifier"		"ALT"
+				}
+
+				"AbilityUpgrade3"
+				{
+					"Key"		"3"
+					"Modifier"		"ALT"
+				}
+
+				"AbilityUpgrade4"
+				{
+					"Key"		"4"
+					"Modifier"		"ALT"
+				}
+
+				"ItemQuickCastMode"
+				{
+					"Key"		"0"
+				}
+				
+				"ToggleSpectatorCamera"
+				{
+					"Key"		"C"
+				}
+				
+				"SpectatorToggleFreeCursor"
+				{
+					"Key"		"J"
+				}
+
+				"ToggleSpectatorTeam"
+				{
+					"Key"		"SPACE"
+				}
+
+				"SpectatorNextTarget"
+				{
+					"Key"		"MOUSE1"
+				}
+
+				"SpectatorPrevTarget"
+				{
+					"Key"		"MOUSE2"
+				}
+
+				"SpectatorChase"
+				{
+					"Key"		"MWHEELDOWN"
+				}
+
+				"SpectatorInEye"
+				{
+					"Key"		"MWHEELUP"
+				}
+
+				"SpectatorFlyUp"
+				{
+					"Key"		"SHIFT"
+				}
+
+				"SpectatorFlyDown"
+				{
+					"Key"		"CTRL"
+				}
+
+
+				"SpectatorFOWTeamBoth"
+				{
+					"Key"		"F1"
+				}
+
+				"SpectatorFOWTeamTarget"
+				{
+					"Key"		"F2"
+				}
+
+				"SpectatorFOWTeamAmber"
+				{
+					"Key"		"F3"
+				}
+
+				"SpectatorFOWTeamSapphire"
+				{
+					"Key"		"F4"
+				}
+
+				"ToggleReplayCamera"
+				{
+					"Key"		"C"
+				}
+
+				"ToggleReplayTeam"
+				{
+					"Key"		"SPACE"
+				}
+
+				"ReplayNextTarget"
+				{
+					"Key"		"MOUSE1"
+				}
+
+				"ReplayPrevTarget"
+				{
+					"Key"		"MOUSE2"
+				}
+
+				"ReplayChase"
+				{
+					"Key"		"MWHEELDOWN"
+				}
+
+				"ReplayInEye"
+				{
+					"Key"		"MWHEELUP"
+				}
+
+				"ReplayFlyUp"
+				{
+					"Key"		"SHIFT"
+				}
+
+				"ReplayFlyDown"
+				{
+					"Key"		"CTRL"
+				}
+
+				"ReplayIncreaseSpeed"
+				{
+					"Key"		"="
+				}
+
+				"ReplayDecreaseSpeed"
+				{
+					"Key"		"-"
+				}
+
+				"ReplayTogglePause"
+				{
+					"Key"		"P"
+				}
+				
+				"DevConsole"
+				{
+					"Key"		"F7"
+				}
+
+				"Pause"
+				{
+					"Key"		"P"
+				}
+
+				"ToggleMute"
+				{
+					"Key"		"NONE"
+				}
+
+				"Zipline"
+				{
+					"Key"		"NONE"
+				}
+
+				"Teleport"
+				{
+					"Key"		"G"
+				}
+
+				"CancelAbility"
+				{
+					"Key"		"SPACE"
+				}
+			}
+		}		
+		
+	}
+}

@@ -108,7 +108,6 @@
 			"Scoreboard"
 			{
 				"Action"		"+show_scoreboard"
-				"IsUnique" "1"
 				"IsAlsoSpectatorBind" "1"
 				"IsAlsoReplayBind" "1"
 				"AllowDuplicateBind" "1"
@@ -283,8 +282,20 @@
 			{
 			}
 
-			
-			
+			"AbilityQuickCastMode1"
+			{
+			}
+
+			"AbilityQuickCastMode2"
+			{
+			}
+			"AbilityQuickCastMode3"
+			{
+			}
+			"AbilityQuickCastMode4"
+			{
+			}
+
 			"DevConsole"
 			{
 				"Action"		"toggleconsole"
@@ -296,6 +307,12 @@
 			{
 				"Action"		"citadel_pause"
 				"LocString"		"#citadel_keybind_pause"
+			}
+
+			"ToggleMute"
+			{
+				"Action"		"citadel_toggle_mute"
+				"LocString"		"#citadel_keybind_toggle_mute"
 			}
 
 			"Zipline"
@@ -500,15 +517,6 @@
 				"LocString"		"#citadel_keybind_replay_death"
 			}
 		}
-		"DeathReplays"
-		{
-			"StopReplayDeath"
-			{
-				"Action"		"replay_stop"
-				"AllowDuplicateBind" "1"
-				"LocString"		"#citadel_keybind_replay_death"
-			}
-		}
 
 		"Casting"
 		{
@@ -593,6 +601,11 @@
 				{
 					"Key"		"T"
 				}
+
+				"PushToTalkParty"
+				{
+					"Key"		"NONE"
+				}
 				
 				"Scoreboard"
 				{
@@ -618,12 +631,7 @@
 				{
 					"Key"		"R"
 				}
-							
-				"StopReplayDeath"
-				{
-					"Key"		"R"
-				}
-													
+																				
 				"MoveForward"
 				{
 					"Key"		"W"
@@ -730,6 +738,26 @@
 				}
 
 				"ItemQuickCastMode"
+				{
+					"Key"		"0"
+				}
+
+				"AbilityQuickCastMode1"
+				{
+					"Key"		"0"
+				}
+
+				"AbilityQuickCastMode2"
+				{
+					"Key"		"0"
+				}
+
+				"AbilityQuickCastMode3"
+				{
+					"Key"		"0"
+				}
+
+				"AbilityQuickCastMode4"
 				{
 					"Key"		"0"
 				}
@@ -865,9 +893,14 @@
 					"Key"		"P"
 				}
 
-				"Zipline"
+				"ToggleMute"
 				{
 					"Key"		"NONE"
+				}
+
+				"Zipline"
+				{
+					"Key"		"SPACE"
 				}
 
 				"Teleport"

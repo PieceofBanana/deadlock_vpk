@@ -47,7 +47,7 @@
                 "m_bCanSetTokenOverride": "true"
             },
             "AbilityChannelTime": {
-                "m_strValue": "8",
+                "m_strValue": "11",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cast",
                 "m_bCanSetTokenOverride": "true",
@@ -55,11 +55,9 @@
                     "_class": "scale_function_multi_stats",
                     "_my_subclass_name": "scale_duration",
                     "m_vecScalingStats": [
-                        "ETechPower",
+                        "EChannelDuration",
                         "ETechDuration"
-                    ],
-                    "m_eSpecificStatScaleType": "ETechPower",
-                    "m_flStatScale": "0.060000"
+                    ]
                 }
             },
             "AbilityPostCastDuration": {
@@ -199,7 +197,7 @@
                 "m_strCSSClass": "duration"
             },
             "SlowPercent": {
-                "m_strValue": "30",
+                "m_strValue": "25",
                 "m_strCSSClass": "slow",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
                 "m_UsageFlags": "APUsageFlag_ModifierConditional"

@@ -184,7 +184,7 @@
         "m_strCSSClass": "powerShard",
         "m_strAbilityImage": "file://{images}/upgrades/mods_tech/echo_shard.psd",
         "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CAN_CAST_ON_ZIPLINE",
-        "m_strCastSound": "Mods.Tech.Refresher.Cast",
+        "m_strCastSound": "Mods.Tech.EchoShard.Cast",
         "m_RefreshParticle": "particles/items/tech_power_shard.vpcf",
         "m_vecTooltipSectionInfo": [
             {

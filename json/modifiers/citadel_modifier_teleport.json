@@ -1,6 +1,21 @@
 {
     "citadel_modifier_teleport": {
         "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER",
-        "m_eDebuffType": "MODIFIER_DEBUFF_NO"
+        "m_eDebuffType": "MODIFIER_DEBUFF_NO",
+        "m_bDurationReducible": "false",
+        "m_SpeedBonusModifier": {
+            "_class": "modifier_base",
+            "_my_subclass_name": "bonus_speed",
+            "m_strParticleStatusEffect": "particles/abilities/kali/kali_speed_boost_buff.vpcf",
+            "m_flDuration": "5.000000",
+            "m_vecScriptValues": [
+                {
+                    "m_eModifierValue": "MODIFIER_VALUE_MOVEMENT_SPEED_MAX",
+                    "m_value": "118.110000"
+                }
+            ],
+            "m_strHudMessageText": "#TeleporterBonus",
+            "m_bIsHidden": "true"
+        }
     }
 }

@@ -37,7 +37,7 @@
                 }
             },
             "AbilityUnitTargetLimit": {
-                "m_strValue": "1",
+                "m_strValue": "10",
                 "m_bCanSetTokenOverride": "true"
             },
             "AbilityCastDelay": {
@@ -207,9 +207,9 @@
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_PRESS",
         "m_strAbilityImage": "file://{images}/hud/abilities/spectre/life_drain.psd",
         "m_eAbilitySpectatePriority": "CITADELTV_ABILITY_SPECTATE_PRIORITY_MEDIUM",
-        "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
+        "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_HERO_FRIENDLY | CITADEL_UNIT_TARGET_HERO_ENEMY | CITADEL_UNIT_TARGET_TROOPER_ENEMY | CITADEL_UNIT_TARGET_BOSS_ENEMY | CITADEL_UNIT_TARGET_BUILDING_ENEMY | CITADEL_UNIT_TARGET_PROP_ENEMY | CITADEL_UNIT_TARGET_MINION_ENEMY | CITADEL_UNIT_TARGET_NEUTRAL | CITADEL_UNIT_TARGET_CREEP_ENEMY",
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_UNIT",
-        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_ALWAYS_PREVIEW_RADIUS | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_USE_INSTANT_CAST_UNIT_TARGET_UI | CITADEL_ABILITY_BEHAVIOR_REQUIRE_ABILITY_BUTTON_TO_CANCEL | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_ALWAYS_PREVIEW_RADIUS | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_USE_INSTANT_CAST_UNIT_TARGET_UI | CITADEL_ABILITY_BEHAVIOR_TRIGGER_CANCEL_MASH_PROTECTION_ON_CAST | CITADEL_ABILITY_BEHAVIOR_REQUIRE_ABILITY_BUTTON_TO_CANCEL | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST | CITADEL_ABILITY_BEHAVIOR_ALLOW_ALT_CAST",
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_CONE",
         "m_flTargetingConeAngle": "20",
         "m_strCastAnimGraphParam": "b_LifeSteal",
@@ -247,7 +247,9 @@
             "m_SilenceModifier": {
                 "_class": "modifier_citadel_silenced",
                 "_my_subclass_name": "modifier_life_drain_silence",
-                "m_sLocalizationName": "modifier_life_drain_silence"
+                "m_sLocalizationName": "modifier_life_drain_silence",
+                "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER",
+                "m_strSmallIconCssClass": "silence_proc"
             },
             "m_bIsHidden": "true",
             "m_sExpiredSound": "Ghost.LifeDrain.End",
@@ -309,6 +311,8 @@
         },
         "m_strCastDelaySound": "Ghost.LifeDrain.Cast",
         "m_strSelectedLoopSound": "Ghost.LifeDrain.Select.Lp",
-        "m_strChannelLoopSound": "Ability.GhostSoldier.LifeDrain.Lp"
+        "m_strChannelLoopSound": "Ability.GhostSoldier.LifeDrain.Lp",
+        "m_strCastButtonLocToken": "#AbilityButtonHint_CastLifeDrain",
+        "m_strAltCastButtonLocToken": "#AbilityButtonHint_AlotCastLifeDrain"
     }
 }

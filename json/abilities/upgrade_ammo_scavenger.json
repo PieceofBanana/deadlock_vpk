@@ -128,13 +128,13 @@
                 "m_strValue": "2"
             },
             "SpiritPowerPerSoul": {
-                "m_strValue": "2",
+                "m_strValue": "1",
                 "m_strCSSClass": "tech_damage",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_POWER",
                 "m_UsageFlags": "APUsageFlag_ModifierConditional"
             },
             "MaxStacks": {
-                "m_strValue": "10"
+                "m_strValue": "20"
             }
         },
         "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
@@ -242,6 +242,8 @@
                 ]
             }
         ],
-        "m_eShopFilters": "EShopFilterWeaponDamage | EShopFilterClipSize"
+        "m_eShopFilters": "EShopFilterWeaponDamage | EShopFilterClipSize",
+        "m_StackSound": "Mods.Tech.AmmoScavenger.Proc_Spirit",
+        "m_AmmoSound": "Mods.Tech.AmmoScavenger.Proc_Ammo"
     }
 }

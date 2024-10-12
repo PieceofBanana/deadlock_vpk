@@ -133,7 +133,7 @@
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             },
             "LowHealthThreshold": {
-                "m_strValue": "40"
+                "m_strValue": "50"
             },
             "FervorMovespeed": {
                 "m_strValue": "4m",
@@ -272,7 +272,7 @@
                 "m_BonusesModifier": {
                     "_class": "modifier_fervor_bonuses",
                     "_my_subclass_name": "modifier_fervor_bonuses",
-                    "m_bIsHidden": "true",
+                    "m_bIsHidden": "false",
                     "m_vecAlwaysShowInStatModifierUI": [
                         "MODIFIER_VALUE_MOVEMENT_SPEED_MAX",
                         "MODIFIER_VALUE_FIRE_RATE"
@@ -283,8 +283,15 @@
                         "FervorMovespeed",
                         "FervorFireRate",
                         "FervorBulletResist"
-                    ]
-                }
+                    ],
+                    "m_sLocalizationName": "modifier_fervor_aura_active",
+                    "m_eDrawOverheadStatus": "OVERHEAD_DRAW_FOR_EVERYONE",
+                    "m_strSmallIconCssClass": "fervor_aura",
+                    "m_strHudIcon": "file://{images}/upgrades/mods_weapon/fervor.psd"
+                },
+                "m_sLocalizationName": "",
+                "m_eDrawOverheadStatus": "OVERHEAD_DRAW_NEVER",
+                "m_strSmallIconCssClass": ""
             }
         ],
         "m_eShopFilters": "EShopFilterWeaponDamage | EShopFilterFireRate | EShopFilterClipSize | EShopFilterMovement"

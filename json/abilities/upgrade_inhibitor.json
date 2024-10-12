@@ -245,7 +245,7 @@
                     "_class": "modifier_slow_base",
                     "_my_subclass_name": "modifier_slow_base",
                     "m_sLocalizationName": "modifier_inhibitor_debuff",
-                    "m_strSmallIconCssClass": "slowed",
+                    "m_strSmallIconCssClass": "inhibitor",
                     "m_bKeepMaximumDurationOnRefresh": "true",
                     "m_bDurationAffectedByEffectiveness": "true",
                     "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
@@ -255,12 +255,16 @@
                     "m_strParticleEffect": "particles/upgrades/inhibitor_debuff.vpcf",
                     "m_strParticleStatusEffect": "particles/status_fx/status_fx_inhibitor_debuff.vpcf",
                     "m_strScreenParticleEffect": "",
-                    "m_nStatusEffectPriority": "20"
+                    "m_nStatusEffectPriority": "20",
+                    "m_eDrawOverheadStatus": "OVERHEAD_DRAW_FOR_EVERYONE"
                 },
                 "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
                     "BaseAttackDamagePercent",
                     "BonusHealth"
-                ]
+                ],
+                "m_sLocalizationName": "",
+                "m_eDrawOverheadStatus": "OVERHEAD_DRAW_NEVER",
+                "m_strSmallIconCssClass": ""
             }
         ],
         "m_eShopFilters": "EShopFilterWeaponDamage | EShopFilterDisruption | EShopFilterFireRate"

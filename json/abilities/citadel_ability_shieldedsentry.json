@@ -4,7 +4,7 @@
         "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "30.000000",
+                "m_strValue": "24.000000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -26,7 +26,7 @@
                 }
             },
             "AbilityCastRange": {
-                "m_strValue": "15m",
+                "m_strValue": "20m",
                 "m_eDisplayUnits": "EDisplayUnit_Meters",
                 "m_strCSSClass": "range",
                 "m_bCanSetTokenOverride": "true",
@@ -76,7 +76,7 @@
                 }
             },
             "AbilityCooldownBetweenCharge": {
-                "m_strValue": "5",
+                "m_strValue": "3",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "charge_cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -123,7 +123,7 @@
                 "m_strValue": "10"
             },
             "TurretDeployTime": {
-                "m_strValue": "1",
+                "m_strValue": "0.25",
                 "m_strCSSClass": "duration",
                 "m_bIsHidden": "true"
             },
@@ -132,7 +132,7 @@
                 "m_strCSSClass": "health"
             },
             "TurretHealthScaling": {
-                "m_strValue": "30",
+                "m_strValue": "20",
                 "m_strCSSClass": "health"
             },
             "TurretAttackRange": {
@@ -163,7 +163,7 @@
                 }
             },
             "TurretAttackDelay": {
-                "m_strValue": ".35"
+                "m_strValue": "0.2"
             },
             "TurretDPS": {
                 "m_strValue": "60",
@@ -176,7 +176,7 @@
                 }
             },
             "TurretLifetime": {
-                "m_strValue": "30",
+                "m_strValue": "24",
                 "m_strCSSClass": "duration",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",
@@ -196,10 +196,10 @@
                 "m_UsageFlags": "APUsageFlag_ModifierConditional"
             },
             "NonHeroDamagePercentOutgoing": {
-                "m_strValue": "60"
+                "m_strValue": "50"
             },
             "BossDamagePercentOutgoing": {
-                "m_strValue": "40"
+                "m_strValue": "30"
             },
             "BossDamagePercentIncoming": {
                 "m_strValue": "50"
@@ -399,10 +399,6 @@
         "m_vecAbilityUpgrades": [
             {
                 "m_vecPropertyUpgrades": [
-                    {
-                        "m_strPropertyName": "AbilityCharges",
-                        "m_strBonus": "1"
-                    },
                     {
                         "m_strPropertyName": "MoveSlowPercent",
                         "m_strBonus": "25"

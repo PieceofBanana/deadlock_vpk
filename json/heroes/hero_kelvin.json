@@ -19,7 +19,7 @@
         "m_hRespawnParticle": "particles/generic/player_respawn_deploy.vpcf",
         "m_nModelSkin": "0",
         "m_mapStartingStats": {
-            "EMaxMoveSpeed": "6.500000",
+            "EMaxMoveSpeed": "6.800000",
             "ESprintSpeed": "0",
             "ECrouchSpeed": "4.750000",
             "EMoveAcceleration": "4",
@@ -38,6 +38,7 @@
             "ECritDamageReceivedScale": "1.000000",
             "ETechDuration": "1",
             "ETechRange": "1",
+            "ECritDamageBonusScale": "0.800000",
             "ETechArmorDamageReduction": "10.000000"
         },
         "m_flCollisionRadius": "20",
@@ -537,7 +538,8 @@
                     "EReloadSpeed",
                     "EBulletSpeed",
                     "EBulletSpeedIncrease",
-                    "EBulletLifesteal"
+                    "EBulletLifesteal",
+                    "ECritDamageBonusScale"
                 ],
                 "m_vecOtherDisplayStats": [
                     "ELightMeleeDamage",
@@ -584,11 +586,11 @@
         "m_strIconImageSmall": "file://{images}/heroes/kelvin_sm.psd",
         "m_strMinimapImage": "file://{images}/heroes/kelvin_mm.psd",
         "m_strUIAnimGraph": "models/heroes_staging/kelvin_v2/ui_kelvin.vanmgrph",
+        "m_sAG2VariationName": "models/animgraph2/shared/hero----kelvin.vnmvar",
         "m_strDeathSound": "Kelvin.Death",
         "m_hGameSoundEventScript": "soundevents/hero/kelvin.vsndevts",
         "m_strRosterSelectedSound": "Kelvin.VO.HeroPick",
         "m_strIconHeroCard": "file://{images}/heroes/kelvin_card.psd",
-        "m_hGeneratedVOEventScript": "soundevents/vo/generated_vo_hero_kelvin.vsndevts",
         "m_strRosterRemovedSound": "Kelvin.VO.HeroRemove",
         "m_strTopBarImage": "file://{images}/hud/hero_portraits/kelvin_hud.psd",
         "m_strUIPortraitMap": "maps/ui/hero_prefabs/kelvin.vmap",
@@ -611,6 +613,7 @@
         ],
         "m_strTopBarVertical": "file://{images}/heroes/kelvin_vertical.psd",
         "m_strUIShopAnimGraph": "models/heroes_staging/kelvin_v2/ui_shop_kelvin.vanmgrph",
-        "m_strUIShoppingMap": "maps/ui/hero_shop/kelvin_shop.vmap"
+        "m_strUIShoppingMap": "maps/ui/hero_shop/kelvin_shop.vmap",
+        "m_hGeneratedVOEventScript": "soundevents/vo/generated_vo_hero_kelvin.vsndevts"
     }
 }

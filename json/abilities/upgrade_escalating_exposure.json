@@ -15,7 +15,7 @@
                 }
             },
             "AbilityDuration": {
-                "m_strValue": "15",
+                "m_strValue": "12",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "duration",
                 "m_bCanSetTokenOverride": "true",
@@ -115,7 +115,7 @@
                 "m_strLocTokenOverride": "EscalatingExposureProcCooldown"
             },
             "MagicIncreasePerStack": {
-                "m_strValue": "6",
+                "m_strValue": "5",
                 "m_strCSSClass": "tech_armor_down"
             },
             "TechResist": {
@@ -132,11 +132,14 @@
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             },
             "TechArmorDamageReduction": {
-                "m_strValue": "-15",
+                "m_strValue": "-12",
                 "m_strCSSClass": "tech_armor_down",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST_REDUCTION",
                 "m_UsageFlags": "APUsageFlag_ModifierConditional",
                 "m_strLocTokenOverride": "EscalatingExposureTechArmorDamageReduction"
+            },
+            "MaxStacks": {
+                "m_strValue": "20"
             }
         },
         "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
@@ -221,6 +224,7 @@
                             }
                         ],
                         "m_vecAbilityProperties": [
+                            "MaxStacks",
                             "AbilityDuration",
                             "ProcCooldown"
                         ]
@@ -238,9 +242,10 @@
                     "_my_subclass_name": "modifier_debuff",
                     "m_strSmallIconCssClass": "escalating_exposure",
                     "m_strParticleEffect": "particles/upgrades/tech_resist_debuff.vpcf",
-                    "m_eDrawOverheadStatus": "OVERHEAD_DRAW_FOR_CASTER_ONLY",
+                    "m_eDrawOverheadStatus": "OVERHEAD_DRAW_FOR_EVERYONE",
                     "m_nAttributes": "MODIFIER_ATTRIBUTE_MULTIPLE",
-                    "m_bIsHidden": "true"
+                    "m_bIsHidden": "false",
+                    "m_strHudIcon": "file://{images}/upgrades/mods_tech/escalating_exposure.psd"
                 },
                 "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
                     "TechResist",
@@ -254,18 +259,8 @@
                 "m_vecProcDamageTypes": [
                     "CITADEL_DAMAGETYPE_ABILITY"
                 ],
-                "m_DebuffModifier": {
-                    "_class": "modifier_base",
-                    "_my_subclass_name": "modifier_base",
-                    "m_strSmallIconCssClass": "escalating_exposure",
-                    "m_strParticleEffect": "particles/upgrades/tech_resist_debuff.vpcf",
-                    "m_bDurationAffectedByEffectiveness": "true",
-                    "m_bIsHidden": "true",
-                    "m_eDrawOverheadStatus": "OVERHEAD_DRAW_FOR_CASTER_ONLY",
-                    "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
-                        "TechArmorDamageReduction"
-                    ]
-                }
+                "m_bUseNonEmbedded": "true",
+                "m_NonEmbeddedModifier": "modifier_escalating_exposure_tech_armor_debuff"
             }
         ],
         "m_vecComponentItems": [

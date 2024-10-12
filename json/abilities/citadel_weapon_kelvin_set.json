@@ -109,12 +109,6 @@
                 "m_strDisableValue": "0",
                 "m_bCanSetTokenOverride": "true",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
-            },
-            "CritScalePercent": {
-                "m_strValue": "-20",
-                "m_strCSSClass": "bullet_damage",
-                "m_eProvidedPropertyType": "MODIFIER_VALUE_BONUS_CRIT_DAMAGE_PERCENT",
-                "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             }
         },
         "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
@@ -317,15 +311,6 @@
             "m_flDofFarBlurry": "7000.000000"
         },
         "m_sDisarmedSound": "Player.Weapon.Jammed",
-        "m_flMinDisarmedSoundInterval": "0.100000",
-        "m_AutoIntrinsicModifiers": [
-            {
-                "_class": "modifier_intrinsic_base",
-                "_my_subclass_name": "modifier_intrinsic_base",
-                "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
-                    "CritScalePercent"
-                ]
-            }
-        ]
+        "m_flMinDisarmedSoundInterval": "0.100000"
     }
 }

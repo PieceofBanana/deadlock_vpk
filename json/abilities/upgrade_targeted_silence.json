@@ -206,15 +206,16 @@
             "m_bHideWarningParticle": "1",
             "m_flSpeed": "2000",
             "m_flUpSpeed": "0",
-            "m_LoopingSound": "Mods.Weapon.TargetedSilence.Projectile.Lp"
+            "m_LoopingSound": "Mods.Weapon.TargetedSilence.Projectile.Lp",
+            "m_HitSound": "Mods.Weapon.TargetedSilence.Hit"
         },
         "m_TargetModifier": {
             "_class": "modifier_targeted_silence_debuff",
             "_my_subclass_name": "modifier_targeted_silence_debuff",
             "m_sLocalizationName": "modifier_citadel_silenced",
             "m_strSmallIconCssClass": "silence_proc",
-            "m_eDrawOverheadStatus": "OVERHEAD_DRAW_FOR_EVERYONE",
-            "m_sStartSound": "Mods.Weapon.TargetedSilence.Hit",
+            "m_eDrawOverheadStatus": "OVERHEAD_DRAW_NEVER",
+            "m_sStartSound": "",
             "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER",
             "m_strHudMessageText": "#upgrade_targeted_silence"
         },
@@ -258,12 +259,14 @@
                 "_my_subclass_name": "modifier_intrinsic_base",
                 "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
                     "BonusSprintSpeed"
-                ]
+                ],
+                "m_sStartSound": ""
             },
             {
                 "_my_subclass_name": "modifier_regenerating_tech_shield",
                 "_class": "modifier_regenerating_tech_shield",
-                "m_bIsHidden": "true"
+                "m_bIsHidden": "true",
+                "m_sStartSound": ""
             }
         ],
         "m_eShopFilters": "EShopFilterWeaponDamage | EShopFilterDisruption",

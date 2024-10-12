@@ -13,6 +13,7 @@
 				<Image id="HeldIdolImage" class="held_idol_image" />
 				<Panel id="BackgroundImage" />
 				<Panel id="ArrowImage" />
+				<Panel id="FrogImage" />
 			</Panel>
 		</snippet>
 		<snippet name="MinimapBossSnippet">

@@ -126,13 +126,13 @@
                 }
             },
             "ProcDamageBase": {
-                "m_strValue": "16",
+                "m_strValue": "12",
                 "m_strCSSClass": "tech_damage",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_tech_damage",
                     "_my_subclass_name": "Damage_scale_function",
                     "m_eSpecificStatScaleType": "ETechPower",
-                    "m_flStatScale": "0.400000"
+                    "m_flStatScale": "0.550000"
                 }
             },
             "ProcChance": {
@@ -151,7 +151,7 @@
                 }
             },
             "RevealDuration": {
-                "m_strValue": "2.0",
+                "m_strValue": "3.0",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",
                     "_my_subclass_name": "RevealDuration_scale_function",
@@ -352,7 +352,12 @@
                     },
                     "m_BuffStatusVictimParticle": "particles/abilities/mirage/mirage_djinns_mark_stacks_victim_buff.vpcf",
                     "m_StackDamageParticle": "particles/abilities/mirage/mirage_djinns_mark_damage.vpcf",
-                    "m_StackReadyParticle": "particles/abilities/mirage/mirage_djinns_mark_debuff_ready.vpcf"
+                    "m_StackReadyParticle": "particles/abilities/mirage/mirage_djinns_mark_debuff_ready.vpcf",
+                    "m_DebuffStatusPlayerParticle": "particles/abilities/mirage/mirage_djinns_mark_player_debuff.vpcf",
+                    "m_DebuffStatusVictimParticle": "particles/abilities/mirage/mirage_djinns_mark_victim_debuff.vpcf",
+                    "m_DebuffStatusNPCParticle": "particles/abilities/mirage/mirage_djinns_mark_npc_debuff.vpcf",
+                    "m_eDrawOverheadStatus": "OVERHEAD_DRAW_FOR_CASTER_ONLY",
+                    "m_strSmallIconCssClass": "sand_phantom_passive_victim"
                 }
             }
         ],

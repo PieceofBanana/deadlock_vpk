@@ -125,7 +125,7 @@
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_tech_damage",
                     "_my_subclass_name": "DPS_scale_function",
-                    "m_flStatScale": "0.393120",
+                    "m_flStatScale": "0.340000",
                     "m_eSpecificStatScaleType": "ETechPower"
                 }
             },

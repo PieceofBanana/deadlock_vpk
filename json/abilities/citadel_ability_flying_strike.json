@@ -231,7 +231,7 @@
         "m_nAbillityUnlocksCost": "1",
         "m_eAbilityType": "EAbilityType_Signature",
         "m_iMaxLevel": "1",
-        "m_bitsInterruptingStates": "MODIFIER_STATE_IMMOBILIZED | MODIFIER_STATE_STUNNED | MODIFIER_STATE_IS_ASLEEP",
+        "m_bitsInterruptingStates": "MODIFIER_STATE_IMMOBILIZED | MODIFIER_STATE_STUNNED | MODIFIER_STATE_OUT_OF_GAME | MODIFIER_STATE_IS_ASLEEP",
         "m_PreviewPathParticle": "particles/generic/generic_arc.vpcf",
         "m_strAbilityOffCooldownSound": "",
         "m_strAbilityChargeReadySound": "",

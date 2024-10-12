@@ -26,7 +26,7 @@
                 }
             },
             "AbilityCastRange": {
-                "m_strValue": "25m",
+                "m_strValue": "30m",
                 "m_eDisplayUnits": "EDisplayUnit_Meters",
                 "m_strCSSClass": "range",
                 "m_bCanSetTokenOverride": "true",
@@ -246,7 +246,7 @@
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_SPHERE",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
         "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_PREVENT_BOT_USAGE",
-        "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_HERO",
+        "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_HERO | CITADEL_UNIT_TARGET_TROOPER_ENEMY",
         "m_strHookSuccessSound": "Ability.Bebop.Hook.Success.Multi",
         "m_strHookAllySound": "Ability.Bebop.Hook.Success.Multi",
         "m_HookOutParticle": "particles/abilities/bebop/bebop_hook.vpcf",
@@ -271,6 +271,7 @@
             "m_nBehaviors": "PBF_DisableTriggerProjectileImpactBehavior | PBF_ValidateTargetLineOfSight",
             "m_LoopingSound": "Ability.Bebop.Hook.Proj.Lp"
         },
+        "m_flTrooperHitRadius": "12.000000",
         "m_vecAbilityUpgrades": [
             {
                 "m_vecPropertyUpgrades": [
@@ -360,7 +361,7 @@
             "m_nEnabledStateMask": "MODIFIER_STATE_COMMAND_RESTRICTED | MODIFIER_STATE_GLOW_TO_PROVIDER | MODIFIER_STATE_GLOW_THROUGH_WALLS_TO_PROVIDER | MODIFIER_STATE_AIR_DUCKING_FORCED | MODIFIER_STATE_SILENCE_MOVEMENT_ABILITES",
             "m_SlowModifier": {
                 "_class": "modifier_slow_base",
-                "_my_subclass_name": "modifier_slow_base",
+                "_my_subclass_name": "modifier_slow_bases",
                 "m_strParticleEffect": "particles/generic/generic_slow_debuff.vpcf",
                 "m_sLocalizationName": "hook_modifier_slow",
                 "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
@@ -387,7 +388,9 @@
             },
             "m_flTossUpSpeed": "160",
             "m_strApproachingWhooshSound": "Ability.Bebop.Hook.TargetApproaching",
-            "m_sAmbientLoopingSound": "Ability.Bebop.Hook.Proj.Lp"
+            "m_sAmbientLoopingSound": "Ability.Bebop.Hook.Proj.Lp",
+            "m_strSmallIconCssClass": "tether_proc",
+            "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER"
         },
         "m_BulletAmpModifier": {
             "_class": "modifier_bebop_hook_bullet_amp",

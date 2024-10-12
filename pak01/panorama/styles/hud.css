@@ -3236,13 +3236,29 @@ CitadelHudSoulAPContainer.ShowGoldAndAPOnHud
 	color: #ff9898;
 }
 
+#CheaterVoteBox #CheaterInfo
+{
+	flow-children: right;
+	width: 100%;
+	height: 30px;
+	margin-bottom: 10px;
+}
+
+#CheaterVoteBox #CheaterHeroImage
+{
+	width: 25px;
+	height: 25px;
+	margin-right: 5px;
+	vertical-align: center;
+	background-color: #000000;
+}
+
 #CheaterVoteBox .CaptionName
 {
 	font-size: 20px;
 	text-shadow: 2px 2px 3px #00000090;
 	width: 100%;
 	font-weight: bold;
-	margin: 5px 0px 10px 0px;
 	padding-left: 2px;
 }
 
@@ -3263,19 +3279,63 @@ CitadelHudSoulAPContainer.ShowGoldAndAPOnHud
 
 #CheaterVoteBox #ButtonRow
 {
-	flow-children: down;
+	flow-children: right;
 	height: fit-children;
-	width: 100%;
 	vertical-align: bottom;
 	margin-bottom: 10px;
 	visibility: collapse;
 }
 
-#CheaterVoteBox .SecondaryButton
+#CheaterVoteBox .FrogButton
 {
-	horizontal-align: left;
+	height: 120px;
+	width: 120px;
+	margin: 5px 5px;
+	background-color: #00000070;
+	border-radius: 10px;
+	border: 2px solid #ffffff10;
+	flow-children: down;
+}
+
+#CheaterVoteBox .FrogButton:hover
+{
+	background-color: #bcbcbc20;
+}
+
+#CheaterVoteBox .FrogButton:active
+{
+	background-color: #000000;
+}
+
+#CheaterVoteBox .FrogButton Label
+{
+	font-weight: bold;
+	font-family: serif;
+	margin: 0px 10px;
+	font-size: 20px;
+	text-overflow: shrink;
+	text-align: center;
+	horizontal-align: center;
+	line-height: 20px;
+}
+
+#CheaterVoteBox .frogButtonIcon
+{
+	width: 40px;
 	height: 40px;
-	margin: 5px 0px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	horizontal-align: center;
+	background-image: url("s2r://panorama/images/global/report/frog_button_png.vtex");
+	background-size: contain;
+	wash-color: colorEnemy&ee;
+	box-shadow: 3px 3px 10px 3.0 #000000;
+	border-radius: 50%;
+}
+
+#CheaterVoteBox #KeepPlaying .frogButtonIcon
+{
+	wash-color: rgb(95, 159, 95);
 }
 
 #CheaterVoteBox #AbramsImg

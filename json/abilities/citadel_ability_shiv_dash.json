@@ -138,7 +138,7 @@
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_tech_damage",
                     "_my_subclass_name": "ImpactDamage_scale_function",
-                    "m_flStatScale": "1.200000",
+                    "m_flStatScale": "1.300000",
                     "m_eSpecificStatScaleType": "ETechPower"
                 }
             },
@@ -234,7 +234,7 @@
                 "m_vecPropertyUpgrades": [
                     {
                         "m_strPropertyName": "AbilityCooldown",
-                        "m_strBonus": "-3.750000"
+                        "m_strBonus": "-4"
                     }
                 ]
             },

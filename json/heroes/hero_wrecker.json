@@ -19,7 +19,7 @@
         "m_hRespawnParticle": "particles/generic/player_respawn_deploy.vpcf",
         "m_nModelSkin": "0",
         "m_mapStartingStats": {
-            "EMaxMoveSpeed": "7",
+            "EMaxMoveSpeed": "7.300000",
             "ESprintSpeed": "0",
             "ECrouchSpeed": "4.750000",
             "EMoveAcceleration": "4",
@@ -37,7 +37,8 @@
             "EAbilityResourceRegenPerSecond": "0",
             "ECritDamageReceivedScale": "1.000000",
             "ETechDuration": "1",
-            "ETechRange": "1"
+            "ETechRange": "1",
+            "ECritDamageBonusScale": "1.000000"
         },
         "m_flCollisionRadius": "20",
         "m_flCollisionHeight": "80",
@@ -536,7 +537,8 @@
                     "EReloadSpeed",
                     "EBulletSpeed",
                     "EBulletSpeedIncrease",
-                    "EBulletLifesteal"
+                    "EBulletLifesteal",
+                    "ECritDamageBonusScale"
                 ],
                 "m_vecOtherDisplayStats": [
                     "ELightMeleeDamage",
@@ -586,7 +588,6 @@
         "m_hGameSoundEventScript": "soundevents/hero/wrecker.vsndevts",
         "m_strRosterSelectedSound": "Wrecker.VO.HeroPick",
         "m_strRosterRemovedSound": "Wrecker.VO.HeroRemove",
-        "m_hGeneratedVOEventScript": "soundevents/vo/generated_vo_hero_wrecker.vsndevts",
         "m_strUIPortraitMap": "maps/ui/hero_prefabs/wrecker.vmap",
         "m_RecommendedUpgrades": [
             "upgrade_improved_spirit",
@@ -614,6 +615,7 @@
         ],
         "m_strTopBarVertical": "file://{images}/heroes/wrecker_vertical.psd",
         "m_strUIShopAnimGraph": "models/heroes_staging/wrecker/ui_shop_wrecker.vanmgrph",
-        "m_strUIShoppingMap": "maps/ui/hero_shop/wrecker_shop.vmap"
+        "m_strUIShoppingMap": "maps/ui/hero_shop/wrecker_shop.vmap",
+        "m_hGeneratedVOEventScript": "soundevents/vo/generated_vo_hero_wrecker.vsndevts"
     }
 }

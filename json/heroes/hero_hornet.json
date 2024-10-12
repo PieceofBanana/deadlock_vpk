@@ -19,7 +19,7 @@
         "m_hRespawnParticle": "particles/generic/player_respawn_deploy.vpcf",
         "m_nModelSkin": "0",
         "m_mapStartingStats": {
-            "EMaxMoveSpeed": "8",
+            "EMaxMoveSpeed": "9",
             "ESprintSpeed": "0",
             "ECrouchSpeed": "4.750000",
             "EMoveAcceleration": "4",
@@ -38,7 +38,7 @@
             "ECritDamageReceivedScale": "1.000000",
             "ETechDuration": "1",
             "ETechRange": "1",
-            "EBulletArmorDamageReduction": "-10.000000"
+            "ECritDamageBonusScale": "1.000000"
         },
         "m_flCollisionRadius": "20",
         "m_flCollisionHeight": "80",
@@ -517,7 +517,7 @@
             ]
         },
         "m_mapStandardLevelUpUpgrades": {
-            "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": "0.785714",
+            "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": "0.550000",
             "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": "2.671429",
             "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": "20.000000",
             "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": "0.000000",
@@ -537,7 +537,8 @@
                     "EReloadSpeed",
                     "EBulletSpeed",
                     "EBulletSpeedIncrease",
-                    "EBulletLifesteal"
+                    "EBulletLifesteal",
+                    "ECritDamageBonusScale"
                 ],
                 "m_vecOtherDisplayStats": [
                     "ELightMeleeDamage",
@@ -589,7 +590,6 @@
         "m_hGameSoundEventScript": "soundevents/hero/hornet.vsndevts",
         "m_strRosterSelectedSound": "Vindicta.VO.HeroPick",
         "m_strIconHeroCard": "file://{images}/heroes/hornet_card.psd",
-        "m_hGeneratedVOEventScript": "soundevents/vo/generated_vo_hero_hornet.vsndevts",
         "m_strRosterRemovedSound": "Vindicta.VO.HeroRemove",
         "m_strTopBarImage": "file://{images}/hud/hero_portraits/hornet_hud.psd",
         "m_strUIPortraitMap": "maps/ui/hero_prefabs/hornet.vmap",
@@ -614,6 +614,7 @@
         ],
         "m_strTopBarVertical": "file://{images}/heroes/hornet_vertical.psd",
         "m_strUIShopAnimGraph": "models/heroes_staging/hornet_v3/ui_shop_hornet.vanmgrph",
-        "m_strUIShoppingMap": "maps/ui/hero_shop/hornet_shop.vmap"
+        "m_strUIShoppingMap": "maps/ui/hero_shop/hornet_shop.vmap",
+        "m_hGeneratedVOEventScript": "soundevents/vo/generated_vo_hero_hornet.vsndevts"
     }
 }

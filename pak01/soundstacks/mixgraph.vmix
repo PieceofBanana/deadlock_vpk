@@ -7970,6 +7970,14 @@
 				},
 				
 				{
+					name = "return_fire"
+					sendOperator = "SendVoiceWithNamedSend"
+					soloname = 4197000562
+					channels = -1
+					mixDownRule = 0
+				},
+				
+				{
 					name = "team_filtering"
 					sendOperator = ""
 					soloname = 2043191518
@@ -8051,17 +8059,17 @@
 				},
 				
 				{
-					name = "VOIP"
+					name = "music"
 					sendOperator = "SendVoiceWithNamedSend"
-					soloname = 4082477096
+					soloname = 255385839
 					channels = -1
 					mixDownRule = 0
 				},
 				
 				{
-					name = "music"
+					name = "VOIP"
 					sendOperator = "SendVoiceWithNamedSend"
-					soloname = 255385839
+					soloname = 4082477096
 					channels = -1
 					mixDownRule = 0
 				},
@@ -8146,6 +8154,29 @@
 				},
 				
 				{
+					m_name = "audio.Compressor26"
+					m_effectName = ""
+					m_subgraphs = 
+					[
+					]
+					m_nProcessorType = "VPROCESSOR_DYNAMICS_COMPRESSOR"
+					m_nChannels = -1
+					m_flxfade = 0.100000
+					m_params = 
+					{
+						m_fldbOutputGain = 4.700000
+						m_fldbCompressionThreshold = -24.625000
+						m_fldbKneeWidth = 0.000000
+						m_flCompressionRatio = 40.000000
+						m_flAttackTimeMS = 62.000000
+						m_flReleaseTimeMS = 366.000000
+						m_flRMSTimeMS = 300.000000
+						m_flWetMix = 1.000000
+						m_bPeakMode = false
+					}
+				},
+				
+				{
 					m_name = "audio.Delay2"
 					m_effectName = ""
 					m_subgraphs = 
@@ -8217,6 +8248,36 @@
 				},
 				
 				{
+					m_name = "audio.AutoFilter1"
+					m_effectName = ""
+					m_subgraphs = 
+					[
+					]
+					m_nProcessorType = "VPROCESSOR_AUTOFILTER"
+					m_nChannels = -1
+					m_flxfade = 0.100000
+					m_params = 
+					{
+						m_flEnvelopeAmount = 0.000000
+						m_flAttackTimeMS = 5.000000
+						m_flReleaseTimeMS = 200.000000
+						m_filter = 
+						{
+							m_nFilterType = "FILTER_BANDPASS"
+							m_nFilterSlope = "FILTER_SLOPE_12dB"
+							m_bEnabled = true
+							m_fldbGain = 0.000000
+							m_flCutoffFreq = 1258.925171
+							m_flQ = 0.840000
+						}
+						m_flLFOAmount = 19.800001
+						m_flLFORate = 0.500000
+						m_flPhase = 0.000000
+						m_nLFOShape = "LFO_SHAPE_SINE"
+					}
+				},
+				
+				{
 					m_name = "team_hf_shelf"
 					m_effectName = ""
 					m_subgraphs = 
@@ -8233,6 +8294,37 @@
 						m_fldbGain = -2.504587
 						m_flCutoffFreq = 4872.215820
 						m_flQ = 1.000000
+					}
+				},
+				
+				{
+					m_name = "audio.ModDelay1"
+					m_effectName = ""
+					m_subgraphs = 
+					[
+					]
+					m_nProcessorType = "VPROCESSOR_MOD_DELAY"
+					m_nChannels = -1
+					m_flxfade = 0.100000
+					m_params = 
+					{
+						m_feedbackFilter = 
+						{
+							m_nFilterType = "FILTER_BANDPASS"
+							m_nFilterSlope = "FILTER_SLOPE_12dB"
+							m_bEnabled = true
+							m_fldbGain = 0.000000
+							m_flCutoffFreq = 1500.000000
+							m_flQ = 6.000000
+						}
+						m_bPhaseInvert = false
+						m_flGlideTime = 100.000000
+						m_flDelay = 400.000000
+						m_flOutputGain = 12.000000
+						m_flFeedbackGain = -9.000000
+						m_flModRate = 0.200000
+						m_flModDepth = 0.500000
+						m_bApplyAntialiasing = true
 					}
 				},
 				
@@ -8645,26 +8737,6 @@
 				},
 				
 				{
-					m_name = "voip_hpf"
-					m_effectName = ""
-					m_subgraphs = 
-					[
-					]
-					m_nProcessorType = "VPROCESSOR_FILTER"
-					m_nChannels = -1
-					m_flxfade = 0.100000
-					m_params = 
-					{
-						m_nFilterType = "FILTER_HIGHPASS"
-						m_nFilterSlope = "FILTER_SLOPE_48dB"
-						m_bEnabled = true
-						m_fldbGain = 0.000000
-						m_flCutoffFreq = 76.162933
-						m_flQ = 0.697459
-					}
-				},
-				
-				{
 					m_name = "hero_vo_duck"
 					m_effectName = ""
 					m_subgraphs = 
@@ -8685,32 +8757,6 @@
 						m_flAttackTimeMS = 66.000000
 						m_flReleaseTimeMS = 226.000000
 						m_flRMSTimeMS = 114.000000
-						m_flWetMix = 1.000000
-						m_bPeakMode = false
-					}
-				},
-				
-				{
-					m_name = "voip_compressor"
-					m_effectName = ""
-					m_subgraphs = 
-					[
-					]
-					m_nProcessorType = "VPROCESSOR_DYNAMICS"
-					m_nChannels = -1
-					m_flxfade = 0.100000
-					m_params = 
-					{
-						m_fldbGain = 15.000000
-						m_fldbNoiseGateThreshold = -60.000000
-						m_fldbCompressionThreshold = -36.000000
-						m_fldbLimiterThreshold = 0.000000
-						m_fldbKneeWidth = 12.000000
-						m_flRatio = 10.000000
-						m_flLimiterRatio = 40.000000
-						m_flAttackTimeMS = 5.000000
-						m_flReleaseTimeMS = 250.000000
-						m_flRMSTimeMS = 100.000000
 						m_flWetMix = 1.000000
 						m_bPeakMode = false
 					}
@@ -8865,7 +8911,7 @@
 				
 				{
 					command = "submix.debug"
-					paramName = 2043191518
+					paramName = -97966734
 					outputSubmix = -1
 					inputSubmix0 = 1
 					inputSubmix1 = -1
@@ -8887,7 +8933,7 @@
 				
 				{
 					command = "submix.debug"
-					paramName = 1808338310
+					paramName = 2043191518
 					outputSubmix = -1
 					inputSubmix0 = 2
 					inputSubmix1 = -1
@@ -8909,7 +8955,7 @@
 				
 				{
 					command = "submix.debug"
-					paramName = -806880202
+					paramName = 1808338310
 					outputSubmix = -1
 					inputSubmix0 = 3
 					inputSubmix1 = -1
@@ -8931,7 +8977,7 @@
 				
 				{
 					command = "submix.debug"
-					paramName = 31405149
+					paramName = -806880202
 					outputSubmix = -1
 					inputSubmix0 = 4
 					inputSubmix1 = -1
@@ -8953,7 +8999,7 @@
 				
 				{
 					command = "submix.debug"
-					paramName = -1275108025
+					paramName = 31405149
 					outputSubmix = -1
 					inputSubmix0 = 5
 					inputSubmix1 = -1
@@ -8975,7 +9021,7 @@
 				
 				{
 					command = "submix.debug"
-					paramName = 2072008610
+					paramName = -1275108025
 					outputSubmix = -1
 					inputSubmix0 = 6
 					inputSubmix1 = -1
@@ -8997,7 +9043,7 @@
 				
 				{
 					command = "submix.debug"
-					paramName = 1481579468
+					paramName = 2072008610
 					outputSubmix = -1
 					inputSubmix0 = 7
 					inputSubmix1 = -1
@@ -9019,7 +9065,7 @@
 				
 				{
 					command = "submix.debug"
-					paramName = -175958427
+					paramName = 1481579468
 					outputSubmix = -1
 					inputSubmix0 = 8
 					inputSubmix1 = -1
@@ -9041,7 +9087,7 @@
 				
 				{
 					command = "submix.debug"
-					paramName = -334368100
+					paramName = -175958427
 					outputSubmix = -1
 					inputSubmix0 = 9
 					inputSubmix1 = -1
@@ -9063,7 +9109,7 @@
 				
 				{
 					command = "submix.debug"
-					paramName = -830711699
+					paramName = -334368100
 					outputSubmix = -1
 					inputSubmix0 = 10
 					inputSubmix1 = -1
@@ -9085,7 +9131,7 @@
 				
 				{
 					command = "submix.debug"
-					paramName = -212490200
+					paramName = -830711699
 					outputSubmix = -1
 					inputSubmix0 = 11
 					inputSubmix1 = -1
@@ -9129,7 +9175,7 @@
 				
 				{
 					command = "submix.debug"
-					paramName = 196102810
+					paramName = -212490200
 					outputSubmix = -1
 					inputSubmix0 = 13
 					inputSubmix1 = -1
@@ -9146,6 +9192,28 @@
 					inputSubmix1 = -1
 					processor = -1
 					inputValue0 = 13
+					inputValue1 = -1
+				},
+				
+				{
+					command = "submix.debug"
+					paramName = 196102810
+					outputSubmix = -1
+					inputSubmix0 = 14
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = -1
+					inputValue1 = -1
+				},
+				
+				{
+					command = "submix.meter"
+					paramName = 0
+					outputSubmix = -1
+					inputSubmix0 = 14
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = 14
 					inputValue1 = -1
 				},
 				
@@ -9196,7 +9264,7 @@
 				{
 					command = "submix.copy"
 					paramName = 0
-					outputSubmix = 14
+					outputSubmix = 15
 					inputSubmix0 = 0
 					inputSubmix1 = -1
 					processor = -1
@@ -9208,10 +9276,10 @@
 					command = "submix.meter"
 					paramName = 0
 					outputSubmix = -1
-					inputSubmix0 = 14
+					inputSubmix0 = 15
 					inputSubmix1 = -1
 					processor = -1
-					inputValue0 = 14
+					inputValue0 = 15
 					inputValue1 = -1
 				},
 				
@@ -9233,7 +9301,7 @@
 					inputSubmix0 = 0
 					inputSubmix1 = -1
 					processor = -1
-					inputValue0 = 15
+					inputValue0 = 16
 					inputValue1 = -1
 				},
 				
@@ -9244,7 +9312,40 @@
 					inputSubmix0 = 0
 					inputSubmix1 = -1
 					processor = -1
-					inputValue0 = 16
+					inputValue0 = 17
+					inputValue1 = -1
+				},
+				
+				{
+					command = "submix.process"
+					paramName = -2071864867
+					outputSubmix = 1
+					inputSubmix0 = 1
+					inputSubmix1 = -1
+					processor = 1
+					inputValue0 = -1
+					inputValue1 = -1
+				},
+				
+				{
+					command = "submix.debug"
+					paramName = -1214650462
+					outputSubmix = -1
+					inputSubmix0 = 1
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = -1
+					inputValue1 = -1
+				},
+				
+				{
+					command = "processor.storeparameter"
+					paramName = 1863130604
+					outputSubmix = -1
+					inputSubmix0 = -1
+					inputSubmix1 = -1
+					processor = 1
+					inputValue0 = 2
 					inputValue1 = -1
 				},
 				
@@ -9252,7 +9353,7 @@
 					command = "submix.spectrum"
 					paramName = -2041601984
 					outputSubmix = -1
-					inputSubmix0 = 14
+					inputSubmix0 = 15
 					inputSubmix1 = -1
 					processor = -1
 					inputValue0 = -1
@@ -9262,10 +9363,10 @@
 				{
 					command = "submix.process"
 					paramName = -137752178
-					outputSubmix = 14
-					inputSubmix0 = 14
+					outputSubmix = 15
+					inputSubmix0 = 15
 					inputSubmix1 = -1
-					processor = 1
+					processor = 2
 					inputValue0 = -1
 					inputValue1 = -1
 				},
@@ -9274,7 +9375,7 @@
 					command = "submix.debug"
 					paramName = 178171613
 					outputSubmix = -1
-					inputSubmix0 = 14
+					inputSubmix0 = 15
 					inputSubmix1 = -1
 					processor = -1
 					inputValue0 = -1
@@ -9285,7 +9386,7 @@
 					command = "submix.spectrum"
 					paramName = 178171613
 					outputSubmix = -1
-					inputSubmix0 = 14
+					inputSubmix0 = 15
 					inputSubmix1 = -1
 					processor = -1
 					inputValue0 = -1
@@ -9298,7 +9399,7 @@
 					outputSubmix = -1
 					inputSubmix0 = -1
 					inputSubmix1 = -1
-					processor = 2
+					processor = 3
 					inputValue0 = 0
 					inputValue1 = -1
 				},
@@ -9309,7 +9410,7 @@
 					outputSubmix = 0
 					inputSubmix0 = 0
 					inputSubmix1 = -1
-					processor = 2
+					processor = 3
 					inputValue0 = -1
 					inputValue1 = -1
 				},
@@ -9329,7 +9430,7 @@
 					command = "submix.spectrum"
 					paramName = -1166342213
 					outputSubmix = -1
-					inputSubmix0 = 1
+					inputSubmix0 = 2
 					inputSubmix1 = -1
 					processor = -1
 					inputValue0 = -1
@@ -9339,10 +9440,10 @@
 				{
 					command = "submix.process"
 					paramName = 56301609
-					outputSubmix = 1
-					inputSubmix0 = 1
+					outputSubmix = 2
+					inputSubmix0 = 2
 					inputSubmix1 = -1
-					processor = 3
+					processor = 4
 					inputValue0 = -1
 					inputValue1 = -1
 				},
@@ -9351,7 +9452,7 @@
 					command = "submix.debug"
 					paramName = -187599827
 					outputSubmix = -1
-					inputSubmix0 = 1
+					inputSubmix0 = 2
 					inputSubmix1 = -1
 					processor = -1
 					inputValue0 = -1
@@ -9362,10 +9463,65 @@
 					command = "submix.spectrum"
 					paramName = -768753714
 					outputSubmix = -1
+					inputSubmix0 = 2
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = -1
+					inputValue1 = -1
+				},
+				
+				{
+					command = "submix.spectrum"
+					paramName = -810446367
+					outputSubmix = -1
 					inputSubmix0 = 1
 					inputSubmix1 = -1
 					processor = -1
 					inputValue0 = -1
+					inputValue1 = -1
+				},
+				
+				{
+					command = "submix.process"
+					paramName = 826828785
+					outputSubmix = 1
+					inputSubmix0 = 1
+					inputSubmix1 = -1
+					processor = 5
+					inputValue0 = -1
+					inputValue1 = -1
+				},
+				
+				{
+					command = "submix.debug"
+					paramName = -1410267374
+					outputSubmix = -1
+					inputSubmix0 = 1
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = -1
+					inputValue1 = -1
+				},
+				
+				{
+					command = "submix.spectrum"
+					paramName = -1410267374
+					outputSubmix = -1
+					inputSubmix0 = 1
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = -1
+					inputValue1 = -1
+				},
+				
+				{
+					command = "submix.meter"
+					paramName = 0
+					outputSubmix = -1
+					inputSubmix0 = 1
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = 18
 					inputValue1 = -1
 				},
 				
@@ -9376,7 +9532,7 @@
 					inputSubmix0 = 0
 					inputSubmix1 = -1
 					processor = -1
-					inputValue0 = 3
+					inputValue0 = 4
 					inputValue1 = -1
 				},
 				
@@ -9384,10 +9540,10 @@
 					command = "submix.accumulate_single"
 					paramName = 0
 					outputSubmix = 0
-					inputSubmix0 = 14
+					inputSubmix0 = 15
 					inputSubmix1 = -1
 					processor = -1
-					inputValue0 = 2
+					inputValue0 = 3
 					inputValue1 = -1
 				},
 				
@@ -9398,7 +9554,7 @@
 					inputSubmix0 = 0
 					inputSubmix1 = -1
 					processor = -1
-					inputValue0 = 17
+					inputValue0 = 19
 					inputValue1 = -1
 				},
 				
@@ -9417,7 +9573,7 @@
 					command = "submix.spectrum"
 					paramName = -215659326
 					outputSubmix = -1
-					inputSubmix0 = 1
+					inputSubmix0 = 2
 					inputSubmix1 = -1
 					processor = -1
 					inputValue0 = -1
@@ -9427,10 +9583,10 @@
 				{
 					command = "submix.process"
 					paramName = 998861656
-					outputSubmix = 1
-					inputSubmix0 = 1
+					outputSubmix = 2
+					inputSubmix0 = 2
 					inputSubmix1 = -1
-					processor = 4
+					processor = 6
 					inputValue0 = -1
 					inputValue1 = -1
 				},
@@ -9438,6 +9594,50 @@
 				{
 					command = "submix.debug"
 					paramName = -1620698069
+					outputSubmix = -1
+					inputSubmix0 = 2
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = -1
+					inputValue1 = -1
+				},
+				
+				{
+					command = "submix.spectrum"
+					paramName = 587658141
+					outputSubmix = -1
+					inputSubmix0 = 2
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = -1
+					inputValue1 = -1
+				},
+				
+				{
+					command = "submix.spectrum"
+					paramName = -1650924834
+					outputSubmix = -1
+					inputSubmix0 = 1
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = -1
+					inputValue1 = -1
+				},
+				
+				{
+					command = "submix.process"
+					paramName = -2076764559
+					outputSubmix = 1
+					inputSubmix0 = 1
+					inputSubmix1 = -1
+					processor = 7
+					inputValue0 = -1
+					inputValue1 = -1
+				},
+				
+				{
+					command = "submix.debug"
+					paramName = 1190746165
 					outputSubmix = -1
 					inputSubmix0 = 1
 					inputSubmix1 = -1
@@ -9448,7 +9648,7 @@
 				
 				{
 					command = "submix.spectrum"
-					paramName = 587658141
+					paramName = 1190746165
 					outputSubmix = -1
 					inputSubmix0 = 1
 					inputSubmix1 = -1
@@ -9474,7 +9674,7 @@
 					outputSubmix = 0
 					inputSubmix0 = 0
 					inputSubmix1 = -1
-					processor = 5
+					processor = 8
 					inputValue0 = -1
 					inputValue1 = -1
 				},
@@ -9508,18 +9708,7 @@
 					inputSubmix0 = 1
 					inputSubmix1 = -1
 					processor = -1
-					inputValue0 = 7
-					inputValue1 = -1
-				},
-				
-				{
-					command = "submix.accumulate_single"
-					paramName = 0
-					outputSubmix = 1
-					inputSubmix0 = 2
-					inputSubmix1 = -1
-					processor = -1
-					inputValue0 = 4
+					inputValue0 = 9
 					inputValue1 = -1
 				},
 				
@@ -9546,13 +9735,35 @@
 				},
 				
 				{
+					command = "submix.accumulate_single"
+					paramName = 0
+					outputSubmix = 1
+					inputSubmix0 = 5
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = 7
+					inputValue1 = -1
+				},
+				
+				{
+					command = "submix.accumulate_single"
+					paramName = 0
+					outputSubmix = 1
+					inputSubmix0 = 2
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = 8
+					inputValue1 = -1
+				},
+				
+				{
 					command = "submix.meter"
 					paramName = 0
 					outputSubmix = -1
 					inputSubmix0 = 1
 					inputSubmix1 = -1
 					processor = -1
-					inputValue0 = 18
+					inputValue0 = 20
 					inputValue1 = -1
 				},
 				
@@ -9573,7 +9784,7 @@
 					outputSubmix = 0
 					inputSubmix0 = 0
 					inputSubmix1 = -1
-					processor = 6
+					processor = 9
 					inputValue0 = -1
 					inputValue1 = -1
 				},
@@ -9595,8 +9806,8 @@
 					outputSubmix = -1
 					inputSubmix0 = -1
 					inputSubmix1 = -1
-					processor = 6
-					inputValue0 = 8
+					processor = 9
+					inputValue0 = 10
 					inputValue1 = -1
 				},
 				
@@ -9607,7 +9818,7 @@
 					inputSubmix0 = 0
 					inputSubmix1 = -1
 					processor = -1
-					inputValue0 = 11
+					inputValue0 = 13
 					inputValue1 = -1
 				},
 				
@@ -9615,10 +9826,10 @@
 					command = "submix.accumulate_single"
 					paramName = 0
 					outputSubmix = 0
-					inputSubmix0 = 5
+					inputSubmix0 = 6
 					inputSubmix1 = -1
 					processor = -1
-					inputValue0 = 9
+					inputValue0 = 11
 					inputValue1 = -1
 				},
 				
@@ -9629,7 +9840,7 @@
 					inputSubmix0 = 1
 					inputSubmix1 = -1
 					processor = -1
-					inputValue0 = 10
+					inputValue0 = 12
 					inputValue1 = -1
 				},
 				
@@ -9640,7 +9851,7 @@
 					inputSubmix0 = 0
 					inputSubmix1 = -1
 					processor = -1
-					inputValue0 = 19
+					inputValue0 = 21
 					inputValue1 = -1
 				},
 				
@@ -9662,7 +9873,7 @@
 					inputSubmix0 = -1
 					inputSubmix1 = -1
 					processor = -1
-					inputValue0 = 12
+					inputValue0 = 14
 					inputValue1 = 0
 				},
 				
@@ -9672,7 +9883,7 @@
 					outputSubmix = -1
 					inputSubmix0 = -1
 					inputSubmix1 = -1
-					processor = 7
+					processor = 10
 					inputValue0 = 0
 					inputValue1 = -1
 				},
@@ -9683,8 +9894,8 @@
 					outputSubmix = -1
 					inputSubmix0 = -1
 					inputSubmix1 = -1
-					processor = 7
-					inputValue0 = 12
+					processor = 10
+					inputValue0 = 14
 					inputValue1 = -1
 				},
 				
@@ -9694,7 +9905,7 @@
 					outputSubmix = 0
 					inputSubmix0 = 0
 					inputSubmix1 = -1
-					processor = 7
+					processor = 10
 					inputValue0 = -1
 					inputValue1 = -1
 				},
@@ -9713,12 +9924,12 @@
 				{
 					command = "submix.copy"
 					paramName = 0
-					outputSubmix = 6
-					inputSubmix0 = 6
+					outputSubmix = 7
+					inputSubmix0 = 7
 					inputSubmix1 = -1
 					processor = -1
-					inputValue0 = 14
-					inputValue1 = 13
+					inputValue0 = 16
+					inputValue1 = 15
 				},
 				
 				{
@@ -9728,15 +9939,15 @@
 					inputSubmix0 = -1
 					inputSubmix1 = -1
 					processor = -1
-					inputValue0 = 14
-					inputValue1 = 13
+					inputValue0 = 16
+					inputValue1 = 15
 				},
 				
 				{
 					command = "submix.debug"
 					paramName = 525853370
 					outputSubmix = -1
-					inputSubmix0 = 6
+					inputSubmix0 = 7
 					inputSubmix1 = -1
 					processor = -1
 					inputValue0 = -1
@@ -9747,51 +9958,7 @@
 					command = "submix.meter"
 					paramName = 0
 					outputSubmix = -1
-					inputSubmix0 = 6
-					inputSubmix1 = -1
-					processor = -1
-					inputValue0 = 20
-					inputValue1 = -1
-				},
-				
-				{
-					command = "submix.copy"
-					paramName = 0
-					outputSubmix = 15
-					inputSubmix0 = 0
-					inputSubmix1 = -1
-					processor = -1
-					inputValue0 = 15
-					inputValue1 = -1
-				},
-				
-				{
-					command = "submix.meter"
-					paramName = 0
-					outputSubmix = -1
-					inputSubmix0 = 15
-					inputSubmix1 = -1
-					processor = -1
-					inputValue0 = 21
-					inputValue1 = -1
-				},
-				
-				{
-					command = "submix.copy"
-					paramName = 0
-					outputSubmix = 0
-					inputSubmix0 = 0
-					inputSubmix1 = -1
-					processor = -1
-					inputValue0 = 16
-					inputValue1 = -1
-				},
-				
-				{
-					command = "submix.meter"
-					paramName = 0
-					outputSubmix = -1
-					inputSubmix0 = 0
+					inputSubmix0 = 7
 					inputSubmix1 = -1
 					processor = -1
 					inputValue0 = 22
@@ -9799,21 +9966,10 @@
 				},
 				
 				{
-					command = "submix.meter"
-					paramName = 0
-					outputSubmix = -1
-					inputSubmix0 = 0
-					inputSubmix1 = -1
-					processor = -1
-					inputValue0 = 23
-					inputValue1 = -1
-				},
-				
-				{
 					command = "submix.copy"
 					paramName = 0
 					outputSubmix = 16
-					inputSubmix0 = 9
+					inputSubmix0 = 0
 					inputSubmix1 = -1
 					processor = -1
 					inputValue0 = 17
@@ -9827,15 +9983,15 @@
 					inputSubmix0 = 16
 					inputSubmix1 = -1
 					processor = -1
-					inputValue0 = 24
+					inputValue0 = 23
 					inputValue1 = -1
 				},
 				
 				{
 					command = "submix.copy"
 					paramName = 0
-					outputSubmix = 9
-					inputSubmix0 = 9
+					outputSubmix = 0
+					inputSubmix0 = 0
 					inputSubmix1 = -1
 					processor = -1
 					inputValue0 = 18
@@ -9846,10 +10002,10 @@
 					command = "submix.meter"
 					paramName = 0
 					outputSubmix = -1
-					inputSubmix0 = 9
+					inputSubmix0 = 0
 					inputSubmix1 = -1
 					processor = -1
-					inputValue0 = 25
+					inputValue0 = 24
 					inputValue1 = -1
 				},
 				
@@ -9857,7 +10013,29 @@
 					command = "submix.meter"
 					paramName = 0
 					outputSubmix = -1
-					inputSubmix0 = 9
+					inputSubmix0 = 0
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = 25
+					inputValue1 = -1
+				},
+				
+				{
+					command = "submix.copy"
+					paramName = 0
+					outputSubmix = 17
+					inputSubmix0 = 10
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = 19
+					inputValue1 = -1
+				},
+				
+				{
+					command = "submix.meter"
+					paramName = 0
+					outputSubmix = -1
+					inputSubmix0 = 17
 					inputSubmix1 = -1
 					processor = -1
 					inputValue0 = 26
@@ -9865,12 +10043,45 @@
 				},
 				
 				{
+					command = "submix.copy"
+					paramName = 0
+					outputSubmix = 10
+					inputSubmix0 = 10
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = 20
+					inputValue1 = -1
+				},
+				
+				{
+					command = "submix.meter"
+					paramName = 0
+					outputSubmix = -1
+					inputSubmix0 = 10
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = 27
+					inputValue1 = -1
+				},
+				
+				{
+					command = "submix.meter"
+					paramName = 0
+					outputSubmix = -1
+					inputSubmix0 = 10
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = 28
+					inputValue1 = -1
+				},
+				
+				{
 					command = "submix.process"
 					paramName = -1356938877
-					outputSubmix = 6
-					inputSubmix0 = 6
+					outputSubmix = 7
+					inputSubmix0 = 7
 					inputSubmix1 = -1
-					processor = 8
+					processor = 11
 					inputValue0 = -1
 					inputValue1 = -1
 				},
@@ -9879,7 +10090,7 @@
 					command = "submix.debug"
 					paramName = -207475213
 					outputSubmix = -1
-					inputSubmix0 = 6
+					inputSubmix0 = 7
 					inputSubmix1 = -1
 					processor = -1
 					inputValue0 = -1
@@ -9889,10 +10100,10 @@
 				{
 					command = "submix.generate.sidechain"
 					paramName = 0
-					outputSubmix = 9
-					inputSubmix0 = 9
+					outputSubmix = 10
+					inputSubmix0 = 10
 					inputSubmix1 = -1
-					processor = 9
+					processor = 12
 					inputValue0 = -1
 					inputValue1 = -1
 				},
@@ -9900,118 +10111,8 @@
 				{
 					command = "submix.process"
 					paramName = 1862947197
-					outputSubmix = 15
-					inputSubmix0 = 15
-					inputSubmix1 = -1
-					processor = 9
-					inputValue0 = -1
-					inputValue1 = -1
-				},
-				
-				{
-					command = "submix.debug"
-					paramName = -2114320481
-					outputSubmix = -1
-					inputSubmix0 = 15
-					inputSubmix1 = -1
-					processor = -1
-					inputValue0 = -1
-					inputValue1 = -1
-				},
-				
-				{
-					command = "processor.storeparameter"
-					paramName = 1863130604
-					outputSubmix = -1
-					inputSubmix0 = -1
-					inputSubmix1 = -1
-					processor = 9
-					inputValue0 = 19
-					inputValue1 = -1
-				},
-				
-				{
-					command = "submix.process"
-					paramName = 183100161
-					outputSubmix = 7
-					inputSubmix0 = 7
-					inputSubmix1 = -1
-					processor = 10
-					inputValue0 = -1
-					inputValue1 = -1
-				},
-				
-				{
-					command = "submix.debug"
-					paramName = 62077761
-					outputSubmix = -1
-					inputSubmix0 = 7
-					inputSubmix1 = -1
-					processor = -1
-					inputValue0 = -1
-					inputValue1 = -1
-				},
-				
-				{
-					command = "processor.storeparameter"
-					paramName = 1863130604
-					outputSubmix = -1
-					inputSubmix0 = -1
-					inputSubmix1 = -1
-					processor = 10
-					inputValue0 = 20
-					inputValue1 = -1
-				},
-				
-				{
-					command = "submix.spectrum"
-					paramName = 1104620945
-					outputSubmix = -1
-					inputSubmix0 = 6
-					inputSubmix1 = -1
-					processor = -1
-					inputValue0 = -1
-					inputValue1 = -1
-				},
-				
-				{
-					command = "submix.process"
-					paramName = -1337117341
-					outputSubmix = 6
-					inputSubmix0 = 6
-					inputSubmix1 = -1
-					processor = 11
-					inputValue0 = -1
-					inputValue1 = -1
-				},
-				
-				{
-					command = "submix.debug"
-					paramName = 1369643934
-					outputSubmix = -1
-					inputSubmix0 = 6
-					inputSubmix1 = -1
-					processor = -1
-					inputValue0 = -1
-					inputValue1 = -1
-				},
-				
-				{
-					command = "submix.spectrum"
-					paramName = 1369643934
-					outputSubmix = -1
-					inputSubmix0 = 6
-					inputSubmix1 = -1
-					processor = -1
-					inputValue0 = -1
-					inputValue1 = -1
-				},
-				
-				{
-					command = "submix.process"
-					paramName = -1638382340
-					outputSubmix = 8
-					inputSubmix0 = 8
+					outputSubmix = 16
+					inputSubmix0 = 16
 					inputSubmix1 = -1
 					processor = 12
 					inputValue0 = -1
@@ -10020,9 +10121,9 @@
 				
 				{
 					command = "submix.debug"
-					paramName = 2083025761
+					paramName = -2114320481
 					outputSubmix = -1
-					inputSubmix0 = 8
+					inputSubmix0 = 16
 					inputSubmix1 = -1
 					processor = -1
 					inputValue0 = -1
@@ -10041,14 +10142,124 @@
 				},
 				
 				{
+					command = "submix.process"
+					paramName = 183100161
+					outputSubmix = 8
+					inputSubmix0 = 8
+					inputSubmix1 = -1
+					processor = 13
+					inputValue0 = -1
+					inputValue1 = -1
+				},
+				
+				{
+					command = "submix.debug"
+					paramName = 62077761
+					outputSubmix = -1
+					inputSubmix0 = 8
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = -1
+					inputValue1 = -1
+				},
+				
+				{
+					command = "processor.storeparameter"
+					paramName = 1863130604
+					outputSubmix = -1
+					inputSubmix0 = -1
+					inputSubmix1 = -1
+					processor = 13
+					inputValue0 = 22
+					inputValue1 = -1
+				},
+				
+				{
+					command = "submix.spectrum"
+					paramName = 1104620945
+					outputSubmix = -1
+					inputSubmix0 = 7
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = -1
+					inputValue1 = -1
+				},
+				
+				{
+					command = "submix.process"
+					paramName = -1337117341
+					outputSubmix = 7
+					inputSubmix0 = 7
+					inputSubmix1 = -1
+					processor = 14
+					inputValue0 = -1
+					inputValue1 = -1
+				},
+				
+				{
+					command = "submix.debug"
+					paramName = 1369643934
+					outputSubmix = -1
+					inputSubmix0 = 7
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = -1
+					inputValue1 = -1
+				},
+				
+				{
+					command = "submix.spectrum"
+					paramName = 1369643934
+					outputSubmix = -1
+					inputSubmix0 = 7
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = -1
+					inputValue1 = -1
+				},
+				
+				{
+					command = "submix.process"
+					paramName = -1638382340
+					outputSubmix = 9
+					inputSubmix0 = 9
+					inputSubmix1 = -1
+					processor = 15
+					inputValue0 = -1
+					inputValue1 = -1
+				},
+				
+				{
+					command = "submix.debug"
+					paramName = 2083025761
+					outputSubmix = -1
+					inputSubmix0 = 9
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = -1
+					inputValue1 = -1
+				},
+				
+				{
+					command = "processor.storeparameter"
+					paramName = 1863130604
+					outputSubmix = -1
+					inputSubmix0 = -1
+					inputSubmix1 = -1
+					processor = 15
+					inputValue0 = 23
+					inputValue1 = -1
+				},
+				
+				{
 					command = "submix.copy"
 					paramName = 0
 					outputSubmix = 0
 					inputSubmix0 = 0
 					inputSubmix1 = -1
 					processor = -1
-					inputValue0 = 22
-					inputValue1 = 19
+					inputValue0 = 24
+					inputValue1 = 21
 				},
 				
 				{
@@ -10058,8 +10269,8 @@
 					inputSubmix0 = -1
 					inputSubmix1 = -1
 					processor = -1
-					inputValue0 = 22
-					inputValue1 = 19
+					inputValue0 = 24
+					inputValue1 = 21
 				},
 				
 				{
@@ -10080,19 +10291,19 @@
 					inputSubmix0 = 0
 					inputSubmix1 = -1
 					processor = -1
-					inputValue0 = 27
+					inputValue0 = 29
 					inputValue1 = -1
 				},
 				
 				{
 					command = "submix.copy"
 					paramName = 0
-					outputSubmix = 10
-					inputSubmix0 = 10
+					outputSubmix = 11
+					inputSubmix0 = 11
 					inputSubmix1 = -1
 					processor = -1
-					inputValue0 = 24
-					inputValue1 = 23
+					inputValue0 = 26
+					inputValue1 = 25
 				},
 				
 				{
@@ -10102,15 +10313,15 @@
 					inputSubmix0 = -1
 					inputSubmix1 = -1
 					processor = -1
-					inputValue0 = 24
-					inputValue1 = 23
+					inputValue0 = 26
+					inputValue1 = 25
 				},
 				
 				{
 					command = "submix.debug"
 					paramName = -1667213343
 					outputSubmix = -1
-					inputSubmix0 = 10
+					inputSubmix0 = 11
 					inputSubmix1 = -1
 					processor = -1
 					inputValue0 = -1
@@ -10121,10 +10332,10 @@
 					command = "submix.meter"
 					paramName = 0
 					outputSubmix = -1
-					inputSubmix0 = 10
+					inputSubmix0 = 11
 					inputSubmix1 = -1
 					processor = -1
-					inputValue0 = 28
+					inputValue0 = 30
 					inputValue1 = -1
 				},
 				
@@ -10132,7 +10343,7 @@
 					command = "submix.spectrum"
 					paramName = -1022272598
 					outputSubmix = -1
-					inputSubmix0 = 7
+					inputSubmix0 = 8
 					inputSubmix1 = -1
 					processor = -1
 					inputValue0 = -1
@@ -10142,10 +10353,10 @@
 				{
 					command = "submix.process"
 					paramName = -243089763
-					outputSubmix = 7
-					inputSubmix0 = 7
+					outputSubmix = 8
+					inputSubmix0 = 8
 					inputSubmix1 = -1
-					processor = 13
+					processor = 16
 					inputValue0 = -1
 					inputValue1 = -1
 				},
@@ -10154,7 +10365,7 @@
 					command = "submix.debug"
 					paramName = 980999271
 					outputSubmix = -1
-					inputSubmix0 = 7
+					inputSubmix0 = 8
 					inputSubmix1 = -1
 					processor = -1
 					inputValue0 = -1
@@ -10165,7 +10376,7 @@
 					command = "submix.spectrum"
 					paramName = 980999271
 					outputSubmix = -1
-					inputSubmix0 = 7
+					inputSubmix0 = 8
 					inputSubmix1 = -1
 					processor = -1
 					inputValue0 = -1
@@ -10178,7 +10389,7 @@
 					outputSubmix = -1
 					inputSubmix0 = -1
 					inputSubmix1 = -1
-					processor = 14
+					processor = 17
 					inputValue0 = 1
 					inputValue1 = -1
 				},
@@ -10186,10 +10397,10 @@
 				{
 					command = "submix.process"
 					paramName = -1431670847
-					outputSubmix = 6
-					inputSubmix0 = 6
+					outputSubmix = 7
+					inputSubmix0 = 7
 					inputSubmix1 = -1
-					processor = 14
+					processor = 17
 					inputValue0 = -1
 					inputValue1 = -1
 				},
@@ -10197,149 +10408,6 @@
 				{
 					command = "submix.debug"
 					paramName = -612883830
-					outputSubmix = -1
-					inputSubmix0 = 6
-					inputSubmix1 = -1
-					processor = -1
-					inputValue0 = -1
-					inputValue1 = -1
-				},
-				
-				{
-					command = "submix.copy"
-					paramName = 0
-					outputSubmix = 17
-					inputSubmix0 = 8
-					inputSubmix1 = -1
-					processor = -1
-					inputValue0 = 25
-					inputValue1 = -1
-				},
-				
-				{
-					command = "submix.meter"
-					paramName = 0
-					outputSubmix = -1
-					inputSubmix0 = 17
-					inputSubmix1 = -1
-					processor = -1
-					inputValue0 = 29
-					inputValue1 = -1
-				},
-				
-				{
-					command = "submix.copy"
-					paramName = 0
-					outputSubmix = 8
-					inputSubmix0 = 8
-					inputSubmix1 = -1
-					processor = -1
-					inputValue0 = 26
-					inputValue1 = -1
-				},
-				
-				{
-					command = "submix.meter"
-					paramName = 0
-					outputSubmix = -1
-					inputSubmix0 = 8
-					inputSubmix1 = -1
-					processor = -1
-					inputValue0 = 30
-					inputValue1 = -1
-				},
-				
-				{
-					command = "submix.meter"
-					paramName = 0
-					outputSubmix = -1
-					inputSubmix0 = 8
-					inputSubmix1 = -1
-					processor = -1
-					inputValue0 = 31
-					inputValue1 = -1
-				},
-				
-				{
-					command = "control.store"
-					paramName = 0
-					outputSubmix = -1
-					inputSubmix0 = -1
-					inputSubmix1 = -1
-					processor = -1
-					inputValue0 = 27
-					inputValue1 = 1
-				},
-				
-				{
-					command = "submix.copy"
-					paramName = 0
-					outputSubmix = 7
-					inputSubmix0 = 7
-					inputSubmix1 = -1
-					processor = -1
-					inputValue0 = 32
-					inputValue1 = -1
-				},
-				
-				{
-					command = "submix.accumulate_single"
-					paramName = 0
-					outputSubmix = 7
-					inputSubmix0 = 16
-					inputSubmix1 = -1
-					processor = -1
-					inputValue0 = 28
-					inputValue1 = -1
-				},
-				
-				{
-					command = "submix.accumulate_single"
-					paramName = 0
-					outputSubmix = 7
-					inputSubmix0 = 15
-					inputSubmix1 = -1
-					processor = -1
-					inputValue0 = 29
-					inputValue1 = -1
-				},
-				
-				{
-					command = "submix.accumulate_single"
-					paramName = 0
-					outputSubmix = 7
-					inputSubmix0 = 0
-					inputSubmix1 = -1
-					processor = -1
-					inputValue0 = 30
-					inputValue1 = -1
-				},
-				
-				{
-					command = "submix.accumulate_single"
-					paramName = 0
-					outputSubmix = 7
-					inputSubmix0 = 10
-					inputSubmix1 = -1
-					processor = -1
-					inputValue0 = 31
-					inputValue1 = -1
-				},
-				
-				{
-					command = "submix.meter"
-					paramName = 0
-					outputSubmix = -1
-					inputSubmix0 = 7
-					inputSubmix1 = -1
-					processor = -1
-					inputValue0 = 32
-					inputValue1 = -1
-				},
-				
-				{
-					command = "submix.debug"
-					paramName = 2101677378
 					outputSubmix = -1
 					inputSubmix0 = 7
 					inputSubmix1 = -1
@@ -10352,10 +10420,10 @@
 					command = "submix.copy"
 					paramName = 0
 					outputSubmix = 18
-					inputSubmix0 = 6
+					inputSubmix0 = 9
 					inputSubmix1 = -1
 					processor = -1
-					inputValue0 = 33
+					inputValue0 = 27
 					inputValue1 = -1
 				},
 				
@@ -10366,18 +10434,18 @@
 					inputSubmix0 = 18
 					inputSubmix1 = -1
 					processor = -1
-					inputValue0 = 33
+					inputValue0 = 31
 					inputValue1 = -1
 				},
 				
 				{
 					command = "submix.copy"
 					paramName = 0
-					outputSubmix = 6
-					inputSubmix0 = 6
+					outputSubmix = 9
+					inputSubmix0 = 9
 					inputSubmix1 = -1
 					processor = -1
-					inputValue0 = 34
+					inputValue0 = 28
 					inputValue1 = -1
 				},
 				
@@ -10385,10 +10453,10 @@
 					command = "submix.meter"
 					paramName = 0
 					outputSubmix = -1
-					inputSubmix0 = 6
+					inputSubmix0 = 9
 					inputSubmix1 = -1
 					processor = -1
-					inputValue0 = 34
+					inputValue0 = 32
 					inputValue1 = -1
 				},
 				
@@ -10396,7 +10464,106 @@
 					command = "submix.meter"
 					paramName = 0
 					outputSubmix = -1
-					inputSubmix0 = 6
+					inputSubmix0 = 9
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = 33
+					inputValue1 = -1
+				},
+				
+				{
+					command = "control.store"
+					paramName = 0
+					outputSubmix = -1
+					inputSubmix0 = -1
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = 29
+					inputValue1 = 1
+				},
+				
+				{
+					command = "submix.copy"
+					paramName = 0
+					outputSubmix = 8
+					inputSubmix0 = 8
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = 34
+					inputValue1 = -1
+				},
+				
+				{
+					command = "submix.accumulate_single"
+					paramName = 0
+					outputSubmix = 8
+					inputSubmix0 = 17
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = 30
+					inputValue1 = -1
+				},
+				
+				{
+					command = "submix.accumulate_single"
+					paramName = 0
+					outputSubmix = 8
+					inputSubmix0 = 16
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = 31
+					inputValue1 = -1
+				},
+				
+				{
+					command = "submix.accumulate_single"
+					paramName = 0
+					outputSubmix = 8
+					inputSubmix0 = 0
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = 32
+					inputValue1 = -1
+				},
+				
+				{
+					command = "submix.accumulate_single"
+					paramName = 0
+					outputSubmix = 8
+					inputSubmix0 = 11
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = 33
+					inputValue1 = -1
+				},
+				
+				{
+					command = "submix.meter"
+					paramName = 0
+					outputSubmix = -1
+					inputSubmix0 = 8
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = 34
+					inputValue1 = -1
+				},
+				
+				{
+					command = "submix.debug"
+					paramName = 2101677378
+					outputSubmix = -1
+					inputSubmix0 = 8
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = -1
+					inputValue1 = -1
+				},
+				
+				{
+					command = "submix.copy"
+					paramName = 0
+					outputSubmix = 19
+					inputSubmix0 = 7
 					inputSubmix1 = -1
 					processor = -1
 					inputValue0 = 35
@@ -10404,10 +10571,54 @@
 				},
 				
 				{
+					command = "submix.meter"
+					paramName = 0
+					outputSubmix = -1
+					inputSubmix0 = 19
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = 35
+					inputValue1 = -1
+				},
+				
+				{
+					command = "submix.copy"
+					paramName = 0
+					outputSubmix = 7
+					inputSubmix0 = 7
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = 36
+					inputValue1 = -1
+				},
+				
+				{
+					command = "submix.meter"
+					paramName = 0
+					outputSubmix = -1
+					inputSubmix0 = 7
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = 36
+					inputValue1 = -1
+				},
+				
+				{
+					command = "submix.meter"
+					paramName = 0
+					outputSubmix = -1
+					inputSubmix0 = 7
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = 37
+					inputValue1 = -1
+				},
+				
+				{
 					command = "submix.spectrum"
 					paramName = 666278682
 					outputSubmix = -1
-					inputSubmix0 = 17
+					inputSubmix0 = 18
 					inputSubmix1 = -1
 					processor = -1
 					inputValue0 = -1
@@ -10417,10 +10628,10 @@
 				{
 					command = "submix.process"
 					paramName = -412519734
-					outputSubmix = 17
-					inputSubmix0 = 17
+					outputSubmix = 18
+					inputSubmix0 = 18
 					inputSubmix1 = -1
-					processor = 15
+					processor = 18
 					inputValue0 = -1
 					inputValue1 = -1
 				},
@@ -10429,7 +10640,7 @@
 					command = "submix.debug"
 					paramName = -147060699
 					outputSubmix = -1
-					inputSubmix0 = 17
+					inputSubmix0 = 18
 					inputSubmix1 = -1
 					processor = -1
 					inputValue0 = -1
@@ -10440,7 +10651,7 @@
 					command = "submix.spectrum"
 					paramName = -147060699
 					outputSubmix = -1
-					inputSubmix0 = 17
+					inputSubmix0 = 18
 					inputSubmix1 = -1
 					processor = -1
 					inputValue0 = -1
@@ -10453,8 +10664,8 @@
 					outputSubmix = -1
 					inputSubmix0 = -1
 					inputSubmix1 = -1
-					processor = 16
-					inputValue0 = 27
+					processor = 19
+					inputValue0 = 29
 					inputValue1 = -1
 				},
 				
@@ -10462,7 +10673,7 @@
 					command = "submix.spectrum"
 					paramName = -1377234872
 					outputSubmix = -1
-					inputSubmix0 = 8
+					inputSubmix0 = 9
 					inputSubmix1 = -1
 					processor = -1
 					inputValue0 = -1
@@ -10472,10 +10683,10 @@
 				{
 					command = "submix.process"
 					paramName = 1715418103
-					outputSubmix = 8
-					inputSubmix0 = 8
+					outputSubmix = 9
+					inputSubmix0 = 9
 					inputSubmix1 = -1
-					processor = 16
+					processor = 19
 					inputValue0 = -1
 					inputValue1 = -1
 				},
@@ -10484,7 +10695,7 @@
 					command = "submix.debug"
 					paramName = 1963407755
 					outputSubmix = -1
-					inputSubmix0 = 8
+					inputSubmix0 = 9
 					inputSubmix1 = -1
 					processor = -1
 					inputValue0 = -1
@@ -10495,51 +10706,7 @@
 					command = "submix.spectrum"
 					paramName = 1963407755
 					outputSubmix = -1
-					inputSubmix0 = 8
-					inputSubmix1 = -1
-					processor = -1
-					inputValue0 = -1
-					inputValue1 = -1
-				},
-				
-				{
-					command = "submix.spectrum"
-					paramName = 1724176528
-					outputSubmix = -1
-					inputSubmix0 = 11
-					inputSubmix1 = -1
-					processor = -1
-					inputValue0 = -1
-					inputValue1 = -1
-				},
-				
-				{
-					command = "submix.process"
-					paramName = -360861136
-					outputSubmix = 11
-					inputSubmix0 = 11
-					inputSubmix1 = -1
-					processor = 17
-					inputValue0 = -1
-					inputValue1 = -1
-				},
-				
-				{
-					command = "submix.debug"
-					paramName = 1932216075
-					outputSubmix = -1
-					inputSubmix0 = 11
-					inputSubmix1 = -1
-					processor = -1
-					inputValue0 = -1
-					inputValue1 = -1
-				},
-				
-				{
-					command = "submix.spectrum"
-					paramName = -1346864802
-					outputSubmix = -1
-					inputSubmix0 = 11
+					inputSubmix0 = 9
 					inputSubmix1 = -1
 					processor = -1
 					inputValue0 = -1
@@ -10549,10 +10716,10 @@
 				{
 					command = "submix.generate.sidechain"
 					paramName = 0
-					outputSubmix = 6
-					inputSubmix0 = 6
+					outputSubmix = 7
+					inputSubmix0 = 7
 					inputSubmix1 = -1
-					processor = 18
+					processor = 20
 					inputValue0 = -1
 					inputValue1 = -1
 				},
@@ -10560,10 +10727,10 @@
 				{
 					command = "submix.process"
 					paramName = -455301045
-					outputSubmix = 7
-					inputSubmix0 = 7
+					outputSubmix = 8
+					inputSubmix0 = 8
 					inputSubmix1 = -1
-					processor = 18
+					processor = 20
 					inputValue0 = -1
 					inputValue1 = -1
 				},
@@ -10572,7 +10739,7 @@
 					command = "submix.debug"
 					paramName = 1712196479
 					outputSubmix = -1
-					inputSubmix0 = 7
+					inputSubmix0 = 8
 					inputSubmix1 = -1
 					processor = -1
 					inputValue0 = -1
@@ -10582,22 +10749,22 @@
 				{
 					command = "submix.copy"
 					paramName = 0
-					outputSubmix = 8
-					inputSubmix0 = 8
+					outputSubmix = 9
+					inputSubmix0 = 9
 					inputSubmix1 = -1
 					processor = -1
-					inputValue0 = 36
+					inputValue0 = 38
 					inputValue1 = -1
 				},
 				
 				{
 					command = "submix.accumulate_single"
 					paramName = 0
-					outputSubmix = 8
-					inputSubmix0 = 17
+					outputSubmix = 9
+					inputSubmix0 = 18
 					inputSubmix1 = -1
 					processor = -1
-					inputValue0 = 35
+					inputValue0 = 37
 					inputValue1 = -1
 				},
 				
@@ -10605,10 +10772,10 @@
 					command = "submix.meter"
 					paramName = 0
 					outputSubmix = -1
-					inputSubmix0 = 8
+					inputSubmix0 = 9
 					inputSubmix1 = -1
 					processor = -1
-					inputValue0 = 36
+					inputValue0 = 38
 					inputValue1 = -1
 				},
 				
@@ -10616,29 +10783,7 @@
 					command = "submix.debug"
 					paramName = 1564188080
 					outputSubmix = -1
-					inputSubmix0 = 8
-					inputSubmix1 = -1
-					processor = -1
-					inputValue0 = -1
-					inputValue1 = -1
-				},
-				
-				{
-					command = "submix.process"
-					paramName = 1923808441
-					outputSubmix = 11
-					inputSubmix0 = 11
-					inputSubmix1 = -1
-					processor = 19
-					inputValue0 = -1
-					inputValue1 = -1
-				},
-				
-				{
-					command = "submix.debug"
-					paramName = -1517428962
-					outputSubmix = -1
-					inputSubmix0 = 11
+					inputSubmix0 = 9
 					inputSubmix1 = -1
 					processor = -1
 					inputValue0 = -1
@@ -10652,7 +10797,7 @@
 					inputSubmix0 = -1
 					inputSubmix1 = -1
 					processor = -1
-					inputValue0 = 37
+					inputValue0 = 39
 					inputValue1 = 2
 				},
 				
@@ -10663,7 +10808,7 @@
 					inputSubmix0 = 12
 					inputSubmix1 = -1
 					processor = -1
-					inputValue0 = 41
+					inputValue0 = 43
 					inputValue1 = -1
 				},
 				
@@ -10671,21 +10816,10 @@
 					command = "submix.accumulate_single"
 					paramName = 0
 					outputSubmix = 12
-					inputSubmix0 = 18
+					inputSubmix0 = 19
 					inputSubmix1 = -1
 					processor = -1
-					inputValue0 = 38
-					inputValue1 = -1
-				},
-				
-				{
-					command = "submix.accumulate_single"
-					paramName = 0
-					outputSubmix = 12
-					inputSubmix0 = 7
-					inputSubmix1 = -1
-					processor = -1
-					inputValue0 = 39
+					inputValue0 = 40
 					inputValue1 = -1
 				},
 				
@@ -10696,7 +10830,18 @@
 					inputSubmix0 = 8
 					inputSubmix1 = -1
 					processor = -1
-					inputValue0 = 40
+					inputValue0 = 41
+					inputValue1 = -1
+				},
+				
+				{
+					command = "submix.accumulate_single"
+					paramName = 0
+					outputSubmix = 12
+					inputSubmix0 = 9
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = 42
 					inputValue1 = -1
 				},
 				
@@ -10707,7 +10852,7 @@
 					inputSubmix0 = 12
 					inputSubmix1 = -1
 					processor = -1
-					inputValue0 = 37
+					inputValue0 = 39
 					inputValue1 = -1
 				},
 				
@@ -10729,48 +10874,15 @@
 					inputSubmix0 = -1
 					inputSubmix1 = -1
 					processor = -1
-					inputValue0 = 42
+					inputValue0 = 44
 					inputValue1 = 3
 				},
 				
 				{
 					command = "submix.copy"
 					paramName = 0
-					outputSubmix = 19
-					inputSubmix0 = 11
-					inputSubmix1 = -1
-					processor = -1
-					inputValue0 = 37
-					inputValue1 = -1
-				},
-				
-				{
-					command = "submix.meter"
-					paramName = 0
-					outputSubmix = -1
-					inputSubmix0 = 19
-					inputSubmix1 = -1
-					processor = -1
-					inputValue0 = 38
-					inputValue1 = -1
-				},
-				
-				{
-					command = "submix.copy"
-					paramName = 0
-					outputSubmix = 11
-					inputSubmix0 = 11
-					inputSubmix1 = -1
-					processor = -1
-					inputValue0 = 37
-					inputValue1 = -1
-				},
-				
-				{
-					command = "submix.meter"
-					paramName = 0
-					outputSubmix = -1
-					inputSubmix0 = 11
+					outputSubmix = 20
+					inputSubmix0 = 13
 					inputSubmix1 = -1
 					processor = -1
 					inputValue0 = 39
@@ -10781,10 +10893,43 @@
 					command = "submix.meter"
 					paramName = 0
 					outputSubmix = -1
-					inputSubmix0 = 11
+					inputSubmix0 = 20
 					inputSubmix1 = -1
 					processor = -1
 					inputValue0 = 40
+					inputValue1 = -1
+				},
+				
+				{
+					command = "submix.copy"
+					paramName = 0
+					outputSubmix = 13
+					inputSubmix0 = 13
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = 39
+					inputValue1 = -1
+				},
+				
+				{
+					command = "submix.meter"
+					paramName = 0
+					outputSubmix = -1
+					inputSubmix0 = 13
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = 41
+					inputValue1 = -1
+				},
+				
+				{
+					command = "submix.meter"
+					paramName = 0
+					outputSubmix = -1
+					inputSubmix0 = 13
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = 42
 					inputValue1 = -1
 				},
 				
@@ -10795,8 +10940,8 @@
 					inputSubmix0 = 12
 					inputSubmix1 = -1
 					processor = -1
-					inputValue0 = 43
-					inputValue1 = 42
+					inputValue0 = 45
+					inputValue1 = 44
 				},
 				
 				{
@@ -10806,8 +10951,8 @@
 					inputSubmix0 = -1
 					inputSubmix1 = -1
 					processor = -1
-					inputValue0 = 43
-					inputValue1 = 42
+					inputValue0 = 45
+					inputValue1 = 44
 				},
 				
 				{
@@ -10828,17 +10973,17 @@
 					inputSubmix0 = 12
 					inputSubmix1 = -1
 					processor = -1
-					inputValue0 = 41
+					inputValue0 = 43
 					inputValue1 = -1
 				},
 				
 				{
 					command = "submix.process"
 					paramName = 276304140
-					outputSubmix = 19
-					inputSubmix0 = 19
+					outputSubmix = 20
+					inputSubmix0 = 20
 					inputSubmix1 = -1
-					processor = 20
+					processor = 21
 					inputValue0 = -1
 					inputValue1 = -1
 				},
@@ -10847,7 +10992,7 @@
 					command = "submix.debug"
 					paramName = -1222467881
 					outputSubmix = -1
-					inputSubmix0 = 19
+					inputSubmix0 = 20
 					inputSubmix1 = -1
 					processor = -1
 					inputValue0 = -1
@@ -10860,18 +11005,18 @@
 					outputSubmix = -1
 					inputSubmix0 = -1
 					inputSubmix1 = -1
-					processor = 20
-					inputValue0 = 44
+					processor = 21
+					inputValue0 = 46
 					inputValue1 = -1
 				},
 				
 				{
 					command = "submix.generate.sidechain"
 					paramName = 0
-					outputSubmix = 11
-					inputSubmix0 = 11
+					outputSubmix = 13
+					inputSubmix0 = 13
 					inputSubmix1 = -1
-					processor = 21
+					processor = 22
 					inputValue0 = -1
 					inputValue1 = -1
 				},
@@ -10882,7 +11027,7 @@
 					outputSubmix = 12
 					inputSubmix0 = 12
 					inputSubmix1 = -1
-					processor = 21
+					processor = 22
 					inputValue0 = -1
 					inputValue1 = -1
 				},
@@ -10905,7 +11050,7 @@
 					inputSubmix0 = 12
 					inputSubmix1 = -1
 					processor = -1
-					inputValue0 = 46
+					inputValue0 = 48
 					inputValue1 = -1
 				},
 				
@@ -10913,10 +11058,10 @@
 					command = "submix.accumulate_single"
 					paramName = 0
 					outputSubmix = 12
-					inputSubmix0 = 19
+					inputSubmix0 = 20
 					inputSubmix1 = -1
 					processor = -1
-					inputValue0 = 45
+					inputValue0 = 47
 					inputValue1 = -1
 				},
 				
@@ -10927,7 +11072,7 @@
 					inputSubmix0 = 12
 					inputSubmix1 = -1
 					processor = -1
-					inputValue0 = 42
+					inputValue0 = 44
 					inputValue1 = -1
 				},
 				
@@ -10949,7 +11094,7 @@
 					inputSubmix0 = 12
 					inputSubmix1 = -1
 					processor = -1
-					inputValue0 = 47
+					inputValue0 = 49
 					inputValue1 = -1
 				},
 				
@@ -10960,7 +11105,7 @@
 					inputSubmix0 = 12
 					inputSubmix1 = -1
 					processor = -1
-					inputValue0 = 43
+					inputValue0 = 45
 					inputValue1 = -1
 				},
 				
@@ -10981,7 +11126,7 @@
 					outputSubmix = 12
 					inputSubmix0 = 12
 					inputSubmix1 = -1
-					processor = 22
+					processor = 23
 					inputValue0 = -1
 					inputValue1 = -1
 				},
@@ -11004,59 +11149,26 @@
 					inputSubmix0 = -1
 					inputSubmix1 = -1
 					processor = -1
-					inputValue0 = 48
+					inputValue0 = 50
 					inputValue1 = 4
 				},
 				
 				{
 					command = "submix.copy"
 					paramName = 0
-					outputSubmix = 13
-					inputSubmix0 = 13
+					outputSubmix = 14
+					inputSubmix0 = 14
 					inputSubmix1 = -1
 					processor = -1
-					inputValue0 = 49
+					inputValue0 = 51
 					inputValue1 = -1
 				},
 				
 				{
 					command = "submix.accumulate_single"
 					paramName = 0
-					outputSubmix = 13
+					outputSubmix = 14
 					inputSubmix0 = 12
-					inputSubmix1 = -1
-					processor = -1
-					inputValue0 = 48
-					inputValue1 = -1
-				},
-				
-				{
-					command = "submix.meter"
-					paramName = 0
-					outputSubmix = -1
-					inputSubmix0 = 13
-					inputSubmix1 = -1
-					processor = -1
-					inputValue0 = 44
-					inputValue1 = -1
-				},
-				
-				{
-					command = "submix.debug"
-					paramName = -1443092166
-					outputSubmix = -1
-					inputSubmix0 = 13
-					inputSubmix1 = -1
-					processor = -1
-					inputValue0 = -1
-					inputValue1 = -1
-				},
-				
-				{
-					command = "submix.output"
-					paramName = 0
-					outputSubmix = -1
-					inputSubmix0 = 13
 					inputSubmix1 = -1
 					processor = -1
 					inputValue0 = 50
@@ -11067,16 +11179,51 @@
 					command = "submix.meter"
 					paramName = 0
 					outputSubmix = -1
-					inputSubmix0 = 13
+					inputSubmix0 = 14
 					inputSubmix1 = -1
 					processor = -1
-					inputValue0 = 45
+					inputValue0 = 46
+					inputValue1 = -1
+				},
+				
+				{
+					command = "submix.debug"
+					paramName = -1443092166
+					outputSubmix = -1
+					inputSubmix0 = 14
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = -1
+					inputValue1 = -1
+				},
+				
+				{
+					command = "submix.output"
+					paramName = 0
+					outputSubmix = -1
+					inputSubmix0 = 14
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = 52
+					inputValue1 = -1
+				},
+				
+				{
+					command = "submix.meter"
+					paramName = 0
+					outputSubmix = -1
+					inputSubmix0 = 14
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = 47
 					inputValue1 = -1
 				},
 			]
 			m_values = 
 			[
 				1.000000,
+				1.000000,
+				0.000000,
 				1.000000,
 				1.000000,
 				1.000000,
@@ -11136,6 +11283,10 @@
 				},
 				
 				{
+					name = "return_fire"
+				},
+				
+				{
 					name = "team_filtering"
 				},
 				
@@ -11176,11 +11327,11 @@
 				},
 				
 				{
-					name = "VOIP"
+					name = "music"
 				},
 				
 				{
-					name = "music"
+					name = "VOIP"
 				},
 				
 				{
@@ -11197,6 +11348,10 @@
 				
 				{
 					name = "audio.Splitter15"
+				},
+				
+				{
+					name = "audio.AutoFilter1"
 				},
 				
 				{
@@ -11320,172 +11475,177 @@
 				
 				{
 					name = "audio.Mix50/volume2"
-					value = 3
-				},
-				
-				{
-					name = "audio.Mix50/volume1"
-					value = 2
-				},
-				
-				{
-					name = "audio.Mix48/volume4"
-					value = 7
-				},
-				
-				{
-					name = "audio.Mix48/volume1"
 					value = 4
 				},
 				
 				{
-					name = "audio.Mix48/volume2"
-					value = 5
+					name = "audio.Mix50/volume1"
+					value = 3
 				},
 				
 				{
-					name = "audio.Mix48/volume3"
-					value = 6
-				},
-				
-				{
-					name = "audio.Mix49/volume3"
-					value = 11
-				},
-				
-				{
-					name = "audio.Mix49/volume1"
+					name = "audio.Mix48/volume5"
 					value = 9
 				},
 				
 				{
-					name = "audio.Mix49/volume2"
-					value = 10
+					name = "audio.Mix48/volume1"
+					value = 5
 				},
 				
 				{
-					name = "control.Input69/value"
-					value = 12
+					name = "audio.Mix48/volume2"
+					value = 6
 				},
 				
 				{
-					name = "audio.Amp3/volume"
+					name = "audio.Mix48/volume3"
+					value = 7
+				},
+				
+				{
+					name = "audio.Mix48/volume4"
+					value = 8
+				},
+				
+				{
+					name = "audio.Mix49/volume3"
 					value = 13
 				},
 				
 				{
+					name = "audio.Mix49/volume1"
+					value = 11
+				},
+				
+				{
+					name = "audio.Mix49/volume2"
+					value = 12
+				},
+				
+				{
+					name = "control.Input69/value"
+					value = 14
+				},
+				
+				{
+					name = "audio.Amp3/volume"
+					value = 15
+				},
+				
+				{
 					name = "audio.Amp93/volume"
-					value = 19
+					value = 21
 				},
 				
 				{
 					name = "audio.Amp82/volume"
-					value = 23
+					value = 25
 				},
 				
 				{
 					name = "control.Input76/value"
-					value = 27
-				},
-				
-				{
-					name = "audio.Mix34/volume6"
-					value = 32
-				},
-				
-				{
-					name = "audio.Mix34/volume1"
-					value = 28
-				},
-				
-				{
-					name = "audio.Mix34/volume2"
 					value = 29
 				},
 				
 				{
-					name = "audio.Mix34/volume3"
+					name = "audio.Mix34/volume6"
+					value = 34
+				},
+				
+				{
+					name = "audio.Mix34/volume1"
 					value = 30
 				},
 				
 				{
-					name = "audio.Mix34/volume5"
+					name = "audio.Mix34/volume2"
 					value = 31
 				},
 				
 				{
+					name = "audio.Mix34/volume3"
+					value = 32
+				},
+				
+				{
+					name = "audio.Mix34/volume5"
+					value = 33
+				},
+				
+				{
 					name = "audio.Mix43/volume2"
-					value = 36
-				},
-				
-				{
-					name = "audio.Mix43/volume1"
-					value = 35
-				},
-				
-				{
-					name = "control.Input67/value"
-					value = 37
-				},
-				
-				{
-					name = "audio.Mix37/volume4"
-					value = 41
-				},
-				
-				{
-					name = "audio.Mix37/volume1"
 					value = 38
 				},
 				
 				{
-					name = "audio.Mix37/volume2"
+					name = "audio.Mix43/volume1"
+					value = 37
+				},
+				
+				{
+					name = "control.Input67/value"
 					value = 39
 				},
 				
 				{
-					name = "audio.Mix37/volume3"
+					name = "audio.Mix37/volume4"
+					value = 43
+				},
+				
+				{
+					name = "audio.Mix37/volume1"
 					value = 40
 				},
 				
 				{
-					name = "control.Input85/value"
+					name = "audio.Mix37/volume2"
+					value = 41
+				},
+				
+				{
+					name = "audio.Mix37/volume3"
 					value = 42
+				},
+				
+				{
+					name = "control.Input85/value"
+					value = 44
 				},
 				
 				{
 					name = "audio.Amp94/volume"
-					value = 42
+					value = 44
 				},
 				
 				{
 					name = "audio.Mix18/volume2"
-					value = 46
+					value = 48
 				},
 				
 				{
 					name = "audio.Mix18/volume1"
-					value = 45
-				},
-				
-				{
-					name = "audio.Mix22/volume1"
 					value = 47
 				},
 				
 				{
-					name = "control.Input4/value"
-					value = 48
-				},
-				
-				{
-					name = "audio.Mix42/volume2"
+					name = "audio.Mix22/volume1"
 					value = 49
 				},
 				
 				{
+					name = "control.Input4/value"
+					value = 50
+				},
+				
+				{
+					name = "audio.Mix42/volume2"
+					value = 51
+				},
+				
+				{
 					name = "audio.Mix42/volume1"
-					value = 48
+					value = 50
 				},
 			]
 			m_nameInputMeters = 
@@ -13187,10 +13347,10 @@
 				1.000000,
 				0.000000,
 				0.000000,
-				22000.000000,
+				22050.000000,
 				1000.000000,
 				3000.000000,
-				22000.000000,
+				22050.000000,
 				3500.000000,
 				1.000000,
 				1.000000,
@@ -13205,7 +13365,7 @@
 				0.000000,
 				1.000000,
 				2500.000000,
-				22000.000000,
+				22050.000000,
 				1.000000,
 				1.000000,
 				1.000000,
@@ -19919,10 +20079,10 @@
 				1.000000,
 				0.000000,
 				0.000000,
-				22000.000000,
+				22050.000000,
 				1000.000000,
 				3000.000000,
-				22000.000000,
+				22050.000000,
 				3500.000000,
 				1.000000,
 				1.000000,
@@ -19937,7 +20097,7 @@
 				0.000000,
 				1.000000,
 				2500.000000,
-				22000.000000,
+				22050.000000,
 				1.000000,
 				1.000000,
 				1.000000,
@@ -20162,6 +20322,282 @@
 					m_nControlInputIndex = 6
 					m_bIsTrackSend = false
 					m_bIsStackVar = false
+				},
+			]
+		},
+		
+		{
+			m_nGraphOutputChannels = -1
+			Name = "citadel.voip"
+			m_bIsMainGraph = false
+			m_Submixes = 
+			[
+				
+				{
+					name = "track_01"
+					sendOperator = ""
+					soloname = 4275089042
+					channels = -1
+					mixDownRule = 0
+				},
+			]
+			m_Processors = 
+			[
+				
+				{
+					m_name = "voip_hpf"
+					m_effectName = ""
+					m_subgraphs = 
+					[
+					]
+					m_nProcessorType = "VPROCESSOR_FILTER"
+					m_nChannels = -1
+					m_flxfade = 0.100000
+					m_params = 
+					{
+						m_nFilterType = "FILTER_HIGHPASS"
+						m_nFilterSlope = "FILTER_SLOPE_48dB"
+						m_bEnabled = true
+						m_fldbGain = 0.000000
+						m_flCutoffFreq = 76.162933
+						m_flQ = 0.697459
+					}
+				},
+				
+				{
+					m_name = "voip_compressor"
+					m_effectName = ""
+					m_subgraphs = 
+					[
+					]
+					m_nProcessorType = "VPROCESSOR_DYNAMICS"
+					m_nChannels = -1
+					m_flxfade = 0.100000
+					m_params = 
+					{
+						m_fldbGain = 15.000000
+						m_fldbNoiseGateThreshold = -60.000000
+						m_fldbCompressionThreshold = -36.000000
+						m_fldbLimiterThreshold = 0.000000
+						m_fldbKneeWidth = 12.000000
+						m_flRatio = 10.000000
+						m_flLimiterRatio = 40.000000
+						m_flAttackTimeMS = 5.000000
+						m_flReleaseTimeMS = 250.000000
+						m_flRMSTimeMS = 100.000000
+						m_flWetMix = 1.000000
+						m_bPeakMode = false
+					}
+				},
+			]
+			m_controlInputs = 
+			[
+				
+				{
+					name = "player_voip_volume"
+					value = 1.000000
+				},
+			]
+			m_MixCommands = 
+			[
+				
+				{
+					command = "submix.debug"
+					paramName = -19878254
+					outputSubmix = -1
+					inputSubmix0 = 0
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = -1
+					inputValue1 = -1
+				},
+				
+				{
+					command = "submix.meter"
+					paramName = 0
+					outputSubmix = -1
+					inputSubmix0 = 0
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = 0
+					inputValue1 = -1
+				},
+				
+				{
+					command = "submix.spectrum"
+					paramName = 1724176528
+					outputSubmix = -1
+					inputSubmix0 = 0
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = -1
+					inputValue1 = -1
+				},
+				
+				{
+					command = "submix.process"
+					paramName = -360861136
+					outputSubmix = 0
+					inputSubmix0 = 0
+					inputSubmix1 = -1
+					processor = 0
+					inputValue0 = -1
+					inputValue1 = -1
+				},
+				
+				{
+					command = "submix.debug"
+					paramName = 732448223
+					outputSubmix = -1
+					inputSubmix0 = 0
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = -1
+					inputValue1 = -1
+				},
+				
+				{
+					command = "submix.spectrum"
+					paramName = -1346864802
+					outputSubmix = -1
+					inputSubmix0 = 0
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = -1
+					inputValue1 = -1
+				},
+				
+				{
+					command = "submix.process"
+					paramName = 1923808441
+					outputSubmix = 0
+					inputSubmix0 = 0
+					inputSubmix1 = -1
+					processor = 1
+					inputValue0 = -1
+					inputValue1 = -1
+				},
+				
+				{
+					command = "submix.debug"
+					paramName = -1118809494
+					outputSubmix = -1
+					inputSubmix0 = 0
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = -1
+					inputValue1 = -1
+				},
+				
+				{
+					command = "control.store"
+					paramName = 0
+					outputSubmix = -1
+					inputSubmix0 = -1
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = 0
+					inputValue1 = 0
+				},
+				
+				{
+					command = "submix.copy"
+					paramName = 0
+					outputSubmix = 0
+					inputSubmix0 = 0
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = 1
+					inputValue1 = 0
+				},
+				
+				{
+					command = "control.copy"
+					paramName = 0
+					outputSubmix = -1
+					inputSubmix0 = -1
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = 1
+					inputValue1 = 0
+				},
+				
+				{
+					command = "submix.debug"
+					paramName = -1485038758
+					outputSubmix = -1
+					inputSubmix0 = 0
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = -1
+					inputValue1 = -1
+				},
+				
+				{
+					command = "submix.meter"
+					paramName = 0
+					outputSubmix = -1
+					inputSubmix0 = 0
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = 1
+					inputValue1 = -1
+				},
+				
+				{
+					command = "submix.output"
+					paramName = 0
+					outputSubmix = -1
+					inputSubmix0 = 0
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = 2
+					inputValue1 = -1
+				},
+				
+				{
+					command = "submix.meter"
+					paramName = 0
+					outputSubmix = -1
+					inputSubmix0 = 0
+					inputSubmix1 = -1
+					processor = -1
+					inputValue0 = 2
+					inputValue1 = -1
+				},
+			]
+			m_values = 
+			[
+				1.000000,
+				1.000000,
+				1.000000,
+			]
+			m_audioMeters = 
+			[
+				
+				{
+					name = "track_01"
+				},
+				
+				{
+					name = "audio.Amp1"
+				},
+				
+				{
+					name = "audio.Output1"
+				},
+			]
+			m_controlMeters = 
+			[
+				
+				{
+					name = "control.Input1/value"
+					value = 0
+				},
+				
+				{
+					name = "audio.Amp1/volume"
+					value = 0
 				},
 			]
 		},

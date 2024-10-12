@@ -217,6 +217,7 @@
         "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/pocket_enchanters_satchel.webm",
         "m_AoEParticle": "particles/abilities/pocket/pocket_satchel_detonation.vpcf",
         "m_HitParticle": "particles/abilities/synth/synth_pulse_hit.vpcf",
+        "m_RadiusParticle": "particles/abilities/nano/nano_tower_aoe_client.vpcf",
         "m_strExpireSound": "Pocket.Pulse.Explode",
         "m_vecAbilityUpgrades": [
             {

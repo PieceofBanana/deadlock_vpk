@@ -191,7 +191,7 @@
             "m_iBurstShotCount": "1",
             "m_flBurstShotCooldown": "0",
             "m_flBulletGravityScale": "0.800000",
-            "m_flBulletRadius": "8",
+            "m_flBulletRadius": "6",
             "m_flBulletReflectScale": "0",
             "m_flBulletReflectAmount": "1",
             "m_flBulletInheritShooterVelocityScale": "0",

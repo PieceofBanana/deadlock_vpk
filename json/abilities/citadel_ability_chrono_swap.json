@@ -4,7 +4,7 @@
         "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "48.000000",
+                "m_strValue": "65.000000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -26,7 +26,7 @@
                 }
             },
             "AbilityCastRange": {
-                "m_strValue": "30m",
+                "m_strValue": "25m",
                 "m_eDisplayUnits": "EDisplayUnit_Meters",
                 "m_strCSSClass": "range",
                 "m_bCanSetTokenOverride": "true",
@@ -140,9 +140,6 @@
             },
             "SpellLifesteal": {
                 "m_strValue": "100"
-            },
-            "SpellLifestealNonHero": {
-                "m_strValue": "25"
             }
         },
         "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
@@ -232,8 +229,8 @@
             {
                 "m_vecPropertyUpgrades": [
                     {
-                        "m_strPropertyName": "AbilityCastRange",
-                        "m_strBonus": "15m"
+                        "m_strPropertyName": "AbilityCooldown",
+                        "m_strBonus": "-15"
                     }
                 ]
             },
@@ -248,8 +245,8 @@
             {
                 "m_vecPropertyUpgrades": [
                     {
-                        "m_strPropertyName": "AbilityCooldown",
-                        "m_strBonus": "-14.000000"
+                        "m_strPropertyName": "AbilityCastRange",
+                        "m_strBonus": "20m"
                     }
                 ]
             }

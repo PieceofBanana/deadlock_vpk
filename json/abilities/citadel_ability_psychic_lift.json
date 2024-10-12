@@ -249,10 +249,12 @@
             },
             "m_LiftParticle": "particles/abilities/wraith/wraith_psychic_lift.vpcf",
             "m_nEnabledStateMask": "MODIFIER_STATE_STUNNED",
-            "m_bIsHidden": "true",
+            "m_bIsHidden": "false",
             "m_strHudMessageText": "#modifier_citadel_psychiclift",
             "m_EmpParticle": "",
-            "m_EmpPlayerParticle": ""
+            "m_EmpPlayerParticle": "",
+            "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER",
+            "m_strSmallIconCssClass": "stunned"
         },
         "m_AbilityTooltipDetails": {
             "m_vecAbilityInfoSections": [

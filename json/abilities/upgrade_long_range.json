@@ -124,7 +124,7 @@
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             },
             "BonusClipSizePercent": {
-                "m_strValue": "20",
+                "m_strValue": "25",
                 "m_eDisplayType": "EClipSizeIncrease",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_AMMO_CLIP_SIZE_PERCENT",
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"

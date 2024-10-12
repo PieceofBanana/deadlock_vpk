@@ -207,7 +207,8 @@
                     "m_sLocalizationName": "MODIFIER_STATE_DISARMED",
                     "m_DebuffParticle": "particles/abilities/digger/digger_throw_sand_debuff.vpcf",
                     "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER",
-                    "m_strHudMessageText": "#modifier_citadel_disarmed"
+                    "m_strHudMessageText": "#modifier_citadel_disarmed",
+                    "m_strSmallIconCssClass": "disarm_proc"
                 }
             }
         },
@@ -243,7 +244,8 @@
             "m_sLocalizationName": "MODIFIER_STATE_DISARMED",
             "m_DebuffParticle": "particles/abilities/digger/digger_throw_sand_debuff.vpcf",
             "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER",
-            "m_strHudMessageText": "#modifier_citadel_disarmed"
+            "m_strHudMessageText": "#modifier_citadel_disarmed",
+            "m_strSmallIconCssClass": "disarm_proc"
         },
         "m_strCastSound": "MoKrill.Sandblast.Cast",
         "m_strCastAnimGraphParam": "b_ThrowSand",

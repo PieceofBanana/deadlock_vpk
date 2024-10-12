@@ -273,7 +273,8 @@
                 "m_eTimeScaleSource": "MODIFIER_TIME_SCALE_USE_CASTER",
                 "m_flOuterSpeedScale": "10.000000",
                 "m_strParticleStatusEffect": "particles/status_fx/status_fx_dynamo_singularity_tgt.vpcf",
-                "m_nStatusEffectPriority": "60"
+                "m_nStatusEffectPriority": "60",
+                "m_strSmallIconCssClass": "stunned"
             },
             "m_bDurationCanBeTimeScaled": "true",
             "m_strScreenParticleEffect": "",

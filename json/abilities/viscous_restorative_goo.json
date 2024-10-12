@@ -119,11 +119,6 @@
             "BonusHealthRegen": {
                 "m_strValue": "40",
                 "m_strCSSClass": "healing",
-                "m_subclassScaleFunction": {
-                    "_class": "scale_function_single_stat",
-                    "_my_subclass_name": "BonusHealthRegen_scale_function",
-                    "m_eSpecificStatScaleType": "EHealingOutput"
-                },
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_HEALTH_REGEN_PER_SECOND"
             },
             "MaxHealthRegen": {

@@ -138,7 +138,7 @@
                 "m_strValue": "0.3"
             },
             "Radius": {
-                "m_strValue": "6.5m",
+                "m_strValue": "4.5m",
                 "m_eDisplayType": "ETechRange",
                 "m_eDisplayUnits": "EDisplayUnit_Meters",
                 "m_strCSSClass": "distance",
@@ -149,6 +149,7 @@
                 }
             },
             "MoveSlowPercent": {
+                "m_strLocTokenOverride": "SlowPercent",
                 "m_strValue": "30",
                 "m_strCSSClass": "slow",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
@@ -164,7 +165,8 @@
                 }
             },
             "AmpPercentPerStack": {
-                "m_strValue": "6"
+                "m_strValue": "6",
+                "m_strCSSClass": "damage"
             },
             "AmpDuration": {
                 "m_strValue": "15",
@@ -396,6 +398,10 @@
                     {
                         "m_strPropertyName": "AmpPercentPerStack",
                         "m_strBonus": "4"
+                    },
+                    {
+                        "m_strPropertyName": "Radius",
+                        "m_strBonus": "2m"
                     }
                 ]
             }

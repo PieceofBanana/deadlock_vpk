@@ -19,7 +19,7 @@
         "m_hRespawnParticle": "particles/generic/player_respawn_deploy.vpcf",
         "m_nModelSkin": "0",
         "m_mapStartingStats": {
-            "EMaxMoveSpeed": "7",
+            "EMaxMoveSpeed": "7.300000",
             "ESprintSpeed": "0",
             "ECrouchSpeed": "4.750000",
             "EMoveAcceleration": "4",
@@ -37,7 +37,8 @@
             "EAbilityResourceRegenPerSecond": "0",
             "ECritDamageReceivedScale": "1.000000",
             "ETechDuration": "1",
-            "ETechRange": "1"
+            "ETechRange": "1",
+            "ECritDamageBonusScale": "1.000000"
         },
         "m_flCollisionRadius": "20",
         "m_flCollisionHeight": "80",
@@ -537,7 +538,8 @@
                     "EReloadSpeed",
                     "EBulletSpeed",
                     "EBulletSpeedIncrease",
-                    "EBulletLifesteal"
+                    "EBulletLifesteal",
+                    "ECritDamageBonusScale"
                 ],
                 "m_vecOtherDisplayStats": [
                     "ELightMeleeDamage",

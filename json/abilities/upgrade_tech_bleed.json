@@ -165,7 +165,7 @@
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             },
             "MovementSpeedSlow": {
-                "m_strValue": "50",
+                "m_strValue": "40",
                 "m_strCSSClass": "slow",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
                 "m_UsageFlags": "APUsageFlag_ModifierConditional"
@@ -275,12 +275,15 @@
                 "m_BleedModifier": {
                     "_class": "modifier_tech_bleed",
                     "_my_subclass_name": "modifier_tech_bleed",
-                    "m_strSmallIconCssClass": "modifier_damage_over_time",
+                    "m_strSmallIconCssClass": "tech_bleed",
                     "m_strParticleEffect": "particles/upgrades/magic_reverb_aoe_debuff.vpcf",
                     "m_sStartSound": "Item.Tech.Reverb.Mod.Start",
                     "m_sAmbientLoopingSound": "Item.Tech.Reverb.Lp",
                     "m_sExpiredSound": "Item.Tech.Reverb.End",
-                    "m_DamageParticle": "particles/upgrades/magic_reverb_aoe_damage.vpcf"
+                    "m_DamageParticle": "particles/upgrades/magic_reverb_aoe_damage.vpcf",
+                    "m_eDrawOverheadStatus": "OVERHEAD_DRAW_FOR_EVERYONE",
+                    "m_bReverseHudProgressBar": "true",
+                    "m_bIsBuildup": "true"
                 },
                 "m_SlowModifier": {
                     "_class": "modifier_slow_base",

@@ -228,16 +228,16 @@
         "m_iUpdateTime": "1718823919",
         "m_strCSSClass": "colossus",
         "m_strAbilityImage": "file://{images}/upgrades/mods_armor/colossus.psd",
-        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_BUSY",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_BUSY | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_MELEE_ON_CAST",
         "m_strCastDelaySound": "Mods.Armor.TechDefender.PreCast",
         "m_BuffModifier": {
             "_class": "modifier_colossus_active",
             "_my_subclass_name": "modifier_colossus_active",
             "m_sLocalizationName": "modifier_colossus_active",
-            "m_bIsHidden": "true",
-            "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER",
-            "m_sAmbientLoopingSound": "Mods.Armor.TechDefender.Lp",
-            "m_sStartSound": "Mods.Armor.TechDefender.Cast",
+            "m_bIsHidden": "false",
+            "m_eHudDisplayLocation": "DISPLAY_HUD_LEFT",
+            "m_sAmbientLoopingSound": "Mods.Armor.Colossus.Lp",
+            "m_sStartSound": "Mods.Armor.Colossus.Cast",
             "m_sExpiredSound": "Mods.Armor.TechDefender.End",
             "m_ShieldParticle": "particles/upgrades/colossus_buff.vpcf",
             "m_strParticleStatusEffect": "particles/status_fx/status_fx_colossus.vpcf",
@@ -263,7 +263,9 @@
                         "GroundDashReductionPercent"
                     ]
                 }
-            }
+            },
+            "m_eDrawOverheadStatus": "OVERHEAD_DRAW_FOR_EVERYONE",
+            "m_strSmallIconCssClass": "colossus_active"
         },
         "m_vecTooltipSectionInfo": [
             {

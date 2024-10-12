@@ -118,7 +118,7 @@
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             },
             "BaseAttackDamagePercent": {
-                "m_strValue": "5",
+                "m_strValue": "6",
                 "m_eDisplayType": "EBaseWeaponDamageIncrease",
                 "m_eDisplayUnits": "EDisplayUnit_Normal",
                 "m_strCSSClass": "",

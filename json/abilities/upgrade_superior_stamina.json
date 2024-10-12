@@ -120,7 +120,7 @@
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             },
             "StaminaCooldownReduction": {
-                "m_strValue": "20",
+                "m_strValue": "25",
                 "m_eDisplayType": "EStaminaRegenPerSecond",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_STAMINA_REGEN_PER_SECOND_PERCENTAGE",
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"

@@ -127,6 +127,14 @@
                     "m_eSpecificStatScaleType": "EProcBuildUpRateScale"
                 }
             },
+            "CritBuildup": {
+                "m_strValue": "16",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "CritBuildup_scale_function",
+                    "m_eSpecificStatScaleType": "EProcBuildUpRateScale"
+                }
+            },
             "TickRate": {
                 "m_strValue": "0.5"
             },
@@ -146,14 +154,6 @@
                     "_class": "scale_function_tech_damage",
                     "_my_subclass_name": "DPS_scale_function",
                     "m_flStatScale": "0.500000"
-                }
-            },
-            "CritBuildup": {
-                "m_strValue": "16",
-                "m_subclassScaleFunction": {
-                    "_class": "scale_function_single_stat",
-                    "_my_subclass_name": "CritBuildup_scale_function",
-                    "m_eSpecificStatScaleType": "EProcBuildUpRateScale"
                 }
             },
             "AfterburnSpiritDamageReduction": {

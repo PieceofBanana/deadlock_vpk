@@ -284,7 +284,7 @@
                 "0.300000"
             ],
             "m_strBulletImpactSound": "Lash.Wpn.Impact",
-            "m_flBulletDamage": "10"
+            "m_flBulletDamage": "9"
         },
         "_multibase": [
             "hero_weapon_base"

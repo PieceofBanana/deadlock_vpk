@@ -222,7 +222,7 @@
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_NONE",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
-        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_BUSY | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_BUSY | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_MELEE_ON_CAST | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_MELEE_ON_CAST | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
         "m_strCastAnimGraphParam": "e_GenericThrow",
         "m_strCSSClass": "mokrillScorn",
         "m_strAbilityImage": "file://{images}/hud/abilities/grappler/grappler_regen.psd",

@@ -23,6 +23,7 @@
         "scripts/abilities/nano.vdata_inc",
         "scripts/abilities/orion.vdata_inc",
         "scripts/abilities/shiv.vdata_inc",
+        "scripts/abilities/shieldguy.vdata_inc",
         "scripts/abilities/slork.vdata_inc",
         "scripts/abilities/synth.vdata_inc",
         "scripts/abilities/tengu.vdata_inc",

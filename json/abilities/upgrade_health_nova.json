@@ -99,7 +99,7 @@
                 "m_strCSSClass": "cast"
             },
             "TechPower": {
-                "m_strValue": "4",
+                "m_strValue": "6",
                 "m_strDisableValue": "0",
                 "m_bCanSetTokenOverride": "true",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_POWER",
@@ -256,12 +256,23 @@
                     "BaseAttackDamagePercent",
                     "BonusHealth",
                     "TechPower"
-                ]
+                ],
+                "m_sStartSound": "",
+                "m_sAmbientLoopingSound": "",
+                "m_sExpiredSound": ""
             }
         ],
         "m_vecComponentItems": [
             "upgrade_health_stimpak"
         ],
-        "m_eShopFilters": "EShopFilterHealing"
+        "m_eShopFilters": "EShopFilterHealing",
+        "m_HealingModifier": {
+            "_class": "modifier_health_nova",
+            "m_sLocalizationName": "modifier_health_nova",
+            "m_strSmallIconCssClass": "health_nova",
+            "_my_subclass_name": "modifier_healing_Nova_active",
+            "m_strHudIcon": "file://{images}/upgrades/mods_utility/health_nova.psd",
+            "m_eDrawOverheadStatus": "OVERHEAD_DRAW_FOR_EVERYONE"
+        }
     }
 }

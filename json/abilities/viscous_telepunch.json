@@ -226,7 +226,7 @@
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_GROUND",
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_SPHERE",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_PRESS",
-        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_DEPLOY_OBJECT | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_DEPLOY_OBJECT | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
         "m_strAbilityImage": "file://{images}/damage_melee.psd",
         "m_flTargetingConeAngle": "100",
         "m_HUDPanel": {

@@ -137,7 +137,7 @@
                 "m_strValue": "15"
             },
             "DebuffDuration": {
-                "m_strValue": "16",
+                "m_strValue": "13",
                 "m_strCSSClass": "duration",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",
@@ -146,7 +146,7 @@
                 }
             },
             "SlowDuration": {
-                "m_strValue": "6",
+                "m_strValue": "4",
                 "m_strCSSClass": "duration",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",

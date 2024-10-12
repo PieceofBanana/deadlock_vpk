@@ -4,7 +4,7 @@
         "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "25.000000",
+                "m_strValue": "30.000000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -128,7 +128,7 @@
                 "m_strCSSClass": "tech_damage"
             },
             "ReturnFireBulletResist": {
-                "m_strValue": "25",
+                "m_strValue": "20",
                 "m_eDisplayType": "EBulletArmorDamageReduction",
                 "m_strCSSClass": "bullet_armor_up",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
@@ -221,7 +221,7 @@
             "m_flBulletInheritShooterVelocityScale": "0",
             "m_szBulletTravelTracerParticle": "particles/weapon_fx/reactive_armor_tracer.vpcf",
             "m_szMuzzleFlashEffectName": "particles/weapon_fx/default_muzzle_flash.vpcf",
-            "m_strShootSound": "Item.ReactiveArmor.HitIndicator",
+            "m_strShootSound": "",
             "m_strBulletWhizSound": "Base.Bullet.Whizby",
             "m_flBulletWhizDistance": "150",
             "m_mapImpactEffects": {
@@ -290,16 +290,19 @@
             "_class": "modifier_armor_return_fire",
             "_my_subclass_name": "modifier_armor_return_fire",
             "m_sLocalizationName": "modifier_armor_return_fire",
-            "m_bIsHidden": "true",
+            "m_bIsHidden": "false",
             "m_AttackerHitFx": "particles/upgrades/reactive_armor_attacker_hit.vpcf",
             "m_ImpactParticle": "particles/upgrades/reactive_armor_impact.vpcf",
-            "m_strAttackerHitSound": "Item.ReactiveArmor.HitIndicator",
+            "m_strAttackerHitSound": "",
             "m_strParticleEffect": "particles/upgrades/reactive_armor_buff.vpcf",
             "m_strHudMessageText": "#upgrade_return_fire",
             "m_SpiritReflectTracerReplacement": "particles/weapon_fx/ricochet_tracer.vpcf",
             "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
                 "ReturnFireBulletResist"
-            ]
+            ],
+            "m_eDrawOverheadStatus": "OVERHEAD_DRAW_FOR_EVERYONE",
+            "m_strSmallIconCssClass": "return_fire",
+            "m_strHitProcSound": "Mods.Armor.ReturnFire.Proc"
         },
         "m_vecTooltipSectionInfo": [
             {

@@ -213,7 +213,7 @@
         "m_strAbilityImage": "file://{images}/upgrades/mods_armor/phantom_strike.psd",
         "m_flTargetingConeAngle": "45",
         "m_flTeleportDistance": "120.000000",
-        "m_flVelocityScale": "0.000000",
+        "m_flVelocityScale": "0.500000",
         "m_previewParticle": "particles/upgrades/phantom_strike_preview.vpcf",
         "m_CastParticle": "particles/upgrades/phantom_strike_cast.vpcf",
         "m_ImpactParticle": "particles/upgrades/phantom_strike_impact.vpcf",
@@ -225,13 +225,15 @@
             "_class": "modifier_slow_base",
             "_my_subclass_name": "modifier_slow_base",
             "m_sLocalizationName": "movement_slow",
-            "m_bIsHidden": "true",
+            "m_bIsHidden": "false",
             "m_nEnabledStateMask": "MODIFIER_STATE_DISARMED",
             "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
                 "SlowPercent"
             ],
             "m_strParticleEffect": "particles/generic/generic_slow_debuff.vpcf",
-            "m_strParticleStatusEffect": "particles/generic/generic_disarmed.vpcf"
+            "m_strParticleStatusEffect": "particles/generic/generic_disarmed.vpcf",
+            "m_strSmallIconCssClass": "disarm_proc",
+            "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER"
         },
         "m_vecTooltipSectionInfo": [
             {

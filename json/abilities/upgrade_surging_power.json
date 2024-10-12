@@ -4,7 +4,7 @@
         "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "37.000000",
+                "m_strValue": "34.000000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -149,7 +149,7 @@
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             },
             "ActiveReloadPercent": {
-                "m_strValue": "50"
+                "m_strValue": "75"
             }
         },
         "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
@@ -210,7 +210,7 @@
         "m_strCSSClass": "surgingPower",
         "m_strAbilityImage": "file://{images}/upgrades/mods_weapon/vampiric_burst.psd",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_HERO_FRIENDLY",
-        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_BUSY",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_BUSY | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_MELEE_ON_CAST",
         "m_flTargetingConeAngle": "45",
         "m_strCastSound": "Mods.Weapon.Surging.Power.Cast",
         "m_ModifierSurgingPower": {
@@ -221,11 +221,15 @@
                 "_my_subclass_name": "active",
                 "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER",
                 "m_bReverseHudProgressBar": "false",
-                "m_bIsHidden": "true",
+                "m_bIsHidden": "false",
                 "m_strParticleEffect": "particles/upgrades/vampiric_burst_buff.vpcf",
                 "m_sExpiredSound": "Mods.Weapon.Surging.Power.Mod.End",
                 "m_sAmbientLoopingSound": "Mods.Weapon.Surging.Power.Mod.Dur.Lp",
-                "m_sStartSound": "Mods.Weapon.Surging.Power.Mod.Start"
+                "m_sStartSound": "Mods.Weapon.Surging.Power.Mod.Start",
+                "m_sLocalizationName": "modifier_surging_power",
+                "m_eDrawOverheadStatus": "OVERHEAD_DRAW_FOR_EVERYONE",
+                "m_strSmallIconCssClass": "surging_power_active",
+                "m_strHudIcon": "file://{images}/upgrades/mods_weapon/vampiric_burst.psd"
             },
             "m_sStartSound": "",
             "m_sAmbientLoopingSound": "",

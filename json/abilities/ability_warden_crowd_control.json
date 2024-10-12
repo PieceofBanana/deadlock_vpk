@@ -4,7 +4,7 @@
         "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "14.000000",
+                "m_strValue": "12.000000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -120,7 +120,7 @@
                 }
             },
             "Damage": {
-                "m_strValue": "55",
+                "m_strValue": "65",
                 "m_strCSSClass": "tech_damage",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_tech_damage",
@@ -231,16 +231,16 @@
             {
                 "m_vecPropertyUpgrades": [
                     {
-                        "m_strPropertyName": "Damage",
-                        "m_strBonus": "40"
+                        "m_strPropertyName": "StaminaReduction",
+                        "m_strBonus": "1"
                     }
                 ]
             },
             {
                 "m_vecPropertyUpgrades": [
                     {
-                        "m_strPropertyName": "StaminaReduction",
-                        "m_strBonus": "1"
+                        "m_strPropertyName": "Damage",
+                        "m_strBonus": "50"
                     }
                 ]
             },

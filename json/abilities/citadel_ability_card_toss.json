@@ -121,7 +121,7 @@
                     "_class": "scale_function_tech_damage",
                     "_my_subclass_name": "Damage_scale_function",
                     "m_eSpecificStatScaleType": "ETechPower",
-                    "m_flStatScale": "1.500000"
+                    "m_flStatScale": "1.100000"
                 }
             },
             "Radius": {
@@ -152,10 +152,10 @@
                 "m_strValue": "6"
             },
             "CardResourcePerLightMelee": {
-                "m_strValue": "20"
+                "m_strValue": "10"
             },
             "CardResourcePerHeavyMelee": {
-                "m_strValue": "50"
+                "m_strValue": "25"
             },
             "CardResourceGenPctScale": {
                 "m_strValue": "106.000000",

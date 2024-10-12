@@ -134,7 +134,7 @@
                 }
             },
             "HealPctVsNonHeroes": {
-                "m_strValue": "30",
+                "m_strValue": "25",
                 "m_strCSSClass": "healing",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",
@@ -143,7 +143,7 @@
                 }
             },
             "HealPctVsHeroes": {
-                "m_strValue": "80",
+                "m_strValue": "70",
                 "m_strCSSClass": "healing",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",

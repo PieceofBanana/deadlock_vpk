@@ -339,7 +339,8 @@
                 },
                 "m_sStartSound": "",
                 "m_sAmbientLoopingSound": "Haze.Finesse.Dagger.Sleep",
-                "m_sExpiredSound": "Haze.Finesse.Dagger.Wake"
+                "m_sExpiredSound": "Haze.Finesse.Dagger.Wake",
+                "m_strSmallIconCssClass": "asleep"
             }
         },
         "m_SleepBombModifier": {

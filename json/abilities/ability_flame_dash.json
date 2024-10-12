@@ -321,7 +321,7 @@
                         "_my_subclass_name": "modifier_flamedash_debuff",
                         "m_sLocalizationName": "modifier_flamedash_debuff",
                         "m_strSmallIconCssClass": "flame_dash_burn",
-                        "m_eDrawOverheadStatus": "OVERHEAD_DRAW_FOR_CASTER_ONLY",
+                        "m_eDrawOverheadStatus": "OVERHEAD_DRAW_NEVER",
                         "m_bIsHidden": "true",
                         "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
                             "FireRateSlow"

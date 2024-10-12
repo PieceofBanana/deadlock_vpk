@@ -1,5 +1,7 @@
 soundevents/base/citadel_base_events.vsndevts
 
+soundevents/soundevents_voip.vsndevts
+
 soundevents/base/world.vsndevts
 soundevents/damage.vsndevts
 soundevents/base/test.vsndevts

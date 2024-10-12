@@ -4,7 +4,7 @@
         "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "32.000000",
+                "m_strValue": "26.000000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -62,11 +62,11 @@
                 }
             },
             "AbilityPostCastDuration": {
-                "m_strValue": "0.25",
+                "m_strValue": "0.4",
                 "m_strDisableValue": "0"
             },
             "AbilityCharges": {
-                "m_strValue": "1",
+                "m_strValue": "2",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cast",
                 "m_bCanSetTokenOverride": "true",
@@ -77,7 +77,7 @@
                 }
             },
             "AbilityCooldownBetweenCharge": {
-                "m_strValue": "10",
+                "m_strValue": "8",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "charge_cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -111,25 +111,8 @@
                 "m_bCanSetTokenOverride": "true",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
             },
-            "FriendlyTargetCD": {
-                "m_strLocTokenOverride": "PounceFriendlyTargetCD",
-                "m_strCSSClass": "cooldown",
-                "m_strValue": "16.000000",
-                "m_subclassScaleFunction": {
-                    "_class": "scale_function_single_stat",
-                    "_my_subclass_name": "FriendlyTargetCD_scale_function",
-                    "m_eSpecificStatScaleType": "ETechCooldown"
-                }
-            },
-            "FriendlyRechargeTime": {
-                "m_strLocTokenOverride": "PounceFriendlyRechargeTime",
-                "m_strValue": "3",
-                "m_strCSSClass": "charge_cooldown",
-                "m_subclassScaleFunction": {
-                    "_class": "scale_function_single_stat",
-                    "_my_subclass_name": "FriendlyRechargeTime_scale_function",
-                    "m_eSpecificStatScaleType": "ETechCooldownBetweenChargeUses"
-                }
+            "DoublePounceTime": {
+                "m_strValue": "3"
             },
             "MoveSpeedToTarget": {
                 "m_strValue": "25m"
@@ -148,16 +131,13 @@
             },
             "Damage": {
                 "m_strValue": "60",
-                "m_strCSSClass": "tech_damage",
+                "m_strCSSClass": "melee_damage",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_tech_damage",
                     "_my_subclass_name": "Damage_scale_function",
-                    "m_flStatScale": "0.500000",
+                    "m_flStatScale": "0.700000",
                     "m_eSpecificStatScaleType": "ETechPower"
                 }
-            },
-            "InstantReload": {
-                "m_strValue": "0"
             },
             "SlowDuration": {
                 "m_strValue": "2.0",
@@ -182,7 +162,7 @@
             },
             "ExplodeRadius": {
                 "m_strLocTokenOverride": "PounceDebuffRadius",
-                "m_strValue": "4m",
+                "m_strValue": "6m",
                 "m_strCSSClass": "distance",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",
@@ -257,7 +237,7 @@
         "m_strAbilityOffCooldownSound": "",
         "m_strAbilityChargeReadySound": "",
         "m_skillshotMissParticle": "particles/abilities/skillshot_default_miss_owner.vpcf",
-        "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL",
+        "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_UNIT",
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_CONE",
@@ -281,8 +261,8 @@
                         "m_strBonus": "30"
                     },
                     {
-                        "m_strPropertyName": "ExplodeRadius",
-                        "m_strBonus": "6m"
+                        "m_strPropertyName": "ActiveReloadPercent",
+                        "m_strBonus": "20"
                     }
                 ]
             },
@@ -293,18 +273,19 @@
                         "m_strBonus": "1"
                     },
                     {
-                        "m_strPropertyName": "ActiveReloadPercent",
-                        "m_strBonus": "25"
+                        "m_strPropertyName": "Damage",
+                        "m_strBonus": "60"
                     }
                 ]
             }
         ],
-        "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/nano_warp.webm",
+        "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/calico_pounce.webm",
         "m_flAllyMinTargetRange": "200",
         "m_flTargetVerticalOffset": "60",
         "m_AttackSound": "Ability.Melee.Impact.Player",
         "m_strCastSound": "Shiv.Ability.ShivFlash.Leap",
-        "m_flPreArrivalAttackStartTime": "0.200000",
+        "m_flAttackTimePhase01": "0.200000",
+        "m_flAttackTimePhase02": "-0.400000",
         "m_ExplodeSlowParticle": "particles/abilities/nano/nano_pounce_slow_aoe.vpcf",
         "m_AttackParticle": "particles/abilities/nano/nano_pounce_uppercut_slash.vpcf",
         "m_FlashParticle": "particles/abilities/nano/nano_pounce_attack_caster.vpcf",
@@ -314,6 +295,13 @@
             "_class": "modifier_citadel_nano_pounce_self",
             "_my_subclass_name": "modifier_citadel_nano_pounce_self",
             "m_bIsHidden": "true"
+        },
+        "m_DoublePounceModifier": {
+            "_class": "modifier_base",
+            "_my_subclass_name": "double_pounce_notify",
+            "m_bIsHidden": "false",
+            "m_sLocalizationName": "pounce_double_notify",
+            "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER"
         },
         "m_SlowModifier": {
             "_class": "modifier_slow_base",
@@ -341,8 +329,6 @@
                         }
                     ],
                     "m_vecBasicProperties": [
-                        "FriendlyTargetCD",
-                        "FriendlyRechargeTime",
                         "SlowPercent",
                         "SlowDuration"
                     ]

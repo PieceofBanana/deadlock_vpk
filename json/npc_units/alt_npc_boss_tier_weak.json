@@ -18,6 +18,7 @@
         "m_sDefaultMaterialGroupName": "friendly",
         "m_sEnemyMaterialGroupName": "enemy",
         "m_StompImpactEffect": "particles/npc/tier2boss/tier2boss_stomp.vpcf",
+        "m_StompWarningEffect": "particles/npc/tier2boss/tier2boss_stomp_precast.vpcf",
         "m_flStompDamage": "350.000000",
         "m_flStunDuration": "2.000000",
         "m_flMeleeAttemptRange": "600.000000",

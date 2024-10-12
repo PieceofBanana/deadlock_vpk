@@ -4,8 +4,8 @@
         "m_sIdleAmbient": "Neutral.Camp.Idle",
         "m_sAlertAmbient": "Neutral.Camp.Aggro",
         "_base": "info_neutral_trooper_camp",
-        "m_iInitialSpawnDelayInSeconds": "600",
-        "m_iSpawnIntervalInSeconds": "300",
+        "m_iInitialSpawnDelayInSeconds": "480",
+        "m_iSpawnIntervalInSeconds": "240",
         "m_eNeutralType": "NEUTRAL_VAULT"
     }
 }

@@ -19,7 +19,7 @@
         "m_hRespawnParticle": "particles/generic/player_respawn_deploy.vpcf",
         "m_nModelSkin": "0",
         "m_mapStartingStats": {
-            "EMaxMoveSpeed": "6",
+            "EMaxMoveSpeed": "6.300000",
             "ESprintSpeed": "0",
             "ECrouchSpeed": "4.750000",
             "EMoveAcceleration": "4",
@@ -30,14 +30,15 @@
             "EReloadSpeed": "1",
             "EWeaponPowerScale": "1",
             "EProcBuildUpRateScale": "1",
-            "EStamina": "3",
+            "EStamina": "4",
             "EBaseHealthRegen": "2.000000",
             "EStaminaRegenPerSecond": "0.200000",
             "EAbilityResourceMax": "0",
             "EAbilityResourceRegenPerSecond": "0",
             "ECritDamageReceivedScale": "1.000000",
             "ETechDuration": "1",
-            "ETechRange": "1"
+            "ETechRange": "1",
+            "ECritDamageBonusScale": "1.000000"
         },
         "m_flCollisionRadius": "20",
         "m_flCollisionHeight": "80",
@@ -479,17 +480,9 @@
             "m_eWeaponStatDisplay": "EMeleeDamage_DEPRECATED"
         },
         "m_mapScalingStats": {
-            "EMaxMoveSpeed": {
+            "EBulletDamage": {
                 "eScalingStat": "ETechPower",
-                "flScale": "0.040000"
-            },
-            "ERoundsPerSecond": {
-                "eScalingStat": "ETechPower",
-                "flScale": "0.006250"
-            },
-            "EFireRate": {
-                "eScalingStat": "ETechPower",
-                "flScale": "0.250000"
+                "flScale": "0.100000"
             }
         },
         "m_heroStatsDisplay": {
@@ -549,7 +542,8 @@
                     "EReloadSpeed",
                     "EBulletSpeed",
                     "EBulletSpeedIncrease",
-                    "EBulletLifesteal"
+                    "EBulletLifesteal",
+                    "ECritDamageBonusScale"
                 ],
                 "m_vecOtherDisplayStats": [
                     "ELightMeleeDamage",
@@ -601,7 +595,6 @@
         "m_strRosterSelectedSound": "Orion.VO.HeroPick",
         "m_strIconHeroCard": "file://{images}/heroes/archer_card.psd",
         "m_strRosterRemovedSound": "Orion.VO.HeroRemove",
-        "m_hGeneratedVOEventScript": "soundevents/vo/generated_vo_hero_orion.vsndevts",
         "m_strTopBarImage": "file://{images}/hud/hero_portraits/archer_hud.psd",
         "m_strUIPortraitMap": "maps/ui/hero_prefabs/archer.vmap",
         "m_RecommendedUpgrades": [
@@ -626,6 +619,7 @@
         "m_strTopBarVertical": "file://{images}/heroes/archer_vertical.psd",
         "m_flStepSoundTimeSprinting": "0.355000",
         "m_strUIShopAnimGraph": "models/heroes_staging/archer/ui_shop_archer.vanmgrph",
-        "m_strUIShoppingMap": "maps/ui/hero_shop/gray_talon_shop.vmap"
+        "m_strUIShoppingMap": "maps/ui/hero_shop/gray_talon_shop.vmap",
+        "m_hGeneratedVOEventScript": "soundevents/vo/generated_vo_hero_orion.vsndevts"
     }
 }

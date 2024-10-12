@@ -266,7 +266,7 @@
             }
         ],
         "m_strCastSound": "Nano.Predator.Cast",
-        "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/nano_roller_bomb.webm",
+        "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/calico_sekhmet_spirit.webm",
         "m_AbilityTooltipDetails": {
             "m_vecAbilityInfoSections": [
                 {

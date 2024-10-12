@@ -217,14 +217,6 @@
             {
                 "m_vecPropertyUpgrades": [
                     {
-                        "m_strPropertyName": "AbilityCooldown",
-                        "m_strBonus": "-20.000000"
-                    }
-                ]
-            },
-            {
-                "m_vecPropertyUpgrades": [
-                    {
                         "m_strPropertyName": "BonusMoveSpeed",
                         "m_strBonus": "2m"
                     }
@@ -233,8 +225,16 @@
             {
                 "m_vecPropertyUpgrades": [
                     {
+                        "m_strPropertyName": "AbilityCooldown",
+                        "m_strBonus": "-30.000000"
+                    }
+                ]
+            },
+            {
+                "m_vecPropertyUpgrades": [
+                    {
                         "m_strPropertyName": "BonusFireRate",
-                        "m_strBonus": "20"
+                        "m_strBonus": "30"
                     }
                 ]
             }

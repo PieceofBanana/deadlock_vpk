@@ -1,5 +1,5 @@
 {
-    "spirit_permanent_pickup_lv2": {
+    "spirit_permanent_pickup_lv3": {
         "_class": "citadel_breakable_prop_modifier_pickup",
         "m_flPickupRadius": "85.000000",
         "m_spawnParticle": "particles/environment/breakable_item_drop.vpcf",
@@ -9,7 +9,7 @@
         "m_flPickupExpirationDuration": "30.000000",
         "m_flParticleRadius": "1.500000",
         "m_bShowOnMinimap": "false",
-        "m_sNameLocString": "spirit_permanent_pickup_label_lv2",
+        "m_sNameLocString": "spirit_permanent_pickup_label_lv3",
         "m_sPickupSound": "Powerup.Pickup.Spirit",
         "m_nNameOffset": "60",
         "_base": "spirit_permanent_pickup",
@@ -20,7 +20,7 @@
             "m_vecScriptValues": [
                 {
                     "m_eModifierValue": "MODIFIER_VALUE_TECH_POWER",
-                    "m_value": "3.000000"
+                    "m_value": "5.000000"
                 }
             ]
         },

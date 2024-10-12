@@ -126,12 +126,12 @@
                 "m_strValue": "0"
             },
             "Damage": {
-                "m_strValue": "100",
+                "m_strValue": "90",
                 "m_strCSSClass": "tech_damage",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_tech_damage",
                     "_my_subclass_name": "damage_scale",
-                    "m_flStatScale": "1.500000",
+                    "m_flStatScale": "1.900000",
                     "m_eSpecificStatScaleType": "ETechPower"
                 }
             },
@@ -264,7 +264,7 @@
                 "m_vecPropertyUpgrades": [
                     {
                         "m_strPropertyName": "Damage",
-                        "m_strBonus": "70"
+                        "m_strBonus": "60"
                     },
                     {
                         "m_strPropertyName": "Radius",

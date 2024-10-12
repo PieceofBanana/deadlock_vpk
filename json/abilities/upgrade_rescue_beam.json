@@ -26,7 +26,7 @@
                 }
             },
             "AbilityCastRange": {
-                "m_strValue": "36m",
+                "m_strValue": "32m",
                 "m_eDisplayUnits": "EDisplayUnit_Meters",
                 "m_strCSSClass": "range",
                 "m_bCanSetTokenOverride": "true",
@@ -207,7 +207,7 @@
         "m_iUpdateTime": "1711137653",
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_CONE",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_HERO_FRIENDLY",
-        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_ALLOW_SELF_CAST | CITADEL_ABILITY_BEHAVIOR_CAN_HEAL_PLAYERS | CITADEL_ABILITY_BEHAVIOR_USE_INSTANT_CAST_UNIT_TARGET_UI | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED | CITADEL_ABILITY_BEHAVIOR_ALLOW_SELF_CAST | CITADEL_ABILITY_BEHAVIOR_CAN_HEAL_PLAYERS | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_USE_INSTANT_CAST_UNIT_TARGET_UI | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
         "m_flTargetingConeAngle": "45",
         "m_strCSSClass": "medicBeam",
         "m_strAbilityImage": "file://{images}/upgrades/mods_tech/medic_beam.psd",
@@ -232,19 +232,23 @@
         "m_DispelAndHealModifier": {
             "_class": "modifier_citadel_rescue_beam",
             "_my_subclass_name": "modifier_citadel_rescue_beam",
-            "m_bIsHidden": "true",
+            "m_bIsHidden": "false",
             "m_BeamParticle": "particles/items/tech_dispel_and_heal_beam.vpcf",
             "m_ImpactParticle": "particles/items/tech_dispel_and_heal.vpcf",
             "m_sAmbientLoopingSound": "Player.Heal.BaseLoop",
             "m_sStartSound": "Player.Heal.BaseStart",
             "m_sExpiredSound": "Mods.Armor.Stimpack.End",
-            "m_strHudMessageText": "#upgrade_rescue_beam"
+            "m_strHudMessageText": "#upgrade_rescue_beam",
+            "m_eDrawOverheadStatus": "OVERHEAD_DRAW_FOR_EVERYONE",
+            "m_strSmallIconCssClass": "rescue_beam",
+            "m_sLocalizationName": "modifier_succor_move"
         },
         "m_PullModifier": {
             "_class": "modifier_succor_move",
             "_my_subclass_name": "rescume_beam_pull",
             "m_bIsHidden": "true",
-            "m_PullSound": "Mods.Armor.RescueBeam.Pull.Start"
+            "m_PullSound": "Mods.Armor.RescueBeam.Pull.Start",
+            "m_sAmbientLoopingSound": ""
         },
         "m_vecTooltipSectionInfo": [
             {
@@ -289,11 +293,14 @@
                     "BonusHealth",
                     "BonusSprintSpeed",
                     "TechPower"
-                ]
+                ],
+                "m_sAmbientLoopingSound": ""
             }
         ],
         "m_eShopFilters": "EShopFilterMagicDamage | EShopFilterDurability | EShopFilterHealing | EShopFilterMovement",
         "m_strAltCastButtonLocToken": "#AbilityButtonHint_HealSelf",
-        "m_strCastButtonLocToken": "#AbilityButtonHint_HealTarget"
+        "m_strCastButtonLocToken": "#AbilityButtonHint_HealTarget",
+        "m_strChannelLoopSound": "Mods.Armor.RescueBeam.Heal.Lp",
+        "m_strChannelSound": "Mods.Armor.RescueBeam.Cast"
     }
 }

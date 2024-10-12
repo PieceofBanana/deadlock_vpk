@@ -111,13 +111,13 @@
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
             },
             "BonusMoveSpeed": {
-                "m_strValue": "1.4m",
+                "m_strValue": "1.1m",
                 "m_strCSSClass": "move_speed",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_MOVEMENT_SPEED_MAX",
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             },
             "SlowResistancePercent": {
-                "m_strValue": "40",
+                "m_strValue": "35",
                 "m_strCSSClass": "move_speed",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_MOVEMENT_SLOW_RESISTANCE",
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"

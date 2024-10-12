@@ -19,7 +19,7 @@
         "m_hRespawnParticle": "particles/generic/player_respawn_deploy.vpcf",
         "m_nModelSkin": "0",
         "m_mapStartingStats": {
-            "EMaxMoveSpeed": "8.000000",
+            "EMaxMoveSpeed": "8.300000",
             "ESprintSpeed": "0",
             "ECrouchSpeed": "4.750000",
             "EMoveAcceleration": "4",
@@ -37,7 +37,8 @@
             "EAbilityResourceRegenPerSecond": "0",
             "ECritDamageReceivedScale": "1.000000",
             "ETechDuration": "1",
-            "ETechRange": "1"
+            "ETechRange": "1",
+            "ECritDamageBonusScale": "1.000000"
         },
         "m_flCollisionRadius": "20",
         "m_flCollisionHeight": "80",
@@ -541,7 +542,8 @@
                     "EReloadSpeed",
                     "EBulletSpeed",
                     "EBulletSpeedIncrease",
-                    "EBulletLifesteal"
+                    "EBulletLifesteal",
+                    "ECritDamageBonusScale"
                 ],
                 "m_vecOtherDisplayStats": [
                     "ELightMeleeDamage",
@@ -593,7 +595,6 @@
         "m_hGameSoundEventScript": "soundevents/hero/haze.vsndevts",
         "m_strRosterSelectedSound": "Haze.VO.HeroPick",
         "m_strIconHeroCard": "file://{images}/heroes/haze_card.psd",
-        "m_hGeneratedVOEventScript": "soundevents/vo/generated_vo_hero_haze.vsndevts",
         "m_strRosterRemovedSound": "Haze.VO.HeroRemove",
         "m_strTopBarImage": "file://{images}/hud/hero_portraits/haze_hud.psd",
         "m_RecommendedUpgrades": [
@@ -616,6 +617,7 @@
         "m_strTopBarVertical": "file://{images}/heroes/haze_vertical.psd",
         "m_flStepSoundTimeSprinting": "0.266000",
         "m_strUIShoppingMap": "maps/ui/hero_shop/haze_shop.vmap",
-        "m_strUIShopAnimGraph": "models/heroes_staging/haze/ui_shop_haze.vanmgrph"
+        "m_strUIShopAnimGraph": "models/heroes_staging/haze/ui_shop_haze.vanmgrph",
+        "m_hGeneratedVOEventScript": "soundevents/vo/generated_vo_hero_haze.vsndevts"
     }
 }

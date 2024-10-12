@@ -126,7 +126,7 @@
                 }
             },
             "Height": {
-                "m_strValue": "3m"
+                "m_strValue": "2m"
             },
             "DPS": {
                 "m_strValue": "60",
@@ -135,7 +135,7 @@
                     "_class": "scale_function_tech_damage",
                     "_my_subclass_name": "DPS_scale_function",
                     "m_eSpecificStatScaleType": "ETechPower",
-                    "m_flStatScale": "0.700000"
+                    "m_flStatScale": "0.600000"
                 }
             },
             "SlowPercent": {
@@ -244,7 +244,7 @@
                 "m_vecPropertyUpgrades": [
                     {
                         "m_strPropertyName": "DPS",
-                        "m_strBonus": "60"
+                        "m_strBonus": "50"
                     },
                     {
                         "m_strPropertyName": "Radius",

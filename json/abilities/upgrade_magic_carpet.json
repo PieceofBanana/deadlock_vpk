@@ -293,7 +293,9 @@
                         "m_flMaintainFloat": "300.000000"
                     }
                 ]
-            }
+            },
+            "m_eDrawOverheadStatus": "OVERHEAD_DRAW_FOR_EVERYONE",
+            "m_strSmallIconCssClass": "magiccarpet"
         },
         "m_vecTooltipSectionInfo": [
             {

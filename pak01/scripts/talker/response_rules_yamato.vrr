@@ -179,57 +179,7 @@
 				
 				{
 					m_type = "SPEAK"
-					m_value = "yamato_use_power3_03_ability_3d"
-					m_params = 
-					{
-						m_respeakdelay.start = 0.000000
-						m_predelay.start = 0.100000
-					}
-				},
-				
-				{
-					m_type = "SPEAK"
-					m_value = "yamato_use_power3_04_ability_3d"
-					m_params = 
-					{
-						m_respeakdelay.start = 0.000000
-						m_predelay.start = 0.100000
-					}
-				},
-				
-				{
-					m_type = "SPEAK"
-					m_value = "yamato_use_power3_06_ability_3d"
-					m_params = 
-					{
-						m_respeakdelay.start = 0.000000
-						m_predelay.start = 0.100000
-					}
-				},
-				
-				{
-					m_type = "SPEAK"
-					m_value = "yamato_use_power3_08_ability_3d"
-					m_params = 
-					{
-						m_respeakdelay.start = 0.000000
-						m_predelay.start = 0.100000
-					}
-				},
-				
-				{
-					m_type = "SPEAK"
-					m_value = "yamato_use_power3_09_ability_3d"
-					m_params = 
-					{
-						m_respeakdelay.start = 0.000000
-						m_predelay.start = 0.100000
-					}
-				},
-				
-				{
-					m_type = "SPEAK"
-					m_value = "yamato_use_power3_10_ability_3d"
+					m_value = "yamato_use_power1_10_ability_3d"
 					m_params = 
 					{
 						m_respeakdelay.start = 0.000000
@@ -242,9 +192,10 @@
 				m_name = "Yamato_Use_Power_Slash"
 				m_Requirements = 
 				[
-					"IsYamato",
 					"ConceptAbilityCast",
+					"IsYamato",
 					"IsPowerSlash",
+					"Chance75",
 				]
 			}
 		},
@@ -272,12 +223,32 @@
 				
 				{
 					m_type = "SPEAK"
+					m_value = "yamato_upgrade_power2_04_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
 					m_value = "yamato_upgrade_power2_05_hero_3d"
 				},
 				
 				{
 					m_type = "SPEAK"
+					m_value = "yamato_upgrade_power2_06_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "yamato_upgrade_power2_07_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
 					m_value = "yamato_upgrade_power2_08_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "yamato_upgrade_power2_09_hero_3d"
 				},
 				
 				{
@@ -302,6 +273,56 @@
 			m_notes = "ABILITY RELATED RESPONSES //"
 			m_responses = 
 			[
+				
+				{
+					m_type = "SPEAK"
+					m_value = "yamato_use_power2_01_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "yamato_use_power2_02_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "yamato_use_power2_03_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "yamato_use_power2_04_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "yamato_use_power2_05_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
+				},
 				
 				{
 					m_type = "SPEAK"
@@ -358,9 +379,10 @@
 				m_name = "Yamato_Use_Flying_Strike"
 				m_Requirements = 
 				[
-					"IsYamato",
 					"ConceptAbilityCast",
+					"IsYamato",
 					"IsFlyingStrike",
+					"Chance75",
 				]
 			}
 		},
@@ -390,6 +412,36 @@
 					m_type = "SPEAK"
 					m_value = "yamato_upgrade_power4_04_hero_3d"
 				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "yamato_upgrade_power4_05_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "yamato_upgrade_power4_06_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "yamato_upgrade_power4_07_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "yamato_upgrade_power4_08_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "yamato_upgrade_power4_09_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "yamato_upgrade_power4_10_hero_3d"
+				},
 			]
 			m_pEmbeddedRule = 
 			{
@@ -408,6 +460,16 @@
 			m_notes = "ABILITY RELATED RESPONSES //"
 			m_responses = 
 			[
+				
+				{
+					m_type = "SPEAK"
+					m_value = "yamato_use_power4_01_ult_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
+				},
 				
 				{
 					m_type = "SPEAK"
@@ -541,6 +603,31 @@
 					m_type = "SPEAK"
 					m_value = "yamato_upgrade_power3_05_hero_3d"
 				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "yamato_upgrade_power3_06_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "yamato_upgrade_power3_07_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "yamato_upgrade_power3_08_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "yamato_upgrade_power3_09_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "yamato_upgrade_power3_10_hero_3d"
+				},
 			]
 			m_pEmbeddedRule = 
 			{
@@ -562,7 +649,37 @@
 				
 				{
 					m_type = "SPEAK"
+					m_value = "yamato_use_power3_01_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
 					m_value = "yamato_use_power3_02_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "yamato_use_power3_03_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "yamato_use_power3_04_ability_3d"
 					m_params = 
 					{
 						m_respeakdelay.start = 0.000000
@@ -582,6 +699,16 @@
 				
 				{
 					m_type = "SPEAK"
+					m_value = "yamato_use_power3_06_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
 					m_value = "yamato_use_power3_07_ability_3d"
 					m_params = 
 					{
@@ -592,7 +719,7 @@
 				
 				{
 					m_type = "SPEAK"
-					m_value = "yamato_use_power1_09_ability_3d"
+					m_value = "yamato_use_power3_08_ability_3d"
 					m_params = 
 					{
 						m_respeakdelay.start = 0.000000
@@ -602,7 +729,17 @@
 				
 				{
 					m_type = "SPEAK"
-					m_value = "yamato_use_power1_07_ability_3d"
+					m_value = "yamato_use_power3_09_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "yamato_use_power3_10_ability_3d"
 					m_params = 
 					{
 						m_respeakdelay.start = 0.000000
@@ -615,9 +752,10 @@
 				m_name = "Yamato_Use_Crimson_Slash"
 				m_Requirements = 
 				[
-					"IsYamato",
 					"ConceptAbilityCast",
+					"IsYamato",
 					"IsCrimsonSlash",
+					"Chance75",
 				]
 			}
 		},
@@ -647,6 +785,36 @@
 					m_type = "SPEAK"
 					m_value = "yamato_upgrade_power4_04_hero_3d"
 				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "yamato_upgrade_power4_05_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "yamato_upgrade_power4_06_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "yamato_upgrade_power4_07_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "yamato_upgrade_power4_08_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "yamato_upgrade_power4_09_hero_3d"
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "yamato_upgrade_power4_10_hero_3d"
+				},
 			]
 			m_pEmbeddedRule = 
 			{
@@ -665,6 +833,16 @@
 			m_notes = "STUBBING IN SOMETHING FOR INFINITY SLASH //"
 			m_responses = 
 			[
+				
+				{
+					m_type = "SPEAK"
+					m_value = "yamato_use_power4_01_ult_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.150000
+					}
+				},
 				
 				{
 					m_type = "SPEAK"
@@ -887,76 +1065,151 @@
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_gun_01"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_gun_02"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_gun_03"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_gun_04"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_gun_05"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_gun_06"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_gun_07"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_gun_08"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_gun_09"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_gun_10"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_gun_11"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_gun_12"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_gun_13"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_gun_14"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_gun_15"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 			]
 			m_pEmbeddedRule = 
@@ -980,76 +1233,151 @@
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_armor_01"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_armor_02"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_armor_03"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_armor_04"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_armor_05"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_armor_06"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_armor_07"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_armor_08"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_armor_09"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_armor_10"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_armor_11"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_armor_12"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_armor_13"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_armor_14"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_armor_15"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 			]
 			m_pEmbeddedRule = 
@@ -1073,76 +1401,151 @@
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_tech_01"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_tech_02"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_tech_03"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_tech_04"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_tech_05"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_tech_06"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_tech_07"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_tech_08"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_tech_09"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_tech_10"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_tech_11"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_tech_12"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_tech_13"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_tech_14"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_tech_15"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 			]
 			m_pEmbeddedRule = 
@@ -1236,6 +1639,282 @@
 					"ConceptMatchStart",
 					"IsYamato",
 					"IsTeam2",
+				]
+			}
+		},
+		
+		{
+			m_name = "Vindicta_Desperation_Assassinate"
+			m_notes = "ABILITY RELATED RESPONSES //"
+			m_responses = 
+			[
+				
+				{
+					m_type = "SPEAK"
+					m_value = "vindicta_desperation_power4_01_ult_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.250000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "vindicta_desperation_power4_02_ult_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.250000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "vindicta_desperation_power4_03_ult_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.250000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "vindicta_desperation_power4_04_ult_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.250000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "vindicta_desperation_power4_05_ult_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.250000
+					}
+				},
+			]
+			m_pEmbeddedRule = 
+			{
+				m_name = "Vindicta_Desperation_Assassinate"
+				m_Requirements = 
+				[
+					"ConceptUltimateCast",
+					"IsHealthLowerThan20Percent",
+					"IsYamato",
+					"IsInfinitySlash",
+				]
+			}
+		},
+		
+		{
+			m_name = "Vindicta_Desperation_Vindicta_Sting"
+			m_notes = "ABILITY RELATED RESPONSES //"
+			m_responses = 
+			[
+				
+				{
+					m_type = "SPEAK"
+					m_value = "vindicta_desperation_power3_01_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.200000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "vindicta_desperation_power3_02_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.200000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "vindicta_desperation_power3_03_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.200000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "vindicta_desperation_power3_04_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.200000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "vindicta_desperation_power3_05_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.200000
+					}
+				},
+			]
+			m_pEmbeddedRule = 
+			{
+				m_name = "Vindicta_Desperation_Vindicta_Sting"
+				m_Requirements = 
+				[
+					"ConceptAbilityCast",
+					"IsHealthLowerThan20Percent",
+					"IsYamato",
+					"IsCrimsonSlash",
+				]
+			}
+		},
+		
+		{
+			m_name = "Vindicta_Desperation_Leap"
+			m_notes = "ABILITY RELATED RESPONSES //"
+			m_responses = 
+			[
+				
+				{
+					m_type = "SPEAK"
+					m_value = "vindicta_desperation_power2_01_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.600000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "vindicta_desperation_power2_02_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.600000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "vindicta_desperation_power2_03_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.600000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "vindicta_desperation_power2_04_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.600000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "vindicta_desperation_power2_05_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.600000
+					}
+				},
+			]
+			m_pEmbeddedRule = 
+			{
+				m_name = "Vindicta_Desperation_Leap"
+				m_Requirements = 
+				[
+					"ConceptAbilityCast",
+					"IsHealthLowerThan20Percent",
+					"IsYamato",
+					"IsFlyingStrike",
+				]
+			}
+		},
+		
+		{
+			m_name = "Vindicta_Desperation_Vindicta_Chain"
+			m_notes = "ABILITY RELATED RESPONSES //"
+			m_responses = 
+			[
+				
+				{
+					m_type = "SPEAK"
+					m_value = "vindicta_desperation_power1_01_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "vindicta_desperation_power1_02_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "vindicta_desperation_power1_03_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "vindicta_desperation_power1_04_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
+				},
+				
+				{
+					m_type = "SPEAK"
+					m_value = "vindicta_desperation_power1_05_ability_3d"
+					m_params = 
+					{
+						m_respeakdelay.start = 0.000000
+						m_predelay.start = 0.100000
+					}
+				},
+			]
+			m_pEmbeddedRule = 
+			{
+				m_name = "Vindicta_Desperation_Vindicta_Chain"
+				m_Requirements = 
+				[
+					"ConceptAbilityCast",
+					"IsHealthLowerThan20Percent",
+					"IsYamato",
+					"IsPowerSlash",
 				]
 			}
 		},

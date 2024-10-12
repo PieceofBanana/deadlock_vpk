@@ -122,10 +122,17 @@
                 }
             },
             "TechResist": {
-                "m_strValue": "8",
+                "m_strValue": "10",
                 "m_eDisplayType": "ETechArmorDamageReduction",
                 "m_strCSSClass": "tech_armor_up",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST",
+                "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
+            },
+            "BonusSprintSpeed": {
+                "m_strValue": "1m",
+                "m_strCSSClass": "move_speed",
+                "m_eDisplayType": "ESprintSpeed",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_SPRINT_SPEED_BONUS",
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             },
             "HealPerStack": {
@@ -211,7 +218,8 @@
                 "_my_subclass_name": "modifier_intrinsic_base",
                 "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
                     "TechResist",
-                    "TechPower"
+                    "TechPower",
+                    "BonusSprintSpeed"
                 ]
             }
         ],
@@ -222,7 +230,8 @@
                     {
                         "m_vecAbilityProperties": [
                             "TechResist",
-                            "TechPower"
+                            "TechPower",
+                            "BonusSprintSpeed"
                         ]
                     }
                 ]

@@ -111,7 +111,7 @@
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
             },
             "RageDrainRate": {
-                "m_strValue": "0.35",
+                "m_strValue": "0.25",
                 "m_strCSSClass": "duration"
             },
             "RagePerWeaponDamage": {
@@ -146,7 +146,7 @@
                 "m_UsageFlags": "APUsageFlag_ModifierConditional"
             },
             "RageDrainDelayDuration": {
-                "m_strValue": "7",
+                "m_strValue": "12",
                 "m_strCSSClass": "cooldown",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",

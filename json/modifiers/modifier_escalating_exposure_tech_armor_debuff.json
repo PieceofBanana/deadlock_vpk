@@ -1,0 +1,13 @@
+{
+    "modifier_escalating_exposure_tech_armor_debuff": {
+        "_class": "modifier_base",
+        "m_bIsHidden": "true",
+        "m_strSmallIconCssClass": "escalating_exposure",
+        "m_strParticleEffect": "particles/upgrades/tech_resist_debuff.vpcf",
+        "m_bDurationAffectedByEffectiveness": "true",
+        "m_eDrawOverheadStatus": "OVERHEAD_DRAW_NEVER",
+        "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
+            "TechArmorDamageReduction"
+        ]
+    }
+}

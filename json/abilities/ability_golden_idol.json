@@ -218,6 +218,20 @@
             "m_nEnabledStateMask": "MODIFIER_STATE_RETURNING_IDOL",
             "m_ChannelParticle": "particles/environment/soul_jar_return_channel.vpcf"
         },
+        "m_HoldingIdolModifier": {
+            "_class": "modifier_citadel_holding_golden_idol",
+            "_my_subclass_name": "modifier_citadel_holding_golden_idol",
+            "m_IdolParticle": "particles/generic/idol_carry.vpcf",
+            "m_strParticleStatusEffect": "",
+            "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER",
+            "m_nAmbientLoopingSoundRecipients": "MODIFIER_SOUND_RECIPIENT_PARENT_IS_LOCAL_PLAYER",
+            "m_sLocalizationName": "modifier_citadel_holding_golden_idol",
+            "m_nEnabledStateMask": "MODIFIER_STATE_HOLDING_IDOL | MODIFIER_STATE_VISIBLE_TO_ENEMY | MODIFIER_STATE_TELEPORTER_DISABLED | MODIFIER_STATE_SILENCED | MODIFIER_STATE_MUTED | MODIFIER_STATE_DISARMED | MODIFIER_STATE_ZIPLINE_DISABLED",
+            "m_vecAlwaysShowInStatModifierUI": [
+                "MODIFIER_VALUE_SPRINT_SPEED_BONUS"
+            ],
+            "m_strParticleEffect": "particles/environment/soul_jar_disarmed_debuff.vpcf"
+        },
         "m_Bonus01": {
             "_class": "modifier_base",
             "_my_subclass_name": "idol_bonus_01",
@@ -230,21 +244,6 @@
             "m_strHudMessageText": "#golden_idol_bonus_02",
             "m_bIsHidden": "true"
         },
-        "m_AutoIntrinsicModifiers": [
-            {
-                "_class": "modifier_citadel_holding_golden_idol",
-                "_my_subclass_name": "modifier_citadel_holding_golden_idol",
-                "m_IdolParticle": "particles/generic/idol_carry.vpcf",
-                "m_strParticleStatusEffect": "particles/generic/generic_disarmed.vpcf",
-                "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER",
-                "m_nAmbientLoopingSoundRecipients": "MODIFIER_SOUND_RECIPIENT_PARENT_IS_LOCAL_PLAYER",
-                "m_sLocalizationName": "modifier_citadel_holding_golden_idol",
-                "m_nEnabledStateMask": "MODIFIER_STATE_HOLDING_IDOL | MODIFIER_STATE_SILENCED | MODIFIER_STATE_MUTED | MODIFIER_STATE_DISARMED | MODIFIER_STATE_ZIPLINE_DISABLED",
-                "m_vecAlwaysShowInStatModifierUI": [
-                    "MODIFIER_VALUE_SPRINT_SPEED_BONUS"
-                ]
-            }
-        ],
         "m_HUDPanel": {
             "m_vecButtonHints": [
                 {

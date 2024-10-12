@@ -127,7 +127,7 @@
                     "_class": "scale_function_tech_damage",
                     "_my_subclass_name": "DamagePulseAmount_scale_function",
                     "m_eSpecificStatScaleType": "ETechPower",
-                    "m_flStatScale": "0.330000"
+                    "m_flStatScale": "0.300000"
                 }
             },
             "DamagePulseRadius": {
@@ -225,7 +225,6 @@
                             }
                         ],
                         "m_vecAbilityProperties": [
-                            "AbilityCooldown",
                             "DamagePulseRadius"
                         ]
                     }

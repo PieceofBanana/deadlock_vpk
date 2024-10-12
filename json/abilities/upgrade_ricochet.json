@@ -115,7 +115,7 @@
                 "m_strCSSClass": "bullet_damage"
             },
             "RicochetRadius": {
-                "m_strValue": "14m",
+                "m_strValue": "11m",
                 "m_strCSSClass": "distance",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",

@@ -4,7 +4,7 @@
         "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "8.500000",
+                "m_strValue": "10.500000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -253,6 +253,10 @@
                     {
                         "m_strPropertyName": "SlowPercent",
                         "m_strBonus": "40"
+                    },
+                    {
+                        "m_strPropertyName": "AbilityCooldown",
+                        "m_strBonus": "-2"
                     }
                 ]
             },

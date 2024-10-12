@@ -117,7 +117,7 @@
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_BULLET_SHIELD_HEALTH_MAX"
             },
             "AttackDamageWhenShielded": {
-                "m_strValue": "25",
+                "m_strValue": "22",
                 "m_strCSSClass": "bullet_damage",
                 "m_eDisplayUnits": "EDisplayUnit_Normal",
                 "m_strLocTokenOverride": "BonusBaseWeaponDamageWithShield"

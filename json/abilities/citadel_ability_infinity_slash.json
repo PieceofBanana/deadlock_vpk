@@ -15,7 +15,7 @@
                 }
             },
             "AbilityDuration": {
-                "m_strValue": "4.5",
+                "m_strValue": "4",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "duration",
                 "m_bCanSetTokenOverride": "true",
@@ -123,18 +123,6 @@
             "AbilitySpeedPct": {
                 "m_strValue": "60",
                 "m_strCSSClass": "cast"
-            },
-            "TechResist": {
-                "m_strValue": "40",
-                "m_strCSSClass": "tech_armor_up",
-                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST",
-                "m_UsageFlags": "APUsageFlag_ModifierConditional"
-            },
-            "BulletResist": {
-                "m_strValue": "40",
-                "m_strCSSClass": "bullet_armor_up",
-                "m_eProvidedPropertyType": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
-                "m_UsageFlags": "APUsageFlag_ModifierConditional"
             }
         },
         "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
@@ -326,10 +314,6 @@
                                 }
                             ]
                         }
-                    ],
-                    "m_vecBasicProperties": [
-                        "TechResist",
-                        "BulletResist"
                     ]
                 }
             ]
@@ -359,9 +343,7 @@
             "m_eHudDisplayLocation": "DISPLAY_HUD_LEFT",
             "m_bIsHidden": "true",
             "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
-                "BonusMoveSpeed",
-                "BulletResist",
-                "TechResist"
+                "BonusMoveSpeed"
             ],
             "m_vecSetAndTrackedAnimGraphParams": [
                 {

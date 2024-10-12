@@ -113,7 +113,7 @@
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
             },
             "DPS": {
-                "m_strValue": "45",
+                "m_strValue": "55",
                 "m_strCSSClass": "tech_damage",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_tech_damage",
@@ -123,7 +123,7 @@
                 }
             },
             "DPSIncrease": {
-                "m_strValue": "8",
+                "m_strValue": "7",
                 "m_strCSSClass": "tech_damage",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_tech_damage",
@@ -189,13 +189,13 @@
                 "m_spline": [
                     {
                         "x": "0.000000",
-                        "y": "10000.000000",
+                        "y": "1600.000000",
                         "m_flSlopeIncoming": "0.000000",
                         "m_flSlopeOutgoing": "0.000000"
                     },
                     {
                         "x": "100.000000",
-                        "y": "10000.000000",
+                        "y": "1600.000000",
                         "m_flSlopeIncoming": "0.000000",
                         "m_flSlopeOutgoing": "0.000000"
                     }
@@ -216,8 +216,17 @@
                 ],
                 "m_vDomainMaxs": [
                     "100.000000",
-                    "10000.000000"
+                    "1600.000000"
                 ]
+            },
+            "m_szBulletTravelTracerParticle": "particles/items/thermal_detonator_projectile.vpcf",
+            "m_strBulletLoopingSound": "Mods.Weapon.Thermal.Detonator.Proj.Lp",
+            "m_strBulletImpactSound": "Mods.Weapon.Thermal.Detonator.Explode",
+            "m_eAttachmentSourceType": "EAttachmentSource_Custom",
+            "m_flVerticalAimBias": "10.000000",
+            "m_flBulletRadius": "1.000000",
+            "m_mapImpactEffects": {
+                "default": {}
             }
         },
         "_multibase": [
@@ -238,17 +247,12 @@
         "m_strAbilityImage": "file://{images}/upgrades/mods_weapon/thermal_detonator.psd",
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_CIRCLE",
         "m_bShowTargetingPreviewWhileCasting": "true",
-        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_PROJECTILE_FIRED_AS_BULLET | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
         "m_projectileInfo": {
-            "m_flSpeed": "1600.000000",
-            "m_flUpSpeed": "0",
-            "m_bHideWarningParticle": "1",
-            "m_particle": "particles/items/thermal_detonator_projectile.vpcf",
-            "m_flVerticalAimBias": "10.000000",
-            "m_nBehaviors": "PBF_BounceOffWall | PBF_DetonateOnHitWorld",
-            "m_DetonateSound": "Mods.Weapon.Thermal.Detonator.Explode",
-            "m_LoopingSound": "Mods.Weapon.Thermal.Detonator.Proj.Lp"
+            "m_flSpeed": "800.000000",
+            "m_flUpSpeed": "100",
+            "m_bHideWarningParticle": "1"
         },
         "m_previewParticle": "particles/items/thermal_detonator_preview.vpcf",
         "m_vecTooltipSectionInfo": [

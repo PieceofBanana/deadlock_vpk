@@ -98,7 +98,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
-										m_respeakdelay.start = 0.000000
+										m_respeakdelay.start = 5.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -109,7 +109,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
-										m_respeakdelay.start = 0.000000
+										m_respeakdelay.start = 5.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -120,7 +120,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
-										m_respeakdelay.start = 0.000000
+										m_respeakdelay.start = 5.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -131,7 +131,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
-										m_respeakdelay.start = 0.000000
+										m_respeakdelay.start = 5.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -142,7 +142,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
-										m_respeakdelay.start = 0.000000
+										m_respeakdelay.start = 5.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -153,7 +153,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
-										m_respeakdelay.start = 0.000000
+										m_respeakdelay.start = 5.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -164,7 +164,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
-										m_respeakdelay.start = 0.000000
+										m_respeakdelay.start = 5.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -175,7 +175,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
-										m_respeakdelay.start = 0.000000
+										m_respeakdelay.start = 5.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -186,7 +186,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
-										m_respeakdelay.start = 0.000000
+										m_respeakdelay.start = 5.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -197,7 +197,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
-										m_respeakdelay.start = 0.000000
+										m_respeakdelay.start = 5.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -224,7 +224,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
-										m_respeakdelay.start = 0.000000
+										m_respeakdelay.start = 5.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -252,7 +252,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
-										m_respeakdelay.start = 0.000000
+										m_respeakdelay.start = 5.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -280,7 +280,7 @@
 									m_params = 
 									{
 										m_delay.start = 0.500000
-										m_respeakdelay.start = 0.000000
+										m_respeakdelay.start = 5.000000
 										m_predelay.start = 2.000000
 									}
 								},
@@ -1163,6 +1163,7 @@
 				
 				{
 					m_name = "Slork_Earns_First_AP"
+					m_bDisabled = true
 					m_responses = 
 					[
 						
@@ -1259,6 +1260,7 @@
 					m_pEmbeddedRule = 
 					{
 						m_name = "Slork_Earns_First_AP"
+						m_bDisabled = true
 						m_Requirements = 
 						[
 							"ConceptAbilityPointGained",

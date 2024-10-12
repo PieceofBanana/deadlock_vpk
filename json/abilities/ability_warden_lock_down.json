@@ -235,7 +235,9 @@
                 "_class": "modifier_citadel_root",
                 "_my_subclass_name": "modifier_citadel_root",
                 "m_strParticleEffect": "particles/abilities/warden/warden_lockdown_root.vpcf",
-                "m_sLocalizationName": "modifier_warden_lockdown_root"
+                "m_sLocalizationName": "modifier_warden_lockdown_root",
+                "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER",
+                "m_strSmallIconCssClass": "immobilize"
             },
             "m_BulletResistModifier": {
                 "_class": "modifier_lockdown_bullet_resist",

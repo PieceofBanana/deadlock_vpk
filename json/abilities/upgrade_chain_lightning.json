@@ -117,7 +117,7 @@
                     "_class": "scale_function_tech_damage",
                     "_my_subclass_name": "DamagePerChain_scale_function",
                     "m_eSpecificStatScaleType": "ETechPower",
-                    "m_flStatScale": "0.131040"
+                    "m_flStatScale": "0.160000"
                 }
             },
             "BonusPerChain": {

@@ -108,10 +108,19 @@
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
             },
             "Radius": {
-                "m_strValue": "7m",
+                "m_strValue": "6m",
                 "m_strCSSClass": "distance",
                 "m_subclassScaleFunction": {
                     "_my_subclass_name": "Radius_scale_function",
+                    "_class": "scale_function_single_stat",
+                    "m_eSpecificStatScaleType": "ETechRadius"
+                }
+            },
+            "RadiusIncreasePerPulse": {
+                "m_strValue": "0m",
+                "m_strCSSClass": "distance",
+                "m_subclassScaleFunction": {
+                    "_my_subclass_name": "RadiusIncreasePerPulse_scale_function",
                     "_class": "scale_function_single_stat",
                     "m_eSpecificStatScaleType": "ETechRadius"
                 }
@@ -136,7 +145,8 @@
             },
             "DamageAmplificationPerStack": {
                 "m_strLocTokenOverride": "PulseGrenadeDamageAmplificationPerStack",
-                "m_strValue": "5"
+                "m_strValue": "6",
+                "m_strCSSClass": "damage"
             },
             "DebuffDuration": {
                 "m_strLocTokenOverride": "PulseGrenadeDebuffDuration",
@@ -262,8 +272,8 @@
                         "m_strBonus": "45"
                     },
                     {
-                        "m_strPropertyName": "DamageAmplificationPerStack",
-                        "m_strBonus": "2"
+                        "m_strPropertyName": "RadiusIncreasePerPulse",
+                        "m_strBonus": "1m"
                     }
                 ]
             }
@@ -314,7 +324,7 @@
                 "m_strParticleEffect": "particles/upgrades/tech_resist_debuff.vpcf",
                 "m_sLocalizationName": "citadel_ability_chrono_pulse_grenade",
                 "m_eDrawOverheadStatus": "OVERHEAD_DRAW_FOR_CASTER_ONLY",
-                "m_strSmallIconCssClass": "escalating_exposure"
+                "m_strSmallIconCssClass": "chrono_pulse_grenade"
             },
             "m_SlowModifier": {
                 "_class": "modifier_slow_base",

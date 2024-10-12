@@ -19,7 +19,7 @@
         "m_hRespawnParticle": "particles/generic/player_respawn_deploy.vpcf",
         "m_nModelSkin": "0",
         "m_mapStartingStats": {
-            "EMaxMoveSpeed": "8.000000",
+            "EMaxMoveSpeed": "8.300000",
             "ESprintSpeed": "0",
             "ECrouchSpeed": "4.750000",
             "EMoveAcceleration": "4",
@@ -37,7 +37,8 @@
             "EAbilityResourceRegenPerSecond": "0",
             "ECritDamageReceivedScale": "1.000000",
             "ETechDuration": "1",
-            "ETechRange": "1"
+            "ETechRange": "1",
+            "ECritDamageBonusScale": "1.000000"
         },
         "m_flCollisionRadius": "20",
         "m_flCollisionHeight": "80",
@@ -542,7 +543,8 @@
                     "EReloadSpeed",
                     "EBulletSpeed",
                     "EBulletSpeedIncrease",
-                    "EBulletLifesteal"
+                    "EBulletLifesteal",
+                    "ECritDamageBonusScale"
                 ],
                 "m_vecOtherDisplayStats": [
                     "ELightMeleeDamage",
@@ -591,7 +593,6 @@
         "m_hGameSoundEventScript": "soundevents/hero/yamato.vsndevts",
         "m_strRosterSelectedSound": "Yamato.VO.HeroPick",
         "m_strIconHeroCard": "file://{images}/heroes/yamato_card.psd",
-        "m_hGeneratedVOEventScript": "soundevents/vo/generated_vo_hero_yamato.vsndevts",
         "m_strRosterRemovedSound": "Yamato.VO.HeroRemove",
         "m_strTopBarImage": "file://{images}/hud/hero_portraits/yamato_hud.psd",
         "m_strUIPortraitMap": "maps/ui/hero_prefabs/yamato.vmap",
@@ -618,6 +619,7 @@
         ],
         "m_strTopBarVertical": "file://{images}/heroes/yamato_vertical.psd",
         "m_strUIShopAnimGraph": "models/heroes_staging/yamato_v2/ui_shop_yamato.vanmgrph",
-        "m_strUIShoppingMap": "maps/ui/hero_shop/yamato_shop.vmap"
+        "m_strUIShoppingMap": "maps/ui/hero_shop/yamato_shop.vmap",
+        "m_hGeneratedVOEventScript": "soundevents/vo/generated_vo_hero_yamato.vsndevts"
     }
 }

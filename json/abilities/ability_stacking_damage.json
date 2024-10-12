@@ -111,13 +111,12 @@
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
             },
             "MaxStacks": {
-                "m_strValue": "30"
+                "m_strValue": "40"
             },
             "DamageBonusFixedPerStack": {
                 "m_strValue": "0.2",
                 "m_strCSSClass": "bullet_damage",
-                "m_eDisplayType": "EBulletDamage",
-                "m_bDamageAffectedByEffectiveness": "true"
+                "m_eDisplayType": "EBulletDamage"
             },
             "ProcDamage": {
                 "m_strValue": "0",
@@ -251,7 +250,7 @@
                 "m_vecPropertyUpgrades": [
                     {
                         "m_strPropertyName": "DamageBonusFixedPerStack",
-                        "m_strBonus": "0.2"
+                        "m_strBonus": "0.15"
                     }
                 ]
             }

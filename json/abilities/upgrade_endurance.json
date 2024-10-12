@@ -111,14 +111,14 @@
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
             },
             "BonusHealthRegen": {
-                "m_strValue": "2.8",
+                "m_strValue": "3",
                 "m_strCSSClass": "healing",
                 "m_eDisplayType": "EBaseHealthRegen",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_HEALTH_REGEN_PER_SECOND",
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             },
             "BonusClipSizePercent": {
-                "m_strValue": "8",
+                "m_strValue": "10",
                 "m_eDisplayType": "EClipSizeIncrease",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_AMMO_CLIP_SIZE_PERCENT",
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"

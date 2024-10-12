@@ -202,7 +202,7 @@
         "m_TeleportTrailParticle": "particles/upgrades/warp_stone_travel_beam.vpcf",
         "m_strCastSound": "Mods.Weapon.Warp.Stone.Cast",
         "m_strCastDelaySound": "Mods.Weapon.Warp.Stone.Cast.Delay",
-        "m_flVelocityScale": "0.750000",
+        "m_flVelocityScale": "0",
         "m_CasterModifier": {
             "_class": "modifier_warp_stone_caster",
             "_my_subclass_name": "modifier_warp_stone_caster",

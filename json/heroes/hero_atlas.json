@@ -19,13 +19,13 @@
         "m_hRespawnParticle": "particles/generic/player_respawn_deploy.vpcf",
         "m_nModelSkin": "0",
         "m_mapStartingStats": {
-            "EMaxMoveSpeed": "6.500000",
+            "EMaxMoveSpeed": "6.800000",
             "ESprintSpeed": "0",
             "ECrouchSpeed": "4.750000",
             "EMoveAcceleration": "4",
             "ELightMeleeDamage": "63",
             "EHeavyMeleeDamage": "116",
-            "EMaxHealth": "600",
+            "EMaxHealth": "570",
             "EWeaponPower": "0",
             "EReloadSpeed": "1",
             "EWeaponPowerScale": "1",
@@ -37,7 +37,8 @@
             "EAbilityResourceRegenPerSecond": "0",
             "ECritDamageReceivedScale": "1.000000",
             "ETechDuration": "1",
-            "ETechRange": "1"
+            "ETechRange": "1",
+            "ECritDamageBonusScale": "1.000000"
         },
         "m_flCollisionRadius": "20",
         "m_flCollisionHeight": "80",
@@ -519,7 +520,7 @@
         "m_mapStandardLevelUpUpgrades": {
             "MODIFIER_VALUE_BASE_BULLET_DAMAGE_FROM_LEVEL": "0.251429",
             "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": "2.671429",
-            "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": "32.000000",
+            "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": "34.000000",
             "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": "0.000000",
             "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": "0.000000"
         },
@@ -537,7 +538,8 @@
                     "EReloadSpeed",
                     "EBulletSpeed",
                     "EBulletSpeedIncrease",
-                    "EBulletLifesteal"
+                    "EBulletLifesteal",
+                    "ECritDamageBonusScale"
                 ],
                 "m_vecOtherDisplayStats": [
                     "ELightMeleeDamage",
@@ -591,7 +593,6 @@
         "m_strRosterSelectedSound": "Abrams.VO.HeroPick",
         "m_strIconHeroCard": "file://{images}/heroes/bull_card.psd",
         "m_strRosterRemovedSound": "Abrams.VO.HeroRemove",
-        "m_hGeneratedVOEventScript": "soundevents/vo/generated_vo_hero_atlas.vsndevts",
         "m_strTopBarImage": "file://{images}/hud/hero_portraits/bull_hud.psd",
         "m_RecommendedUpgrades": [
             "upgrade_close_range",
@@ -630,6 +631,7 @@
         "m_strTopBarVertical": "file://{images}/heroes/bull_vertical.psd",
         "m_flStepSoundTimeSprinting": "0.330000",
         "m_strUIShoppingMap": "maps/ui/hero_shop/abrams_shop.vmap",
-        "m_strUIShopAnimGraph": "models/heroes_staging/atlas_detective_v2/ui_shop_atlas_detective.vanmgrph"
+        "m_strUIShopAnimGraph": "models/heroes_staging/atlas_detective_v2/ui_shop_atlas_detective.vanmgrph",
+        "m_hGeneratedVOEventScript": "soundevents/vo/generated_vo_hero_atlas.vsndevts"
     }
 }

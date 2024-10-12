@@ -248,7 +248,7 @@
                     "m_strParticleEffect": "particles/upgrades/tech_resist_debuff.vpcf",
                     "m_bDurationAffectedByEffectiveness": "true",
                     "m_bIsHidden": "true",
-                    "m_eDrawOverheadStatus": "OVERHEAD_DRAW_FOR_CASTER_ONLY",
+                    "m_eDrawOverheadStatus": "OVERHEAD_DRAW_NEVER",
                     "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
                         "HealAmpReceivePenaltyPercent",
                         "HealAmpRegenPenaltyPercent"

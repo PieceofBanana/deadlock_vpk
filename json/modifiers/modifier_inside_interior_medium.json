@@ -1,0 +1,8 @@
+{
+    "modifier_inside_interior_medium": {
+        "_class": "modifier_base",
+        "m_bIsHidden": "true",
+        "m_nAttributes": "MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED | MODIFIER_ATTRIBUTE_MULTIPLE",
+        "m_nEnabledStateMask": "MODIFIER_STATE_IN_MEDIUM_INTERIOR_SPACE"
+    }
+}

@@ -123,7 +123,7 @@
                 "m_strValue": "100"
             },
             "BaseAttackDamagePercent": {
-                "m_strValue": "8",
+                "m_strValue": "7",
                 "m_eDisplayType": "EBaseWeaponDamageIncrease",
                 "m_strCSSClass": "bullet_damage",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
@@ -264,7 +264,8 @@
                 "m_TracerAdditionParticle": "particles/upgrades/medic_bullets_tracer.vpcf",
                 "m_bRequiresTargetFilter": "true",
                 "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
-                "m_ImpactParticle": "particles/upgrades/medic_bullets_tracer_impact.vpcf"
+                "m_ImpactParticle": "particles/upgrades/medic_bullets_tracer_impact.vpcf",
+                "m_ProcSound": "Player.Heal.Small"
             },
             {
                 "_my_subclass_name": "crackshot_stats",

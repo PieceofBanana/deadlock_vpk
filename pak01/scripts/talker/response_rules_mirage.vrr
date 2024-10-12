@@ -193,9 +193,10 @@
 				m_name = "Mirage_Use_Tornado"
 				m_Requirements = 
 				[
-					"IsMirage",
 					"ConceptAbilityCast",
+					"IsMirage",
 					"IsTornado",
+					"Chance75",
 				]
 			}
 		},
@@ -304,7 +305,7 @@
 					m_value = "mirage_use_power2_01_ability_3d"
 					m_params = 
 					{
-						m_respeakdelay.start = 0.000000
+						m_respeakdelay.start = 10.000000
 						m_predelay.start = 0.100000
 					}
 				},
@@ -314,7 +315,7 @@
 					m_value = "mirage_use_power2_01_alt_ability_3d"
 					m_params = 
 					{
-						m_respeakdelay.start = 0.000000
+						m_respeakdelay.start = 10.000000
 						m_predelay.start = 0.100000
 					}
 				},
@@ -324,7 +325,7 @@
 					m_value = "mirage_use_power2_02_ability_3d"
 					m_params = 
 					{
-						m_respeakdelay.start = 0.000000
+						m_respeakdelay.start = 10.000000
 						m_predelay.start = 0.100000
 					}
 				},
@@ -334,7 +335,7 @@
 					m_value = "mirage_use_power2_02_alt_ability_3d"
 					m_params = 
 					{
-						m_respeakdelay.start = 0.000000
+						m_respeakdelay.start = 10.000000
 						m_predelay.start = 0.100000
 					}
 				},
@@ -344,7 +345,7 @@
 					m_value = "mirage_use_power2_03_ability_3d"
 					m_params = 
 					{
-						m_respeakdelay.start = 0.000000
+						m_respeakdelay.start = 10.000000
 						m_predelay.start = 0.100000
 					}
 				},
@@ -354,7 +355,7 @@
 					m_value = "mirage_use_power2_03_alt_ability_3d"
 					m_params = 
 					{
-						m_respeakdelay.start = 0.000000
+						m_respeakdelay.start = 10.000000
 						m_predelay.start = 0.100000
 					}
 				},
@@ -364,7 +365,7 @@
 					m_value = "mirage_use_power2_04_ability_3d"
 					m_params = 
 					{
-						m_respeakdelay.start = 0.000000
+						m_respeakdelay.start = 10.000000
 						m_predelay.start = 0.100000
 					}
 				},
@@ -374,7 +375,7 @@
 					m_value = "mirage_use_power2_04_alt_ability_3d"
 					m_params = 
 					{
-						m_respeakdelay.start = 0.000000
+						m_respeakdelay.start = 10.000000
 						m_predelay.start = 0.100000
 					}
 				},
@@ -384,7 +385,7 @@
 					m_value = "mirage_use_power2_05_ability_3d"
 					m_params = 
 					{
-						m_respeakdelay.start = 0.000000
+						m_respeakdelay.start = 10.000000
 						m_predelay.start = 0.100000
 					}
 				},
@@ -394,7 +395,7 @@
 					m_value = "mirage_use_power2_05_alt_ability_3d"
 					m_params = 
 					{
-						m_respeakdelay.start = 0.000000
+						m_respeakdelay.start = 10.000000
 						m_predelay.start = 0.100000
 					}
 				},
@@ -404,7 +405,7 @@
 					m_value = "mirage_use_power2_06_ability_3d"
 					m_params = 
 					{
-						m_respeakdelay.start = 0.000000
+						m_respeakdelay.start = 10.000000
 						m_predelay.start = 0.100000
 					}
 				},
@@ -414,7 +415,7 @@
 					m_value = "mirage_use_power2_07_ability_3d"
 					m_params = 
 					{
-						m_respeakdelay.start = 0.000000
+						m_respeakdelay.start = 10.000000
 						m_predelay.start = 0.100000
 					}
 				},
@@ -424,7 +425,7 @@
 					m_value = "mirage_use_power2_08_ability_3d"
 					m_params = 
 					{
-						m_respeakdelay.start = 0.000000
+						m_respeakdelay.start = 10.000000
 						m_predelay.start = 0.100000
 					}
 				},
@@ -434,7 +435,7 @@
 					m_value = "mirage_use_power2_09_ability_3d"
 					m_params = 
 					{
-						m_respeakdelay.start = 0.000000
+						m_respeakdelay.start = 10.000000
 						m_predelay.start = 0.100000
 					}
 				},
@@ -444,7 +445,7 @@
 					m_value = "mirage_use_power2_10_ability_3d"
 					m_params = 
 					{
-						m_respeakdelay.start = 0.000000
+						m_respeakdelay.start = 10.000000
 						m_predelay.start = 0.100000
 					}
 				},
@@ -454,10 +455,12 @@
 				m_name = "Mirage_Use_Fire_Beetles"
 				m_Requirements = 
 				[
-					"IsMirage",
 					"ConceptAbilityCast",
+					"IsMirage",
 					"IsFireBeetles",
+					"Chance75",
 				]
+				m_respeakDelay.start = 10.000000
 			}
 		},
 		
@@ -588,6 +591,7 @@
 					"ConceptAbilityCast",
 					"IsMirage",
 					"IsSandPhantom",
+					"Chance75",
 				]
 			}
 		},
@@ -906,76 +910,151 @@
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_gun_01"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_gun_02"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_gun_03"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_gun_04"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_gun_05"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_gun_06"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_gun_07"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_gun_08"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_gun_09"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_gun_10"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_gun_11"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_gun_12"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_gun_13"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_gun_14"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_gun_15"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 			]
 			m_pEmbeddedRule = 
@@ -999,76 +1078,151 @@
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_armor_01"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_armor_02"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_armor_03"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_armor_04"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_armor_05"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_armor_06"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_armor_07"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_armor_08"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_armor_09"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_armor_10"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_armor_11"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_armor_12"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_armor_13"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_armor_14"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_armor_15"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 			]
 			m_pEmbeddedRule = 
@@ -1092,76 +1246,151 @@
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_tech_01"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_tech_02"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_tech_03"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_tech_04"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_tech_05"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_tech_06"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_tech_07"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_tech_08"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_tech_09"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_tech_10"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_tech_11"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_tech_12"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_tech_13"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_tech_14"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 				
 				{
 					m_type = "SPEAK"
 					m_value = "shopkeeper_hotdog_buy_tech_15"
+					m_params = 
+					{
+						m_respeakdelay.start = 10.000000
+						m_predelay.start = 0.000000
+					}
 				},
 			]
 			m_pEmbeddedRule = 

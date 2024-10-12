@@ -48,7 +48,7 @@
             "m_flBulletReflectAmount": "1",
             "m_flBulletInheritShooterVelocityScale": "0",
             "m_szBulletTravelTracerParticle": "particles/weapon_fx/npc/neutral_gargoyle_tracer.vpcf",
-            "m_szMuzzleFlashEffectName": "particles/dev/bullet_debug_muzzle_flash.vpcf",
+            "m_szMuzzleFlashEffectName": "particles/weapon_fx/trooper/trooper_muzzle_flash.vpcf",
             "m_strShootSound": "Neutral.Gargoyle.Shoot",
             "m_strBulletWhizSound": "Neutral.Gargoyle.Whizby.Base",
             "m_BulletSpeedCurve": {
@@ -162,7 +162,7 @@
                 ]
             }
         ],
-        "m_flHullCapsuleRadius": "90.000000",
+        "m_flHullCapsuleRadius": "30.000000",
         "m_flHullCapsuleHeight": "170.000000",
         "m_sEnemyMaterialGroupName": "",
         "m_bEnableMovementToNodes": "true",

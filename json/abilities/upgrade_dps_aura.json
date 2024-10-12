@@ -287,12 +287,14 @@
             "m_strParticleStatusEffect": "",
             "m_strParticleEffect": "particles/upgrades/onslaught_aura_speed_buff.vpcf",
             "m_vecRenderAttributes": [],
-            "m_bIsHidden": "true",
+            "m_bIsHidden": "false",
             "m_strHudMessageText": "#upgrade_dps_aura",
             "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
                 "ActiveBonusMoveSpeed",
                 "BonusFireRate"
-            ]
+            ],
+            "m_eDrawOverheadStatus": "OVERHEAD_DRAW_FOR_EVERYONE",
+            "m_strSmallIconCssClass": "dps_aura"
         },
         "m_AutoIntrinsicModifiers": [
             {

@@ -6,6 +6,8 @@
         "m_flSlowSpeed": "30.000000",
         "m_flFastSpeed": "175.000000",
         "m_flVerticalOffset": "0.000000",
-        "m_flTolerance": "20.000000"
+        "m_flTolerance": "20.000000",
+        "m_IdleParticle": "particles/generic/idol_pickup_aura.vpcf",
+        "m_RunningParticle": "particles/generic/idol_pickup_aura_running.vpcf"
     }
 }

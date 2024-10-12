@@ -217,11 +217,14 @@
             "_class": "modifier_citadel_metal_skin",
             "_my_subclass_name": "modifier_citadel_metal_skin",
             "m_sLocalizationName": "upgrade_metal_skin",
-            "m_bIsHidden": "true",
+            "m_bIsHidden": "false",
             "m_BuffStartParticle": "",
             "m_BuffEndParticle": "particles/upgrades/metal_skin_end.vpcf",
             "m_strParticleEffect": "particles/upgrades/metal_skin_buff.vpcf",
-            "m_strHudMessageText": "#upgrade_metal_skin"
+            "m_strHudMessageText": "#upgrade_metal_skin",
+            "m_eDrawOverheadStatus": "OVERHEAD_DRAW_FOR_EVERYONE",
+            "m_strSmallIconCssClass": "metal_skin",
+            "m_strHitProcSound": "Mods.Armor.MetalSkin.Proc"
         },
         "m_AutoIntrinsicModifiers": [
             {

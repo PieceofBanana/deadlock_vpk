@@ -7,8 +7,8 @@
         "scripts/misc/neutral_camps.vdata_inc"
     ],
     "citadel_item_powerup_spawner": {
-        "m_flInitialSpawnTime": "600.000000",
-        "m_flSpawnInterval": "300.000000",
+        "m_flInitialSpawnTime": "600",
+        "m_flSpawnInterval": "300",
         "m_flInitialSpawnTimeTest": "1.000000",
         "m_flRespawnTimeTest": "5.000000",
         "m_hModel": "models/npc/sewer_beast/sewer.vmdl",

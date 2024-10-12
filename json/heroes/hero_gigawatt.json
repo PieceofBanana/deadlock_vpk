@@ -19,7 +19,7 @@
         "m_hRespawnParticle": "particles/generic/player_respawn_deploy.vpcf",
         "m_nModelSkin": "0",
         "m_mapStartingStats": {
-            "EMaxMoveSpeed": "7",
+            "EMaxMoveSpeed": "7.300000",
             "ESprintSpeed": "0",
             "ECrouchSpeed": "4.750000",
             "EMoveAcceleration": "4",
@@ -31,13 +31,14 @@
             "EWeaponPowerScale": "1",
             "EProcBuildUpRateScale": "1",
             "EStamina": "3",
-            "EBaseHealthRegen": "1.500000",
+            "EBaseHealthRegen": "3.000000",
             "EStaminaRegenPerSecond": "0.200000",
             "EAbilityResourceMax": "0",
             "EAbilityResourceRegenPerSecond": "0",
             "ECritDamageReceivedScale": "0.650000",
             "ETechDuration": "1",
-            "ETechRange": "1"
+            "ETechRange": "1",
+            "ECritDamageBonusScale": "1.000000"
         },
         "m_flCollisionRadius": "20",
         "m_flCollisionHeight": "80",
@@ -481,7 +482,7 @@
         "m_mapScalingStats": {
             "EMaxMoveSpeed": {
                 "eScalingStat": "ETechPower",
-                "flScale": "0.028000"
+                "flScale": "0.023000"
             }
         },
         "m_heroStatsDisplay": {
@@ -541,7 +542,8 @@
                     "EReloadSpeed",
                     "EBulletSpeed",
                     "EBulletSpeedIncrease",
-                    "EBulletLifesteal"
+                    "EBulletLifesteal",
+                    "ECritDamageBonusScale"
                 ],
                 "m_vecOtherDisplayStats": [
                     "ELightMeleeDamage",
@@ -593,7 +595,6 @@
         "m_hGameSoundEventScript": "soundevents/hero/gigawatt.vsndevts",
         "m_strRosterSelectedSound": "Gigawatt.VO.HeroPick",
         "m_strIconHeroCard": "file://{images}/heroes/gigawatt_card.psd",
-        "m_hGeneratedVOEventScript": "soundevents/vo/generated_vo_hero_gigawatt.vsndevts",
         "m_strRosterRemovedSound": "Gigawatt.VO.HeroRemove",
         "m_strTopBarImage": "file://{images}/hud/hero_portraits/gigwatt_hud.psd",
         "m_strUIPortraitMap": "maps/ui/hero_prefabs/gigawatt.vmap",
@@ -618,6 +619,7 @@
         ],
         "m_strTopBarVertical": "file://{images}/heroes/gigawatt_vertical.psd",
         "m_strUIShopAnimGraph": "models/heroes_staging/gigawatt_prisoner/ui_shop_gigawatt_prisoner.vanmgrph",
-        "m_strUIShoppingMap": "maps/ui/hero_shop/gigawatt_shop.vmap"
+        "m_strUIShoppingMap": "maps/ui/hero_shop/gigawatt_shop.vmap",
+        "m_hGeneratedVOEventScript": "soundevents/vo/generated_vo_hero_gigawatt.vsndevts"
     }
 }

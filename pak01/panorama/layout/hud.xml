@@ -39,7 +39,8 @@
 	</snippets>
 	<CitadelHud class="WindowRoot" hittest="false">
 		<Panel id="GameOverButtonContainer">
-			<TextButton id="LeaveMatchButton" class="ButtonBevel gameOverButtons Green" text="#Citadel_Hud_LeaveMatch" onactivate="CitadelDisconnectFromGame(); CitadelPlayUISound( EMainMenuActivate )" onmouseover="CitadelPlayUISound( EMainMenuHover )" />
+			<TextButton id="DisconnectButton" class="ButtonBevel gameOverButtons Green" text="#Citadel_Hud_Disconnect" onactivate="CitadelDisconnectFromGame(); CitadelPlayUISound( EMainMenuActivate )" onmouseover="CitadelPlayUISound( EMainMenuHover )" />
+			<TextButton id="LeaveMatchButton" class="ButtonBevel gameOverButtons Green" text="#Citadel_Hud_LeaveMatch" onactivate="CitadelAbandonGame(); CitadelPlayUISound( EMainMenuActivate )" onmouseover="CitadelPlayUISound( EMainMenuHover )" />
 			<TextButton id="ReturnToGameButton" class="ButtonBevel gameOverButtons Green" text="#Citadel_Hud_ReturnToMatch" onactivate="CitadelHidePostGameButtons(); CitadelPlayUISound( EMainMenuActivate )" onmouseover="CitadelPlayUISound( EMainMenuHover )" />
 		</Panel>
 		<CitadelHudEventIndicatorsPanel id="HudEventIndicatorsPanel" />
@@ -286,13 +287,18 @@
 				<Label class="Caption" text="#Citadel_Hud_CheaterVoteAlert" />
 			</Panel>
 			<Panel id="VotingArea">
-				<Label class="CaptionName" text="#Citadel_Hud_CheaterVoteCaption" />
+				<Panel id="CheaterInfo">
+					<CitadelHeroImage id="CheaterHeroImage" />
+					<Label class="CaptionName" text="#Citadel_Hud_CheaterVoteCaption" />
+				</Panel>
 				<Panel id="ButtonRow">
-					<Button class="SecondaryButton fill light" id="KeepPlaying" onactivate="CitadelCastCheaterVote(0)">
-						<Label text="#Citadel_Hud_CheaterVote_Option_Play" />
+					<Button class="FrogButton" id="KeepPlaying" onactivate="CitadelCastCheaterVote(0)">
+						<Panel class="frogButtonIcon" />
+						<Label text="#Citadel_Hud_CheaterVote_Option_Play" html="true" />
 					</Button>
-					<Button class="SecondaryButton fill red" id="Leave" text="#Citadel_Hud_CheaterVote_Option_Ban" onactivate="CitadelCastCheaterVote(1)">
-						<Label text="#Citadel_Hud_CheaterVote_Option_Ban" />
+					<Button class="FrogButton" id="Leave" text="#Citadel_Hud_CheaterVote_Option_Ban" onactivate="CitadelCastCheaterVote(1)">
+						<Panel class="frogButtonIcon" />
+						<Label text="#Citadel_Hud_CheaterVote_Option_Ban" html="true" />
 					</Button>
 				</Panel>
 			</Panel>

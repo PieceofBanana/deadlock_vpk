@@ -139,7 +139,7 @@
                 "m_strCSSClass": "cooldown"
             },
             "HealthSteal": {
-                "m_strValue": "45",
+                "m_strValue": "50",
                 "m_strCSSClass": "healing"
             },
             "ParticleRadius": {
@@ -284,7 +284,9 @@
                             "_class": "modifier_siphon_bullets_restore_health",
                             "_my_subclass_name": "modifier_siphon_bullets_restore_health",
                             "m_bIsHidden": "true"
-                        }
+                        },
+                        "m_eDrawOverheadStatus": "OVERHEAD_DRAW_FOR_EVERYONE",
+                        "m_strSmallIconCssClass": "siphon_bullets"
                     },
                     "m_HealModifier": {
                         "_class": "modifier_siphon_bullets_restore_health",

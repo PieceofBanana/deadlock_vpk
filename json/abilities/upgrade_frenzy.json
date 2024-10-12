@@ -248,13 +248,17 @@
                     "m_sLocalizationName": "modifier_bullet_armor_reduction",
                     "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
                         "BulletArmorReduction"
-                    ]
+                    ],
+                    "m_bIsHidden": "true"
                 },
                 "m_KillModifier": {
                     "_class": "modifier_frenzy_move_speed",
                     "_my_subclass_name": "modifier_frenzy_kill",
                     "m_strParticleEffect": "particles/upgrades/frenzy_speed_boost.vpcf"
-                }
+                },
+                "m_sLocalizationName": "modifier_fervor_aura_active",
+                "m_strSmallIconCssClass": "fervor_aura",
+                "m_eDrawOverheadStatus": "OVERHEAD_DRAW_FOR_EVERYONE"
             }
         ]
     }

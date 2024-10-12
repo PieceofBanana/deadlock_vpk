@@ -99,7 +99,7 @@
                 "m_strCSSClass": "cast"
             },
             "TechPower": {
-                "m_strValue": "12",
+                "m_strValue": "18",
                 "m_strDisableValue": "0",
                 "m_bCanSetTokenOverride": "true",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_POWER",
@@ -138,7 +138,7 @@
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             },
             "BaseAttackDamagePercent": {
-                "m_strValue": "15",
+                "m_strValue": "20",
                 "m_strCSSClass": "bullet_damage",
                 "m_eDisplayUnits": "EDisplayUnit_Normal",
                 "m_eDisplayType": "EBaseWeaponDamageIncrease",

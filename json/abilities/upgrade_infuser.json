@@ -206,7 +206,7 @@
             "_class": "modifier_infuser",
             "_my_subclass_name": "modifier_infuser",
             "m_strHudMessageText": "",
-            "m_bIsHidden": "true",
+            "m_bIsHidden": "false",
             "m_BuffParticle": "particles/upgrades/infuser_buff.vpcf",
             "m_sStartSound": "Mods.Armor.Stimpack.Cast",
             "m_sAmbientLoopingSound": "Mods.Armor.Stimpack.Dur.Lp",
@@ -214,7 +214,11 @@
             "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
                 "BonusSpirit",
                 "AbilityLifestealPercentHero"
-            ]
+            ],
+            "m_sLocalizationName": "modifier_infuser",
+            "m_eDrawOverheadStatus": "OVERHEAD_DRAW_FOR_EVERYONE",
+            "m_strSmallIconCssClass": "infuser_active",
+            "m_strHudIcon": "file://{images}/upgrades/mods_tech/infuser.psd"
         },
         "m_AutoIntrinsicModifiers": [
             {

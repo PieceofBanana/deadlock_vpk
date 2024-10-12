@@ -139,7 +139,7 @@
                 }
             },
             "ChainDuration": {
-                "m_strValue": "2.0",
+                "m_strValue": "1.75",
                 "m_strCSSClass": "duration",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",
@@ -195,6 +195,7 @@
                 ]
             },
             "m_szBulletTravelTracerParticle": "particles/abilities/hornet/hornet_chain_projectile.vpcf",
+            "m_eAttachmentSourceType": "EAttachmentSource_Custom",
             "m_flVerticalAimBias": "10.000000",
             "m_flBulletRadius": "1.000000",
             "m_mapImpactEffects": {
@@ -224,10 +225,7 @@
         "m_projectileInfo": {
             "m_flSpeed": "800.000000",
             "m_flUpSpeed": "100.000000",
-            "m_bHideWarningParticle": "false",
-            "m_particle": "",
-            "m_flVerticalAimBias": "0.000000",
-            "m_nBehaviors": "PBF_BounceOffWall | PBF_DetonateOnHitTarget | PBF_DetonateOnHitWorld"
+            "m_bHideWarningParticle": "false"
         },
         "m_strCastAnimGraphParam": "e_GenericThrow",
         "m_previewParticle": "particles/abilities/hornet/hornet_chain_preview.vpcf",
@@ -274,9 +272,10 @@
             "m_sStartSound": "Hornet.Chain.Grenade.Target",
             "m_sExpiredSound": "Hornet.Chain.Grenade.Modifier.End",
             "m_sAmbientLoopingSound": "Status.MoveRestrict",
-            "m_strSmallIconCssClass": "chained",
+            "m_strSmallIconCssClass": "tether_proc",
             "m_strScreenParticleEffect": "particles/abilities/hornet/hornet_tether_screen_effect.vpcf",
-            "m_strParticleEffect": "particles/abilities/hornet/hornet_chain.vpcf"
+            "m_strParticleEffect": "particles/abilities/hornet/hornet_chain.vpcf",
+            "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER"
         },
         "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/hornet_chain.webm",
         "m_AbilityTooltipDetails": {

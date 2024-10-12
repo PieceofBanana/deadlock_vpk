@@ -131,7 +131,7 @@
                 }
             },
             "BuildUpPerShot": {
-                "m_strValue": "0.8",
+                "m_strValue": "0.92",
                 "m_eDisplayType": "EBuildUpRate",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",

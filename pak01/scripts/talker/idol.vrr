@@ -836,7 +836,7 @@
 		{
 			m_name = "IsHoldingIdolTooLong"
 			m_matchKey = "idol_hold_duration"
-			m_matchExpr = ">30"
+			m_matchExpr = ">60"
 			m_bRequired = true
 		},
 	]

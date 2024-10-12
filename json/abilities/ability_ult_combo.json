@@ -4,7 +4,7 @@
         "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "95.000000",
+                "m_strValue": "75.000000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -135,6 +135,14 @@
                 "m_strCSSClass": "health",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_HEALTH_MAX",
                 "m_UsageFlags": "APUsageFlag_ModifierConditional"
+            },
+            "BulletResist": {
+                "m_strLocTokenOverride": "ComboBulletResist",
+                "m_strValue": "0",
+                "m_eDisplayType": "EBulletArmorDamageReduction",
+                "m_strCSSClass": "bullet_armor_up",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
             }
         },
         "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
@@ -204,8 +212,8 @@
             {
                 "m_vecPropertyUpgrades": [
                     {
-                        "m_strPropertyName": "AbilityCooldown",
-                        "m_strBonus": "-28.000000"
+                        "m_strPropertyName": "BulletResist",
+                        "m_strBonus": "30"
                     }
                 ]
             },
@@ -238,7 +246,10 @@
             "_my_subclass_name": "modifier_ult_combo_self",
             "m_sLocalizationName": "ability_ult_combo",
             "m_sAmbientLoopingSound": "MoKrill.Combo.Duration.Lp",
-            "m_bIsHidden": "true"
+            "m_bIsHidden": "true",
+            "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
+                "BulletResist"
+            ]
         },
         "m_TargetModifier": {
             "_class": "modifier_ult_combo_target",
@@ -265,7 +276,8 @@
                 ]
             },
             "m_eTimeScaleSource": "MODIFIER_TIME_SCALE_USE_CASTER",
-            "m_bDurationReducible": "false"
+            "m_bDurationReducible": "false",
+            "m_strSmallIconCssClass": "stunned"
         },
         "m_flKillCheckWindow": "3.000000",
         "m_KillCheckModifier": {

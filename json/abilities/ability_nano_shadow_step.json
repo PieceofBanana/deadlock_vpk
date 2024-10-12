@@ -1,0 +1,378 @@
+{
+    "ability_nano_shadow_step": {
+        "_class": "ability_nano_shadow_step",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
+        "m_mapAbilityProperties": {
+            "AbilityCooldown": {
+                "m_strValue": "40.000000",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldown_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldown"
+                }
+            },
+            "AbilityDuration": {
+                "m_strValue": "8",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "duration",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_multi_stats",
+                    "_my_subclass_name": "ActiveRadius_scale_function",
+                    "m_eSpecificStatScaleType": "ETechPower",
+                    "m_vecScalingStats": [
+                        "ETechPower",
+                        "ETechDuration"
+                    ],
+                    "m_flStatScale": "0.050000"
+                }
+            },
+            "AbilityCastRange": {
+                "m_strValue": "0",
+                "m_eDisplayUnits": "EDisplayUnit_Meters",
+                "m_strCSSClass": "range",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCastRange_scale_function",
+                    "m_eSpecificStatScaleType": "ETechRange"
+                }
+            },
+            "AbilityUnitTargetLimit": {
+                "m_strValue": "1",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityCastDelay": {
+                "m_strValue": "0.2",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityChannelTime": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_multi_stats",
+                    "_my_subclass_name": "scale_duration",
+                    "m_vecScalingStats": [
+                        "EChannelDuration",
+                        "ETechDuration"
+                    ]
+                }
+            },
+            "AbilityPostCastDuration": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0"
+            },
+            "AbilityCharges": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCharges_scale_function",
+                    "m_eSpecificStatScaleType": "EMaxChargesIncrease"
+                }
+            },
+            "AbilityCooldownBetweenCharge": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "charge_cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldownBetweenCharge_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldownBetweenChargeUses"
+                }
+            },
+            "ChannelMoveSpeed": {
+                "m_strValue": "50",
+                "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond",
+                "m_strCSSClass": "move_speed",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityResourceCost": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_strCSSClass": "cast"
+            },
+            "TechPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_POWER"
+            },
+            "WeaponPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
+            },
+            "InvisAlertWhenFading": {
+                "m_strValue": "1"
+            },
+            "InvisCancelOnDamage": {
+                "m_strValue": "0"
+            },
+            "InvisFadeToDuration": {
+                "m_strValue": "0",
+                "m_strCSSClass": "duration"
+            },
+            "InvisMoveSpeedMod": {
+                "m_strValue": "0",
+                "m_strCSSClass": "move_speed"
+            },
+            "SpottedRadius": {
+                "m_strValue": "2m",
+                "m_bIsHidden": "true",
+                "m_strCSSClass": "distance",
+                "m_eDisplayType": "ETechRadius"
+            },
+            "RevealOnDamageDuration": {
+                "m_strValue": "0.25",
+                "m_strCSSClass": "duration"
+            },
+            "RevealOnSpottedDuration": {
+                "m_strValue": "0.75",
+                "m_strCSSClass": "duration"
+            },
+            "StaminaCooldownReduction": {
+                "m_strValue": "0",
+                "m_eDisplayType": "EStaminaRegenPerSecond",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_STAMINA_REGEN_PER_SECOND_PERCENTAGE",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
+            },
+            "PurgeOnActivate": {
+                "m_strValue": "0"
+            },
+            "SilenceOnHeavyDuration": {
+                "m_strValue": "0",
+                "m_strCSSClass": "duration",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "SilenceOnHeavyDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            },
+            "BonusFireRate": {
+                "m_strValue": "20",
+                "m_eDisplayType": "EFireRate",
+                "m_strCSSClass": "fire_rate",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_FIRE_RATE",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
+            },
+            "MeleeAttackSpeedBonus": {
+                "m_strLocTokenOverride": "NanoShadowMeleeAttackSpeedBonus",
+                "m_strCSSClass": "melee_damage",
+                "m_strValue": "20",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_MELEEATTACK_SPEED",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
+            },
+            "BulletArmorReductionLight": {
+                "m_strLocTokenOverride": "NanoShadowBulletArmorReductionLight",
+                "m_strValue": "5",
+                "m_strCSSClass": "bullet_armor_down",
+                "m_eDisplayType": "EStatsCount",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST_REDUCTION",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
+            },
+            "BulletArmorReductionHeavy": {
+                "m_strLocTokenOverride": "NanoShadowBulletArmorReductionHeavy",
+                "m_strValue": "15",
+                "m_strCSSClass": "bullet_armor_down",
+                "m_eDisplayType": "EStatsCount",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST_REDUCTION",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
+            },
+            "BulletArmorReductionDuration": {
+                "m_strLocTokenOverride": "NanoShadowBulletArmorReductionDuration",
+                "m_strValue": "6",
+                "m_strCSSClass": "duration",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "BulletArmorReductionDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            },
+            "SlowResistancePercent": {
+                "m_strValue": "0",
+                "m_strCSSClass": "move_speed",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_MOVEMENT_SLOW_RESISTANCE",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
+            }
+        },
+        "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
+        "_editor": {
+            "folder_name": "Hero Nano"
+        },
+        "m_WeaponInfo": {
+            "m_BulletSpeedCurve": {
+                "m_spline": [
+                    {
+                        "x": "0.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    },
+                    {
+                        "x": "100.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    }
+                ],
+                "m_tangents": [
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    },
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    }
+                ],
+                "m_vDomainMins": [
+                    "0.000000",
+                    "0.000000"
+                ],
+                "m_vDomainMaxs": [
+                    "100.000000",
+                    "10000.000000"
+                ]
+            }
+        },
+        "_multibase": [
+            "signature_base",
+            "invis_base"
+        ],
+        "m_bStartTrained": "false",
+        "m_nAbilityPointsCost": "0",
+        "m_nAbillityUnlocksCost": "1",
+        "m_eAbilityType": "EAbilityType_Signature",
+        "m_iMaxLevel": "1",
+        "m_bitsInterruptingStates": "MODIFIER_STATE_STUNNED",
+        "m_PreviewPathParticle": "particles/generic/generic_arc.vpcf",
+        "m_strAbilityOffCooldownSound": "",
+        "m_strAbilityChargeReadySound": "",
+        "m_skillshotMissParticle": "particles/abilities/skillshot_default_miss_owner.vpcf",
+        "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_SELF",
+        "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
+        "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_HERO_ENEMY | CITADEL_UNIT_TARGET_CREEP_ENEMY | CITADEL_UNIT_TARGET_MINION_ENEMY",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
+        "m_strCSSClass": "detentionRounds",
+        "m_strAbilityImage": "file://{images}/hud/abilities/slork/slork_invis.psd",
+        "m_vecAbilityUpgrades": [
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "StaminaCooldownReduction",
+                        "m_strBonus": "30"
+                    }
+                ]
+            },
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "SlowResistancePercent",
+                        "m_strBonus": "40"
+                    }
+                ]
+            },
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "SilenceOnHeavyDuration",
+                        "m_strBonus": "3"
+                    }
+                ]
+            }
+        ],
+        "m_strCastSound": "Mods.Weapon.Thermal.Detonator.Explode",
+        "m_PurgeModifier": {
+            "_class": "modifier_base",
+            "_my_subclass_name": "modifier_purge",
+            "m_strParticleEffect": "particles/upgrades/tech_purge.vpcf",
+            "m_bIsHidden": "true"
+        },
+        "m_ShadowModifier": {
+            "_class": "modifier_nano_shadow_step",
+            "_my_subclass_name": "modifier_nano_shadow_step",
+            "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER",
+            "m_sLocalizationName": "modifier_nano_shadow_step",
+            "m_bFadeInsteadOfRemoveOnBulletFire": "true",
+            "m_bFadeInsteadOfRemoveOnAbilityUse": "true",
+            "m_bFadeToVisibleAtEndOfDuration": "true",
+            "m_bEnableDesatWhileActive": "false",
+            "m_InvisLoopParticle": "particles/modifiers/invis_loop.vpcf",
+            "m_InvisDetectRadiusParticle": "particles/modifiers/invis_delay.vpcf",
+            "m_InvisRevealedParticle": "particles/abilities/nano/nano_ult_shadow_revealed.vpcf",
+            "m_strInvisRevealedSound": "StatusEffects.InvisRevealed",
+            "m_InvisChangedEffect": "particles/abilities/nano/nano_ult_cast.vpcf",
+            "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
+                "BonusFireRate",
+                "MeleeAttackSpeedBonus",
+                "StaminaCooldownReduction",
+                "SlowResistancePercent"
+            ],
+            "m_SilenceModifier": {
+                "_class": "modifier_citadel_silenced",
+                "_my_subclass_name": "modifier_citadel_silenced",
+                "m_strSmallIconCssClass": "silence_proc",
+                "m_sLocalizationName": "modifier_citadel_silenced",
+                "m_eDrawOverheadStatus": "OVERHEAD_DRAW_FOR_EVERYONE",
+                "m_bIsHidden": "true"
+            },
+            "m_ArmorDebuff": {
+                "_class": "modifier_nano_shadow_debuff",
+                "_my_subclass_name": "modifier_nano_shadow_debuff",
+                "m_strParticleEffect": "particles/modifiers/armor_suppressor.vpcf",
+                "m_strSmallIconCssClass": "bullet_armor_reduction",
+                "m_bKeepMaximumDurationOnRefresh": "true",
+                "m_sLocalizationName": "modifier_nano_shadow_debuff"
+            },
+            "m_strParticleEffect": ""
+        },
+        "m_AbilityTooltipDetails": {
+            "m_vecAbilityInfoSections": [
+                {
+                    "m_strLocString": "#ability_nano_shadow_step_desc",
+                    "m_vecAbilityPropertiesBlock": [
+                        {
+                            "m_vecAbilityProperties": [
+                                {
+                                    "m_strImportantProperty": "StatusEffectInvisible"
+                                },
+                                {
+                                    "m_strImportantProperty": "BonusFireRate"
+                                },
+                                {
+                                    "m_strImportantProperty": "MeleeAttackSpeedBonus"
+                                }
+                            ]
+                        }
+                    ],
+                    "m_vecBasicProperties": [
+                        "BulletArmorReductionLight",
+                        "BulletArmorReductionHeavy",
+                        "BulletArmorReductionDuration",
+                        "SpottedRadius",
+                        "StaminaCooldownReduction",
+                        "SlowResistancePercent",
+                        "SilenceOnHeavyDuration"
+                    ]
+                }
+            ]
+        },
+        "m_mapCastEventParticles": {
+            "CAST_COMPLETED": "particles/abilities/nano/nano_ult_cast.vpcf"
+        },
+        "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/calico_queen_of_shadows.webm"
+    }
+}

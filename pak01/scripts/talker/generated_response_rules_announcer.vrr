@@ -139,6 +139,7 @@
 											m_params = 
 											{
 												m_respeakdelay.start = 25.000000
+												m_predelay.start = 1.000000
 											}
 										},
 									]
@@ -163,6 +164,7 @@
 											m_params = 
 											{
 												m_respeakdelay.start = 25.000000
+												m_predelay.start = 1.000000
 											}
 										},
 									]
@@ -187,6 +189,7 @@
 											m_params = 
 											{
 												m_respeakdelay.start = 25.000000
+												m_predelay.start = 1.000000
 											}
 										},
 									]
@@ -211,6 +214,7 @@
 											m_params = 
 											{
 												m_respeakdelay.start = 25.000000
+												m_predelay.start = 1.000000
 											}
 										},
 									]
@@ -238,7 +242,6 @@
 						
 						{
 							m_name = "Announcer_Tier2Boss_UnderAttacked"
-							m_bDisabled = true
 							m_children = 
 							[
 								
@@ -253,6 +256,7 @@
 											m_params = 
 											{
 												m_respeakdelay.start = 25.000000
+												m_predelay.start = 1.000000
 											}
 										},
 									]
@@ -263,6 +267,7 @@
 										[
 											"BlueLane",
 										]
+										m_respeakDelay.start = 45.000000
 									}
 								},
 								
@@ -273,10 +278,11 @@
 										
 										{
 											m_type = "SPEAK"
-											m_value = "patron_female_ally_orange_walker_attack_01_announcer"
+											m_value = "patron_female_ally_green_walker_attack_announcer"
 											m_params = 
 											{
-												m_respeakdelay.start = 25.000000
+												m_respeakdelay.start = 45.000000
+												m_predelay.start = 1.000000
 											}
 										},
 									]
@@ -287,6 +293,7 @@
 										[
 											"GreenLane",
 										]
+										m_respeakDelay.start = 45.000000
 									}
 								},
 								
@@ -301,6 +308,7 @@
 											m_params = 
 											{
 												m_respeakdelay.start = 25.000000
+												m_predelay.start = 1.000000
 											}
 										},
 									]
@@ -311,6 +319,7 @@
 										[
 											"PurpleLane",
 										]
+										m_respeakDelay.start = 45.000000
 									}
 								},
 								
@@ -325,6 +334,7 @@
 											m_params = 
 											{
 												m_respeakdelay.start = 25.000000
+												m_predelay.start = 1.000000
 											}
 										},
 									]
@@ -335,13 +345,13 @@
 										[
 											"YellowLane",
 										]
+										m_respeakDelay.start = 45.000000
 									}
 								},
 							]
 							m_pEmbeddedRule = 
 							{
 								m_name = "Announcer_Tier2Boss_UnderAttacked"
-								m_bDisabled = true
 								m_Requirements = 
 								[
 									"IsTier2Attacked",
@@ -367,6 +377,7 @@
 											m_params = 
 											{
 												m_respeakdelay.start = 25.000000
+												m_predelay.start = 1.000000
 											}
 										},
 									]
@@ -391,6 +402,7 @@
 											m_params = 
 											{
 												m_respeakdelay.start = 25.000000
+												m_predelay.start = 1.000000
 											}
 										},
 									]
@@ -415,6 +427,7 @@
 											m_params = 
 											{
 												m_respeakdelay.start = 25.000000
+												m_predelay.start = 1.000000
 											}
 										},
 									]
@@ -439,6 +452,7 @@
 											m_params = 
 											{
 												m_respeakdelay.start = 25.000000
+												m_predelay.start = 1.000000
 											}
 										},
 									]
@@ -466,7 +480,6 @@
 						
 						{
 							m_name = "Male_Announcer_Tier2Boss_UnderAttacked"
-							m_bDisabled = true
 							m_children = 
 							[
 								
@@ -481,6 +494,7 @@
 											m_params = 
 											{
 												m_respeakdelay.start = 25.000000
+												m_predelay.start = 1.000000
 											}
 											m_flWeight = 75.000000
 										},
@@ -492,6 +506,7 @@
 										[
 											"BlueLane",
 										]
+										m_respeakDelay.start = 45.000000
 									}
 								},
 								
@@ -502,12 +517,12 @@
 										
 										{
 											m_type = "SPEAK"
-											m_value = "patron_male_ally_orange_walker_attack_01_announcer"
+											m_value = "patron_male_ally_green_walker_attack_announcer"
 											m_params = 
 											{
-												m_respeakdelay.start = 25.000000
+												m_respeakdelay.start = 45.000000
+												m_predelay.start = 1.000000
 											}
-											m_flWeight = 75.000000
 										},
 									]
 									m_pEmbeddedRule = 
@@ -517,6 +532,7 @@
 										[
 											"GreenLane",
 										]
+										m_respeakDelay.start = 45.000000
 									}
 								},
 								
@@ -531,6 +547,7 @@
 											m_params = 
 											{
 												m_respeakdelay.start = 25.000000
+												m_predelay.start = 1.000000
 											}
 											m_flWeight = 75.000000
 										},
@@ -542,6 +559,7 @@
 										[
 											"PurpleLane",
 										]
+										m_respeakDelay.start = 45.000000
 									}
 								},
 								
@@ -556,6 +574,7 @@
 											m_params = 
 											{
 												m_respeakdelay.start = 25.000000
+												m_predelay.start = 1.000000
 											}
 											m_flWeight = 75.000000
 										},
@@ -567,13 +586,13 @@
 										[
 											"YellowLane",
 										]
+										m_respeakDelay.start = 45.000000
 									}
 								},
 							]
 							m_pEmbeddedRule = 
 							{
 								m_name = "Male_Announcer_Tier2Boss_UnderAttacked"
-								m_bDisabled = true
 								m_Requirements = 
 								[
 									"IsTier2Attacked",
@@ -841,6 +860,7 @@
 						
 						{
 							m_name = "Announcer_Enemy_Tier1Boss_Destroyed"
+							m_bDisabled = true
 							m_children = 
 							[
 								
@@ -854,6 +874,7 @@
 											m_value = "patron_female_killing_streak_generic_low_05_announcer"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 3.000000
 											}
 										},
@@ -878,6 +899,7 @@
 											m_value = "patron_female_killing_streak_generic_low_03_announcer"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 3.000000
 											}
 										},
@@ -902,6 +924,7 @@
 											m_value = "patron_female_killing_streak_generic_low_01_announcer"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 3.000000
 											}
 										},
@@ -926,6 +949,7 @@
 											m_value = "patron_female_killing_streak_generic_low_02_announcer"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 3.000000
 											}
 										},
@@ -943,6 +967,7 @@
 							m_pEmbeddedRule = 
 							{
 								m_name = "Announcer_Enemy_Tier1Boss_Destroyed"
+								m_bDisabled = true
 								m_Requirements = 
 								[
 									"IsEnemyTier1Destroyed",
@@ -953,6 +978,7 @@
 						
 						{
 							m_name = "Announcer_Enemy_Tier2Boss_Destroyed"
+							m_bDisabled = true
 							m_children = 
 							[
 								
@@ -966,6 +992,7 @@
 											m_value = "patron_female_killing_streak_generic_medium_01_announcer"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 3.000000
 											}
 										},
@@ -990,6 +1017,7 @@
 											m_value = "patron_female_killing_streak_generic_medium_05_announcer"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 3.000000
 											}
 										},
@@ -1014,6 +1042,7 @@
 											m_value = "patron_female_killing_streak_generic_medium_02_announcer"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 3.000000
 											}
 										},
@@ -1038,6 +1067,7 @@
 											m_value = "patron_female_killing_streak_generic_medium_03_announcer"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 3.000000
 											}
 										},
@@ -1055,6 +1085,7 @@
 							m_pEmbeddedRule = 
 							{
 								m_name = "Announcer_Enemy_Tier2Boss_Destroyed"
+								m_bDisabled = true
 								m_Requirements = 
 								[
 									"IsEnemyTier2Destroyed",
@@ -1065,6 +1096,7 @@
 						
 						{
 							m_name = "Male_Announcer_Enemy_Tier1Boss_Destroyed"
+							m_bDisabled = true
 							m_children = 
 							[
 								
@@ -1078,6 +1110,7 @@
 											m_value = "patron_male_killing_streak_generic_low_01_announcer"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 3.000000
 											}
 										},
@@ -1102,6 +1135,7 @@
 											m_value = "patron_male_killing_streak_generic_low_02_announcer"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 3.000000
 											}
 										},
@@ -1126,6 +1160,7 @@
 											m_value = "patron_male_killing_streak_generic_low_03_announcer"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 3.000000
 											}
 										},
@@ -1150,6 +1185,7 @@
 											m_value = "patron_male_killing_streak_generic_low_04_announcer"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 3.000000
 											}
 										},
@@ -1167,6 +1203,7 @@
 							m_pEmbeddedRule = 
 							{
 								m_name = "Male_Announcer_Enemy_Tier1Boss_Destroyed"
+								m_bDisabled = true
 								m_Requirements = 
 								[
 									"IsEnemyTier1Destroyed",
@@ -1177,6 +1214,7 @@
 						
 						{
 							m_name = "Male_Announcer_Enemy_Tier2Boss_Destroyed"
+							m_bDisabled = true
 							m_children = 
 							[
 								
@@ -1190,6 +1228,7 @@
 											m_value = "patron_male_killing_streak_generic_medium_01_announcer"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 3.000000
 											}
 										},
@@ -1214,6 +1253,7 @@
 											m_value = "patron_male_killing_streak_generic_medium_02_announcer"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 3.000000
 											}
 										},
@@ -1238,6 +1278,7 @@
 											m_value = "patron_male_killing_streak_generic_medium_03_announcer"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 3.000000
 											}
 										},
@@ -1262,6 +1303,7 @@
 											m_value = "patron_male_killing_streak_generic_medium_05_announcer"
 											m_params = 
 											{
+												m_respeakdelay.start = 0.000000
 												m_predelay.start = 3.000000
 											}
 										},
@@ -1279,6 +1321,7 @@
 							m_pEmbeddedRule = 
 							{
 								m_name = "Male_Announcer_Enemy_Tier2Boss_Destroyed"
+								m_bDisabled = true
 								m_Requirements = 
 								[
 									"IsEnemyTier2Destroyed",
@@ -1296,6 +1339,11 @@
 								{
 									m_type = "SPEAK"
 									m_value = "patron_female_killing_streak_generic_medium_01_announcer"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -1319,56 +1367,111 @@
 								{
 									m_type = "SPEAK"
 									m_value = "patron_female_killing_streak_generic_high_01_announcer"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "patron_female_enemy_guardian_destroyed_01_announcer"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "patron_female_enemy_guardian_destroyed_02_announcer"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "patron_female_enemy_guardian_destroyed_03_announcer"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "patron_female_enemy_guardian_destroyed_06_alt_01_announcer"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "patron_female_enemy_walker_destroyed_04_announcer"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "patron_female_enemy_walker_destroyed_03_alt_02_announcer"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "saphire_flame_lines_02_announcer"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "saphire_flame_lines_03_announcer"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "saphire_flame_lines_04_announcer"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "saphire_flame_lines_05_announcer"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -1392,6 +1495,11 @@
 								{
 									m_type = "SPEAK"
 									m_value = "patron_male_killing_streak_generic_medium_01_announcer"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -1415,46 +1523,91 @@
 								{
 									m_type = "SPEAK"
 									m_value = "patron_male_killing_streak_generic_high_01_announcer"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "patron_male_enemy_guardian_destroyed_01_announcer"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "patron_male_enemy_guardian_destroyed_02_alt_01_announcer"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "patron_male_enemy_guardian_destroyed_03_announcer"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "patron_male_amber_hand_lines_02_announcer"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "patron_male_amber_hand_lines_03_announcer"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "patron_male_amber_hand_lines_04_announcer"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "patron_male_amber_hand_lines_05_announcer"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
+									}
 								},
 								
 								{
 									m_type = "SPEAK"
 									m_value = "patron_male_amber_hand_lines_announcer"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -1490,6 +1643,11 @@
 								{
 									m_type = "SPEAK"
 									m_value = "patron_female_enemy_first_generator_destroyed_01_announcer"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -1512,6 +1670,11 @@
 								{
 									m_type = "SPEAK"
 									m_value = "patron_female_enemy_titan_exposed_01_announcer"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
+									}
 									m_flWeight = 175.000000
 								},
 							]
@@ -1535,6 +1698,11 @@
 								{
 									m_type = "SPEAK"
 									m_value = "patron_male_enemy_first_generator_destroyed_01_announcer"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -1557,6 +1725,11 @@
 								{
 									m_type = "SPEAK"
 									m_value = "patron_male_enemy_titan_exposed_01_announcer"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -1579,6 +1752,11 @@
 								{
 									m_type = "SPEAK"
 									m_value = "patron_female_enemy_core_exposed_01_announcer"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -1600,6 +1778,11 @@
 								{
 									m_type = "SPEAK"
 									m_value = "patron_male_enemy_core_exposed_01_announcer"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -1639,11 +1822,21 @@
 										{
 											m_type = "SPEAK"
 											m_value = "patron_female_ally_blue_guardian_destroyed_01_announcer"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "patron_female_ally_blue_guardian_destroyed_02_announcer"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -1664,6 +1857,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "patron_female_lose_objective_generic_announcer"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -1684,11 +1882,21 @@
 										{
 											m_type = "SPEAK"
 											m_value = "patron_female_ally_purple_guardian_destroyed_01_announcer"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "patron_female_ally_purple_guardian_destroyed_02_announcer"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -1709,11 +1917,21 @@
 										{
 											m_type = "SPEAK"
 											m_value = "patron_female_ally_yellow_guardian_destroyed_01_announcer"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "patron_female_ally_yellow_guardian_destroyed_02_announcer"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -1750,11 +1968,21 @@
 										{
 											m_type = "SPEAK"
 											m_value = "patron_female_ally_blue_walker_destroyed_02_announcer"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "patron_female_ally_blue_walker_destroyed_01_announcer"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -1775,6 +2003,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "patron_female_lose_objective_generic_announcer"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -1795,11 +2028,21 @@
 										{
 											m_type = "SPEAK"
 											m_value = "patron_female_ally_purple_walker_destroyed_01_announcer"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "patron_female_ally_purple_walker_destroyed_02_announcer"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -1820,11 +2063,21 @@
 										{
 											m_type = "SPEAK"
 											m_value = "patron_female_ally_yellow_walker_destroyed_01_announcer"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "patron_female_ally_yellow_walker_destroyed_02_announcer"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -1861,12 +2114,22 @@
 										{
 											m_type = "SPEAK"
 											m_value = "patron_male_ally_blue_guardian_destroyed_01_announcer"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 											m_flWeight = 50.000000
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "patron_male_ally_blue_guardian_destroyed_02_announcer"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 											m_flWeight = 50.000000
 										},
 									]
@@ -1888,6 +2151,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "patron_male_lose_objective_generic_announcer"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -1908,12 +2176,22 @@
 										{
 											m_type = "SPEAK"
 											m_value = "patron_male_ally_purple_guardian_destroyed_01_announcer"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 											m_flWeight = 50.000000
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "patron_male_ally_purple_guardian_destroyed_02_announcer"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 											m_flWeight = 50.000000
 										},
 									]
@@ -1935,12 +2213,22 @@
 										{
 											m_type = "SPEAK"
 											m_value = "patron_male_ally_yellow_guardian_destroyed_01_announcer"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 											m_flWeight = 50.000000
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "patron_male_ally_yellow_guardian_destroyed_02_announcer"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 											m_flWeight = 50.000000
 										},
 									]
@@ -1978,12 +2266,22 @@
 										{
 											m_type = "SPEAK"
 											m_value = "patron_male_ally_blue_walker_destroyed_02_announcer"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 											m_flWeight = 75.000000
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "patron_male_ally_blue_walker_destroyed_01_announcer"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 											m_flWeight = 75.000000
 										},
 									]
@@ -2005,6 +2303,11 @@
 										{
 											m_type = "SPEAK"
 											m_value = "patron_male_lose_objective_generic_announcer"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 										},
 									]
 									m_pEmbeddedRule = 
@@ -2025,12 +2328,22 @@
 										{
 											m_type = "SPEAK"
 											m_value = "patron_male_ally_purple_walker_destroyed_01_announcer"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 											m_flWeight = 75.000000
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "patron_male_ally_purple_walker_destroyed_02_announcer"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 											m_flWeight = 75.000000
 										},
 									]
@@ -2052,12 +2365,22 @@
 										{
 											m_type = "SPEAK"
 											m_value = "patron_male_ally_yellow_walker_destroyed_01_announcer"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 											m_flWeight = 75.000000
 										},
 										
 										{
 											m_type = "SPEAK"
 											m_value = "patron_male_ally_yellow_walker_destroyed_02_announcer"
+											m_params = 
+											{
+												m_respeakdelay.start = 0.000000
+												m_predelay.start = 1.000000
+											}
 											m_flWeight = 75.000000
 										},
 									]
@@ -2091,6 +2414,11 @@
 								{
 									m_type = "SPEAK"
 									m_value = "patron_female_ally_guardian_destroyed_04_announcer"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -2117,6 +2445,7 @@
 									m_params = 
 									{
 										m_respeakdelay.start = 120.000000
+										m_predelay.start = 1.000000
 									}
 								},
 								
@@ -2126,6 +2455,7 @@
 									m_params = 
 									{
 										m_respeakdelay.start = 120.000000
+										m_predelay.start = 1.000000
 									}
 								},
 								
@@ -2135,6 +2465,7 @@
 									m_params = 
 									{
 										m_respeakdelay.start = 120.000000
+										m_predelay.start = 1.000000
 									}
 								},
 								
@@ -2144,6 +2475,7 @@
 									m_params = 
 									{
 										m_respeakdelay.start = 120.000000
+										m_predelay.start = 1.000000
 									}
 								},
 							]
@@ -2169,6 +2501,11 @@
 								{
 									m_type = "SPEAK"
 									m_value = "patron_male_ally_guardian_destroyed_04_announcer"
+									m_params = 
+									{
+										m_respeakdelay.start = 0.000000
+										m_predelay.start = 1.000000
+									}
 								},
 							]
 							m_pEmbeddedRule = 
@@ -2195,6 +2532,7 @@
 									m_params = 
 									{
 										m_respeakdelay.start = 120.000000
+										m_predelay.start = 1.000000
 									}
 								},
 								
@@ -2204,6 +2542,7 @@
 									m_params = 
 									{
 										m_respeakdelay.start = 120.000000
+										m_predelay.start = 1.000000
 									}
 								},
 								
@@ -2213,6 +2552,7 @@
 									m_params = 
 									{
 										m_respeakdelay.start = 120.000000
+										m_predelay.start = 1.000000
 									}
 								},
 							]

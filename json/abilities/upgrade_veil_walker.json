@@ -174,7 +174,7 @@
                 }
             },
             "BonusMoveSpeed": {
-                "m_strValue": "3m",
+                "m_strValue": "4m",
                 "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond",
                 "m_strCSSClass": "move_speed",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_MOVEMENT_SPEED_MAX",

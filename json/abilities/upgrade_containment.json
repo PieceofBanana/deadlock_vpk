@@ -114,7 +114,7 @@
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
             },
             "SlowPercent": {
-                "m_strValue": "30",
+                "m_strValue": "25",
                 "m_strCSSClass": "slow",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
                 "m_UsageFlags": "APUsageFlag_ModifierConditional"
@@ -217,7 +217,7 @@
             "_class": "modifier_slow_base",
             "_my_subclass_name": "modifier_slow_base",
             "m_sLocalizationName": "upgrade_containment",
-            "m_bIsHidden": "true",
+            "m_bIsHidden": "false",
             "m_strHudMessageText": "#upgrade_containment",
             "m_nEnabledStateMask": "MODIFIER_STATE_SILENCE_MOVEMENT_ABILITES",
             "m_vecScriptValues": [],
@@ -226,7 +226,10 @@
                 "SlowPercent",
                 "GroundDashReductionPercent"
             ],
-            "m_sAmbientLoopingSound": "Status.MoveRestrict"
+            "m_sAmbientLoopingSound": "Status.MoveRestrict",
+            "m_eHudDisplayLocation": "DISPLAY_HUD_LEFT",
+            "m_strSmallIconCssClass": "containment",
+            "m_eDrawOverheadStatus": "OVERHEAD_DRAW_FOR_EVERYONE"
         },
         "m_vecTooltipSectionInfo": [
             {

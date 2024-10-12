@@ -20,14 +20,9 @@
                 "m_strCSSClass": "duration",
                 "m_bCanSetTokenOverride": "true",
                 "m_subclassScaleFunction": {
-                    "_class": "scale_function_multi_stats",
+                    "_class": "scale_function_single_stat",
                     "_my_subclass_name": "AbilityDuration_scale_function",
-                    "m_eSpecificStatScaleType": "ETechPower",
-                    "m_vecScalingStats": [
-                        "ETechPower",
-                        "ETechDuration"
-                    ],
-                    "m_flStatScale": "0.163800"
+                    "m_eSpecificStatScaleType": "ETechDuration"
                 }
             },
             "AbilityCastRange": {
@@ -222,7 +217,6 @@
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_HERO_FRIENDLY",
         "m_eAbilitySpectatePriority": "CITADELTV_ABILITY_SPECTATE_PRIORITY_MEDIUM",
         "m_strAbilityImage": "file://{images}/hud/abilities/wasp_flight.psd",
-        "m_flVerticalMoveSpeedPercent": "1.000000",
         "m_vecAbilityUpgrades": [
             {
                 "m_vecPropertyUpgrades": [
@@ -235,8 +229,8 @@
             {
                 "m_vecPropertyUpgrades": [
                     {
-                        "m_strPropertyName": "AbilityCooldown",
-                        "m_strBonus": "-14.000000"
+                        "m_strPropertyName": "AbilityDuration",
+                        "m_strBonus": "6"
                     }
                 ]
             },
@@ -249,8 +243,12 @@
                 ]
             }
         ],
-        "m_flAirDrag": "2.000000",
-        "m_flAirSpeedApproach": "100.000000",
+        "m_flVerticalMoveSpeedPercent": "1.000000",
+        "m_flAirDrag": "1.500000",
+        "m_flAirAcceleration": "2.500000",
+        "m_flLaunchTime": "0.500000",
+        "m_flLaunchAirDrag": "2.000000",
+        "m_flMoveSpeedAboveBaseScale": "0.500000",
         "m_LeapModifier": {
             "_class": "modifier_hornet_leap",
             "_my_subclass_name": "modifier_hornet_leap",

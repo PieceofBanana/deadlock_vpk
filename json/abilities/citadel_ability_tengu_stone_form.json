@@ -235,9 +235,8 @@
         "m_strAbilityImage": "file://{images}/hud/abilities/tengu/tengu_stone_form.psd",
         "m_iUpdateTime": "1641857927",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
-        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_CHANNELLED",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_BUSY",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
-        "m_flTargetingConeAngle": "45",
         "m_vecAbilityUpgrades": [
             {
                 "m_vecPropertyUpgrades": [

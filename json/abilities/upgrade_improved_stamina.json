@@ -117,15 +117,22 @@
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             },
             "StaminaCooldownReduction": {
-                "m_strValue": "14",
+                "m_strValue": "16",
                 "m_eDisplayType": "EStaminaRegenPerSecond",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_STAMINA_REGEN_PER_SECOND_PERCENTAGE",
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             },
             "BonusFireRate": {
-                "m_strValue": "7",
+                "m_strValue": "6",
                 "m_eDisplayType": "EFireRate",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_FIRE_RATE",
+                "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
+            },
+            "BonusHealth": {
+                "m_strValue": "25",
+                "m_strCSSClass": "health",
+                "m_eDisplayType": "EMaxHealth",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_HEALTH_MAX",
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             }
         },
@@ -193,7 +200,8 @@
                         "m_vecAbilityProperties": [
                             "Stamina",
                             "StaminaCooldownReduction",
-                            "BonusFireRate"
+                            "BonusFireRate",
+                            "BonusHealth"
                         ],
                         "m_bRemoveAttributesBackgroundColor": "true"
                     }
@@ -208,7 +216,8 @@
                 "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
                     "Stamina",
                     "StaminaCooldownReduction",
-                    "BonusFireRate"
+                    "BonusFireRate",
+                    "BonusHealth"
                 ]
             }
         ],

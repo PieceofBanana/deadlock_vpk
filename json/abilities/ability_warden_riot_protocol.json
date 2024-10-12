@@ -41,7 +41,7 @@
                 "m_bCanSetTokenOverride": "true"
             },
             "AbilityCastDelay": {
-                "m_strValue": "2.25",
+                "m_strValue": "2",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cast",
                 "m_bCanSetTokenOverride": "true"
@@ -125,7 +125,7 @@
                 }
             },
             "Radius": {
-                "m_strValue": "12m",
+                "m_strValue": "13m",
                 "m_strCSSClass": "distance",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",

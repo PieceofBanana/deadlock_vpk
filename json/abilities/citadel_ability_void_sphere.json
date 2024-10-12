@@ -4,7 +4,7 @@
         "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "12.500000",
+                "m_strValue": "15",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -265,7 +265,8 @@
                     {
                         "m_eCameraOperation": "k_ECameraOp_Maintain",
                         "m_flMaintainDuration": "0.600000",
-                        "m_bValuesAreRelative": "true"
+                        "m_bValuesAreRelative": "true",
+                        "m_bMaintainCurrent": "true"
                     },
                     {
                         "m_eCameraOperation": "k_ECameraOp_Lerp",
@@ -318,6 +319,10 @@
                     {
                         "m_strPropertyName": "BonusClipSizePercent",
                         "m_strBonus": "120"
+                    },
+                    {
+                        "m_strPropertyName": "AbilityCooldown",
+                        "m_strBonus": "-4"
                     }
                 ]
             }

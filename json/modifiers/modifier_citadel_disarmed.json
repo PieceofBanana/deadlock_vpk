@@ -4,6 +4,7 @@
         "m_strParticleStatusEffect": "particles/generic/generic_disarmed.vpcf",
         "m_sLocalizationName": "MODIFIER_STATE_DISARMED",
         "m_strHudMessageText": "#modifier_citadel_disarmed",
-        "m_strSmallIconCssClass": "disarm_proc"
+        "m_strSmallIconCssClass": "disarm_proc",
+        "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER"
     }
 }

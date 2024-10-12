@@ -175,23 +175,6 @@
                     "m_eSpecificStatScaleType": "ETechDuration"
                 }
             },
-            "DotDuration": {
-                "m_strValue": "0",
-                "m_subclassScaleFunction": {
-                    "_my_subclass_name": "DotDuration_scale_function",
-                    "_class": "scale_function_single_stat",
-                    "m_eSpecificStatScaleType": "ETechDuration"
-                }
-            },
-            "DotDPS": {
-                "m_strValue": "0",
-                "m_subclassScaleFunction": {
-                    "_my_subclass_name": "DotDPS_scale_function",
-                    "_class": "scale_function_tech_damage",
-                    "m_eSpecificStatScaleType": "ETechPower",
-                    "m_flStatScale": "0.000000"
-                }
-            },
             "SlowPercent": {
                 "m_strValue": "50",
                 "m_strCSSClass": "slow",
@@ -317,12 +300,13 @@
         "m_TrapModifier": {
             "_class": "modifier_citadel_immobilize_trap_immobilize",
             "_my_subclass_name": "modifier_citadel_immobilize_trap_immobilize",
-            "m_eDrawOverheadStatus": "OVERHEAD_DRAW_FOR_EVERYONE",
+            "m_eDrawOverheadStatus": "OVERHEAD_DRAW_NEVER",
             "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER",
             "m_sLocalizationName": "modifier_citadel_immobilize_trap_immobilize",
             "m_nEnabledStateMask": "MODIFIER_STATE_GLOW_THROUGH_WALLS_TO_ENEMY | MODIFIER_STATE_GLOW_THROUGH_WALLS_TO_PROVIDER | MODIFIER_STATE_GLOW_TO_PROVIDER",
             "m_strParticleEffect": "particles/abilities/archer/archer_immobilize_root.vpcf",
-            "m_sExpiredSound": "Orion.ImmobilizeTrap.AOE.Stop"
+            "m_sExpiredSound": "Orion.ImmobilizeTrap.AOE.Stop",
+            "m_strSmallIconCssClass": "immobilize"
         },
         "m_SlowModifier": {
             "_class": "modifier_slow_base",
@@ -376,11 +360,6 @@
                     ]
                 }
             ]
-        },
-        "m_DotModifier": {
-            "_my_subclass_name": "trap_dot_modifier",
-            "_class": "modifier_immobilize_trap_dot_thinker",
-            "m_GroundParticle": "particles/abilities/orion/immobilize_ground_dot.vpcf"
         },
         "m_strCastAnimGraphParam": "b_CastImmobilizeTrap",
         "m_ArmedParticle": "particles/abilities/archer/archer_immobilize_trap_arm.vpcf"

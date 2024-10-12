@@ -202,6 +202,26 @@
                 "m_strValue": "0",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_AMMO_CLIP_SIZE_PERCENT",
                 "m_UsageFlags": "APUsageFlag_ModifierConditional"
+            },
+            "FireRateSlow": {
+                "m_strValue": "15",
+                "m_strCSSClass": "slow",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_FIRE_RATE_SLOW",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_tech_damage",
+                    "_my_subclass_name": "FireRateSlow_scale",
+                    "m_flStatScale": "0.200000"
+                }
+            },
+            "ExplodeDebuffDuration": {
+                "m_strValue": "5",
+                "m_strCSSClass": "duration",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "ExplodeDebuffDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
             }
         },
         "m_flCollisionDistance": "100",
@@ -308,6 +328,15 @@
                 "_class": "modifier_base",
                 "_my_subclass_name": "modifier_no_uppercut_explosion_damage",
                 "m_bIsHidden": "true"
+            },
+            "m_ExplodeDebuffModifier": {
+                "_class": "modifier_base",
+                "_my_subclass_name": "uppercut_debuff",
+                "m_strParticleEffect": "particles/generic/generic_slow_debuff.vpcf",
+                "m_bIsHidden": "true",
+                "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
+                    "FireRateSlow"
+                ]
             },
             "m_nStatusEffectPriority": "20",
             "m_strParticleEffectConfig": "preview"
@@ -479,7 +508,10 @@
                             ]
                         }
                     ],
-                    "m_vecBasicProperties": []
+                    "m_vecBasicProperties": [
+                        "FireRateSlow",
+                        "ExplodeDebuffDuration"
+                    ]
                 }
             ]
         }

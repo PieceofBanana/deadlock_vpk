@@ -120,7 +120,8 @@
                 "m_strValue": "1.15"
             },
             "DamageAmplification": {
-                "m_strValue": "25"
+                "m_strValue": "20",
+                "m_strCSSClass": "damage"
             },
             "DebuffDuration": {
                 "m_strValue": "8",
@@ -241,6 +242,7 @@
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_CIRCLE",
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_NONE",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_SHOW_CAST_RANGE_AS_SAT_SPHERE_WHILE_CASTING",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
         "m_strAbilityImage": "file://{images}/hud/abilities/inferno_molotov.psd",
         "m_strCastAnimGraphParam": "e_IncendiaryThrow",
@@ -308,7 +310,7 @@
                 "m_vecPropertyUpgrades": [
                     {
                         "m_strPropertyName": "DamageAmplification",
-                        "m_strBonus": "15"
+                        "m_strBonus": "20"
                     },
                     {
                         "m_strPropertyName": "HealAmpReceivePenaltyPercent",

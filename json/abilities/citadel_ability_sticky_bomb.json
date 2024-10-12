@@ -132,7 +132,10 @@
                 }
             },
             "BonusDamagePctPerPlayerHit": {
-                "m_strValue": "2.5"
+                "m_strValue": "3"
+            },
+            "BonusLossPerDeath": {
+                "m_strValue": "2"
             },
             "StunTargetOnExplode": {
                 "m_strValue": "0",
@@ -262,10 +265,12 @@
             "m_DebuffModifier": {
                 "_class": "modifier_citadel_disarmed",
                 "_my_subclass_name": "modifier_citadel_disarmed",
-                "m_eDrawOverheadStatus": "OVERHEAD_DRAW_FOR_EVERYONE",
+                "m_eDrawOverheadStatus": "OVERHEAD_DRAW_NEVER",
                 "m_strSmallIconCssClass": "disarm_proc",
                 "m_strParticleStatusEffect": "",
-                "m_strParticleEffect": "particles/generic/generic_disarmed.vpcf"
+                "m_strParticleEffect": "particles/generic/generic_disarmed.vpcf",
+                "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER",
+                "m_sLocalizationName": "MODIFIER_STATE_DISARMED"
             },
             "m_BombAttachedVictimTeamParticle": "particles/abilities/bebop/bebop_sticky_bomb_victimteam_debuff.vpcf"
         },

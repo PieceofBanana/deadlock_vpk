@@ -245,16 +245,17 @@
         "m_TargetModifier": {
             "_my_subclass_name": "modifier_rupture",
             "_class": "modifier_vitality_suppressor_debuff",
-            "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER",
+            "m_eHudDisplayLocation": "DISPLAY_HUD_LEFT",
             "m_strParticleEffect": "",
             "m_DebuffParticle": "particles/upgrades/rupture_debuff.vpcf",
             "m_sAmbientLoopingSound": "Item.Tech.Rupture.DeBuff",
-            "m_strSmallIconCssClass": "tech_armor_reduction",
+            "m_strSmallIconCssClass": "decay",
             "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
                 "HealAmpReceivePenaltyPercent",
                 "HealAmpRegenPenaltyPercent"
             ],
-            "m_sStartSound": "Mods.Tech.Decay.Hit"
+            "m_sStartSound": "Mods.Tech.Decay.Hit",
+            "m_eDrawOverheadStatus": "OVERHEAD_DRAW_FOR_EVERYONE"
         },
         "m_AutoIntrinsicModifiers": [
             {

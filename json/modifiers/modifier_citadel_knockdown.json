@@ -40,8 +40,8 @@
                     "m_eCameraOperation": "k_ECameraOp_Lerp",
                     "m_flLerpDuration": "0.250000",
                     "m_flLerpBias": "0.702000",
-                    "m_bLerpStartAtCurrent": "false",
-                    "m_flLerpStart": "300.000000"
+                    "m_bLerpStartAtCurrent": "true",
+                    "m_flLerpStart": "0.000000"
                 }
             ]
         },

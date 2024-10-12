@@ -214,7 +214,7 @@
         "m_strAbilityImage": "file://{images}/upgrades/mods_weapon/fleetfoot_boots.psd",
         "m_strCastSound": "Mods.Weapon.FleetfootBoots.Cast",
         "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_SPHERE",
-        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_DONT_BREAK_INVISIBILITY | CITADEL_ABILITY_BEHAVIOR_DONT_SWITCH_AWAY_ON_CAST | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_BUSY | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CAN_CAST_ON_ZIPLINE | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_DODGING",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_DONT_BREAK_INVISIBILITY | CITADEL_ABILITY_BEHAVIOR_DONT_SWITCH_AWAY_ON_CAST | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_BUSY | CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_MELEE_ON_CAST | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CAN_CAST_ON_ZIPLINE | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_DODGING",
         "m_FleetfootBootsModifier": {
             "_class": "modifier_base",
             "_my_subclass_name": "modifier_fleetfoot_boots",
@@ -223,7 +223,9 @@
             "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
                 "ActiveBonusMoveSpeed"
             ],
-            "m_bIsHidden": "true"
+            "m_bIsHidden": "false",
+            "m_eDrawOverheadStatus": "OVERHEAD_DRAW_FOR_EVERYONE",
+            "m_strSmallIconCssClass": "fleetfoot_boots"
         },
         "m_FleetfootBootsBonusClipModifier": {
             "_class": "modifier_fleetfoot_boots_bonus_clip",

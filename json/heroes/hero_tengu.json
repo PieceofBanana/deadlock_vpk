@@ -19,7 +19,7 @@
         "m_hRespawnParticle": "particles/generic/player_respawn_deploy.vpcf",
         "m_nModelSkin": "0",
         "m_mapStartingStats": {
-            "EMaxMoveSpeed": "7",
+            "EMaxMoveSpeed": "7.300000",
             "ESprintSpeed": "0",
             "ECrouchSpeed": "4.750000",
             "EMoveAcceleration": "4",
@@ -37,7 +37,8 @@
             "EAbilityResourceRegenPerSecond": "0",
             "ECritDamageReceivedScale": "1.000000",
             "ETechDuration": "1",
-            "ETechRange": "1"
+            "ETechRange": "1",
+            "ECritDamageBonusScale": "1.000000"
         },
         "m_flCollisionRadius": "20",
         "m_flCollisionHeight": "80",
@@ -536,7 +537,8 @@
                     "EReloadSpeed",
                     "EBulletSpeed",
                     "EBulletSpeedIncrease",
-                    "EBulletLifesteal"
+                    "EBulletLifesteal",
+                    "ECritDamageBonusScale"
                 ],
                 "m_vecOtherDisplayStats": [
                     "ELightMeleeDamage",
@@ -587,7 +589,6 @@
         "m_strTopBarImage": "file://{images}/hud/hero_portraits/tengu_hud.psd",
         "m_strRosterRemovedSound": "Ivy.VO.HeroRemove",
         "m_strRosterSelectedSound": "Ivy.VO.HeroPick",
-        "m_hGeneratedVOEventScript": "soundevents/vo/generated_vo_hero_tengu.vsndevts",
         "m_strWIPModelName": "models/heroes_staging/tengu/tengu_v2/tengu.vmdl",
         "m_strUIPortraitMap": "maps/ui/hero_prefabs/tengu.vmap",
         "m_RecommendedUpgrades": [
@@ -609,6 +610,7 @@
         "m_mapWIPAbilities": {},
         "m_flStepSoundTimeSprinting": "0.383000",
         "m_strUIShopAnimGraph": "models/heroes_staging/tengu/tengu_v2/ui_shop_tengu.vanmgrph",
-        "m_strUIShoppingMap": "maps/ui/hero_shop/tengu_shop.vmap"
+        "m_strUIShoppingMap": "maps/ui/hero_shop/tengu_shop.vmap",
+        "m_hGeneratedVOEventScript": "soundevents/vo/generated_vo_hero_tengu.vsndevts"
     }
 }

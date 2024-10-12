@@ -343,7 +343,7 @@
                 "m_strParticleStatusEffect": "",
                 "m_strScreenParticleEffect": ""
             },
-            "m_bIsHidden": "true",
+            "m_bIsHidden": "false",
             "m_vecSetAndTrackedAnimGraphParams": [
                 {
                     "m_strName": "b_KnockedDown",
@@ -352,7 +352,10 @@
                 }
             ],
             "m_LaunchParticle": "",
-            "m_RopeParticle": "particles/abilities/lash/lash_ultimate_throw_target_cable.vpcf"
+            "m_RopeParticle": "particles/abilities/lash/lash_ultimate_throw_target_cable.vpcf",
+            "m_sLocalizationName": "modifier_state_stunned",
+            "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER",
+            "m_strSmallIconCssClass": "stunned"
         },
         "m_LaunchParticle": "particles/abilities/lash/lash_death_slam_start.vpcf",
         "m_TargetPreviewParticle": "particles/ui/ui_range_finder_aoe.vpcf",

@@ -185,7 +185,7 @@
             "m_flDamageFalloffEndScale": "0.100000",
             "m_flDamageFalloffBias": "0.500000",
             "m_iBullets": "1",
-            "m_flCycleTime": "0.450000",
+            "m_flCycleTime": "0.550000",
             "m_reloadDuration": "2.350000",
             "m_iClipSize": "17",
             "m_iBurstShotCount": "1",
@@ -266,6 +266,7 @@
             "m_strLowAmmoSound": "Player.WpnLowAmmo.Shared",
             "m_bBulletShouldUseVerlet": "true",
             "m_nLowAmmoIndicatorThreshold": "4",
+            "m_flBulletDamage": "30.250000",
             "m_vecScatterOffsets": [
                 [
                     "0.000000",
@@ -355,8 +356,7 @@
                 "1.800000"
             ],
             "m_flPelletScatterSpreadFactor": "0.000000",
-            "m_strBulletImpactSound": "Orion.Wpn.Impact",
-            "m_flBulletDamage": "24.750000"
+            "m_strBulletImpactSound": "Orion.Wpn.Impact"
         },
         "_multibase": [
             "hero_weapon_base"

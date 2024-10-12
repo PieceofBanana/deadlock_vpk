@@ -48,7 +48,7 @@
             "m_flBulletReflectAmount": "1",
             "m_flBulletInheritShooterVelocityScale": "0",
             "m_szBulletTravelTracerParticle": "particles/weapon_fx/trooper/trooper_bullet_travel.vpcf",
-            "m_szMuzzleFlashEffectName": "particles/dev/bullet_debug_muzzle_flash.vpcf",
+            "m_szMuzzleFlashEffectName": "particles/weapon_fx/trooper/trooper_muzzle_flash.vpcf",
             "m_strShootSound": "TrooperRifle.Fire",
             "m_strBulletWhizSound": "Base.Bullet.Whizby",
             "m_BulletSpeedCurve": {
@@ -165,6 +165,18 @@
             "_my_subclass_name": "modifier_midboss_aggro_enemy",
             "m_nAttributes": "MODIFIER_ATTRIBUTE_IGNORE_INVULNERABLE | MODIFIER_ATTRIBUTE_CANNOT_BE_PURGED"
         },
+        "m_vecIntrinsicModifiers": [
+            {
+                "_my_subclass_name": "midboss_intrinsic",
+                "_class": "modifier_intrinsic_base",
+                "m_vecScriptValues": [
+                    {
+                        "m_eModifierValue": "MODIFIER_VALUE_HEALTH_REGEN_PER_SECOND",
+                        "m_value": "15.000000"
+                    }
+                ]
+            }
+        ],
         "m_flDyingDuration": "1.400000"
     }
 }

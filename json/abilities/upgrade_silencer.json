@@ -99,7 +99,7 @@
                 "m_strCSSClass": "cast"
             },
             "TechPower": {
-                "m_strValue": "12",
+                "m_strValue": "18",
                 "m_strDisableValue": "0",
                 "m_bCanSetTokenOverride": "true",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_POWER",
@@ -222,8 +222,11 @@
                 "_my_subclass_name": "modifier_citadel_active_silenced",
                 "m_strSmallIconCssClass": "silence_proc",
                 "m_sLocalizationName": "modifier_citadel_silenced",
-                "m_eDrawOverheadStatus": "OVERHEAD_DRAW_FOR_EVERYONE"
-            }
+                "m_eDrawOverheadStatus": "OVERHEAD_DRAW_NEVER",
+                "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER"
+            },
+            "m_eDrawOverheadStatus": "OVERHEAD_DRAW_FOR_EVERYONE",
+            "m_strSmallIconCssClass": "silencer_proc_active"
         },
         "m_vecTooltipSectionInfo": [
             {

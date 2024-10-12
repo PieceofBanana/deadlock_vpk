@@ -4,7 +4,7 @@
         "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "48.000000",
+                "m_strValue": "40.000000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -221,10 +221,13 @@
             "m_sExpiredSound": "Mods.Tech.Knockdown.Impact",
             "m_sAmbientLoopingSound": "Mods.Tech.Knockdown.Delay",
             "m_bDurationReducible": "false",
-            "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER",
+            "m_eHudDisplayLocation": "DISPLAY_HUD_LEFT",
             "m_sLocalizationName": "modifier_citadel_delayed_stun",
             "m_bReverseHudProgressBar": "true",
-            "m_nAttributes": "MODIFIER_ATTRIBUTE_MULTIPLE"
+            "m_nAttributes": "MODIFIER_ATTRIBUTE_MULTIPLE",
+            "m_eDrawOverheadStatus": "OVERHEAD_DRAW_FOR_EVERYONE",
+            "m_strSmallIconCssClass": "delayed_stun",
+            "m_bIsBuildup": "true"
         },
         "m_CastParticle": "particles/upgrades/knock_down_cast.vpcf",
         "m_strCastSound": "Mods.Tech.Knockdown.Cast",

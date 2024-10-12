@@ -4,7 +4,7 @@
         "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "26.000000",
+                "m_strValue": "22.000000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -136,12 +136,11 @@
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_SPRINT_SPEED_BONUS",
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             },
-            "BonusHealth": {
-                "m_strValue": "50",
-                "m_strCSSClass": "health",
-                "m_eDisplayType": "EMaxHealth",
-                "m_eProvidedPropertyType": "MODIFIER_VALUE_HEALTH_MAX",
-                "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
+            "BulletShieldMaxHealth": {
+                "m_strValue": "100",
+                "m_strCSSClass": "bullet_armor_up",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_BULLET_SHIELD_HEALTH_MAX",
+                "m_eDisplayType": "EBulletShieldHealth"
             }
         },
         "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
@@ -221,8 +220,8 @@
                 "m_vecSectionAttributes": [
                     {
                         "m_vecAbilityProperties": [
+                            "BulletShieldMaxHealth",
                             "SpiritPower",
-                            "BonusHealth",
                             "BonusSprintSpeed"
                         ]
                     }
@@ -255,26 +254,27 @@
             "_class": "modifier_base",
             "_my_subclass_name": "modifier_withering_whip_debuff",
             "m_sLocalizationName": "modifier_withering_whip_debuff",
-            "m_bIsHidden": "true",
+            "m_bIsHidden": "false",
             "m_nAttributes": "MODIFIER_ATTRIBUTE_MULTIPLE",
             "m_bKeepMaximumDurationOnRefresh": "true",
-            "m_strSmallIconCssClass": "bullet_armor_reduction",
+            "m_strSmallIconCssClass": "withering_whip",
             "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
                 "FireRateSlow",
                 "BulletArmorReduction"
             ],
             "m_strParticleEffect": "particles/items/withering_whip.vpcf",
-            "m_strParticleStatusEffect": ""
+            "m_strParticleStatusEffect": "",
+            "m_eDrawOverheadStatus": "OVERHEAD_DRAW_FOR_EVERYONE"
         },
         "m_AutoIntrinsicModifiers": [
             {
-                "_my_subclass_name": "modifier_intrinsic_base",
-                "_class": "modifier_intrinsic_base",
+                "_my_subclass_name": "modifier_regenerating_bullet_shield",
+                "_class": "modifier_regenerating_bullet_shield",
                 "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
                     "SpiritPower",
-                    "BonusHealth",
                     "BonusSprintSpeed"
-                ]
+                ],
+                "m_bIsHidden": "true"
             }
         ],
         "m_eShopFilters": "EShopFilterDisruption | EShopFilterMagicDamage",

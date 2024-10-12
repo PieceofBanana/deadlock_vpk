@@ -9,6 +9,7 @@
 		<Panel class="buttonRow">
 			<Label id="button_1_label" class="action_label button_label" text="{s:button1}" html="true" />
 			<Label id="slash" class="action_label" text="/" />
+			<Label id="plus" class="action_label" text="+" />
 			<Label id="button_2_label" class="action_label button_label" text="{s:button2}" html="true" />
 			<Image id="AbilityImage" />
 			<Label id="context_label" class="action_label" html="true" text="&lt;empty&gt;" />

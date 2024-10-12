@@ -93,7 +93,8 @@
                 "m_strValue": "4m",
                 "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond",
                 "m_strCSSClass": "move_speed",
-                "m_bCanSetTokenOverride": "true"
+                "m_bCanSetTokenOverride": "true",
+                "m_strLocTokenOverride": "DanceMoveSpeed"
             },
             "AbilityResourceCost": {
                 "m_strValue": "0",
@@ -123,25 +124,21 @@
                 }
             },
             "TargetsPerTick": {
-                "m_strValue": "1",
+                "m_strValue": "2",
                 "m_strCSSClass": "radius"
             },
-            "BonusFireRate": {
-                "m_strValue": "15",
-                "m_strCSSClass": "fire_rate",
-                "m_eProvidedPropertyType": "MODIFIER_VALUE_FIRE_RATE",
-                "m_UsageFlags": "APUsageFlag_ModifierConditional"
-            },
             "WeaponDamageBonus": {
+                "m_strLocTokenOverride": "BonusWeaponDamage",
                 "m_strValue": "2",
                 "m_strCSSClass": "bullet_damage",
+                "m_eStatType": "EBulletDamage",
                 "m_eDisplayUnits": "EDisplayUnit_Normal",
                 "m_eDisplayType": "EBaseWeaponDamageIncrease",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_ATTACK_DAMAGE_ADDITIVE_ONLY",
                 "m_UsageFlags": "APUsageFlag_ModifierConditional"
             },
             "EvasionPercent": {
-                "m_strValue": "25"
+                "m_strValue": "0"
             },
             "OverrideBulletRadius": {
                 "m_strValue": "10"
@@ -227,8 +224,12 @@
             {
                 "m_vecPropertyUpgrades": [
                     {
-                        "m_strPropertyName": "TargetsPerTick",
-                        "m_strBonus": "1"
+                        "m_strPropertyName": "EvasionPercent",
+                        "m_strBonus": "40"
+                    },
+                    {
+                        "m_strPropertyName": "ChannelMoveSpeed",
+                        "m_strBonus": "2m"
                     }
                 ]
             }
@@ -248,8 +249,7 @@
             "m_ImpactParticle": "particles/abilities/mirage/mirage_sand_phantom_whirlwind_evasion.vpcf",
             "m_strAttackerHitSound": "Ability.BulletEvade",
             "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
-                "WeaponDamageBonus",
-                "BonusFireRate"
+                "WeaponDamageBonus"
             ]
         },
         "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/ability_haze_bullet_flurry.webm",
@@ -306,17 +306,17 @@
                         {
                             "m_vecAbilityProperties": [
                                 {
-                                    "m_strImportantProperty": "BonusFireRate"
+                                    "m_strImportantProperty": "TargetsPerTick"
                                 },
                                 {
-                                    "m_strImportantProperty": "TargetsPerTick"
+                                    "m_strImportantProperty": "WeaponDamageBonus"
                                 }
                             ]
                         }
                     ],
                     "m_vecBasicProperties": [
-                        "WeaponDamageBonus",
-                        "EvasionPercent"
+                        "EvasionPercent",
+                        "ChannelMoveSpeed"
                     ]
                 }
             ]
