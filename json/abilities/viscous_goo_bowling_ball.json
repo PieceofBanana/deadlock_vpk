@@ -179,7 +179,7 @@
                 "m_strValue": "400"
             },
             "TechResist": {
-                "m_strValue": "70",
+                "m_strValue": "60",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST",
                 "m_UsageFlags": "APUsageFlag_ModifierConditional"
             },
@@ -299,16 +299,15 @@
             "m_vecButtonHints": [
                 {
                     "m_strContext": "viscous_rolling_hint",
-                    "m_eButton1": "EButtonHint_Attack",
                     "m_eHintSide": "EButtonSide_Right",
                     "m_strLocToken": "#AbilityButtonHint_RollingGooAccelerate",
-                    "m_strBindingOverride1": "in_attack"
+                    "m_nButton1": "IN_ATTACK"
                 },
                 {
                     "m_strContext": "viscous_rolling_jump",
-                    "m_eButton1": "EButtonHint_JumpKey",
                     "m_eHintSide": "EButtonSide_Right",
-                    "m_strLocToken": "#AbilityButtonHint_RollingGooJump"
+                    "m_strLocToken": "#AbilityButtonHint_RollingGooJump",
+                    "m_nButton1": "IN_MANTLE"
                 }
             ]
         },

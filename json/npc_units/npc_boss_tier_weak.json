@@ -81,6 +81,7 @@
         "m_strWIPModelName": "models/npc/boss_tier_02_sun_walker/boss_tier_02_sun_walker.vmdl",
         "m_sTeam1MaterialGroupName": "Amber",
         "m_sTeam2MaterialGroupName": "Sapphire",
+        "m_flBackDoorProtectionRange": "2750.000000",
         "m_BackdoorProtectionModifier": {
             "_class": "modifier_citadel_backdoor_protection",
             "_my_subclass_name": "tier2_backdoor_protection",

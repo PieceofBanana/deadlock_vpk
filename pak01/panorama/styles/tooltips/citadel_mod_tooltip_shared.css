@@ -113,6 +113,12 @@
 	wash-color: #D1ACFF;
 }
 
+.StatusEffectPetrify .ImportantStatImage,.StatusEffectPetrify #StatusEffectIcon
+{
+	background-image: url("s2r://panorama/images/hud/modifiers/icon_petrify_psd.vtex");
+	wash-color: #ddd9cc;
+}
+
 .prop_healing .ImportantStatImage
 {
 	background-image: url("s2r://panorama/images/upgrades/property_health_regen_psd.vtex");

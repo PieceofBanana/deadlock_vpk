@@ -198,7 +198,7 @@
                 }
             },
             "SlowPercent": {
-                "m_strValue": "35",
+                "m_strValue": "30",
                 "m_strCSSClass": "slow",
                 "m_UsageFlags": "APUsageFlag_ModifierConditional",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT"
@@ -514,8 +514,8 @@
                 {
                     "m_strLocToken": "#AbilityButtonHint_DragonsFireSpeedUp",
                     "m_eHintSide": "EButtonSide_Right",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_strContext": "flying"
+                    "m_strContext": "flying",
+                    "m_nButton1": "IN_ATTACK"
                 },
                 {
                     "m_strLocToken": "#AbilityButtonHint_DropTarget",
@@ -528,24 +528,13 @@
                     "m_eHintSide": "EButtonSide_Right",
                     "m_strBindingOverride1": "+attack2",
                     "m_strContext": "bomb"
-                },
-                {
-                    "m_eButton1": "EButtonHint_JumpKey",
-                    "m_strLocToken": "#AbilityButtonHint_MoveUp",
-                    "m_eHintSide": "EButtonSide_Right",
-                    "m_strContext": "flying"
-                },
-                {
-                    "m_eButton1": "EButtonHint_CrouchKey",
-                    "m_strLocToken": "#AbilityButtonHint_MoveDown",
-                    "m_eHintSide": "EButtonSide_Right",
-                    "m_strContext": "flying"
                 }
             ]
         },
         "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/tengu_airlift.webm",
         "m_strCastSound": "Ability.Hornet.Leap.Cast",
         "m_strCastButtonLocToken": "#AbilityButtonHint_CastOnTarget",
-        "m_strAltCastButtonLocToken": "#AbilityButtonHint_CastOnSelf"
+        "m_strAltCastButtonLocToken": "#AbilityButtonHint_CastOnSelf",
+        "m_bUsesFlightControls": "true"
     }
 }

@@ -118,11 +118,11 @@
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             },
-            "ReloadSpeedMultipler": {
-                "m_strValue": "-20",
-                "m_eProvidedPropertyType": "MODIFIER_VALUE_RELOAD_SPEED",
-                "m_UsageFlags": "APUsageFlag_ModifierIntrinsic",
-                "m_bIsNegativeAttribute": "false"
+            "BonusClipSizePercent": {
+                "m_strValue": "18",
+                "m_eDisplayType": "EClipSizeIncrease",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_AMMO_CLIP_SIZE_PERCENT",
+                "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             },
             "BulletLifestealPercent": {
                 "m_strValue": "20",
@@ -210,7 +210,7 @@
                         "m_vecElevatedAbilityProperties": [],
                         "m_vecAbilityProperties": [
                             "BaseAttackDamagePercent",
-                            "ReloadSpeedMultipler"
+                            "BonusClipSizePercent"
                         ],
                         "m_strLocString": ""
                     }
@@ -243,7 +243,7 @@
                 "_class": "modifier_intrinsic_base",
                 "_my_subclass_name": "modifier_intrinsic_base",
                 "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
-                    "ReloadSpeedMultipler",
+                    "BonusClipSizePercent",
                     "BaseAttackDamagePercent"
                 ],
                 "m_nEnabledStateMask": ""

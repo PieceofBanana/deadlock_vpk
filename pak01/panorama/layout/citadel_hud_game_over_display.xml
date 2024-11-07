@@ -6,8 +6,7 @@
 	</styles>
 	<CitadelGameOverDisplay hittest="false">
 		<Panel class="MessageContents">
-			<Label class="TeamName h2 display uppercase" text="{s:team_name}" html="true" />
-			<Label class="OutcomeLabel h1 display" text="{s:outcome_label}" />
+			<Label class="OutcomeLabel" text="#Citadel_MatchDetails_Team_Result" html="true" />
 		</Panel>
 	</CitadelGameOverDisplay>
 </root>

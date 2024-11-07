@@ -67,15 +67,15 @@ CitadelShopModsBuildCategory #BuildCategoryHeaderEdit
 	visibility: collapse;
 }
 
-CitadelShopModsBuildCategory #BuildCategoryHeaderEdit #DragHandle
+CitadelShopModsBuildCategory #BuildCategoryHeaderEdit #CategoryDragHandle
 {
+	margin-top: 5px;
 	width: 30px;
 	height: 30px;
 	background-image: url("s2r://panorama/images/control_icons/move_png.vtex");
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
-	visibility: collapse;
 }
 
 CitadelShopModsBuildCategory #BuildCategoryHeaderEdit .CategoryName

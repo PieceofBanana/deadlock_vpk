@@ -120,6 +120,9 @@
             "ReturnSpeed": {
                 "m_strValue": "2200"
             },
+            "ReturnSpeedNonPlayer": {
+                "m_strValue": "3850"
+            },
             "ReturnDelay": {
                 "m_strValue": "0.5"
             },
@@ -336,10 +339,10 @@
             ],
             "m_vecButtonHints": [
                 {
-                    "m_eButton1": "EButtonHint_AbilityKey",
                     "m_strLocToken": "#ability_abort_cast",
                     "m_eHintSide": "EButtonSide_Right",
-                    "m_strContext": "abort"
+                    "m_strContext": "abort",
+                    "m_bButton1IsSlot": "true"
                 }
             ]
         },

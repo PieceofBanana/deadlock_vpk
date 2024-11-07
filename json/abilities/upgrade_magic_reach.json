@@ -111,21 +111,21 @@
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
             },
             "TechRangeMultiplier": {
-                "m_strValue": "18",
+                "m_strValue": "15",
                 "m_strCSSClass": "distance",
                 "m_eDisplayType": "ETechRange",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_RANGE_PERCENT",
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             },
             "TechRadiusMultiplier": {
-                "m_strValue": "16",
+                "m_strValue": "15",
                 "m_strCSSClass": "distance",
                 "m_eDisplayType": "ETechRadius",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_RADIUS_PERCENT",
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             },
             "BulletResist": {
-                "m_strValue": "6",
+                "m_strValue": "7",
                 "m_eDisplayType": "EBulletArmorDamageReduction",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"

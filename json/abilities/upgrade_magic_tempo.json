@@ -123,6 +123,12 @@
                 "m_eDisplayType": "EBaseHealthRegen",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_HEALTH_REGEN_PER_SECOND",
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
+            },
+            "TechShieldMaxHealth": {
+                "m_strValue": "75",
+                "m_strCSSClass": "tech_armor_up",
+                "m_eDisplayType": "ETechShieldHealth",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_SHIELD_HEALTH_MAX"
             }
         },
         "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
@@ -190,6 +196,7 @@
                     {
                         "m_strLocString": "#upgrade_magic_tempo_desc",
                         "m_vecAbilityProperties": [
+                            "TechShieldMaxHealth",
                             "BonusHealthRegen"
                         ],
                         "m_vecElevatedAbilityProperties": [
@@ -201,12 +208,13 @@
         ],
         "m_AutoIntrinsicModifiers": [
             {
-                "_class": "modifier_intrinsic_base",
+                "_class": "modifier_regenerating_tech_shield",
                 "_my_subclass_name": "intrinsic",
                 "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
                     "CooldownReduction",
                     "BonusHealthRegen"
-                ]
+                ],
+                "m_bIsHidden": "true"
             }
         ],
         "m_eShopFilters": "EShopFilterHealing"

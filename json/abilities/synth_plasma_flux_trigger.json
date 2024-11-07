@@ -165,11 +165,11 @@
         "m_HUDPanel": {
             "m_vecButtonHints": [
                 {
-                    "m_eButton1": "EButtonHint_AbilityKey",
                     "m_strBindingOverride1": "in_ability2",
                     "m_strLocToken": "#synth_plasma_flux_teleport",
                     "m_eHintSide": "EButtonSide_Right",
-                    "m_strContext": "trigger"
+                    "m_strContext": "trigger",
+                    "m_bButton1IsSlot": "true"
                 }
             ]
         },

@@ -166,11 +166,11 @@
         "m_HUDPanel": {
             "m_vecButtonHints": [
                 {
-                    "m_eButton1": "EButtonHint_AbilityKey",
                     "m_strBindingOverride1": "in_ability2",
                     "m_strLocToken": "#citadel_ability_tangotether_lock",
                     "m_eHintSide": "EButtonSide_Right",
-                    "m_strContext": "target_lock"
+                    "m_strContext": "target_lock",
+                    "m_bButton1IsSlot": "true"
                 }
             ]
         },

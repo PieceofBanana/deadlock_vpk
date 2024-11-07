@@ -111,7 +111,7 @@
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
             },
             "BonusAbilityDurationPercent": {
-                "m_strValue": "16",
+                "m_strValue": "14",
                 "m_strCSSClass": "duration",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_BONUS_ABILITY_DURATION_PERCENTAGE",
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
@@ -128,6 +128,14 @@
                 "m_strCSSClass": "healing",
                 "m_eDisplayType": "EBaseHealthRegen",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_HEALTH_REGEN_PER_SECOND",
+                "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
+            },
+            "BaseAttackDamagePercent": {
+                "m_strValue": "8",
+                "m_strCSSClass": "bullet_damage",
+                "m_eDisplayUnits": "EDisplayUnit_Normal",
+                "m_eDisplayType": "EBaseWeaponDamageIncrease",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             }
         },
@@ -196,6 +204,7 @@
                     {
                         "m_strLocString": "#upgrade_arcane_extension_desc",
                         "m_vecAbilityProperties": [
+                            "BaseAttackDamagePercent",
                             "BonusHealth",
                             "BonusHealthRegen"
                         ],
@@ -212,6 +221,7 @@
                 "_class": "modifier_intrinsic_base",
                 "_my_subclass_name": "intrinsic",
                 "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
+                    "BaseAttackDamagePercent",
                     "BonusAbilityDurationPercent",
                     "BonusHealth",
                     "BonusHealthRegen"

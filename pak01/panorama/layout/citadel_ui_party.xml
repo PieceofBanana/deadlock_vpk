@@ -16,7 +16,7 @@
 						<Panel id="MemberRow">
 							<Panel id="MemberList" />
 							<Panel id="InviteButton" onactivate="CitadelPartyInviteUsers()" onmouseover="UIShowTextTooltip( #Citadel_Party_InviteFriends ); CitadelPlayUISound( EMainMenuHover )" onmouseout="UIHideTextTooltip()" />
-							<Panel class="HighSkillRangeAlert" onmouseover="UIShowTextTooltip( #MyRosterPartyHighSkillRange ); CitadelPlayUISound( EMainMenuHover )" onmouseout="UIHideTextTooltip()" />
+							<Panel class="HighSkillRangeAlert" onmouseover="UIShowTextTooltip( #MyRosterPartyHighSkillRangeNew ); CitadelPlayUISound( EMainMenuHover )" onmouseout="UIHideTextTooltip()" />
 						</Panel>
 						<CitadelPartyCode id="PartyCodeGroup" class="HideLabel" />
 					</Panel>

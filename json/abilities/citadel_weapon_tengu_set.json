@@ -290,7 +290,7 @@
                 "0.000000"
             ],
             "m_strBulletImpactSound": "Tengu.Wpn.Impact",
-            "m_flBulletDamage": "4.500000"
+            "m_flBulletDamage": "5"
         },
         "_multibase": [
             "hero_weapon_base"

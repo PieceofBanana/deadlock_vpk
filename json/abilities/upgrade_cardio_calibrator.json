@@ -117,7 +117,7 @@
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             },
             "SlowResistancePercent": {
-                "m_strValue": "35",
+                "m_strValue": "30",
                 "m_strCSSClass": "move_speed",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_MOVEMENT_SLOW_RESISTANCE",
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"

@@ -78,12 +78,6 @@
 				"LocString"		"#citadel_keybind_crouch"
 			}
 						
-			"Teleport"
-			{
-				"Action"		"+in_teleport"
-				"LocString"		"#citadel_keybind_teleport_to_objective"
-			}
-
 			"OpenHeroSheet"
 			{
 				"Action"		"citadel_open_hero_sheet"
@@ -181,6 +175,12 @@
 				"LocString"		"#citadel_keybind_ads"
 			}
 			
+			"ResetCamera"
+			{
+				"Action"		"reset_camera"
+				"LocString"		"#citadel_keybind_reset_camera"
+			}
+
 			"Chat"
 			{
 				"Action"		"say_chat"
@@ -527,6 +527,22 @@
 				"LocString"		"#citadel_keybind_cancel_ability"
 			}
 		}
+
+		"VerticalMovement"
+		{
+			"MoveUp"
+			{
+				"Action"		"+in_move_up"
+				"AllowDuplicateBind" "1"
+				"LocString"		"#citadel_keybind_up"
+			}
+			"MoveDown"
+			{
+				"Action"		"+in_move_down"
+				"AllowDuplicateBind" "1"
+				"LocString"		"#citadel_keybind_down"
+			}
+		}
 	}
 
 	"Templates"
@@ -596,6 +612,16 @@
 				{
 					"Key"		"CTRL"
 				}
+
+				"MoveUp"
+				{
+					"Key"		"SHIFT"
+				}
+				
+				"MoveDown"
+				{
+					"Key"		"CTRL"
+				}
 				
 				"PushToTalk"
 				{
@@ -660,6 +686,11 @@
 				"ADS"
 				{
 					"Key"		"MOUSE2"
+				}
+
+				"ResetCamera"
+				{
+					"Key"		"NONE"
 				}
 				
 				"Chat"
@@ -901,11 +932,6 @@
 				"Zipline"
 				{
 					"Key"		"SPACE"
-				}
-
-				"Teleport"
-				{
-					"Key"		"G"
 				}
 
 				"CancelAbility"

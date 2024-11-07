@@ -205,6 +205,12 @@ AbilityPropertyPanel
 	height: 20px;
 }
 
+.PropertiesBlockHeaderLabel .diminish
+{
+	font-style: italic;
+	color: #bfbbb050;
+}
+
 .ImbuedLabel
 {
 	font-size: 16px;

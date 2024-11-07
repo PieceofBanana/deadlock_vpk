@@ -209,7 +209,7 @@
         "m_projectileInfo": {
             "m_flTriggerRadius": "15",
             "m_bHideWarningParticle": "1",
-            "m_flSpeed": "1200",
+            "m_flSpeed": "1560",
             "m_particle": "particles/items/withering_whip_projectile.vpcf",
             "m_HitSound": "Mods.Tech.TargetDisarm.Hit",
             "m_LoopingSound": "Mods.Weapon.TargetedSilence.Projectile.Lp"

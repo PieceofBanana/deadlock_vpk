@@ -4,7 +4,7 @@
         "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "5.250000",
+                "m_strValue": "5.750000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -256,7 +256,10 @@
                 "m_bShouldApplyAbilityCooldown": "true",
                 "m_TracerAdditionParticle": "particles/items/crackshot_tracer.vpcf",
                 "m_bRequiresTargetFilter": "true",
-                "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY"
+                "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
+                "m_sStartSound": "",
+                "m_OnBulletRolledProcSound": "Mods.Tech.MysticShot.Proc",
+                "m_bCanBeEvaded": "false"
             },
             {
                 "_my_subclass_name": "crackshot_stats",
@@ -265,7 +268,8 @@
                 "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
                     "BaseAttackDamagePercent",
                     "SpiritPower"
-                ]
+                ],
+                "m_sStartSound": ""
             }
         ],
         "m_eShopFilters": "EShopFilterWeaponDamage | EShopFilterMagicDamage"

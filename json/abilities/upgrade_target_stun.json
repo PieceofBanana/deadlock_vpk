@@ -217,7 +217,7 @@
             "_class": "modifier_citadel_delayed_stun",
             "_my_subclass_name": "modifier_citadel_delayed_stun",
             "m_HitParticle": "particles/upgrades/knockdown_hit.vpcf",
-            "m_strParticleStatusEffect": "particles/upgrades/knock_down_debuff_counter.vpcf",
+            "m_strParticleStatusEffect": "",
             "m_sExpiredSound": "Mods.Tech.Knockdown.Impact",
             "m_sAmbientLoopingSound": "Mods.Tech.Knockdown.Delay",
             "m_bDurationReducible": "false",
@@ -227,7 +227,8 @@
             "m_nAttributes": "MODIFIER_ATTRIBUTE_MULTIPLE",
             "m_eDrawOverheadStatus": "OVERHEAD_DRAW_FOR_EVERYONE",
             "m_strSmallIconCssClass": "delayed_stun",
-            "m_bIsBuildup": "true"
+            "m_bIsBuildup": "true",
+            "m_strParticleEffect": "particles/upgrades/knock_down_debuff_counter.vpcf"
         },
         "m_CastParticle": "particles/upgrades/knock_down_cast.vpcf",
         "m_strCastSound": "Mods.Tech.Knockdown.Cast",

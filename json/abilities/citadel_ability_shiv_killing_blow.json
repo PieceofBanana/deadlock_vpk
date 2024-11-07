@@ -26,7 +26,7 @@
                 }
             },
             "AbilityCastRange": {
-                "m_strValue": "20m",
+                "m_strValue": "14m",
                 "m_eDisplayUnits": "EDisplayUnit_Meters",
                 "m_strCSSClass": "range",
                 "m_bCanSetTokenOverride": "true",
@@ -115,7 +115,7 @@
                 "m_strCSSClass": "duration"
             },
             "RagePerWeaponDamage": {
-                "m_strValue": "0.015"
+                "m_strValue": "0.017"
             },
             "RagePerSpiritDamage": {
                 "m_strValue": "0.013"
@@ -124,13 +124,13 @@
                 "m_strValue": "1.5"
             },
             "RagePerHeavyMelee": {
-                "m_strValue": "3.5"
+                "m_strValue": "2.75"
             },
             "BonusAbilityResource": {
                 "m_strValue": "10"
             },
             "NonPlayerRageScale": {
-                "m_strValue": "0.2"
+                "m_strValue": "0.1"
             },
             "BonusMoveSpeed": {
                 "m_strValue": "0",
@@ -146,7 +146,7 @@
                 "m_UsageFlags": "APUsageFlag_ModifierConditional"
             },
             "RageDrainDelayDuration": {
-                "m_strValue": "12",
+                "m_strValue": "9",
                 "m_strCSSClass": "cooldown",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",

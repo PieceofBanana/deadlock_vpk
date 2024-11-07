@@ -117,17 +117,11 @@
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_HEALTH_MAX",
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             },
-            "TechResist": {
+            "BulletResist": {
                 "m_strValue": "15",
-                "m_eDisplayType": "ETechArmorDamageReduction",
-                "m_strCSSClass": "tech_armor_up",
-                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST",
-                "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
-            },
-            "BonusMoveSpeed": {
-                "m_strValue": "1m",
-                "m_strCSSClass": "move_speed",
-                "m_eProvidedPropertyType": "MODIFIER_VALUE_MOVEMENT_SPEED_MAX",
+                "m_eDisplayType": "EBulletArmorDamageReduction",
+                "m_strCSSClass": "bullet_armor_up",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             },
             "SpiritPower": {
@@ -208,7 +202,7 @@
             "m_ShieldParticle": "particles/upgrades/unstoppable_buff.vpcf",
             "m_PlayerShieldParticle": "particles/upgrades/unstoppable_buff_player.vpcf",
             "m_strParticleStatusEffect": "particles/status_fx/status_fx_unstoppable.vpcf",
-            "m_nStatusEffectPriority": "25",
+            "m_nStatusEffectPriority": "20",
             "m_bIsHiddenOverhead": "false",
             "m_sLocalizationName": "modifier_unstoppable",
             "m_nDisabledStateMask": "MODIFIER_STATE_DISARMED | MODIFIER_STATE_MUTED | MODIFIER_STATE_SILENCED | MODIFIER_STATE_SILENCE_MOVEMENT_ABILITES | MODIFIER_STATE_SLOWED | MODIFIER_STATE_GLITCHED | MODIFIER_STATE_MELEE_DISABLED_DEBUFF | MODIFIER_STATE_DASH_DISABLED_DEBUFF",
@@ -221,8 +215,7 @@
                     {
                         "m_vecAbilityProperties": [
                             "BonusHealth",
-                            "TechResist",
-                            "BonusMoveSpeed",
+                            "BulletResist",
                             "SpiritPower"
                         ]
                     }
@@ -252,8 +245,7 @@
                 "m_bIsHidden": "true",
                 "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
                     "BonusHealth",
-                    "TechResist",
-                    "BonusMoveSpeed",
+                    "BulletResist",
                     "SpiritPower"
                 ]
             }

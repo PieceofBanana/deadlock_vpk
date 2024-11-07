@@ -137,7 +137,7 @@
                 }
             },
             "BonusFireRate": {
-                "m_strValue": "20",
+                "m_strValue": "30",
                 "m_strCSSClass": "fireRate",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_FIRE_RATE",
                 "m_UsageFlags": "APUsageFlag_ModifierConditional"
@@ -148,6 +148,15 @@
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",
                     "_my_subclass_name": "FireRateMaxDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            },
+            "ImmunityDuration": {
+                "m_strValue": "0",
+                "m_strCSSClass": "duration",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "ImmunityDuration_scale_function",
                     "m_eSpecificStatScaleType": "ETechDuration"
                 }
             }
@@ -226,15 +235,15 @@
                 "m_vecPropertyUpgrades": [
                     {
                         "m_strPropertyName": "AbilityCooldown",
-                        "m_strBonus": "-30.000000"
+                        "m_strBonus": "-40.000000"
                     }
                 ]
             },
             {
                 "m_vecPropertyUpgrades": [
                     {
-                        "m_strPropertyName": "BonusFireRate",
-                        "m_strBonus": "30"
+                        "m_strPropertyName": "ImmunityDuration",
+                        "m_strBonus": "3"
                     }
                 ]
             }
@@ -259,6 +268,25 @@
             ],
             "m_strHudMessageText": "#mirage_teleport_movespeed",
             "m_strParticleEffect": "particles/abilities/mirage/mirage_teleport_buff.vpcf"
+        },
+        "m_ImmunityModifier": {
+            "_class": "modifier_unstoppable",
+            "_my_subclass_name": "modifier_unstoppable",
+            "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER",
+            "m_sAmbientLoopingSound": "Mods.Armor.TechDefender.Lp",
+            "m_sStartSound": "Mods.Armor.TechDefender.Cast",
+            "m_sExpiredSound": "Mods.Armor.TechDefender.End",
+            "m_nEnabledStateMask": "MODIFIER_STATE_STATUS_IMMUNE | MODIFIER_STATE_SLOW_IMMUNE | MODIFIER_STATE_KNOCKDOWN_IMMUNE | MODIFIER_STATE_UNSTOPPABLE",
+            "m_ShieldParticle": "particles/abilities/abrams/abrams_leap_immunity_buff.vpcf",
+            "m_PlayerShieldParticle": "particles/abilities/abrams/abrams_leap_immunity_buff.vpcf",
+            "m_strParticleStatusEffect": "particles/status_fx/status_fx_unstoppable.vpcf",
+            "m_nStatusEffectPriority": "25",
+            "m_bIsHiddenOverhead": "true",
+            "m_sLocalizationName": "modifier_unstoppable",
+            "m_bIsHidden": "false",
+            "m_strHudMessageText": "#modifier_unstoppable",
+            "m_nDisabledStateMask": "MODIFIER_STATE_DISARMED | MODIFIER_STATE_MUTED | MODIFIER_STATE_SILENCED | MODIFIER_STATE_SILENCE_MOVEMENT_ABILITES | MODIFIER_STATE_SLOWED | MODIFIER_STATE_GLITCHED | MODIFIER_STATE_MELEE_DISABLED_DEBUFF | MODIFIER_STATE_DASH_DISABLED_DEBUFF",
+            "m_strSmallIconCssClass": "unstoppable"
         },
         "m_FireRateModifier": {
             "_class": "modifier_mirage_traveler_fire_rate",

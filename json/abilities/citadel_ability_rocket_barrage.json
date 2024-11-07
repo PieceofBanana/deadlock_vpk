@@ -4,7 +4,7 @@
         "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "106.000000",
+                "m_strValue": "140.000000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -160,7 +160,7 @@
                 "m_strValue": "0.40"
             },
             "MinDistance": {
-                "m_strValue": "6m",
+                "m_strValue": "7m",
                 "m_strCSSClass": "distance",
                 "m_eDisplayType": "ETechRange"
             },
@@ -269,7 +269,7 @@
                 "m_vecPropertyUpgrades": [
                     {
                         "m_strPropertyName": "MoveSlowPercent",
-                        "m_strBonus": "35"
+                        "m_strBonus": "30"
                     },
                     {
                         "m_strPropertyName": "MoveSlowDuration",
@@ -281,7 +281,7 @@
                 "m_vecPropertyUpgrades": [
                     {
                         "m_strPropertyName": "AbilityCooldown",
-                        "m_strBonus": "-47.000000"
+                        "m_strBonus": "-50.000000"
                     }
                 ]
             },

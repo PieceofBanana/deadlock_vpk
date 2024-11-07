@@ -1,0 +1,419 @@
+{
+    "ability_viper_debuffdagger": {
+        "_class": "ability_viper_debuffdagger",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
+        "m_mapAbilityProperties": {
+            "AbilityCooldown": {
+                "m_strValue": "10",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldown_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldown"
+                }
+            },
+            "AbilityDuration": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "duration",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            },
+            "AbilityCastRange": {
+                "m_strValue": "0",
+                "m_eDisplayUnits": "EDisplayUnit_Meters",
+                "m_strCSSClass": "range",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCastRange_scale_function",
+                    "m_eSpecificStatScaleType": "ETechRange"
+                }
+            },
+            "AbilityUnitTargetLimit": {
+                "m_strValue": "1",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityCastDelay": {
+                "m_strValue": ".15",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityChannelTime": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_multi_stats",
+                    "_my_subclass_name": "scale_duration",
+                    "m_vecScalingStats": [
+                        "EChannelDuration",
+                        "ETechDuration"
+                    ]
+                }
+            },
+            "AbilityPostCastDuration": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0"
+            },
+            "AbilityCharges": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCharges_scale_function",
+                    "m_eSpecificStatScaleType": "EMaxChargesIncrease"
+                }
+            },
+            "AbilityCooldownBetweenCharge": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "charge_cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldownBetweenCharge_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldownBetweenChargeUses"
+                }
+            },
+            "ChannelMoveSpeed": {
+                "m_strValue": "50",
+                "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond",
+                "m_strCSSClass": "move_speed",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityResourceCost": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_strCSSClass": "cast"
+            },
+            "TechPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_POWER"
+            },
+            "WeaponPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
+            },
+            "Damage": {
+                "m_strValue": "50",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_tech_damage",
+                    "_my_subclass_name": "viper_outgoing_sf",
+                    "m_flStatScale": "0.800000"
+                },
+                "m_eDisplayType": "EStatsCount",
+                "m_strCSSClass": "tech_damage"
+            },
+            "SlowDuration": {
+                "m_strValue": "1",
+                "m_strCSSClass": "duration",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_tech_duration",
+                    "_my_subclass_name": "viper_slow_sf"
+                }
+            },
+            "SlowPercent": {
+                "m_strValue": "50"
+            },
+            "StaminaReduction": {
+                "m_strValue": "0"
+            }
+        },
+        "m_bitsPostCastEnabledStateMask": "",
+        "_editor": {
+            "folder_name": "Hero Viper"
+        },
+        "m_WeaponInfo": {
+            "m_BulletSpeedCurve": {
+                "m_spline": [
+                    {
+                        "x": "0.000000",
+                        "y": "3500.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    },
+                    {
+                        "x": "100.000000",
+                        "y": "3500.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    }
+                ],
+                "m_tangents": [
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    },
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    }
+                ],
+                "m_vDomainMins": [
+                    "0.000000",
+                    "0.000000"
+                ],
+                "m_vDomainMaxs": [
+                    "100.000000",
+                    "3500.000000"
+                ]
+            },
+            "m_flExplosionDamageScaleAtMaxRadius": "0.300000",
+            "m_flIntraBurstCycleTime": "0.000000",
+            "m_bCanCrit": "true",
+            "m_flCritBonusStartRange": "0.000000",
+            "m_flCritBonusEndRange": "0.000000",
+            "m_flCritBonusStart": "1.000000",
+            "m_flCritBonusEnd": "1.000000",
+            "m_flCritBonusAgainstNPCs": "0.200000",
+            "m_bSpinsUp": "false",
+            "m_flMaxSpinCycleTime": "-1.000000",
+            "m_flSpinIncreaseRate": "0.000000",
+            "m_flSpinDecayRate": "0.000000",
+            "m_flBuildUpRate": "-1.000000",
+            "m_bIsSemiAuto": "false",
+            "m_flSemiAutoCycleRate": "-1.000000",
+            "m_flBulletSpeedRandomFactor": "0.000000",
+            "m_flBulletGravityScale": "0.200000",
+            "m_flBulletRadius": "23.000000",
+            "m_flBulletRadiusVsWorld": "5.000000",
+            "m_flBulletLifetime": "2.000000",
+            "m_flVerticalAimBias": "0.000000",
+            "m_flBulletInheritShooterVelocityScale": "0.000000",
+            "m_bCanZoom": "true",
+            "m_flZoomFOV": "70.000000",
+            "m_flZoomMoveSpeedPercent": "0.700000",
+            "m_flShootMoveSpeedPercent": "0.700000",
+            "m_flReloadMoveSpeedPercent": "1.000000",
+            "m_StandingSpread": "0.800000",
+            "m_Spread": "0.500000",
+            "m_AimingShootSpreadPenalty": "0.000000",
+            "m_StandingShootSpreadPenalty": "0.000000",
+            "m_flScatterYawScale": "1.000000",
+            "m_flShootSpreadPenaltyPerShot": "0.000000",
+            "m_flShootSpreadPenaltyDecayDelay": "-1.000000",
+            "m_flShootSpreadPenaltyDecay": "1.000000",
+            "m_flSpreadPenaltyDecay": "3.000000",
+            "m_flShootingUpSpreadPenalty": "0.000000",
+            "m_flAutoReplenishClip": "0.000000",
+            "m_NpcAimingSpread": "0.000000",
+            "m_vecScatterOffsets": [],
+            "m_flPelletScatterFactor": "1.000000",
+            "m_flPelletScatterSpreadFactor": "0.500000",
+            "m_bApplySpreadToFirstPellet": "false",
+            "m_flVerticalPunch": "1.000000",
+            "m_flHorizontalPunch": "0.500000",
+            "m_HorizontalRecoil": {
+                "m_Range": "0.000000",
+                "m_flBurstSlope": "0.000000",
+                "m_flBurstExponent": "1.000000",
+                "m_flBurstConstant": "0.000000"
+            },
+            "m_VerticallRecoil": {
+                "m_Range": "0.000000",
+                "m_flBurstSlope": "0.000000",
+                "m_flBurstExponent": "1.000000",
+                "m_flBurstConstant": "0.000000"
+            },
+            "m_flRecoilSpeed": "1.000000",
+            "m_flRecoilRecoveryDelayFactor": "1.000000",
+            "m_flRecoilRecoverySpeed": "1.000000",
+            "m_flRecoilShotIndexRecoveryTimeFactor": "0.250000",
+            "m_nRecoilSeed": "0",
+            "m_szBulletTravelTracerParticle": "particles/abilities/viper/viper_debuffdagger_proj.vpcf",
+            "m_szSelfBulletTravelTracerParticle": "",
+            "m_bUseDesatForFriendlyNonHeroTracer": "true",
+            "m_eAttachmentSourceType": "EAttachmentSource_WeaponMuzzles",
+            "m_strCustomAttachmentSource": "ability_cast",
+            "m_szMuzzleFlashEffectName": "",
+            "m_strWeaponImpactEffect": "",
+            "m_mapImpactEffects": {
+                "default": {}
+            },
+            "m_strShootSound": "",
+            "m_strLowAmmoSound": "",
+            "m_nLowAmmoIndicatorThreshold": "0",
+            "m_strBulletLoopingSound": "",
+            "m_strBulletWhizSound": "Shiv.ShivDagger.Whizby",
+            "m_flBulletDamage": "0.000000",
+            "m_iBullets": "1",
+            "m_bHitOnceAcrossAllBullets": "true",
+            "m_flExplosionRadius": "0.000000",
+            "m_bAllowExplosionToCollectGold": "false",
+            "m_iClipSize": "1",
+            "m_flCycleTime": "0.150000",
+            "m_iBurstShotCount": "1",
+            "m_bFiresBackwards": "false",
+            "m_iAmmoConsumedPerShot": "1",
+            "m_flRange": "10000.000000",
+            "m_flRangeWhileZoomed": "0.000000",
+            "m_flDamageFalloffStartRange": "-1.000000",
+            "m_flDamageFalloffEndRange": "-1.000000",
+            "m_flDamageFalloffBias": "0.500000",
+            "m_flDamageFalloffStartScale": "1.000000",
+            "m_flDamageFalloffEndScale": "0.000000",
+            "m_flPenetrationPercent": "0.000000",
+            "m_flIronSightsTime": "0.100000",
+            "m_reloadDuration": "0.000000",
+            "m_bReloadSingleBullets": "false",
+            "m_bReloadSingleBulletsAllowCancel": "false",
+            "m_flReloadSingleBulletsInitialDelay": "0.000000"
+        },
+        "_multibase": [
+            "signature_base"
+        ],
+        "m_bStartTrained": "false",
+        "m_nAbilityPointsCost": "0",
+        "m_nAbillityUnlocksCost": "1",
+        "m_eAbilityType": "EAbilityType_Signature",
+        "m_iMaxLevel": "1",
+        "m_bitsInterruptingStates": "MODIFIER_STATE_STUNNED",
+        "m_PreviewPathParticle": "particles/generic/generic_arc.vpcf",
+        "m_strAbilityOffCooldownSound": "",
+        "m_strAbilityChargeReadySound": "",
+        "m_skillshotMissParticle": "particles/abilities/skillshot_default_miss_owner.vpcf",
+        "m_iUpdateTime": "0",
+        "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_NONE",
+        "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_DONT_SWITCH_AWAY_ON_CAST | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_PROJECTILE_FIRED_AS_BULLET",
+        "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
+        "m_strAbilityImage": "file://{images}/hud/abilities/shiv/shiv_toss.psd",
+        "m_strCastSound": "Viper.HookBlade.Cast",
+        "m_vecAbilityUpgrades": [
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "AbilityCooldown",
+                        "m_strBonus": "-4"
+                    }
+                ]
+            },
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "Damage",
+                        "m_strBonus": "50"
+                    }
+                ]
+            },
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "SlowDuration",
+                        "m_strBonus": "1s"
+                    },
+                    {
+                        "m_strPropertyName": "StaminaReduction",
+                        "m_strBonus": "1"
+                    }
+                ]
+            }
+        ],
+        "m_AbilityTooltipDetails": {
+            "m_vecAbilityInfoSections": [
+                {
+                    "m_strLocString": "#ability_viper_debuffdagger_desc",
+                    "m_vecAbilityPropertiesBlock": [
+                        {
+                            "m_vecAbilityProperties": [
+                                {
+                                    "m_strImportantProperty": "Damage"
+                                },
+                                {
+                                    "m_strImportantProperty": "SlowPercent"
+                                },
+                                {
+                                    "m_strImportantProperty": "SlowDuration"
+                                }
+                            ]
+                        }
+                    ],
+                    "m_vecBasicProperties": []
+                }
+            ]
+        },
+        "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_SPHERE",
+        "m_projectileInfo": {
+            "m_nBehaviors": "",
+            "m_flGravityScale": "1.000000",
+            "m_flFriction": "0.000000",
+            "m_flElasticity": "0.000000",
+            "m_flSpeed": "3500.000000",
+            "m_flUpSpeed": "100.000000",
+            "m_flMaxLinearRange": "0.000000",
+            "m_flVerticalAimBias": "0.000000",
+            "m_eProjectileShape": "Sphere",
+            "m_flTriggerRadius": "1.500000",
+            "m_flPhysicsRadius": "1.500000",
+            "m_vecCapsulePhysicsCenter1": [
+                "0.000000",
+                "0.000000",
+                "0.000000"
+            ],
+            "m_vecCapsulePhysicsCenter2": [
+                "0.000000",
+                "0.000000",
+                "0.000000"
+            ],
+            "m_flCapsulePhysicsRadius": "1.500000",
+            "m_vecCapsuleTriggerCenter1": [
+                "0.000000",
+                "0.000000",
+                "0.000000"
+            ],
+            "m_vecCapsuleTriggerCenter2": [
+                "0.000000",
+                "0.000000",
+                "0.000000"
+            ],
+            "m_flCapsuleTriggerRadius": "1.500000",
+            "m_particle": "",
+            "m_bHideWarningParticle": "false",
+            "m_warningParticle": "",
+            "m_customModel": "",
+            "m_flProjectileModelScale": "1.000000",
+            "m_HitSound": "",
+            "m_DetonateSound": "",
+            "m_LoopingSound": "",
+            "m_WarningSound": "",
+            "m_flTrackingDampingCoefficient": "0.000000",
+            "m_flTrackingDuration": "0.000000",
+            "m_flTrackingStartTime": "0.000000",
+            "m_flTrackingEndTime": "0.000000",
+            "m_flTrackingStopDuration": "-1.000000",
+            "m_AutoProjectileModifier": {}
+        },
+        "m_strCastAnimGraphParam": "e_GenericThrow",
+        "m_strSelectionNameOverride": "",
+        "m_strCastAnimSequenceName": "",
+        "m_DebuffModifier": {
+            "_class": "modifier_diminishing_slow",
+            "_my_subclass_name": "debuffdagger_debuff",
+            "m_eDrawOverheadStatus": "OVERHEAD_DRAW_NEVER",
+            "m_strHudIcon": "",
+            "m_strSmallIconCssClass": "",
+            "m_bIsHidden": "true",
+            "m_strParticleEffect": "particles/generic/generic_slow_debuff.vpcf",
+            "m_vecAutoRegisterModifierValueFromAbilityPropertyName": []
+        },
+        "m_TriggerButtonPreReqButton": "",
+        "m_TriggerButtonOverride": "",
+        "m_ImpactParticle": "particles/abilities/viper/viper_hookblade_impact.vpcf"
+    }
+}

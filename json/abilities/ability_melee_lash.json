@@ -735,6 +735,7 @@
                     "m_strContext": "melee_rejuv"
                 }
             ]
-        }
+        },
+        "m_strEffectsAttachName": "palm_r"
     }
 }

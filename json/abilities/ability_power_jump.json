@@ -186,6 +186,11 @@
                 "m_strCSSClass": "healing",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_LIFESTEAL",
                 "m_UsageFlags": "APUsageFlag_ModifierConditional"
+            },
+            "AirMoveIncreasePercent": {
+                "m_strValue": "30",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_AIR_MOVE_DISTANCE_INCREASE_PERCENT",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
             }
         },
         "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
@@ -244,7 +249,7 @@
         "m_iUpdateTime": "1664993821",
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_NONE",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
-        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_INPUT_DIRECTIONAL_2D | CITADEL_ABILITY_BEHAVIOR_MOVEMENT | CITADEL_ABILITY_BEHAVIOR_ALLOW_SELF_CAST",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_INPUT_DIRECTIONAL_2D | CITADEL_ABILITY_BEHAVIOR_MOVEMENT | CITADEL_ABILITY_BEHAVIOR_ALLOW_ALT_CAST",
         "m_strCastAnimGraphParam": "e_AirRaid",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
         "m_strAbilityImage": "file://{images}/hud/abilities/archer/archer_power_jump.psd",
@@ -328,6 +333,7 @@
             },
             "m_strWeaponShootSound": "Orion.Wpn.Fire",
             "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
+                "AirMoveIncreasePercent",
                 "WeaponDamageBonus",
                 "BulletLifestealPercent",
                 "TechLifestealPercent"

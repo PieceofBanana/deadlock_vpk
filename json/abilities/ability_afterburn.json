@@ -230,7 +230,7 @@
                 "m_vecPropertyUpgrades": [
                     {
                         "m_strPropertyName": "AfterburnSpiritDamageReduction",
-                        "m_strBonus": "-30"
+                        "m_strBonus": "-25"
                     }
                 ]
             },

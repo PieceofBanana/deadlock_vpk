@@ -110,11 +110,11 @@
                 "m_bCanSetTokenOverride": "true",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
             },
-            "BulletResist": {
+            "TechResist": {
                 "m_strValue": "15",
-                "m_eDisplayType": "EBulletArmorDamageReduction",
-                "m_strCSSClass": "bullet_armor_up",
-                "m_eProvidedPropertyType": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
+                "m_eDisplayType": "ETechArmorDamageReduction",
+                "m_strCSSClass": "tech_armor_up",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST",
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             },
             "BaseAttackDamagePercent": {
@@ -241,7 +241,7 @@
                 "m_vecSectionAttributes": [
                     {
                         "m_vecAbilityProperties": [
-                            "BulletResist",
+                            "TechResist",
                             "BaseAttackDamagePercent"
                         ],
                         "m_vecImportantAbilityProperties": []
@@ -277,7 +277,7 @@
                 "_class": "modifier_intrinsic_base",
                 "_my_subclass_name": "modifier_intrinsic_base",
                 "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
-                    "BulletResist",
+                    "TechResist",
                     "BaseAttackDamagePercent"
                 ]
             }

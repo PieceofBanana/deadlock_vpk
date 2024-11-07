@@ -125,7 +125,7 @@
                 "m_UsageFlags": "APUsageFlag_ModifierConditional"
             },
             "BonusClipSizePercent": {
-                "m_strValue": "15",
+                "m_strValue": "20",
                 "m_eDisplayType": "EClipSizeIncrease",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_AMMO_CLIP_SIZE_PERCENT",
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
@@ -262,7 +262,7 @@
             "_my_subclass_name": "vex_shield",
             "m_bIsHidden": "true",
             "m_strParticleEffect": "particles/upgrades/vex_shield_buff.vpcf",
-            "m_sStartSound": "Architect.Translocate.Start",
+            "m_sStartSound": "Mods.Armor.SpellShield.Break",
             "m_sLocalizationName": "upgrade_vex_barrier_shield"
         },
         "m_bShowInPassiveItemsArea": "true",

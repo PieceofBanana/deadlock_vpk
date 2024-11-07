@@ -4,7 +4,7 @@
 	m_nMaxDepth = 32
 	_editor = 
 	{
-		next_element_id = 197
+		next_element_id = 956
 	}
 	m_Variables = 
 	[
@@ -64,6 +64,21 @@
 			m_flParamaterMinValue = 32.000000
 			m_flParamaterMaxValue = 256.000000
 		},
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_nElementID = 917
+			m_VariableName = "bend_angle"
+			m_bExposeAsParameter = true
+			m_flParamaterMaxValue = 360.000000
+			m_flParamaterMinValue = -360.000000
+		},
+		
+		{
+			_class = "CSmartPropVariable_Float"
+			m_nElementID = 300
+			m_VariableName = "temp_length"
+		},
 	]
 	m_Children = 
 	[
@@ -95,60 +110,89 @@
 			[
 				
 				{
-					_class = "CSmartPropElement_Model"
-					m_sModelName = resource_name:"models/park/park_wall_01/park_wall_01_cap_128_flp.vmdl"
-					m_nElementID = 4
+					_class = "CSmartPropElement_Group"
+					m_nElementID = 954
 					_editor = 
 					{
 						folder_name = ""
 					}
-					m_bEnabled = true
-					m_MaterialGroupName = 
-					{
-						m_SourceName = "material"
-					}
-					m_vModelScale = 
-					{
-						m_Components = 
-						[
-							1.000000,
-							1.000000,
-							{
-								m_Expression = "height/128"
-							},
-						]
-					}
-					m_SelectionCriteria = 
+					m_sLabel = "cap"
+					m_Children = 
 					[
 						
 						{
-							_class = "CSmartPropSelectionCriteria_ChoiceWeight"
-							m_flWeight = 
+							_class = "CSmartPropElement_Model"
+							m_sModelName = resource_name:"models/park/park_wall_01/park_wall_01_cap_128_flp.vmdl"
+							m_nElementID = 4
+							_editor = 
 							{
-								m_SourceName = "end_weight"
+								folder_name = ""
 							}
-						},
-					]
-					m_Modifiers = 
-					[
-						
-						{
-							_class = "CSmartPropFilter_VariableValue"
-							m_VariableComparison = 
+							m_bEnabled = true
+							m_MaterialGroupName = 
 							{
-								m_Name = "end_cap"
-								m_Value = true
-								m_Comparison = "EQUAL"
+								m_SourceName = "material"
 							}
-						},
-						
-						{
-							_class = "CSmartPropOperation_Rotate"
-							m_vRotation = 
+							m_vModelScale = 
+							{
+								m_Components = 
+								[
+									1.000000,
+									1.000000,
+									{
+										m_Expression = "height/128"
+									},
+								]
+							}
+							m_SelectionCriteria = 
 							[
-								0.000000,
-								0.000000,
-								0.000000,
+								
+								{
+									_class = "CSmartPropSelectionCriteria_ChoiceWeight"
+									m_flWeight = 
+									{
+										m_SourceName = "end_weight"
+									}
+								},
+							]
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropFilter_VariableValue"
+									m_VariableComparison = 
+									{
+										m_Name = "end_cap"
+										m_Value = true
+										m_Comparison = "EQUAL"
+									}
+								},
+								
+								{
+									_class = "CSmartPropOperation_Rotate"
+									m_vRotation = 
+									[
+										0.000000,
+										0.000000,
+										0.000000,
+									]
+								},
+							]
+						},
+						
+						{
+							_class = "CSmartPropElement_Group"
+							m_nElementID = 955
+							m_sLabel = "locator"
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_CreateLocator"
+									m_bAllowRotation = false
+									m_bAllowTranslation = false
+									m_flDisplayScale = 2.000000
+								},
 							]
 						},
 					]
@@ -272,8 +316,76 @@
 											_class = "CSmartPropSelectionCriteria_LinearLength"
 											m_flLength = 128.000000
 											m_bAllowScale = true
+											m_flMinLength = 80.000000
+											m_flMaxLength = 160.000000
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 952
+									m_sModelName = resource_name:"models/park/park_wall_01/park_wall_01_str_128x80a.vmdl"
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_vModelScale = 
+									{
+										m_Components = 
+										[
+											1.000000,
+											{
+												m_Expression = "LinearScale()"
+											},
+											{
+												m_Expression = "height/128"
+											},
+										]
+									}
+									m_SelectionCriteria = 
+									[
+										
+										{
+											_class = "CSmartPropSelectionCriteria_LinearLength"
+											m_flLength = 80.000000
+											m_bAllowScale = true
+											m_flMinLength = 50.000000
+											m_flMaxLength = 127.000000
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Model"
+									m_nElementID = 953
+									m_sModelName = resource_name:"models/park/park_wall_01/park_wall_01_str_128x40a.vmdl"
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_vModelScale = 
+									{
+										m_Components = 
+										[
+											1.000000,
+											{
+												m_Expression = "LinearScale()"
+											},
+											{
+												m_Expression = "height/128"
+											},
+										]
+									}
+									m_SelectionCriteria = 
+									[
+										
+										{
+											_class = "CSmartPropSelectionCriteria_LinearLength"
+											m_flLength = 40.000000
+											m_bAllowScale = true
 											m_flMinLength = 8.000000
-											m_flMaxLength = 196.000000
+											m_flMaxLength = 50.000000
 										},
 									]
 								},
@@ -656,6 +768,590 @@
 								{
 									_class = "CSmartPropOperation_SaveState"
 									m_StateName = "AdditionalSectionA"
+								},
+							]
+						},
+					]
+				},
+				
+				{
+					_class = "CSmartPropElement_Group"
+					m_nElementID = 781
+					_editor = 
+					{
+						folder_name = ""
+					}
+					m_bEnabled = false
+					m_sLabel = "bend"
+					m_SelectionCriteria = 
+					[
+						
+						{
+							_class = "CSmartPropSelectionCriteria_ChoiceWeight"
+							m_flWeight = 0.000000
+						},
+					]
+					m_Modifiers = 
+					[
+						
+						{
+							_class = "CSmartPropOperation_SetVariable"
+							m_VariableValue = 
+							{
+								m_TargetName = "size"
+								m_DataType = "FLOAT"
+								m_Value = 
+								{
+									m_Expression = "64"
+								}
+							}
+						},
+					]
+					m_Children = 
+					[
+						
+						{
+							_class = "CSmartPropElement_Group"
+							m_nElementID = 782
+							_editor = 
+							{
+								folder_name = ""
+							}
+							m_sLabel = "sizer"
+							m_Modifiers = 
+							[
+								
+								{
+									_class = "CSmartPropOperation_Translate"
+									m_vPosition = 
+									{
+										m_Components = 
+										[
+											0.000000,
+											{
+												m_Expression = "(1-str_weight)*24"
+											},
+											0.000000,
+										]
+									}
+									m_bEnabled = false
+								},
+								
+								{
+									_class = "CSmartPropOperation_CreateSizer"
+									m_flInitialMaxY = 
+									{
+										m_Expression = "64"
+									}
+									m_flInitialMaxZ = 
+									{
+										m_Expression = "floor(variant/1000)"
+									}
+									m_OutputVariableMaxY = "length"
+									m_flConstraintMinY = 0.000000
+									m_flConstraintMaxY = 0.000000
+									m_flInitialMinY = 0.000000
+									m_flConstraintMinZ = 0.000000
+								},
+							]
+							m_Children = 
+							[
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 921
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_sLabel = "max length"
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_SetVariable"
+											m_VariableValue = 
+											{
+												m_TargetName = "length"
+												m_DataType = "FLOAT"
+												m_Value = 
+												{
+													m_Expression = "max(1, length)"
+												}
+											}
+											m_bEnabled = false
+										},
+										
+										{
+											_class = "CSmartPropOperation_SetVariable"
+											m_VariableValue = 
+											{
+												m_TargetName = "length"
+												m_DataType = "FLOAT"
+												m_Value = 
+												{
+													m_Expression = "sin(bend_angle)*length"
+												}
+											}
+											m_bEnabled = false
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 915
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_sLabel = "rotator"
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_Translate"
+											m_vPosition = 
+											{
+												m_Components = 
+												[
+													{
+														m_Expression = "-length"
+													},
+													0.000000,
+													0.000000,
+												]
+											}
+											m_bEnabled = false
+										},
+										
+										{
+											_class = "CSmartPropOperation_CreateRotator"
+											m_OutputVariable = "bend_angle"
+											m_flDisplayRadius = 16.000000
+											m_vRotationAxis = 
+											[
+												0.000000,
+												0.000000,
+												1.000000,
+											]
+											m_bEnabled = true
+											m_flSnappingIncrement = 0.000000
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 918
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_sLabel = "variable setter"
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_SetVariable"
+											m_VariableValue = 
+											{
+												m_TargetName = "bend_angle"
+												m_DataType = "FLOAT"
+												m_Value = 
+												{
+													m_Expression = "(bend_angle==0 || bend_angle==360)*90 +  bend_angle"
+												}
+											}
+											m_bEnabled = true
+										},
+										
+										{
+											_class = "CSmartPropOperation_SetVariable"
+											m_VariableValue = 
+											{
+												m_TargetName = "bend_angle"
+												m_DataType = "FLOAT"
+												m_Value = 
+												{
+													m_Expression = "( (bend_angle>180) * -90 )"
+												}
+											}
+											m_bEnabled = false
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 919
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_sLabel = "reverse bend"
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropFilter_Expression"
+											m_Expression = "bend_angle > 180"
+										},
+										
+										{
+											_class = "CSmartPropOperation_SetVariable"
+											m_VariableValue = 
+											{
+												m_TargetName = "bend_angle"
+												m_DataType = "FLOAT"
+												m_Value = 
+												{
+													m_Expression = "-(360-( bend_angle))"
+												}
+											}
+											m_bEnabled = true
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_Group"
+									m_nElementID = 920
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_sLabel = "length setter"
+									m_Modifiers = 
+									[
+										
+										{
+											_class = "CSmartPropOperation_SetVariable"
+											m_VariableValue = 
+											{
+												m_TargetName = "temp_length"
+												m_DataType = "FLOAT"
+												m_Value = 
+												{
+													m_Expression = "length*PI/(180/abs(bend_angle))"
+												}
+											}
+											m_bEnabled = true
+										},
+										
+										{
+											_class = "CSmartPropOperation_SetVariable"
+											m_VariableValue = 
+											{
+												m_TargetName = "temp_length"
+												m_DataType = "FLOAT"
+												m_Value = 
+												{
+													m_Expression = "length"
+												}
+											}
+											m_bEnabled = false
+										},
+									]
+								},
+								
+								{
+									_class = "CSmartPropElement_BendDeformer"
+									m_nElementID = 912
+									_editor = 
+									{
+										folder_name = ""
+									}
+									m_vAngles = 
+									{
+										m_Components = 
+										[
+											{
+												m_Expression = "0"
+											},
+											{
+												m_Expression = "90"
+											},
+											0.000000,
+										]
+									}
+									m_flBendRadius = 
+									{
+										m_SourceName = "length"
+									}
+									m_flBendPoint = 0.000000
+									m_flBendAngle = 
+									{
+										m_Expression = "-(bend_angle)"
+									}
+									m_vSize = 
+									{
+										m_Components = 
+										[
+											{
+												m_SourceName = "temp_length"
+											},
+											8.000000,
+											0.000000,
+										]
+									}
+									m_vOrigin = 
+									{
+										m_Components = 
+										[
+											{
+												m_Expression = "((bend_angle>0)?1:0)*8"
+											},
+											0.000000,
+											0.000000,
+										]
+									}
+									m_bEnabled = true
+									m_bDeformationEnabled = true
+									m_Children = 
+									[
+										
+										{
+											_class = "CSmartPropElement_Group"
+											m_nElementID = 937
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_sLabel = "48 010"
+											m_bEnabled = true
+											m_Children = 
+											[
+												
+												{
+													_class = "CSmartPropElement_FitOnLine"
+													m_nElementID = 938
+													m_vEnd = 
+													{
+														m_Components = 
+														[
+															0.000000,
+															{
+																m_SourceName = "temp_length"
+															},
+															0.000000,
+														]
+													}
+													m_nScaleMode = "SCALE_EQUALLY"
+													m_sLabel = ""
+													_editor = 
+													{
+														folder_name = ""
+													}
+													m_nPickMode = "LARGEST_FIRST"
+													m_Modifiers = 
+													[
+														
+														{
+															_class = "CSmartPropOperation_Translate"
+															m_vPosition = 
+															[
+																0.000000,
+																0.000000,
+																0.000000,
+															]
+														},
+														
+														{
+															_class = "CSmartPropOperation_SetVariable"
+															m_VariableValue = 
+															{
+																m_TargetName = "temp_index"
+																m_DataType = "INTEGER"
+																m_Value = 
+																{
+																	m_Expression = "InstanceIndex()"
+																}
+															}
+															m_bEnabled = false
+														},
+													]
+													m_Children = 
+													[
+														
+														{
+															_class = "CSmartPropElement_Model"
+															m_nElementID = 939
+															m_sModelName = resource_name:"models/park/park_wall_01/park_wall_01_str_128x64a_bend.vmdl"
+															m_vModelScale = 
+															{
+																m_Components = 
+																[
+																	1.000000,
+																	{
+																		m_Expression = "LinearScale()"
+																	},
+																	1.000000,
+																]
+															}
+															_editor = 
+															{
+																folder_name = ""
+															}
+															m_MaterialGroupName = 
+															{
+																m_SourceName = "material"
+															}
+															m_SelectionCriteria = 
+															[
+																
+																{
+																	_class = "CSmartPropSelectionCriteria_LinearLength"
+																	m_flLength = 
+																	{
+																		m_Expression = "64"
+																	}
+																	m_bAllowScale = true
+																	m_flMinLength = 
+																	{
+																		m_Expression = "1"
+																	}
+																	m_flMaxLength = 
+																	{
+																		m_Expression = "128"
+																	}
+																},
+																
+																{
+																	_class = "CSmartPropSelectionCriteria_EndCap"
+																	m_bStart = false
+																	m_bEnabled = false
+																},
+															]
+														},
+													]
+												},
+											]
+										},
+										
+										{
+											_class = "CSmartPropElement_ModifyState"
+											m_nElementID = 823
+											_editor = 
+											{
+												folder_name = ""
+											}
+											m_Modifiers = 
+											[
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													{
+														m_Components = 
+														[
+															{
+																m_Expression = "0"
+															},
+															{
+																m_Expression = "temp_length"
+															},
+															0.000000,
+														]
+													}
+												},
+												
+												{
+													_class = "CSmartPropOperation_RigidDeformation"
+												},
+												
+												{
+													_class = "CSmartPropOperation_Rotate"
+													m_vRotation = 
+													[
+														0.000000,
+														90.000000,
+														0.000000,
+													]
+													m_bEnabled = false
+												},
+												
+												{
+													_class = "CSmartPropOperation_Rotate"
+													m_vRotation = 
+													{
+														m_Components = 
+														[
+															0.000000,
+															{
+																m_Expression = "180*reverse"
+															},
+															0.000000,
+														]
+													}
+													m_bEnabled = false
+												},
+												
+												{
+													_class = "CSmartPropOperation_Translate"
+													m_vPosition = 
+													{
+														m_Components = 
+														[
+															{
+																m_Expression = "0"
+															},
+															{
+																m_Expression = "length*reverse"
+															},
+															0.000000,
+														]
+													}
+													m_bEnabled = false
+												},
+												
+												{
+													_class = "CSmartPropOperation_SetVariable"
+													m_VariableValue = 
+													{
+														m_TargetName = "str_weight"
+														m_DataType = "FLOAT"
+														m_Value = null
+													}
+												},
+												
+												{
+													_class = "CSmartPropOperation_SetVariable"
+													m_VariableValue = 
+													{
+														m_TargetName = "end_weight"
+														m_DataType = "FLOAT"
+														m_Value = 1.000000
+													}
+												},
+												
+												{
+													_class = "CSmartPropOperation_SetVariable"
+													m_VariableValue = 
+													{
+														m_TargetName = "was_corner"
+														m_DataType = "BOOL"
+														m_Value = false
+													}
+												},
+												
+												{
+													_class = "CSmartPropOperation_SetVariable"
+													m_VariableValue = 
+													{
+														m_TargetName = "crn_inv"
+														m_DataType = "BOOL"
+														m_Value = false
+													}
+												},
+												
+												{
+													_class = "CSmartPropOperation_SaveState"
+													m_StateName = "AdditionalSectionA"
+												},
+											]
+										},
+									]
 								},
 							]
 						},

@@ -135,10 +135,9 @@
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_ZOOM_INCREASE_PERCENT",
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             },
-            "BonusClipSizePercent": {
-                "m_strValue": "20",
-                "m_eDisplayType": "EClipSizeIncrease",
-                "m_eProvidedPropertyType": "MODIFIER_VALUE_AMMO_CLIP_SIZE_PERCENT",
+            "ReloadSpeedMultipler": {
+                "m_strValue": "-20",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_RELOAD_SPEED",
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             },
             "BulletShieldMaxHealth": {
@@ -211,7 +210,7 @@
                 "m_vecSectionAttributes": [
                     {
                         "m_vecAbilityProperties": [
-                            "BonusClipSizePercent",
+                            "ReloadSpeedMultipler",
                             "BonusAttackRangePercent",
                             "BonusZoomPercent",
                             "BulletShieldMaxHealth"
@@ -245,7 +244,7 @@
                     "LongRangeBonusWeaponPowerMinRange",
                     "BonusAttackRangePercent",
                     "BonusZoomPercent",
-                    "BonusClipSizePercent"
+                    "ReloadSpeedMultipler"
                 ]
             },
             {

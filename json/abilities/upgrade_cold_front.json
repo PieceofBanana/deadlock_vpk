@@ -149,6 +149,10 @@
                     "m_flStatScale": "1.500000"
                 }
             },
+            "NPCDamageMult": {
+                "m_strValue": "2",
+                "m_strCSSClass": "tech_damage"
+            },
             "TechResist": {
                 "m_strValue": "10",
                 "m_eDisplayType": "ETechArmorDamageReduction",

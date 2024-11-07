@@ -167,8 +167,8 @@
                 {
                     "m_strLocToken": "#AbilityButtonHint_Throw",
                     "m_eHintSide": "EButtonSide_Right",
-                    "m_eButton1": "EButtonHint_AbilityKey",
-                    "m_strContext": "trigger"
+                    "m_strContext": "trigger",
+                    "m_bButton1IsSlot": "true"
                 }
             ]
         },

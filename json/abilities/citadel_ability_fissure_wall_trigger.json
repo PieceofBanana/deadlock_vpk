@@ -167,8 +167,8 @@
                 {
                     "m_strLocToken": "#AbilityButtonHint_EruptWall",
                     "m_eHintSide": "EButtonSide_Right",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_strContext": "trigger_attack"
+                    "m_strContext": "trigger_attack",
+                    "m_nButton1": "IN_ATTACK"
                 }
             ]
         },

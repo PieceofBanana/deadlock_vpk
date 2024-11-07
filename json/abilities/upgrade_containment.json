@@ -114,7 +114,7 @@
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
             },
             "SlowPercent": {
-                "m_strValue": "25",
+                "m_strValue": "20",
                 "m_strCSSClass": "slow",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
                 "m_UsageFlags": "APUsageFlag_ModifierConditional"
@@ -207,7 +207,7 @@
             "m_flSpeed": "2106",
             "m_particle": "particles/upgrades/upgrade_containment_projectile.vpcf",
             "m_HitSound": "Mods.Tech.Immobilize.Cast",
-            "m_LoopingSound": "Mods.Tech.Immobilize.Select_Lp"
+            "m_LoopingSound": "Mods.Tech.Immobilize.Proj_Lp"
         },
         "m_flTargetingConeAngle": "45",
         "m_previewParticle": "particles/upgrades/upgrade_containment_projectile_preview.vpcf",
@@ -226,10 +226,12 @@
                 "SlowPercent",
                 "GroundDashReductionPercent"
             ],
-            "m_sAmbientLoopingSound": "Status.MoveRestrict",
+            "m_sAmbientLoopingSound": "Mods.Tech.Immobilize.Debuff_Lp",
             "m_eHudDisplayLocation": "DISPLAY_HUD_LEFT",
             "m_strSmallIconCssClass": "containment",
-            "m_eDrawOverheadStatus": "OVERHEAD_DRAW_FOR_EVERYONE"
+            "m_eDrawOverheadStatus": "OVERHEAD_DRAW_FOR_EVERYONE",
+            "m_sStartSound": "Mods.Tech.Immobilize.Hit",
+            "m_sExpiredSound": "Mods.Tech.Immobilize.Debuff_End"
         },
         "m_vecTooltipSectionInfo": [
             {

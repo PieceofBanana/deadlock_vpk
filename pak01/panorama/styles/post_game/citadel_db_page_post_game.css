@@ -11,8 +11,9 @@
 .matchOutcomeContainer
 {
 	flow-children: down;
-	margin: 30px 20px 0px 0px;
+	margin: 130px 20px 0px 0px;
 	horizontal-align: right;
+	visibility: collapse;
 }
 
 .isSpectator .matchOutcomeContainer #OutcomeVictory,.isSpectator .matchOutcomeContainer #OutcomeDefeat
@@ -329,5 +330,16 @@
 .playerAward.negativeLeftMargin
 {
 	margin-left: -10px;
+}
+
+.GameModeRank
+{
+	visibility: collapse;
+}
+
+.hasMatchRank .GameModeRank
+{
+	visibility: visible;
+	visibility: collapse;
 }
 

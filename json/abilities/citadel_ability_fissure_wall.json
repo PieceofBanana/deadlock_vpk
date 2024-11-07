@@ -4,7 +4,7 @@
         "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "37.000000",
+                "m_strValue": "46.000000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -179,7 +179,7 @@
                 }
             },
             "SlowPercent": {
-                "m_strValue": "25",
+                "m_strValue": "20",
                 "m_strCSSClass": "slow",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
                 "m_UsageFlags": "APUsageFlag_ModifierConditional"
@@ -256,7 +256,7 @@
                     },
                     {
                         "m_strPropertyName": "BonusDamagePercent",
-                        "m_strBonus": "25"
+                        "m_strBonus": "15"
                     },
                     {
                         "m_strPropertyName": "DebuffDuration",
@@ -268,7 +268,7 @@
                 "m_vecPropertyUpgrades": [
                     {
                         "m_strPropertyName": "AbilityCooldown",
-                        "m_strBonus": "-14.000000"
+                        "m_strBonus": "-22.000000"
                     }
                 ]
             },

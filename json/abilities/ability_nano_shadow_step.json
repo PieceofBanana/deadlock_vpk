@@ -4,7 +4,7 @@
         "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "40.000000",
+                "m_strValue": "100.000000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -15,7 +15,7 @@
                 }
             },
             "AbilityDuration": {
-                "m_strValue": "8",
+                "m_strValue": "12",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "duration",
                 "m_bCanSetTokenOverride": "true",
@@ -122,25 +122,33 @@
                 "m_strValue": "0"
             },
             "InvisFadeToDuration": {
-                "m_strValue": "0",
+                "m_strValue": "0.25",
                 "m_strCSSClass": "duration"
             },
             "InvisMoveSpeedMod": {
-                "m_strValue": "0",
-                "m_strCSSClass": "move_speed"
+                "m_strValue": "2.0m",
+                "m_strCSSClass": "move_speed",
+                "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond",
+                "m_eDisplayType": "EMaxMoveSpeed",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_tech_damage",
+                    "_my_subclass_name": "InvisMoveSpeedMod_scale_function",
+                    "m_flStatScale": "0.040000",
+                    "m_eSpecificStatScaleType": "ETechPower"
+                }
             },
             "SpottedRadius": {
-                "m_strValue": "2m",
+                "m_strValue": "15m",
                 "m_bIsHidden": "true",
                 "m_strCSSClass": "distance",
                 "m_eDisplayType": "ETechRadius"
             },
             "RevealOnDamageDuration": {
-                "m_strValue": "0.25",
+                "m_strValue": "0.7",
                 "m_strCSSClass": "duration"
             },
             "RevealOnSpottedDuration": {
-                "m_strValue": "0.75",
+                "m_strValue": "0.7",
                 "m_strCSSClass": "duration"
             },
             "StaminaCooldownReduction": {
@@ -161,8 +169,14 @@
                     "m_eSpecificStatScaleType": "ETechDuration"
                 }
             },
+            "SlowPercent": {
+                "m_strValue": "30",
+                "m_strCSSClass": "slow",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT"
+            },
             "BonusFireRate": {
-                "m_strValue": "20",
+                "m_strValue": "0",
                 "m_eDisplayType": "EFireRate",
                 "m_strCSSClass": "fire_rate",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_FIRE_RATE",
@@ -205,6 +219,11 @@
                 "m_strValue": "0",
                 "m_strCSSClass": "move_speed",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_MOVEMENT_SLOW_RESISTANCE",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
+            },
+            "DamageAmplification": {
+                "m_strCSSClass": "damage",
+                "m_strValue": "20",
                 "m_UsageFlags": "APUsageFlag_ModifierConditional"
             }
         },
@@ -249,13 +268,13 @@
             }
         },
         "_multibase": [
-            "signature_base",
+            "ultimate_base",
             "invis_base"
         ],
         "m_bStartTrained": "false",
         "m_nAbilityPointsCost": "0",
         "m_nAbillityUnlocksCost": "1",
-        "m_eAbilityType": "EAbilityType_Signature",
+        "m_eAbilityType": "EAbilityType_Ultimate",
         "m_iMaxLevel": "1",
         "m_bitsInterruptingStates": "MODIFIER_STATE_STUNNED",
         "m_PreviewPathParticle": "particles/generic/generic_arc.vpcf",
@@ -264,7 +283,7 @@
         "m_skillshotMissParticle": "particles/abilities/skillshot_default_miss_owner.vpcf",
         "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_SELF",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
-        "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_HERO_ENEMY | CITADEL_UNIT_TARGET_CREEP_ENEMY | CITADEL_UNIT_TARGET_MINION_ENEMY",
+        "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
         "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET",
         "m_strCSSClass": "detentionRounds",
         "m_strAbilityImage": "file://{images}/hud/abilities/slork/slork_invis.psd",
@@ -282,6 +301,10 @@
                     {
                         "m_strPropertyName": "SlowResistancePercent",
                         "m_strBonus": "40"
+                    },
+                    {
+                        "m_strPropertyName": "PurgeOnActivate",
+                        "m_strBonus": "1"
                     }
                 ]
             },
@@ -290,6 +313,10 @@
                     {
                         "m_strPropertyName": "SilenceOnHeavyDuration",
                         "m_strBonus": "3"
+                    },
+                    {
+                        "m_strPropertyName": "DamageAmplification",
+                        "m_strBonus": "20"
                     }
                 ]
             }
@@ -309,18 +336,28 @@
             "m_bFadeInsteadOfRemoveOnBulletFire": "true",
             "m_bFadeInsteadOfRemoveOnAbilityUse": "true",
             "m_bFadeToVisibleAtEndOfDuration": "true",
-            "m_bEnableDesatWhileActive": "false",
+            "m_flDesatFactor": "0.600000",
+            "m_flMinCloak": "0.700000",
+            "m_flMaxCloak": "0.990000",
             "m_InvisLoopParticle": "particles/modifiers/invis_loop.vpcf",
             "m_InvisDetectRadiusParticle": "particles/modifiers/invis_delay.vpcf",
-            "m_InvisRevealedParticle": "particles/abilities/nano/nano_ult_shadow_revealed.vpcf",
+            "m_InvisRevealedParticle": "particles/generic/invis_revealed.vpcf",
             "m_strInvisRevealedSound": "StatusEffects.InvisRevealed",
             "m_InvisChangedEffect": "particles/abilities/nano/nano_ult_cast.vpcf",
+            "m_ShadowRevealedEffect": "particles/abilities/nano/nano_ult_shadow_revealed.vpcf",
             "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
-                "BonusFireRate",
                 "MeleeAttackSpeedBonus",
                 "StaminaCooldownReduction",
                 "SlowResistancePercent"
             ],
+            "m_SlowModifier": {
+                "_class": "modifier_slow_base",
+                "_my_subclass_name": "modifier_slow_base",
+                "m_sLocalizationName": "movement_slow",
+                "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
+                    "SlowPercent"
+                ]
+            },
             "m_SilenceModifier": {
                 "_class": "modifier_citadel_silenced",
                 "_my_subclass_name": "modifier_citadel_silenced",
@@ -336,8 +373,19 @@
                 "m_strSmallIconCssClass": "bullet_armor_reduction",
                 "m_bKeepMaximumDurationOnRefresh": "true",
                 "m_sLocalizationName": "modifier_nano_shadow_debuff"
-            },
-            "m_strParticleEffect": ""
+            }
+        },
+        "m_EnemyAura": {
+            "_class": "modifier_base_aura",
+            "_my_subclass_name": "modifier_base_aura",
+            "m_bIsHidden": "true",
+            "m_modifierProvidedByAura": {
+                "_class": "modifier_base",
+                "_my_subclass_name": "aura_target_modifier",
+                "m_strParticleEffect": "particles/abilities/nano/nano_ult_aura_nearby.vpcf",
+                "m_nEnabledStateMask": "MODIFIER_STATE_GLOW_TO_PROVIDER",
+                "m_bIsHidden": "true"
+            }
         },
         "m_AbilityTooltipDetails": {
             "m_vecAbilityInfoSections": [
@@ -350,10 +398,10 @@
                                     "m_strImportantProperty": "StatusEffectInvisible"
                                 },
                                 {
-                                    "m_strImportantProperty": "BonusFireRate"
+                                    "m_strImportantProperty": "InvisMoveSpeedMod"
                                 },
                                 {
-                                    "m_strImportantProperty": "MeleeAttackSpeedBonus"
+                                    "m_strImportantProperty": "DamageAmplification"
                                 }
                             ]
                         }

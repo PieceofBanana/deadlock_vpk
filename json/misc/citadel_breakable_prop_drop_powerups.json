@@ -9,7 +9,7 @@
         "m_bDamagedByAbilities": "true",
         "m_bDamagedByMelee": "true",
         "m_bDamagedByBullets": "true",
-        "m_flInitialSpawnTime": "120.000000",
+        "m_flInitialSpawnTime": "180.000000",
         "m_flPrimaryDropChance": "50.000000",
         "_base": "citadel_breakable_prop_base",
         "_not_pickable": "2",
@@ -92,7 +92,7 @@
             }
         ],
         "m_iMatchTimeMinsForLevel2Pickups": "10",
-        "m_iMatchTimeMinsForLevel3Pickups": "25",
+        "m_iMatchTimeMinsForLevel3Pickups": "30",
         "m_flInitialSpawnTimeTest": "1.000000",
         "m_flRespawnTimeTest": "5.000000",
         "m_eRollType": "ECitadelRandomRoll_BreakablePowerupPickup",

@@ -287,14 +287,14 @@
                 {
                     "m_strLocToken": "#AbilityButtonHint_GuidedArrowSpeed",
                     "m_eHintSide": "EButtonSide_Right",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_strContext": "hint_speed"
+                    "m_strContext": "hint_speed",
+                    "m_nButton1": "IN_ATTACK"
                 },
                 {
-                    "m_eButton1": "EButtonHint_CancelKey",
                     "m_strLocToken": "#AbilityButtonHint_GuidedArrowRelease",
                     "m_eHintSide": "EButtonSide_Right",
-                    "m_strContext": "channel"
+                    "m_strContext": "channel",
+                    "m_nButton1": "IN_CANCEL_ABILITY"
                 }
             ]
         },
@@ -309,7 +309,8 @@
                 "_my_subclass_name": "modifier_low_health_glow",
                 "_class": "modifier_low_health_glow",
                 "m_bIsHidden": "true",
-                "m_GlowParticle": "particles/status_fx/status_fx_last_hit.vpcf"
+                "m_GlowParticle": "particles/status_fx/status_fx_last_hit.vpcf",
+                "m_bCasterCountsAsAssister": "false"
             }
         },
         "m_flKillCheckWindow": "4.000000",

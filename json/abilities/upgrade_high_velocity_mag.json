@@ -111,14 +111,14 @@
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
             },
             "BonusBulletSpeedPercent": {
-                "m_strValue": "25",
+                "m_strValue": "20",
                 "m_eDisplayUnits": "EDisplayUnit_Normal",
                 "m_strCSSClass": "bullet_damage",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_BONUS_BULLET_SPEED_PERCENT",
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             },
             "BaseAttackDamagePercent": {
-                "m_strValue": "12",
+                "m_strValue": "13",
                 "m_strCSSClass": "bullet_damage",
                 "m_eDisplayUnits": "EDisplayUnit_Normal",
                 "m_eDisplayType": "EBaseWeaponDamageIncrease",
@@ -126,7 +126,7 @@
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             },
             "BulletShieldMaxHealth": {
-                "m_strValue": "50",
+                "m_strValue": "65",
                 "m_strCSSClass": "bullet_armor_up",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_BULLET_SHIELD_HEALTH_MAX",
                 "m_eDisplayType": "EBulletShieldHealth"

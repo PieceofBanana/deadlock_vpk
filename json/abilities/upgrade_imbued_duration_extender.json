@@ -111,14 +111,14 @@
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
             },
             "ImbuedBonusDuration": {
-                "m_strValue": "32",
+                "m_strValue": "33",
                 "m_strCSSClass": "duration",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_BONUS_ABILITY_DURATION_PERCENTAGE",
                 "m_eApplyFilter": "EApplyFilter_OnlyIfImbued",
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             },
             "NonImbuedBonusDuration": {
-                "m_strValue": "26",
+                "m_strValue": "27",
                 "m_strCSSClass": "duration",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_BONUS_ABILITY_DURATION_PERCENTAGE",
                 "m_eDisplayType": "ETechDuration",

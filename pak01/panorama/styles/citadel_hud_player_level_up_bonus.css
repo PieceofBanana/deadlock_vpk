@@ -215,6 +215,17 @@ CitadelPlayerLevelUpBonuses.FadeOutLevelUpToast
 	opacity: 0.5;
 }
 
+.techResistUpgrade .TechResistImage
+{
+	visibility: visible;
+	background-image: url("s2r://panorama/images/hud/core/icon_armor_mystic.vsvg");
+	wash-color: offWhite;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	opacity: 0.5;
+}
+
 .weaponRangeUpgrade .WeaponRangeImage
 {
 	visibility: visible;

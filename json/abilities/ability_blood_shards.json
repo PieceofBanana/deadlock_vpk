@@ -127,17 +127,18 @@
                 "m_strValue": "6"
             },
             "MoveSpeedPenaltyPerStack": {
-                "m_strValue": "20",
+                "m_strValue": "15",
                 "m_strCSSClass": "slow"
             },
             "MinSlowAmount": {
                 "m_strValue": "0"
             },
             "VulnerabilityPerStack": {
-                "m_strValue": "15"
+                "m_strValue": "8",
+                "m_strCSSClass": "damage"
             },
             "DebuffDuration": {
-                "m_strValue": "13",
+                "m_strValue": "9",
                 "m_strCSSClass": "duration",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",
@@ -158,7 +159,7 @@
                 "m_strValue": "5"
             }
         },
-        "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
+        "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION | MODIFIER_STATE_IN_ABILITY_ALLOW_ZOOM",
         "_editor": {
             "folder_name": "Hero Ghost"
         },
@@ -254,6 +255,10 @@
                     {
                         "m_strPropertyName": "HealthToDamage",
                         "m_strBonus": "40"
+                    },
+                    {
+                        "m_strPropertyName": "VulnerabilityPerStack",
+                        "m_strBonus": "7"
                     }
                 ]
             },

@@ -127,7 +127,7 @@
                 "m_strConditionalLocTokenOverride": "#SurgeOfPower_conditional"
             },
             "BonusMoveSpeed": {
-                "m_strValue": "3m",
+                "m_strValue": "2m",
                 "m_strCSSClass": "move_speed",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_MOVEMENT_SPEED_MAX",
                 "m_UsageFlags": "APUsageFlag_ModifierConditional",
@@ -148,6 +148,19 @@
                 "m_eDisplayType": "EMaxHealth",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_HEALTH_MAX",
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
+            },
+            "MoveWhileShootingSpeedPenaltyReductionPercent": {
+                "m_strValue": "100",
+                "m_strCSSClass": "move_speed",
+                "m_bIsHidden": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_MOVEMENT_SPEED_WHILE_SHOOTING_PENALTY_REDUCTION_PERCENT",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
+            },
+            "MoveWhileZoomedSpeedPenaltyReductionPercent": {
+                "m_strValue": "100",
+                "m_strCSSClass": "move_speed",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_MOVEMENT_SPEED_WHILE_ZOOMED_PENALTY_REDUCTION_PERCENT",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
             }
         },
         "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
@@ -258,7 +271,9 @@
                     "m_bIsHidden": "true",
                     "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
                         "FireRateBonus",
-                        "BonusMoveSpeed"
+                        "BonusMoveSpeed",
+                        "MoveWhileShootingSpeedPenaltyReductionPercent",
+                        "MoveWhileZoomedSpeedPenaltyReductionPercent"
                     ],
                     "m_strHudMessageText": "#upgrade_magic_storm",
                     "m_strParticleEffect": "particles/upgrades/magic_storm_buff.vpcf"

@@ -35,11 +35,13 @@
             "m_eDebuffType": "MODIFIER_DEBUFF_NO",
             "m_strHudIcon": "file://{images}/hud/modifiers/icon_powerup.svg"
         },
+        "m_sAmbientLoopingSound": "amb.Powerup.Spirit_Lp",
         "m_Color": [
             "203",
             "143",
             "252"
         ],
-        "m_iTempParticleSheetIndex": "7"
+        "m_iTempParticleSheetIndex": "7",
+        "m_sAmbientSound": "Powerup.Casting_Lp"
     }
 }

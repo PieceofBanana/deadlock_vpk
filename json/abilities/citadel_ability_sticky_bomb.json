@@ -4,7 +4,7 @@
         "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "19.000000",
+                "m_strValue": "18.000000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -120,6 +120,10 @@
                 "m_strValue": "3.0",
                 "m_strCSSClass": "duration"
             },
+            "KillCheckWindow": {
+                "m_strValue": "12.0",
+                "m_strCSSClass": "duration"
+            },
             "Damage": {
                 "m_strValue": "120",
                 "m_strCSSClass": "tech_damage",
@@ -127,15 +131,15 @@
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_tech_damage",
                     "_my_subclass_name": "damage_scale",
-                    "m_flStatScale": "0.917280",
+                    "m_flStatScale": "1.200000",
                     "m_eSpecificStatScaleType": "ETechPower"
                 }
             },
-            "BonusDamagePctPerPlayerHit": {
-                "m_strValue": "3"
+            "BonusDamagePctPerPlayerKilled": {
+                "m_strValue": "5"
             },
-            "BonusLossPerDeath": {
-                "m_strValue": "2"
+            "BonusDamagePctPerPlayerHit": {
+                "m_strValue": "1"
             },
             "StunTargetOnExplode": {
                 "m_strValue": "0",
@@ -228,7 +232,7 @@
                 "m_vecPropertyUpgrades": [
                     {
                         "m_strPropertyName": "AbilityCooldown",
-                        "m_strBonus": "-7.500000"
+                        "m_strBonus": "-8"
                     }
                 ]
             },
@@ -273,6 +277,12 @@
                 "m_sLocalizationName": "MODIFIER_STATE_DISARMED"
             },
             "m_BombAttachedVictimTeamParticle": "particles/abilities/bebop/bebop_sticky_bomb_victimteam_debuff.vpcf"
+        },
+        "m_KillCheckModifier": {
+            "_class": "modifier_base",
+            "_my_subclass_name": "killcheck_modifier",
+            "m_bIsHidden": "true",
+            "m_bDurationReducible": "false"
         },
         "m_AbilityTooltipDetails": {
             "m_vecAbilityInfoSections": [

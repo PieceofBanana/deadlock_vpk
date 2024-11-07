@@ -148,7 +148,7 @@
                 "m_strValue": "30"
             },
             "MaxSlowPercent": {
-                "m_strValue": "50",
+                "m_strValue": "40",
                 "m_strCSSClass": "slow",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
                 "m_UsageFlags": "APUsageFlag_ModifierConditional"
@@ -322,7 +322,8 @@
             "m_eDrawOverheadStatus": "OVERHEAD_DRAW_FOR_CASTER_ONLY",
             "m_nEnabledStateMask": "MODIFIER_STATE_SLOWED",
             "m_strScreenParticleEffect": "",
-            "m_strParticleStatusEffect": "particles/status_fx/status_fx_kelvin_freeze.vpcf"
+            "m_strParticleStatusEffect": "particles/status_fx/status_fx_kelvin_freeze.vpcf",
+            "m_nStatusEffectPriority": "50"
         },
         "m_AutoChannelModifier": {
             "_my_subclass_name": "modifier_channel",

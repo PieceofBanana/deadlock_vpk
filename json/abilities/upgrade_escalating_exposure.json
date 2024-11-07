@@ -115,7 +115,7 @@
                 "m_strLocTokenOverride": "EscalatingExposureProcCooldown"
             },
             "MagicIncreasePerStack": {
-                "m_strValue": "5",
+                "m_strValue": "4",
                 "m_strCSSClass": "tech_armor_down"
             },
             "TechResist": {

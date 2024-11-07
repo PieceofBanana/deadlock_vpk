@@ -101,10 +101,13 @@
                 "m_strCSSClass": "cast"
             },
             "TechPower": {
-                "m_strValue": "0",
+                "m_strValue": "6",
                 "m_strDisableValue": "0",
                 "m_bCanSetTokenOverride": "true",
-                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_POWER"
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_POWER",
+                "m_eDisplayType": "ETechPower",
+                "m_strCSSClass": "tech_damage",
+                "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             },
             "WeaponPower": {
                 "m_strValue": "0",
@@ -112,21 +115,21 @@
                 "m_bCanSetTokenOverride": "true",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
             },
-            "BonusSpirit": {
-                "m_strValue": "14",
-                "m_eDisplayType": "ETechPower",
-                "m_strCSSClass": "tech_damage",
-                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_POWER",
-                "m_UsageFlags": "APUsageFlag_ModifierConditional"
-            },
-            "BonusSpiritDuration": {
-                "m_strValue": "10",
+            "BuffDuration": {
+                "m_strValue": "5",
                 "m_strCSSClass": "duration",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",
-                    "_my_subclass_name": "BonusSpiritDuration_scale_function",
+                    "_my_subclass_name": "BuffDuration_scale_function",
                     "m_eSpecificStatScaleType": "ETechDuration"
                 }
+            },
+            "TechResist": {
+                "m_strValue": "40",
+                "m_eDisplayType": "ETechArmorDamageReduction",
+                "m_strCSSClass": "tech_armor_up",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
             },
             "DampingFactor": {
                 "m_strValue": "3"
@@ -138,6 +141,13 @@
                 "m_strValue": "0m",
                 "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond",
                 "m_strCSSClass": "slow",
+                "m_eDisplayType": "EMaxMoveSpeed"
+            },
+            "BonusMoveSpeed": {
+                "m_strValue": "3m",
+                "m_strCSSClass": "move_speed",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_MOVEMENT_SPEED_MAX",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional",
                 "m_eDisplayType": "EMaxMoveSpeed"
             }
         },
@@ -204,6 +214,16 @@
         "m_CastParticle": "",
         "m_vecTooltipSectionInfo": [
             {
+                "m_eAbilitySectionType": "EArea_Innate",
+                "m_vecSectionAttributes": [
+                    {
+                        "m_vecAbilityProperties": [
+                            "TechPower"
+                        ]
+                    }
+                ]
+            },
+            {
                 "m_eAbilitySectionType": "EArea_Active",
                 "m_vecSectionAttributes": [
                     {
@@ -214,9 +234,10 @@
                             }
                         ],
                         "m_vecAbilityProperties": [
+                            "TechResist",
+                            "BonusMoveSpeed",
                             "AbilityCooldown",
-                            "BonusSpirit",
-                            "BonusSpiritDuration"
+                            "BuffDuration"
                         ]
                     }
                 ]
@@ -235,18 +256,30 @@
                 "_class": "modifier_base",
                 "_my_subclass_name": "modifier_shifting_veil_buff",
                 "m_sLocalizationName": "modifier_shifting_veil_buff",
-                "m_strHudMessageText": "#shifting_veil_bonus_spirit",
+                "m_strHudMessageText": "#shifting_veil_bonus",
                 "m_strParticleEffect": "particles/upgrades/spirit_power_amplification_buff.vpcf",
                 "m_LoopingSound": "",
                 "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
-                    "BonusSpirit"
+                    "TechResist",
+                    "BonusMoveSpeed"
                 ]
             },
             "m_EmpParticle": "",
             "m_EmpPlayerParticle": "",
             "m_EmpStatusParticle": "",
-            "m_strParticleStatusEffect": "particles/status_fx/status_fx_ethereal_shift.vpcf"
+            "m_strParticleStatusEffect": "particles/status_fx/status_fx_ethereal_shift.vpcf",
+            "m_nStatusEffectPriority": "25"
         },
+        "m_AutoIntrinsicModifiers": [
+            {
+                "_class": "modifier_base",
+                "_my_subclass_name": "intrinsic_stats",
+                "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
+                    "TechPower"
+                ],
+                "m_bIsHidden": "true"
+            }
+        ],
         "m_eShopFilters": "EShopFilterFireRate"
     }
 }

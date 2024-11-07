@@ -219,13 +219,14 @@
             "_class": "modifier_base",
             "_my_subclass_name": "modifier_fleetfoot_boots",
             "m_sLocalizationName": "modifier_fleetfoot_boots",
-            "m_strParticleStatusEffect": "particles/abilities/kali/kali_speed_boost_buff.vpcf",
+            "m_strParticleStatusEffect": "",
             "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
                 "ActiveBonusMoveSpeed"
             ],
             "m_bIsHidden": "false",
             "m_eDrawOverheadStatus": "OVERHEAD_DRAW_FOR_EVERYONE",
-            "m_strSmallIconCssClass": "fleetfoot_boots"
+            "m_strSmallIconCssClass": "fleetfoot_boots",
+            "m_strParticleEffect": "particles/upgrades/upgrade_fleet_foot_boost_buff.vpcf"
         },
         "m_FleetfootBootsBonusClipModifier": {
             "_class": "modifier_fleetfoot_boots_bonus_clip",

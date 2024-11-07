@@ -388,8 +388,8 @@
                 {
                     "m_strLocToken": "#AbilityButtonHint_BullLeapCrash",
                     "m_eHintSide": "EButtonSide_Right",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_strContext": "hovering"
+                    "m_strContext": "hovering",
+                    "m_nButton1": "IN_ATTACK"
                 }
             ]
         },

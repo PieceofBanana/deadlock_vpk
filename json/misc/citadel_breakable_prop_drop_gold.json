@@ -9,7 +9,7 @@
         "m_bDamagedByAbilities": "true",
         "m_bDamagedByMelee": "true",
         "m_bDamagedByBullets": "true",
-        "m_flInitialSpawnTime": "120.000000",
+        "m_flInitialSpawnTime": "180.000000",
         "m_flPrimaryDropChance": "40.000000",
         "_base": "citadel_breakable_prop_base",
         "_not_pickable": "2",

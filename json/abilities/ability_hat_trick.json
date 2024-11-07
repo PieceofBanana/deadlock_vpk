@@ -267,8 +267,8 @@
                 {
                     "m_strLocToken": "#AbilityButtonHint_HatTrickFire",
                     "m_eHintSide": "EButtonSide_Right",
-                    "m_eButton1": "EButtonHint_Attack",
-                    "m_strContext": "hint_speed"
+                    "m_strContext": "hint_speed",
+                    "m_nButton1": "IN_ATTACK"
                 }
             ]
         },

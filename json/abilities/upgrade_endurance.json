@@ -122,13 +122,6 @@
                 "m_eDisplayType": "EClipSizeIncrease",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_AMMO_CLIP_SIZE_PERCENT",
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
-            },
-            "BonusHealth": {
-                "m_strValue": "25",
-                "m_strCSSClass": "health",
-                "m_eDisplayType": "EMaxHealth",
-                "m_eProvidedPropertyType": "MODIFIER_VALUE_HEALTH_MAX",
-                "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             }
         },
         "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
@@ -198,8 +191,7 @@
                             "BonusHealthRegen"
                         ],
                         "m_vecAbilityProperties": [
-                            "BonusClipSizePercent",
-                            "BonusHealth"
+                            "BonusClipSizePercent"
                         ]
                     }
                 ]
@@ -211,8 +203,7 @@
                 "_my_subclass_name": "modifier_intrinsic_base",
                 "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
                     "BonusHealthRegen",
-                    "BonusClipSizePercent",
-                    "BonusHealth"
+                    "BonusClipSizePercent"
                 ]
             }
         ],

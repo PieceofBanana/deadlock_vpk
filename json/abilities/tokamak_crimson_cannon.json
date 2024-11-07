@@ -256,9 +256,9 @@
             "m_vecButtonHints": [
                 {
                     "m_strContext": "tokamak_crimson_cannnon_aiming",
-                    "m_eButton1": "EButtonHint_Attack",
                     "m_eHintSide": "EButtonSide_Right",
-                    "m_strLocToken": "#tokamak_crimson_cannnon_hint"
+                    "m_strLocToken": "#tokamak_crimson_cannnon_hint",
+                    "m_nButton1": "IN_ATTACK"
                 }
             ]
         }

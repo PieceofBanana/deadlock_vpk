@@ -366,7 +366,7 @@
 		},
 		
 		{
-			m_name = "Holliday_Upgrade_Rifle"
+			m_name = "Holliday_Upgrade_Crackshot"
 			m_notes = "ABILITY RELATED RESPONSES //"
 			m_responses = 
 			[
@@ -374,11 +374,6 @@
 				{
 					m_type = "SPEAK"
 					m_value = "holliday_upgrade_power3_01_hero_3d"
-				},
-				
-				{
-					m_type = "SPEAK"
-					m_value = "holliday_upgrade_power3_02_hero_3d"
 				},
 				
 				{
@@ -394,11 +389,6 @@
 				{
 					m_type = "SPEAK"
 					m_value = "holliday_upgrade_power3_05_hero_3d"
-				},
-				
-				{
-					m_type = "SPEAK"
-					m_value = "holliday_upgrade_power3_06_hero_3d"
 				},
 				
 				{
@@ -423,18 +413,18 @@
 			]
 			m_pEmbeddedRule = 
 			{
-				m_name = "Holliday_Upgrade_Rifle"
+				m_name = "Holliday_Upgrade_Crackshot"
 				m_Requirements = 
 				[
 					"ConceptUpgradeAbility",
 					"IsAstro",
-					"IsRifle",
+					"IsCrackshot",
 				]
 			}
 		},
 		
 		{
-			m_name = "Holliday_Use_Rifle"
+			m_name = "Holliday_Use_Crackshot"
 			m_notes = "ABILITY RELATED RESPONSES //"
 			m_responses = 
 			[
@@ -451,27 +441,7 @@
 				
 				{
 					m_type = "SPEAK"
-					m_value = "holliday_use_power3_02_ability_3d"
-					m_params = 
-					{
-						m_respeakdelay.start = 0.000000
-						m_predelay.start = 0.100000
-					}
-				},
-				
-				{
-					m_type = "SPEAK"
 					m_value = "holliday_use_power3_03_ability_3d"
-					m_params = 
-					{
-						m_respeakdelay.start = 0.000000
-						m_predelay.start = 0.100000
-					}
-				},
-				
-				{
-					m_type = "SPEAK"
-					m_value = "holliday_use_power3_04_ability_3d"
 					m_params = 
 					{
 						m_respeakdelay.start = 0.000000
@@ -541,12 +511,12 @@
 			]
 			m_pEmbeddedRule = 
 			{
-				m_name = "Holliday_Use_Rifle"
+				m_name = "Holliday_Use_Crackshot"
 				m_Requirements = 
 				[
 					"ConceptAbilityCast",
 					"IsAstro",
-					"IsRifle",
+					"IsCrackshot",
 				]
 			}
 		},
@@ -4357,7 +4327,7 @@
 			m_name = "IsAbilityBouncePad"
 			m_notes = "ConceptCustom reasons"
 			m_matchKey = "ability"
-			m_matchExpr = "bounce_pad"
+			m_matchExpr = "ability_bounce_pad"
 			m_bRequired = true
 		},
 		
@@ -4365,6 +4335,13 @@
 			m_name = "IsRifle"
 			m_matchKey = "ability_name"
 			m_matchExpr = "ability_astro_rifle"
+			m_bRequired = true
+		},
+		
+		{
+			m_name = "IsCrackshot"
+			m_matchKey = "ability_name"
+			m_matchExpr = "ability_crackshot"
 			m_bRequired = true
 		},
 	]

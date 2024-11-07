@@ -31,6 +31,7 @@
         "m_bUseKillerPlaneOffsets": "true",
         "m_flKillerPlaneOffset": "15.000000",
         "m_flOrbClaimWindow": "0.100000",
+        "m_sPredictedHitLimboGlowParticle": "particles/generic/spirit_orb_processing.vpcf",
         "_base": "xp_orb",
         "m_flKillerPlaneHorizontalDecayRate": "15.000000",
         "m_flLateralMoveDuration": "0.300000",

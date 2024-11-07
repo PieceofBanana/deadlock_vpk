@@ -1,6 +1,8 @@
 {
     "neutral_camp_midboss": {
         "_class": "info_neutral_trooper_camp",
+        "m_iSpawnIntervalChange": "-60",
+        "m_iSpawnIntervalMin": "300",
         "m_sIdleAmbient": "Neutral.Camp.Idle",
         "m_sAlertAmbient": "Neutral.Camp.Aggro",
         "_base": "info_neutral_trooper_camp",

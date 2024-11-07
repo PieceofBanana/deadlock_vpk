@@ -205,7 +205,7 @@
             "m_iBullets": "1",
             "m_flCycleTime": "0.300000",
             "m_reloadDuration": "1.500000",
-            "m_iClipSize": "10",
+            "m_iClipSize": "20",
             "m_iBurstShotCount": "1",
             "m_flBurstShotCooldown": "0",
             "m_flBulletGravityScale": "0.800000",

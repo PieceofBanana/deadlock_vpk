@@ -1,0 +1,26 @@
+{
+    "citadel_breakable_prop_pumpkin01": {
+        "_class": "citadel_breakable_prop",
+        "m_flRespawnTime": "180.000000",
+        "m_iHealth": "1",
+        "m_bBreakOnDodgeTouch": "true",
+        "m_bSolidAfterDeath": "false",
+        "m_bRenderAfterDeath": "false",
+        "m_bDamagedByAbilities": "true",
+        "m_bDamagedByMelee": "true",
+        "m_bDamagedByBullets": "true",
+        "m_flInitialSpawnTime": "180.000000",
+        "m_flPrimaryDropChance": "40.000000",
+        "_base": "citadel_breakable_prop_drop_gold",
+        "m_vecPrimaryPickups": [
+            {
+                "m_sPickup": "small_gold_pickup",
+                "m_flPickupWeight": "1.000000"
+            }
+        ],
+        "m_eRollType": "ECitadelRandomRoll_BreakableGoldPickup",
+        "m_hModel": "models/props/pumpkin_a.vmdl",
+        "m_bIsMantleable": "true",
+        "m_sBreakSound": "Pumpkin.Smash_Large"
+    }
+}

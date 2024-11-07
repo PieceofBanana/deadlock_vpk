@@ -4,7 +4,7 @@
         "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "5.500000",
+                "m_strValue": "6",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -123,7 +123,7 @@
                 "m_strValue": "100"
             },
             "BaseAttackDamagePercent": {
-                "m_strValue": "7",
+                "m_strValue": "6",
                 "m_eDisplayType": "EBaseWeaponDamageIncrease",
                 "m_strCSSClass": "bullet_damage",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",

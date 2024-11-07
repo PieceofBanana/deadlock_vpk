@@ -111,7 +111,7 @@
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
             },
             "LaunchWindowCooldown": {
-                "m_strValue": "32",
+                "m_strValue": "40",
                 "m_strCSSClass": "cooldown",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",
@@ -367,7 +367,7 @@
                 "m_vecPropertyUpgrades": [
                     {
                         "m_strPropertyName": "HealthSteal",
-                        "m_strBonus": "70"
+                        "m_strBonus": "80"
                     }
                 ]
             }

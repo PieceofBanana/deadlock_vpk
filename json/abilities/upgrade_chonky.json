@@ -111,7 +111,7 @@
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
             },
             "RestoreDelay": {
-                "m_strValue": "11"
+                "m_strValue": "10"
             },
             "HealLifePercentOutOfCombat": {
                 "m_strValue": "4"
@@ -126,13 +126,13 @@
                 "m_UsageFlags": "APUsageFlag_ModifierConditional"
             },
             "BaseAttackDamagePercent": {
-                "m_strValue": "25",
+                "m_strValue": "27",
                 "m_strCSSClass": "bullet_damage",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
                 "m_UsageFlags": "APUsageFlag_ModifierConditional"
             },
             "BonusHealth": {
-                "m_strValue": "325",
+                "m_strValue": "365",
                 "m_strCSSClass": "health",
                 "m_eDisplayType": "EMaxHealth",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_HEALTH_MAX",
@@ -256,6 +256,9 @@
                     "BonusHealth"
                 ]
             }
+        ],
+        "m_vecComponentItems": [
+            "upgrade_health"
         ],
         "m_eShopFilters": "EShopFilterWeaponDamage | EShopFilterDurability | EShopFilterHealing | EShopFilterMovement"
     }

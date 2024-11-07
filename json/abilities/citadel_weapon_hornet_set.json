@@ -185,7 +185,7 @@
             "m_flDamageFalloffEndScale": "0.100000",
             "m_flDamageFalloffBias": "0.500000",
             "m_iBullets": "1",
-            "m_flCycleTime": "0.260000",
+            "m_flCycleTime": "0.220000",
             "m_reloadDuration": "2.914000",
             "m_iClipSize": "22",
             "m_iBurstShotCount": "1",
@@ -266,7 +266,7 @@
             "m_strLowAmmoSound": "Player.WpnLowAmmo.Shared",
             "m_bBulletShouldUseVerlet": "true",
             "m_nLowAmmoIndicatorThreshold": "4",
-            "m_flBulletDamage": "17.680000",
+            "m_flBulletDamage": "14.960000",
             "m_nRecoilSeed": "123",
             "m_AimingMoveSpreadPenalty": [
                 "0.000000",

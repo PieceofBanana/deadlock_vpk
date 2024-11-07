@@ -262,7 +262,7 @@
                 "m_vecPropertyUpgrades": [
                     {
                         "m_strPropertyName": "DebuffDuration",
-                        "m_strBonus": "3.0"
+                        "m_strBonus": "2.5"
                     }
                 ]
             }

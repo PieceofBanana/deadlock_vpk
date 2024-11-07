@@ -15,12 +15,15 @@
                 }
             },
             "AbilityDuration": {
-                "m_strValue": "4",
+                "m_strValue": "3.2",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "duration",
                 "m_bCanSetTokenOverride": "true",
-                "m_subclassScaleFunction": "",
-                "m_bIsHidden": "true"
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
             },
             "AbilityCastRange": {
                 "m_strValue": "0",
@@ -140,9 +143,6 @@
                     "m_flStatScale": "0.458640"
                 }
             },
-            "Pulses": {
-                "m_strValue": "4"
-            },
             "DamageAmplificationPerStack": {
                 "m_strLocTokenOverride": "PulseGrenadeDamageAmplificationPerStack",
                 "m_strValue": "6",
@@ -252,8 +252,8 @@
             {
                 "m_vecPropertyUpgrades": [
                     {
-                        "m_strPropertyName": "Pulses",
-                        "m_strBonus": "1"
+                        "m_strPropertyName": "AbilityDuration",
+                        "m_strBonus": "0.8"
                     }
                 ]
             },
@@ -261,7 +261,7 @@
                 "m_vecPropertyUpgrades": [
                     {
                         "m_strPropertyName": "AbilityCooldown",
-                        "m_strBonus": "-7.500000"
+                        "m_strBonus": "-8"
                     }
                 ]
             },
@@ -273,7 +273,7 @@
                     },
                     {
                         "m_strPropertyName": "RadiusIncreasePerPulse",
-                        "m_strBonus": "1m"
+                        "m_strBonus": "0.75m"
                     }
                 ]
             }
@@ -288,9 +288,6 @@
                             "m_vecAbilityProperties": [
                                 {
                                     "m_strImportantProperty": "PulseDamage"
-                                },
-                                {
-                                    "m_strImportantProperty": "Pulses"
                                 },
                                 {
                                     "m_strImportantProperty": "DamageAmplificationPerStack"

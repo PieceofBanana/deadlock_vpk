@@ -321,6 +321,9 @@
             ]
         },
         "m_strSelectedLoopSound": "Ability.GhostSoldier.BloodBomb.Select.Lp",
-        "m_strCastSound": "Ghost.BloodBomb.Cast"
+        "m_strCastSound": "Ghost.BloodBomb.Cast",
+        "m_mapCastEventParticles": {
+            "CAST_COMPLETED": "particles/abilities/ghost/ghost_blood_shard_dagger_self_dmg.vpcf"
+        }
     }
 }

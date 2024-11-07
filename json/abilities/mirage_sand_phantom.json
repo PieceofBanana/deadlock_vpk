@@ -274,7 +274,7 @@
                 "m_vecPropertyUpgrades": [
                     {
                         "m_strPropertyName": "ProcCooldown",
-                        "m_strBonus": "-0.5"
+                        "m_strBonus": "-0.75"
                     },
                     {
                         "m_strPropertyName": "MaxStacks",
@@ -318,12 +318,9 @@
                 "m_ExplodeSound": "Upgrade.ExplosiveBullets.Explode",
                 "m_bRollOnceForAllBulletsInAShot": "false",
                 "m_bCanProcMultipleTimesFromSameShot": "false",
-                "m_bCanProcMultipleTimesOnOneTarget": "false",
                 "m_flMaxBulletsToProcInShot": "1",
-                "m_bShouldApplyAbilityCooldown": "true",
                 "m_TracerAdditionParticle": "particles/items/crackshot_tracer.vpcf",
                 "m_bRequiresTargetFilter": "true",
-                "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
                 "m_ProcReadyModifier": {
                     "_class": "modifier_mirage_sand_phantom_proc_ready",
                     "_my_subclass_name": "modifier_mirage_sand_phantom_proc_ready",
@@ -337,8 +334,6 @@
                     "_my_subclass_name": "modifier_mirage_sand_phantom_passive_victim",
                     "m_sLocalizationName": "modifier_mirage_sand_phantom_passive_victim",
                     "m_bIsHidden": "false",
-                    "m_OverheadParticle": "",
-                    "m_BuffStatusParticle": "particles/abilities/mirage/mirage_djinns_mark_stacks_buff.vpcf",
                     "m_ConsumeMaxStacksSound": "Mirage.A3.TempestWard.ConsumeMaxStacks",
                     "m_ApplyStackSound": "Mirage.A3.DjinnsMark.ApplyStack",
                     "m_ConsumeMaxStacksNonHeroSound": "Mirage.A3.TempestWard.ConsumeMaxStacks.NonHero",
@@ -350,14 +345,14 @@
                             "MovementSpeedSlow"
                         ]
                     },
-                    "m_BuffStatusVictimParticle": "particles/abilities/mirage/mirage_djinns_mark_stacks_victim_buff.vpcf",
                     "m_StackDamageParticle": "particles/abilities/mirage/mirage_djinns_mark_damage.vpcf",
                     "m_StackReadyParticle": "particles/abilities/mirage/mirage_djinns_mark_debuff_ready.vpcf",
                     "m_DebuffStatusPlayerParticle": "particles/abilities/mirage/mirage_djinns_mark_player_debuff.vpcf",
                     "m_DebuffStatusVictimParticle": "particles/abilities/mirage/mirage_djinns_mark_victim_debuff.vpcf",
                     "m_DebuffStatusNPCParticle": "particles/abilities/mirage/mirage_djinns_mark_npc_debuff.vpcf",
                     "m_eDrawOverheadStatus": "OVERHEAD_DRAW_FOR_CASTER_ONLY",
-                    "m_strSmallIconCssClass": "sand_phantom_passive_victim"
+                    "m_strSmallIconCssClass": "sand_phantom_passive_victim",
+                    "m_StackAppliedParticle": "particles/abilities/mirage/mirage_djinns_mark_applied.vpcf"
                 }
             }
         ],

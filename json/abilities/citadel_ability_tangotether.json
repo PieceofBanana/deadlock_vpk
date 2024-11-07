@@ -321,7 +321,8 @@
                 "m_nEnabledStateMask": "MODIFIER_STATE_COOP_TETHER_LOCKED_TARGET",
                 "m_bIsHidden": "true"
             },
-            "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER"
+            "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER",
+            "m_nStatusEffectPriority": "50"
         },
         "m_GrappleTargetModifier": {
             "_class": "citadel_modifier_tangotether_target",

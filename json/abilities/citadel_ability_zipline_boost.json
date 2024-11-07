@@ -213,11 +213,11 @@
         "m_HUDPanel": {
             "m_vecButtonHints": [
                 {
-                    "m_eButton1": "EButtonHint_Parry",
                     "m_strLocToken": "#AbilityButtonHint_ZipLineBoost",
                     "m_eHintSide": "EButtonSide_Right",
                     "m_bShowAbilityIcon": "true",
-                    "m_bIsHintShownWhileOnCooldown": "true"
+                    "m_bIsHintShownWhileOnCooldown": "true",
+                    "m_nButton1": "IN_ABILITY_HELD"
                 }
             ],
             "m_vecHUDElements": []

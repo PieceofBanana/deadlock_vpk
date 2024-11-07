@@ -119,7 +119,12 @@
             "BonusHealthRegen": {
                 "m_strValue": "40",
                 "m_strCSSClass": "healing",
-                "m_eProvidedPropertyType": "MODIFIER_VALUE_HEALTH_REGEN_PER_SECOND"
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_HEALTH_REGEN_PER_SECOND",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "HealMaxHealthPercent_scale_function",
+                    "m_eSpecificStatScaleType": "EHealingOutput"
+                }
             },
             "MaxHealthRegen": {
                 "m_strValue": "0",
@@ -262,20 +267,20 @@
             {
                 "m_vecPropertyUpgrades": [
                     {
-                        "m_strPropertyName": "AbilityCooldown",
-                        "m_strBonus": "-21.000000"
-                    },
-                    {
-                        "m_strPropertyName": "PurgeDebuffs",
-                        "m_strBonus": "1"
+                        "m_strPropertyName": "BonusHealthRegen",
+                        "m_strBonus": "35"
                     }
                 ]
             },
             {
                 "m_vecPropertyUpgrades": [
                     {
-                        "m_strPropertyName": "BonusHealthRegen",
-                        "m_strBonus": "60"
+                        "m_strPropertyName": "AbilityCooldown",
+                        "m_strBonus": "-21.000000"
+                    },
+                    {
+                        "m_strPropertyName": "PurgeDebuffs",
+                        "m_strBonus": "1"
                     }
                 ]
             }

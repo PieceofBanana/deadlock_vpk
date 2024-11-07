@@ -174,7 +174,7 @@
             },
             "m_flRecoilSpeed": "6.000000",
             "m_flZoomFOV": "35.000000",
-            "m_flDamageFalloffStartRange": "866.000000",
+            "m_flDamageFalloffStartRange": "787.402000",
             "m_flDamageFalloffEndRange": "1800.000000",
             "m_flRange": "7000.000000",
             "m_flBulletLifetime": "2",

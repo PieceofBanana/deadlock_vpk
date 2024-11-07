@@ -4,7 +4,7 @@
         "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "26.000000",
+                "m_strValue": "40.000000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -239,7 +239,7 @@
         "m_bDisabled": "false",
         "m_strCSSClass": "rocketBooster",
         "m_strAbilityImage": "file://{images}/hud/abilities/lash/lash_death_slam.psd",
-        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_REQUIRE_PREDICTION | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_MOVEMENT",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_REQUIRE_PREDICTION | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_MOVEMENT | CITADEL_ABILITY_BEHAVIOR_REQUIRE_ABILITY_BUTTON_TO_CANCEL",
         "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_ALL_ENEMY",
         "m_LaunchParticle": "particles/upgrades/rocket_boots.vpcf",
         "m_AoEPreviewParticle": "",
@@ -306,7 +306,8 @@
                 {
                     "m_strLocToken": "#upgrade_rocket_booster_drop_down",
                     "m_eHintSide": "EButtonSide_Right",
-                    "m_strContext": "trigger"
+                    "m_strContext": "trigger",
+                    "m_bButton1IsSlot": "true"
                 }
             ]
         },

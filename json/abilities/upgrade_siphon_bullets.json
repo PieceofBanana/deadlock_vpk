@@ -119,11 +119,14 @@
             "StealPerHit": {
                 "m_strValue": "1"
             },
+            "StealPerKill": {
+                "m_strValue": "1"
+            },
             "StackLostPerDeath": {
                 "m_strValue": "2"
             },
             "MaxStacks": {
-                "m_strValue": "99"
+                "m_strValue": "9999"
             },
             "StealDuration": {
                 "m_strValue": "20",
@@ -139,7 +142,7 @@
                 "m_strCSSClass": "cooldown"
             },
             "HealthSteal": {
-                "m_strValue": "50",
+                "m_strValue": "55",
                 "m_strCSSClass": "healing"
             },
             "ParticleRadius": {
@@ -248,7 +251,7 @@
             "m_vecScriptValues": [
                 {
                     "m_eModifierValue": "MODIFIER_VALUE_HEALTH_MAX",
-                    "m_value": "-45"
+                    "m_value": "-55"
                 }
             ]
         },

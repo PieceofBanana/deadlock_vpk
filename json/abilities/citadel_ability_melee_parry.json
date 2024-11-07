@@ -4,7 +4,7 @@
         "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "5",
+                "m_strValue": "4.500000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -210,7 +210,7 @@
             "m_bIsHidden": "true",
             "m_nEnabledStateMask": "MODIFIER_STATE_AI_FORCE_CALM"
         },
-        "m_flActiveTime": "0.700000",
+        "m_flActiveTime": "0.750000",
         "m_flWhiffDuration": "1.000000",
         "m_flMovementRestrictionTime": "0",
         "m_ParryCooldownModifier": {

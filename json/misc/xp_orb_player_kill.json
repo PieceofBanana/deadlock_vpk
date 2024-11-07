@@ -31,6 +31,7 @@
         "m_bUseKillerPlaneOffsets": "false",
         "m_flKillerPlaneOffset": "0",
         "m_flOrbClaimWindow": "0",
+        "m_sPredictedHitLimboGlowParticle": "particles/generic/spirit_orb_processing.vpcf",
         "_base": "xp_orb"
     }
 }

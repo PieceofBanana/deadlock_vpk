@@ -129,12 +129,12 @@
                 }
             },
             "BonusSprintSpeed": {
-                "m_strValue": "3m",
+                "m_strValue": "2m",
                 "m_strCSSClass": "move_speed",
                 "m_eDisplayType": "ESprintSpeed"
             },
             "TrailingTeamBonusSprintSpeed": {
-                "m_strValue": "5m",
+                "m_strValue": "6m",
                 "m_strCSSClass": "move_speed",
                 "m_eDisplayType": "ESprintSpeed"
             },
@@ -203,10 +203,15 @@
             "m_flTriggerRadius": "20",
             "m_nBehaviors": "PBF_BounceOffWall | PBF_DetonateOnHitWorld"
         },
+        "m_ItemModel": "models/null.vmdl",
         "m_flInstantGoldPercentage": "0.500000",
         "m_iComebackBounty": "130",
-        "m_iComebackGoldThreshold": "1500",
         "m_flCasterBonusPercent": "25",
+        "m_flRevealTime": "20",
+        "m_flDamageTickRate": "1.000000",
+        "m_flMaxHealthDamage": "0.010000",
+        "m_flTimeToDamage": "90.000000",
+        "m_flNoPickupTime": "12.000000",
         "m_DropoffTimerModifier": {
             "_class": "modifier_idol_return_timer",
             "_my_subclass_name": "timer",
@@ -222,15 +227,38 @@
             "_class": "modifier_citadel_holding_golden_idol",
             "_my_subclass_name": "modifier_citadel_holding_golden_idol",
             "m_IdolParticle": "particles/generic/idol_carry.vpcf",
-            "m_strParticleStatusEffect": "",
             "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER",
             "m_nAmbientLoopingSoundRecipients": "MODIFIER_SOUND_RECIPIENT_PARENT_IS_LOCAL_PLAYER",
-            "m_sLocalizationName": "modifier_citadel_holding_golden_idol",
-            "m_nEnabledStateMask": "MODIFIER_STATE_HOLDING_IDOL | MODIFIER_STATE_VISIBLE_TO_ENEMY | MODIFIER_STATE_TELEPORTER_DISABLED | MODIFIER_STATE_SILENCED | MODIFIER_STATE_MUTED | MODIFIER_STATE_DISARMED | MODIFIER_STATE_ZIPLINE_DISABLED",
+            "m_nEnabledStateMask": "MODIFIER_STATE_HOLDING_IDOL | MODIFIER_STATE_TELEPORTER_DISABLED | MODIFIER_STATE_SILENCED | MODIFIER_STATE_MUTED | MODIFIER_STATE_DISARMED | MODIFIER_STATE_ZIPLINE_DISABLED",
             "m_vecAlwaysShowInStatModifierUI": [
                 "MODIFIER_VALUE_SPRINT_SPEED_BONUS"
             ],
-            "m_strParticleEffect": "particles/environment/soul_jar_disarmed_debuff.vpcf"
+            "m_strParticleEffect": "particles/environment/soul_jar_disarmed_debuff.vpcf",
+            "m_sLocalizationName": "modifier_citadel_holding_golden_idol"
+        },
+        "m_RevealedHoldingIdolModifier": {
+            "_class": "modifier_citadel_holding_golden_idol",
+            "_my_subclass_name": "revealed_modifier_citadel_holding_golden_idol",
+            "m_IdolParticle": "particles/generic/idol_carry.vpcf",
+            "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER",
+            "m_nAmbientLoopingSoundRecipients": "MODIFIER_SOUND_RECIPIENT_PARENT_IS_LOCAL_PLAYER",
+            "m_nEnabledStateMask": "MODIFIER_STATE_HOLDING_IDOL | MODIFIER_STATE_TELEPORTER_DISABLED | MODIFIER_STATE_SILENCED | MODIFIER_STATE_MUTED | MODIFIER_STATE_DISARMED | MODIFIER_STATE_ZIPLINE_DISABLED",
+            "m_vecAlwaysShowInStatModifierUI": [
+                "MODIFIER_VALUE_SPRINT_SPEED_BONUS"
+            ],
+            "m_strParticleEffect": "particles/environment/soul_jar_disarmed_debuff.vpcf",
+            "m_sLocalizationName": "modifier_citadel_holding_golden_idol_revealed"
+        },
+        "m_NoPickupModifier": {
+            "_class": "modifier_base",
+            "_my_subclass_name": "no_pickup",
+            "m_bReverseHudProgressBar": "false",
+            "m_bIsHidden": "false",
+            "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER",
+            "m_sLocalizationName": "modifier_citadel_idol_pickup_disabled",
+            "m_nEnabledStateMask": "MODIFIER_STATE_DROP_IDOL",
+            "m_eDebuffType": "MODIFIER_DEBUFF_YES",
+            "m_bDurationReducible": "false"
         },
         "m_Bonus01": {
             "_class": "modifier_base",
@@ -247,10 +275,10 @@
         "m_HUDPanel": {
             "m_vecButtonHints": [
                 {
-                    "m_eButton1": "EButtonHint_Parry",
                     "m_strLocToken": "#AbilityButtonHint_DropIdol",
                     "m_eHintSide": "EButtonSide_Right",
-                    "m_bShowAbilityIcon": "true"
+                    "m_bShowAbilityIcon": "true",
+                    "m_nButton1": "IN_ABILITY_HELD"
                 }
             ]
         },

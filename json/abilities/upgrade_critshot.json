@@ -261,7 +261,8 @@
                     "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
                         "SlowPercent"
                     ]
-                }
+                },
+                "m_bCanBeEvaded": "false"
             },
             {
                 "_my_subclass_name": "crackshot_stats",

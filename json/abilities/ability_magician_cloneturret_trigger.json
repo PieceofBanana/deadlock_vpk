@@ -1,0 +1,33 @@
+{
+    "ability_magician_cloneturret_trigger": {
+        "_class": "citadel_base_trigger_ability",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_CASTABLE_WHILE_HIDDEN | CITADEL_ABILITY_BEHAVIOR_IGNORE_SELECTION_MASH_PROTECTION | CITADEL_ABILITY_BEHAVIOR_TRIGGER | CITADEL_ABILITY_BEHAVIOR_MOVEMENT",
+        "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_SELF",
+        "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_NONE",
+        "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_INSTANT_CAST",
+        "m_TriggerButtonPreReqButton": "",
+        "m_TriggerButtonOverride": "",
+        "m_eAbilitySpectatePriority": "CITADELTV_ABILITY_SPECTATE_PRIORITY_HIGH",
+        "m_bitsInterruptingStates": "MODIFIER_STATE_IMMOBILIZED | MODIFIER_STATE_STUNNED | MODIFIER_STATE_IS_ASLEEP",
+        "m_nAbilityTargetTypes": "",
+        "m_nAbilityTargetFlags": "",
+        "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
+        "m_TargetAbilityEffectsToApply": "",
+        "m_bShowTargetingPreviewWhileChanneling": "false",
+        "m_bShowTargetingPreviewWhileCasting": "false",
+        "m_eAbilityType": "EAbilityType_Innate",
+        "m_strCSSClass": "",
+        "m_strAbilityImage": "file://{images}/hud/abilities/ability_activate.psd",
+        "m_strMoviePreviewPath": "",
+        "m_bShowInPassiveItemsArea": "false",
+        "m_bForceShowHUDPanel": "false",
+        "m_bUsesFlightControls": "false",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
+        "m_strSecondaryStatName": "",
+        "m_strCastButtonLocToken": "",
+        "m_strAltCastButtonLocToken": "",
+        "m_AbilityToTrigger": "ability_magician_cloneturret",
+        "m_flMinCancelTime": "0.200000",
+        "m_bStartTrained": "true"
+    }
+}

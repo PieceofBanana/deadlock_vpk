@@ -28,6 +28,7 @@
 		"scripts/talker/generated_response_rules_hero_wrecker.vrr",
 		"scripts/talker/generated_response_rules_hero_synth.vrr",
 		"scripts/talker/generated_response_rules_hero_mirage.vrr",
+		"scripts/talker/generated_response_rules_hero_viper.vrr",
 	]
 	m_speakerType = "player"
 }

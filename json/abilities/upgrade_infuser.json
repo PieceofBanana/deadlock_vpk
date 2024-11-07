@@ -208,7 +208,6 @@
             "m_strHudMessageText": "",
             "m_bIsHidden": "false",
             "m_BuffParticle": "particles/upgrades/infuser_buff.vpcf",
-            "m_sStartSound": "Mods.Armor.Stimpack.Cast",
             "m_sAmbientLoopingSound": "Mods.Armor.Stimpack.Dur.Lp",
             "m_sExpiredSound": "Mods.Armor.Stimpack.End",
             "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [

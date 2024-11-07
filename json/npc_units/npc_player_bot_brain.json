@@ -5,6 +5,7 @@
         "m_flSightRangeNPCs": "1600.000000",
         "m_flSightRange": "1600.000000",
         "m_flTurnRate": "15.000000",
+        "m_navHull": "1",
         "m_flFaceTargetDistance": "1200.000000",
         "m_flJumpMaxRise": "350.000000",
         "m_flAirJumpMin": "200.000000",

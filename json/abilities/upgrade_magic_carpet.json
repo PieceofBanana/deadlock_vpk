@@ -221,7 +221,6 @@
         "m_flSummonVisualDuration": "2.000000",
         "m_flBurstSpeedBonus": "200.000000",
         "m_flBurstSpeedDuration": "0.500000",
-        "m_strCastSound": "Mods.Armor.RocketBoots.Cast",
         "m_SummonFlyingCarpetModifier": {
             "_class": "modifier_base",
             "_my_subclass_name": "modifier_magiccarpet_castbar",
@@ -254,9 +253,9 @@
             "m_sLocalizationName": "modifier_magiccarpet",
             "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER",
             "m_strHudMessageText": "#modifier_magiccarpet",
-            "m_sStartSound": "Inferno.FlameDash.Modifier.Start",
-            "m_sAmbientLoopingSound": "Inferno.FlameDash.Modifier.Lp",
-            "m_sExpiredSound": "Inferno.FlameDash.Modifier.Stop",
+            "m_sStartSound": "Item.MagicCarpet.Cast",
+            "m_sAmbientLoopingSound": "Item.MagicCarpet.Lp",
+            "m_sExpiredSound": "Item.MagicCarpet.End",
             "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
                 "FlyMoveSpeed"
             ],
@@ -344,6 +343,7 @@
                 ]
             }
         ],
-        "m_eShopFilters": "EShopFilterMovement"
+        "m_eShopFilters": "EShopFilterMovement",
+        "m_strCastDelaySound": "Item.MagicCarpet.Cast_Delay"
     }
 }

@@ -266,7 +266,7 @@
             "m_strLowAmmoSound": "Player.WpnLowAmmo.Shared",
             "m_bBulletShouldUseVerlet": "true",
             "m_nLowAmmoIndicatorThreshold": "4",
-            "m_flBulletDamage": "12.000000",
+            "m_flBulletDamage": "11.000000",
             "m_AimingShootSpreadPenalty": [
                 "0.000000",
                 "0.500000"

@@ -346,7 +346,7 @@ CitadelPlayerLevelDisplay Label
 	visibility: collapse;
 }
 
-.bulletResistUpgrade .BulletResist,.weaponRangeUpgrade .WeaponRange
+.bulletResistUpgrade .BulletResist,.techResistUpgrade .TechResist,.weaponRangeUpgrade .WeaponRange
 {
 	visibility: visible;
 }

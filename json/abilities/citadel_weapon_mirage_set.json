@@ -255,7 +255,7 @@
             "m_flShootSpreadPenaltyDecay": "2.500000",
             "m_flRecoilShotIndexRecoveryTimeFactor": "0.250000",
             "m_bCanZoom": "true",
-            "m_strWeaponImpactEffect": "particles/weapon_fx/default_tracer_impact.vpcf",
+            "m_strWeaponImpactEffect": "particles/weapon_fx/mirage/mirage_tracer_impact.vpcf",
             "m_flReloadMoveSpeed": "10000",
             "m_strLocalPlayerBulletImpactSound": "Player.Bullet.Impact.Hero",
             "m_strLocalPlayerBulletImpactHeavySound": "Player.Bullet.Impact.Hero.Large",

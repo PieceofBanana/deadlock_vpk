@@ -1,6 +1,8 @@
 {
     "neutral_camp_vaults_herotest": {
         "_class": "info_neutral_trooper_camp",
+        "m_iSpawnIntervalChange": "0",
+        "m_iSpawnIntervalMin": "0",
         "m_sIdleAmbient": "",
         "m_sAlertAmbient": "",
         "_base": "neutral_camp_vaults",

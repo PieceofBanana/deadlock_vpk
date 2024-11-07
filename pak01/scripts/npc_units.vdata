@@ -312,10 +312,12 @@
 		m_nMaxHealth = 300
 		m_flSightRangePlayers = 700.000000
 		m_flSightRangeNPCs = 1600.000000
+		m_flTurnRate = 360
 		m_hFootstepSounds = "trooper"
 		m_flTrooperDamageResistPct = 25.000000
 		m_flT1BossDamageResistPct = 28.000000
 		m_flT2BossDamageResistPct = 20.000000
+		m_flBarrackGuardianDamageResistPct = 0
 		m_flShieldDamageResistPct = 80.000000
 		m_flNearDeathDuration = 1.000000
 		m_flWalkSpeed = 240
@@ -387,13 +389,16 @@
 		m_TargetingLaserParticle = resource_name:"particles/weapon_fx/trooper_laser_target.vpcf"
 		m_TargetingEyeFlashParticle = resource_name:"particles/enemy_targeting_indicator.vpcf"
 		m_sCelebrationSound = soundevent:"Trooper.Objective.Win.Cheer"
-		m_flBarrackGuardianDamageResistPct = 67.500000
 		m_sTeam1MaterialGroupName = "Amber"
 		m_sTeam2MaterialGroupName = "Sapphire"
-		m_flT1BossDPSBase = 10.000000
-		m_flT1BossDPSMax = 47.000000
-		m_flT1BossDPSMaxTimeInSeconds = 600.000000
+		m_flT1BossDPS = 36.000000
+		m_flT1BossDPSBaseResist = 60.000000
+		m_flT1BossDPSMaxResist = -35.000000
+		m_flT1BossDPSMaxResistTimeInSeconds = 480.000000
 		m_flT2BossDPS = 80.000000
+		m_flT2BossDPSBaseResist = 60.000000
+		m_flT2BossDPSMaxResist = -30.000000
+		m_flT2BossDPSMaxResistTimeInSeconds = 840.000000
 		m_flT3BossDPS = 80.000000
 		m_flGeneratorBossDPS = 22
 		m_flBarrackBossDPS = 80.000000
@@ -560,10 +565,12 @@
 		m_nMaxHealth = 1
 		m_flSightRangePlayers = 700.000000
 		m_flSightRangeNPCs = 1600.000000
+		m_flTurnRate = 360
 		m_hFootstepSounds = "trooper"
 		m_flTrooperDamageResistPct = 25.000000
 		m_flT1BossDamageResistPct = 28.000000
 		m_flT2BossDamageResistPct = 20.000000
+		m_flBarrackGuardianDamageResistPct = 0
 		m_flShieldDamageResistPct = 80.000000
 		m_flNearDeathDuration = 0
 		m_flWalkSpeed = 240
@@ -635,13 +642,16 @@
 		m_TargetingLaserParticle = resource_name:"particles/weapon_fx/trooper_laser_target.vpcf"
 		m_TargetingEyeFlashParticle = resource_name:"particles/enemy_targeting_indicator.vpcf"
 		m_sCelebrationSound = soundevent:"Trooper.Objective.Win.Cheer"
-		m_flBarrackGuardianDamageResistPct = 67.500000
 		m_sTeam1MaterialGroupName = "Amber"
 		m_sTeam2MaterialGroupName = "Sapphire"
-		m_flT1BossDPSBase = 10.000000
-		m_flT1BossDPSMax = 47.000000
-		m_flT1BossDPSMaxTimeInSeconds = 600.000000
+		m_flT1BossDPS = 36.000000
+		m_flT1BossDPSBaseResist = 60.000000
+		m_flT1BossDPSMaxResist = -35.000000
+		m_flT1BossDPSMaxResistTimeInSeconds = 480.000000
 		m_flT2BossDPS = 80.000000
+		m_flT2BossDPSBaseResist = 60.000000
+		m_flT2BossDPSMaxResist = -30.000000
+		m_flT2BossDPSMaxResistTimeInSeconds = 840.000000
 		m_flT3BossDPS = 80.000000
 		m_flGeneratorBossDPS = 22
 		m_flBarrackBossDPS = 80.000000
@@ -814,10 +824,12 @@
 		m_nMaxHealth = 300
 		m_flSightRangePlayers = 700.000000
 		m_flSightRangeNPCs = 1600.000000
+		m_flTurnRate = 360
 		m_hFootstepSounds = "trooper"
 		m_flTrooperDamageResistPct = 25.000000
 		m_flT1BossDamageResistPct = 28.000000
 		m_flT2BossDamageResistPct = 20.000000
+		m_flBarrackGuardianDamageResistPct = 0
 		m_flShieldDamageResistPct = 80.000000
 		m_flNearDeathDuration = 1.000000
 		m_flWalkSpeed = 240
@@ -889,13 +901,16 @@
 		m_TargetingLaserParticle = resource_name:"particles/weapon_fx/trooper_laser_target.vpcf"
 		m_TargetingEyeFlashParticle = resource_name:"particles/enemy_targeting_indicator.vpcf"
 		m_sCelebrationSound = soundevent:"Trooper.Objective.Win.Cheer"
-		m_flBarrackGuardianDamageResistPct = 67.500000
 		m_sTeam1MaterialGroupName = "Amber"
 		m_sTeam2MaterialGroupName = "Sapphire"
-		m_flT1BossDPSBase = 10.000000
-		m_flT1BossDPSMax = 47.000000
-		m_flT1BossDPSMaxTimeInSeconds = 600.000000
+		m_flT1BossDPS = 36.000000
+		m_flT1BossDPSBaseResist = 60.000000
+		m_flT1BossDPSMaxResist = -35.000000
+		m_flT1BossDPSMaxResistTimeInSeconds = 480.000000
 		m_flT2BossDPS = 80.000000
+		m_flT2BossDPSBaseResist = 60.000000
+		m_flT2BossDPSMaxResist = -30.000000
+		m_flT2BossDPSMaxResistTimeInSeconds = 840.000000
 		m_flT3BossDPS = 80.000000
 		m_flGeneratorBossDPS = 22
 		m_flBarrackBossDPS = 80.000000
@@ -1062,10 +1077,12 @@
 		m_nMaxHealth = 300
 		m_flSightRangePlayers = 700.000000
 		m_flSightRangeNPCs = 1600.000000
+		m_flTurnRate = 360
 		m_hFootstepSounds = "trooper"
 		m_flTrooperDamageResistPct = 25.000000
 		m_flT1BossDamageResistPct = 28.000000
 		m_flT2BossDamageResistPct = 20.000000
+		m_flBarrackGuardianDamageResistPct = 0
 		m_flShieldDamageResistPct = 80.000000
 		m_flNearDeathDuration = 1.000000
 		m_flWalkSpeed = 240
@@ -1137,13 +1154,16 @@
 		m_TargetingLaserParticle = resource_name:"particles/weapon_fx/trooper_laser_target.vpcf"
 		m_TargetingEyeFlashParticle = resource_name:"particles/enemy_targeting_indicator.vpcf"
 		m_sCelebrationSound = soundevent:"Trooper.Objective.Win.Cheer"
-		m_flBarrackGuardianDamageResistPct = 67.500000
 		m_sTeam1MaterialGroupName = "Amber"
 		m_sTeam2MaterialGroupName = "Sapphire"
-		m_flT1BossDPSBase = 10.000000
-		m_flT1BossDPSMax = 47.000000
-		m_flT1BossDPSMaxTimeInSeconds = 600.000000
+		m_flT1BossDPS = 36.000000
+		m_flT1BossDPSBaseResist = 60.000000
+		m_flT1BossDPSMaxResist = -35.000000
+		m_flT1BossDPSMaxResistTimeInSeconds = 480.000000
 		m_flT2BossDPS = 80.000000
+		m_flT2BossDPSBaseResist = 60.000000
+		m_flT2BossDPSMaxResist = -30.000000
+		m_flT2BossDPSMaxResistTimeInSeconds = 840.000000
 		m_flT3BossDPS = 80.000000
 		m_flGeneratorBossDPS = 22
 		m_flBarrackBossDPS = 80.000000
@@ -1316,10 +1336,12 @@
 		m_nMaxHealth = 300
 		m_flSightRangePlayers = 700.000000
 		m_flSightRangeNPCs = 1600.000000
+		m_flTurnRate = 360
 		m_hFootstepSounds = "trooper"
 		m_flTrooperDamageResistPct = 25.000000
 		m_flT1BossDamageResistPct = 28.000000
 		m_flT2BossDamageResistPct = 20.000000
+		m_flBarrackGuardianDamageResistPct = 0
 		m_flShieldDamageResistPct = 80.000000
 		m_flNearDeathDuration = 1.000000
 		m_flWalkSpeed = 240
@@ -1391,13 +1413,16 @@
 		m_TargetingLaserParticle = resource_name:"particles/weapon_fx/trooper_laser_target.vpcf"
 		m_TargetingEyeFlashParticle = resource_name:"particles/enemy_targeting_indicator.vpcf"
 		m_sCelebrationSound = soundevent:"Trooper.Objective.Win.Cheer"
-		m_flBarrackGuardianDamageResistPct = 67.500000
 		m_sTeam1MaterialGroupName = "Amber"
 		m_sTeam2MaterialGroupName = "Sapphire"
-		m_flT1BossDPSBase = 10.000000
-		m_flT1BossDPSMax = 47.000000
-		m_flT1BossDPSMaxTimeInSeconds = 600.000000
+		m_flT1BossDPS = 36.000000
+		m_flT1BossDPSBaseResist = 60.000000
+		m_flT1BossDPSMaxResist = -35.000000
+		m_flT1BossDPSMaxResistTimeInSeconds = 480.000000
 		m_flT2BossDPS = 80.000000
+		m_flT2BossDPSBaseResist = 60.000000
+		m_flT2BossDPSMaxResist = -30.000000
+		m_flT2BossDPSMaxResistTimeInSeconds = 840.000000
 		m_flT3BossDPS = 80.000000
 		m_flGeneratorBossDPS = 22
 		m_flBarrackBossDPS = 80.000000
@@ -1564,10 +1589,12 @@
 		m_nMaxHealth = 260
 		m_flSightRangePlayers = 700.000000
 		m_flSightRangeNPCs = 1600.000000
+		m_flTurnRate = 360
 		m_hFootstepSounds = "trooper"
 		m_flTrooperDamageResistPct = 25.000000
 		m_flT1BossDamageResistPct = 28.000000
 		m_flT2BossDamageResistPct = 20.000000
+		m_flBarrackGuardianDamageResistPct = 0
 		m_flShieldDamageResistPct = 80.000000
 		m_flNearDeathDuration = 1.000000
 		m_flWalkSpeed = 240
@@ -1639,13 +1666,16 @@
 		m_TargetingLaserParticle = resource_name:"particles/weapon_fx/trooper_laser_target.vpcf"
 		m_TargetingEyeFlashParticle = resource_name:"particles/enemy_targeting_indicator.vpcf"
 		m_sCelebrationSound = soundevent:"Trooper.Objective.Win.Cheer"
-		m_flBarrackGuardianDamageResistPct = 67.500000
 		m_sTeam1MaterialGroupName = "Amber"
 		m_sTeam2MaterialGroupName = "Sapphire"
-		m_flT1BossDPSBase = 10.000000
-		m_flT1BossDPSMax = 47.000000
-		m_flT1BossDPSMaxTimeInSeconds = 600.000000
+		m_flT1BossDPS = 36.000000
+		m_flT1BossDPSBaseResist = 60.000000
+		m_flT1BossDPSMaxResist = -35.000000
+		m_flT1BossDPSMaxResistTimeInSeconds = 480.000000
 		m_flT2BossDPS = 80.000000
+		m_flT2BossDPSBaseResist = 60.000000
+		m_flT2BossDPSMaxResist = -30.000000
+		m_flT2BossDPSMaxResistTimeInSeconds = 840.000000
 		m_flT3BossDPS = 80.000000
 		m_flGeneratorBossDPS = 22
 		m_flBarrackBossDPS = 80.000000
@@ -1818,10 +1848,12 @@
 		m_nMaxHealth = 260
 		m_flSightRangePlayers = 700.000000
 		m_flSightRangeNPCs = 1600.000000
+		m_flTurnRate = 360
 		m_hFootstepSounds = "trooper"
 		m_flTrooperDamageResistPct = 25.000000
 		m_flT1BossDamageResistPct = 28.000000
 		m_flT2BossDamageResistPct = 20.000000
+		m_flBarrackGuardianDamageResistPct = 0
 		m_flShieldDamageResistPct = 80.000000
 		m_flNearDeathDuration = 1.000000
 		m_flWalkSpeed = 240
@@ -1893,13 +1925,16 @@
 		m_TargetingLaserParticle = resource_name:"particles/weapon_fx/trooper_laser_target.vpcf"
 		m_TargetingEyeFlashParticle = resource_name:"particles/enemy_targeting_indicator.vpcf"
 		m_sCelebrationSound = soundevent:"Trooper.Objective.Win.Cheer"
-		m_flBarrackGuardianDamageResistPct = 67.500000
 		m_sTeam1MaterialGroupName = "Amber"
 		m_sTeam2MaterialGroupName = "Sapphire"
-		m_flT1BossDPSBase = 10.000000
-		m_flT1BossDPSMax = 47.000000
-		m_flT1BossDPSMaxTimeInSeconds = 600.000000
+		m_flT1BossDPS = 36.000000
+		m_flT1BossDPSBaseResist = 60.000000
+		m_flT1BossDPSMaxResist = -35.000000
+		m_flT1BossDPSMaxResistTimeInSeconds = 480.000000
 		m_flT2BossDPS = 80.000000
+		m_flT2BossDPSBaseResist = 60.000000
+		m_flT2BossDPSMaxResist = -30.000000
+		m_flT2BossDPSMaxResistTimeInSeconds = 840.000000
 		m_flT3BossDPS = 80.000000
 		m_flGeneratorBossDPS = 22
 		m_flBarrackBossDPS = 80.000000
@@ -2072,10 +2107,12 @@
 		m_nMaxHealth = 260
 		m_flSightRangePlayers = 700.000000
 		m_flSightRangeNPCs = 1600.000000
+		m_flTurnRate = 360
 		m_hFootstepSounds = "trooper"
 		m_flTrooperDamageResistPct = 25.000000
 		m_flT1BossDamageResistPct = 28.000000
 		m_flT2BossDamageResistPct = 20.000000
+		m_flBarrackGuardianDamageResistPct = 0
 		m_flShieldDamageResistPct = 80.000000
 		m_flNearDeathDuration = 1.000000
 		m_flWalkSpeed = 240
@@ -2147,13 +2184,16 @@
 		m_TargetingLaserParticle = resource_name:"particles/weapon_fx/trooper_laser_target.vpcf"
 		m_TargetingEyeFlashParticle = resource_name:"particles/enemy_targeting_indicator.vpcf"
 		m_sCelebrationSound = soundevent:"Trooper.Objective.Win.Cheer"
-		m_flBarrackGuardianDamageResistPct = 67.500000
 		m_sTeam1MaterialGroupName = "Amber"
 		m_sTeam2MaterialGroupName = "Sapphire"
-		m_flT1BossDPSBase = 10.000000
-		m_flT1BossDPSMax = 47.000000
-		m_flT1BossDPSMaxTimeInSeconds = 600.000000
+		m_flT1BossDPS = 36.000000
+		m_flT1BossDPSBaseResist = 60.000000
+		m_flT1BossDPSMaxResist = -35.000000
+		m_flT1BossDPSMaxResistTimeInSeconds = 480.000000
 		m_flT2BossDPS = 80.000000
+		m_flT2BossDPSBaseResist = 60.000000
+		m_flT2BossDPSMaxResist = -30.000000
+		m_flT2BossDPSMaxResistTimeInSeconds = 840.000000
 		m_flT3BossDPS = 80.000000
 		m_flGeneratorBossDPS = 22
 		m_flBarrackBossDPS = 80.000000
@@ -2331,10 +2371,12 @@
 		m_nMaxHealth = 300
 		m_flSightRangePlayers = 700.000000
 		m_flSightRangeNPCs = 1600.000000
+		m_flTurnRate = 360
 		m_hFootstepSounds = "trooper"
 		m_flTrooperDamageResistPct = 55.000000
 		m_flT1BossDamageResistPct = 28.000000
 		m_flT2BossDamageResistPct = 20.000000
+		m_flBarrackGuardianDamageResistPct = 0
 		m_flShieldDamageResistPct = 80.000000
 		m_flNearDeathDuration = 1.000000
 		m_flWalkSpeed = 240
@@ -2406,20 +2448,22 @@
 		m_TargetingLaserParticle = resource_name:"particles/weapon_fx/trooper_laser_target.vpcf"
 		m_TargetingEyeFlashParticle = resource_name:"particles/enemy_targeting_indicator.vpcf"
 		m_sCelebrationSound = soundevent:"Trooper.Objective.Win.Cheer"
-		m_flBarrackGuardianDamageResistPct = 67.500000
 		m_sTeam1MaterialGroupName = "Amber"
 		m_sTeam2MaterialGroupName = "Sapphire"
-		m_flT1BossDPSBase = 10.000000
-		m_flT1BossDPSMax = 47.000000
-		m_flT1BossDPSMaxTimeInSeconds = 600.000000
+		m_flT1BossDPS = 83.600000
+		m_flT1BossDPSBaseResist = 60.000000
+		m_flT1BossDPSMaxResist = -35.000000
+		m_flT1BossDPSMaxResistTimeInSeconds = 480.000000
 		m_flT2BossDPS = 209.000000
+		m_flT2BossDPSBaseResist = 60.000000
+		m_flT2BossDPSMaxResist = -30.000000
+		m_flT2BossDPSMaxResistTimeInSeconds = 840.000000
 		m_flT3BossDPS = 209.000000
 		m_flGeneratorBossDPS = 41.800000
 		m_flBarrackBossDPS = 209.000000
 		m_flPlayerDPS = 42.000000
 		m_flTrooperDPS = 66.500000
 		m_flModelScale = 1.100000
-		m_flT1BossDPS = 83.600000
 	}
 	super_trooper_medic = 
 	{
@@ -2581,10 +2625,12 @@
 		m_nMaxHealth = 260
 		m_flSightRangePlayers = 700.000000
 		m_flSightRangeNPCs = 1600.000000
+		m_flTurnRate = 360
 		m_hFootstepSounds = "trooper"
 		m_flTrooperDamageResistPct = 55.000000
 		m_flT1BossDamageResistPct = 28.000000
 		m_flT2BossDamageResistPct = 20.000000
+		m_flBarrackGuardianDamageResistPct = 0
 		m_flShieldDamageResistPct = 80.000000
 		m_flNearDeathDuration = 1.000000
 		m_flWalkSpeed = 240
@@ -2656,13 +2702,16 @@
 		m_TargetingLaserParticle = resource_name:"particles/weapon_fx/trooper_laser_target.vpcf"
 		m_TargetingEyeFlashParticle = resource_name:"particles/enemy_targeting_indicator.vpcf"
 		m_sCelebrationSound = soundevent:"Trooper.Objective.Win.Cheer"
-		m_flBarrackGuardianDamageResistPct = 67.500000
 		m_sTeam1MaterialGroupName = "Amber"
 		m_sTeam2MaterialGroupName = "Sapphire"
-		m_flT1BossDPSBase = 10.000000
-		m_flT1BossDPSMax = 47.000000
-		m_flT1BossDPSMaxTimeInSeconds = 600.000000
+		m_flT1BossDPS = 83.600000
+		m_flT1BossDPSBaseResist = 60.000000
+		m_flT1BossDPSMaxResist = -35.000000
+		m_flT1BossDPSMaxResistTimeInSeconds = 480.000000
 		m_flT2BossDPS = 209.000000
+		m_flT2BossDPSBaseResist = 60.000000
+		m_flT2BossDPSMaxResist = -30.000000
+		m_flT2BossDPSMaxResistTimeInSeconds = 840.000000
 		m_flT3BossDPS = 209.000000
 		m_flGeneratorBossDPS = 41.800000
 		m_flBarrackBossDPS = 209.000000
@@ -2675,7 +2724,6 @@
 		}
 		m_MedicHealActiveParticle = resource_name:"particles/trooper/trooper_medic_chargeup.vpcf"
 		m_flModelScale = 1.100000
-		m_flT1BossDPS = 83.600000
 	}
 	super_trooper_melee = 
 	{
@@ -2837,10 +2885,12 @@
 		m_nMaxHealth = 400
 		m_flSightRangePlayers = 700.000000
 		m_flSightRangeNPCs = 1600.000000
+		m_flTurnRate = 360
 		m_hFootstepSounds = "trooper"
 		m_flTrooperDamageResistPct = 55.000000
 		m_flT1BossDamageResistPct = 28.000000
 		m_flT2BossDamageResistPct = 20.000000
+		m_flBarrackGuardianDamageResistPct = 0
 		m_flShieldDamageResistPct = 80.000000
 		m_flNearDeathDuration = 1.000000
 		m_flWalkSpeed = 320
@@ -2912,13 +2962,16 @@
 		m_TargetingLaserParticle = resource_name:"particles/weapon_fx/trooper_laser_target.vpcf"
 		m_TargetingEyeFlashParticle = resource_name:"particles/enemy_targeting_indicator.vpcf"
 		m_sCelebrationSound = soundevent:"Trooper.Objective.Win.Cheer"
-		m_flBarrackGuardianDamageResistPct = 67.500000
 		m_sTeam1MaterialGroupName = "Amber"
 		m_sTeam2MaterialGroupName = "Sapphire"
-		m_flT1BossDPSBase = 10.000000
-		m_flT1BossDPSMax = 47.000000
-		m_flT1BossDPSMaxTimeInSeconds = 600.000000
+		m_flT1BossDPS = 83.600000
+		m_flT1BossDPSBaseResist = 60.000000
+		m_flT1BossDPSMaxResist = -35.000000
+		m_flT1BossDPSMaxResistTimeInSeconds = 480.000000
 		m_flT2BossDPS = 209.000000
+		m_flT2BossDPSBaseResist = 60.000000
+		m_flT2BossDPSMaxResist = -30.000000
+		m_flT2BossDPSMaxResistTimeInSeconds = 840.000000
 		m_flT3BossDPS = 209.000000
 		m_flGeneratorBossDPS = 41.800000
 		m_flBarrackBossDPS = 209.000000
@@ -2926,7 +2979,6 @@
 		m_flTrooperDPS = 66.500000
 		m_TrooperType = "TROOPER_MELEE"
 		m_flModelScale = 1.100000
-		m_flT1BossDPS = 83.600000
 	}
 	trooper_melee = 
 	{
@@ -3088,10 +3140,12 @@
 		m_nMaxHealth = 400
 		m_flSightRangePlayers = 700.000000
 		m_flSightRangeNPCs = 1600.000000
+		m_flTurnRate = 360
 		m_hFootstepSounds = "trooper"
 		m_flTrooperDamageResistPct = 25.000000
 		m_flT1BossDamageResistPct = 28.000000
 		m_flT2BossDamageResistPct = 20.000000
+		m_flBarrackGuardianDamageResistPct = 0
 		m_flShieldDamageResistPct = 80.000000
 		m_flNearDeathDuration = 1.000000
 		m_flWalkSpeed = 320
@@ -3163,13 +3217,16 @@
 		m_TargetingLaserParticle = resource_name:"particles/weapon_fx/trooper_laser_target.vpcf"
 		m_TargetingEyeFlashParticle = resource_name:"particles/enemy_targeting_indicator.vpcf"
 		m_sCelebrationSound = soundevent:"Trooper.Objective.Win.Cheer"
-		m_flBarrackGuardianDamageResistPct = 67.500000
 		m_sTeam1MaterialGroupName = "Amber"
 		m_sTeam2MaterialGroupName = "Sapphire"
-		m_flT1BossDPSBase = 10.000000
-		m_flT1BossDPSMax = 47.000000
-		m_flT1BossDPSMaxTimeInSeconds = 600.000000
+		m_flT1BossDPS = 36.000000
+		m_flT1BossDPSBaseResist = 60.000000
+		m_flT1BossDPSMaxResist = -35.000000
+		m_flT1BossDPSMaxResistTimeInSeconds = 480.000000
 		m_flT2BossDPS = 80.000000
+		m_flT2BossDPSBaseResist = 60.000000
+		m_flT2BossDPSMaxResist = -30.000000
+		m_flT2BossDPSMaxResistTimeInSeconds = 840.000000
 		m_flT3BossDPS = 80.000000
 		m_flGeneratorBossDPS = 22
 		m_flBarrackBossDPS = 80.000000
@@ -3337,10 +3394,12 @@
 		m_nMaxHealth = 400
 		m_flSightRangePlayers = 700.000000
 		m_flSightRangeNPCs = 1600.000000
+		m_flTurnRate = 360
 		m_hFootstepSounds = "trooper"
 		m_flTrooperDamageResistPct = 25.000000
 		m_flT1BossDamageResistPct = 28.000000
 		m_flT2BossDamageResistPct = 20.000000
+		m_flBarrackGuardianDamageResistPct = 0
 		m_flShieldDamageResistPct = 80.000000
 		m_flNearDeathDuration = 1.000000
 		m_flWalkSpeed = 320
@@ -3412,13 +3471,16 @@
 		m_TargetingLaserParticle = resource_name:"particles/weapon_fx/trooper_laser_target.vpcf"
 		m_TargetingEyeFlashParticle = resource_name:"particles/enemy_targeting_indicator.vpcf"
 		m_sCelebrationSound = soundevent:"Trooper.Objective.Win.Cheer"
-		m_flBarrackGuardianDamageResistPct = 67.500000
 		m_sTeam1MaterialGroupName = "Amber"
 		m_sTeam2MaterialGroupName = "Sapphire"
-		m_flT1BossDPSBase = 10.000000
-		m_flT1BossDPSMax = 47.000000
-		m_flT1BossDPSMaxTimeInSeconds = 600.000000
+		m_flT1BossDPS = 36.000000
+		m_flT1BossDPSBaseResist = 60.000000
+		m_flT1BossDPSMaxResist = -35.000000
+		m_flT1BossDPSMaxResistTimeInSeconds = 480.000000
 		m_flT2BossDPS = 80.000000
+		m_flT2BossDPSBaseResist = 60.000000
+		m_flT2BossDPSMaxResist = -30.000000
+		m_flT2BossDPSMaxResistTimeInSeconds = 840.000000
 		m_flT3BossDPS = 80.000000
 		m_flGeneratorBossDPS = 22
 		m_flBarrackBossDPS = 80.000000
@@ -3591,10 +3653,12 @@
 		m_nMaxHealth = 400
 		m_flSightRangePlayers = 700.000000
 		m_flSightRangeNPCs = 1600.000000
+		m_flTurnRate = 360
 		m_hFootstepSounds = "trooper"
 		m_flTrooperDamageResistPct = 25.000000
 		m_flT1BossDamageResistPct = 28.000000
 		m_flT2BossDamageResistPct = 20.000000
+		m_flBarrackGuardianDamageResistPct = 0
 		m_flShieldDamageResistPct = 80.000000
 		m_flNearDeathDuration = 1.000000
 		m_flWalkSpeed = 320
@@ -3666,13 +3730,16 @@
 		m_TargetingLaserParticle = resource_name:"particles/weapon_fx/trooper_laser_target.vpcf"
 		m_TargetingEyeFlashParticle = resource_name:"particles/enemy_targeting_indicator.vpcf"
 		m_sCelebrationSound = soundevent:"Trooper.Objective.Win.Cheer"
-		m_flBarrackGuardianDamageResistPct = 67.500000
 		m_sTeam1MaterialGroupName = "Amber"
 		m_sTeam2MaterialGroupName = "Sapphire"
-		m_flT1BossDPSBase = 10.000000
-		m_flT1BossDPSMax = 47.000000
-		m_flT1BossDPSMaxTimeInSeconds = 600.000000
+		m_flT1BossDPS = 36.000000
+		m_flT1BossDPSBaseResist = 60.000000
+		m_flT1BossDPSMaxResist = -35.000000
+		m_flT1BossDPSMaxResistTimeInSeconds = 480.000000
 		m_flT2BossDPS = 80.000000
+		m_flT2BossDPSBaseResist = 60.000000
+		m_flT2BossDPSMaxResist = -30.000000
+		m_flT2BossDPSMaxResistTimeInSeconds = 840.000000
 		m_flT3BossDPS = 80.000000
 		m_flGeneratorBossDPS = 22
 		m_flBarrackBossDPS = 80.000000
@@ -3840,10 +3907,12 @@
 		m_nMaxHealth = 300
 		m_flSightRangePlayers = 700.000000
 		m_flSightRangeNPCs = 1600.000000
+		m_flTurnRate = 360
 		m_hFootstepSounds = "trooper"
 		m_flTrooperDamageResistPct = 25.000000
 		m_flT1BossDamageResistPct = 0.000000
 		m_flT2BossDamageResistPct = 0.000000
+		m_flBarrackGuardianDamageResistPct = 0
 		m_flShieldDamageResistPct = 80.000000
 		m_flNearDeathDuration = 1.000000
 		m_flWalkSpeed = 240
@@ -3915,13 +3984,16 @@
 		m_TargetingLaserParticle = resource_name:"particles/weapon_fx/trooper_laser_target.vpcf"
 		m_TargetingEyeFlashParticle = resource_name:"particles/enemy_targeting_indicator.vpcf"
 		m_sCelebrationSound = soundevent:"Trooper.Objective.Win.Cheer"
-		m_flBarrackGuardianDamageResistPct = 67.500000
 		m_sTeam1MaterialGroupName = "Amber"
 		m_sTeam2MaterialGroupName = "Sapphire"
-		m_flT1BossDPSBase = 10.000000
-		m_flT1BossDPSMax = 47.000000
-		m_flT1BossDPSMaxTimeInSeconds = 600.000000
+		m_flT1BossDPS = 36.000000
+		m_flT1BossDPSBaseResist = 60.000000
+		m_flT1BossDPSMaxResist = -35.000000
+		m_flT1BossDPSMaxResistTimeInSeconds = 480.000000
 		m_flT2BossDPS = 80.000000
+		m_flT2BossDPSBaseResist = 60.000000
+		m_flT2BossDPSMaxResist = -30.000000
+		m_flT2BossDPSMaxResistTimeInSeconds = 840.000000
 		m_flT3BossDPS = 80.000000
 		m_flGeneratorBossDPS = 22
 		m_flBarrackBossDPS = 80.000000
@@ -4087,10 +4159,12 @@
 		m_nMaxHealth = 5500
 		m_flSightRangePlayers = 1500.000000
 		m_flSightRangeNPCs = 1500.000000
+		m_flTurnRate = 360
 		m_hFootstepSounds = "trooper"
 		m_flTrooperDamageResistPct = 25.000000
 		m_flT1BossDamageResistPct = 28.000000
 		m_flT2BossDamageResistPct = 20.000000
+		m_flBarrackGuardianDamageResistPct = 0
 		m_flShieldDamageResistPct = 80.000000
 		m_flNearDeathDuration = 1.000000
 		m_flWalkSpeed = 240
@@ -4162,13 +4236,16 @@
 		m_TargetingLaserParticle = resource_name:"particles/weapon_fx/trooper_laser_target.vpcf"
 		m_TargetingEyeFlashParticle = resource_name:"particles/enemy_targeting_indicator.vpcf"
 		m_sCelebrationSound = soundevent:"Trooper.Objective.Win.Cheer"
-		m_flBarrackGuardianDamageResistPct = 67.500000
 		m_sTeam1MaterialGroupName = "Amber"
 		m_sTeam2MaterialGroupName = "Sapphire"
-		m_flT1BossDPSBase = 10.000000
-		m_flT1BossDPSMax = 47.000000
-		m_flT1BossDPSMaxTimeInSeconds = 600.000000
+		m_flT1BossDPS = 36.000000
+		m_flT1BossDPSBaseResist = 60.000000
+		m_flT1BossDPSMaxResist = -35.000000
+		m_flT1BossDPSMaxResistTimeInSeconds = 480.000000
 		m_flT2BossDPS = 80.000000
+		m_flT2BossDPSBaseResist = 60.000000
+		m_flT2BossDPSMaxResist = -30.000000
+		m_flT2BossDPSMaxResistTimeInSeconds = 840.000000
 		m_flT3BossDPS = 80.000000
 		m_flGeneratorBossDPS = 22
 		m_flBarrackBossDPS = 80.000000
@@ -4177,7 +4254,6 @@
 		m_flModelScale = 1.000000
 		m_navHull = 1
 		m_flPhysicsImpulseMultiplier = 0.000000
-		m_flTurnRate = 360
 		m_bMitigateDamageFromPlayers = true
 		m_flBeamWeaponWidth = 6.000000
 		m_flBeamTurnRate = 360
@@ -4187,7 +4263,7 @@
 		m_BeamPointStartLoopSound = soundevent:"Guardian.Tier1.Wpn.Point.Begin.Lp"
 		m_BeamPointEndLoopSound = soundevent:"Guardian.Tier1.Wpn.Point.End.Lp"
 		m_BeamPointClosestLoopSound = soundevent:"Guardian.Tier1.Wpn.Point.Closest.Lp"
-		m_flInvulRange = 748.031000
+		m_flInvulRange = 944.882000
 		m_flMinMeleeAttackTime = 1.500000
 		m_TrooperBossInvulnModifier = subclass:
 		{
@@ -4348,15 +4424,17 @@
 			m_flBulletRadiusVsWorld = 1
 		}
 		_base = "npc_boss_tier1"
-		_class = "npc_trooper_boss"
+		_class = "npc_barrack_boss"
 		m_sModelName = resource_name:"models/npc/boss_tier_01_brazier_guardian/boss_tier_01_brazier_guardian.vmdl"
 		m_nMaxHealth = 4300
 		m_flSightRangePlayers = 1500.000000
 		m_flSightRangeNPCs = 1500.000000
+		m_flTurnRate = 360
 		m_hFootstepSounds = "trooper"
 		m_flTrooperDamageResistPct = 25.000000
 		m_flT1BossDamageResistPct = 28.000000
 		m_flT2BossDamageResistPct = 20.000000
+		m_flBarrackGuardianDamageResistPct = 0
 		m_flShieldDamageResistPct = 80.000000
 		m_flNearDeathDuration = 1.000000
 		m_flWalkSpeed = 240
@@ -4428,13 +4506,16 @@
 		m_TargetingLaserParticle = resource_name:"particles/weapon_fx/trooper_laser_target.vpcf"
 		m_TargetingEyeFlashParticle = resource_name:"particles/enemy_targeting_indicator.vpcf"
 		m_sCelebrationSound = soundevent:"Trooper.Objective.Win.Cheer"
-		m_flBarrackGuardianDamageResistPct = 67.500000
 		m_sTeam1MaterialGroupName = "Amber"
 		m_sTeam2MaterialGroupName = "Sapphire"
-		m_flT1BossDPSBase = 10.000000
-		m_flT1BossDPSMax = 47.000000
-		m_flT1BossDPSMaxTimeInSeconds = 600.000000
+		m_flT1BossDPS = 36.000000
+		m_flT1BossDPSBaseResist = 60.000000
+		m_flT1BossDPSMaxResist = -35.000000
+		m_flT1BossDPSMaxResistTimeInSeconds = 480.000000
 		m_flT2BossDPS = 80.000000
+		m_flT2BossDPSBaseResist = 60.000000
+		m_flT2BossDPSMaxResist = -30.000000
+		m_flT2BossDPSMaxResistTimeInSeconds = 840.000000
 		m_flT3BossDPS = 80.000000
 		m_flGeneratorBossDPS = 22
 		m_flBarrackBossDPS = 80.000000
@@ -4443,7 +4524,6 @@
 		m_flModelScale = 1.000000
 		m_navHull = 1
 		m_flPhysicsImpulseMultiplier = 0.000000
-		m_flTurnRate = 360
 		m_bMitigateDamageFromPlayers = false
 		m_flBeamWeaponWidth = 6.000000
 		m_flBeamTurnRate = 360
@@ -4453,15 +4533,15 @@
 		m_BeamPointStartLoopSound = soundevent:"Guardian.Tier1.Wpn.Point.Begin.Lp"
 		m_BeamPointEndLoopSound = soundevent:"Guardian.Tier1.Wpn.Point.End.Lp"
 		m_BeamPointClosestLoopSound = soundevent:"Guardian.Tier1.Wpn.Point.Closest.Lp"
-		m_flInvulRange = 748.031000
+		m_flInvulRange = 944.882000
 		m_flMinMeleeAttackTime = 1.500000
 		m_TrooperBossInvulnModifier = subclass:
 		{
 			_my_subclass_name = "trooper_boss_invuln"
 			_class = "modifier_boss_invuln"
 		}
-		m_bBarracksGuardian = true
 		m_flPlayerAutoAttackRange = 950.000000
+		m_flBackDoorProtectionRange = 2000.000000
 		m_BackdoorProtectionModifier = subclass:
 		{
 			_class = "modifier_citadel_backdoor_protection"
@@ -4479,26 +4559,12 @@
 			m_BulletResist = 40
 			m_BulletResistReductionPerHero = 20
 		}
-		m_ObjectiveRegen = subclass:
-		{
-			_class = "modifier_citadel_objective_regen"
-			_my_subclass_name = "modifier_citadel_objective_regen"
-			m_flOutOfCombatHealthRegen = 130
-			m_flOutOfCombatRegenDelay = 60
-		}
 	}
 	destroyable_building = 
 	{
 		_class = "destroyable_building"
 		m_iMaxHealthFinal = 13000
 		m_iMaxHealthGenerator = 4000
-		m_ObjectiveRegen = subclass:
-		{
-			_class = "modifier_citadel_objective_regen"
-			_my_subclass_name = "modifier_citadel_objective_regen"
-			m_flOutOfCombatHealthRegen = 160
-			m_flOutOfCombatRegenDelay = 60
-		}
 		m_BackdoorBulletResistModifier = subclass:
 		{
 			_class = "modifier_citadel_objective_bullet_resist"
@@ -4665,10 +4731,12 @@
 		m_nMaxHealth = 5500
 		m_flSightRangePlayers = 1500.000000
 		m_flSightRangeNPCs = 1500.000000
+		m_flTurnRate = 360
 		m_hFootstepSounds = "trooper"
 		m_flTrooperDamageResistPct = 25.000000
 		m_flT1BossDamageResistPct = 28.000000
 		m_flT2BossDamageResistPct = 20.000000
+		m_flBarrackGuardianDamageResistPct = 0
 		m_flShieldDamageResistPct = 80.000000
 		m_flNearDeathDuration = 1.000000
 		m_flWalkSpeed = 240
@@ -4740,13 +4808,16 @@
 		m_TargetingLaserParticle = resource_name:"particles/weapon_fx/trooper_laser_target.vpcf"
 		m_TargetingEyeFlashParticle = resource_name:"particles/enemy_targeting_indicator.vpcf"
 		m_sCelebrationSound = soundevent:"Trooper.Objective.Win.Cheer"
-		m_flBarrackGuardianDamageResistPct = 67.500000
 		m_sTeam1MaterialGroupName = "Amber"
 		m_sTeam2MaterialGroupName = "Sapphire"
-		m_flT1BossDPSBase = 10.000000
-		m_flT1BossDPSMax = 47.000000
-		m_flT1BossDPSMaxTimeInSeconds = 600.000000
+		m_flT1BossDPS = 36.000000
+		m_flT1BossDPSBaseResist = 60.000000
+		m_flT1BossDPSMaxResist = -35.000000
+		m_flT1BossDPSMaxResistTimeInSeconds = 480.000000
 		m_flT2BossDPS = 80.000000
+		m_flT2BossDPSBaseResist = 60.000000
+		m_flT2BossDPSMaxResist = -30.000000
+		m_flT2BossDPSMaxResistTimeInSeconds = 840.000000
 		m_flT3BossDPS = 80.000000
 		m_flGeneratorBossDPS = 22
 		m_flBarrackBossDPS = 80.000000
@@ -4755,7 +4826,6 @@
 		m_flModelScale = 1.000000
 		m_navHull = 1
 		m_flPhysicsImpulseMultiplier = 0.000000
-		m_flTurnRate = 360
 		m_bMitigateDamageFromPlayers = true
 		m_flBeamWeaponWidth = 6.000000
 		m_flBeamTurnRate = 360
@@ -4765,7 +4835,7 @@
 		m_BeamPointStartLoopSound = soundevent:"Guardian.Tier1.Wpn.Point.Begin.Lp"
 		m_BeamPointEndLoopSound = soundevent:"Guardian.Tier1.Wpn.Point.End.Lp"
 		m_BeamPointClosestLoopSound = soundevent:"Guardian.Tier1.Wpn.Point.Closest.Lp"
-		m_flInvulRange = 748.031000
+		m_flInvulRange = 944.882000
 		m_flMinMeleeAttackTime = 1.500000
 		m_TrooperBossInvulnModifier = subclass:
 		{
@@ -6866,6 +6936,7 @@
 		m_strWIPModelName = resource_name:"models/npc/boss_tier_02_sun_walker/boss_tier_02_sun_walker.vmdl"
 		m_sTeam1MaterialGroupName = "Amber"
 		m_sTeam2MaterialGroupName = "Sapphire"
+		m_flBackDoorProtectionRange = 2750.000000
 		m_BackdoorProtectionModifier = subclass:
 		{
 			_class = "modifier_citadel_backdoor_protection"
@@ -6977,6 +7048,7 @@
 		m_strWIPModelName = resource_name:"models/npc/boss_tier_02_sun_walker/boss_tier_02_sun_walker.vmdl"
 		m_sTeam1MaterialGroupName = "Amber"
 		m_sTeam2MaterialGroupName = "Sapphire"
+		m_flBackDoorProtectionRange = 2750.000000
 		m_BackdoorProtectionModifier = subclass:
 		{
 			_class = "modifier_citadel_backdoor_protection"
@@ -7089,6 +7161,7 @@
 		m_strWIPModelName = resource_name:"models/npc/boss_tier_02_sun_walker/boss_tier_02_sun_walker.vmdl"
 		m_sTeam1MaterialGroupName = "Amber"
 		m_sTeam2MaterialGroupName = "Sapphire"
+		m_flBackDoorProtectionRange = 2750.000000
 		m_BackdoorProtectionModifier = subclass:
 		{
 			_class = "modifier_citadel_backdoor_protection"
@@ -7201,6 +7274,7 @@
 		m_strWIPModelName = resource_name:"models/npc/boss_tier_02_sun_walker/boss_tier_02_sun_walker.vmdl"
 		m_sTeam1MaterialGroupName = "Amber"
 		m_sTeam2MaterialGroupName = "Sapphire"
+		m_flBackDoorProtectionRange = 2750.000000
 		m_BackdoorProtectionModifier = subclass:
 		{
 			_class = "modifier_citadel_backdoor_protection"
@@ -7601,7 +7675,6 @@
 		m_flModelScale = 1.000000
 		m_bCloneOwnerWeapon = false
 		_base = "weapon_base"
-		m_bFaceTargetEvenWhenMoving = true
 	}
 	npc_shielded_sentry = 
 	{
@@ -7916,6 +7989,7 @@
 		m_flSightRangeNPCs = 1600.000000
 		m_flSightRange = 1600.000000
 		m_flTurnRate = 15.000000
+		m_navHull = 1
 		m_flFaceTargetDistance = 1200.000000
 		m_flJumpMaxRise = 350.000000
 		m_flAirJumpMin = 200.000000
@@ -8107,10 +8181,12 @@
 		m_nMaxHealth = 260
 		m_flSightRangePlayers = 700.000000
 		m_flSightRangeNPCs = 1600.000000
+		m_flTurnRate = 360
 		m_hFootstepSounds = "trooper"
 		m_flTrooperDamageResistPct = 55.000000
 		m_flT1BossDamageResistPct = 28.000000
 		m_flT2BossDamageResistPct = 20.000000
+		m_flBarrackGuardianDamageResistPct = 0
 		m_flShieldDamageResistPct = 80.000000
 		m_flNearDeathDuration = 1.000000
 		m_flWalkSpeed = 240
@@ -8182,13 +8258,16 @@
 		m_TargetingLaserParticle = resource_name:"particles/weapon_fx/trooper_laser_target.vpcf"
 		m_TargetingEyeFlashParticle = resource_name:"particles/enemy_targeting_indicator.vpcf"
 		m_sCelebrationSound = soundevent:"Trooper.Objective.Win.Cheer"
-		m_flBarrackGuardianDamageResistPct = 67.500000
 		m_sTeam1MaterialGroupName = "Amber"
 		m_sTeam2MaterialGroupName = "Sapphire"
-		m_flT1BossDPSBase = 10.000000
-		m_flT1BossDPSMax = 47.000000
-		m_flT1BossDPSMaxTimeInSeconds = 600.000000
+		m_flT1BossDPS = 83.600000
+		m_flT1BossDPSBaseResist = 60.000000
+		m_flT1BossDPSMaxResist = -35.000000
+		m_flT1BossDPSMaxResistTimeInSeconds = 480.000000
 		m_flT2BossDPS = 209.000000
+		m_flT2BossDPSBaseResist = 60.000000
+		m_flT2BossDPSMaxResist = -30.000000
+		m_flT2BossDPSMaxResistTimeInSeconds = 840.000000
 		m_flT3BossDPS = 209.000000
 		m_flGeneratorBossDPS = 41.800000
 		m_flBarrackBossDPS = 209.000000
@@ -8201,7 +8280,6 @@
 		}
 		m_MedicHealActiveParticle = resource_name:"particles/trooper/trooper_medic_chargeup.vpcf"
 		m_flModelScale = 1.100000
-		m_flT1BossDPS = 83.600000
 	}
 	alt_super_trooper_melee = 
 	{
@@ -8363,10 +8441,12 @@
 		m_nMaxHealth = 400
 		m_flSightRangePlayers = 700.000000
 		m_flSightRangeNPCs = 1600.000000
+		m_flTurnRate = 360
 		m_hFootstepSounds = "trooper"
 		m_flTrooperDamageResistPct = 55.000000
 		m_flT1BossDamageResistPct = 28.000000
 		m_flT2BossDamageResistPct = 20.000000
+		m_flBarrackGuardianDamageResistPct = 0
 		m_flShieldDamageResistPct = 80.000000
 		m_flNearDeathDuration = 1.000000
 		m_flWalkSpeed = 320
@@ -8438,13 +8518,16 @@
 		m_TargetingLaserParticle = resource_name:"particles/weapon_fx/trooper_laser_target.vpcf"
 		m_TargetingEyeFlashParticle = resource_name:"particles/enemy_targeting_indicator.vpcf"
 		m_sCelebrationSound = soundevent:"Trooper.Objective.Win.Cheer"
-		m_flBarrackGuardianDamageResistPct = 67.500000
 		m_sTeam1MaterialGroupName = "Amber"
 		m_sTeam2MaterialGroupName = "Sapphire"
-		m_flT1BossDPSBase = 10.000000
-		m_flT1BossDPSMax = 47.000000
-		m_flT1BossDPSMaxTimeInSeconds = 600.000000
+		m_flT1BossDPS = 83.600000
+		m_flT1BossDPSBaseResist = 60.000000
+		m_flT1BossDPSMaxResist = -35.000000
+		m_flT1BossDPSMaxResistTimeInSeconds = 480.000000
 		m_flT2BossDPS = 209.000000
+		m_flT2BossDPSBaseResist = 60.000000
+		m_flT2BossDPSMaxResist = -30.000000
+		m_flT2BossDPSMaxResistTimeInSeconds = 840.000000
 		m_flT3BossDPS = 209.000000
 		m_flGeneratorBossDPS = 41.800000
 		m_flBarrackBossDPS = 209.000000
@@ -8452,7 +8535,6 @@
 		m_flTrooperDPS = 66.500000
 		m_TrooperType = "TROOPER_MELEE"
 		m_flModelScale = 1.100000
-		m_flT1BossDPS = 83.600000
 	}
 	alt_super_trooper_normal = 
 	{
@@ -8614,10 +8696,12 @@
 		m_nMaxHealth = 300
 		m_flSightRangePlayers = 700.000000
 		m_flSightRangeNPCs = 1600.000000
+		m_flTurnRate = 360
 		m_hFootstepSounds = "trooper"
 		m_flTrooperDamageResistPct = 55.000000
 		m_flT1BossDamageResistPct = 28.000000
 		m_flT2BossDamageResistPct = 20.000000
+		m_flBarrackGuardianDamageResistPct = 0
 		m_flShieldDamageResistPct = 80.000000
 		m_flNearDeathDuration = 1.000000
 		m_flWalkSpeed = 240
@@ -8689,20 +8773,22 @@
 		m_TargetingLaserParticle = resource_name:"particles/weapon_fx/trooper_laser_target.vpcf"
 		m_TargetingEyeFlashParticle = resource_name:"particles/enemy_targeting_indicator.vpcf"
 		m_sCelebrationSound = soundevent:"Trooper.Objective.Win.Cheer"
-		m_flBarrackGuardianDamageResistPct = 67.500000
 		m_sTeam1MaterialGroupName = "Amber"
 		m_sTeam2MaterialGroupName = "Sapphire"
-		m_flT1BossDPSBase = 10.000000
-		m_flT1BossDPSMax = 47.000000
-		m_flT1BossDPSMaxTimeInSeconds = 600.000000
+		m_flT1BossDPS = 83.600000
+		m_flT1BossDPSBaseResist = 60.000000
+		m_flT1BossDPSMaxResist = -35.000000
+		m_flT1BossDPSMaxResistTimeInSeconds = 480.000000
 		m_flT2BossDPS = 209.000000
+		m_flT2BossDPSBaseResist = 60.000000
+		m_flT2BossDPSMaxResist = -30.000000
+		m_flT2BossDPSMaxResistTimeInSeconds = 840.000000
 		m_flT3BossDPS = 209.000000
 		m_flGeneratorBossDPS = 41.800000
 		m_flBarrackBossDPS = 209.000000
 		m_flPlayerDPS = 42.000000
 		m_flTrooperDPS = 66.500000
 		m_flModelScale = 1.100000
-		m_flT1BossDPS = 83.600000
 	}
 	citadel_item_pickup_rejuv = 
 	{

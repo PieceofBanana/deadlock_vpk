@@ -269,7 +269,7 @@
             "m_bSpinsUp": "1",
             "m_flMaxSpinCycleTime": "0.080000",
             "m_flSpinIncreaseRate": "0.500000",
-            "m_flSpinDecayRate": "0.650000",
+            "m_flSpinDecayRate": "0.250000",
             "m_flSpreadPerShot": "0.150000",
             "m_AimingMoveSpreadPenalty": [
                 "0.000000",

@@ -15,7 +15,7 @@
                 }
             },
             "AbilityDuration": {
-                "m_strValue": "8",
+                "m_strValue": "12",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "duration",
                 "m_bCanSetTokenOverride": "true",
@@ -230,7 +230,7 @@
                 "m_vecPropertyUpgrades": [
                     {
                         "m_strPropertyName": "AbilityDuration",
-                        "m_strBonus": "6"
+                        "m_strBonus": "8"
                     }
                 ]
             },
@@ -276,20 +276,7 @@
                     "m_bReverseProgress": "true"
                 }
             ],
-            "m_vecButtonHints": [
-                {
-                    "m_eButton1": "EButtonHint_JumpKey",
-                    "m_strLocToken": "#AbilityButtonHint_FlyUp",
-                    "m_eHintSide": "EButtonSide_Right",
-                    "m_strContext": "leaping"
-                },
-                {
-                    "m_eButton1": "EButtonHint_CrouchKey",
-                    "m_strLocToken": "#AbilityButtonHint_FlyDown",
-                    "m_eHintSide": "EButtonSide_Right",
-                    "m_strContext": "leaping"
-                }
-            ]
+            "m_vecButtonHints": []
         },
         "m_strMoviePreviewPath": "file://{resources}/videos/hero_abilities/hornet_flight.webm",
         "m_AbilityTooltipDetails": {
@@ -310,6 +297,7 @@
             ]
         },
         "m_strCastAnimGraphParam": "e_Flight",
-        "m_strChannelSound": "Ability.Hornet.Leap.Cast"
+        "m_strChannelSound": "Ability.Hornet.Leap.Cast",
+        "m_bUsesFlightControls": "true"
     }
 }

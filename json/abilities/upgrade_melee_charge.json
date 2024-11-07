@@ -111,7 +111,7 @@
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
             },
             "BaseAttackDamagePercent": {
-                "m_strValue": "15",
+                "m_strValue": "12",
                 "m_eDisplayType": "EBaseWeaponDamageIncrease",
                 "m_eDisplayUnits": "EDisplayUnit_Normal",
                 "m_strCSSClass": "",
@@ -120,7 +120,7 @@
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             },
             "BonusHealth": {
-                "m_strValue": "100",
+                "m_strValue": "75",
                 "m_strCSSClass": "health",
                 "m_eDisplayType": "EMaxHealth",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_HEALTH_MAX",

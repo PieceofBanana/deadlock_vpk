@@ -110,13 +110,6 @@
                 "m_bCanSetTokenOverride": "true",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
             },
-            "SnipeFOV": {
-                "m_strValue": "30"
-            },
-            "SnipeZoomDuration": {
-                "m_strValue": "0.15",
-                "m_strCSSClass": "duration"
-            },
             "Range": {
                 "m_strValue": "1000m",
                 "m_eDisplayType": "ETechRadius",
@@ -133,7 +126,7 @@
                 }
             },
             "ShotRadius": {
-                "m_strValue": "3.0"
+                "m_strValue": "4.0"
             },
             "LowHealthEnemyDamageBonus": {
                 "m_strValue": "145",
@@ -334,6 +327,13 @@
         },
         "m_flMinScopeTimeToShoot": "0.000000",
         "m_flScopeTimeToFullPower": "1.000000",
-        "m_strSelectedLoopSound": ""
+        "m_strSelectedLoopSound": "",
+        "m_flFoVChangeTime": "0.150000",
+        "m_strZoomIn": "Hornet.Assassinate.Zoom.In",
+        "m_strZoomOut": "Hornet.Assassinate.Zoom.Out",
+        "m_ScopeFoV": [
+            "30"
+        ],
+        "m_strCastButtonLocToken": "#AbilityButtonHint_AssassinateAttack"
     }
 }

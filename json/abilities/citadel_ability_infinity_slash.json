@@ -4,7 +4,7 @@
         "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "106.000000",
+                "m_strValue": "85.000000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -120,6 +120,12 @@
                 "m_UsageFlags": "APUsageFlag_ModifierConditional",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_MOVEMENT_SPEED_MAX"
             },
+            "BonusFireRate": {
+                "m_strValue": "0",
+                "m_eDisplayType": "EFireRate",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_FIRE_RATE",
+                "m_UsageFlags": "APUsageFlag_ModifierConditional"
+            },
             "AbilitySpeedPct": {
                 "m_strValue": "60",
                 "m_strCSSClass": "cast"
@@ -189,8 +195,8 @@
             {
                 "m_vecPropertyUpgrades": [
                     {
-                        "m_strPropertyName": "AbilityCooldown",
-                        "m_strBonus": "-28.000000"
+                        "m_strPropertyName": "BonusFireRate",
+                        "m_strBonus": "20"
                     }
                 ]
             },
@@ -343,6 +349,7 @@
             "m_eHudDisplayLocation": "DISPLAY_HUD_LEFT",
             "m_bIsHidden": "true",
             "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
+                "BonusFireRate",
                 "BonusMoveSpeed"
             ],
             "m_vecSetAndTrackedAnimGraphParams": [

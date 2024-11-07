@@ -1,6 +1,8 @@
 {
     "neutral_camp_vaults": {
         "_class": "info_neutral_trooper_camp",
+        "m_iSpawnIntervalChange": "0",
+        "m_iSpawnIntervalMin": "0",
         "m_sIdleAmbient": "Neutral.Camp.Idle",
         "m_sAlertAmbient": "Neutral.Camp.Aggro",
         "_base": "info_neutral_trooper_camp",

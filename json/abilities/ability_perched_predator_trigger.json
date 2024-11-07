@@ -173,6 +173,6 @@
             ]
         },
         "m_AbilityToTrigger": "ability_perched_predator",
-        "m_flMinCancelTime": "1.000000"
+        "m_flMinCancelTime": "0.200000"
     }
 }

@@ -111,13 +111,13 @@
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
             },
             "MinimumDamage": {
-                "m_strValue": "125"
+                "m_strValue": "175"
             },
             "ReProcLockoutTime": {
                 "m_strValue": "5"
             },
             "MaxHealthDamage": {
-                "m_strValue": "7",
+                "m_strValue": "9",
                 "m_strCSSClass": "tech_damage",
                 "m_strLocTokenOverride": "MagicShockDamage",
                 "m_UsageFlags": "APUsageFlag_ModifierConditional"

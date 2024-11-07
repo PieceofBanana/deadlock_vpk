@@ -194,7 +194,7 @@
             "m_flBulletLifetime": "3",
             "m_szBulletTravelTracerParticle": "particles/abilities/astro/astro_marksman_projectile.vpcf",
             "m_flBulletGravityScale": "0.100000",
-            "m_iClipSize": "1",
+            "m_iClipSize": "20",
             "m_flBulletRadius": "5",
             "m_flPenetrationPercent": "0",
             "m_flRange": "10000",

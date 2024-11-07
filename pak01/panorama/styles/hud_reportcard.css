@@ -31,7 +31,7 @@
 	color: offWhite;
 }
 
-.GameStatePreGame.unlock_available #UnlockToBegin
+.GameStatePreGame.unlock_available #UnlockToBegin,.GameStatePreGameWait.unlock_available #UnlockToBegin
 {
 	visibility: visible;
 }

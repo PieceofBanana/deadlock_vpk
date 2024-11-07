@@ -167,6 +167,9 @@
                 "m_strCSSClass": "bullet_armor_up",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
                 "m_UsageFlags": "APUsageFlag_ModifierConditional"
+            },
+            "UnstoppableCastDelay": {
+                "m_strValue": "0"
             }
         },
         "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
@@ -252,6 +255,10 @@
                     {
                         "m_strPropertyName": "AbilityCooldown",
                         "m_strBonus": "-56.000000"
+                    },
+                    {
+                        "m_strPropertyName": "UnstoppableCastDelay",
+                        "m_strBonus": "1"
                     }
                 ]
             }
@@ -259,13 +266,32 @@
         "m_strCastDelaySound": "Warden.RiotProtocol.PreCast",
         "m_strCastSound": "",
         "m_CastDelayModifier": {
-            "_class": "modifier_base",
+            "_class": "modifier_warden_riot_protocol_castdelay",
             "_my_subclass_name": "modifier_warden_riot_protocol_cast_delay",
             "m_sLocalizationName": "modifier_warden_riot_protocol_cast_delay",
             "m_bIsHidden": "true",
             "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
                 "BulletResist"
-            ]
+            ],
+            "m_UnstoppableModifier": {
+                "_class": "modifier_unstoppable",
+                "_my_subclass_name": "modifier_unstoppable",
+                "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER",
+                "m_sAmbientLoopingSound": "Mods.Armor.TechDefender.Lp",
+                "m_sStartSound": "Mods.Armor.TechDefender.Cast",
+                "m_sExpiredSound": "Mods.Armor.TechDefender.End",
+                "m_nEnabledStateMask": "MODIFIER_STATE_STATUS_IMMUNE | MODIFIER_STATE_SLOW_IMMUNE | MODIFIER_STATE_KNOCKDOWN_IMMUNE | MODIFIER_STATE_UNSTOPPABLE",
+                "m_ShieldParticle": "particles/abilities/abrams/abrams_leap_immunity_buff.vpcf",
+                "m_PlayerShieldParticle": "particles/abilities/abrams/abrams_leap_immunity_buff.vpcf",
+                "m_strParticleStatusEffect": "particles/status_fx/status_fx_unstoppable.vpcf",
+                "m_nStatusEffectPriority": "25",
+                "m_bIsHiddenOverhead": "true",
+                "m_sLocalizationName": "modifier_unstoppable",
+                "m_bIsHidden": "false",
+                "m_strHudMessageText": "#modifier_unstoppable",
+                "m_nDisabledStateMask": "MODIFIER_STATE_DISARMED | MODIFIER_STATE_MUTED | MODIFIER_STATE_SILENCED | MODIFIER_STATE_SILENCE_MOVEMENT_ABILITES | MODIFIER_STATE_SLOWED | MODIFIER_STATE_GLITCHED | MODIFIER_STATE_MELEE_DISABLED_DEBUFF | MODIFIER_STATE_DASH_DISABLED_DEBUFF",
+                "m_strSmallIconCssClass": "unstoppable"
+            }
         },
         "m_WardenBuffModifier": {
             "_class": "modifier_warden_riot_protocol",
@@ -317,7 +343,8 @@
                     ],
                     "m_vecBasicProperties": [
                         "PulseInterval",
-                        "HealthStealPct"
+                        "HealthStealPct",
+                        "BulletResist"
                     ]
                 }
             ]

@@ -4,7 +4,7 @@
         "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "38.000000",
+                "m_strValue": "42.000000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -356,20 +356,6 @@
                     "m_strContext": "channel",
                     "m_Layout": "file://{resources}/layout/ability_hud_elements/element_progress_bar.vxml"
                 }
-            ],
-            "m_vecButtonHints": [
-                {
-                    "m_eButton1": "EButtonHint_DashKey",
-                    "m_strLocToken": "#AbilityButtonHint_MoveUp",
-                    "m_eHintSide": "EButtonSide_Right",
-                    "m_strContext": "channel"
-                },
-                {
-                    "m_eButton1": "EButtonHint_CrouchKey",
-                    "m_strLocToken": "#AbilityButtonHint_MoveDown",
-                    "m_eHintSide": "EButtonSide_Right",
-                    "m_strContext": "channel"
-                }
             ]
         },
         "m_AbilityTooltipDetails": {
@@ -397,6 +383,7 @@
                     ]
                 }
             ]
-        }
+        },
+        "m_bUsesFlightControls": "true"
     }
 }

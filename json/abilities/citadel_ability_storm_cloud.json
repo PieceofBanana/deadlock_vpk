@@ -111,7 +111,7 @@
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
             },
             "Radius": {
-                "m_strValue": "25m",
+                "m_strValue": "30m",
                 "m_strCSSClass": "distance",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",
@@ -129,7 +129,7 @@
                 }
             },
             "DPS": {
-                "m_strValue": "110",
+                "m_strValue": "120",
                 "m_strCSSClass": "tech_damage",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_tech_damage",
@@ -145,7 +145,7 @@
                 "m_strValue": "0.25"
             },
             "ExpandTime": {
-                "m_strValue": "3",
+                "m_strValue": "2",
                 "m_strCSSClass": "cooldown"
             },
             "CloudHeight": {

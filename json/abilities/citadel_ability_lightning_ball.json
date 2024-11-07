@@ -4,7 +4,7 @@
         "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "23.000000",
+                "m_strValue": "26.000000",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -111,7 +111,7 @@
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
             },
             "ShockRadius": {
-                "m_strValue": "4m",
+                "m_strValue": "3.5m",
                 "m_strCSSClass": "distance",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",
@@ -245,7 +245,7 @@
                 "m_vecPropertyUpgrades": [
                     {
                         "m_strPropertyName": "SlowPercent",
-                        "m_strBonus": "40"
+                        "m_strBonus": "35"
                     }
                 ]
             },
@@ -257,7 +257,7 @@
                     },
                     {
                         "m_strPropertyName": "ShockRadius",
-                        "m_strBonus": "2m"
+                        "m_strBonus": "1m"
                     }
                 ]
             }

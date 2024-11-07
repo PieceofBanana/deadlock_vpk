@@ -148,7 +148,7 @@
                 "m_UsageFlags": "APUsageFlag_ModifierConditional"
             },
             "SlowPercent": {
-                "m_strValue": "35",
+                "m_strValue": "30",
                 "m_strCSSClass": "slow",
                 "m_UsageFlags": "APUsageFlag_ModifierConditional",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT"
@@ -159,7 +159,7 @@
                 "m_UsageFlags": "APUsageFlag_ModifierConditional"
             },
             "Radius": {
-                "m_strValue": "14m",
+                "m_strValue": "12m",
                 "m_strCSSClass": "distance",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",

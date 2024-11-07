@@ -271,8 +271,8 @@
         "m_mapAttacks": {
             "EAttackType_Light": {
                 "m_Trigger": "light",
-                "m_flCooldownOnHit": "0.750000",
-                "m_flCooldownOnMiss": "0.750000",
+                "m_flCooldownOnHit": "0.862500",
+                "m_flCooldownOnMiss": "0.862500",
                 "m_SpeedBonusCurve": {
                     "m_spline": [
                         {
@@ -402,8 +402,8 @@
                     ]
                 },
                 "m_Trigger": "heavy",
-                "m_flCooldownOnHit": "0.900000",
-                "m_flCooldownOnMiss": "0.900000",
+                "m_flCooldownOnHit": "1.035000",
+                "m_flCooldownOnMiss": "1.035000",
                 "m_bApplyScreenShake": "true",
                 "m_SpeedBonusCurve": {
                     "m_spline": [
@@ -528,8 +528,8 @@
             "EAttackType_HeavyAir": {
                 "m_Trigger": "heavy",
                 "bIsHeavyAttack": "true",
-                "m_flCooldownOnHit": "0.900000",
-                "m_flCooldownOnMiss": "0.900000",
+                "m_flCooldownOnHit": "1.035000",
+                "m_flCooldownOnMiss": "1.035000",
                 "m_bApplyScreenShake": "true",
                 "m_SpeedBonusCurve": {
                     "m_spline": [
@@ -720,8 +720,8 @@
                         "1000.000000"
                     ]
                 },
-                "m_flCooldownOnMiss": "1.000000",
-                "m_flCooldownOnHit": "1.000000",
+                "m_flCooldownOnMiss": "1.150000",
+                "m_flCooldownOnHit": "1.150000",
                 "m_flMovementAcc": "3000.000000",
                 "m_flKnockUpStrength": "200.000000"
             }

@@ -147,6 +147,11 @@
                 "m_strValue": "85",
                 "m_strCSSClass": "tech_damage"
             },
+            "HeadshotBonus": {
+                "m_strLocTokenOverride": "CarbineHeadshotBonus",
+                "m_strValue": "15",
+                "m_strCSSClass": "tech_damage"
+            },
             "MaxSlowDuration": {
                 "m_strValue": "0.5",
                 "m_eDisplayType": "ETechDuration",
@@ -267,7 +272,7 @@
                 "m_vecPropertyUpgrades": [
                     {
                         "m_strPropertyName": "AbilityCooldown",
-                        "m_strBonus": "-9.500000"
+                        "m_strBonus": "-10"
                     },
                     {
                         "m_strPropertyName": "SpeedBoostDuration",
@@ -315,9 +320,10 @@
                     ],
                     "m_vecBasicProperties": [
                         "BaseBulletDamage",
+                        "HeadshotBonus",
                         "MinBonusBulletDamage",
-                        "MaxChargeDuration",
                         "MinSlowDuration",
+                        "MaxChargeDuration",
                         "SpeedBoostDuration"
                     ]
                 }

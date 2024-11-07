@@ -16,6 +16,9 @@
 			<Panel id="DevMessageOpen" class="DevMessage">
 				<Label text="#MyRosterAssignedOpenTesting" hittest="false" />
 			</Panel>
+			<Panel id="DevMessageHeroLabs" class="DevMessage">
+				<Label text="#MyRosterHeroLabsHero" hittest="false" />
+			</Panel>
 			<Panel id="DevMessageAssigned" class="DevMessage">
 				<Label text="#MyRosterAssignedTesting" hittest="false" />
 			</Panel>
@@ -25,6 +28,9 @@
 		</Panel>
 		<Panel class="RecommendedHeroIcon">
 			<Panel class="NewPlayerIcon" />
+		</Panel>
+		<Panel class="HeroLabsHeroIcon">
+			<Panel class="HeroLabsIcon" />
 		</Panel>
 		<Panel class="LockedHeroIcon">
 			<Panel class="LockIcon" />

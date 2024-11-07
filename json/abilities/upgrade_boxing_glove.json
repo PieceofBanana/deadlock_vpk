@@ -236,8 +236,8 @@
                     {
                         "m_vecAbilityProperties": [
                             "BonusMeleeDamagePercent",
-                            "BonusHealth",
-                            "BulletResist"
+                            "BulletResist",
+                            "BonusHealth"
                         ]
                     }
                 ]

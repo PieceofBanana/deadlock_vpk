@@ -254,14 +254,17 @@
                 "m_bUseStandardUpgrade": "true"
             },
             "17": {
-                "m_unRequiredGold": "12000",
+                "m_unRequiredGold": "11500",
                 "m_mapBonusCurrencies": {
                     "EAbilityPoints": "1"
                 },
                 "m_bUseStandardUpgrade": "true"
             },
             "18": {
-                "m_unRequiredGold": "13000",
+                "m_unRequiredGold": "12500",
+                "m_mapBonusCurrencies": {
+                    "EAbilityPoints": "1"
+                },
                 "m_bUseStandardUpgrade": "true"
             },
             "19": {
@@ -283,75 +286,100 @@
                 "m_bUseStandardUpgrade": "true"
             },
             "22": {
-                "m_unRequiredGold": "18000",
+                "m_unRequiredGold": "17000",
                 "m_mapBonusCurrencies": {
                     "EAbilityPoints": "1"
                 },
                 "m_bUseStandardUpgrade": "true"
             },
             "23": {
-                "m_unRequiredGold": "20000",
+                "m_unRequiredGold": "18000",
                 "m_mapBonusCurrencies": {
                     "EAbilityPoints": "1"
                 },
                 "m_bUseStandardUpgrade": "true"
             },
             "24": {
-                "m_unRequiredGold": "22000",
+                "m_unRequiredGold": "19000",
                 "m_mapBonusCurrencies": {
                     "EAbilityPoints": "1"
-                }
+                },
+                "m_bUseStandardUpgrade": "true"
             },
             "25": {
-                "m_unRequiredGold": "24000",
+                "m_unRequiredGold": "21500",
                 "m_mapBonusCurrencies": {
                     "EAbilityPoints": "1"
                 }
             },
             "26": {
-                "m_unRequiredGold": "27000",
+                "m_unRequiredGold": "23500",
                 "m_mapBonusCurrencies": {
                     "EAbilityPoints": "1"
                 }
             },
             "27": {
-                "m_unRequiredGold": "30000",
+                "m_unRequiredGold": "25500",
                 "m_mapBonusCurrencies": {
                     "EAbilityPoints": "1"
                 }
             },
             "28": {
-                "m_unRequiredGold": "33000",
+                "m_unRequiredGold": "27500",
                 "m_mapBonusCurrencies": {
                     "EAbilityPoints": "1"
                 }
             },
             "29": {
-                "m_unRequiredGold": "36000",
+                "m_unRequiredGold": "30000",
                 "m_mapBonusCurrencies": {
                     "EAbilityPoints": "1"
                 }
             },
             "30": {
-                "m_unRequiredGold": "39000",
+                "m_unRequiredGold": "33000",
                 "m_mapBonusCurrencies": {
                     "EAbilityPoints": "1"
                 }
             },
             "31": {
-                "m_unRequiredGold": "42000",
+                "m_unRequiredGold": "35000",
                 "m_mapBonusCurrencies": {
                     "EAbilityPoints": "1"
                 }
             },
             "32": {
-                "m_unRequiredGold": "45000",
+                "m_unRequiredGold": "37000",
                 "m_mapBonusCurrencies": {
                     "EAbilityPoints": "1"
                 }
             },
             "33": {
-                "m_unRequiredGold": "48000",
+                "m_unRequiredGold": "39000",
+                "m_mapBonusCurrencies": {
+                    "EAbilityPoints": "1"
+                }
+            },
+            "34": {
+                "m_unRequiredGold": "41000",
+                "m_mapBonusCurrencies": {
+                    "EAbilityPoints": "1"
+                }
+            },
+            "35": {
+                "m_unRequiredGold": "43000",
+                "m_mapBonusCurrencies": {
+                    "EAbilityPoints": "1"
+                }
+            },
+            "36": {
+                "m_unRequiredGold": "45000",
+                "m_mapBonusCurrencies": {
+                    "EAbilityPoints": "1"
+                }
+            },
+            "37": {
+                "m_unRequiredGold": "47000",
                 "m_mapBonusCurrencies": {
                     "EAbilityPoints": "1"
                 }
@@ -521,7 +549,8 @@
             "MODIFIER_VALUE_BASE_MELEE_DAMAGE_FROM_LEVEL": "2.671429",
             "MODIFIER_VALUE_BASE_HEALTH_FROM_LEVEL": "41.000000",
             "MODIFIER_VALUE_TECH_DAMAGE_PERCENT": "0.000000",
-            "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": "0.000000"
+            "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST": "0.000000",
+            "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST": "0.000000"
         },
         "m_eAbilityResourceType": "EResourceType_None",
         "m_ShopStatDisplay": {
@@ -553,6 +582,7 @@
                     "ETechArmorDamageReduction",
                     "EBulletShieldHealth",
                     "ETechShieldHealth",
+                    "EMeleeResist",
                     "EHealingOutput",
                     "EDebuffResist",
                     "ECritDamageReceivedScale"
@@ -580,14 +610,12 @@
         "m_strSelectionImage": "file://{images}/heroes/kali.psd",
         "m_strIconImageSmall": "file://{images}/heroes/kali_sm.psd",
         "m_strMinimapImage": "file://{images}/heroes/kali_mm.psd",
-        "m_strUIAnimGraph": "models/heroes_staging/kali/ui_kali.vanmgrph",
         "m_strDeathSound": "Kali.Death",
         "m_hGameSoundEventScript": "soundevents/hero/kali.vsndevts",
         "m_strRosterSelectedSound": "Kali.VO.HeroPick",
         "m_strIconHeroCard": "file://{images}/heroes/kali_card.psd",
         "m_strRosterRemovedSound": "Kali.VO.HeroRemove",
         "m_strTopBarImage": "file://{images}/hud/hero_portraits/kali_hud.psd",
-        "m_strUIShopAnimGraph": "models/heroes_staging/kali/ui_shop_kali.vanmgrph",
         "m_strUIShoppingMap": "maps/ui/hero_shop/kali_shop.vmap"
     }
 }

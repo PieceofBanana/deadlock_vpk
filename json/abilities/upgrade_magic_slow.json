@@ -119,7 +119,7 @@
                 "m_UsageFlags": "APUsageFlag_ModifierConditional"
             },
             "MovementSpeedSlow": {
-                "m_strValue": "30",
+                "m_strValue": "25",
                 "m_strCSSClass": "slow",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_MOVEMENT_SPEED_SLOW_PERCENT",
                 "m_UsageFlags": "APUsageFlag_ModifierConditional"
@@ -132,7 +132,7 @@
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             },
             "BonusHealth": {
-                "m_strValue": "100",
+                "m_strValue": "140",
                 "m_eDisplayType": "EMaxHealth",
                 "m_strCSSClass": "health",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_HEALTH_MAX",

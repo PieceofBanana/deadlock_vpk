@@ -317,7 +317,8 @@
             "m_bIsHidden": "true",
             "m_DashParticle": "particles/abilities/shiv/shiv_dash.vpcf",
             "m_DashTrailParticle": "particles/abilities/shiv/shiv_dash_trail.vpcf",
-            "m_strScreenParticleEffect": ""
+            "m_strScreenParticleEffect": "",
+            "m_DashEchoParticle": "particles/abilities/shiv/shiv_dash_echo.vpcf"
         },
         "m_AbilityTooltipDetails": {
             "m_vecAbilityInfoSections": [

@@ -133,7 +133,7 @@
                 }
             },
             "AbilityLifestealPercentHero": {
-                "m_strValue": "15",
+                "m_strValue": "14",
                 "m_strCSSClass": "healing",
                 "m_eDisplayType": "ETechLifesteal",
                 "m_subclassScaleFunction": {
@@ -145,20 +145,20 @@
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             },
             "TechResist": {
-                "m_strValue": "15",
+                "m_strValue": "14",
                 "m_eDisplayType": "ETechArmorDamageReduction",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST",
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             },
             "TechRangeMultiplier": {
-                "m_strValue": "15",
+                "m_strValue": "14",
                 "m_strCSSClass": "distance",
                 "m_eDisplayType": "ETechRange",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_RANGE_PERCENT",
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             },
             "TechRadiusMultiplier": {
-                "m_strValue": "15",
+                "m_strValue": "14",
                 "m_strCSSClass": "distance",
                 "m_eDisplayType": "ETechRadius",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_RADIUS_PERCENT",
@@ -282,8 +282,7 @@
                     "m_sExpiredSound": "Item.Tech.Reverb.End",
                     "m_DamageParticle": "particles/upgrades/magic_reverb_aoe_damage.vpcf",
                     "m_eDrawOverheadStatus": "OVERHEAD_DRAW_FOR_EVERYONE",
-                    "m_bReverseHudProgressBar": "true",
-                    "m_bIsBuildup": "true"
+                    "m_bReverseHudProgressBar": "true"
                 },
                 "m_SlowModifier": {
                     "_class": "modifier_slow_base",

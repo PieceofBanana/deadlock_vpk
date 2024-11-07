@@ -4,7 +4,7 @@
         "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "6",
+                "m_strValue": "35",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -65,7 +65,7 @@
                 "m_strDisableValue": "0"
             },
             "AbilityCharges": {
-                "m_strValue": "0",
+                "m_strValue": "2",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cast",
                 "m_bCanSetTokenOverride": "true",
@@ -76,7 +76,7 @@
                 }
             },
             "AbilityCooldownBetweenCharge": {
-                "m_strValue": "0",
+                "m_strValue": "6",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "charge_cooldown",
                 "m_bCanSetTokenOverride": "true",

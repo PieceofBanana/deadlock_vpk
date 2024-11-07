@@ -304,6 +304,7 @@
                         }
                     ],
                     "m_vecBasicProperties": [
+                        "LifeDrainHealthMult",
                         "MaxRange"
                     ]
                 }

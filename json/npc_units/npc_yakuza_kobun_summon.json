@@ -165,7 +165,6 @@
         "m_sModelName": "models/heroes_staging/gen_man/gen_man.vmdl",
         "m_flModelScale": "1.000000",
         "m_bCloneOwnerWeapon": "false",
-        "_base": "weapon_base",
-        "m_bFaceTargetEvenWhenMoving": "true"
+        "_base": "weapon_base"
     }
 }

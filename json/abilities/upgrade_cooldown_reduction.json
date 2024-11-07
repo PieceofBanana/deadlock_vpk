@@ -134,7 +134,7 @@
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             },
             "TechShieldMaxHealth": {
-                "m_strValue": "100",
+                "m_strValue": "150",
                 "m_strCSSClass": "tech_armor_up",
                 "m_eDisplayType": "ETechShieldHealth",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_SHIELD_HEALTH_MAX"

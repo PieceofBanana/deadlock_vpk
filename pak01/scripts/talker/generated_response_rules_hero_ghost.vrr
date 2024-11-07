@@ -13637,7 +13637,7 @@
 									m_value = "geist_killstreak_start_01_hero_announcer"
 									m_params = 
 									{
-										m_respeakdelay.start = 60.000000
+										m_respeakdelay.start = 30.000000
 										m_predelay.start = 3.000000
 									}
 								},
@@ -13647,7 +13647,7 @@
 									m_value = "geist_killstreak_start_02_hero_announcer"
 									m_params = 
 									{
-										m_respeakdelay.start = 60.000000
+										m_respeakdelay.start = 30.000000
 										m_predelay.start = 3.000000
 									}
 								},
@@ -13657,7 +13657,7 @@
 									m_value = "geist_killstreak_start_03_hero_announcer"
 									m_params = 
 									{
-										m_respeakdelay.start = 60.000000
+										m_respeakdelay.start = 30.000000
 										m_predelay.start = 3.000000
 									}
 								},
@@ -13667,7 +13667,7 @@
 									m_value = "geist_killstreak_start_04_hero_announcer"
 									m_params = 
 									{
-										m_respeakdelay.start = 60.000000
+										m_respeakdelay.start = 30.000000
 										m_predelay.start = 3.000000
 									}
 								},
@@ -13677,7 +13677,7 @@
 									m_value = "geist_killstreak_start_05_hero_announcer"
 									m_params = 
 									{
-										m_respeakdelay.start = 60.000000
+										m_respeakdelay.start = 30.000000
 										m_predelay.start = 3.000000
 									}
 								},
@@ -13702,7 +13702,7 @@
 									m_value = "geist_killstreak_mid_01_hero_announcer"
 									m_params = 
 									{
-										m_respeakdelay.start = 60.000000
+										m_respeakdelay.start = 30.000000
 										m_predelay.start = 3.000000
 									}
 								},
@@ -13712,7 +13712,7 @@
 									m_value = "geist_killstreak_mid_02_hero_announcer"
 									m_params = 
 									{
-										m_respeakdelay.start = 60.000000
+										m_respeakdelay.start = 30.000000
 										m_predelay.start = 3.000000
 									}
 								},
@@ -13722,7 +13722,7 @@
 									m_value = "geist_killstreak_mid_03_hero_announcer"
 									m_params = 
 									{
-										m_respeakdelay.start = 60.000000
+										m_respeakdelay.start = 30.000000
 										m_predelay.start = 3.000000
 									}
 								},
@@ -13747,7 +13747,7 @@
 									m_value = "geist_killstreak_high_01_hero_announcer"
 									m_params = 
 									{
-										m_respeakdelay.start = 60.000000
+										m_respeakdelay.start = 30.000000
 										m_predelay.start = 3.000000
 									}
 								},
@@ -13757,7 +13757,7 @@
 									m_value = "geist_killstreak_high_02_hero_announcer"
 									m_params = 
 									{
-										m_respeakdelay.start = 60.000000
+										m_respeakdelay.start = 30.000000
 										m_predelay.start = 3.000000
 									}
 								},
@@ -13767,7 +13767,7 @@
 									m_value = "geist_killstreak_high_03_hero_announcer"
 									m_params = 
 									{
-										m_respeakdelay.start = 60.000000
+										m_respeakdelay.start = 30.000000
 										m_predelay.start = 3.000000
 									}
 								},

@@ -34,6 +34,7 @@ soundevents/hero/warden.vsndevts
 soundevents/hero/wraith.vsndevts
 soundevents/hero/wrecker.vsndevts
 soundevents/hero/yamato.vsndevts
+soundevents/hero/viper.vsndevts
 
 soundevents/vo/generated_vo_hero_astro.vsndevts
 soundevents/vo/generated_vo_hero_bebop.vsndevts
@@ -63,4 +64,5 @@ soundevents/vo/generated_vo_hero_slork.vsndevts
 soundevents/vo/generated_vo_hero_mirage.vsndevts
 soundevents/vo/generated_vo_hero_wrecker.vsndevts
 soundevents/vo/generated_vo_hero_synth.vsndevts
+soundevents/vo/generated_vo_hero_viper.vsndevts
 

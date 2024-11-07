@@ -264,7 +264,7 @@
                 "m_vecPropertyUpgrades": [
                     {
                         "m_strPropertyName": "Damage",
-                        "m_strBonus": "60"
+                        "m_strBonus": "50"
                     },
                     {
                         "m_strPropertyName": "Radius",

@@ -1,0 +1,344 @@
+{
+    "citadel_ability_magewalk": {
+        "_class": "citadel_ability_magewalk",
+        "m_strCancelAbilityKey": "+in_cancel_ability",
+        "m_mapAbilityProperties": {
+            "AbilityCooldown": {
+                "m_strValue": "15",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldown_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldown"
+                }
+            },
+            "AbilityDuration": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "duration",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            },
+            "AbilityCastRange": {
+                "m_strValue": "10m",
+                "m_eDisplayUnits": "EDisplayUnit_Meters",
+                "m_strCSSClass": "range",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCastRange_scale_function",
+                    "m_eSpecificStatScaleType": "ETechRange"
+                }
+            },
+            "AbilityUnitTargetLimit": {
+                "m_strValue": "1",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityCastDelay": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityChannelTime": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_multi_stats",
+                    "_my_subclass_name": "scale_duration",
+                    "m_vecScalingStats": [
+                        "EChannelDuration",
+                        "ETechDuration"
+                    ]
+                }
+            },
+            "AbilityPostCastDuration": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0"
+            },
+            "AbilityCharges": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "cast",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCharges_scale_function",
+                    "m_eSpecificStatScaleType": "EMaxChargesIncrease"
+                }
+            },
+            "AbilityCooldownBetweenCharge": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_strCSSClass": "charge_cooldown",
+                "m_bCanSetTokenOverride": "true",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "AbilityCooldownBetweenCharge_scale_function",
+                    "m_eSpecificStatScaleType": "ETechCooldownBetweenChargeUses"
+                }
+            },
+            "ChannelMoveSpeed": {
+                "m_strValue": "50",
+                "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond",
+                "m_strCSSClass": "move_speed",
+                "m_bCanSetTokenOverride": "true"
+            },
+            "AbilityResourceCost": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_strCSSClass": "cast"
+            },
+            "TechPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_POWER"
+            },
+            "WeaponPower": {
+                "m_strValue": "0",
+                "m_strDisableValue": "0",
+                "m_bCanSetTokenOverride": "true",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
+            },
+            "MageTime": {
+                "m_strCSSClass": "duration",
+                "m_strValue": "1.5"
+            },
+            "TrailInterval": {
+                "m_strValue": "0.01"
+            },
+            "FireRateBonus": {
+                "m_strValue": "25",
+                "m_strCSSClass": "fire_rate",
+                "m_eDisplayType": "EFireRate"
+            },
+            "FireRateBonusDurationMax": {
+                "m_strValue": "8"
+            },
+            "BonusClipSizePercent": {
+                "m_strValue": "0",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_AMMO_CLIP_SIZE_PERCENT"
+            },
+            "ImpulseStrength": {
+                "m_strValue": "-3000"
+            },
+            "EmpoweredAttackCount": {
+                "m_strValue": "2"
+            },
+            "Damage": {
+                "m_strValue": "30",
+                "m_eDisplayType": "ETechPower",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_tech_damage",
+                    "m_flStatScale": "0.500000",
+                    "_my_subclass_name": "magewalk_empowered_damage"
+                }
+            },
+            "ProcChance": {
+                "m_strValue": "100"
+            },
+            "TurretBaseHealth": {
+                "m_strValue": "400"
+            },
+            "TurretLifetime": {
+                "m_strValue": "8"
+            },
+            "TurretHealthScaling": {},
+            "TurretAttackDelay": {
+                "m_strValue": "1"
+            },
+            "TurretAttackFalloffStart": {},
+            "TurretAttackFalloffEnd": {}
+        },
+        "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
+        "_editor": {
+            "folder_name": "Hero Magician"
+        },
+        "m_WeaponInfo": {
+            "m_BulletSpeedCurve": {
+                "m_spline": [
+                    {
+                        "x": "0.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    },
+                    {
+                        "x": "100.000000",
+                        "y": "10000.000000",
+                        "m_flSlopeIncoming": "0.000000",
+                        "m_flSlopeOutgoing": "0.000000"
+                    }
+                ],
+                "m_tangents": [
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    },
+                    {
+                        "m_nIncomingTangent": "CURVE_TANGENT_SPLINE",
+                        "m_nOutgoingTangent": "CURVE_TANGENT_SPLINE"
+                    }
+                ],
+                "m_vDomainMins": [
+                    "0.000000",
+                    "0.000000"
+                ],
+                "m_vDomainMaxs": [
+                    "100.000000",
+                    "10000.000000"
+                ]
+            }
+        },
+        "_multibase": [
+            "signature_base"
+        ],
+        "m_bStartTrained": "false",
+        "m_nAbilityPointsCost": "0",
+        "m_nAbillityUnlocksCost": "1",
+        "m_eAbilityType": "EAbilityType_Signature",
+        "m_iMaxLevel": "1",
+        "m_bitsInterruptingStates": "MODIFIER_STATE_IMMOBILIZED | MODIFIER_STATE_STUNNED | MODIFIER_STATE_IS_ASLEEP",
+        "m_PreviewPathParticle": "particles/generic/generic_arc.vpcf",
+        "m_strAbilityOffCooldownSound": "",
+        "m_strAbilityChargeReadySound": "",
+        "m_skillshotMissParticle": "particles/abilities/skillshot_default_miss_owner.vpcf",
+        "m_strCSSClass": "stasis",
+        "m_strAbilityImage": "file://{images}/hud/abilities/shiv/shiv_gather_foes.psd",
+        "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_GROUND",
+        "m_eAbilityTargetingShape": "CITADEL_ABILITY_TARGETING_SHAPE_SPHERE",
+        "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_HERO_FRIENDLY",
+        "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_PRESS",
+        "m_eAbilitySpectatePriority": "CITADELTV_ABILITY_SPECTATE_PRIORITY_MEDIUM",
+        "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_DEPLOY_OBJECT | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_PREVENT_BOT_USAGE | CITADEL_ABILITY_BEHAVIOR_ALLOW_ALT_CAST | CITADEL_ABILITY_BEHAVIOR_MOVEMENT | CITADEL_ABILITY_BEHAVIOR_CAN_SET_QUICK_CAST",
+        "m_deploymentInfo": {
+            "m_previewModel": "models/heroes_staging/engineer/turret/turret.vmdl",
+            "m_bCheckPlayerFit": "true",
+            "m_bPointTrace": "true",
+            "m_previewParticle": "particles/abilities/dynamo/dynamo_void_sphere_preview.vpcf",
+            "m_bGroundCheck": "true",
+            "m_bRequiresUpNormal": "true",
+            "m_bPlaceFlat": "true"
+        },
+        "m_strCastSound": "Dynamo.A2.Quantum.Cast",
+        "m_strCastEffect": "particles/abilities/dynamo/dynamo_void_sphere_cast.vpcf",
+        "m_previewParticle": "particles/abilities/dynamo/dynamo_void_sphere_aoe_preview.vpcf",
+        "m_BubbleModifier": {
+            "_class": "modifier_magewalk",
+            "_my_subclass_name": "modifier_magewalk",
+            "m_sLocalizationName": "modifier_void_sphere",
+            "m_sAmbientLoopingSound": "",
+            "m_strParticleStatusEffect": "particles/status_fx/status_fx_dynamo_void_sphere.vpcf",
+            "m_TeleportStartParticle": "",
+            "m_TeleportEndParticle": "particles/abilities/dynamo/dynamo_void_sphere_end.vpcf",
+            "m_TeleportTrailParticle": "particles/abilities/dynamo/dynamo_void_sphere_travel.vpcf",
+            "m_eHudDisplayLocation": "DISPLAY_HUD_CENTER",
+            "m_cameraSequenceCreated": {
+                "m_vecDistanceOperations": [
+                    {
+                        "m_eCameraOperation": "k_ECameraOp_Lerp",
+                        "m_flLerpDuration": "0.500000"
+                    }
+                ],
+                "m_vecVertOffsetOperations": [],
+                "m_vecTargetPosOperations": [
+                    {
+                        "m_eCameraOperation": "k_ECameraOp_Maintain",
+                        "m_flMaintainDuration": "0.600000",
+                        "m_bValuesAreRelative": "true",
+                        "m_bMaintainCurrent": "true"
+                    },
+                    {
+                        "m_eCameraOperation": "k_ECameraOp_Lerp",
+                        "m_bApproachDefault": "true",
+                        "m_flApproachSpeed": "10.000000",
+                        "m_flLerpBias": "0.500000",
+                        "m_flLerpDuration": "0.800000",
+                        "m_flLerpGain": "0.500000"
+                    }
+                ]
+            },
+            "m_cameraSequenceRemoved": {
+                "m_vecDistanceOperations": [],
+                "m_vecTargetPosOperations": [
+                    {
+                        "m_eCameraOperation": "k_ECameraOp_Spring"
+                    }
+                ]
+            },
+            "m_bEndCreatedSequenceOnRemove": "true",
+            "m_nStatusEffectPriority": "100",
+            "m_sExpiredSound": "Dynamo.A2.Quantum.End"
+        },
+        "m_vecAbilityUpgrades": [
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "AbilityCastRange",
+                        "m_strBonus": "4m"
+                    }
+                ]
+            },
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "FireRateBonus",
+                        "m_strBonus": "25"
+                    }
+                ]
+            },
+            {
+                "m_vecPropertyUpgrades": [
+                    {
+                        "m_strPropertyName": "BonusClipSizePercent",
+                        "m_strBonus": "120"
+                    },
+                    {
+                        "m_strPropertyName": "AbilityCooldown",
+                        "m_strBonus": "-4"
+                    }
+                ]
+            }
+        ],
+        "m_AbilityTooltipDetails": {
+            "m_vecAbilityInfoSections": [
+                {
+                    "m_strLocString": "#citadel_ability_magewalkk_desc",
+                    "m_vecAbilityPropertiesBlock": [
+                        {
+                            "m_vecAbilityProperties": [
+                                {
+                                    "m_strImportantProperty": "MageTime"
+                                },
+                                {
+                                    "m_strImportantProperty": "Damage"
+                                }
+                            ]
+                        }
+                    ],
+                    "m_vecBasicProperties": [
+                        "MageTime"
+                    ]
+                }
+            ]
+        },
+        "m_strSelectedSound": "Dynamo.A2.Quantum.Select",
+        "m_strUnselectedSound": "Dynamo.A2.Quantum.Deselect",
+        "m_strCastButtonLocToken": "#AbilityButtonHint_CastVoidSphere",
+        "m_strAltCastButtonLocToken": "#AbilityButtonHint_AltCastVoidSphere",
+        "m_TurretModifier": {
+            "_class": "modifier_base",
+            "_my_subclass_name": "turret_modifier"
+        }
+    }
+}

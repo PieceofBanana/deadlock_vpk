@@ -13,8 +13,8 @@
         "m_sPickupSound": "Player.ClaimOrb",
         "m_nNameOffset": "60",
         "_base": "citadel_breakable_prop_pickup_base",
-        "m_flGoldAmount": "35",
-        "m_flGoldPerMinuteAmount": "3",
+        "m_flGoldAmount": "30",
+        "m_flGoldPerMinuteAmount": "2.500000",
         "m_Color": [
             "0",
             "255",

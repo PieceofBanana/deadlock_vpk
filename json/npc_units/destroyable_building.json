@@ -3,12 +3,6 @@
         "_class": "destroyable_building",
         "m_iMaxHealthFinal": "13000",
         "m_iMaxHealthGenerator": "4000",
-        "m_ObjectiveRegen": {
-            "_class": "modifier_citadel_objective_regen",
-            "_my_subclass_name": "modifier_citadel_objective_regen",
-            "m_flOutOfCombatHealthRegen": "160",
-            "m_flOutOfCombatRegenDelay": "60"
-        },
         "m_BackdoorBulletResistModifier": {
             "_class": "modifier_citadel_objective_bullet_resist",
             "_my_subclass_name": "modifier_citadel_objective_bullet_resist",

@@ -202,7 +202,7 @@
             "m_szBulletTravelTracerParticle": "particles/abilities/shiv/shiv_thrown_shiv.vpcf",
             "m_flBulletGravityScale": "0.200000",
             "m_iClipSize": "1",
-            "m_flBulletRadius": "29.000000",
+            "m_flBulletRadius": "23.000000",
             "m_flRange": "10000",
             "m_flDamageFalloffStartRange": "-1.000000",
             "m_flDamageFalloffEndRange": "-1.000000",

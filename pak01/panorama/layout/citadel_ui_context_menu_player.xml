@@ -94,6 +94,22 @@
 				</Panel>
 			</Panel>
 		</snippet>
+		<snippet name="Commend">
+			<Panel class="MenuRow PlayerFeedback Commend">
+				<Button id="CommendPlayer" class="MenuButton" onmouseover="UIShowTextTooltip( #Citadel_MatchDetails_CommendTooltip );" onmouseout="UIHideTextTooltip()">
+					<Label class="commendLabel" text="#Citadel_Party_Commend" />
+					<Label class="commendedLabel" text="#Citadel_Party_Commended" />
+				</Button>
+			</Panel>
+		</snippet>
+		<snippet name="Report">
+			<Panel class="MenuRow PlayerFeedback Report">
+				<Button id="ReportPlayer" class="MenuButton" onmouseover="UIShowTextTooltip( #Citadel_MatchDetails_ReportTooltip );" onmouseout="UIHideTextTooltip()">
+					<Label class="reportLabel" text="#Citadel_Party_Report" />
+					<Label class="reportedLabel" text="#Citadel_Party_Reported" />
+				</Button>
+			</Panel>
+		</snippet>
 	</snippets>
 	<CitadelContextMenuPlayer class="PlayerMenuContents">
 		<CitadelProfileCard id="ProfileCard" />

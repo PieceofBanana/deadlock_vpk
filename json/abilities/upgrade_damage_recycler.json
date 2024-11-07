@@ -99,13 +99,10 @@
                 "m_strCSSClass": "cast"
             },
             "TechPower": {
-                "m_strValue": "18",
+                "m_strValue": "0",
                 "m_strDisableValue": "0",
                 "m_bCanSetTokenOverride": "true",
-                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_POWER",
-                "m_strCSSClass": "tech_damage",
-                "m_eDisplayType": "ETechPower",
-                "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_POWER"
             },
             "WeaponPower": {
                 "m_strValue": "0",
@@ -150,6 +147,13 @@
                 "m_strCSSClass": "health",
                 "m_eDisplayType": "EMaxHealth",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_HEALTH_MAX",
+                "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
+            },
+            "CooldownReduction": {
+                "m_strValue": "12",
+                "m_eDisplayType": "ETechCooldown",
+                "m_strCSSClass": "cooldown",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_COOLDOWN_REDUCTION_PERCENTAGE",
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             }
         },
@@ -220,7 +224,7 @@
                         ],
                         "m_vecAbilityProperties": [
                             "BonusHealth",
-                            "TechPower",
+                            "CooldownReduction",
                             "BaseAttackDamagePercent"
                         ]
                     }
@@ -236,7 +240,7 @@
                     "BulletLifestealPercent",
                     "BonusHealth",
                     "BaseAttackDamagePercent",
-                    "TechPower"
+                    "CooldownReduction"
                 ]
             }
         ],

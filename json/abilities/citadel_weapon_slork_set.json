@@ -1,6 +1,6 @@
 {
     "citadel_weapon_slork_set": {
-        "_class": "ability_primary_weapon_slork",
+        "_class": "citadel_ability_primary_weapon",
         "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
@@ -37,7 +37,7 @@
                 }
             },
             "AbilityUnitTargetLimit": {
-                "m_strValue": "100",
+                "m_strValue": "1",
                 "m_bCanSetTokenOverride": "true"
             },
             "AbilityCastDelay": {
@@ -109,43 +109,6 @@
                 "m_strDisableValue": "0",
                 "m_bCanSetTokenOverride": "true",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_WEAPON_POWER"
-            },
-            "Range": {
-                "m_strValue": "550"
-            },
-            "AimRange": {
-                "m_strValue": "7000"
-            },
-            "ConeAngle": {
-                "m_strValue": "5.0"
-            },
-            "AimConeAngle": {
-                "m_strValue": "0.1"
-            },
-            "AimAmmoCostModifier": {
-                "m_strValue": "4"
-            },
-            "CycleTimeMultiplier": {
-                "m_strValue": "5.0",
-                "m_eProvidedPropertyType": "MODIFIER_VALUE_CYCLE_TIME_PERCENTAGE"
-            },
-            "DebuffDuration": {
-                "m_strValue": "2.5"
-            },
-            "DPS": {
-                "m_strValue": "16",
-                "m_strCSSClass": "tech_damage",
-                "m_subclassScaleFunction": {
-                    "_class": "scale_function_tech_damage",
-                    "_my_subclass_name": "DPS_scale_function",
-                    "m_flStatScale": "0.655200"
-                }
-            },
-            "TickRate": {
-                "m_strValue": "0.5"
-            },
-            "CreepDamageMultiplier": {
-                "m_strValue": "2.0"
             }
         },
         "m_bitsPostCastEnabledStateMask": "MODIFIER_STATE_BUSY_WITH_ACTION",
@@ -157,13 +120,13 @@
                 "m_spline": [
                     {
                         "x": "0.000000",
-                        "y": "9100.000000",
+                        "y": "22000.000000",
                         "m_flSlopeIncoming": "0.000000",
                         "m_flSlopeOutgoing": "0.000000"
                     },
                     {
                         "x": "100.000000",
-                        "y": "9100.000000",
+                        "y": "22000.000000",
                         "m_flSlopeIncoming": "0.000000",
                         "m_flSlopeOutgoing": "0.000000"
                     }
@@ -184,64 +147,61 @@
                 ],
                 "m_vDomainMaxs": [
                     "100.000000",
-                    "9100.000000"
+                    "22000.000000"
                 ]
             },
-            "m_Spread": "0.400000",
+            "m_Spread": "0.000000",
             "m_StandingSpread": "1.500000",
-            "m_flScatterYawScale": "1",
+            "m_flScatterYawScale": "0.000000",
             "m_flShootingUpSpreadPenalty": "0",
             "m_flZoomMoveSpeedPercent": "1.000000",
             "m_flShootMoveSpeedPercent": "0.700000",
             "m_flHorizontalPunch": "0",
-            "m_flVerticalPunch": "0",
-            "m_flRecoilRecoverySpeed": "10.000000",
+            "m_flVerticalPunch": "0.800000",
+            "m_flRecoilRecoverySpeed": "6.000000",
             "m_VerticallRecoil": {
-                "m_Range": [
-                    "0.100000",
-                    "0.200000"
-                ],
+                "m_Range": "0.800000",
                 "m_flBurstSlope": "0.000000",
                 "m_flBurstExponent": "0.000000",
                 "m_flBurstConstant": "0.000000"
             },
             "m_HorizontalRecoil": {
                 "m_Range": [
-                    "-0.100000",
-                    "0.100000"
+                    "0.000000",
+                    "0.000000"
                 ],
                 "m_flBurstExponent": "0.000000"
             },
-            "m_flRecoilSpeed": "1",
+            "m_flRecoilSpeed": "6.000000",
             "m_flZoomFOV": "35.000000",
-            "m_flDamageFalloffStartRange": "866.000000",
-            "m_flDamageFalloffEndRange": "2264.000000",
+            "m_flDamageFalloffStartRange": "629.921000",
+            "m_flDamageFalloffEndRange": "1800.000000",
             "m_flRange": "7000.000000",
             "m_flBulletLifetime": "2",
             "m_flDamageFalloffStartScale": "1.000000",
             "m_flDamageFalloffEndScale": "0.100000",
             "m_flDamageFalloffBias": "0.500000",
-            "m_iBullets": "1",
-            "m_flCycleTime": "0.200000",
-            "m_reloadDuration": "2.200000",
-            "m_iClipSize": "20",
+            "m_iBullets": "7",
+            "m_flCycleTime": "0.450000",
+            "m_reloadDuration": "0.300000",
+            "m_iClipSize": "13",
             "m_iBurstShotCount": "1",
             "m_flBurstShotCooldown": "0",
-            "m_flBulletGravityScale": "0.300000",
-            "m_flBulletRadius": "5",
+            "m_flBulletGravityScale": "0.800000",
+            "m_flBulletRadius": "3.000000",
             "m_flBulletReflectScale": "0",
             "m_flBulletReflectAmount": "1",
             "m_flBulletInheritShooterVelocityScale": "0",
-            "m_szBulletTravelTracerParticle": "particles/abilities/viscous/viscous_sprinkler_proj.vpcf",
-            "m_szMuzzleFlashEffectName": "particles/weapon_fx/default_muzzle_flash.vpcf",
-            "m_strShootSound": "",
-            "m_strBulletWhizSound": "",
+            "m_szBulletTravelTracerParticle": "particles/weapon_fx/pocket/pocket_tracer.vpcf",
+            "m_szMuzzleFlashEffectName": "particles/weapon_fx/pocket/pocket_muzzle_flash.vpcf",
+            "m_strShootSound": "Slork.Wpn.Fire",
+            "m_strBulletWhizSound": "Slork.Wpn.Whizby",
             "m_flBulletWhizDistance": "150",
             "m_mapImpactEffects": {
                 "default": {
                     "m_strDecal": "Impact.Concrete",
                     "m_strParticle": "particles/impact_fx/impact_spark_spray_large.vpcf",
-                    "m_strSound": "Slork.Wpn.Impact"
+                    "m_strSound": "Default.BulletImpact"
                 },
                 "flesh": {
                     "m_strDecal": "",
@@ -287,37 +247,75 @@
             "m_flCritBonusStartRange": "500.000000",
             "m_flCritBonusEndRange": "1500.000000",
             "m_flCritBonusAgainstNPCs": "0",
-            "m_flShootSpreadPenaltyPerShot": "0.500000",
+            "m_flShootSpreadPenaltyPerShot": "0.200000",
             "m_flShootSpreadPenaltyDecayDelay": "0.000000",
-            "m_flShootSpreadPenaltyDecay": "3.000000",
+            "m_flShootSpreadPenaltyDecay": "5.000000",
             "m_flRecoilShotIndexRecoveryTimeFactor": "0.250000",
             "m_bCanZoom": "true",
-            "m_strWeaponImpactEffect": "particles/weapon_fx/default_tracer_impact.vpcf",
+            "m_strWeaponImpactEffect": "particles/weapon_fx/pocket/pocket_tracer_impact.vpcf",
             "m_flReloadMoveSpeed": "10000",
-            "m_strLocalPlayerBulletImpactSound": "",
-            "m_strLocalPlayerBulletImpactHeavySound": "",
+            "m_strLocalPlayerBulletImpactSound": "Player.Bullet.Impact.Hero",
+            "m_strLocalPlayerBulletImpactHeavySound": "Player.Bullet.Impact.Hero.Large",
             "m_strReloadSound": "Slork.Wpn.Reload.Clip.Out",
             "m_strReloadEndSound": "Slork.Wpn.Reload.Clip.In",
-            "m_strZoomInSound": "Slork.Wpn.Zoom.In",
-            "m_strZoomOutSound": "Slork.Wpn.Zoom.Out",
+            "m_strZoomInSound": "Default.ZoomIn",
+            "m_strZoomOutSound": "Default.ZoomOut",
             "m_strLowAmmoSound": "Player.WpnLowAmmo.Shared",
             "m_bBulletShouldUseVerlet": "true",
             "m_nLowAmmoIndicatorThreshold": "4",
+            "m_flRecoilRecoveryDelayFactor": "0.600000",
+            "m_nRecoilSeed": "123424",
+            "m_flReloadSingleBulletsInitialDelay": "0.705000",
+            "m_bReloadSingleBullets": "true",
+            "m_bReloadSingleBulletsAllowCancel": "true",
+            "m_strBulletImpactSound": "Slork.Wpn.Impact",
             "m_AimingShootSpreadPenalty": [
                 "0.000000",
-                "0.500000"
+                "2.000000"
             ],
             "m_StandingShootSpreadPenalty": [
                 "0.000000",
-                "1.000000"
+                "2.000000"
             ],
-            "m_flBulletDamage": "11.000000"
+            "m_flBulletDamage": "4.000000",
+            "m_flPelletScatterFactor": "1.000000",
+            "m_vecScatterOffsets": [
+                [
+                    "0.000000",
+                    "0.000000"
+                ],
+                [
+                    "-0.900000",
+                    "-1.400000"
+                ],
+                [
+                    "0.900000",
+                    "-1.400000"
+                ],
+                [
+                    "-1.400000",
+                    "0.000000"
+                ],
+                [
+                    "1.400000",
+                    "0.000000"
+                ],
+                [
+                    "-0.900000",
+                    "1.400000"
+                ],
+                [
+                    "0.900000",
+                    "1.400000"
+                ]
+            ],
+            "m_flPelletScatterSpreadFactor": "0.500000"
         },
         "_multibase": [
-            "hero_weapon_base"
+            "hero_shotgun_base"
         ],
         "m_bStartTrained": "true",
-        "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_UNIT",
+        "m_eAbilityTargetingLocation": "CITADEL_ABILITY_TARGETING_LOCATION_SELF",
         "m_eAbilityActivation": "CITADEL_ABILITY_ACTIVATION_ON_BUTTON_IS_DOWN",
         "m_AbilityBehaviorsBits": "CITADEL_ABILITY_BEHAVIOR_DONT_INTERRUPT_SPRINT | CITADEL_ABILITY_BEHAVIOR_IS_PRIMARY_WEAPON | CITADEL_ABILITY_BEHAVIOR_NO_TARGET | CITADEL_ABILITY_BEHAVIOR_SILENT_CAST_FAILURE_FEEDBACK | CITADEL_ABILITY_BEHAVIOR_DISARMABLE | CITADEL_ABILITY_BEHAVIOR_NOT_SILENCABLE | CITADEL_ABILITY_BEHAVIOR_WEAPON_TOGGLE",
         "m_bitsInterruptingStates": "MODIFIER_STATE_STUNNED | MODIFIER_STATE_IS_ASLEEP",
@@ -339,28 +337,6 @@
             "m_flDofFarBlurry": "7000.000000"
         },
         "m_sDisarmedSound": "Player.Weapon.Jammed",
-        "m_flMinDisarmedSoundInterval": "0.100000",
-        "m_nAbilityTargetTypes": "CITADEL_UNIT_TARGET_BREAKABLE_PROP | CITADEL_UNIT_TARGET_GOLD_ORBS | CITADEL_UNIT_TARGET_ALL_ENEMY",
-        "m_WeaponShapeParticle": "particles/abilities/slork/slork_gun_poison_cloud.vpcf",
-        "m_WeaponRangeAssistParticle": "particles/abilities/slork/slork_gun_range_preview.vpcf",
-        "m_PoisonSprayerHitSound": "Slork.Wpn.Poison.Hit",
-        "m_WeaponLoopStartSound": "Slork.Wpn.Sprayer.Start",
-        "m_WeaponLoopSound": "Slork.Wpn.Sprayer.Lp",
-        "m_WeaponLoopEndSound": "Slork.Wpn.Sprayer.End",
-        "m_HitParticle": "particles/weapon_fx/akimbo/akimbo_gun_dmg.vpcf",
-        "m_nNumConePoints": "3",
-        "m_DebuffModifier": {
-            "_class": "modifier_slork_gun_poison",
-            "_my_subclass_name": "modifier_slork_gun_poison",
-            "m_sLocalizationName": "modifier_slork_gun_poison",
-            "m_nEnabledStateMask": "",
-            "m_strSmallIconCssClass": "blood_shard",
-            "m_eDrawOverheadStatus": "OVERHEAD_DRAW_FOR_CASTER_ONLY",
-            "m_strParticleStatusEffect": "",
-            "m_sStartSound": "Slork.Weapon.Victim.Modifier.Start",
-            "m_sAmbientLoopingSound": "Slork.Weapon.Victim.Modifier.Lp",
-            "m_sExpiredSound": "Slork.Weapon.Victim.Modifier.End",
-            "m_strParticleEffect": "particles/abilities/slork/slork_gun_poison_debuff.vpcf"
-        }
+        "m_flMinDisarmedSoundInterval": "0.100000"
     }
 }

@@ -181,6 +181,12 @@
 				"LocString"		"#citadel_keybind_ads"
 			}
 			
+			"ResetCamera"
+			{
+				"Action"		"reset_camera"
+				"LocString"		"#citadel_keybind_reset_camera"
+			}
+
 			"Chat"
 			{
 				"Action"		"say_chat"
@@ -642,6 +648,11 @@
 				"ADS"
 				{
 					"Key"		"MOUSE2"
+				}
+
+				"ResetCamera"
+				{
+					"Key"		"NONE"
 				}
 				
 				"Chat"

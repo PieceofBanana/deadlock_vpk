@@ -271,7 +271,7 @@
             "m_FriendlyAuraModifier": {
                 "_class": "modifier_base_aura",
                 "_my_subclass_name": "ice_dome_friendly_aura",
-                "m_iAuraSearchType": "CITADEL_UNIT_TARGET_HERO_FRIENDLY | CITADEL_UNIT_TARGET_CREEP_FRIENDLY",
+                "m_iAuraSearchType": "CITADEL_UNIT_TARGET_ALL_FRIENDLY",
                 "m_modifierProvidedByAura": {
                     "_class": "modifier_ice_dome_friendly",
                     "_my_subclass_name": "modifier_ice_dome_friendly",

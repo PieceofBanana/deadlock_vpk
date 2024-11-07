@@ -33,6 +33,9 @@
         "scripts/abilities/wraith.vdata_inc",
         "scripts/abilities/wrecker.vdata_inc",
         "scripts/abilities/yamato.vdata_inc",
+        "scripts/abilities/viper.vdata_inc",
+        "scripts/abilities/vandal.vdata_inc",
+        "scripts/abilities/magician.vdata_inc",
         "scripts/upgrades/upgrades.vdata_inc"
     ],
     "citadel_weapon_bosstier2_set": {

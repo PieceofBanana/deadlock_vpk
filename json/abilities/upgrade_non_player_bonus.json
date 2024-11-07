@@ -131,7 +131,7 @@
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             },
             "NonPlayerBulletResist": {
-                "m_strValue": "30",
+                "m_strValue": "25",
                 "m_strCSSClass": "bullet_damage",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST_NON_HERO",
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic | APUsageFlag_ModifierConditional"

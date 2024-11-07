@@ -124,11 +124,16 @@
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_BASEATTACK_DAMAGE_PERCENT",
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             },
-            "BulletResist": {
-                "m_strValue": "18",
-                "m_eDisplayType": "EBulletArmorDamageReduction",
-                "m_strCSSClass": "bullet_armor_up",
-                "m_eProvidedPropertyType": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
+            "MeleeResistPercent": {
+                "m_strValue": "25",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_MELEE_DAMAGE_REDUCTION_PERCENT",
+                "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
+            },
+            "TechResist": {
+                "m_strValue": "12",
+                "m_eDisplayType": "ETechArmorDamageReduction",
+                "m_strCSSClass": "tech_armor_up",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_ARMOR_DAMAGE_RESIST",
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             }
         },
@@ -197,7 +202,8 @@
                         "m_vecAbilityProperties": [
                             "BonusClipSizePercent",
                             "BaseAttackDamagePercent",
-                            "BulletResist"
+                            "MeleeResistPercent",
+                            "TechResist"
                         ]
                     }
                 ]
@@ -210,7 +216,8 @@
                 "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
                     "BonusClipSizePercent",
                     "BaseAttackDamagePercent",
-                    "BulletResist"
+                    "MeleeResistPercent",
+                    "TechResist"
                 ]
             }
         ],

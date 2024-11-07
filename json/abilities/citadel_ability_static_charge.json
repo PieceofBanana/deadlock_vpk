@@ -248,7 +248,7 @@
             "m_strParticleEffect": "",
             "m_ZapParticle": "",
             "m_ExplodeParticle": "particles/abilities/gigawatt/gigawatt_static_charge_explosion.vpcf",
-            "m_sStartSound": "",
+            "m_sStartSound": "Gigawatt.StaticCharge.Start",
             "m_sExpiredSound": "Gigawatt.StaticCharge.Proc",
             "m_strParticleStatusEffect": "particles/abilities/gigawatt/gigawatt_static_charge_debuff.vpcf",
             "m_nAmbientLoopingSoundRecipients": "MODIFIER_SOUND_RECIPIENT_ALWAYS",
@@ -284,6 +284,7 @@
                 }
             ]
         },
-        "m_strCastDelaySound": "Gigawatt.StaticCharge.Cast"
+        "m_strCastDelaySound": "Gigawatt.StaticCharge.Cast",
+        "m_strSelectedLoopSound": "Gigawatt.StaticCharge.Select.Lp"
     }
 }

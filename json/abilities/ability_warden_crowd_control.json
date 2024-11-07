@@ -141,8 +141,18 @@
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_FIRE_RATE_SLOW",
                 "m_UsageFlags": "APUsageFlag_ModifierConditional"
             },
+            "SlowDuration": {
+                "m_strValue": "3",
+                "m_strCSSClass": "duration",
+                "m_subclassScaleFunction": {
+                    "_class": "scale_function_single_stat",
+                    "_my_subclass_name": "SlowDuration_scale_function",
+                    "m_eSpecificStatScaleType": "ETechDuration"
+                }
+            },
             "DebuffDuration": {
-                "m_strValue": "6",
+                "m_strLocTokenOverride": "FlaskDebuffDuration",
+                "m_strValue": "7",
                 "m_strCSSClass": "duration",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",
@@ -257,6 +267,15 @@
                 ]
             }
         ],
+        "m_SlowModifier": {
+            "_class": "modifier_slow_base",
+            "_my_subclass_name": "slow",
+            "m_strParticleEffect": "particles/upgrades/slow_bullet.vpcf",
+            "m_bIsHidden": "true",
+            "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
+                "MoveSpeedSlowPct"
+            ]
+        },
         "m_DebuffModifier": {
             "_class": "modifier_warden_crowd_control_debuff",
             "_my_subclass_name": "modifier_warden_crowd_control_debuff",
@@ -266,7 +285,6 @@
             "m_nEnabledStateMask": "MODIFIER_STATE_SLOWED",
             "m_bIsHidden": "true",
             "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
-                "MoveSpeedSlowPct",
                 "WeaponPowerDebuff",
                 "FireRateSlow"
             ],
@@ -294,6 +312,7 @@
                         }
                     ],
                     "m_vecBasicProperties": [
+                        "SlowDuration",
                         "DebuffDuration",
                         "StaminaReduction"
                     ]

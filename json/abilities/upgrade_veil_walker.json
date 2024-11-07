@@ -136,13 +136,13 @@
                 "m_strCSSClass": "duration"
             },
             "BulletShieldMaxHealth": {
-                "m_strValue": "200",
+                "m_strValue": "250",
                 "m_strCSSClass": "bullet_armor_up",
                 "m_eDisplayType": "EBulletShieldHealth",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_BULLET_SHIELD_HEALTH_MAX"
             },
             "TechShieldMaxHealth": {
-                "m_strValue": "200",
+                "m_strValue": "250",
                 "m_strCSSClass": "tech_armor_up",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_TECH_SHIELD_HEALTH_MAX",
                 "m_eDisplayType": "ETechShieldHealth"

@@ -38,6 +38,7 @@
 		"scripts/talker/response_rules_neutrals.vrr",
 		"scripts/talker/newscaster.vrr",
 		"scripts/talker/response_rules_mirage.vrr",
+		"scripts/talker/response_rules_viper.vrr",
 		"scripts/talker/idol.vrr",
 	]
 }

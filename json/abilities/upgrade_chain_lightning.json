@@ -4,7 +4,7 @@
         "m_strCancelAbilityKey": "+in_cancel_ability",
         "m_mapAbilityProperties": {
             "AbilityCooldown": {
-                "m_strValue": "0.400000",
+                "m_strValue": "0.35",
                 "m_strDisableValue": "0",
                 "m_strCSSClass": "cooldown",
                 "m_bCanSetTokenOverride": "true",
@@ -142,11 +142,6 @@
             "ProcChance": {
                 "m_strValue": "25"
             },
-            "ProcCooldown": {
-                "m_strValue": "0.35",
-                "m_strCSSClass": "cooldown",
-                "m_bIsHidden": "true"
-            },
             "ChainCount": {
                 "m_strValue": "2"
             },
@@ -240,6 +235,7 @@
                             }
                         ],
                         "m_vecAbilityProperties": [
+                            "AbilityCooldown",
                             "BonusPerChain",
                             "ProcChance",
                             "ChainRadius",

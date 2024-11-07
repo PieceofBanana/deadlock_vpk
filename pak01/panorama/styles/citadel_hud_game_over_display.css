@@ -66,13 +66,14 @@ CitadelGameOverDisplay.ShowingMessage
 	height: 30px;
 	width: 30px;
 	border-radius: 15px;
-	horizontal-align: center;
+	text-align: center;
 }
 
 .OutcomeLabel
 {
 	font-size: 150px;
 	text-shadow: 2px 2px 20px #00000090;
+	text-align: center;
 }
 
 .LocalPlayerTeam1 .TeamColor

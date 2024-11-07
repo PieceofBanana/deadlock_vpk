@@ -126,7 +126,7 @@
                 "m_strValue": "1"
             },
             "PlaceDistance": {
-                "m_strValue": "100"
+                "m_strValue": "200"
             },
             "AirControlPercent": {
                 "m_strValue": "100",
@@ -143,7 +143,7 @@
                 "m_strCSSClass": "duration"
             },
             "Radius": {
-                "m_strValue": "8m",
+                "m_strValue": "12m",
                 "m_strCSSClass": "distance",
                 "m_subclassScaleFunction": {
                     "_class": "scale_function_single_stat",
@@ -155,7 +155,7 @@
                 "m_strValue": "60"
             },
             "TossSpeed": {
-                "m_strValue": "350",
+                "m_strValue": "500",
                 "m_eDisplayUnits": "EDisplayUnit_MetersPerSecond"
             },
             "StompDamage": {
@@ -258,7 +258,8 @@
         "m_previewParticle": "particles/abilities/sticky_grenade_projectile.vpcf",
         "m_deploymentInfo": {
             "m_previewModel": "models/particle/cowboy_launchpad.vmdl",
-            "m_bRequiresUpNormal": "1"
+            "m_bRequiresUpNormal": "1",
+            "m_bGroundCheck": "false"
         },
         "m_vecAbilityUpgrades": [
             {
@@ -318,7 +319,7 @@
             "_class": "modifier_bounce_pad_ally",
             "_my_subclass_name": "modifier_bounce_pad_ally",
             "m_strParticleStatusEffect": "",
-            "m_strParticleEffect": "particles/abilities/astro/astro_bounce_pad_hero.vpcf"
+            "m_strParticleEffect": ""
         },
         "m_SpeedOnLandModifier": {
             "_class": "modifier_base",

@@ -36,6 +36,11 @@ CitadelPartyInviteList.ConnectedToGC
 	background-color: offBlack;
 }
 
+.InviteHeaderMessage
+{
+	horizontal-align: left;
+}
+
 .InviteHeaderText
 {
 	text-transform: uppercase;

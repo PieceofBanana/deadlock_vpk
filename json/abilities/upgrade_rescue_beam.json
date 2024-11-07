@@ -140,7 +140,7 @@
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             },
             "BonusSprintSpeed": {
-                "m_strValue": "2m",
+                "m_strValue": "1m",
                 "m_strCSSClass": "move_speed",
                 "m_eDisplayType": "ESprintSpeed",
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_SPRINT_SPEED_BONUS",
@@ -225,7 +225,7 @@
                     "m_strLocToken": "#upgrade_rescue_beam_pull",
                     "m_eHintSide": "EButtonSide_Right",
                     "m_strContext": "rescue_pull",
-                    "m_eButton1": "EButtonHint_Attack"
+                    "m_nButton1": "IN_ATTACK"
                 }
             ]
         },
@@ -248,7 +248,11 @@
             "_my_subclass_name": "rescume_beam_pull",
             "m_bIsHidden": "true",
             "m_PullSound": "Mods.Armor.RescueBeam.Pull.Start",
-            "m_sAmbientLoopingSound": ""
+            "m_sAmbientLoopingSound": "",
+            "m_flPullSpeedMin": "500.000000",
+            "m_flPullSpeedMax": "2000.000000",
+            "m_flPullDistanceMin": "100.000000",
+            "m_flPullDistanceMax": "1000.000000"
         },
         "m_vecTooltipSectionInfo": [
             {

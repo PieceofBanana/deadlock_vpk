@@ -8,8 +8,7 @@
 	<CitadelPartyInviteList>
 		<Panel id="InviteGroup">
 			<Panel id="InviteHeaderGroup">
-				<Label class="InviteCount" text="{d:party_invites}" />
-				<Label class="InviteHeaderText" text="#Citadel_Party_Invites" />
+				<Label class="InviteHeaderMessage" text="#Citadel_Party_Invites" html="true" />
 			</Panel>
 			<Panel id="InviteList" />
 		</Panel>

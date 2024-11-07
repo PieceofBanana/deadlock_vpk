@@ -124,11 +124,9 @@
                 "m_eProvidedPropertyType": "MODIFIER_VALUE_HEALTH_MAX",
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             },
-            "BulletResist": {
-                "m_strValue": "5",
-                "m_eDisplayType": "EBulletArmorDamageReduction",
-                "m_strCSSClass": "bullet_armor_up",
-                "m_eProvidedPropertyType": "MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST",
+            "MeleeResistPercent": {
+                "m_strValue": "15",
+                "m_eProvidedPropertyType": "MODIFIER_VALUE_MELEE_DAMAGE_REDUCTION_PERCENT",
                 "m_UsageFlags": "APUsageFlag_ModifierIntrinsic"
             }
         },
@@ -196,7 +194,7 @@
                     {
                         "m_vecAbilityProperties": [
                             "BonusHealth",
-                            "BulletResist"
+                            "MeleeResistPercent"
                         ]
                     }
                 ]
@@ -237,7 +235,7 @@
                 },
                 "m_vecAutoRegisterModifierValueFromAbilityPropertyName": [
                     "BonusHealth",
-                    "BulletResist"
+                    "MeleeResistPercent"
                 ]
             }
         ],
